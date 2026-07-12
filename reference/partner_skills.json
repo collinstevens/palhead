@@ -1,0 +1,4006 @@
+{
+  "primarySource": "https://game8.co/games/Palworld/archives/439665",
+  "sources": [
+    "https://game8.co/games/Palworld/archives/439665",
+    "https://palworld.wiki.gg/wiki/Partner_Skills"
+  ],
+  "scrapedAt": "2026-07-12T08:42:11.637Z",
+  "notes": {
+    "condensation": "Pal Condensation raises Partner Skill level and effectiveness",
+    "gear": "Some skills need Pal Gear (saddles/gloves) unlocked via Technology + Pal Gear Workbench",
+    "structure": "One entry per skill+pal pair. game8 is primary for descriptions; wiki.gg supplies deck no/type and descriptionWiki when it differs"
+  },
+  "count": 346,
+  "game8Count": 302,
+  "wikiCount": 226,
+  "skills": [
+    {
+      "name": "(TBA)",
+      "pal": "Hartalis",
+      "no": "156",
+      "type": "(TBA)",
+      "description": "(TBA)",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "(TBA)",
+      "pal": "Xenolord",
+      "no": "127",
+      "type": "(TBA)",
+      "description": "(TBA)",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Abyssal Celebrity Chef",
+      "pal": "Ghangler Ignis",
+      "no": null,
+      "type": null,
+      "description": "Functions as a water mount that gains movement speed based on the number of Fire or Water Pals in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Aegis Shield",
+      "pal": "Silvegis",
+      "no": "130",
+      "type": "Mount / Combat",
+      "description": "Functions as mount. Increases the duration of the shield when using Aegis Charge while mounted",
+      "descriptionWiki": "Can be ridden. Increases the duration of the shield when using Aegis Charge while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Aerial Marauder",
+      "pal": "Vanwyrm",
+      "no": "071",
+      "type": "Mount (Flying)",
+      "description": "Increases the player's damage dealt to enemy weak points while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Aerial Marauder",
+      "pal": "Vanwyrm Cryst",
+      "no": "071B",
+      "type": "Mount (Flying)",
+      "description": "Increases the player's damage dealt to enemy weak points while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Aerial Missile",
+      "pal": "Jetragon",
+      "no": "111",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Amicable Holy Dragon",
+      "pal": "Elphidran",
+      "no": "080",
+      "type": "Mount (Flying)",
+      "description": "While Elphidran is your active Pal, it increases the amount of items Dark Pals drop when defeated. Allows the player to ride it as a flying mount while increasing flight speed.",
+      "descriptionWiki": "Can be ridden as a flying mount. While flying, movement speed is increased. While fighting together, Dark Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Amicable Water Dragon",
+      "pal": "Elphidran Aqua",
+      "no": "080B",
+      "type": "Mount (Flying)",
+      "description": "While Elphidran Aqua is your active Pal, it increases the amount of items Fire Pals drop when defeated. Allows the player to ride it as a flying mount while increasing flight speed.",
+      "descriptionWiki": "Can be ridden as a flying mount. While flying, movement speed is increased. While fighting together, Fire Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Angry Shark",
+      "pal": "Gobfin",
+      "no": "031",
+      "type": "Combat / Utility",
+      "description": "Unleashes a powerful attack when activated. Passively powers up the player's attack while this Pal is in the party.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Aqua Gun. While in team, increases player's Attack.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Angry Shark",
+      "pal": "Gobfin Ignis",
+      "no": "031B",
+      "type": "Combat / Utility",
+      "description": "Unleashes a powerful attack when activated. Passively powers up the player's attack while this Pal is in the party.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Spirit Fire. While in team, increases player's Attack.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Antigravity",
+      "pal": "Lunaris",
+      "no": "063",
+      "type": "Utility",
+      "description": "Increases the player's max carrying capacity by a moderate amount while Lunaris is on the team.",
+      "descriptionWiki": "While in team, Lunaris manipulates gravity, increasing the player's max carrying capacity.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Aqua Spout",
+      "pal": "Kelpsea",
+      "no": "081",
+      "type": "Utility / Farming",
+      "description": "While Kelpsea is in your party, the attack of your active Water Pal is increased. When assigned to the Ranch, Kelpsea produces Aquatic Pal Fluids.",
+      "descriptionWiki": "While in team, increases the Attack of Water Pals. Sometimes drops Pal Fluids when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Aurora Guide",
+      "pal": "Foxcicle",
+      "no": "057",
+      "type": "Combat",
+      "description": "While Foxcicle is in your party, the attack of your Ice Pals is powered up. Occasionally drops Ice Organ when to a Ranch.",
+      "descriptionWiki": "While in team, increases Attack of Ice Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Azure Sovereign",
+      "pal": "Shaolong",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. This Pal's Attack increases for every Dragon Pal in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Balmy Weather",
+      "pal": "Braloha",
+      "no": "145",
+      "type": "Mount / Utility",
+      "description": "Functions as mount. While at a base, shortens the time it takes Pals assigned to Breeding Farm to produce eggs.",
+      "descriptionWiki": "Can be ridden. While at a base, shortens the time it takes Pals assigned to Breeding Farm to produce eggs. (Effect does not stack.)",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Bat Backup",
+      "pal": "Cave Bat",
+      "no": null,
+      "type": "Utility",
+      "description": "While in the party, appears near the player. Automatically picks up nearby items.",
+      "descriptionWiki": "While in team, appears near the player and picks up nearby items.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Bat Backup",
+      "pal": "Illuminant Bat",
+      "no": null,
+      "type": "Utility",
+      "description": "While in the party, appears near the player. Automatically picks up nearby items.",
+      "descriptionWiki": "While in team, appears near the player and picks up nearby items.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Berry Picker",
+      "pal": "Caprity",
+      "no": "035",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Caprity produces Berries. Restores Hunger over time.",
+      "descriptionWiki": "Sometimes drops Red Berries from its back when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Best Boy",
+      "pal": "Pupperai",
+      "no": null,
+      "type": null,
+      "description": "While in the Party, increases the player's melee weapon damage.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Big Stretch",
+      "pal": "Valentail",
+      "no": null,
+      "type": null,
+      "description": "While in the party, reduces the effects of gravity on the player.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Birds of a Feather",
+      "pal": "Yakumo",
+      "no": "121",
+      "type": "Mount / Utility",
+      "description": "Functions as mount. When fighting together, increases chance of encountering pals with the same Passive Skill as this Pal.",
+      "descriptionWiki": "Can be ridden. While fighting together, it becomes easier to encounter pals with the same Passive Skill as this Pal. (Excludes certain Passive Skills)",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Bitter Pop",
+      "pal": "Woolipop Terra",
+      "no": null,
+      "type": null,
+      "description": "While at a base, reduces Hunger depletion. Occasionally drops Caramel Cotton Candy when assigned to Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Black Ankylosaur",
+      "pal": "Astegon",
+      "no": "098",
+      "type": "Utility / Mount (Flying)",
+      "description": "Functions as a flying mount. Increases the damage dealt to ores, and can obtain more Ore while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Increases damage dealt to ores, and you can obtain more Ore while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Black Fox Lord",
+      "pal": "Wixen Noct",
+      "no": "076B",
+      "type": "Combat",
+      "description": "When fighting together, applies Dark damage to the player's attacks and increases them.",
+      "descriptionWiki": "When fighting together, Changes the player's attack type to Dark.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Black Hare",
+      "pal": "Pyrin Noct",
+      "no": "058B",
+      "type": "Mount",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Dark while mounting Pyrin Noct.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Dark while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Black Steed",
+      "pal": "Frostallion Noct",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. While mounted, changes player's attack type to Dark, inflict Blind, increases Attack.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Blade of Uncontrolled Passion",
+      "pal": "Splatterina",
+      "no": "134",
+      "type": "Utility",
+      "description": "While in team, the amount of items obtained from using the Meat Cleaver increases.",
+      "descriptionWiki": "While in possession, the amount of items obtained from using the Meat Cleaver increases.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Blazing Black Magic",
+      "pal": "Katress Ignis",
+      "no": null,
+      "type": null,
+      "description": "While fighting together, Grass Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Blessing of Chaos",
+      "pal": "Celesdir Noct",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. While in party, the Pal alongside you gradually loses Health in exchange of Attack increase.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Blessing of Purification",
+      "pal": "Celesdir",
+      "no": "132",
+      "type": "Mount / Utility",
+      "description": "Functions as mount. Increases the player's auto recovery speed while mounted.When in team, increases Movement Speed and Attack for every Neutral Pal.",
+      "descriptionWiki": "Can be ridden. Increases the player's auto recovery speed while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Blessing of the Flower Spirit",
+      "pal": "Petallia",
+      "no": "087",
+      "type": "Combat",
+      "description": "Petallia heals the player for a set amount per level when activated. Raises the Planting work suitability level while at base.",
+      "descriptionWiki": "When activated, uses medicinal flowers to restore the player's Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Blizzard Crash",
+      "pal": "Bastigor",
+      "no": "137",
+      "type": "Mount / Combat",
+      "description": "Functions as mount. While mounted, delivers crushing blows with a Ice-forged hammer.",
+      "descriptionWiki": "Can be ridden. While mounted, delivers crushing blows with an Ice-forged hammer.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Botanical Atlas",
+      "pal": "Katress Ignis",
+      "no": "075B",
+      "type": "Utility",
+      "description": "When fighting together, Grass Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Brandish Blade",
+      "pal": "Bushi",
+      "no": "072",
+      "type": "Combat",
+      "description": "Bushi dashes towards a target Pal and performs a powerful slash.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Iaigiri.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Brave Sailor",
+      "pal": "Penking",
+      "no": "011",
+      "type": "Utility",
+      "description": "While Penking is your active Pal, it increases the amount of items Fire Pals drop when defeated.",
+      "descriptionWiki": "While fighting together, Fire Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Burning Future",
+      "pal": "Flaracle",
+      "no": null,
+      "type": null,
+      "description": "Attacking enemies afflicted with Burn triggers an explosion that damages nearby enemies.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Caffeine Inoculation",
+      "pal": "Depresso",
+      "no": "017",
+      "type": "Utility",
+      "description": "Depresso gains a sudden burst of energy which increases its movement speed. The movement speed bonus increases for each level Caffeine Inoculation. May drop Venom Glands when assigned to a Ranch.",
+      "descriptionWiki": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase for a limited time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Candy Pop",
+      "pal": "Woolipop",
+      "no": "034",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Woolipop produces Cotton Candy. Woolipop also decreases the hunger depletion while at a base.",
+      "descriptionWiki": "Sometimes drops Cotton Candy when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Cast-Iron Shell",
+      "pal": "Warsect",
+      "no": null,
+      "type": null,
+      "description": "While Warsect is your active Pal, your defense is increased.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Cast-Iron Shell",
+      "pal": "Warsect Terra",
+      "no": null,
+      "type": null,
+      "description": "While Warsect is your active Pal, your defense is increased.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Cat Helper",
+      "pal": "Cattiva",
+      "no": "002",
+      "type": "Utility",
+      "description": "Increases the player's max carrying capacity by a small amount while Cattiva is on the team.",
+      "descriptionWiki": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Celestial Darkness",
+      "pal": "Selyne",
+      "no": "113",
+      "type": "Mount (Flying)",
+      "description": "Functions as a flying mount. Enhances Fire and Dark attacks while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Enhances Neutral and Dark attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Cephalo-Princess",
+      "pal": "Gloopie Primo",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases Defense of Water Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Charging Shell",
+      "pal": "Snock",
+      "no": null,
+      "type": null,
+      "description": "While in the party, the player's attacks inflict Electrify.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Charming Fish",
+      "pal": "Solmora",
+      "no": null,
+      "type": null,
+      "description": "Functions as a water mount. While in party, makes it easier to fish up talented Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Charming Spore",
+      "pal": "Mycora",
+      "no": null,
+      "type": null,
+      "description": "Increases the Medicine Production Suitability Level of other Base Pals at the base.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Cheery Rifle",
+      "pal": "Tanzee",
+      "no": "008",
+      "type": "Combat",
+      "description": "Tanzee arms itself with an assault rifle and shoots enemies in range, dealing neutral element damage for the skill's duration.",
+      "descriptionWiki": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies for a limited time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Chilled Whale Cruiser",
+      "pal": "Whalaska",
+      "no": "154",
+      "type": "Mount / Utility",
+      "description": "Functions as a mount that grants passive bonuses to fishing minigames while in the party.",
+      "descriptionWiki": "Can be ridden. While fighting together, the fishing minigame starts with the capture gauge higher than usual. Additionally, the capture gauge fills faster when the bar is aligned.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Chillswitch",
+      "pal": "Slowatt",
+      "no": null,
+      "type": null,
+      "description": "While in the party, attacking Electrified enemies triggers an electrical burst that spreads damage to nearby enemies.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Chipper Chimp Gunfire",
+      "pal": "Tanzee Ignis",
+      "no": null,
+      "type": null,
+      "description": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Clear Mind",
+      "pal": "Kitsun",
+      "no": "061",
+      "type": "Mount",
+      "description": "Can be ridden. Unaffected by the cold or heat while riding this Pal.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Cold Bomb",
+      "pal": "Jolthog Cryst",
+      "no": "012B",
+      "type": "Combat",
+      "description": "Equips Jolthog Cryst in the player's hand. When thrown, it creates a large cold explosion on impact, dealing damage and freezing enemies hit, making them easier to catch. The damage increases for each level of Cold Bomb.",
+      "descriptionWiki": "When activated, equips Jolthog Cryst to the player's hand. When thrown at an enemy, causes an icy explosion upon impact.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Coldhearted King",
+      "pal": "Kingpaca Cryst",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Coldsnap",
+      "pal": "Beakon Cryst",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. While mounted, changes the player's attacks to the Ice element and gains increased Attack and Movement Speed based on the number of other Ice Pals in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Cool Body",
+      "pal": "Reindrix",
+      "no": "059",
+      "type": "Mount",
+      "description": "Increases base mount speed and enables mounting for Reindrix. Keeps the rider cool in hot environments.",
+      "descriptionWiki": "Can be ridden. Keeps the rider cool in hot environments.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Corruption Laser",
+      "pal": "Dualith Noct",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. Dualith fires Noct a powerful Dark laser from its right hand.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Cozy Whale Cruiser",
+      "pal": "Whalaska Ignis",
+      "no": "154B",
+      "type": "Mount / Utility",
+      "description": "Functions as a mount that improves fishing minigames while fighting alongside the player.",
+      "descriptionWiki": "Can be ridden. While fighting together, the fishing minigame starts with the capture gauge higher than usual. Additionally, the capture gauge fills faster when the bar is aligned.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Crackle Booster",
+      "pal": "Puffolt",
+      "no": null,
+      "type": null,
+      "description": "While at a base, increases the Generating Electricity Work Suitability Level for all other Base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Crater Enthusiast",
+      "pal": "Xenogard",
+      "no": "126",
+      "type": "Mount / Utility",
+      "description": "Functions as mount. While in the team, you can obtain more Meteorite Fragments and Pure Quartz.",
+      "descriptionWiki": "Can be ridden. While in the team, it's easier to obtain Meteorite Fragment and Pure Quartz.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Cryo Instincts",
+      "pal": "Smokie Cryst",
+      "no": null,
+      "type": null,
+      "description": "Increases the Cooling Work Suitability Level for all other Base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Dark Gleam Strike",
+      "pal": "Loupmoon",
+      "no": "046",
+      "type": "Combat",
+      "description": "Loupmoon leaps and attacks the target enemy. Boosts the Attack Speed of player's melee weapon.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Jumping Claw.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dark Knight of the Abyss",
+      "pal": "Necromus",
+      "no": "109",
+      "type": "Mount",
+      "description": "Can be ridden. Can double jump while mounted. When Twin Spears skill is activated, a Paladius in your party will appear and attack alongside you.",
+      "descriptionWiki": "Can be ridden. Can double jump while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dark Knowledge",
+      "pal": "Hoocrates",
+      "no": "015",
+      "type": "Utility",
+      "description": "While Hoocrates is in your party, your active Dark Pal's attack is increased.",
+      "descriptionWiki": "While in team, increases Attack of Dark Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dark-Nester",
+      "pal": "Roujay",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. While in the party, increases player's and Pal's damage to enemies afflicted with Blind.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Darkclaw Hunter",
+      "pal": "Incineram Noct",
+      "no": "040B",
+      "type": "Combat",
+      "description": "Incineram Noct attacks the target enemy with the Nightmare Claw skill, damaging and burning the enemy.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Hellfire Claw.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Darkflame Lion",
+      "pal": "Blazehowl Noct",
+      "no": "084B",
+      "type": "Mount / Utility",
+      "description": "While Blazehowl Noct is your active Pal, increases the amount of items Neutral Pals drop when defeated.",
+      "descriptionWiki": "Can be ridden. While fighting together, Neutral Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Death-Cheating Feline",
+      "pal": "Wispaw",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the capture rate when awarded a back bonus.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Demonic Sight",
+      "pal": "Demon Eye",
+      "no": null,
+      "type": "Combat",
+      "description": "While in the party, increases attack power of Dark Pals.",
+      "descriptionWiki": "While in team, increases Attack of Dark Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Desert Empress",
+      "pal": "Sekhmet",
+      "no": null,
+      "type": null,
+      "description": "While at base, boosts Anubis' work speed and efficiency if Sekhmet is also working at a Workbench, Workshop, or other related facilities.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Dig Here!",
+      "pal": "Vixy",
+      "no": "014",
+      "type": "Farming",
+      "description": "When grazing in the Ranch, Vixy occasionally finds Pals Spheres, Arrows, and Gold. Vixy can also find Mega Pal Spheres.",
+      "descriptionWiki": "Sometimes digs up items from the ground when assigned to Ranch",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dig, Dog, Dig!",
+      "pal": "Smokie",
+      "no": "131",
+      "type": "Utility",
+      "description": "When activated, uses its sharp sense of smell to detect nearby Chromite. While fighting together, a large amount of Chromite is obtained.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dig, Smokie! Dig!",
+      "pal": "Smokie",
+      "no": null,
+      "type": null,
+      "description": "When activated, uses its sharp sense of smell to detect nearby Chromite. While fighting together, a large amount of Chromite is obtained.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Direhowl Rider",
+      "pal": "Direhowl",
+      "no": "026",
+      "type": "Mount",
+      "description": "Increases mount speed and enables mounting for Direhowl.",
+      "descriptionWiki": "Can be ridden. Moves slightly faster than most mounts",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dragon Hunter",
+      "pal": "Cryolinx",
+      "no": "083",
+      "type": "Utility",
+      "description": "While Cryolinx is your active Pal, increases the amount of items Dragon Pals drop when defeated.",
+      "descriptionWiki": "While fighting together, Dragon Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dragon Kaiser",
+      "pal": "Blazamut Ryu",
+      "no": "096B",
+      "type": "Mount",
+      "description": "Functions as mount. Enhances Dragon attacks while mounted.",
+      "descriptionWiki": "Can be ridden. Enhances Dragon attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Dream Chaser",
+      "pal": "Daedream",
+      "no": "019",
+      "type": "Combat",
+      "description": "Daedream accompanies you and follows up your attacks with dark magic that increase in damage for each level of Dream Chaser while it is in your party and not set as your active Pal.",
+      "descriptionWiki": "While in team, appears near the player. Follows up player attacks with magic bullets.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Drill Crusher",
+      "pal": "Digtoise",
+      "no": "067",
+      "type": "Utility",
+      "description": "When activated, Digtoise spins and mines ores with inreased efficiency. Shell Spin's power is also powered up.",
+      "descriptionWiki": "When activated, performs Shell Spin, follows the player while spinning and mines ores efficiently.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Echo Chamber",
+      "pal": "Finsider",
+      "no": "152",
+      "type": "Utility",
+      "description": "While in team, Finsider helps carry supplies, decreasing the weight of weapons in the player's inventory.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Eerie Nightstreaker",
+      "pal": "Cawgnito",
+      "no": null,
+      "type": null,
+      "description": "Uses Night Vision in the dark and occasionally digs up Bones while in the Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Egg Layer",
+      "pal": "Chikipi",
+      "no": "003",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Chikipi produces Eggs.",
+      "descriptionWiki": "Sometimes lays an Egg when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Eggbomb Launcher",
+      "pal": "Tocotoco",
+      "no": "027",
+      "type": "Combat",
+      "description": "Requires Tocotoco's Gloves. While Tocotoco is the active Pal, activate its Partner Skill and it will hop onto the player's arms and will act as a grenade launcher that shoots explosive eggs.",
+      "descriptionWiki": "When activated, equips to the player and transforms into an egg launcher.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Electro Hunter",
+      "pal": "Cryolinx Terra",
+      "no": "083B",
+      "type": "Utility",
+      "description": "While fighting together, Electric Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Electro-Massage Incubation",
+      "pal": "Dynamoff",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. While at a base, shortens the time it takes to incubate Eggs.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ember Chamber",
+      "pal": "Finsider Ignis",
+      "no": "152B",
+      "type": "Utility / Combat",
+      "description": "While in team, Finsider Ignis helps carry supplies, decreasing the weight of weapons in the player's inventory. Also increases attack power of Fire Pals.",
+      "descriptionWiki": "While in team, Finsider Ignis helps carry supplies, decreasing the weight of weapons in the player's inventory. Also increases Attack of Fire Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Enchant",
+      "pal": "Enchanted Sword",
+      "no": null,
+      "type": "Utility",
+      "description": "While in the party, Dark Pals drop more items when defeated.",
+      "descriptionWiki": "While fighting together, Dark Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Entangling Tongue",
+      "pal": "Carnibora",
+      "no": null,
+      "type": null,
+      "description": "While in the party, Carnibora creates a whirlwind that deals damage to enemies it touches.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Explosive Strength",
+      "pal": "Cryolinx Terra",
+      "no": null,
+      "type": null,
+      "description": "While fighting together, Electric Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Father Winter's Threat",
+      "pal": "Elgrove Cryst",
+      "no": null,
+      "type": null,
+      "description": "While in the party, player can Freeze enemies afflicted with Soak in one strike.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ferocious Thunder Dragon",
+      "pal": "Orserk",
+      "no": "106",
+      "type": "Utility",
+      "description": "While in the party, landing bullet hits temporarily boosts the Attack and Defense of your active Pal. The effect can stack multiple times.",
+      "descriptionWiki": "While fighting together, Water Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fire Tackle",
+      "pal": "Fuack Ignis",
+      "no": "006B",
+      "type": "Combat",
+      "description": "When activated, Fuack Ignis fire surfs towards an enemy and slams into them.",
+      "descriptionWiki": "When Activated, Fuack Ignis fire surfs towards and enemy and slams into them.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fish Fillet",
+      "pal": "Skutlass",
+      "no": null,
+      "type": null,
+      "description": "When activated, Skutlass becomes the player's katana. It becomes incapacitated after using Iaigiri or if it stays transformed for an extended period.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Flame Lantern",
+      "pal": "Ghangler Ignis",
+      "no": "153B",
+      "type": "Mount / Utility",
+      "description": "Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Flame Wing",
+      "pal": "Ragnahawk",
+      "no": "074",
+      "type": "Mount (Flying)",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Fire while mounting Ragnahawk.",
+      "descriptionWiki": "Can be ridden as a flying mount. Changes the player's attack type to Fire while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Flameclaw Hunter",
+      "pal": "Incineram",
+      "no": "040",
+      "type": "Combat",
+      "description": "Incineram attacks the target enemy with the Hellfire Claw skill, damaging and burning the enemy.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Hellfire Claw.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Flash Blade",
+      "pal": "Bushi Noct",
+      "no": "072",
+      "type": "Combat",
+      "description": "When activated, attacks targeted enemy with a powerful Iaigiri.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Floral Boost",
+      "pal": "Lullu",
+      "no": "115",
+      "type": "Utility",
+      "description": "While at a base, Lullu fills farms with good spirits, increasing the growth rate of crops.",
+      "descriptionWiki": "While at a base, Lullu fills the farm with good spirits, increasing the growth rate of the crops.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Flower Dance",
+      "pal": "Tropicaw",
+      "no": null,
+      "type": null,
+      "description": "While in the party, extends the invincibility period during dodge rolls and dodge steps.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Fluffy",
+      "pal": "Swee",
+      "no": "053",
+      "type": "Utility",
+      "description": "While in the party, increases Sweepa's attack and defense.",
+      "descriptionWiki": "While in team, Sweepa's stats will be increased.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fluffy Flutterer",
+      "pal": "Muffly",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the capture rate of Freezed Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Fluffy Shield",
+      "pal": "Lamball",
+      "no": "001",
+      "type": "Combat / Farming",
+      "description": "Allows Lamball to be used as a shield. When assigned to the Ranch, Lamball produces Wool.",
+      "descriptionWiki": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fluffy Wool",
+      "pal": "Cremis",
+      "no": "018",
+      "type": "Combat / Farming",
+      "description": "Powers up the attack of Neutral Pals in the party while Cremis is in the party. When assigned to the Ranch, Cremis produces Wool.",
+      "descriptionWiki": "While in team, increases Attack of Neutral Pals. Sometimes drops Wool when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Flying Trapeze",
+      "pal": "Hangyu",
+      "no": "032",
+      "type": "Mount (Glider)",
+      "description": "While in the team, boosts the performance of the equipped glider. Lifts the player slowly while gliding.",
+      "descriptionWiki": "While in team, modified the performance of the equipped glider. Enables slow ascent while gliding.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fogged Mind",
+      "pal": "Kitsun Noct",
+      "no": "061B",
+      "type": "Mount",
+      "description": "Can be ridden. Changes the Player's attack type to Dark while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Forest Laser",
+      "pal": "Dualith",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. Dualith fires a powerful Grass laser from its right hand.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Fortified Shell",
+      "pal": "Warsect Terra",
+      "no": "092B",
+      "type": "Combat",
+      "description": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fragrant Dragon",
+      "pal": "Dinossom",
+      "no": "064",
+      "type": "Combat / Mount",
+      "description": "Increases the Grass damage dealt by the player and Dinossom while mounted. Enables Dinossom to be mounted.",
+      "descriptionWiki": "Can be ridden. Enhances Grass attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fried Killamari",
+      "pal": "Killamari Primo",
+      "no": "023B",
+      "type": "Mount (Glider)",
+      "description": "While in the party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+      "descriptionWiki": "While in team, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Fried Squid",
+      "pal": "Killamari",
+      "no": "023",
+      "type": "Mount (Glider)",
+      "description": "While in team, boosts the performance of the equipped glider. Allows for a slow and extended glide.",
+      "descriptionWiki": "While in team, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Friend of Earth",
+      "pal": "Lapiron",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the Player's Defense while sprinting.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Frigid Deity",
+      "pal": "Univolt Cryst",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden. While mounted, changes the player’s attack type to Ice and increases Attack by 5%.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Frozen Gleam Strike",
+      "pal": "Loupmoon Cryst",
+      "no": "046B",
+      "type": "Combat",
+      "description": "When activated, attacks targeted enemy with Snow Claw. While in party, increases the player's melee weapon attack speed.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful Snow Claw.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Full-power Gorilla Mode",
+      "pal": "Gorirat",
+      "no": "049",
+      "type": "Utility",
+      "description": "When activated, it significantly increases Gorirat and Gorirat Terra's attacks temporarily.",
+      "descriptionWiki": "When activated, unleashes a primal fury that increases Gorirat's Attack for a limited time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Full-power Gorilla Mode",
+      "pal": "Gorirat Terra",
+      "no": "049B",
+      "type": "Utility",
+      "description": "When activated, unleashes a primal fury that increases Gorirat Terra's Attack for a limited time.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Full-Power Gorilla Pound",
+      "pal": "Gorirat Terra",
+      "no": null,
+      "type": null,
+      "description": "While in party, increases the player's climbing speed by 50%. (Does not stack)",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Fullmetal Shell",
+      "pal": "Warsect Terra",
+      "no": null,
+      "type": null,
+      "description": "While Warsect is your active Pal, your defense is increased.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Fuzzy Fairy",
+      "pal": "Souffline",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the capture rate of Pals afflicted with Ivy-Covered.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Gaia Crusher",
+      "pal": "Mammorest",
+      "no": "090",
+      "type": "Mount",
+      "description": "Improves the player's mining and logging efficiency while riding Mammorest.",
+      "descriptionWiki": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Galeclaw Rider",
+      "pal": "Galeclaw",
+      "no": "047",
+      "type": "Mount (Glider)",
+      "description": "While in team, boosts the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+      "descriptionWiki": "While in team, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Gilded Shroud",
+      "pal": "Sibelyx Primo",
+      "no": null,
+      "type": null,
+      "description": "Increases Defense of Neutral Pals and occasionally makes High Quality Cloth when assigned to Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Glaring Cat's Eye",
+      "pal": "Grintale",
+      "no": null,
+      "type": null,
+      "description": "Increases the chance of receiving extra Pal Egg. Enables Grintale to be mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Gloomhowl",
+      "pal": "Kitsun Noct",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount. Applies Dark damage to the player's attacks and has blind immunity while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Glorious Mist",
+      "pal": "Ophydia",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. While in party, the player's attacks inflict Soak.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Goddess of the Tranquil Light",
+      "pal": "Lyleen Noct",
+      "no": "104B",
+      "type": "Utility",
+      "description": "When activated, the queen's soothing graces restore the health of the player and Party Pals.",
+      "descriptionWiki": "When activated, the queen's soothing graces greatly restore the player's Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Gold Digger",
+      "pal": "Mau",
+      "no": "024",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Mau produces Gold Coins.",
+      "descriptionWiki": "Sometimes digs up Gold Coin when assigned to a Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Gold Digger",
+      "pal": "Mau Cryst",
+      "no": "024B",
+      "type": "Farming",
+      "description": "Sometimes digs up Gold Coin when assigned to a Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Golden Harvest",
+      "pal": "Dumud Gild",
+      "no": "043B",
+      "type": "Combat / Farming",
+      "description": "While in team, increases attack power of Ground Pals. Sometimes drops High Quality Pal Oil when assigned to Ranch, with a small chance to drop Gold Coin.",
+      "descriptionWiki": "While in team, increases Attack of Ground Pals. Sometimes drops High Quality Pal Oil when assigned to Ranch, with a small chance to drop Gold Coin.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Golden Scorpion",
+      "pal": "Menasting Terra",
+      "no": null,
+      "type": null,
+      "description": "While in party, player's Defense increases by 5%, and Electric Pals drop 40% more items when defeated. (Does not stack)",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Grass Dragon Affection",
+      "pal": "Quivern Botan",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Grass and increases attack.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Grass Dragon's Affection",
+      "pal": "Quivern Botan",
+      "no": "095",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grass Weaver",
+      "pal": "Ribbuny Botan",
+      "no": "039B",
+      "type": "Combat / Utility",
+      "description": "While in team, increases Attack of Grass Pals. While at a base, increases work efficiency when working at Weapon Workbench, Weapon Assembly Line, and other related facilities.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grassland Gymnast",
+      "pal": "Verdash",
+      "no": null,
+      "type": null,
+      "description": "While in the party, grants additional jump and additional mid-air dash.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Grassland Speedster",
+      "pal": "Verdash",
+      "no": "077",
+      "type": "Utility / Combat",
+      "description": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grave Robber",
+      "pal": "Sootseer",
+      "no": "118",
+      "type": "Farming",
+      "description": "While in the party, player and party Pals take less Neutral damage. Sometimes digs up Bone when assigned to Ranch.",
+      "descriptionWiki": "Sometimes digs up Bone when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grenadier Panda",
+      "pal": "Mossanda",
+      "no": "033",
+      "type": "Mount",
+      "description": "Allows Mossanda to be mounted and wield a grenade launcher. Mossanda can fire the grenade launcher multiple times to deal Neutral element damage and stun enemies in a large area.",
+      "descriptionWiki": "Can be ridden. Can rapidly fire a grenade launcher while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grenadier Panda",
+      "pal": "Mossanda Lux",
+      "no": "033B",
+      "type": "Mount",
+      "description": "Allows Mossanda to be mounted and wield a grenade launcher. Mossanda can fire the grenade launcher multiple times to deal Neutral element damage and stun enemies in a large area.",
+      "descriptionWiki": "Can be ridden. Can rapidly fire a grenade launcher while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grimoire Collector",
+      "pal": "Katress",
+      "no": "075",
+      "type": "Utility",
+      "description": "When fighting together, Neutral Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Grinning Death",
+      "pal": "Bakemi",
+      "no": null,
+      "type": null,
+      "description": "While in the party, attacking enemies afflicted with Poison reduces their Attack.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ground 'n' Pound",
+      "pal": "Ribbuny Botan",
+      "no": null,
+      "type": null,
+      "description": "While in the party, improves player's and Pal's Grass damage. Increases efficiency when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Grounded Archer",
+      "pal": "Robinquill",
+      "no": null,
+      "type": null,
+      "description": "Increases bow damage dealt while fighting with Robinquill.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Grounding Shell",
+      "pal": "Snock Lux",
+      "no": null,
+      "type": null,
+      "description": "While in the party, player and party Pals take less Water damage, and are immune to Soak.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Guardian of the Desert",
+      "pal": "Anubis",
+      "no": "100",
+      "type": "Combat",
+      "description": "When activated, Anubis changes the player's attack type to Ground and increases attack. Occasionally evades attacks with a flash sidestep during battle.",
+      "descriptionWiki": "When fighting together, changes the player's attack type to Ground. Sometimes dodges attacks with a high speed sidestep in battle.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Guardian of the Forest",
+      "pal": "Eikthyrdeer",
+      "no": "037",
+      "type": "Mount",
+      "description": "Enables Eikthyrdeer to be mounted. While mounted, Eikthyrdeer can perform a double jump and player gets increased logging efficiency.",
+      "descriptionWiki": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Guardian of the Golden Forest",
+      "pal": "Eikthyrdeer Terra",
+      "no": "037B",
+      "type": "Mount",
+      "description": "Enables Eikthyrdeer Terra to be mounted. While mounted, Eikthyrdeer Terra can perform a double jump and player gets increased logging efficiency.",
+      "descriptionWiki": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Guardian of the Snowy Mountain",
+      "pal": "Wumpo",
+      "no": "091",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While at base, increases the Transporting Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "descriptionWiki": "Can be ridden. While in team, Wumpo helps carry supplies, increasing the player's max carrying capacity.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Guardian of the South",
+      "pal": "Wumpo Botan",
+      "no": "091B",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While in the party, player and party Pals take less Ground damage and are immune to Muddy status.",
+      "descriptionWiki": "Can be ridden. While in team, Wumpo Botan helps carry supplies, increasing the player's max carrying capacity.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Happy Clover",
+      "pal": "Clovee",
+      "no": null,
+      "type": null,
+      "description": "While at a base, increased Gathering Work Sustainability Level for all other Base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Happy-Go-Lucky Bunny",
+      "pal": "Ribbuny",
+      "no": null,
+      "type": null,
+      "description": "Increases the attack of Neutral Pals in the party while Ribbuny is in the party. Also increases Handiwork Sustainability level for Base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Hard Armor",
+      "pal": "Warsect",
+      "no": "092",
+      "type": "Combat",
+      "description": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hard Head",
+      "pal": "Rushoar",
+      "no": "020",
+      "type": "Mount",
+      "description": "Increases player's mining efficiency while riding Rushoar.",
+      "descriptionWiki": "Can be ridden. Increases efficiency of destroying boulders while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Harvest Goddess",
+      "pal": "Lyleen",
+      "no": "104",
+      "type": "Utility",
+      "description": "When activated, the queen's soothing graces restore the health of the player and Party Pals.",
+      "descriptionWiki": "When activated, the queen's soothing graces greatly restore the player's Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hawk Eye",
+      "pal": "Robinquill",
+      "no": "048",
+      "type": "Utility",
+      "description": "While fighting together, allows you to deal more damage to weak points.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hawk Eye",
+      "pal": "Robinquill Terra",
+      "no": "048B",
+      "type": "Utility",
+      "description": "While fighting together, allows you to deal more damage to weak points.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Heart Drain",
+      "pal": "Lovander",
+      "no": "069",
+      "type": "Utility",
+      "description": "Lovander and the player heals for a portion of the damage they deal while fighting together.",
+      "descriptionWiki": "While fighting together, grants the player and Loveander the life steal effect which absorbs some of the received damage and restores Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hellflame Lion",
+      "pal": "Blazehowl",
+      "no": "084",
+      "type": "Mount / Utility",
+      "description": "While Blazehowl is your active Pal, increases the amount of items Grass Pals drop when defeated.",
+      "descriptionWiki": "Can be ridden. While fighting together, Grass Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Helper Bunny",
+      "pal": "Flopie",
+      "no": "028",
+      "type": "Utility",
+      "description": "Flopie accompanies you and picks up items within a certain range and adds them to your inventory.",
+      "descriptionWiki": "While in team, appears near the player. Automatically picks up nearby items.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Herbil Pulse",
+      "pal": "Herbil",
+      "no": "141",
+      "type": "Utility",
+      "description": "While in team, restores the player's Max Health when incapacitated.",
+      "descriptionWiki": "While in team, Herbil uses its healing powers to revive the player when incapacitated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hidden Dark Energy",
+      "pal": "Wistella",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases Defense of Dark Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Holy Knight of the Firmament",
+      "pal": "Paladius",
+      "no": "108",
+      "type": "Mount",
+      "description": "Can be ridden. Can triple jump while mounted. Activate Spear Thrust to have Necromus stay by your side and attack enemies in tandem.",
+      "descriptionWiki": "Can be ridden. Can triple jump while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Homeward Prayer",
+      "pal": "Dogen",
+      "no": "122",
+      "type": "Utility",
+      "description": "Teleports you to the nearest base when activated. Cannot be used in dungeons or similar areas.",
+      "descriptionWiki": "When activated, moves to the closest base. Cannot be used within dungeons, etc.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hug Me Please",
+      "pal": "Needoll",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases player's and Pal's damage to enemies afflicted with Ivy-Covered.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Hug You So Much",
+      "pal": "Needoll Noct",
+      "no": null,
+      "type": null,
+      "description": "While in party, the player's attacks inflict Ivy-Covered 2. (Does not stack)",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Huggy Fire",
+      "pal": "Foxparks",
+      "no": "005",
+      "type": "Combat",
+      "description": "Requires Foxparks's Harness. While Foxparks is the active Pal, activate its Partner Skill and it will hop onto the player's arms and will act as a flamethrower, replacing the player's weapon for the duration.",
+      "descriptionWiki": "When activated, equips to the player and transforms into a flamethrower.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Huggy Frost",
+      "pal": "Foxparks Cryst",
+      "no": "005B",
+      "type": "Combat",
+      "description": "When activated, equips to the player and attacks using frigid air.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Hungry Missile",
+      "pal": "Relaxaurus",
+      "no": "085",
+      "type": "Mount",
+      "description": "Allows you to mount Relaxaurus and have it fire a series of rockets while mounted.",
+      "descriptionWiki": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ice Crusher",
+      "pal": "Mammorest Cryst",
+      "no": "090B",
+      "type": "Mount",
+      "description": "Improves the player's mining and logging efficiency while riding Mammorest Cryst.",
+      "descriptionWiki": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ice Overload",
+      "pal": "Moldron Cryst",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount that enhances Ice damage for the player and allied Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ice Steed",
+      "pal": "Frostallion",
+      "no": "110",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. Changes the player's attack type to Ice and enhances Ice attacks while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ice Whispers",
+      "pal": "Mau Cryst",
+      "no": null,
+      "type": null,
+      "description": "Sometimes drops Ice Organ when assigned to Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ice-loving Beast",
+      "pal": "Reptyro Cryst",
+      "no": null,
+      "type": null,
+      "description": "Improves the player's mining efficiency while riding Reptyro Cryst.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Icewing Dance",
+      "pal": "Azurobe Cryst",
+      "no": "082B",
+      "type": "Combat / Mount",
+      "description": "Functions as a water mount. Increases player's Attack and changes the player's attack type to Ice.",
+      "descriptionWiki": "Can be ridden to travel on water. Changes the player's attack type to Ice while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Icy Maw",
+      "pal": "Munchill",
+      "no": "146",
+      "type": "Utility",
+      "description": "While in team, Munchill cools ingredients inside its mouth, making the food in your inventory less likely to spoil. Decreases the weight of ingredient and food by a small amount.",
+      "descriptionWiki": "While in team, Munchill cools ingredients inside its mouth, making the food in your inventory less likely to spoil.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Icy Steed",
+      "pal": "Frostallion",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden as a flying mount. While mounted, changes player's attack type to Ice, inflict Freeze, increases Attack/",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Indestructible Fortress",
+      "pal": "Aegidron",
+      "no": null,
+      "type": null,
+      "description": "Provides protection from explosions and prevents Stun while in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Invisible Eye",
+      "pal": "Snugloo",
+      "no": null,
+      "type": null,
+      "description": "While in the party, reduces enemy detection.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Iron Guardian Mode",
+      "pal": "Knocklem Ignis",
+      "no": null,
+      "type": null,
+      "description": "When activated, a steel resolve increases Knocklem Ignis's Attack by 60% and Defense by 60% for a limited time.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Jelliette Drop",
+      "pal": "Jelliette",
+      "no": "150",
+      "type": "Utility",
+      "description": "While in team, increases items obtained from fishing. While Jelliette and Jellroy are in your base, Jelliette's watering speed is increased.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Jellroy Drop",
+      "pal": "Jellroy",
+      "no": "149",
+      "type": "Utility",
+      "description": "While in team, increases items obtained from salvage. While Jelliette and Jellroy are in your base, Jellroy's watering speed is increased.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Jolt Bomb",
+      "pal": "Jolthog",
+      "no": "012",
+      "type": "Combat",
+      "description": "Equips Jolthog in the player's hand. When thrown, it creates a large electric explosion on impact, dealing damage and shocking enemies hit which stuns them and makes them easier to catch for a moment. The damage increases for each level of Jolt Bomb.",
+      "descriptionWiki": "When activated, equips Jolthog to the player's hand. When thrown at an enemy, causes an electrical explosion upon impact.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Jolt Glider",
+      "pal": "Celaray Lux",
+      "no": "025B",
+      "type": "Mount (Glider)",
+      "description": "While in the party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+      "descriptionWiki": "While in team, modifies the performance of the equipped glider. Increases speed while gliding for an extended time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Jumping Force",
+      "pal": "Rayhound",
+      "no": "060",
+      "type": "Mount",
+      "description": "Can be ridden. Can double jump while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "King of Fluff",
+      "pal": "Sweepa",
+      "no": "054",
+      "type": "Mount",
+      "description": "Unlocks the ability to mount Sweepa. Sweepa gains a small damage and defense increase for each Swee included in the party.",
+      "descriptionWiki": "Can be ridden. When fighting together, stats will increase the more Swee are in your team.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "King of Muscles",
+      "pal": "Kingpaca",
+      "no": "089",
+      "type": "Mount",
+      "description": "Defense and Movement Speed increases for every Melpaca included in the party. Allows Kingpaca to be mounted.",
+      "descriptionWiki": "While in a team, Kingpaca helps carry supplies, increasing the player's max carrying capacity.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "King of Muscles",
+      "pal": "Kingpaca Cryst",
+      "no": "089B",
+      "type": "Mount",
+      "description": "While in a team, Kingpaca Cryst helps carry supplies, increasing the player's max carrying capacity.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Kuudere",
+      "pal": "Nox",
+      "no": "021",
+      "type": "Combat",
+      "description": "Reveals the locations of nearby Pal Effigies when activated.",
+      "descriptionWiki": "When fighting together, changes the player's attack type to Dark.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Lady of Dark Lightning",
+      "pal": "Dazzi Noct",
+      "no": "062B",
+      "type": "Combat",
+      "description": "While in team, appears near the player. Follows up player attacks with dark lightning bolts.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Lady of Lightning",
+      "pal": "Dazzi",
+      "no": "062",
+      "type": "Combat",
+      "description": "Dazzi accompanies you and follows up your attacks with lightning bolts that increase in damage per Partner Skill level while it is in your party and not set as your active Pal.",
+      "descriptionWiki": "While in team, appears near the player. Follows up player attacks with lightning bolts.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Lantern Enchantment",
+      "pal": "Loomen",
+      "no": null,
+      "type": null,
+      "description": "Causes the player's arrows to explode on impact for additional damage.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Lava Spout",
+      "pal": "Kelpsea Ignis",
+      "no": "081B",
+      "type": "Utility / Farming",
+      "description": "While Kelpsea Ignis is in your party, the attack of your active Fire Pal is increased. When assigned to the Ranch, Kelpsea Ignis produces Flame Organ.",
+      "descriptionWiki": "While in team, increases the Attack of Fire Pals. Sometimes drops Flame Organ when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Leap Stance",
+      "pal": "Croajiro",
+      "no": "114",
+      "type": "Utility",
+      "description": "When activated, Croajiro puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's attack is increased.",
+      "descriptionWiki": "When activated, Croajiro swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Liberated Pterosaur",
+      "pal": "Eidrolon",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. This Pal's Attack and Movement Speed increase for each other Dragon or Dark Pal in your party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Life Steal",
+      "pal": "Felbat",
+      "no": "094",
+      "type": "Combat",
+      "description": "Felbat and the player heals a portion of the damage they deal while fighting together.",
+      "descriptionWiki": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Lifmunk Recoil",
+      "pal": "Lifmunk",
+      "no": "004",
+      "type": "Combat",
+      "description": "Requires Lifmunk's Submachine Gun. While Lifmunk is the active Pal, activate its Partner Skill and it will ride on the player's head, shooting a submachine gun as the player attacks.",
+      "descriptionWiki": "When activated, leaps onto the player's head and uses a submachine gun to follow up player attacks.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Light Dancer",
+      "pal": "Starryon Primo",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount that can perform a Boosts Jump Power. Increases Pal's Movement Speed for every Neutral Pal in your party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Lightning Shepherd",
+      "pal": "Rayhound",
+      "no": null,
+      "type": null,
+      "description": "Increases base mount speed and enables mounting for Rayhound. Allows Rayhound to double jump while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Logging Assistance",
+      "pal": "Gumoss",
+      "no": "013",
+      "type": "Utility",
+      "description": "Increases the player's logging efficiency and reduces the weight of all wood types while Gumoss is in the party.",
+      "descriptionWiki": "While in team, improves efficiency of cutting trees.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Long-Sleeved Hurray",
+      "pal": "Lapure",
+      "no": null,
+      "type": null,
+      "description": "While in the party, reduces the Partner Skill cooldowns for other party Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Lord Fox",
+      "pal": "Wixen",
+      "no": "076",
+      "type": "Combat",
+      "description": "When fighting together with Wixen, increases player attack by a small amount and changes the player's damage type to Fire.",
+      "descriptionWiki": "When fighting together, changes the player's attack type to Fire.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Love's First Blossom",
+      "pal": "Broncherry",
+      "no": null,
+      "type": null,
+      "description": "Increases the Pal Eggs chance to become an Alpha Egg. Allows Broncherry to be mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Mad Eye Lunge",
+      "pal": "Eye of Cthulhu",
+      "no": null,
+      "type": "Combat",
+      "description": "When activated, Eye of Cthulhu charges and attacks targeted enemy.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Mad Eye Lunge",
+      "pal": "Eye of Cthulu",
+      "no": null,
+      "type": null,
+      "description": "When activated, Eye of Cthulhu charges and attacks targeted enemy.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Magical Twin Powers",
+      "pal": "Amione",
+      "no": null,
+      "type": null,
+      "description": "While at a base, increases the Watering Work Suitability Level for all other base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Magma Kaiser",
+      "pal": "Blazamut",
+      "no": "096",
+      "type": "Mount",
+      "description": "Can be ridden. While in the party, increases the Attack and Defense of the pal fighting alongside you whenever you defeat an enemy.",
+      "descriptionWiki": "Can be ridden. Enhances Fire attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Magma Overload",
+      "pal": "Moldron",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. Pal's Attack increases for each other Fire or Ground Pal in your party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Magma Tears",
+      "pal": "Flambelle",
+      "no": "070",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Flambelle produces Flame Organs. Slowly recovers health while outside of combat.",
+      "descriptionWiki": "Sometimes produces Flame Organ when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Masonry Archelon",
+      "pal": "Tetroise",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount. Increases the Mining Work Suitability Level for all other Base Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Masquerade Dance",
+      "pal": "Omascul",
+      "no": "133",
+      "type": "Utility",
+      "description": "While in team, the Pals in the team gain more experience points.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Master Archer",
+      "pal": "Robinquill Terra",
+      "no": null,
+      "type": null,
+      "description": "While in party, increases the player's bow charge speed by 15%. (Does not stack)",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Master Night Angler",
+      "pal": "Ghangler",
+      "no": "153",
+      "type": "Mount / Utility",
+      "description": "Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Master of Darkness",
+      "pal": "Ghangler",
+      "no": null,
+      "type": null,
+      "description": "Functions as a water mount that gains movement speed based on the number of Dark or Water Pals in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Master of Unlocking",
+      "pal": "Mimog",
+      "no": "124",
+      "type": "Utility",
+      "description": "While fighting together, Mimog can open treasure chests without using a key.",
+      "descriptionWiki": "When near a treasure chest, Mimog can open the chest without using a key. The types of treasure chests that can be opened depend on the skill level",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Messenger of Death",
+      "pal": "Maraith",
+      "no": "066",
+      "type": "Mount",
+      "description": "Can be ridden. Decreases the player's cooldown for every enemy defeated.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Dark while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Meteor Mania",
+      "pal": "Xenovader",
+      "no": "125",
+      "type": "Utility",
+      "description": "While in the team, increases damage dealt to ores, and it's easier to obtain Meteorite Fragment.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Meteor Wings",
+      "pal": "Xenolord",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. Increases damage of weapon-wielding Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Milk Maker",
+      "pal": "Mozzarina",
+      "no": "029",
+      "type": "Farming",
+      "description": "When assigned to the Ranch, Mozzarina produces Milk.",
+      "descriptionWiki": "Sometimes produces Milk when assigned to a Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Mining Assistance",
+      "pal": "Fuddler",
+      "no": null,
+      "type": null,
+      "description": "Increases mining efficiency and reduces stone weight while in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Missile Party",
+      "pal": "Relaxaurus Lux",
+      "no": "085B",
+      "type": "Mount",
+      "description": "Allows you to mount Relaxaurus Lux and have it fire a series of rockets while mounted.",
+      "descriptionWiki": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Mist Stalwart",
+      "pal": "Dandilord",
+      "no": null,
+      "type": null,
+      "description": "Grants attacks inflicted with poison while providing immunity to Poison and the World Tree's toxic gas.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Modified DNA",
+      "pal": "Shadowbeak",
+      "no": "107",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. While flying, Movement Speed is increased. Enhances Dark attacks by 15% while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dark attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Mother Nature's Menace",
+      "pal": "Elgrove",
+      "no": null,
+      "type": null,
+      "description": "When activated, Elgrove changes the player's attack type to Grass and increases Attack.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Mysterious Scales",
+      "pal": "Cinnamoth",
+      "no": "041",
+      "type": "Combat",
+      "description": "Cinnamoth attacks a target with the Poison Fog skill, inflicting poison on the enemy. Boosts Farming work suitability while at the base.",
+      "descriptionWiki": "When activated, attacks targeted enemy with Poison Fog.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Mystical Black Magic",
+      "pal": "Katress",
+      "no": null,
+      "type": null,
+      "description": "While Katress is your active Pal, increases the amount of items Neutral Pals drop when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Night Dancer",
+      "pal": "Starryon",
+      "no": "129",
+      "type": "Mount",
+      "description": "Functions as mount. Increases movement speed while mounted at night.",
+      "descriptionWiki": "Can be ridden. Increases movement speed while mounted at night.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Nightmare Iris",
+      "pal": "Bellanoir",
+      "no": "112",
+      "type": "Combat",
+      "description": "When activated, attacks targeted enemy with a powerful Nightmare Ray.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Nightmare Stare",
+      "pal": "Bellanoir Libero",
+      "no": "112B",
+      "type": "Combat",
+      "description": "When activated, attacks targeted enemy with a powerful Nightmare Bloom.",
+      "descriptionWiki": "When activated, attacks targeted enemy with a powerful [[Nightmare Bloom.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ore Detector",
+      "pal": "Fuddler",
+      "no": "022",
+      "type": "Utility",
+      "description": "When activated, generates subtle vibrations to detect nearby ore.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ore-loving Beast",
+      "pal": "Reptyro",
+      "no": "088",
+      "type": "Mount",
+      "description": "Can be ridden. While in the party, reduces weight of all types of ore.",
+      "descriptionWiki": "Can be ridden. Improves efficiency of mining ores while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Ore-loving Beast",
+      "pal": "Reptyro Cryst",
+      "no": "088B",
+      "type": "Mount",
+      "description": "Can be ridden. Improves efficiency of mining ores while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Overaffectionate",
+      "pal": "Broncherry",
+      "no": "086",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Overaffectionate",
+      "pal": "Broncherry Aqua",
+      "no": "086B",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While in team, Broncherry Aqua helps carry supplies, increasing the player's max carrying capacity.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Pacapaca Wool",
+      "pal": "Melpaca",
+      "no": null,
+      "type": null,
+      "description": "When assigned to the Ranch, Melpaca produces Wool. Also enables Melpaca to be mounted. Enhances Kingpaca's Defense and Movement Speed while Melpaca is in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Passion of the Flower Spirit",
+      "pal": "Petallia Ignis",
+      "no": null,
+      "type": null,
+      "description": "Restores the player's Health. While in party, player and party Pals take less Grass damage, and are immune to Ivy-Covered.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Peacock Pounce",
+      "pal": "Frostplume",
+      "no": null,
+      "type": null,
+      "description": "While fighting together, Frostplume's icy aura sharpens your focus, improving reload speed.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Peacock Poune",
+      "pal": "Frostplume",
+      "no": "143",
+      "type": "Combat",
+      "description": "While fighting together, Frostplume's icy aura sharpens your focus, improving reload speed.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Pecapaca Wool",
+      "pal": "Melpaca",
+      "no": "036",
+      "type": "Mount / Farming",
+      "description": "Can be Ridden. Sometimes drops Wool when assigned to Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Pengullet Launcher",
+      "pal": "Pengullet",
+      "no": "010",
+      "type": "Combat",
+      "description": "Arms a rocket launcher using Pengullet as ammo. On impact, Pengullet explodes and suffers lethal damage in exchange for dealing Neutral element damage, stunning any enemies it hits in a large area.",
+      "descriptionWiki": "When activated, the player equips a Rocket Launcher and fires Pengullet as ammunition. Pengullet explodes on contact and is incapacitated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Pengullet Lux Launcher",
+      "pal": "Pengullet Lux",
+      "no": "010B",
+      "type": "Combat",
+      "description": "When activated, the player equips a Rocket Launcher and fires Pengullet Lux as ammunition. Pengullet Lux explodes on contact and is incapacitated.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Phantasmal Arcana",
+      "pal": "Majex",
+      "no": null,
+      "type": null,
+      "description": "While in the party, attacks that inflict Burn deal continuous damage to enemies they come into contact with.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Plasma Dash",
+      "pal": "Azurmane",
+      "no": "136",
+      "type": "Mount",
+      "description": "Functions as mount. Also allows dashing in the air and moving at high speed.",
+      "descriptionWiki": "Can be ridden. Also allows dashing in the air and moving at high speed.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Plump Body",
+      "pal": "Grintale",
+      "no": "052",
+      "type": "Mount",
+      "description": "Can be ridden. Enhances Neutral attacks while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Power Crystal",
+      "pal": "Pierdon Cryst",
+      "no": null,
+      "type": null,
+      "description": "While in the party, player and party Pals take less Dragon damage.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Power Stone",
+      "pal": "Pierdon",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases player's and Pals' damage to enemies afflicted with Muddy.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Prayer for Abundant Harvest",
+      "pal": "Prunelia",
+      "no": "138",
+      "type": "Utility",
+      "description": "While at a base, Prunelia's prayers bless the crops, increasing their harvest.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Princess Gaze",
+      "pal": "Bristla",
+      "no": "030",
+      "type": "Utility",
+      "description": "While Bristla is in your party, your active Grass Pal's attack is increased.",
+      "descriptionWiki": "While in team, increases Attack of Grass Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Purification of Gaia",
+      "pal": "Vaelet",
+      "no": "078",
+      "type": "Utility",
+      "description": "While Vaelet is your active Pal, it increases the amount of items Ground Pals drop when defeated.",
+      "descriptionWiki": "While fighting together, Ground Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Purity's Full Bloom",
+      "pal": "Broncherry Aqua",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden. While in party, Pal Eggs you pick up have a 45% chance of becoming an Alpha Pal Egg. (Does not stack)",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Queen Bee Command",
+      "pal": "Elizabee",
+      "no": "051",
+      "type": "Combat",
+      "description": "Elizabee gains a small damage increase for each level of this Partner Skill. Does not affect Beegarde.",
+      "descriptionWiki": "When fighting together, stats will increase the more Beegarde are in your team.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Rampant Spores",
+      "pal": "Shroomer",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. Occasionally drops Mushroom or Cavern Mushroom when assigned to a Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Red Hare",
+      "pal": "Pyrin",
+      "no": "058",
+      "type": "Mount",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Fire while mounting Pyrin.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Fire while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Resentful Pterosaur",
+      "pal": "Eidrolon Ignis",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. This Pal's Attack and Movement Speed increase for each other Dragon or Fire Pal in your party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Resonant Guardian",
+      "pal": "Panthalus",
+      "no": null,
+      "type": null,
+      "description": "Functions as a flying mount. While at a base, it patrols the skies and bombards intruders from high above.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Resurrection",
+      "pal": "Gildra",
+      "no": null,
+      "type": null,
+      "description": "While in the party, Gildra revives after being incapacitated with reduced Hunger.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Rider of the Snowy Mountain",
+      "pal": "Polapup",
+      "no": "147",
+      "type": "Mount",
+      "description": "Functions as mount.Can slide quickly down slopes.",
+      "descriptionWiki": "Can be ridden. Runs faster over snow. Can slide quickly down slopes.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Roiling Spores",
+      "pal": "Shroomer Noct",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases by 10%.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Rollin' Full Oil",
+      "pal": "Kikit",
+      "no": "117",
+      "type": "Utility",
+      "description": "While in team, Kikit helps carry supplies, decreasing the weight of crude oil in the player's inventory.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sacred Barrier",
+      "pal": "Hartalis",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount that can perform a triple jump and generates a barrier.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Samba Step",
+      "pal": "Palumba",
+      "no": "144",
+      "type": "Mount",
+      "description": "Functions as mount. Runs faster over grass.",
+      "descriptionWiki": "Can be ridden. Runs faster over grass.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sand Sprint",
+      "pal": "Dazemu",
+      "no": "123",
+      "type": "Mount",
+      "description": "Can be ridden. Movement Speed is increased while mounted on sand.",
+      "descriptionWiki": "Can be ridden. Runs faster over sand.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sand Swimmer",
+      "pal": "Surfent Terra",
+      "no": "065B",
+      "type": "Mount (Swimmer)",
+      "description": "Players attacks inflict Muddy and enables mounting for Surfent Terra.",
+      "descriptionWiki": "Can be ridden. While in team, Surfent Terra helps carry supplies, decreasing the weight of ores in the player's inventory.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sandstorm's Blessing",
+      "pal": "Gildane",
+      "no": "140",
+      "type": "Mount",
+      "description": "Functions as mount. Applies Ground damage to the player's attacks and increases them while mounted.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Ground while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sandy Beach Ball",
+      "pal": "Kikit",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the Defense of Ground Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Scorching Predator",
+      "pal": "Faleris",
+      "no": "105",
+      "type": "Mount (Flying) / Utility",
+      "description": "While Faleris is your active Pal, it increases the amount of items Ice Pals drop when defeated.",
+      "descriptionWiki": "Can be ridden as a flying mount. While fighting together, Ice Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Scorpion Longwave",
+      "pal": "Prixter Lux",
+      "no": null,
+      "type": null,
+      "description": "Increases Attack and changes the player's attack type to Electric.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Scorpion Sonar",
+      "pal": "Prixter",
+      "no": "119",
+      "type": "Utility",
+      "description": "While in the party, increases player's and pal's damage to enemies afflicted with Poison.",
+      "descriptionWiki": "When activated, it can analyze airborne particles and find a dungeon's exit.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Seared Fish Fillet",
+      "pal": "Skutlass Ignis",
+      "no": null,
+      "type": null,
+      "description": "When activated, Skutlass Ignis becomes the player's katana. It becomes incapacitated after using Iaigiri or if it stays transformed for an extended period.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Selfless Discipline",
+      "pal": "Leafan",
+      "no": null,
+      "type": null,
+      "description": "This Pal's Attack and Defense increase by 2% for each other Grass Pal in your party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Sentinal of the Great Sea",
+      "pal": "Neptilius",
+      "no": "155",
+      "type": "Mount / Combat",
+      "description": "While fighting together, it follows up your attacks with spear strikes. Can be ridden to travel quicky across water. While mounted, it can leap high into the air over water.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sentinel of the Great Sea",
+      "pal": "Neptilius",
+      "no": null,
+      "type": null,
+      "description": "While in team, it follows up your attacks with Water spear strikes. Can be ridden to travel on water. While mounted, it can leap high into the air over water.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Shadow Stance",
+      "pal": "Croajiro Noct",
+      "no": "114B",
+      "type": "Utility",
+      "description": "When activated, Croajiro Noct swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air. While in team, increases attack power of Dark Pals.",
+      "descriptionWiki": "When activated, Croajiro Noct swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air. While in team, increases Attack of Dark pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Shiny Hauler",
+      "pal": "Turtacle Terra",
+      "no": "148B",
+      "type": "Utility / Combat",
+      "description": "While in the party, reduces weight of Sulfur and Coal. Increases Pal's and player's Ground damage.",
+      "descriptionWiki": "While in team, Turtacle Terra helps carry supplies, decreasing the weight of armor in the player's inventory. Also increases Attack of Ground Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Shocking Fish",
+      "pal": "Solmora Lux",
+      "no": null,
+      "type": null,
+      "description": "Functions as a water mount. While mounted, changes the player's attack type to Electric and increases Attack. While in party, makes it easier to fish up talented Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Shot-Nyan Mode",
+      "pal": "Nyafia",
+      "no": "139",
+      "type": "Combat",
+      "description": "When activated, Nyafia will fire a shotgun at nearby enemies for a limited time.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Silk Maker",
+      "pal": "Sibelyx",
+      "no": "079",
+      "type": "Combat / Farming",
+      "description": "When activated, attacks targeted enemy with a powerful Blizzard Spike. Sometimes produces High Quality Cloth when assigned to Ranch.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Silk Shroud",
+      "pal": "Sibelyx",
+      "no": null,
+      "type": null,
+      "description": "When activated, Sibelyx attacks the targeted enemy with a powerful Blizzard Spike. When assigned to the Ranch, Sibelyx produces High Quality Cloth.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Sixth Sense",
+      "pal": "Leezpunk",
+      "no": "045",
+      "type": "Utility",
+      "description": "When activated, utilizes its sixth sense to detect nearby dungeons.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sixth Sense",
+      "pal": "Leezpunk Ignis",
+      "no": "045B",
+      "type": "Utility",
+      "description": "When activated, utilizes its sixth sense to detect nearby dungeons.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Skilled Fingers",
+      "pal": "Ribbuny",
+      "no": "039",
+      "type": "Combat / Utility",
+      "description": "While in team, increases Attack of Neutral Pals. While at a base, increases work efficiency when working at Weapon Workbench, Weapon Assembly Line, and other related facilities.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sky Dragon Affection",
+      "pal": "Quivern",
+      "no": null,
+      "type": null,
+      "description": "Can be ridden as a flying mount. While in the party, increases Attack of Dragon Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Sky Dragon's Affection",
+      "pal": "Quivern",
+      "no": "095",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Blue Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Green Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Illuminant Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Purple Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Rainbow Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Slime Body",
+      "pal": "Red Slime",
+      "no": null,
+      "type": "Mount",
+      "description": "Can be ridden. Can jump high into the air while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Snake's Sagacity",
+      "pal": "Venusa",
+      "no": null,
+      "type": null,
+      "description": "While in the party, the player's attacks inflict Blind.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Snow Shepherd",
+      "pal": "Rayhound Cryst",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount and can perform a double jump. Increases Defense of Ice Pals.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Snowy Mountain Slider",
+      "pal": "Polapup Tera",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount. Increased movement speed on snow.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Soil Improver",
+      "pal": "Dumud",
+      "no": "043",
+      "type": "Combat / Farming",
+      "description": "While Dumud is in your party, your active Ground Pal's attack is increased. When assigned to the Ranch, Dumud produces High Quality Pal Oil.",
+      "descriptionWiki": "While in team, increases Attack of Ground Pals. Sometimes drops High Quality Pal Oil when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Soothing Shower",
+      "pal": "Teafant",
+      "no": "016",
+      "type": "Utility",
+      "description": "Teafant heals the player for a set amount per level of Soothing Shower when activated.",
+      "descriptionWiki": "When activated, spouts mysterious water that soothes wounds and restores the player's Health.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Soul Binder",
+      "pal": "Nitemary Botan",
+      "no": null,
+      "type": null,
+      "description": "Increases Defense of Grass Pals while in the party.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Soul Collector",
+      "pal": "Nitemary",
+      "no": "128",
+      "type": "Utility",
+      "description": "While fighting together, Pals drop more Pal Souls when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sparkling Weasel",
+      "pal": "Chillet Ignis",
+      "no": "055B",
+      "type": "Mount",
+      "description": "Increases the player's attack and changes the player's damage type to Fire while mounting Chillet Ignis.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Fire while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Spikey Carrier",
+      "pal": "Turtacle",
+      "no": "148",
+      "type": "Utility",
+      "description": "While in the party, reduces Ore weight.",
+      "descriptionWiki": "While in team, Turtacle helps carry supplies, decreasing the weight of armor in the player's inventory.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Spore Stalwart",
+      "pal": "Silvance",
+      "no": null,
+      "type": null,
+      "description": "Triggers explosions when attacking Ivy-Covered enemies and protects the player and allied Pals from the World Tree's Explosive Spores.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Stage Combat",
+      "pal": "Renjishi",
+      "no": null,
+      "type": null,
+      "description": "While in the party, the player's attacks inflict Burn.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Static Electricity",
+      "pal": "Sparkit",
+      "no": "007",
+      "type": "Utility",
+      "description": "While Sparkit is in your party, your active Electric Pal's attack is increased. Occasionally drops Electric Organ.",
+      "descriptionWiki": "While in team, increases Attack of Electric Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Steed of Darkness",
+      "pal": "Frostallion Noct",
+      "no": "110B",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. Changes the player's attack type to Dark and enhances Dark attacks while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Steel Guardian Mode",
+      "pal": "Knocklem",
+      "no": "120",
+      "type": "Combat",
+      "description": "Increases Knocklem's Attack and Defense for a limited time.",
+      "descriptionWiki": "When activated, a steel resolve increases Knocklem's Attack and Defense for a limited time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Steel Scorpion",
+      "pal": "Menasting",
+      "no": "099",
+      "type": "Mount",
+      "description": "Increases the player's defense and the amount of items Electric Pals drop when defeated.",
+      "descriptionWiki": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Steel Scorpion",
+      "pal": "Menasting Terra",
+      "no": "099B",
+      "type": "Mount",
+      "description": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Sticky Princess",
+      "pal": "Gloopie",
+      "no": "151",
+      "type": "Utility",
+      "description": "While fighting together, the capture gauge decreases more slowly in the fishing minigame when the capture bars are not overlapping.",
+      "descriptionWiki": "While fighting together, the capture gauge decreases more slowly in the fishing minigame when the bar is not aligned.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Stone-Chaser Archelon",
+      "pal": "Tetroise Primo",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. While in the party, increases the durability of all weapons and armor.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Stormbringer Lava Dragon",
+      "pal": "Jormuntide Ignis",
+      "no": "101B",
+      "type": "Mount",
+      "description": "Increases the damage dealt by the player and Jormuntide Ignis and nullifies lava damage while in the party. Enables Jormuntide Ignis to be mounted.",
+      "descriptionWiki": "Can be ridden. Enhances Fire attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Stormbringer Sea Dragon",
+      "pal": "Jormuntide",
+      "no": "101",
+      "type": "Mount",
+      "description": "Can be ridden to travel on water. While in the party, increases player's and Pals' damage to enemies afflicted by Soak.",
+      "descriptionWiki": "Can be ridden to travel on water. While mounted, prevents stamina depletion while moving over water.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Stormcloud",
+      "pal": "Fenglope Lux",
+      "no": "093B",
+      "type": "Mount",
+      "description": "Functions as mount. Can double jump while mounted. While fighting together, Water Pals drop more items when defeated.",
+      "descriptionWiki": "Can be ridden. Can double jump while mounted. While fighting together, Water Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Surfing Slam",
+      "pal": "Fuack",
+      "no": "006",
+      "type": "Combat",
+      "description": "Fuack slides at high speeds and hits the opponent, dealing Water elemental damage and soaks them in water.",
+      "descriptionWiki": "When activated, Fuack body surfs toward an enemy and slams into them.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Swift Deity",
+      "pal": "Univolt",
+      "no": "056",
+      "type": "Mount",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Electricity while mounting Univolt.",
+      "descriptionWiki": "Changes the player's attack type to Electric while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Swift Swimmer",
+      "pal": "Surfent",
+      "no": "065",
+      "type": "Mount (Swimmer)",
+      "description": "Allows the player to travel on water while mounted. Occasionally produces Leather when assigned to a Ranch.",
+      "descriptionWiki": "Can be ridden to travel on water. While mounted, prevents stamina depletion while moving on water.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Swooshy Spores",
+      "pal": "Shroomer",
+      "no": "116",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Swooshy Spores",
+      "pal": "Shroomer Noct",
+      "no": "116B",
+      "type": "Mount / Utility",
+      "description": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Tarantriss' Web",
+      "pal": "Tarantriss",
+      "no": "135",
+      "type": "Mount",
+      "description": "Can be ridden. Can double jump while mounted. Additionally, can shoot spider silk to grapple and move at fast speed.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Tarantriss’ Web",
+      "pal": "Tarantriss",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount. Can double jump while mounted. Additionally, can shoot spider web to grapple and move at high speed.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Telepeck",
+      "pal": "Cawgnito",
+      "no": "044",
+      "type": "Combat",
+      "description": "When activated, attacks targeted enemy with a powerful Phantom Peck.",
+      "descriptionWiki": null,
+      "sources": [
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Thunder Dragon",
+      "pal": "Dinossom Lux",
+      "no": "064B",
+      "type": "Combat / Mount",
+      "description": "Increases the Electric damage dealt by the player and Dinossom Lux while mounted. Enables Dinossom Lux to be mounted.",
+      "descriptionWiki": "Can be ridden. Enhances Electric attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Thunderous",
+      "pal": "Beakon",
+      "no": "073",
+      "type": "Mount (Flying)",
+      "description": "Increases the player's attack significantly, changes the player's damage type to Electric, and increases Movement Speed while mounting Beakon.",
+      "descriptionWiki": "Can be ridden as a flying mount. Changes the player's attack type to Electric while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Tidal Predator",
+      "pal": "Faleris Aqua",
+      "no": "105B",
+      "type": "Mount (Flying) / Utility",
+      "description": "Functions as a flying mount. While fighting together, Fire Pals drop more items when defeated.",
+      "descriptionWiki": "Can be ridden as a flying mount. While fighting together, Fire Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Tiny Spark",
+      "pal": "Rooby",
+      "no": "009",
+      "type": "Utility",
+      "description": "While Rooby is in your party, your active Fire Pal's defense is increased.",
+      "descriptionWiki": "While in team, increases Attack of Fire Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Too Cool to be Seen",
+      "pal": "Leezpunk",
+      "no": null,
+      "type": null,
+      "description": "Leezpunk and the player become invisible to enemies.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Too Cool to be Seen",
+      "pal": "Leezpunk Ignis",
+      "no": null,
+      "type": null,
+      "description": "Leezpunk and the player become invisible to enemies.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Travel Companion",
+      "pal": "Nitewing",
+      "no": "038",
+      "type": "Mount (Flying)",
+      "description": "Increases base mount speed and enables mounting for Nitewing.",
+      "descriptionWiki": "Can be ridden as a flying mount.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Trick-Loving Fluffle",
+      "pal": "Dupin",
+      "no": null,
+      "type": null,
+      "description": "While in the party, generates an explosion and enhances the player's offensive power when Health is critically low.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Ultrasonic Sensor",
+      "pal": "Tombat",
+      "no": "068",
+      "type": "Utility",
+      "description": "When activated, Scans radius for nearby dungeons, treasure chests, and scrap. Higher levels of the skill expand the area of the scan.",
+      "descriptionWiki": "When activated, uses ultrasonic waves to detect the presence of nearby Pals.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Unknown Intruder",
+      "pal": "Xenogard",
+      "no": null,
+      "type": null,
+      "description": "Functions as mount. While in the party, increases the player's energy weapon damage.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Unknown Invader",
+      "pal": "Xenovader",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the damage of the last bullet from full-auto weapon.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Untainted Maiden",
+      "pal": "Solenne",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the player's Attack in party of different Pal species.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Unyielding Storm Commander",
+      "pal": "Penking Lux",
+      "no": "011B",
+      "type": "Utility",
+      "description": "While fighting together, improves Water Pals and the player's damage.",
+      "descriptionWiki": "While fighting together, Water Pals drop more items when defeated.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Venom Picker",
+      "pal": "Caprity Noct",
+      "no": "035B",
+      "type": "Farming",
+      "description": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores Pal's Hunger to the Pal with the lowest Hunger.",
+      "descriptionWiki": "Sometimes drops Venom Gland from its back when assigned to Ranch.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Void Blade",
+      "pal": "Bushi Noct",
+      "no": null,
+      "type": null,
+      "description": "When activated, attacks targeted enemy with a powerful Iaigiri. Increases melee weapon damage when the player is not in combat.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Void-Dweller",
+      "pal": "Hoodle",
+      "no": null,
+      "type": null,
+      "description": "While in the party, increases the player's damage dealt to enemies that are not in combat.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Warm Body",
+      "pal": "Arsox",
+      "no": "042",
+      "type": "Mount",
+      "description": "Increases base mount speed and enables mounting for Arsox. Keeps the rider warm in cold environments.",
+      "descriptionWiki": "Keeps the rider warm in cold environments.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Water Gun",
+      "pal": "Finsider",
+      "no": null,
+      "type": null,
+      "description": "While in team, Finsider changes the player's attack type to Water and increases Attack.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Waterwing Dance",
+      "pal": "Azurobe",
+      "no": "082",
+      "type": "Combat / Mount",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Water while mounting Azurobe.",
+      "descriptionWiki": "Can be ridden to travel on water. Changes the player's attack type to Water while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wind and Clouds",
+      "pal": "Fenglope",
+      "no": "093",
+      "type": "Mount",
+      "description": "Increases base mount speed and enables mounting for Fenglope. Allows Fenglope to double jump while mounted.",
+      "descriptionWiki": "Can be ridden. Can double jump while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wings of Death",
+      "pal": "Helzephyr",
+      "no": "097",
+      "type": "Mount (Flying)",
+      "description": "Increases the player's attack moderately and changes the player's damage type to Dark while mounting Helzephyr.",
+      "descriptionWiki": "Can be ridden as a flying mount. Changes the player's attack type to Dark while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wings of Flame",
+      "pal": "Suzaku",
+      "no": "102",
+      "type": "Mount (Flying)",
+      "description": "Can be ridden as a flying mount. This Pal's Movement Speed increases for every other Fire Pal in your party excluding Suzaku.",
+      "descriptionWiki": "Can be ridden as a flying mount. Enhances Fire attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wings of Thunder",
+      "pal": "Helzephyr Lux",
+      "no": "097B",
+      "type": "Mount (Flying)",
+      "description": "Functions as a flying mount. Applies Electric damage to the player's attacks while mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Changes the player's attack type to Electric while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wings of Water",
+      "pal": "Suzaku Aqua",
+      "no": "102B",
+      "type": "Mount (Flying)",
+      "description": "Increases the movement speed for every water Pal in the party. Enables Suzaku Aqua to be mounted.",
+      "descriptionWiki": "Can be ridden as a flying mount. Enhances Water attacks while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Winter Trapeze",
+      "pal": "Hangyu Cryst",
+      "no": "032B",
+      "type": "Mount (Glider)",
+      "description": "While in team, boosts the performance of the equipped glider. Lifts the player slowly while gliding.",
+      "descriptionWiki": "While in team, can be summoned and used instead of a glider. Enables slow ascent while gliding.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Witch's Icy Veil",
+      "pal": "Icelyn",
+      "no": "142",
+      "type": "Combat",
+      "description": "While fighting together, increases attack power and changes the player's attack type to Ice.",
+      "descriptionWiki": "While fighting together, changes the player's attack type to Ice.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wolf of the Sun",
+      "pal": "Kitsun",
+      "no": null,
+      "type": null,
+      "description": "Increases base mount speed and enables mounting for Kitsun. Immune to freezing effects while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Worker Bee",
+      "pal": "Beegarde",
+      "no": "050",
+      "type": "Utility / Farming",
+      "description": "When assigned to the Ranch, Beegarde produces Honey. Each Beegarde in the party increases Elizabee's Attack.",
+      "descriptionWiki": "Sometimes drops Honey when assigned to Ranch. While in team, Elizabee's stats will be increased.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Wriggling Weasel",
+      "pal": "Chillet",
+      "no": "055",
+      "type": "Mount",
+      "description": "Increases the player's attack significantly and changes the player's damage type to Dragon while mounting Chillet.",
+      "descriptionWiki": "Can be ridden. Changes the player's attack type to Dragon while mounted.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Yellow Tank",
+      "pal": "Grizzbolt",
+      "no": "103",
+      "type": "Combat / Mount",
+      "description": "Can be ridden. Can rapidly fire a minigun while mounted.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    },
+    {
+      "name": "Yokozuna's Presence",
+      "pal": "Bulldosu",
+      "no": null,
+      "type": null,
+      "description": "Functions as a mount. While in the party, player and party Pals take less Elecric damage and are immune to Electrify.",
+      "descriptionWiki": null,
+      "sources": [
+        "game8"
+      ]
+    },
+    {
+      "name": "Zephyr Glider",
+      "pal": "Celaray",
+      "no": "025",
+      "type": "Mount (Glider)",
+      "description": "While in the team, increases the glider’s speed and movement while preventing fall damage.",
+      "descriptionWiki": "While in team, modifies the performance of the equipped glider. Increases speed while gliding for an extended time.",
+      "sources": [
+        "game8",
+        "wiki.gg"
+      ]
+    }
+  ]
+}

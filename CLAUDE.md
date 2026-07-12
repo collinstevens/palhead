@@ -15,10 +15,11 @@ Static site. No framework, no bundler for the app itself.
 | `index.html` | Generated output. Do not hand-edit; change `build.js` and rebuild. |
 | `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
 | `reference/passive_skills.json` | Local reference: all passive skills (rank, effects, fixed-on pals). Agent lookup only; not deployed. |
+| `reference/partner_skills.json` | Local reference: all partner skills (game8 primary descriptions; wiki.gg for no/type). Agent lookup only; not deployed. |
 | `reference/work_suitability.json` | Local reference: work suitability definitions, priority, tips. Agent lookup only; not deployed. |
 | `icons/` | Local pal icons (`.webp`), referenced as `icons/<file>`. |
 | `download-icons.js` | Scrapes/resolves paldb CDN icons into `icons/` and updates `img` on pals. |
-| `scripts/scrape-reference-data.js` | Pulls passive skills + work suitability from wikis into `reference/`. |
+| `scripts/scrape-reference-data.js` | Pulls passive skills, partner skills, and work suitability from wikis into `reference/`. |
 | `scripts/prepare-dist.js` | Copies `index.html` + `icons/` → `dist/` for deploy. |
 | `dist/` | Deploy artifact (gitignored). |
 | `wrangler.toml` | Cloudflare Pages config (`pages_build_output_dir = "dist"`). |
@@ -51,6 +52,7 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
 - Keep the site offline-capable except Tailwind CDN and outbound paldb name links.
 - Agent reference (not shipped in `dist/`):
   - `reference/passive_skills.json` — from [wiki.gg Passive Skills/List](https://palworld.wiki.gg/wiki/Passive_Skills/List)
+  - `reference/partner_skills.json` — primary [game8 Partner Skills](https://game8.co/games/Palworld/archives/439665); wiki.gg for deck no/type + alt text
   - `reference/work_suitability.json` — from [fandom Work Suitability](https://palworld.fandom.com/wiki/Work_Suitability)
   - Refresh with `npm run scrape-reference` when game data changes.
 

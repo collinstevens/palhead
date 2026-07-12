@@ -192,6 +192,249 @@ async function scrapeWorkSuitability() {
   };
 }
 
+function splitPalNames(raw) {
+  const cleaned = stripTags(raw)
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!cleaned) return [];
+  return cleaned
+    .split(/\s*(?:\||\/|,|;|\s{2,})\s*/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .filter((s) => !/^weapon$/i.test(s));
+}
+
+function extractPalNamesFromCell(html) {
+  const fromLinks = [...html.matchAll(/<a\b[^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((m) => stripTags(m[1]))
+    .map((t) => t.replace(/^Palworld\s*-\s*/i, "").trim())
+    .filter((t) => t && t.length < 60 && !/weapon$/i.test(t) && !/^partner skill/i.test(t));
+  if (fromLinks.length) {
+    const uniq = [];
+    for (const t of fromLinks) {
+      if (!uniq.includes(t)) uniq.push(t);
+    }
+    return uniq;
+  }
+
+  const titles = [...html.matchAll(/title="([^"]+)"/gi)]
+    .map((m) => decodeEntities(m[1]).trim())
+    .filter((t) => t && !/palworld/i.test(t) && !/icon/i.test(t) && t.length < 60);
+  if (titles.length) {
+    const uniq = [];
+    for (const t of titles) {
+      if (!uniq.includes(t)) uniq.push(t);
+    }
+    return uniq;
+  }
+  return splitPalNames(html);
+}
+
+function parseHtmlTableRowsWithHtmlCells(html) {
+  const tables = [...html.matchAll(/<table[\s\S]*?<\/table>/gi)].map((m) => m[0]);
+  const results = [];
+  for (const table of tables) {
+    const rows = [...table.matchAll(/<tr[\s\S]*?<\/tr>/gi)].map((m) => m[0]);
+    if (rows.length < 2) continue;
+    const headers = [...rows[0].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/gi)].map((m) =>
+      stripTags(m[1])
+    );
+    if (!headers.length) continue;
+    const data = [];
+    for (const row of rows.slice(1)) {
+      const cells = [...row.matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/gi)].map((m) => m[1]);
+      if (!cells.length) continue;
+      const obj = {};
+      headers.forEach((h, i) => {
+        obj[h || `col${i}`] = cells[i] ?? "";
+      });
+      data.push(obj);
+    }
+    if (data.length) results.push({ headers, rows: data });
+  }
+  return results;
+}
+
+async function scrapePartnerSkillsWiki() {
+  const j = await fetchJson(
+    "https://palworld.wiki.gg/api.php?action=parse&page=Partner_Skills&prop=text&formatversion=2&format=json"
+  );
+  const tables = parseHtmlTableRowsWithHtmlCells(j.parse.text);
+  const skills = [];
+  for (const table of tables) {
+    const headers = table.headers.map((h) => h.toLowerCase());
+    const hasSkill = headers.some((h) => h.includes("skill"));
+    const hasPal = headers.some((h) => h.includes("pal") || h.includes("species"));
+    if (!hasSkill || !hasPal) continue;
+
+    for (const row of table.rows) {
+      const name = stripTags(row["Skill Name"] || row.Name || "");
+      if (!name || /^skill name$/i.test(name)) continue;
+      const palCell =
+        row["Pal(s)"] || row.Pal || row.Species || row.Pals || row["Pal"] || "";
+      const pals = extractPalNamesFromCell(palCell);
+      const no = emptyToNull(stripTags(row["No."] || row.No || row["#"] || ""));
+      const type = emptyToNull(stripTags(row["Skill Type"] || row.Type || ""));
+      const description = stripTags(row.Description || "");
+      if (!pals.length) {
+        skills.push({
+          name,
+          pal: null,
+          no,
+          type,
+          description,
+          source: "wiki.gg",
+        });
+        continue;
+      }
+      for (const pal of pals) {
+        skills.push({
+          name,
+          pal,
+          no: pals.length === 1 ? no : null,
+          type,
+          description,
+          source: "wiki.gg",
+        });
+      }
+      if (pals.length === 1 && no) {
+        skills[skills.length - 1].no = no;
+      }
+    }
+  }
+  return skills;
+}
+
+async function scrapePartnerSkillsGame8() {
+  const r = await fetch("https://game8.co/games/Palworld/archives/439665", {
+    headers: { "User-Agent": UA, Accept: "text/html" },
+  });
+  if (!r.ok) throw new Error(`${r.status} game8 partner skills`);
+  const html = await r.text();
+  const tables = parseHtmlTableRowsWithHtmlCells(html);
+  const skills = [];
+  for (const table of tables) {
+    const headers = table.headers.map((h) => h.toLowerCase());
+    if (!headers.includes("partner skill") || !headers.includes("pal")) continue;
+    if (table.rows.length < 5) continue;
+
+    for (const row of table.rows) {
+      const name = stripTags(row["Partner Skill"] || "");
+      if (!name || /^partner skill$/i.test(name) || /^jump to/i.test(name)) continue;
+      const description = stripTags(row.Description || "");
+      const pals = extractPalNamesFromCell(row.Pal || "");
+      if (!pals.length) {
+        skills.push({
+          name,
+          pal: null,
+          no: null,
+          type: null,
+          description,
+          source: "game8",
+        });
+        continue;
+      }
+      for (const pal of pals) {
+        skills.push({
+          name,
+          pal,
+          no: null,
+          type: null,
+          description,
+          source: "game8",
+        });
+      }
+    }
+  }
+  return skills;
+}
+
+function skillKey(skill) {
+  return `${(skill.name || "").toLowerCase()}||${(skill.pal || "").toLowerCase()}`;
+}
+
+function sameText(a, b) {
+  if (!a || !b) return false;
+  return a.replace(/\s+/g, " ").trim() === b.replace(/\s+/g, " ").trim();
+}
+
+function mergePartnerSkills(wikiSkills, game8Skills) {
+  const byKey = new Map();
+
+  for (const s of game8Skills) {
+    byKey.set(skillKey(s), {
+      name: s.name,
+      pal: s.pal,
+      no: null,
+      type: null,
+      description: s.description || null,
+      descriptionWiki: null,
+      sources: ["game8"],
+    });
+  }
+
+  for (const s of wikiSkills) {
+    const key = skillKey(s);
+    const existing = byKey.get(key);
+    if (existing) {
+      if (s.no && !existing.no) existing.no = s.no;
+      if (s.type && !existing.type) existing.type = s.type;
+      if (s.description && !sameText(s.description, existing.description)) {
+        existing.descriptionWiki = s.description;
+      }
+      if (!existing.description) existing.description = s.description || null;
+      if (!existing.sources.includes("wiki.gg")) existing.sources.push("wiki.gg");
+      continue;
+    }
+    byKey.set(key, {
+      name: s.name,
+      pal: s.pal,
+      no: s.no,
+      type: s.type,
+      description: s.description || null,
+      descriptionWiki: null,
+      sources: ["wiki.gg"],
+    });
+  }
+
+  const skills = [...byKey.values()];
+  skills.sort((a, b) => {
+    const byName = a.name.localeCompare(b.name);
+    if (byName) return byName;
+    return String(a.pal || "").localeCompare(String(b.pal || ""));
+  });
+
+  return skills;
+}
+
+async function scrapePartnerSkills() {
+  const [wikiSkills, game8Skills] = await Promise.all([
+    scrapePartnerSkillsWiki(),
+    scrapePartnerSkillsGame8(),
+  ]);
+  const skills = mergePartnerSkills(wikiSkills, game8Skills);
+
+  return {
+    primarySource: "https://game8.co/games/Palworld/archives/439665",
+    sources: [
+      "https://game8.co/games/Palworld/archives/439665",
+      "https://palworld.wiki.gg/wiki/Partner_Skills",
+    ],
+    scrapedAt: new Date().toISOString(),
+    notes: {
+      condensation: "Pal Condensation raises Partner Skill level and effectiveness",
+      gear: "Some skills need Pal Gear (saddles/gloves) unlocked via Technology + Pal Gear Workbench",
+      structure:
+        "One entry per skill+pal pair. game8 is primary for descriptions; wiki.gg supplies deck no/type and descriptionWiki when it differs",
+    },
+    count: skills.length,
+    game8Count: game8Skills.length,
+    wikiCount: wikiSkills.length,
+    skills,
+  };
+}
+
 async function main() {
   const root = path.join(__dirname, "..");
   const outDir = path.join(root, "reference");
@@ -199,14 +442,20 @@ async function main() {
 
   const passive = await scrapePassiveSkills();
   const work = await scrapeWorkSuitability();
+  const partner = await scrapePartnerSkills();
 
   const passivePath = path.join(outDir, "passive_skills.json");
   const workPath = path.join(outDir, "work_suitability.json");
+  const partnerPath = path.join(outDir, "partner_skills.json");
   fs.writeFileSync(passivePath, JSON.stringify(passive, null, 2) + "\n");
   fs.writeFileSync(workPath, JSON.stringify(work, null, 2) + "\n");
+  fs.writeFileSync(partnerPath, JSON.stringify(partner, null, 2) + "\n");
 
   console.log(`Wrote ${passivePath} (${passive.count} skills)`);
   console.log(`Wrote ${workPath} (${work.suitabilities.length} suitabilities)`);
+  console.log(
+    `Wrote ${partnerPath} (${partner.count} skill+pal entries; wiki=${partner.wikiCount}, game8=${partner.game8Count})`
+  );
   const missing = work.suitabilities.filter((s) => !s.description).map((s) => s.name);
   if (missing.length) console.warn("Missing work descriptions:", missing.join(", "));
 }
