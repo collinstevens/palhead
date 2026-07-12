@@ -1,0 +1,14 @@
+node_modules/
+.wrangler/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+pals_raw.json
+pals_names.json
+work_names.json
+pals_page.html
+icon_map.json

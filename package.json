@@ -1,0 +1,21 @@
+{
+  "name": "palhead",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Palworld tools — work suitability spreadsheet",
+  "scripts": {
+    "build": "node build.js && node scripts/prepare-dist.js",
+    "download-icons": "node download-icons.js",
+    "scrape-reference": "node scripts/scrape-reference-data.js",
+    "login": "wrangler login",
+    "whoami": "wrangler whoami",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name palhead",
+    "preview": "npx --yes serve dist"
+  },
+  "dependencies": {
+    "wrangler": "^4.110.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
