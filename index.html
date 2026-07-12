@@ -31,6 +31,7 @@ tailwind.config = {
 }
 </script>
 <style>
+
   body {
     background:
       radial-gradient(1200px 600px at 10% -10%, #16304f 0%, transparent 55%),
@@ -100,6 +101,11 @@ tailwind.config = {
     border: 1px solid #2a3a55; flex-shrink: 0;
     image-rendering: auto;
   }
+  .pal-icon-lg {
+    width: 48px; height: 48px; object-fit: contain;
+    border-radius: 10px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+  }
   .pal-name-cell {
     display: flex; align-items: center; gap: 0.5rem;
   }
@@ -109,26 +115,41 @@ tailwind.config = {
   .pal-name-link:hover {
     color: #5eead4; text-decoration: underline;
   }
+  .work-pill {
+    display: inline-flex; align-items: center;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 3px 10px; border-radius: 999px;
+    background: #1e3a4f; color: #7dd3fc; border: 1px solid #2a5a75;
+  }
+  .plus-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; font-family: ui-monospace, Consolas, monospace;
+    min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
+    background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
+  }
+
 </style>
+
 </head>
 <body class="text-pal-text font-sans antialiased min-h-screen">
   <div class="min-h-screen flex flex-col">
     <header class="border-b border-pal-border/80 bg-pal-panel/80 backdrop-blur sticky top-0 z-30">
       <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</div>
+          <a href="index.html" class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</a>
           <div>
             <h1 class="text-lg font-bold tracking-tight leading-none">Palhead</h1>
             <p class="text-xs text-pal-muted mt-0.5">Palworld tools — work suitability spreadsheet</p>
           </div>
         </div>
         <nav class="flex items-center gap-2 text-sm">
-          <span class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Pals</span>
-          <span class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent opacity-50" title="Coming soon">More tools soon</span>
+          <a href="index.html" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Pals</a>
+          <a href="base-tips.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Base Tips</a>
         </nav>
       </div>
     </header>
 
+    
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
       <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-end gap-3">
@@ -173,6 +194,7 @@ tailwind.config = {
         </div>
       </section>
     </main>
+  
 
     <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
       Palhead · data derived from community game data dumps · not affiliated with Pocketpair
@@ -397,5 +419,6 @@ buildChrome();
 bind();
 renderTable();
 </script>
+
 </body>
 </html>

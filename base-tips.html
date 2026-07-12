@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Palhead — Base Tips</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        pal: {
+          bg: '#0b1220',
+          panel: '#121a2b',
+          panel2: '#182338',
+          border: '#2a3a55',
+          muted: '#8b9bb8',
+          text: '#e8eefc',
+          accent: '#5eead4',
+          accent2: '#38bdf8',
+          gold: '#fbbf24',
+        }
+      },
+      fontFamily: {
+        sans: ['Segoe UI', 'system-ui', 'sans-serif'],
+        mono: ['ui-monospace', 'Cascadia Code', 'Consolas', 'monospace']
+      }
+    }
+  }
+}
+</script>
+<style>
+
+  body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #16304f 0%, transparent 55%),
+      radial-gradient(900px 500px at 100% 0%, #1a2a1f 0%, transparent 40%),
+      #0b1220;
+  }
+  .table-wrap { max-height: calc(100vh - 220px); width: 100%; }
+  #table { width: 100%; table-layout: auto; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: #5eead4; }
+  th.sortable .sort-ind { opacity: 0.35; font-size: 0.7em; margin-left: 2px; }
+  th.sortable.active .sort-ind { opacity: 1; color: #5eead4; }
+  tr:hover td { background: rgba(94, 234, 212, 0.05); }
+  .lvl-0 { color: #3a4a63; }
+  .lvl-1 { color: #94a3b8; }
+  .lvl-2 { color: #7dd3fc; }
+  .lvl-3 { color: #34d399; }
+  .lvl-4 { color: #fbbf24; font-weight: 700; }
+  .lvl-5, .lvl-6, .lvl-7, .lvl-8, .lvl-9, .lvl-10 { color: #f472b6; font-weight: 800; }
+  .elem {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 2px 8px; border-radius: 999px; border: none;
+    line-height: 1.25;
+  }
+  .elem-Neutral { background: #475569; color: #f1f5f9; }
+  .elem-Fire { background: #dc2626; color: #fff1f2; }
+  .elem-Water { background: #0284c7; color: #f0f9ff; }
+  .elem-Grass { background: #16a34a; color: #f0fdf4; }
+  .elem-Electric { background: #ca8a04; color: #fefce8; }
+  .elem-Ice { background: #0891b2; color: #ecfeff; }
+  .elem-Ground { background: #c2410c; color: #fff7ed; }
+  .elem-Dark { background: #7c3aed; color: #f5f3ff; }
+  .elem-Dragon { background: #6d28d9; color: #f5f3ff; }
+  .chip {
+    display: inline-flex; align-items: center;
+    padding: 0; border: none; background: transparent; cursor: pointer;
+    border-radius: 999px; transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+    opacity: 0.72;
+  }
+  .chip .elem { font-size: 11px; padding: 4px 10px; }
+  .chip:hover { opacity: 1; transform: translateY(-1px); }
+  .chip.active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px #0b1220, 0 0 0 4px #5eead4;
+  }
+  #table thead th {
+    position: sticky; top: 0; z-index: 10;
+    background: #182338; box-shadow: inset 0 -1px 0 #2a3a55;
+  }
+  #table thead th.sticky-left, #table tbody td.sticky-left {
+    position: sticky; left: 0; z-index: 5;
+    background: #121a2b;
+  }
+  #table thead th.sticky-left { z-index: 15; background: #182338; }
+  #table thead th.sticky-name, #table tbody td.sticky-name {
+    position: sticky; left: 3.25rem; z-index: 5;
+    background: #121a2b;
+  }
+  #table thead th.sticky-name { z-index: 15; background: #182338; }
+  #table tbody tr:hover td.sticky-left,
+  #table tbody tr:hover td.sticky-name { background: #162033; }
+  .col-work { min-width: 0; }
+  .pal-icon {
+    width: 36px; height: 36px; object-fit: contain;
+    border-radius: 8px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+    image-rendering: auto;
+  }
+  .pal-icon-lg {
+    width: 48px; height: 48px; object-fit: contain;
+    border-radius: 10px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+  }
+  .pal-name-cell {
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .pal-name-link {
+    color: inherit; text-decoration: none;
+  }
+  .pal-name-link:hover {
+    color: #5eead4; text-decoration: underline;
+  }
+  .work-pill {
+    display: inline-flex; align-items: center;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 3px 10px; border-radius: 999px;
+    background: #1e3a4f; color: #7dd3fc; border: 1px solid #2a5a75;
+  }
+  .plus-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; font-family: ui-monospace, Consolas, monospace;
+    min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
+    background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
+  }
+
+</style>
+
+</head>
+<body class="text-pal-text font-sans antialiased min-h-screen">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-pal-border/80 bg-pal-panel/80 backdrop-blur sticky top-0 z-30">
+      <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</a>
+          <div>
+            <h1 class="text-lg font-bold tracking-tight leading-none">Palhead</h1>
+            <p class="text-xs text-pal-muted mt-0.5">Palworld tools — base work suitability boosts</p>
+          </div>
+        </div>
+        <nav class="flex items-center gap-2 text-sm">
+          <a href="index.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Pals</a>
+          <a href="base-tips.html" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Base Tips</a>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-4 max-w-5xl">
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <div>
+          <h2 class="text-xl font-bold tracking-tight">Base tips</h2>
+          <p class="text-sm text-pal-muted mt-1 leading-relaxed">
+            Partner skills that raise <span class="text-pal-text font-medium">work suitability level by +1</span>
+            for other pals at your base. Passive skills never grant work levels — only work speed and similar stats.
+          </p>
+        </div>
+        <ul class="grid sm:grid-cols-2 gap-2 text-sm text-pal-muted">
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Effects apply while the booster pal is assigned to that base.</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Duplicates generally do not stack (Wumpo text says so explicitly).</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Only pals that already have the work type benefit from the +1.</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>No known base-wide +1 for Kindling or Lumbering.</span></li>
+        </ul>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="px-4 py-3 border-b border-pal-border/70 flex flex-wrap items-center justify-between gap-2">
+          <h3 class="font-semibold">Work suitability +1 partner skills</h3>
+          <span class="text-xs text-pal-muted">8 boosters · clear “other base pals” wording</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
+                <th class="px-3 py-2.5 font-semibold">Work</th>
+                <th class="px-3 py-2.5 font-semibold text-center">Boost</th>
+                <th class="px-3 py-2.5 font-semibold">Pal</th>
+                <th class="px-3 py-2.5 font-semibold">Partner skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Watering</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_ClioneTwins_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Amione" target="_blank" rel="noopener noreferrer">Amione</a><span class="text-pal-muted font-mono text-xs">#47</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Water">Water</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Magical Twin Powers</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">While at base, +1 Watering for all other base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Generating Electricity</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_ElecPomeranian_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Puffolt" target="_blank" rel="noopener noreferrer">Puffolt</a><span class="text-pal-muted font-mono text-xs">#62</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Electric">Electric</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Crackle Booster</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">While at base, +1 Generating Electricity for all other base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Handiwork</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_PinkRabbit_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Ribbuny" target="_blank" rel="noopener noreferrer">Ribbuny</a><span class="text-pal-muted font-mono text-xs">#44</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Neutral">Neutral</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Happy-Go-Lucky Bunny</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">Also buffs Neutral party attack. +1 Handiwork for base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Gathering</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_CloverFairy_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Clovee" target="_blank" rel="noopener noreferrer">Clovee</a><span class="text-pal-muted font-mono text-xs">#14</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Grass">Grass</span> <span class="elem elem-Neutral">Neutral</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Happy Clover</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">While at base, +1 Gathering for all other base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Mining</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_CubeTurtle_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Tetroise" target="_blank" rel="noopener noreferrer">Tetroise</a><span class="text-pal-muted font-mono text-xs">#142</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Ground">Ground</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Masonry Archelon</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">Mount. +1 Mining for all other base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Medicine Production</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_MushroomLady_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Mycora" target="_blank" rel="noopener noreferrer">Mycora</a><span class="text-pal-muted font-mono text-xs">#179</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Grass">Grass</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Charming Spore</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">+1 Medicine Production for other base pals at the base.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Cooling</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_BlackPuppy_Ice_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Smokie_Cryst" target="_blank" rel="noopener noreferrer">Smokie Cryst</a><span class="text-pal-muted font-mono text-xs">#149</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Dark">Dark</span> <span class="elem elem-Ice">Ice</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Cryo Instincts</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">+1 Cooling for all other base pals.</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Transporting</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_Yeti_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Wumpo" target="_blank" rel="noopener noreferrer">Wumpo</a><span class="text-pal-muted font-mono text-xs">#134</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Ice">Ice</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Guardian of the Snowy Mountain</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">Mount. +1 Transporting for all other base pals (does not stack).</div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <h3 class="font-semibold">Coverage by work type</h3>
+        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-accent2 hover:underline" href="index.html">Pals spreadsheet</a>.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+          <div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Kindling</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-muted font-semibold text-xs">none known</span><span class="text-sm font-medium truncate">—</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Watering</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Amione</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Planting</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-gold font-semibold text-xs">unclear</span><span class="text-sm font-medium truncate">Petallia</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Generating Electricity</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Puffolt</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Handiwork</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Ribbuny</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Gathering</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Clovee</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Lumbering</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-muted font-semibold text-xs">none known</span><span class="text-sm font-medium truncate">—</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Mining</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Tetroise</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Medicine Production</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Mycora</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Cooling</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Smokie Cryst</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Transporting</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-accent font-semibold text-xs">+1 aura</span><span class="text-sm font-medium truncate">Wumpo</span></div></div><div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5"><div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">Farming</div><div class="mt-1 flex items-center justify-between gap-2"><span class="text-pal-gold font-semibold text-xs">unclear</span><span class="text-sm font-medium truncate">Cinnamoth</span></div></div>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="px-4 py-3 border-b border-pal-border/70">
+          <h3 class="font-semibold">Ambiguous / self-only wording</h3>
+          <p class="text-xs text-pal-muted mt-1">These raise suitability at base, but descriptions do not clearly say “other base pals.” Treat as uncertain until verified in-game.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
+                <th class="px-3 py-2.5 font-semibold">Work</th>
+                <th class="px-3 py-2.5 font-semibold text-center">Boost</th>
+                <th class="px-3 py-2.5 font-semibold">Pal</th>
+                <th class="px-3 py-2.5 font-semibold">Partner skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Planting</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_FlowerDoll_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Petallia" target="_blank" rel="noopener noreferrer">Petallia</a><span class="text-pal-muted font-mono text-xs">#89</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Grass">Grass</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Blessing of the Flower Spirit</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">Raises Planting suitability while at base — wording does not clearly say “other base pals.”</div></td></tr><tr class="border-t border-pal-border/40"><td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">Farming</span></td><td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td><td class="px-3 py-3"><div class="flex items-center gap-3 min-w-0"><img class="pal-icon" src="icons/T_CuteButterfly_icon_normal.webp" alt="" width="36" height="36" /><div class="min-w-0"><div class="flex items-center gap-2 flex-wrap"><a class="pal-name-link font-semibold" href="https://paldb.cc/en/Cinnamoth" target="_blank" rel="noopener noreferrer">Cinnamoth</a><span class="text-pal-muted font-mono text-xs">#61</span></div><div class="mt-1 flex flex-wrap gap-1"><span class="elem elem-Grass">Grass</span></div></div></div></td><td class="px-3 py-3"><div class="font-semibold text-sm">Mysterious Scales</div><div class="text-xs text-pal-muted mt-0.5 leading-relaxed">Boosts Farming suitability while at base — wording does not clearly say “other base pals.”</div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <h3 class="font-semibold">Other base work tips</h3>
+        <ul class="space-y-2 text-sm text-pal-muted">
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span><span class="text-pal-text">Pal Essence Condenser</span> can raise a work suitability by one level on the individual pal.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Match specialized workers to <span class="text-pal-text">Medicine Production</span> and <span class="text-pal-text">Cooling</span> — those tasks sit low in work priority.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Keep <span class="text-pal-text">Gathering</span> + <span class="text-pal-text">Transporting</span> covered so farms and mines actually clear into chests.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Use the <span class="text-pal-text">Monitor Stand</span> to allow/disallow work types when pals wander off priority jobs.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Passives like Artisan / Work Slave raise <span class="text-pal-text">work speed</span>, not suitability rank.</span></li>
+        </ul>
+      </section>
+    </main>
+  
+
+    <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
+      Palhead · data derived from community game data dumps · not affiliated with Pocketpair
+    </footer>
+  </div>
+
+</body>
+</html>

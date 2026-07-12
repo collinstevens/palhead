@@ -7,7 +7,11 @@ const dist = path.join(root, "dist");
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
 
-fs.copyFileSync(path.join(root, "index.html"), path.join(dist, "index.html"));
+for (const file of fs.readdirSync(root)) {
+  if (file.endsWith(".html")) {
+    fs.copyFileSync(path.join(root, file), path.join(dist, file));
+  }
+}
 
 function copyDir(src, dest) {
   fs.mkdirSync(dest, { recursive: true });

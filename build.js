@@ -2,39 +2,127 @@ const fs = require("fs");
 const data = require("./pals_data.json");
 const dataJson = JSON.stringify(data);
 
-const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Palhead — Pals Work Suitability Spreadsheet</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        pal: {
-          bg: '#0b1220',
-          panel: '#121a2b',
-          panel2: '#182338',
-          border: '#2a3a55',
-          muted: '#8b9bb8',
-          text: '#e8eefc',
-          accent: '#5eead4',
-          accent2: '#38bdf8',
-          gold: '#fbbf24',
-        }
-      },
-      fontFamily: {
-        sans: ['Segoe UI', 'system-ui', 'sans-serif'],
-        mono: ['ui-monospace', 'Cascadia Code', 'Consolas', 'monospace']
-      }
-    }
-  }
+const WORK = data.work;
+const PALS = data.pals;
+
+const NAV = [
+  { id: "pals", href: "index.html", label: "Pals" },
+  { id: "base-tips", href: "base-tips.html", label: "Base Tips" },
+];
+
+const BASE_WORK_BOOSTERS = [
+  {
+    work: "Watering",
+    skill: "Magical Twin Powers",
+    pal: "Amione",
+    note: "While at base, +1 Watering for all other base pals.",
+  },
+  {
+    work: "Generating Electricity",
+    skill: "Crackle Booster",
+    pal: "Puffolt",
+    note: "While at base, +1 Generating Electricity for all other base pals.",
+  },
+  {
+    work: "Handiwork",
+    skill: "Happy-Go-Lucky Bunny",
+    pal: "Ribbuny",
+    note: "Also buffs Neutral party attack. +1 Handiwork for base pals.",
+  },
+  {
+    work: "Gathering",
+    skill: "Happy Clover",
+    pal: "Clovee",
+    note: "While at base, +1 Gathering for all other base pals.",
+  },
+  {
+    work: "Mining",
+    skill: "Masonry Archelon",
+    pal: "Tetroise",
+    note: "Mount. +1 Mining for all other base pals.",
+  },
+  {
+    work: "Medicine Production",
+    skill: "Charming Spore",
+    pal: "Mycora",
+    note: "+1 Medicine Production for other base pals at the base.",
+  },
+  {
+    work: "Cooling",
+    skill: "Cryo Instincts",
+    pal: "Smokie Cryst",
+    note: "+1 Cooling for all other base pals.",
+  },
+  {
+    work: "Transporting",
+    skill: "Guardian of the Snowy Mountain",
+    pal: "Wumpo",
+    note: "Mount. +1 Transporting for all other base pals (does not stack).",
+  },
+];
+
+const AMBIGUOUS_BOOSTERS = [
+  {
+    work: "Planting",
+    skill: "Blessing of the Flower Spirit",
+    pal: "Petallia",
+    note: "Raises Planting suitability while at base — wording does not clearly say “other base pals.”",
+  },
+  {
+    work: "Farming",
+    skill: "Mysterious Scales",
+    pal: "Cinnamoth",
+    note: "Boosts Farming suitability while at base — wording does not clearly say “other base pals.”",
+  },
+];
+
+const NO_BOOST_WORK = ["Kindling", "Lumbering"];
+
+function findPal(name) {
+  return PALS.find((p) => p.n === name) || null;
 }
-</script>
-<style>
+
+function escapeHtml(s) {
+  return String(s).replace(
+    /[&<>"']/g,
+    (c) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[c]
+  );
+}
+
+function paldbUrl(name) {
+  return "https://paldb.cc/en/" + encodeURIComponent(name.replace(/ /g, "_"));
+}
+
+function renderNav(activeId) {
+  return NAV.map((item) => {
+    if (item.id === activeId) {
+      return (
+        '<a href="' +
+        item.href +
+        '" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">' +
+        escapeHtml(item.label) +
+        "</a>"
+      );
+    }
+    return (
+      '<a href="' +
+      item.href +
+      '" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">' +
+      escapeHtml(item.label) +
+      "</a>"
+    );
+  }).join("\n          ");
+}
+
+function sharedStyles() {
+  return `
   body {
     background:
       radial-gradient(1200px 600px at 10% -10%, #16304f 0%, transparent 55%),
@@ -104,6 +192,11 @@ tailwind.config = {
     border: 1px solid #2a3a55; flex-shrink: 0;
     image-rendering: auto;
   }
+  .pal-icon-lg {
+    width: 48px; height: 48px; object-fit: contain;
+    border-radius: 10px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+  }
   .pal-name-cell {
     display: flex; align-items: center; gap: 0.5rem;
   }
@@ -113,26 +206,280 @@ tailwind.config = {
   .pal-name-link:hover {
     color: #5eead4; text-decoration: underline;
   }
+  .work-pill {
+    display: inline-flex; align-items: center;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 3px 10px; border-radius: 999px;
+    background: #1e3a4f; color: #7dd3fc; border: 1px solid #2a5a75;
+  }
+  .plus-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; font-family: ui-monospace, Consolas, monospace;
+    min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
+    background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
+  }
+`;
+}
+
+function shell({ title, subtitle, activeNav, body, headExtra = "", bodyScripts = "" }) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>${escapeHtml(title)}</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        pal: {
+          bg: '#0b1220',
+          panel: '#121a2b',
+          panel2: '#182338',
+          border: '#2a3a55',
+          muted: '#8b9bb8',
+          text: '#e8eefc',
+          accent: '#5eead4',
+          accent2: '#38bdf8',
+          gold: '#fbbf24',
+        }
+      },
+      fontFamily: {
+        sans: ['Segoe UI', 'system-ui', 'sans-serif'],
+        mono: ['ui-monospace', 'Cascadia Code', 'Consolas', 'monospace']
+      }
+    }
+  }
+}
+</script>
+<style>
+${sharedStyles()}
 </style>
+${headExtra}
 </head>
 <body class="text-pal-text font-sans antialiased min-h-screen">
   <div class="min-h-screen flex flex-col">
     <header class="border-b border-pal-border/80 bg-pal-panel/80 backdrop-blur sticky top-0 z-30">
       <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</div>
+          <a href="index.html" class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</a>
           <div>
             <h1 class="text-lg font-bold tracking-tight leading-none">Palhead</h1>
-            <p class="text-xs text-pal-muted mt-0.5">Palworld tools — work suitability spreadsheet</p>
+            <p class="text-xs text-pal-muted mt-0.5">${escapeHtml(subtitle)}</p>
           </div>
         </div>
         <nav class="flex items-center gap-2 text-sm">
-          <span class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Pals</span>
-          <span class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent opacity-50" title="Coming soon">More tools soon</span>
+          ${renderNav(activeNav)}
         </nav>
       </div>
     </header>
 
+    ${body}
+
+    <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
+      Palhead · data derived from community game data dumps · not affiliated with Pocketpair
+    </footer>
+  </div>
+${bodyScripts}
+</body>
+</html>
+`;
+}
+
+function palCell(name) {
+  const pal = findPal(name);
+  const img = pal && pal.img
+    ? '<img class="pal-icon" src="icons/' +
+      escapeHtml(pal.img) +
+      '" alt="" width="36" height="36" />'
+    : '<div class="pal-icon" aria-hidden="true"></div>';
+  const deck = pal ? '<span class="text-pal-muted font-mono text-xs">#' + pal.d + "</span>" : "";
+  const elems =
+    pal && pal.e
+      ? pal.e
+          .map((e) => '<span class="elem elem-' + e + '">' + escapeHtml(e) + "</span>")
+          .join(" ")
+      : "";
+  return (
+    '<div class="flex items-center gap-3 min-w-0">' +
+    img +
+    '<div class="min-w-0">' +
+    '<div class="flex items-center gap-2 flex-wrap">' +
+    '<a class="pal-name-link font-semibold" href="' +
+    paldbUrl(name) +
+    '" target="_blank" rel="noopener noreferrer">' +
+    escapeHtml(name) +
+    "</a>" +
+    deck +
+    "</div>" +
+    (elems ? '<div class="mt-1 flex flex-wrap gap-1">' + elems + "</div>" : "") +
+    "</div></div>"
+  );
+}
+
+function boosterRows(list) {
+  return list
+    .map((b) => {
+      return (
+        '<tr class="border-t border-pal-border/40">' +
+        '<td class="px-3 py-3 whitespace-nowrap"><span class="work-pill">' +
+        escapeHtml(b.work) +
+        "</span></td>" +
+        '<td class="px-3 py-3 text-center"><span class="plus-badge">+1</span></td>' +
+        '<td class="px-3 py-3">' +
+        palCell(b.pal) +
+        "</td>" +
+        '<td class="px-3 py-3">' +
+        '<div class="font-semibold text-sm">' +
+        escapeHtml(b.skill) +
+        "</div>" +
+        '<div class="text-xs text-pal-muted mt-0.5 leading-relaxed">' +
+        escapeHtml(b.note) +
+        "</div>" +
+        "</td>" +
+        "</tr>"
+      );
+    })
+    .join("");
+}
+
+function coverageGrid() {
+  const boosted = new Map(BASE_WORK_BOOSTERS.map((b) => [b.work, b]));
+  const ambiguous = new Map(AMBIGUOUS_BOOSTERS.map((b) => [b.work, b]));
+
+  return WORK.map((work) => {
+    const b = boosted.get(work);
+    const a = ambiguous.get(work);
+    let status;
+    let detail;
+    if (b) {
+      status =
+        '<span class="text-pal-accent font-semibold text-xs">+1 aura</span>';
+      detail = escapeHtml(b.pal);
+    } else if (a) {
+      status =
+        '<span class="text-pal-gold font-semibold text-xs">unclear</span>';
+      detail = escapeHtml(a.pal);
+    } else if (NO_BOOST_WORK.includes(work)) {
+      status =
+        '<span class="text-pal-muted font-semibold text-xs">none known</span>';
+      detail = "—";
+    } else {
+      status =
+        '<span class="text-pal-muted font-semibold text-xs">none known</span>';
+      detail = "—";
+    }
+    return (
+      '<div class="rounded-lg border border-pal-border/70 bg-pal-bg/40 px-3 py-2.5">' +
+      '<div class="text-[11px] uppercase tracking-wide text-pal-muted font-semibold">' +
+      escapeHtml(work) +
+      "</div>" +
+      '<div class="mt-1 flex items-center justify-between gap-2">' +
+      status +
+      '<span class="text-sm font-medium truncate">' +
+      detail +
+      "</span>" +
+      "</div></div>"
+    );
+  }).join("");
+}
+
+function buildBaseTipsPage() {
+  const body = `
+    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-4 max-w-5xl">
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <div>
+          <h2 class="text-xl font-bold tracking-tight">Base tips</h2>
+          <p class="text-sm text-pal-muted mt-1 leading-relaxed">
+            Partner skills that raise <span class="text-pal-text font-medium">work suitability level by +1</span>
+            for other pals at your base. Passive skills never grant work levels — only work speed and similar stats.
+          </p>
+        </div>
+        <ul class="grid sm:grid-cols-2 gap-2 text-sm text-pal-muted">
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Effects apply while the booster pal is assigned to that base.</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Duplicates generally do not stack (Wumpo text says so explicitly).</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Only pals that already have the work type benefit from the +1.</span></li>
+          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>No known base-wide +1 for Kindling or Lumbering.</span></li>
+        </ul>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="px-4 py-3 border-b border-pal-border/70 flex flex-wrap items-center justify-between gap-2">
+          <h3 class="font-semibold">Work suitability +1 partner skills</h3>
+          <span class="text-xs text-pal-muted">${BASE_WORK_BOOSTERS.length} boosters · clear “other base pals” wording</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
+                <th class="px-3 py-2.5 font-semibold">Work</th>
+                <th class="px-3 py-2.5 font-semibold text-center">Boost</th>
+                <th class="px-3 py-2.5 font-semibold">Pal</th>
+                <th class="px-3 py-2.5 font-semibold">Partner skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${boosterRows(BASE_WORK_BOOSTERS)}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <h3 class="font-semibold">Coverage by work type</h3>
+        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-accent2 hover:underline" href="index.html">Pals spreadsheet</a>.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+          ${coverageGrid()}
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="px-4 py-3 border-b border-pal-border/70">
+          <h3 class="font-semibold">Ambiguous / self-only wording</h3>
+          <p class="text-xs text-pal-muted mt-1">These raise suitability at base, but descriptions do not clearly say “other base pals.” Treat as uncertain until verified in-game.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
+                <th class="px-3 py-2.5 font-semibold">Work</th>
+                <th class="px-3 py-2.5 font-semibold text-center">Boost</th>
+                <th class="px-3 py-2.5 font-semibold">Pal</th>
+                <th class="px-3 py-2.5 font-semibold">Partner skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${boosterRows(AMBIGUOUS_BOOSTERS)}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+        <h3 class="font-semibold">Other base work tips</h3>
+        <ul class="space-y-2 text-sm text-pal-muted">
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span><span class="text-pal-text">Pal Essence Condenser</span> can raise a work suitability by one level on the individual pal.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Match specialized workers to <span class="text-pal-text">Medicine Production</span> and <span class="text-pal-text">Cooling</span> — those tasks sit low in work priority.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Keep <span class="text-pal-text">Gathering</span> + <span class="text-pal-text">Transporting</span> covered so farms and mines actually clear into chests.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Use the <span class="text-pal-text">Monitor Stand</span> to allow/disallow work types when pals wander off priority jobs.</span></li>
+          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Passives like Artisan / Work Slave raise <span class="text-pal-text">work speed</span>, not suitability rank.</span></li>
+        </ul>
+      </section>
+    </main>
+  `;
+
+  return shell({
+    title: "Palhead — Base Tips",
+    subtitle: "Palworld tools — base work suitability boosts",
+    activeNav: "base-tips",
+    body,
+  });
+}
+
+function buildPalsPage() {
+  const body = `
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
       <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-end gap-3">
@@ -177,12 +524,9 @@ tailwind.config = {
         </div>
       </section>
     </main>
+  `;
 
-    <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
-      Palhead · data derived from community game data dumps · not affiliated with Pocketpair
-    </footer>
-  </div>
-
+  const bodyScripts = `
 <script>
 const DATA = ${dataJson};
 
@@ -401,10 +745,22 @@ buildChrome();
 bind();
 renderTable();
 </script>
-</body>
-</html>
 `;
 
-fs.writeFileSync("index.html", html);
+  return shell({
+    title: "Palhead — Pals Work Suitability Spreadsheet",
+    subtitle: "Palworld tools — work suitability spreadsheet",
+    activeNav: "pals",
+    body,
+    bodyScripts,
+  });
+}
+
+const indexHtml = buildPalsPage();
+const baseTipsHtml = buildBaseTipsPage();
+
+fs.writeFileSync("index.html", indexHtml);
+fs.writeFileSync("base-tips.html", baseTipsHtml);
 console.log("wrote index.html", fs.statSync("index.html").size, "bytes");
+console.log("wrote base-tips.html", fs.statSync("base-tips.html").size, "bytes");
 console.log("pals:", data.pals.length);

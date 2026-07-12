@@ -11,8 +11,9 @@ Static site. No framework, no bundler for the app itself.
 
 | Path | Role |
 |------|------|
-| `build.js` | Source of truth for the UI. Embeds `pals_data.json` and writes `index.html`. |
-| `index.html` | Generated output. Do not hand-edit; change `build.js` and rebuild. |
+| `build.js` | Source of truth for the UI. Embeds `pals_data.json` and writes all HTML pages. |
+| `index.html` | Generated pals spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
+| `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
 | `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
 | `reference/passive_skills.json` | Local reference: all passive skills (rank, effects, fixed-on pals). Agent lookup only; not deployed. |
 | `reference/partner_skills.json` | Local reference: all partner skills (game8 primary descriptions; wiki.gg for no/type). Agent lookup only; not deployed. |
