@@ -71,7 +71,7 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
 
 - Cloudflare Pages project name: **palhead**
 - Deploy only `dist/` contents (HTML + icons)
-- Production branch: **`main`** (serves `palhead.pages.dev`). `npm run deploy` uses `--branch main` so direct uploads hit Production even when local git is on `master`. Deploys without that flag only create Preview URLs.
+- Production branch: **`master` only** (serves `palhead.pages.dev`). Local git and Pages production must both use `master` — never `main`. `npm run deploy` uses `--branch master`.
 
 ## UI conventions
 

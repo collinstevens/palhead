@@ -12,7 +12,7 @@
     "build-partner-discrepancies": "node scripts/build-partner-skills-discrepancies.js",
     "login": "wrangler login",
     "whoami": "wrangler whoami",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name palhead --branch main",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name palhead --branch master",
     "preview": "npx --yes serve dist"
   },
   "dependencies": {
