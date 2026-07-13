@@ -127,6 +127,48 @@ tailwind.config = {
     min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
     background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
   }
+  .src-badge, .status-badge {
+    display: inline-flex; align-items: center;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 2px 7px; border-radius: 999px; border: 1px solid transparent;
+    line-height: 1.25; white-space: nowrap;
+  }
+  .src-wiki-gg { background: rgba(56, 189, 248, 0.12); color: #7dd3fc; border-color: rgba(56, 189, 248, 0.3); }
+  .src-game8 { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+  .src-paldb { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+  .src-correction { background: rgba(244, 114, 182, 0.12); color: #f472b6; border-color: rgba(244, 114, 182, 0.35); }
+  .status-pending { background: rgba(148, 163, 184, 0.12); color: #94a3b8; border-color: rgba(148, 163, 184, 0.3); }
+  .status-partial { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+  .status-verified { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+  .status-skipped { background: rgba(167, 139, 250, 0.12); color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); }
+  .desc-cell { max-width: 36rem; line-height: 1.4; }
+  .per-source-block {
+    margin-top: 0.4rem; padding: 0.45rem 0.6rem; border-radius: 8px;
+    background: rgba(11, 18, 32, 0.65); border: 1px solid #2a3a55;
+    font-size: 11px; color: #8b9bb8;
+  }
+  .per-source-block strong { color: #e8eefc; font-weight: 600; }
+  .stat-card {
+    background: #121a2b; border: 1px solid #2a3a55; border-radius: 12px; padding: 0.75rem 1rem;
+  }
+  .stat-card .n { font-size: 1.35rem; font-weight: 800; line-height: 1.1; }
+  .filter-chip {
+    display: inline-flex; align-items: center; gap: 0.25rem;
+    padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid #2a3a55;
+    background: #0b1220; color: #8b9bb8; font-size: 12px; font-weight: 600;
+    cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
+  }
+  .filter-chip:hover { color: #e8eefc; border-color: #5eead4; }
+  .filter-chip.active { color: #5eead4; border-color: rgba(94, 234, 212, 0.45); background: rgba(94, 234, 212, 0.08); }
+  .section-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .section-tab {
+    padding: 0.4rem 0.85rem; border-radius: 999px; border: 1px solid #2a3a55;
+    background: #0b1220; color: #8b9bb8; font-size: 13px; font-weight: 600; cursor: pointer;
+  }
+  .section-tab.active { color: #0b1220; background: #5eead4; border-color: #5eead4; }
+  .conflict-card {
+    border: 1px solid #2a3a55; border-radius: 12px; background: #121a2b; padding: 0.85rem 1rem;
+  }
 
 </style>
 
@@ -144,6 +186,8 @@ tailwind.config = {
         </div>
         <nav class="flex items-center gap-2 text-sm">
           <a href="index.html" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Pals</a>
+          <a href="partner-skills.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Partner Skills</a>
+          <a href="partner-verify.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Verify</a>
           <a href="base-tips.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Base Tips</a>
         </nav>
       </div>

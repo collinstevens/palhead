@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Human-maintained log of which sites are wrong/outdated for which partner skill facts. Update as screenshots and in-game checks accumulate. Separate from auto cross-source-diff.json.",
+  "entries": []
+}

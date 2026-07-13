@@ -13,14 +13,19 @@ Static site. No framework, no bundler for the app itself.
 |------|------|
 | `build.js` | Source of truth for the UI. Embeds `pals_data.json` and writes all HTML pages. |
 | `index.html` | Generated pals spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
+| `partner-skills.html` | Generated partner skills catalog (resolved scrapes + corrections). Do not hand-edit; change `build.js` and rebuild. |
+| `partner-verify.html` | Generated Palpedia checklist + site discrepancies. Do not hand-edit; change `build.js` and rebuild. |
 | `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
 | `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
+| `reference/PROVENANCE.md` | How we track where every fact came from (scrapes vs corrections vs resolved). |
 | `reference/passive_skills.json` | Local reference: all passive skills (rank, effects, fixed-on pals). Agent lookup only; not deployed. |
-| `reference/partner_skills.json` | Local reference: all partner skills (game8 primary descriptions; wiki.gg for no/type). Agent lookup only; not deployed. |
+| `reference/partner-skills/` | Multi-source partner skills: per-site scrapes, corrections, discrepancies, resolved view. See its README. |
+| `reference/partner_skills.json` | Deprecated stub pointing at `reference/partner-skills/`. |
 | `reference/work_suitability.json` | Local reference: work suitability definitions, priority, tips. Agent lookup only; not deployed. |
 | `icons/` | Local pal icons (`.webp`), referenced as `icons/<file>`. |
 | `download-icons.js` | Scrapes/resolves paldb CDN icons into `icons/` and updates `img` on pals. |
-| `scripts/scrape-reference-data.js` | Pulls passive skills, partner skills, and work suitability from wikis into `reference/`. |
+| `scripts/scrape-reference-data.js` | Pulls passive skills + work suitability; invokes partner-skills scraper. |
+| `scripts/scrape-partner-skills.js` | Scrapes 4 partner-skill sites into separate source files + rebuilds resolved view. |
 | `scripts/prepare-dist.js` | Copies `index.html` + `icons/` → `dist/` for deploy. |
 | `dist/` | Deploy artifact (gitignored). |
 | `wrangler.toml` | Cloudflare Pages config (`pages_build_output_dir = "dist"`). |
@@ -37,7 +42,10 @@ Zero work levels are shown as empty cells. Pal names link to `https://paldb.cc/e
 npm install
 npm run build            # rebuild index.html + dist/
 npm run download-icons   # re-fetch icons (needs network)
-npm run scrape-reference # re-fetch wiki reference data into reference/ (needs network)
+npm run scrape-reference # re-fetch passives, work suitability, partner skills (needs network)
+npm run scrape-partner-skills # re-fetch all 4 partner-skill sources + resolved (needs network)
+npm run build-partner-checklist # rebuild CHECKLIST.md from checklist.json progress
+npm run build-partner-discrepancies # rebuild site-vs-site DISCREPANCIES.md
 npm run login            # wrangler OAuth
 npm run whoami
 npm run deploy           # build + wrangler pages deploy dist --project-name palhead
@@ -51,11 +59,12 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
 - `pals_data.json` is derived from community game data (oMaN-Rod/palworld-save-pal style dumps) + paldb icons.
 - Prefer regenerating via scripts over hand-editing hundreds of pals.
 - Keep the site offline-capable except Tailwind CDN and outbound paldb name links.
+- **Provenance:** see `reference/PROVENANCE.md`. Scraped site copies and human/in-game corrections are never mixed.
 - Agent reference (not shipped in `dist/`):
   - `reference/passive_skills.json` — from [wiki.gg Passive Skills/List](https://palworld.wiki.gg/wiki/Passive_Skills/List)
-  - `reference/partner_skills.json` — primary [game8 Partner Skills](https://game8.co/games/Palworld/archives/439665); wiki.gg for deck no/type + alt text
+  - `reference/partner-skills/` — four independent scrapes ([wiki.gg](https://palworld.wiki.gg/wiki/Partner_Skills), [game8](https://game8.co/games/Palworld/archives/439665), [fandom](https://palworld.fandom.com/wiki/Partner_Skills), [paldb](https://paldb.cc/en/Partner_Skill)) + `corrections/` + `resolved.json` + **`checklist.json` / `CHECKLIST.md`** for Palpedia verification. Process: `reference/partner-skills/README.md`. **Preserve every user screenshot forever** under `partner-skills/corrections/evidence/`.
   - `reference/work_suitability.json` — from [fandom Work Suitability](https://palworld.fandom.com/wiki/Work_Suitability)
-  - Refresh with `npm run scrape-reference` when game data changes.
+  - Refresh scrapes with `npm run scrape-reference` / `npm run scrape-partner-skills`. Apply in-game fixes only via `partner-skills/corrections/`.
 
 ## Hosting
 

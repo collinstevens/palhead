@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Ground-truth partner skill amendments verified in-game (screenshots/notes). Applied over scraped sources when building resolved.json. Never mixed into source scrape files.",
+  "entries": []
+}
