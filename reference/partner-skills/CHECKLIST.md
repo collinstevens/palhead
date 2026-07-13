@@ -14,14 +14,14 @@ Track in-game Palpedia screenshots for every pal. **Progress source of truth:** 
 
 | Status | Count |
 |--------|------:|
-| pending | 298 |
+| pending | 168 |
 | partial | 0 |
-| verified | 3 |
+| verified | 132 |
 | skipped | 0 |
-| **total** | **301** |
-| with evidence files | 3 |
+| **total** | **300** |
+| with evidence files | 132 |
 
-Updated: 2026-07-13T02:44:21.149Z
+Updated: 2026-07-13T07:46:34.425Z
 
 ## Checklist
 
@@ -30,152 +30,152 @@ Updated: 2026-07-13T02:44:21.149Z
 | [x] | 001 | Lamball | Fluffy Shield | 001-lamball--fluffy-shield--20260712-194244.jpg |
 | [x] | 002 | Cattiva | Cat Helper | 002-cattiva--cat-helper--20260712-194338.jpg |
 | [x] | 003 | Chikipi | Egg Layer | 003-chikipi--egg-layer--20260712-194407.jpg |
-| [ ] | 004 | Lifmunk | Lifmunk Recoil |  |
-| [ ] | 005 | Fuack | Surfing Slam |  |
-| [ ] | 005 | Fuack Ignis | Fire Tackle |  |
-| [ ] | 006 | Vixy | Dig Here! |  |
-| [ ] | 007 | Celaray | Zephyr Glider |  |
-| [ ] | 007 | Celaray Lux | Jolt Glider |  |
-| [ ] | 008 | Cremis | Fluffy Wool |  |
-| [ ] | 009 | Croajiro | Leap Stance |  |
-| [ ] | 009 | Croajiro Noct | Shadow Stance |  |
-| [ ] | 010 | Herbil | Herbil Pulse |  |
-| [ ] | 011 | Teafant | Soothing Shower |  |
-| [ ] | 012 | Gumoss | Logging Assistance |  |
-| [ ] | 013 | Pupperai | Best Boy |  |
-| [ ] | 014 | Clovee | Happy Clover |  |
-| [ ] | 015 | Jolthog | Jolt Bomb |  |
-| [ ] | 015 | Jolthog Cryst | Cold Bomb |  |
-| [ ] | 016 | Depresso | Caffeine Inoculation |  |
-| [ ] | 017 | Pengullet | Pengullet Launcher |  |
-| [ ] | 017 | Pengullet Lux | Pengullet Lux Launcher |  |
-| [ ] | 018 | Penking | Brave Sailor |  |
-| [ ] | 018 | Penking Lux | Unyielding Storm Commander |  |
-| [ ] | 019 | Hoocrates | Dark Knowledge |  |
-| [ ] | 020 | Melpaca | Pacapaca Wool; Pecapaca Wool |  |
-| [ ] | 021 | Kingpaca | King of Muscles |  |
-| [ ] | 021 | Kingpaca Cryst | Coldhearted King; King of Muscles |  |
-| [ ] | 022 | Daedream | Dream Chaser |  |
-| [ ] | 023 | Tanzee | Cheery Rifle |  |
-| [ ] | 023 | Tanzee Ignis | Chipper Chimp Gunfire |  |
-| [ ] | 024 | Nox | Kuudere |  |
-| [ ] | 025 | Flambelle | Magma Tears |  |
-| [ ] | 026 | Rooby | Tiny Spark |  |
-| [ ] | 027 | Mau | Gold Digger |  |
+| [x] | 004 | Lifmunk | Lifmunk Recoil | 004-lifmunk--lifmunk-recoil--20260713-002510.jpg |
+| [x] | 005 | Fuack | Surfing Slam | 005-fuack--surfing-slam--20260713-002538.jpg |
+| [x] | 005 | Fuack Ignis | Fire Tackle | 005B-fuack-ignis--fire-tackle--20260713-002538.jpg |
+| [x] | 006 | Vixy | Dig Here! | 006-vixy--dig-here--20260713-002538.jpg |
+| [x] | 007 | Celaray | Zephyr Glider | 007-celaray--zephyr-glider--20260713-002538.jpg |
+| [x] | 007 | Celaray Lux | Jolt Glider | 007B-celaray-lux--jolt-glider--20260713-002639.jpg |
+| [x] | 008 | Cremis | Fluffy Wool | 008-cremis--fluffy-wool--20260713-002639.jpg |
+| [x] | 009 | Croajiro | Leap Stance | 009-croajiro--leap-stance--20260713-002639.jpg |
+| [x] | 009 | Croajiro Noct | Shadow Stance | 009B-croajiro-noct--shadow-stance--20260713-002639.jpg |
+| [x] | 010 | Herbil | Herbil Pulse | 010-herbil--herbil-pulse--20260713-002639.jpg |
+| [x] | 011 | Teafant | Soothing Shower | 011-teafant--soothing-shower--20260713-002639.jpg |
+| [x] | 012 | Gumoss | Logging Assistance | 012-gumoss--logging-assistance--20260713-002812.jpg |
+| [x] | 013 | Pupperai | Best Boy | 013-pupperai--best-boy--20260713-002812.jpg |
+| [x] | 014 | Clovee | Happy Clover | 014-clovee--happy-clover--20260713-002850.jpg |
+| [x] | 015 | Jolthog | Jolt Bomb | 015-jolthog--jolt-bomb--20260713-002850.jpg |
+| [x] | 015 | Jolthog Cryst | Cold Bomb | 015B-jolthog-cryst--cold-bomb--20260713-002850.jpg |
+| [x] | 016 | Depresso | Caffeine Inoculation | 016-depresso--caffeine-inoculation--20260713-002952.jpg |
+| [x] | 017 | Pengullet | Pengullet Launcher | 017-pengullet--pengullet-launcher--20260713-002952.jpg |
+| [x] | 017 | Pengullet Lux | Pengullet Lux Launcher | 017B-pengullet-lux--pengullet-lux-launcher--20260713-002952.jpg |
+| [x] | 018 | Penking | Brave Sailor | 018-penking--brave-sailor--20260713-003039.jpg |
+| [x] | 018 | Penking Lux | Unyielding Storm Commander | 018B-penking-lux--unyielding-storm-commander--20260713-003039.jpg |
+| [x] | 019 | Hoocrates | Dark Knowledge | 019-hoocrates--dark-knowledge--20260713-003039.jpg |
+| [x] | 020 | Melpaca | Pacapaca Wool; Pecapaca Wool | 020-melpaca--pacapaca-wool--20260713-003039.jpg |
+| [x] | 021 | Kingpaca | King of Muscles | 021-kingpaca--king-of-muscles--20260713-003039.jpg |
+| [x] | 021 | Kingpaca Cryst | Coldhearted King; King of Muscles | 021B-kingpaca-cryst--coldhearted-king--20260713-003039.jpg |
+| [x] | 022 | Daedream | Dream Chaser | 022-daedream--dream-chaser--20260713-003039.jpg |
+| [x] | 023 | Tanzee | Cheery Rifle | 023-tanzee--cheery-rifle--20260713-003154.jpg |
+| [x] | 023 | Tanzee Ignis | Chipper Chimp Gunfire | 023B-tanzee-ignis--chipper-chimp-gunfire--20260713-003154.jpg |
+| [x] | 024 | Nox | Kuudere | 024-nox--kuudere--20260713-003154.jpg |
+| [x] | 025 | Flambelle | Magma Tears | 025-flambelle--magma-tears--20260713-003154.jpg |
+| [x] | 026 | Rooby | Tiny Spark | 026-rooby--tiny-spark--20260713-003154.jpg |
+| [x] | 027 | Mau | Gold Digger | 027-mau--gold-digger--20260713-003154.jpg |
 | [ ] | 027 | Mau Cryst | Gold Digger; Ice Whispers; Icy Whispers |  |
-| [ ] | 028 | Rushoar | Hard Head |  |
-| [ ] | 029 | Foxparks | Huggy Fire |  |
-| [ ] | 029 | Foxparks Cryst | Huggy Frost |  |
-| [ ] | 030 | Killamari | Fried Squid |  |
-| [ ] | 030 | Killamari Primo | Fried Killamari |  |
-| [ ] | 031 | Fuddler | Ore Detector; Mining Assistance |  |
-| [ ] | 032 | Eikthyrdeer | Guardian of the Forest |  |
+| [x] | 028 | Rushoar | Hard Head | 028-rushoar--hard-head--20260713-003154.jpg |
+| [x] | 029 | Foxparks | Huggy Fire | 029-foxparks--huggy-fire--20260713-003154.jpg |
+| [x] | 029 | Foxparks Cryst | Huggy Frost | 029B-foxparks-cryst--huggy-frost--20260713-003255.jpg |
+| [x] | 030 | Killamari | Fried Squid | 030-killamari--fried-squid--20260713-003255.jpg |
+| [x] | 030 | Killamari Primo | Fried Killamari | 030B-killamari-primo--fried-killamari--20260713-003255.jpg |
+| [x] | 031 | Fuddler | Mining Assistance; Ore Detector | 031-fuddler--mining-assistance--20260713-003255.jpg |
+| [x] | 032 | Eikthyrdeer | Guardian of the Forest | 032-eikthyrdeer--guardian-of-the-forest--20260713-003255.jpg |
 | [ ] | 032 | Eikthyrdeer Terra | Guardian of the Golden Forest |  |
-| [ ] | 033 | Direhowl | Direhowl Rider |  |
-| [ ] | 034 | Caprity | Berry Picker |  |
-| [ ] | 034 | Caprity Noct | Venom Picker |  |
-| [ ] | 035 | Swee | Fluffy |  |
-| [ ] | 036 | Sweepa | King of Fluff |  |
-| [ ] | 037 | Turtacle | Spikey Carrier |  |
-| [ ] | 037 | Turtacle Terra | Shiny Hauler |  |
-| [ ] | 038 | Hangyu | Flying Trapeze |  |
-| [ ] | 038 | Hangyu Cryst | Winter Trapeze |  |
-| [ ] | 039 | Woolipop | Candy Pop |  |
+| [x] | 033 | Direhowl | Direhowl Rider | 033-direhowl--direhowl-rider--20260713-003255.jpg |
+| [x] | 034 | Caprity | Berry Picker | 034-caprity--berry-picker--20260713-003423.jpg |
+| [x] | 034 | Caprity Noct | Venom Picker | 034B-caprity-noct--venom-picker--20260713-003423.jpg |
+| [x] | 035 | Swee | Fluffy | 035-swee--fluffy--20260713-003423.jpg |
+| [x] | 036 | Sweepa | King of Fluff | 036-sweepa--king-of-fluff--20260713-003423.jpg, 036-sweepa--king-of-fluff--20260713-003423-2.jpg |
+| [x] | 037 | Turtacle | Spikey Carrier | 037-turtacle--spikey-carrier--20260713-003423.jpg |
+| [x] | 037 | Turtacle Terra | Shiny Hauler | 037B-turtacle-terra--shiny-hauler--20260713-003423.jpg |
+| [x] | 038 | Hangyu | Flying Trapeze | 038-hangyu--flying-trapeze--20260713-003423.jpg |
+| [x] | 038 | Hangyu Cryst | Winter Trapeze | 038B-hangyu-cryst--winter-trapeze--20260713-003527.jpg |
+| [x] | 039 | Woolipop | Candy Pop | 039-woolipop--candy-pop--20260713-003527.jpg |
 | [ ] | 039 | Woolipop Terra | Bitter Pop |  |
-| [ ] | 040 | Mozzarina | Milk Maker |  |
-| [ ] | 041 | Azurobe | Waterwing Dance |  |
-| [ ] | 041 | Azurobe Cryst | Icewing Dance |  |
-| [ ] | 042 | Sparkit | Static Electricity |  |
-| [ ] | 043 | Kelpsea | Aqua Spout |  |
-| [ ] | 043 | Kelpsea Ignis | Lava Spout |  |
-| [ ] | 044 | Ribbuny | Skilled Fingers; Happy-Go-Lucky Bunny |  |
-| [ ] | 044 | Ribbuny Botan | Grass Weaver; Ground 'n' Pound |  |
-| [ ] | 045 | Jelliette | Jelliette Drop |  |
-| [ ] | 046 | Jellroy | Jellroy Drop |  |
-| [ ] | 047 | Amione | Magical Twin Powers |  |
-| [ ] | 048 | Gloopie | Sticky Princess |  |
+| [x] | 040 | Mozzarina | Milk Maker | 040-mozzarina--milk-maker--20260713-003527.jpg |
+| [x] | 041 | Azurobe | Waterwing Dance | 041-azurobe--waterwing-dance--20260713-003527.jpg |
+| [x] | 041 | Azurobe Cryst | Icewing Dance | 041B-azurobe-cryst--icewing-dance--20260713-003527.jpg |
+| [x] | 042 | Sparkit | Static Electricity | 042-sparkit--static-electricity--20260713-003527.jpg |
+| [x] | 043 | Kelpsea | Aqua Spout | 043-kelpsea--aqua-spout--20260713-003527.jpg |
+| [x] | 043 | Kelpsea Ignis | Lava Spout | 043B-kelpsea-ignis--lava-spout--20260713-003527.jpg |
+| [x] | 044 | Ribbuny | Happy-Go-Lucky Bunny; Skilled Fingers | 044-ribbuny--happy-go-lucky-bunny--20260713-003527.jpg |
+| [x] | 044 | Ribbuny Botan | Grass Weaver; Ground 'n' Pound | 044B-ribbuny-botan--ground-n-pound--20260713-003527.jpg |
+| [x] | 045 | Jelliette | Jelliette Drop | 045-jelliette--jelliette-drop--20260713-003711.jpg |
+| [x] | 046 | Jellroy | Jellroy Drop | 046-jellroy--jellroy-drop--20260713-003711.jpg |
+| [x] | 047 | Amione | Magical Twin Powers | 047-amione--magical-twin-powers--20260713-003711.jpg |
+| [x] | 048 | Gloopie | Sticky Princess | 048-gloopie--sticky-princess--20260713-003711.jpg |
 | [ ] | 048 | Gloopie Primo | Cephalo-Princess |  |
-| [ ] | 049 | Galeclaw | Galeclaw Rider; Galeclaw Glider |  |
-| [ ] | 050 | Wispaw | Death-Cheating Feline |  |
-| [ ] | 051 | Nitewing | Travel Companion |  |
-| [ ] | 052 | Tombat | Ultrasonic Sensor |  |
-| [ ] | 053 | Tocotoco | Eggbomb Launcher |  |
-| [ ] | 054 | Univolt | Swift Deity |  |
+| [x] | 049 | Galeclaw | Galeclaw Glider; Galeclaw Rider | 049-galeclaw--galeclaw-glider--20260713-003711.jpg |
+| [x] | 050 | Wispaw | Death-Cheating Feline | 050-wispaw--death-cheating-feline--20260713-003711.jpg |
+| [x] | 051 | Nitewing | Travel Companion | 051-nitewing--travel-companion--20260713-003711.jpg |
+| [x] | 052 | Tombat | Ultrasonic Sensor | 052-tombat--ultrasonic-sensor--20260713-003711.jpg |
+| [x] | 053 | Tocotoco | Eggbomb Launcher | 053-tocotoco--eggbomb-launcher--20260713-003711.jpg |
+| [x] | 054 | Univolt | Swift Deity | 054-univolt--swift-deity--20260713-003711.jpg |
 | [ ] | 054 | Univolt Cryst | Frigid Deity |  |
 | [ ] | 055 | Gobfin | Angry Shark |  |
-| [ ] | 055 | Gobfin Ignis | Angry Shark |  |
-| [ ] | 056 | Loupmoon | Dark Gleam Strike |  |
-| [ ] | 056 | Loupmoon Cryst | Frozen Gleam Strike |  |
-| [ ] | 057 | Cawgnito | Telepeck; Eerie Nightstreaker |  |
-| [ ] | 058 | Arsox | Warm Body |  |
-| [ ] | 059 | Muffly | Fluffy Flutterer |  |
-| [ ] | 060 | Bristla | Princess Gaze |  |
-| [ ] | 061 | Cinnamoth | Mysterious Scales |  |
+| [x] | 055 | Gobfin Ignis | Angry Shark | 055B-gobfin-ignis--angry-shark--20260713-003842.jpg |
+| [x] | 056 | Loupmoon | Dark Gleam Strike | 056-loupmoon--dark-gleam-strike--20260713-003842.jpg |
+| [x] | 056 | Loupmoon Cryst | Frozen Gleam Strike | 056B-loupmoon-cryst--frozen-gleam-strike--20260713-003842.jpg |
+| [x] | 057 | Cawgnito | Eerie Nightstreaker; Telepeck | 057-cawgnito--eerie-nightstreaker--20260713-003842.jpg |
+| [x] | 058 | Arsox | Warm Body | 058-arsox--warm-body--20260713-003842.jpg |
+| [x] | 059 | Muffly | Fluffy Flutterer | 059-muffly--fluffy-flutterer--20260713-003842.jpg |
+| [x] | 060 | Bristla | Princess Gaze | 060-bristla--princess-gaze--20260713-003842.jpg |
+| [x] | 061 | Cinnamoth | Mysterious Scales | 061-cinnamoth--mysterious-scales--20260713-003842.jpg |
 | [ ] | 062 | Puffolt | Crackle Booster |  |
-| [ ] | 063 | Elphidran | Amicable Holy Dragon |  |
-| [ ] | 063 | Elphidran Aqua | Amicable Water Dragon |  |
-| [ ] | 064 | Vanwyrm | Aerial Marauder |  |
-| [ ] | 064 | Vanwyrm Cryst | Aerial Marauder |  |
-| [ ] | 065 | Felbat | Life Steal |  |
-| [ ] | 066 | Vaelet | Purification of Gaia |  |
-| [ ] | 067 | Beegarde | Worker Bee |  |
-| [ ] | 068 | Elizabee | Queen Bee Command |  |
-| [ ] | 069 | Lovander | Heart Drain |  |
-| [ ] | 070 | Grintale | Plump Body; Glaring Cat's Eye |  |
-| [ ] | 071 | Tarantriss | Tarantriss’ Web |  |
-| [ ] | 072 | Polapup | Rider of the Snowy Mountain |  |
+| [x] | 063 | Elphidran | Amicable Holy Dragon | 063-elphidran--amicable-holy-dragon--20260713-003842.jpg |
+| [x] | 063 | Elphidran Aqua | Amicable Water Dragon | 063B-elphidran-aqua--amicable-water-dragon--20260713-003842.jpg |
+| [x] | 064 | Vanwyrm | Aerial Marauder | 064-vanwyrm--aerial-marauder--20260713-003958.jpg |
+| [x] | 064 | Vanwyrm Cryst | Aerial Marauder | 064B-vanwyrm-cryst--aerial-marauder--20260713-003958.jpg |
+| [x] | 065 | Felbat | Life Steal | 065-felbat--life-steal--20260713-003958.jpg |
+| [x] | 066 | Vaelet | Purification of Gaia | 066-vaelet--purification-of-gaia--20260713-003958.jpg |
+| [x] | 067 | Beegarde | Worker Bee | 067-beegarde--worker-bee--20260713-003958.jpg |
+| [x] | 068 | Elizabee | Queen Bee Command | 068-elizabee--queen-bee-command--20260713-003958.jpg |
+| [x] | 069 | Lovander | Heart Drain | 069-lovander--heart-drain--20260713-003958.jpg |
+| [x] | 070 | Grintale | Glaring Cat's Eye; Plump Body | 070-grintale--glaring-cats-eye--20260713-003958.jpg |
+| [x] | 071 | Tarantriss | Tarantriss’ Web | 071-tarantriss--tarantriss-web--20260713-003958.jpg |
+| [x] | 072 | Polapup | Rider of the Snowy Mountain | 072-polapup--rider-of-the-snowy-mountain--20260713-003958.jpg |
 | [ ] | 072 | Polapup Terra | Snowy Mountain Slider |  |
-| [ ] | 073 | Leezpunk | Sixth Sense; Too Cool to be Seen |  |
-| [ ] | 073 | Leezpunk Ignis | Sixth Sense; Too Cool to be Seen |  |
-| [ ] | 074 | Gorirat | Full-Power Gorilla Mode |  |
-| [ ] | 074 | Gorirat Terra | Full-power Gorilla Mode; Full-Power Gorilla Pound |  |
-| [ ] | 075 | Surfent | Swift Swimmer |  |
-| [ ] | 075 | Surfent Terra | Sand Swimmer |  |
-| [ ] | 076 | Robinquill | Hawk Eye; Grounded Archer |  |
-| [ ] | 076 | Robinquill Terra | Hawk Eye; Master Archer |  |
-| [ ] | 077 | Flopie | Helper Bunny |  |
-| [ ] | 078 | Wixen | Lord Fox |  |
+| [x] | 073 | Leezpunk | Sixth Sense; Too Cool to be Seen | 073-leezpunk--too-cool-to-be-seen--20260713-004111.jpg |
+| [x] | 073 | Leezpunk Ignis | Sixth Sense; Too Cool to be Seen | 073B-leezpunk-ignis--too-cool-to-be-seen--20260713-004111.jpg |
+| [x] | 074 | Gorirat | Full-Power Gorilla Mode | 074-gorirat--full-power-gorilla-mode--20260713-004111.jpg |
+| [x] | 074 | Gorirat Terra | Full-power Gorilla Mode; Full-Power Gorilla Pound | 074B-gorirat-terra--full-power-gorilla-pound--20260713-004111.jpg |
+| [x] | 075 | Surfent | Swift Swimmer | 075-surfent--swift-swimmer--20260713-004111.jpg |
+| [x] | 075 | Surfent Terra | Sand Swimmer | 075B-surfent-terra--sand-swimmer--20260713-004111.jpg |
+| [x] | 076 | Robinquill | Grounded Archer; Hawk Eye | 076-robinquill--grounded-archer--20260713-004111.jpg |
+| [x] | 076 | Robinquill Terra | Hawk Eye; Master Archer | 076B-robinquill-terra--master-archer--20260713-004111.jpg |
+| [x] | 077 | Flopie | Helper Bunny | 077-flopie--helper-bunny--20260713-004111.jpg |
+| [x] | 078 | Wixen | Lord Fox | 078-wixen--lord-fox--20260713-004111.jpg |
 | [ ] | 078 | Wixen Noct | Black Fox Lord |  |
-| [ ] | 079 | Katress | Grimoire Collector; Mystical Black Magic |  |
-| [ ] | 079 | Katress Ignis | Blazing Black Magic; Botanical Atlas |  |
-| [ ] | 080 | Helzephyr | Wings of Death |  |
-| [ ] | 080 | Helzephyr Lux | Wings of Thunder |  |
-| [ ] | 081 | Elgrove | Mother Nature's Menace |  |
+| [x] | 079 | Katress | Grimoire Collector; Mystical Black Magic | 079-katress--mystical-black-magic--20260713-004224.jpg |
+| [x] | 079 | Katress Ignis | Blazing Black Magic; Botanical Atlas | 079B-katress-ignis--blazing-black-magic--20260713-004224.jpg |
+| [x] | 080 | Helzephyr | Wings of Death | 080-helzephyr--wings-of-death--20260713-004224.jpg |
+| [x] | 080 | Helzephyr Lux | Wings of Thunder | 080B-helzephyr-lux--wings-of-thunder--20260713-004224.jpg |
+| [x] | 081 | Elgrove | Mother Nature's Menace | 081-elgrove--mother-natures-menace--20260713-004224.jpg |
 | [ ] | 081 | Elgrove Cryst | Father Winter's Threat |  |
-| [ ] | 082 | Lunaris | Antigravity |  |
-| [ ] | 083 | Fenglope | Wind and Clouds |  |
+| [x] | 082 | Lunaris | Antigravity | 082-lunaris--antigravity--20260713-004224.jpg |
+| [x] | 083 | Fenglope | Wind and Clouds | 083-fenglope--wind-and-clouds--20260713-004224.jpg |
 | [ ] | 083 | Fenglope Lux | Stormcloud |  |
-| [ ] | 084 | Dinossom | Fragrant Dragon |  |
-| [ ] | 084 | Dinossom Lux | Thunder Dragon |  |
-| [ ] | 085 | Bushi | Brandish Blade |  |
+| [x] | 084 | Dinossom | Fragrant Dragon | 084-dinossom--fragrant-dragon--20260713-004224.jpg |
+| [x] | 084 | Dinossom Lux | Thunder Dragon | 084B-dinossom-lux--thunder-dragon--20260713-004224.jpg |
+| [x] | 085 | Bushi | Brandish Blade | 085-bushi--brandish-blade--20260713-004224.jpg |
 | [ ] | 085 | Bushi Noct | Flash Blade; Void Blade |  |
-| [ ] | 086 | Munchill | Icy Maw |  |
-| [ ] | 087 | Mammorest | Gaia Crusher |  |
-| [ ] | 087 | Mammorest Cryst | Ice Crusher |  |
-| [ ] | 088 | Finsider | Water Gun; Echo Chamber |  |
+| [x] | 086 | Munchill | Icy Maw | 086-munchill--icy-maw--20260713-004340.jpg |
+| [x] | 087 | Mammorest | Gaia Crusher | 087-mammorest--gaia-crusher--20260713-004340.jpg |
+| [x] | 087 | Mammorest Cryst | Ice Crusher | 087B-mammorest-cryst--ice-crusher--20260713-004340.jpg |
+| [x] | 088 | Finsider | Echo Chamber; Water Gun | 088-finsider--water-gun--20260713-004340.jpg |
 | [ ] | 088 | Finsider Ignis | Ember Chamber |  |
-| [ ] | 089 | Petallia | Blessing of the Flower Spirit |  |
+| [x] | 089 | Petallia | Blessing of the Flower Spirit | 089-petallia--blessing-of-the-flower-spirit--20260713-004340.jpg |
 | [ ] | 089 | Petallia Ignis | Passion of the Flower Spirit |  |
-| [ ] | 090 | Leafan | Selfless Discipline |  |
-| [ ] | 091 | Incineram | Flameclaw Hunter |  |
+| [x] | 090 | Leafan | Selfless Discipline | 090-leafan--selfless-discipline--20260713-004340.jpg |
+| [x] | 091 | Incineram | Flameclaw Hunter | 091-incineram--flameclaw-hunter--20260713-004340.jpg |
 | [ ] | 091 | Incineram Noct | Darkclaw Hunter |  |
-| [ ] | 092 | Dazzi | Lady of Lightning |  |
+| [x] | 092 | Dazzi | Lady of Lightning | 092-dazzi--lady-of-lightning--20260713-004340.jpg |
 | [ ] | 092 | Dazzi Noct | Lady of Dark Lightning |  |
-| [ ] | 093 | Pyrin | Red Hare |  |
-| [ ] | 093 | Pyrin Noct | Black Hare |  |
-| [ ] | 094 | Relaxaurus | Hungry Missile |  |
-| [ ] | 094 | Relaxaurus Lux | Missile Party |  |
-| [ ] | 095 | Foxcicle | Aurora Guide |  |
-| [ ] | 096 | Beakon | Thunderous |  |
+| [x] | 093 | Pyrin | Red Hare | 093-pyrin--red-hare--20260713-004340.jpg |
+| [x] | 093 | Pyrin Noct | Black Hare | 093B-pyrin-noct--black-hare--20260713-004340.jpg |
+| [x] | 094 | Relaxaurus | Hungry Missile | 094-relaxaurus--hungry-missile--20260713-004457.jpg |
+| [x] | 094 | Relaxaurus Lux | Missile Party | 094B-relaxaurus-lux--missile-party--20260713-004457.jpg |
+| [x] | 095 | Foxcicle | Aurora Guide | 095-foxcicle--aurora-guide--20260713-004457.jpg |
+| [x] | 096 | Beakon | Thunderous | 096-beakon--thunderous--20260713-004457.jpg |
 | [ ] | 096 | Beakon Cryst | Coldsnap |  |
-| [ ] | 097 | Ghangler | Master of Darkness; Master Night Angler |  |
-| [ ] | 097 | Ghangler Ignis | Abyssal Celebrity Chef; Flame Lantern |  |
-| [ ] | 098 | Rayhound | Jumping Force; Lightning Shepherd |  |
-| [ ] | 098 | Rayhound Cryst | Snow Shepherd |  |
-| [ ] | 099 | Menasting | Steel Scorpion |  |
+| [x] | 097 | Ghangler | Master Night Angler; Master of Darkness | 097-ghangler--master-of-darkness--20260713-004457.jpg |
+| [x] | 097 | Ghangler Ignis | Abyssal Celebrity Chef; Flame Lantern | 097B-ghangler-ignis--abyssal-celebrity-chef--20260713-004457.jpg |
+| [x] | 098 | Rayhound | Jumping Force; Lightning Shepherd | 098-rayhound--lightning-shepherd--20260713-004457.jpg |
+| [x] | 098 | Rayhound Cryst | Snow Shepherd | 098B-rayhound-cryst--snow-shepherd--20260713-004457.jpg |
+| [x] | 099 | Menasting | Steel Scorpion | 099-menasting--steel-scorpion--20260713-004457.jpg |
 | [ ] | 099 | Menasting Terra | Golden Scorpion; Steel Scorpion |  |
-| [ ] | 100 | Needoll | Hug Me Please |  |
-| [ ] | 100 | Needoll Noct | Hug You So Much |  |
+| [x] | 100 | Needoll | Hug Me Please | 100-needoll--hug-me-please--20260713-004457.jpg |
+| [x] | 100 | Needoll Noct | Hug You So Much | 100B-needoll-noct--hug-you-so-much--20260713-004615.jpg |
 | [ ] | 101 | Reindrix | Cool Body |  |
 | [ ] | 102 | Mossanda | Grenadier Panda |  |
 | [ ] | 102 | Mossanda Lux | Grenadier Panda |  |
@@ -186,7 +186,7 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 105 | Moldron Cryst | Ice Overload |  |
 | [ ] | 106 | Palumba | Samba Step |  |
 | [ ] | 107 | Digtoise | Drill Crusher |  |
-| [ ] | 108 | Broncherry | Overaffectionate; Love's First Blossom |  |
+| [ ] | 108 | Broncherry | Love's First Blossom; Overaffectionate |  |
 | [ ] | 108 | Broncherry Aqua | Overaffectionate; Purity's Full Bloom |  |
 | [ ] | 109 | Dumud | Soil Improver |  |
 | [ ] | 109 | Dumud Gild | Golden Harvest |  |
@@ -195,14 +195,14 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 111 | Kitsun Noct | Fogged Mind; Gloomhowl |  |
 | [ ] | 112 | Blazehowl | Hellflame Lion |  |
 | [ ] | 112 | Blazehowl Noct | Darkflame Lion |  |
-| [ ] | 113 | Warsect | Hard Armor; Cast-Iron Shell |  |
+| [ ] | 113 | Warsect | Cast-Iron Shell; Hard Armor |  |
 | [ ] | 113 | Warsect Terra | Cast-Iron Shell; Fortified Shell; Fullmetal Shell |  |
 | [ ] | 114 | Frostplume | Peacock Pounce; Peacock Poune |  |
 | [ ] | 115 | Majex | Phantasmal Arcana |  |
 | [ ] | 116 | Sibelyx | Silk Maker; Silk Shroud |  |
 | [ ] | 116 | Sibelyx Primo | Gilded Shroud |  |
 | [ ] | 117 | Maraith | Messenger of Death |  |
-| [ ] | 118 | Shroomer | Swooshy Spores; Rampant Spores |  |
+| [ ] | 118 | Shroomer | Rampant Spores; Swooshy Spores |  |
 | [ ] | 118 | Shroomer Noct | Roiling Spores; Swooshy Spores |  |
 | [ ] | 119 | Icelyn | Witch's Icy Veil |  |
 | [ ] | 120 | Gildra | Resurrection |  |
@@ -211,8 +211,8 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 122 | Suzaku | Wings of Flame |  |
 | [ ] | 122 | Suzaku Aqua | Wings of Water |  |
 | [ ] | 123 | Dazemu | Sand Sprint |  |
-| [ ] | 124 | Quivern | Sky Dragon's Affection; Sky Dragon Affection |  |
-| [ ] | 124 | Quivern Botan | Grass Dragon's Affection; Grass Dragon Affection |  |
+| [ ] | 124 | Quivern | Sky Dragon Affection; Sky Dragon's Affection |  |
+| [ ] | 124 | Quivern Botan | Grass Dragon Affection; Grass Dragon's Affection |  |
 | [ ] | 125 | Lullu | Floral Boost |  |
 | [ ] | 126 | Kikit | Rollin' Full Oil; Sandball Soccer; Sandy Beach Ball |  |
 | [ ] | 127 | Yakumo | Birds of a Feather |  |
@@ -222,7 +222,7 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 129 | Reptyro Cryst | Ice-Loving Beast; Ore-loving Beast |  |
 | [ ] | 130 | Starryon | Night Dancer |  |
 | [ ] | 130 | Starryon Primo | Light Dancer |  |
-| [ ] | 131 | Pierdon | Power Stone |  |
+| [x] | 131 | Pierdon | Power Stone | 131-pierdon--power-stone--20260712-210017.jpg |
 | [ ] | 131 | Pierdon Cryst | Power Crystal |  |
 | [ ] | 132 | Cryolinx | Dragon Hunter |  |
 | [ ] | 132 | Cryolinx Terra | Electro Hunter; Explosive Strength |  |
@@ -237,7 +237,7 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 138 | Dualith Noct | Corruption Laser |  |
 | [ ] | 139 | Anubis | Guardian of the Desert |  |
 | [ ] | 140 | Sekhmet | Desert Empress |  |
-| [ ] | 141 | Prixter | Scorpion Sonar; Phantom Venom |  |
+| [ ] | 141 | Prixter | Phantom Venom; Scorpion Sonar |  |
 | [ ] | 141 | Prixter Lux | Scorpion Longwave |  |
 | [ ] | 142 | Tetroise | Masonry Archelon |  |
 | [ ] | 142 | Tetroise Primo | Stone-Chaser Archelon |  |
@@ -253,7 +253,7 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] | 150 | Omascul | Masquerade Dance |  |
 | [ ] | 151 | Whalaska | Chilled Whale Cruiser |  |
 | [ ] | 151 | Whalaska Ignis | Cozy Whale Cruiser |  |
-| [ ] | 152 | Verdash | Grassland Speedster; Grassland Gymnast |  |
+| [ ] | 152 | Verdash | Grassland Gymnast; Grassland Speedster |  |
 | [ ] | 153 | Splatterina | Blade of Uncontrolled Passion |  |
 | [ ] | 154 | Gildane | Sandstorm's Blessing |  |
 | [ ] | 155 | Dogen | Homeward Prayer |  |
@@ -324,7 +324,6 @@ Updated: 2026-07-13T02:44:21.149Z
 | [ ] |  | Green Slime | Slime Body |  |
 | [ ] |  | Illuminant Bat | Bat Backup |  |
 | [ ] |  | Illuminant Slime | Slime Body |  |
-| [ ] |  | Polapup Tera | Snowy Mountain Slider |  |
 | [ ] |  | Purple Slime | Slime Body |  |
 | [ ] |  | Rainbow Slime | Slime Body |  |
 | [ ] |  | Red Slime | Slime Body |  |

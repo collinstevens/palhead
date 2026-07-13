@@ -15,17 +15,17 @@
     "verified": "Partner skill text confirmed from in-game Palpedia screenshot",
     "skipped": "Intentionally skipped (note required)"
   },
-  "generatedAt": "2026-07-13T02:44:21.149Z",
+  "generatedAt": "2026-07-13T07:46:34.425Z",
   "generator": "scripts/build-partner-skills-checklist.js",
   "stats": {
-    "total": 301,
-    "pending": 298,
+    "total": 300,
+    "pending": 168,
     "partial": 0,
-    "verified": 3,
+    "verified": 132,
     "skipped": 0,
-    "withScrapedSkill": 300,
+    "withScrapedSkill": 299,
     "withoutScrapedSkill": 1,
-    "withEvidence": 3
+    "withEvidence": 132
   },
   "pals": [
     {
@@ -153,16 +153,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/004-lifmunk--lifmunk-recoil--20260713-002510.jpg"
+      ],
+      "correctionIds": [
+        "lifmunk-lifmunk-recoil"
+      ],
+      "notes": "paldb matches in-game 'to follows up'; wiki-gg fixes grammar; game8 paraphrases with Submachine Gun requirement."
     },
     {
       "pal": "Fuack",
@@ -181,16 +188,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/005-fuack--surfing-slam--20260713-002538.jpg"
+      ],
+      "correctionIds": [
+        "fuack-surfing-slam"
+      ],
+      "notes": "paldb matches; wiki-gg toward; game8 Water damage rewrite."
     },
     {
       "pal": "Fuack Ignis",
@@ -210,16 +224,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/005B-fuack-ignis--fire-tackle--20260713-002538.jpg"
+      ],
+      "correctionIds": [
+        "fuack-ignis-fire-tackle"
+      ],
+      "notes": "paldb + game8 match; wiki-gg Activated + missing an."
     },
     {
       "pal": "Vixy",
@@ -238,16 +259,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/006-vixy--dig-here--20260713-002538.jpg"
+      ],
+      "correctionIds": [
+        "vixy-dig-here"
+      ],
+      "notes": "paldb + wiki-gg match; game8 lists specific loot types."
     },
     {
       "pal": "Celaray",
@@ -266,16 +294,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/007-celaray--zephyr-glider--20260713-002538.jpg"
+      ],
+      "correctionIds": [
+        "celaray-zephyr-glider"
+      ],
+      "notes": "paldb matches; wiki-gg team + no fall damage; game8 paraphrases."
     },
     {
       "pal": "Celaray Lux",
@@ -295,16 +330,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/007B-celaray-lux--jolt-glider--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "celaray-lux-jolt-glider"
+      ],
+      "notes": "paldb matches; game8 'the party'; wiki-gg team + no fall damage."
     },
     {
       "pal": "Cremis",
@@ -319,20 +361,27 @@
       "partnerSkills": [
         {
           "name": "Fluffy Wool",
-          "descriptionScraped": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) Sometimes drops Wool when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Attack of Neutral Pals by 15%. (Does not stack) Sometimes drops Wool when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/008-cremis--fluffy-wool--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "cremis-fluffy-wool"
+      ],
+      "notes": "fixed 15% Attack; paldb range; wiki-gg no percent; game8 produces Wool."
     },
     {
       "pal": "Croajiro",
@@ -347,20 +396,27 @@
       "partnerSkills": [
         {
           "name": "Leap Stance",
-          "descriptionScraped": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's Attack is increased by (50~86)%.",
+          "descriptionScraped": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's Attack is increased by 50%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/009-croajiro--leap-stance--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "croajiro-leap-stance"
+      ],
+      "notes": "In-game says Croajiro Noct on base Croajiro; fixed 50% airborne Attack."
     },
     {
       "pal": "Croajiro Noct",
@@ -376,20 +432,27 @@
       "partnerSkills": [
         {
           "name": "Shadow Stance",
-          "descriptionScraped": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While in party, improves player's and Pals' Dark damage to enemy weak points by (25~40)%. (Does not stack)",
+          "descriptionScraped": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While in party, improves player's and Pals' Dark damage to enemy weak points by 25%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/009B-croajiro-noct--shadow-stance--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "croajiro-noct-shadow-stance"
+      ],
+      "notes": "fixed 25% Dark weak-point damage; wiki-gg/game8 Dark Attack team buff outdated."
     },
     {
       "pal": "Herbil",
@@ -405,20 +468,27 @@
       "partnerSkills": [
         {
           "name": "Herbil Pulse",
-          "descriptionScraped": "While in party, Herbil uses its healing powers to restore (30~60)% of the player's Max Health when incapacitated.",
+          "descriptionScraped": "While in party, Herbil uses its healing powers to restore 30% of the player's Max Health when incapacitated.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/010-herbil--herbil-pulse--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "herbil-herbil-pulse"
+      ],
+      "notes": "fixed restore 30% Max Health; wiki-gg revive; game8 no percent."
     },
     {
       "pal": "Teafant",
@@ -433,20 +503,27 @@
       "partnerSkills": [
         {
           "name": "Soothing Shower",
-          "descriptionScraped": "While in party, restores (20~40)% of the player's Health when Health falls below 30%. (Does not stack) (120-second cooldown after activation)",
+          "descriptionScraped": "While in party, restores 20% of the player's Health when Health falls below 30%. (Does not stack) (120-second cooldown after activation)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/011-teafant--soothing-shower--20260713-002639.jpg"
+      ],
+      "correctionIds": [
+        "teafant-soothing-shower"
+      ],
+      "notes": "passive 20% heal below 30% HP + 120s CD; wiki-gg/game8 active spout outdated."
     },
     {
       "pal": "Gumoss",
@@ -462,20 +539,27 @@
       "partnerSkills": [
         {
           "name": "Logging Assistance",
-          "descriptionScraped": "While in party, improves logging efficiency by (30~50)% and reduces weight of all types of wood by (40~60)%. (Does not stack)",
+          "descriptionScraped": "While in party, improves logging efficiency by 30% and reduces weight of all types of wood by 40%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/012-gumoss--logging-assistance--20260713-002812.jpg"
+      ],
+      "correctionIds": [
+        "gumoss-logging-assistance"
+      ],
+      "notes": "fixed 30% logging + 40% wood weight; paldb ranges; wiki-gg no numbers."
     },
     {
       "pal": "Pupperai",
@@ -488,19 +572,26 @@
       "partnerSkills": [
         {
           "name": "Best Boy",
-          "descriptionScraped": "While in party, increases the player's melee weapon damage by (10~35)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases the player's melee weapon damage by 10%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/013-pupperai--best-boy--20260713-002812.jpg"
+      ],
+      "correctionIds": [
+        "pupperai-best-boy"
+      ],
+      "notes": "fixed 10% melee weapon damage; paldb range; game8 no %; wiki-gg missing."
     },
     {
       "pal": "Clovee",
@@ -519,16 +610,23 @@
           "descriptionScraped": "While at a base, increases the Gathering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/014-clovee--happy-clover--20260713-002850.jpg"
+      ],
+      "correctionIds": [
+        "clovee-happy-clover"
+      ],
+      "notes": "paldb matches; game8 Sustainability wrong; wiki-gg missing."
     },
     {
       "pal": "Jolthog",
@@ -547,16 +645,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/015-jolthog--jolt-bomb--20260713-002850.jpg"
+      ],
+      "correctionIds": [
+        "jolthog-jolt-bomb"
+      ],
+      "notes": "paldb matches; wiki-gg/game8 paraphrase throw bomb text."
     },
     {
       "pal": "Jolthog Cryst",
@@ -575,16 +680,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/015B-jolthog-cryst--cold-bomb--20260713-002850.jpg"
+      ],
+      "correctionIds": [
+        "jolthog-cryst-cold-bomb"
+      ],
+      "notes": "paldb matches; wiki-gg icy; game8 freeze/catch paraphrase."
     },
     {
       "pal": "Depresso",
@@ -599,20 +711,27 @@
       "partnerSkills": [
         {
           "name": "Caffeine Inoculation",
-          "descriptionScraped": "When activated, Depresso chugs an entire energy drink, increasing its Movement Speed and Work Speed by (100~900)%. Sometimes drops Venom Gland when assigned to Ranch.",
+          "descriptionScraped": "When activated, Depresso chugs an entire energy drink, increasing its Movement Speed and Work Speed by 100%. Sometimes drops Venom Gland when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/016-depresso--caffeine-inoculation--20260713-002952.jpg"
+      ],
+      "correctionIds": [
+        "depresso-caffeine-inoculation"
+      ],
+      "notes": "fixed 100% Move+Work Speed; paldb range; wiki omits Work Speed."
     },
     {
       "pal": "Pengullet",
@@ -632,16 +751,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/017-pengullet--pengullet-launcher--20260713-002952.jpg"
+      ],
+      "correctionIds": [
+        "pengullet-pengullet-launcher"
+      ],
+      "notes": "paldb matches; wiki contact; game8 stun rewrite."
     },
     {
       "pal": "Pengullet Lux",
@@ -661,16 +787,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/017B-pengullet-lux--pengullet-lux-launcher--20260713-002952.jpg"
+      ],
+      "correctionIds": [
+        "pengullet-lux-pengullet-lux-launcher"
+      ],
+      "notes": "in-game equips Pengullet Lux to fire Rocket Launcher (matches paldb); wiki/game8 normalize."
     },
     {
       "pal": "Penking",
@@ -686,20 +819,27 @@
       "partnerSkills": [
         {
           "name": "Brave Sailor",
-          "descriptionScraped": "While in party, Fire Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "descriptionScraped": "While in party, Fire Pals drop 40% more items when defeated. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/018-penking--brave-sailor--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "penking-brave-sailor"
+      ],
+      "notes": "fixed 40% Fire drop; paldb range; wiki/game8 outdated."
     },
     {
       "pal": "Penking Lux",
@@ -715,20 +855,27 @@
       "partnerSkills": [
         {
           "name": "Unyielding Storm Commander",
-          "descriptionScraped": "While in party, improves player's and Pals' Water damage to enemy weak points by (25~40)%. (Does not stack)",
+          "descriptionScraped": "While in party, improves player's and Pals' Water damage to enemy weak points by 25%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/018B-penking-lux--unyielding-storm-commander--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "penking-lux-unyielding-storm-commander"
+      ],
+      "notes": "Water weak-point 25%; wiki-gg wrong drop buff."
     },
     {
       "pal": "Hoocrates",
@@ -743,20 +890,27 @@
       "partnerSkills": [
         {
           "name": "Dark Knowledge",
-          "descriptionScraped": "While in party, increases Attack of Dark Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases Attack of Dark Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/019-hoocrates--dark-knowledge--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "hoocrates-dark-knowledge"
+      ],
+      "notes": "fixed 15% Dark Attack; paldb range; wiki no %."
     },
     {
       "pal": "Melpaca",
@@ -774,7 +928,8 @@
           "descriptionScraped": "Can be ridden. While in party, increases Kingpaca's Defense and Movement Speed. Sometimes drops Wool when assigned to Ranch.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         },
         {
@@ -785,12 +940,18 @@
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/020-melpaca--pacapaca-wool--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "melpaca-pacapaca-wool"
+      ],
+      "notes": "Pacapaca Wool; paldb ok; wiki Pecapaca omits Kingpaca buff."
     },
     {
       "pal": "Kingpaca",
@@ -805,20 +966,27 @@
       "partnerSkills": [
         {
           "name": "King of Muscles",
-          "descriptionScraped": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party.",
+          "descriptionScraped": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/021-kingpaca--king-of-muscles--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "kingpaca-king-of-muscles"
+      ],
+      "notes": "fixed 5% per Melpaca; wiki-gg carry weight wrong."
     },
     {
       "pal": "Kingpaca Cryst",
@@ -833,10 +1001,11 @@
       "partnerSkills": [
         {
           "name": "Coldhearted King",
-          "descriptionScraped": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party.",
+          "descriptionScraped": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         },
         {
@@ -847,12 +1016,18 @@
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/021B-kingpaca-cryst--coldhearted-king--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "kingpaca-cryst-coldhearted-king"
+      ],
+      "notes": "Coldhearted King fixed 5%; game8 ok; wiki wrong name/carry."
     },
     {
       "pal": "Daedream",
@@ -871,16 +1046,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/022-daedream--dream-chaser--20260713-003039.jpg"
+      ],
+      "correctionIds": [
+        "daedream-dream-chaser"
+      ],
+      "notes": "paldb ok HP floor 1; wiki/game8 follow-up outdated."
     },
     {
       "pal": "Tanzee",
@@ -899,16 +1081,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/023-tanzee--cheery-rifle--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "tanzee-cheery-rifle"
+      ],
+      "notes": "paldb+wiki-gg ok. game8 neutral damage paraphrase."
     },
     {
       "pal": "Tanzee Ignis",
@@ -926,16 +1115,23 @@
           "descriptionScraped": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/023B-tanzee-ignis--chipper-chimp-gunfire--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "tanzee-ignis-chipper-chimp-gunfire"
+      ],
+      "notes": "paldb+game8 ok. wiki-gg missing."
     },
     {
       "pal": "Nox",
@@ -954,16 +1150,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/024-nox--kuudere--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "nox-kuudere"
+      ],
+      "notes": "paldb ok. game8 paraphrase. wiki-gg wrong Dark attack type (outdated)."
     },
     {
       "pal": "Flambelle",
@@ -978,20 +1181,27 @@
       "partnerSkills": [
         {
           "name": "Magma Tears",
-          "descriptionScraped": "While in party, recovers Health of the player and Party Pals by (0.1~0.5)% per second outside of combat. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "descriptionScraped": "While in party, recovers Health of the player and Party Pals by 0.1% per second outside of combat. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/025-flambelle--magma-tears--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "flambelle-magma-tears"
+      ],
+      "notes": "Fixed 0.1%/s. paldb range. wiki ranch only. game8 omits rate."
     },
     {
       "pal": "Rooby",
@@ -1006,20 +1216,27 @@
       "partnerSkills": [
         {
           "name": "Tiny Spark",
-          "descriptionScraped": "While in party, increases Defense of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Defense of Fire Pals by 15%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/026-rooby--tiny-spark--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "rooby-tiny-spark"
+      ],
+      "notes": "Fixed 15% Defense Fire Pals + Flame Organ ranch. wiki Attack wrong. game8 active-only."
     },
     {
       "pal": "Mau",
@@ -1038,16 +1255,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/027-mau--gold-digger--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "mau-gold-digger"
+      ],
+      "notes": "paldb ok. wiki a Ranch. game8 produces Gold Coins."
     },
     {
       "pal": "Mau Cryst",
@@ -1102,20 +1326,27 @@
       "partnerSkills": [
         {
           "name": "Hard Head",
-          "descriptionScraped": "Can be ridden. While mounted, increases efficiency of destroying Stone by (500~2000)%.",
+          "descriptionScraped": "Can be ridden. While mounted, increases efficiency of destroying Stone by 500%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/028-rushoar--hard-head--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "rushoar-hard-head"
+      ],
+      "notes": "Fixed 500% Stone. paldb range. wiki boulders no %. game8 mining efficiency."
     },
     {
       "pal": "Foxparks",
@@ -1134,16 +1365,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/029-foxparks--huggy-fire--20260713-003154.jpg"
+      ],
+      "correctionIds": [
+        "foxparks-huggy-fire"
+      ],
+      "notes": "paldb+wiki-gg ok. game8 harness rewrite."
     },
     {
       "pal": "Foxparks Cryst",
@@ -1162,16 +1400,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/029B-foxparks-cryst--huggy-frost--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "foxparks-cryst-huggy-frost"
+      ],
+      "notes": "wiki=When activated, equips to the player and attacks using frigid air.; game8=When activated, equips to the player and attacks using frigid air.; paldb=When activated, equips to the player and attacks using frigid air."
     },
     {
       "pal": "Killamari",
@@ -1191,16 +1436,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/030-killamari--fried-squid--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "killamari-fried-squid"
+      ],
+      "notes": "paldb matches. wiki/game8 team wording."
     },
     {
       "pal": "Killamari Primo",
@@ -1220,16 +1472,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/030B-killamari-primo--fried-killamari--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "killamari-primo-fried-killamari"
+      ],
+      "notes": "paldb matches. wiki team; game8 the party."
     },
     {
       "pal": "Fuddler",
@@ -1243,27 +1502,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Mining Assistance",
+          "descriptionScraped": "While in party, improves player mining efficiency by 30% and reduces Stone weight by 80%. (Does not stack)",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
+        },
+        {
           "name": "Ore Detector",
           "descriptionScraped": "When activated, generates subtle vibrations to detect nearby ore.",
           "sources": [
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Mining Assistance",
-          "descriptionScraped": "While in party, improves player mining efficiency by (30~60)% and reduces Stone weight by (80~100)%. (Does not stack)",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/031-fuddler--mining-assistance--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "fuddler-mining-assistance"
+      ],
+      "notes": "Fixed 30% mining + 80% Stone weight. paldb ranges. wiki missing. game8 no percents."
     },
     {
       "pal": "Eikthyrdeer",
@@ -1278,20 +1544,27 @@
       "partnerSkills": [
         {
           "name": "Guardian of the Forest",
-          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted and increases lumbering efficiency by (220~500)%.",
+          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted and increases lumbering efficiency by 220%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/032-eikthyrdeer--guardian-of-the-forest--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "eikthyrdeer-guardian-of-the-forest"
+      ],
+      "notes": "Fixed 220% lumbering + double jump. paldb range. wiki/game8 no percent."
     },
     {
       "pal": "Eikthyrdeer Terra",
@@ -1338,16 +1611,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/033-direhowl--direhowl-rider--20260713-003255.jpg"
+      ],
+      "correctionIds": [
+        "direhowl-direhowl-rider"
+      ],
+      "notes": "paldb matches. wiki missing trailing period. game8 paraphrase."
     },
     {
       "pal": "Caprity",
@@ -1362,20 +1642,27 @@
       "partnerSkills": [
         {
           "name": "Berry Picker",
-          "descriptionScraped": "Sometimes drops Red Berries from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+          "descriptionScraped": "Sometimes drops Red Berries from its back when assigned to Ranch. While in party, restores 100 Pal's Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/034-caprity--berry-picker--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "caprity-berry-picker"
+      ],
+      "notes": "Fixed 100 Hunger every 5 min. paldb range. wiki ranch only. game8 soft Hunger."
     },
     {
       "pal": "Caprity Noct",
@@ -1390,20 +1677,27 @@
       "partnerSkills": [
         {
           "name": "Venom Picker",
-          "descriptionScraped": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+          "descriptionScraped": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores 100 Pal's Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/034B-caprity-noct--venom-picker--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "caprity-noct-venom-picker"
+      ],
+      "notes": "Fixed 100 Hunger every 5 min. paldb range. wiki ranch only. game8 omits 100/5min."
     },
     {
       "pal": "Swee",
@@ -1422,16 +1716,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/035-swee--fluffy--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "swee-fluffy"
+      ],
+      "notes": "paldb matches. wiki team/stats. game8 the party + lowercase."
     },
     {
       "pal": "Sweepa",
@@ -1446,20 +1747,28 @@
       "partnerSkills": [
         {
           "name": "King of Fluff",
-          "descriptionScraped": "Can be ridden. This Pal's Attack and Defense increase by (12~24)% for each Swee in party.",
+          "descriptionScraped": "Can be ridden. This Pal's Attack and Defense increase by 12% for each Swee in party.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/036-sweepa--king-of-fluff--20260713-003423.jpg",
+        "reference/partner-skills/corrections/evidence/036-sweepa--king-of-fluff--20260713-003423-2.jpg"
+      ],
+      "correctionIds": [
+        "sweepa-king-of-fluff"
+      ],
+      "notes": "Fixed 12% per Swee. paldb range. wiki/game8 no percent. Duplicate screenshot kept."
     },
     {
       "pal": "Turtacle",
@@ -1474,20 +1783,27 @@
       "partnerSkills": [
         {
           "name": "Spikey Carrier",
-          "descriptionScraped": "While in party, reduces Ore weight by (80~100)%. (Does not stack)",
+          "descriptionScraped": "While in party, reduces Ore weight by 80%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/037-turtacle--spikey-carrier--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "turtacle-spikey-carrier"
+      ],
+      "notes": "Fixed 80% Ore weight. wiki armor weight wrong. paldb range. game8 no %."
     },
     {
       "pal": "Turtacle Terra",
@@ -1503,20 +1819,27 @@
       "partnerSkills": [
         {
           "name": "Shiny Hauler",
-          "descriptionScraped": "While in party, reduces weight of Sulfur and Coal by (80~100)%. Also improves player's and Pals' Ground damage to enemy weak points by (80~100)%. (Does not stack)",
+          "descriptionScraped": "While in party, reduces weight of Sulfur and Coal by 80%. Also improves player's and Pals' Ground damage to enemy weak points by 80%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/037B-turtacle-terra--shiny-hauler--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "turtacle-terra-shiny-hauler"
+      ],
+      "notes": "Fixed 80% Sulfur/Coal + 80% Ground weak-point. wiki armor wrong. paldb ranges."
     },
     {
       "pal": "Hangyu",
@@ -1535,16 +1858,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/038-hangyu--flying-trapeze--20260713-003423.jpg"
+      ],
+      "correctionIds": [
+        "hangyu-flying-trapeze"
+      ],
+      "notes": "paldb matches. wiki modified/ascent. game8 team/lifts."
     },
     {
       "pal": "Hangyu Cryst",
@@ -1563,16 +1893,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/038B-hangyu-cryst--winter-trapeze--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "hangyu-cryst-winter-trapeze"
+      ],
+      "notes": "Same as Hangyu Flying Trapeze. paldb ok. wiki team/summon. game8 team/lifts."
     },
     {
       "pal": "Woolipop",
@@ -1587,20 +1924,27 @@
       "partnerSkills": [
         {
           "name": "Candy Pop",
-          "descriptionScraped": "Sometimes drops Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by (-10~-20)%. (Does not stack)",
+          "descriptionScraped": "Sometimes drops Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by -10%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/039-woolipop--candy-pop--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "woolipop-candy-pop"
+      ],
+      "notes": "Fixed -10% hunger depletion at base. paldb range. wiki ranch only."
     },
     {
       "pal": "Woolipop Terra",
@@ -1646,16 +1990,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/040-mozzarina--milk-maker--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "mozzarina-milk-maker"
+      ],
+      "notes": "paldb matches drops. wiki produces. game8 produces."
     },
     {
       "pal": "Azurobe",
@@ -1671,20 +2022,27 @@
       "partnerSkills": [
         {
           "name": "Waterwing Dance",
-          "descriptionScraped": "Can be ridden to travel on water. While mounted, changes the player's attack type to Water and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden to travel on water. While mounted, changes the player's attack type to Water and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/041-azurobe--waterwing-dance--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "azurobe-waterwing-dance"
+      ],
+      "notes": "Fixed +5% Attack. paldb range. wiki no percent. game8 significantly."
     },
     {
       "pal": "Azurobe Cryst",
@@ -1700,20 +2058,27 @@
       "partnerSkills": [
         {
           "name": "Icewing Dance",
-          "descriptionScraped": "Can be ridden to travel on water. While mounted, changes the player’s attack type to Ice and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden to travel on water. While mounted, changes the player's attack type to Ice and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/041B-azurobe-cryst--icewing-dance--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "azurobe-cryst-icewing-dance"
+      ],
+      "notes": "Fixed +5% Attack Ice. paldb range. wiki no percent."
     },
     {
       "pal": "Sparkit",
@@ -1728,20 +2093,27 @@
       "partnerSkills": [
         {
           "name": "Static Electricity",
-          "descriptionScraped": "While in party, increases Attack of Electric Pals by (15~30)%. (Does not stack) Sometimes drops Electric Organ when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Attack of Electric Pals by 15%. (Does not stack) Sometimes drops Electric Organ when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/042-sparkit--static-electricity--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "sparkit-static-electricity"
+      ],
+      "notes": "Fixed 15% Electric Attack + ranch. paldb range. wiki no %. game8 active-only."
     },
     {
       "pal": "Kelpsea",
@@ -1756,20 +2128,27 @@
       "partnerSkills": [
         {
           "name": "Aqua Spout",
-          "descriptionScraped": "While in party, increases Attack of Water Pals by (15~30)%. (Does not stack) Sometimes drops Aquatic Pal Fluids when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Attack of Water Pals by 15%. (Does not stack) Sometimes drops Aquatic Pal Fluids when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/043-kelpsea--aqua-spout--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "kelpsea-aqua-spout"
+      ],
+      "notes": "Fixed 15% Water Attack. paldb range. wiki Fluids naming soft."
     },
     {
       "pal": "Kelpsea Ignis",
@@ -1784,20 +2163,27 @@
       "partnerSkills": [
         {
           "name": "Lava Spout",
-          "descriptionScraped": "While in party, increases Attack of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Attack of Fire Pals by 15%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/043B-kelpsea-ignis--lava-spout--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "kelpsea-ignis-lava-spout"
+      ],
+      "notes": "Fixed 15% Fire Attack. paldb range. wiki/game8 soft."
     },
     {
       "pal": "Ribbuny",
@@ -1811,27 +2197,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Happy-Go-Lucky Bunny",
+          "descriptionScraped": "While in party, increases Attack of Neutral Pals by 15%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
+        },
+        {
           "name": "Skilled Fingers",
           "descriptionScraped": "While in team, increases Attack of Neutral Pals. While at a base, increases work efficiency when working at Weapon Workbench, Weapon Assembly Line, and other related facilities.",
           "sources": [
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Happy-Go-Lucky Bunny",
-          "descriptionScraped": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/044-ribbuny--happy-go-lucky-bunny--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "ribbuny-happy-go-lucky-bunny"
+      ],
+      "notes": "fixed 15% Neutral Attack + Handiwork +1; paldb range; game8 Sustainability; wiki wrong skill name."
     },
     {
       "pal": "Ribbuny Botan",
@@ -1853,19 +2246,26 @@
         },
         {
           "name": "Ground 'n' Pound",
-          "descriptionScraped": "While in party, improves player's and Pals' Grass damage to enemy weak points by (25~40)%. (Does not stack) Increases efficiency by (200~400)% when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+          "descriptionScraped": "While in party, improves player's and Pals' Grass damage to enemy weak points by 25%. (Does not stack) Increases efficiency by 200% when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/044B-ribbuny-botan--ground-n-pound--20260713-003527.jpg"
+      ],
+      "correctionIds": [
+        "ribbuny-botan-ground-n-pound"
+      ],
+      "notes": "fixed 25% Grass weak-point + 200% weapon facilities; paldb ranges; wiki wrong skill name."
     },
     {
       "pal": "Jelliette",
@@ -1880,20 +2280,27 @@
       "partnerSkills": [
         {
           "name": "Jelliette Drop",
-          "descriptionScraped": "While in party, increases items obtained from fishing by (55~95)%. While Jelliette and Jellroy are in your base, Jelliette's watering speed increases by (50~120)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases items obtained from fishing by 55%. While Jelliette and Jellroy are in your base, Jelliette's watering speed increases by 50%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/045-jelliette--jelliette-drop--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "jelliette-jelliette-drop"
+      ],
+      "notes": "Fixed 55% fishing + 50% watering with Jellroy. paldb ranges. wiki/game8 no %."
     },
     {
       "pal": "Jellroy",
@@ -1909,20 +2316,27 @@
       "partnerSkills": [
         {
           "name": "Jellroy Drop",
-          "descriptionScraped": "While in party, increases items obtained from salvaging by (55~95)%. While Jelliette and Jellroy are in your base, Jellroy's watering speed increases by (50~120)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases items obtained from salvaging by 55%. While Jelliette and Jellroy are in your base, Jellroy's watering speed increases by 50%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/046-jellroy--jellroy-drop--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "jellroy-jellroy-drop"
+      ],
+      "notes": "Fixed 55% salvaging + 50% watering. paldb ranges. wiki/game8 salvage soft."
     },
     {
       "pal": "Amione",
@@ -1940,16 +2354,23 @@
           "descriptionScraped": "While at a base, increases the Watering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/047-amione--magical-twin-powers--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "amione-magical-twin-powers"
+      ],
+      "notes": "paldb matches. game8 omits +1/stack. wiki missing."
     },
     {
       "pal": "Gloopie",
@@ -1965,20 +2386,27 @@
       "partnerSkills": [
         {
           "name": "Sticky Princess",
-          "descriptionScraped": "While in party, the capture gauge decreases (12~35)% more slowly while the bars are not overlapping during the fishing minigame. (Does not stack)",
+          "descriptionScraped": "While in party, the capture gauge decreases 12% more slowly while the bars are not overlapping during the fishing minigame. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/048-gloopie--sticky-princess--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "gloopie-sticky-princess"
+      ],
+      "notes": "Fixed 12% slower gauge. paldb range. wiki/game8 fighting together no %."
     },
     {
       "pal": "Gloopie Primo",
@@ -2020,27 +2448,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Galeclaw Glider",
+          "descriptionScraped": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+          "sources": [
+            "paldb",
+            "correction"
+          ]
+        },
+        {
           "name": "Galeclaw Rider",
           "descriptionScraped": "While in team, boosts the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
           "sources": [
             "game8",
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Galeclaw Glider",
-          "descriptionScraped": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
-          "sources": [
-            "paldb"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/049-galeclaw--galeclaw-glider--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "galeclaw-galeclaw-glider"
+      ],
+      "notes": "paldb skill name Galeclaw Glider. wiki/game8 still Galeclaw Rider + team."
     },
     {
       "pal": "Wispaw",
@@ -2058,16 +2493,23 @@
           "descriptionScraped": "While in party, increases the capture rate when awarded a back bonus. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/050-wispaw--death-cheating-feline--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "wispaw-death-cheating-feline"
+      ],
+      "notes": "paldb matches. game8 the party no stack note. wiki missing."
     },
     {
       "pal": "Nitewing",
@@ -2086,16 +2528,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/051-nitewing--travel-companion--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "nitewing-travel-companion"
+      ],
+      "notes": "paldb+wiki ok. game8 mount speed paraphrase."
     },
     {
       "pal": "Tombat",
@@ -2114,16 +2563,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/052-tombat--ultrasonic-sensor--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "tombat-ultrasonic-sensor"
+      ],
+      "notes": "paldb matches. wiki nearby Pals wrong. game8 level radius paraphrase."
     },
     {
       "pal": "Tocotoco",
@@ -2142,16 +2598,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/053-tocotoco--eggbomb-launcher--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "tocotoco-eggbomb-launcher"
+      ],
+      "notes": "paldb+wiki ok. game8 gloves rewrite."
     },
     {
       "pal": "Univolt",
@@ -2166,20 +2629,27 @@
       "partnerSkills": [
         {
           "name": "Swift Deity",
-          "descriptionScraped": "Can be ridden. While in party, improves player's and Pals' Electric damage to weak points by (25~40)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden. While in party, improves player's and Pals' Electric damage to weak points by 25%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/054-univolt--swift-deity--20260713-003711.jpg"
+      ],
+      "correctionIds": [
+        "univolt-swift-deity"
+      ],
+      "notes": "Ride + Electric weak-point 25%. wiki/game8 mounted Electric attack type outdated."
     },
     {
       "pal": "Univolt Cryst",
@@ -2249,20 +2719,27 @@
       "partnerSkills": [
         {
           "name": "Angry Shark",
-          "descriptionScraped": "When activated, attacks targeted enemy with Spirit Fire. When this Pal uses Spirit Fire, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%.",
+          "descriptionScraped": "When activated, attacks targeted enemy with Spirit Fire. When this Pal uses Spirit Fire, it has a x1.1 damage multiplier. While in party, increases the player's Attack by 10%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/055B-gobfin-ignis--angry-shark--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "gobfin-ignis-angry-shark"
+      ],
+      "notes": "Fixed x1.1 + 10% Attack. paldb ranges. wiki/game8 no numbers."
     },
     {
       "pal": "Loupmoon",
@@ -2277,20 +2754,27 @@
       "partnerSkills": [
         {
           "name": "Dark Gleam Strike",
-          "descriptionScraped": "When activated, attacks targeted enemy with Jumping Claw. When this Pal uses Jumping Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)",
+          "descriptionScraped": "When activated, attacks targeted enemy with Jumping Claw. When this Pal uses Jumping Claw, it has a x1.1 damage multiplier. While in party, increases the player's melee weapon attack speed by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/056-loupmoon--dark-gleam-strike--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "loupmoon-dark-gleam-strike"
+      ],
+      "notes": "Fixed x1.1 + 15% melee speed. paldb ranges. wiki no passive numbers."
     },
     {
       "pal": "Loupmoon Cryst",
@@ -2305,20 +2789,27 @@
       "partnerSkills": [
         {
           "name": "Frozen Gleam Strike",
-          "descriptionScraped": "When activated, attacks targeted enemy with Snow Claw. When this Pal uses Snow Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)",
+          "descriptionScraped": "When activated, attacks targeted enemy with Snow Claw. When this Pal uses Snow Claw, it has a x1.1 damage multiplier. While in party, increases the player's melee weapon attack speed by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/056B-loupmoon-cryst--frozen-gleam-strike--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "loupmoon-cryst-frozen-gleam-strike"
+      ],
+      "notes": "Fixed x1.1 + 15% melee speed. paldb ranges."
     },
     {
       "pal": "Cawgnito",
@@ -2332,27 +2823,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Eerie Nightstreaker",
+          "descriptionScraped": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch.",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
+        },
+        {
           "name": "Telepeck",
           "descriptionScraped": "When activated, attacks targeted enemy with a powerful Phantom Peck.",
           "sources": [
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Eerie Nightstreaker",
-          "descriptionScraped": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch.",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/057-cawgnito--eerie-nightstreaker--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "cawgnito-eerie-nightstreaker"
+      ],
+      "notes": "paldb matches. game8 paraphrase. wiki missing."
     },
     {
       "pal": "Arsox",
@@ -2371,16 +2869,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/058-arsox--warm-body--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "arsox-warm-body"
+      ],
+      "notes": "paldb matches. wiki/game8 warm environments outdated."
     },
     {
       "pal": "Muffly",
@@ -2398,16 +2903,23 @@
           "descriptionScraped": "While in party, increases the capture rate of Pals afflicted with Freeze. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/059-muffly--fluffy-flutterer--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "muffly-fluffy-flutterer"
+      ],
+      "notes": "paldb matches. game8 Freezed wording. wiki missing."
     },
     {
       "pal": "Bristla",
@@ -2422,20 +2934,27 @@
       "partnerSkills": [
         {
           "name": "Princess Gaze",
-          "descriptionScraped": "While in party, increases Attack of Grass Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases Attack of Grass Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/060-bristla--princess-gaze--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "bristla-princess-gaze"
+      ],
+      "notes": "Fixed 15%. paldb range. wiki no %. game8 active-only."
     },
     {
       "pal": "Cinnamoth",
@@ -2454,16 +2973,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/061-cinnamoth--mysterious-scales--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "cinnamoth-mysterious-scales"
+      ],
+      "notes": "paldb matches. wiki missing Farming +1. game8 paraphrase."
     },
     {
       "pal": "Puffolt",
@@ -2505,20 +3031,27 @@
       "partnerSkills": [
         {
           "name": "Amicable Holy Dragon",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, Dark Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, Dark Pals drop 40% more items when defeated. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/063-elphidran--amicable-holy-dragon--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "elphidran-amicable-holy-dragon"
+      ],
+      "notes": "Fixed 40% Dark drop. paldb range. wiki/game8 soft. game8 active-only."
     },
     {
       "pal": "Elphidran Aqua",
@@ -2534,20 +3067,27 @@
       "partnerSkills": [
         {
           "name": "Amicable Water Dragon",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, player and party Pals take (15~30)% less Fire damage and are immune to Burn. (Does not stack)",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, player and party Pals take 15% less Fire damage and are immune to Burn. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/063B-elphidran-aqua--amicable-water-dragon--20260713-003842.jpg"
+      ],
+      "correctionIds": [
+        "elphidran-aqua-amicable-water-dragon"
+      ],
+      "notes": "Fire resist 15% + Burn immune — not Fire drop buff. wiki/game8 wrong effect."
     },
     {
       "pal": "Vanwyrm",
@@ -2563,20 +3103,27 @@
       "partnerSkills": [
         {
           "name": "Aerial Marauder",
-          "descriptionScraped": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (20~40)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by 20%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/064-vanwyrm--aerial-marauder--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "vanwyrm-aerial-marauder"
+      ],
+      "notes": "Fixed 20% weak-point party. paldb range. wiki/game8 while mounted outdated."
     },
     {
       "pal": "Vanwyrm Cryst",
@@ -2592,20 +3139,27 @@
       "partnerSkills": [
         {
           "name": "Aerial Marauder",
-          "descriptionScraped": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (30~50)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by 30%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/064B-vanwyrm-cryst--aerial-marauder--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "vanwyrm-cryst-aerial-marauder"
+      ],
+      "notes": "Fixed 30% (higher base than Vanwyrm 20%). paldb range. wiki/game8 mounted."
     },
     {
       "pal": "Felbat",
@@ -2620,20 +3174,27 @@
       "partnerSkills": [
         {
           "name": "Life Steal",
-          "descriptionScraped": "While fighting together, grants the player and Felbat a life steal effect that restores (5~9)% of damage dealt as Health.",
+          "descriptionScraped": "While fighting together, grants the player and Felbat a life steal effect that restores 5% of damage dealt as Health.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/065-felbat--life-steal--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "felbat-life-steal"
+      ],
+      "notes": "Fixed 5% of damage dealt. paldb range. wiki received damage wrong."
     },
     {
       "pal": "Vaelet",
@@ -2648,20 +3209,27 @@
       "partnerSkills": [
         {
           "name": "Purification of Gaia",
-          "descriptionScraped": "While in party, Ground Pals drop (40~80)% more items when defeated. (Does not stack) Sometimes drops various seeds when assigned to Ranch.",
+          "descriptionScraped": "While in party, Ground Pals drop 40% more items when defeated. (Does not stack) Sometimes drops various seeds when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/066-vaelet--purification-of-gaia--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "vaelet-purification-of-gaia"
+      ],
+      "notes": "Fixed 40% + ranch seeds. paldb range. wiki/game8 fighting/active no seeds."
     },
     {
       "pal": "Beegarde",
@@ -2678,16 +3246,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/067-beegarde--worker-bee--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "beegarde-worker-bee"
+      ],
+      "notes": "paldb matches. wiki stats. game8 reorders."
     },
     {
       "pal": "Elizabee",
@@ -2702,20 +3277,27 @@
       "partnerSkills": [
         {
           "name": "Queen Bee Command",
-          "descriptionScraped": "This Pal's Attack increases by (12~24)% for each Beegarde in party.",
+          "descriptionScraped": "This Pal's Attack increases by 12% for each Beegarde in party.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/068-elizabee--queen-bee-command--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "elizabee-queen-bee-command"
+      ],
+      "notes": "Fixed 12% per Beegarde. paldb range. game8 skill level wrong."
     },
     {
       "pal": "Lovander",
@@ -2730,20 +3312,27 @@
       "partnerSkills": [
         {
           "name": "Heart Drain",
-          "descriptionScraped": "While fighting together, grants the player and Lovander a life steal effect that restores (5~9)% of damage dealt as Health.",
+          "descriptionScraped": "While fighting together, grants the player and Lovander a life steal effect that restores 5% of damage dealt as Health.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/069-lovander--heart-drain--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "lovander-heart-drain"
+      ],
+      "notes": "Fixed 5%. wiki Loveander typo + received damage wrong."
     },
     {
       "pal": "Grintale",
@@ -2757,27 +3346,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Glaring Cat's Eye",
+          "descriptionScraped": "Can be ridden. While in party, picking up a Pal Egg has a 50% chance of receiving one extra. (Does not stack)",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
+        },
+        {
           "name": "Plump Body",
           "descriptionScraped": "Can be ridden. Enhances Neutral attacks while mounted.",
           "sources": [
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Glaring Cat's Eye",
-          "descriptionScraped": "Can be ridden. While in party, picking up a Pal Egg has a (50~75)% chance of receiving one extra. (Does not stack)",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/070-grintale--glaring-cats-eye--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "grintale-glaring-cats-eye"
+      ],
+      "notes": "Fixed 50% extra Pal Egg. paldb range. wiki missing. game8 soft."
     },
     {
       "pal": "Tarantriss",
@@ -2796,16 +3392,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/071-tarantriss--tarantriss-web--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "tarantriss-tarantriss-web"
+      ],
+      "notes": "paldb matches spider web. wiki spider silk / fast speed."
     },
     {
       "pal": "Polapup",
@@ -2821,20 +3424,27 @@
       "partnerSkills": [
         {
           "name": "Rider of the Snowy Mountain",
-          "descriptionScraped": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes.",
+          "descriptionScraped": "Can be ridden. Movement Speed is increased by 80% while mounted on snow. Can also slide quickly down slopes.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/072-polapup--rider-of-the-snowy-mountain--20260713-003958.jpg"
+      ],
+      "correctionIds": [
+        "polapup-rider-of-the-snowy-mountain"
+      ],
+      "notes": "Fixed 80% snow mount speed. paldb range. wiki/game8 no percent."
     },
     {
       "pal": "Polapup Terra",
@@ -2852,7 +3462,8 @@
           "name": "Snowy Mountain Slider",
           "descriptionScraped": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes. While it starts out slow, the top speed it can hit while sliding is no joke.",
           "sources": [
-            "paldb"
+            "paldb",
+            "game8"
           ]
         }
       ],
@@ -2883,19 +3494,26 @@
         },
         {
           "name": "Too Cool to be Seen",
-          "descriptionScraped": "When activated, Leezpunk and the player become invisible, making them undetectable to enemies for (10~20) seconds.",
+          "descriptionScraped": "When activated, Leezpunk and the player become invisible, making them undetectable to enemies for 10 seconds.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/073-leezpunk--too-cool-to-be-seen--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "leezpunk-too-cool-to-be-seen"
+      ],
+      "notes": "Fixed 10 seconds. paldb range. game8 no duration. wiki missing."
     },
     {
       "pal": "Leezpunk Ignis",
@@ -2917,19 +3535,26 @@
         },
         {
           "name": "Too Cool to be Seen",
-          "descriptionScraped": "When activated, Leezpunk Ignis and the player become invisible, making them undetectable to enemies for (10~20) seconds.",
+          "descriptionScraped": "When activated, Leezpunk Ignis and the player become invisible, making them undetectable to enemies for 10 seconds.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/073B-leezpunk-ignis--too-cool-to-be-seen--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "leezpunk-ignis-too-cool-to-be-seen"
+      ],
+      "notes": "Fixed 10 seconds. game8 says Leezpunk not Ignis."
     },
     {
       "pal": "Gorirat",
@@ -2944,20 +3569,27 @@
       "partnerSkills": [
         {
           "name": "Full-Power Gorilla Mode",
-          "descriptionScraped": "When activated, unleashes a primal fury that increases Gorirat's Attack by (75~300)% for a limited time.",
+          "descriptionScraped": "When activated, unleashes a primal fury that increases Gorirat's Attack by 75% for a limited time.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/074-gorirat--full-power-gorilla-mode--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "gorirat-full-power-gorilla-mode"
+      ],
+      "notes": "Fixed 75%. paldb range. wiki no %. game8 includes Terra."
     },
     {
       "pal": "Gorirat Terra",
@@ -2979,19 +3611,26 @@
         },
         {
           "name": "Full-Power Gorilla Pound",
-          "descriptionScraped": "While in party, increases the player's climbing speed by (50~100)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases the player's climbing speed by 50%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/074B-gorirat-terra--full-power-gorilla-pound--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "gorirat-terra-full-power-gorilla-pound"
+      ],
+      "notes": "Fixed 50% climb. game8 ok. paldb range. wiki wrong skill (Mode)."
     },
     {
       "pal": "Surfent",
@@ -3010,16 +3649,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/075-surfent--swift-swimmer--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "surfent-swift-swimmer"
+      ],
+      "notes": "paldb+wiki ok. game8 produces Leather."
     },
     {
       "pal": "Surfent Terra",
@@ -3034,20 +3680,27 @@
       "partnerSkills": [
         {
           "name": "Sand Swimmer",
-          "descriptionScraped": "Can be ridden. While in party, the player's attacks inflict Muddy (2~6). (Does not stack)",
+          "descriptionScraped": "Can be ridden. While in party, the player's attacks inflict Muddy 2. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/075B-surfent-terra--sand-swimmer--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "surfent-terra-sand-swimmer"
+      ],
+      "notes": "Fixed Muddy 2. wiki ore weight wrong. paldb range."
     },
     {
       "pal": "Robinquill",
@@ -3061,27 +3714,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Grounded Archer",
+          "descriptionScraped": "While in party, increases the player's bow damage by 10%. (Does not stack)",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
+        },
+        {
           "name": "Hawk Eye",
           "descriptionScraped": "While fighting together, allows you to deal more damage to weak points.",
           "sources": [
             "wiki-gg"
           ]
-        },
-        {
-          "name": "Grounded Archer",
-          "descriptionScraped": "While in party, increases the player's bow damage by (10~35)%. (Does not stack)",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/076-robinquill--grounded-archer--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "robinquill-grounded-archer"
+      ],
+      "notes": "Fixed 10% bow damage. paldb range. game8 fighting together. wiki missing."
     },
     {
       "pal": "Robinquill Terra",
@@ -3104,19 +3764,26 @@
         },
         {
           "name": "Master Archer",
-          "descriptionScraped": "While in party, increases the player's bow charge speed by (15~30)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases the player's bow charge speed by 15%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/076B-robinquill-terra--master-archer--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "robinquill-terra-master-archer"
+      ],
+      "notes": "Fixed 15% bow charge. game8 ok. paldb range. wiki missing."
     },
     {
       "pal": "Flopie",
@@ -3135,16 +3802,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/077-flopie--helper-bunny--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "flopie-helper-bunny"
+      ],
+      "notes": "paldb matches. wiki team. game8 paraphrase."
     },
     {
       "pal": "Wixen",
@@ -3159,20 +3833,27 @@
       "partnerSkills": [
         {
           "name": "Lord Fox",
-          "descriptionScraped": "When activated, Wixen changes the player's attack type to Fire and increases Attack by (30~50)%.",
+          "descriptionScraped": "When activated, Wixen changes the player's attack type to Fire and increases Attack by 30%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/078-wixen--lord-fox--20260713-004111.jpg"
+      ],
+      "correctionIds": [
+        "wixen-lord-fox"
+      ],
+      "notes": "Activated skill + 30% Attack. wiki fighting together no %. paldb range."
     },
     {
       "pal": "Wixen Noct",
@@ -3223,19 +3904,26 @@
         },
         {
           "name": "Mystical Black Magic",
-          "descriptionScraped": "While in party, Neutral Pals drop (40~80)% more items when defeated. Also has a (10~50)% chance to prevent Pal Sphere consumption when thrown. (Does not stack)",
+          "descriptionScraped": "While in party, Neutral Pals drop 40% more items when defeated. Also has a 10% chance to prevent Pal Sphere consumption when thrown. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/079-katress--mystical-black-magic--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "katress-mystical-black-magic"
+      ],
+      "notes": "Fixed 40% Neutral drop + 10% sphere save. paldb ranges. game8 active-only no sphere."
     },
     {
       "pal": "Katress Ignis",
@@ -3254,7 +3942,8 @@
           "descriptionScraped": "While at a base, increases the Kindling Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         },
         {
@@ -3265,12 +3954,18 @@
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/079B-katress-ignis--blazing-black-magic--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "katress-ignis-blazing-black-magic"
+      ],
+      "notes": "paldb matches Kindling +1. game8 Grass drop wrong."
     },
     {
       "pal": "Helzephyr",
@@ -3285,20 +3980,27 @@
       "partnerSkills": [
         {
           "name": "Wings of Death",
-          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Dark and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Dark and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/080-helzephyr--wings-of-death--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "helzephyr-wings-of-death"
+      ],
+      "notes": "Fixed +5% Attack. paldb range. wiki no percent."
     },
     {
       "pal": "Helzephyr Lux",
@@ -3314,20 +4016,27 @@
       "partnerSkills": [
         {
           "name": "Wings of Thunder",
-          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Electric and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/080B-helzephyr-lux--wings-of-thunder--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "helzephyr-lux-wings-of-thunder"
+      ],
+      "notes": "Fixed +5% Attack Electric. paldb range. wiki no percent."
     },
     {
       "pal": "Elgrove",
@@ -3342,19 +4051,26 @@
       "partnerSkills": [
         {
           "name": "Mother Nature's Menace",
-          "descriptionScraped": "When activated, Elgrove changes the player's attack type to Grass and increases Attack by (30~50)%.",
+          "descriptionScraped": "When activated, Elgrove changes the player's attack type to Grass and increases Attack by 30%.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/081-elgrove--mother-natures-menace--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "elgrove-mother-natures-menace"
+      ],
+      "notes": "Fixed 30%. paldb range. game8 no percent. wiki missing."
     },
     {
       "pal": "Elgrove Cryst",
@@ -3396,20 +4112,27 @@
       "partnerSkills": [
         {
           "name": "Antigravity",
-          "descriptionScraped": "While in party, spheres home in on Pals, and carrying capacity increases by (300~600). (Does not stack)",
+          "descriptionScraped": "While in party, spheres home in on Pals, and carrying capacity increases by 300. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/082-lunaris--antigravity--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "lunaris-antigravity"
+      ],
+      "notes": "Fixed +300 carry + sphere home. wiki/game8 carry only no home-in."
     },
     {
       "pal": "Fenglope",
@@ -3428,16 +4151,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/083-fenglope--wind-and-clouds--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "fenglope-wind-and-clouds"
+      ],
+      "notes": "paldb+wiki ok. game8 mount speed paraphrase."
     },
     {
       "pal": "Fenglope Lux",
@@ -3481,20 +4211,27 @@
       "partnerSkills": [
         {
           "name": "Fragrant Dragon",
-          "descriptionScraped": "Can be ridden. While in party, increase Defense of Dragon Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden. While in party, increase Defense of Dragon Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/084-dinossom--fragrant-dragon--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "dinossom-fragrant-dragon"
+      ],
+      "notes": "Dragon Def 15% party. wiki/game8 Grass mounted wrong."
     },
     {
       "pal": "Dinossom Lux",
@@ -3510,20 +4247,27 @@
       "partnerSkills": [
         {
           "name": "Thunder Dragon",
-          "descriptionScraped": "Can be ridden. While in party, increases Defense of Electric Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden. While in party, increases Defense of Electric Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/084B-dinossom-lux--thunder-dragon--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "dinossom-lux-thunder-dragon"
+      ],
+      "notes": "Electric Def 15% party. wiki/game8 Electric mounted wrong."
     },
     {
       "pal": "Bushi",
@@ -3538,20 +4282,27 @@
       "partnerSkills": [
         {
           "name": "Brandish Blade",
-          "descriptionScraped": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x(1.1~2.5) damage multiplier.",
+          "descriptionScraped": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x1.1 damage multiplier.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/085-bushi--brandish-blade--20260713-004224.jpg"
+      ],
+      "correctionIds": [
+        "bushi-brandish-blade"
+      ],
+      "notes": "Fixed x1.1. paldb range. wiki/game8 no multiplier."
     },
     {
       "pal": "Bushi Noct",
@@ -3602,20 +4353,27 @@
       "partnerSkills": [
         {
           "name": "Icy Maw",
-          "descriptionScraped": "While in party, reduces the weight of ingredient and food by (30~60)%. When paired with another Ice Pal, their Rot Speed also reduces by (-30~-80)%. (Does not stack)",
+          "descriptionScraped": "While in party, reduces the weight of ingredient and food by 30%. When paired with another Ice Pal, their Rot Speed also reduces by -30%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/086-munchill--icy-maw--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "munchill-icy-maw"
+      ],
+      "notes": "Fixed 30% food weight + -30% rot with Ice pal. paldb ranges. wiki/game8 soft spoil text."
     },
     {
       "pal": "Mammorest",
@@ -3631,20 +4389,27 @@
       "partnerSkills": [
         {
           "name": "Gaia Crusher",
-          "descriptionScraped": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%.",
+          "descriptionScraped": "Can be ridden. While mounted, increases logging efficiency by 220% and mining efficiency by 500%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/087-mammorest--gaia-crusher--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "mammorest-gaia-crusher"
+      ],
+      "notes": "Fixed 220% log + 500% mine. paldb ranges. wiki/game8 no percents."
     },
     {
       "pal": "Mammorest Cryst",
@@ -3660,20 +4425,27 @@
       "partnerSkills": [
         {
           "name": "Ice Crusher",
-          "descriptionScraped": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%.",
+          "descriptionScraped": "Can be ridden. While mounted, increases logging efficiency by 220% and mining efficiency by 500%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/087B-mammorest-cryst--ice-crusher--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "mammorest-cryst-ice-crusher"
+      ],
+      "notes": "Same fixed 220%/500% as Gaia Crusher. paldb ranges."
     },
     {
       "pal": "Finsider",
@@ -3687,27 +4459,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Water Gun",
-          "descriptionScraped": "When activated, Finsider changes the player's attack type to Water and increases Attack by (30~50)%.",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
-        },
-        {
           "name": "Echo Chamber",
           "descriptionScraped": "While in team, Finsider helps carry supplies, decreasing the weight of weapons in the player's inventory.",
           "sources": [
             "wiki-gg"
           ]
+        },
+        {
+          "name": "Water Gun",
+          "descriptionScraped": "When activated, Finsider changes the player's attack type to Water and increases Attack by 30%.",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/088-finsider--water-gun--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "finsider-water-gun"
+      ],
+      "notes": "Activated skill + 30%. game8 team passive. paldb range. wiki missing."
     },
     {
       "pal": "Finsider Ignis",
@@ -3751,20 +4530,27 @@
       "partnerSkills": [
         {
           "name": "Blessing of the Flower Spirit",
-          "descriptionScraped": "When activated, soothing blossoms restore the player's Health by (75~85)%. While at a base, increases the Planting Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "descriptionScraped": "When activated, soothing blossoms restore the player's Health by 75%. While at a base, increases the Planting Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/089-petallia--blessing-of-the-flower-spirit--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "petallia-blessing-of-the-flower-spirit"
+      ],
+      "notes": "Fixed 75% heal + Planting +1. paldb range. wiki incomplete."
     },
     {
       "pal": "Petallia Ignis",
@@ -3807,19 +4593,26 @@
       "partnerSkills": [
         {
           "name": "Selfless Discipline",
-          "descriptionScraped": "This Pal's Attack and Defense increase by (2~6)% for each other Grass Pal in your party.",
+          "descriptionScraped": "This Pal's Attack and Defense increase by 2% for each other Grass Pal in your party.",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/090-leafan--selfless-discipline--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "leafan-selfless-discipline"
+      ],
+      "notes": "Fixed 2% per other Grass. game8 ok. paldb range. wiki missing."
     },
     {
       "pal": "Incineram",
@@ -3835,20 +4628,27 @@
       "partnerSkills": [
         {
           "name": "Flameclaw Hunter",
-          "descriptionScraped": "When activated, attacks the targeted enemy with Hellfire Claw. When this Pal uses Hellfire Claw, it has a x(1.1~2.5) damage multiplier.",
+          "descriptionScraped": "When activated, attacks the targeted enemy with Hellfire Claw. When this Pal uses Hellfire Claw, it has a x1.1 damage multiplier.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/091-incineram--flameclaw-hunter--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "incineram-flameclaw-hunter"
+      ],
+      "notes": "Fixed x1.1. paldb range. wiki/game8 no multiplier."
     },
     {
       "pal": "Incineram Noct",
@@ -3895,16 +4695,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/092-dazzi--lady-of-lightning--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "dazzi-lady-of-lightning"
+      ],
+      "notes": "paldb matches HP floor. wiki/game8 follow-up outdated."
     },
     {
       "pal": "Dazzi Noct",
@@ -3948,20 +4755,27 @@
       "partnerSkills": [
         {
           "name": "Red Hare",
-          "descriptionScraped": "Can be ridden. While mounted, changes the player’s attack type to Fire and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden. While mounted, changes the player's attack type to Fire and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/093-pyrin--red-hare--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "pyrin-red-hare"
+      ],
+      "notes": "Fixed +5% Attack. paldb range. wiki no percent."
     },
     {
       "pal": "Pyrin Noct",
@@ -3977,20 +4791,27 @@
       "partnerSkills": [
         {
           "name": "Black Hare",
-          "descriptionScraped": "Can be ridden. While mounted, changes the player’s attack type toDark and increases Attack by (5~20)%.",
+          "descriptionScraped": "Can be ridden. While mounted, changes the player's attack type to Dark and increases Attack by 5%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/093B-pyrin-noct--black-hare--20260713-004340.jpg"
+      ],
+      "correctionIds": [
+        "pyrin-noct-black-hare"
+      ],
+      "notes": "Fixed +5% Attack Dark. paldb range. wiki no percent."
     },
     {
       "pal": "Relaxaurus",
@@ -4010,16 +4831,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/094-relaxaurus--hungry-missile--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "relaxaurus-hungry-missile"
+      ],
+      "notes": "paldb+wiki ok. game8 rockets paraphrase."
     },
     {
       "pal": "Relaxaurus Lux",
@@ -4039,16 +4867,23 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/094B-relaxaurus-lux--missile-party--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "relaxaurus-lux-missile-party"
+      ],
+      "notes": "paldb+wiki ok. game8 rockets paraphrase."
     },
     {
       "pal": "Foxcicle",
@@ -4063,20 +4898,27 @@
       "partnerSkills": [
         {
           "name": "Aurora Guide",
-          "descriptionScraped": "While in party, increases Attack of Ice Pals by (15~30)%. (Does not stack) Sometimes drops Ice Organ when assigned to Ranch.",
+          "descriptionScraped": "While in party, increases Attack of Ice Pals by 15%. (Does not stack) Sometimes drops Ice Organ when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/095-foxcicle--aurora-guide--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "foxcicle-aurora-guide"
+      ],
+      "notes": "Fixed 15% Ice Attack + Ice Organ ranch. paldb range. wiki no %."
     },
     {
       "pal": "Beakon",
@@ -4091,20 +4933,27 @@
       "partnerSkills": [
         {
           "name": "Thunderous",
-          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by (5~20)%. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Beakon)",
+          "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by 5%. This Pal's Movement Speed increases by 5% for each other Electric Pal in your party. (Excluding Beakon)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/096-beakon--thunderous--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "beakon-thunderous"
+      ],
+      "notes": "Fixed 5% Atk + 5% MS per Electric. paldb ranges. wiki incomplete."
     },
     {
       "pal": "Beakon Cryst",
@@ -4146,27 +4995,34 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Master of Darkness",
-          "descriptionScraped": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Dark or Water Pal in your party. (Excluding Ghangler)",
-          "sources": [
-            "paldb",
-            "game8"
-          ]
-        },
-        {
           "name": "Master Night Angler",
           "descriptionScraped": "Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
           "sources": [
             "wiki-gg"
           ]
+        },
+        {
+          "name": "Master of Darkness",
+          "descriptionScraped": "Can be ridden to travel on water. This Pal's Movement Speed increases by 5% for each other Dark or Water Pal in your party. (Excluding Ghangler)",
+          "sources": [
+            "paldb",
+            "game8",
+            "correction"
+          ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/097-ghangler--master-of-darkness--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "ghangler-master-of-darkness"
+      ],
+      "notes": "Fixed 5% MS per Dark/Water. paldb range. game8 soft. wiki missing."
     },
     {
       "pal": "Ghangler Ignis",
@@ -4182,10 +5038,11 @@
       "partnerSkills": [
         {
           "name": "Abyssal Celebrity Chef",
-          "descriptionScraped": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Fire or Water Pal in your party. (Excluding Ghangler Ignis)",
+          "descriptionScraped": "Can be ridden to travel on water. This Pal's Movement Speed increases by 5% for each other Fire or Water Pal in your party. (Excluding Ghangler Ignis)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         },
         {
@@ -4196,12 +5053,18 @@
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/097B-ghangler-ignis--abyssal-celebrity-chef--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "ghangler-ignis-abyssal-celebrity-chef"
+      ],
+      "notes": "Fixed 5% MS per Fire/Water. paldb range. wiki missing."
     },
     {
       "pal": "Rayhound",
@@ -4223,19 +5086,26 @@
         },
         {
           "name": "Lightning Shepherd",
-          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Rayhound)",
+          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted. This Pal's Movement Speed increases by 5% for each other Electric Pal in your party. (Excluding Rayhound)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/098-rayhound--lightning-shepherd--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "rayhound-lightning-shepherd"
+      ],
+      "notes": "Fixed 5% MS per Electric + double jump. game8 incomplete. wiki missing."
     },
     {
       "pal": "Rayhound Cryst",
@@ -4250,19 +5120,26 @@
       "partnerSkills": [
         {
           "name": "Snow Shepherd",
-          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted. While in party, increases Defense of Ice Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden. Can perform a double jump while mounted. While in party, increases Defense of Ice Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/098B-rayhound-cryst--snow-shepherd--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "rayhound-cryst-snow-shepherd"
+      ],
+      "notes": "Fixed 15% Ice Def + double jump. paldb range. game8 soft."
     },
     {
       "pal": "Menasting",
@@ -4278,20 +5155,27 @@
       "partnerSkills": [
         {
           "name": "Steel Scorpion",
-          "descriptionScraped": "While in party, player's Defense increases by (5~10)%, and Electric Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "descriptionScraped": "While in party, player's Defense increases by 5%, and Electric Pals drop 40% more items when defeated. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/099-menasting--steel-scorpion--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "menasting-steel-scorpion"
+      ],
+      "notes": "Fixed 5% Def + 40% Electric drop. paldb ranges. wiki/game8 soft."
     },
     {
       "pal": "Menasting Terra",
@@ -4340,19 +5224,26 @@
       "partnerSkills": [
         {
           "name": "Hug Me Please",
-          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Ivy-Covered by (50~65)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Ivy-Covered by 50%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/100-needoll--hug-me-please--20260713-004457.jpg"
+      ],
+      "correctionIds": [
+        "needoll-hug-me-please"
+      ],
+      "notes": "Fixed 50% vs Ivy-Covered. paldb range. game8 no %. wiki missing."
     },
     {
       "pal": "Needoll Noct",
@@ -4368,19 +5259,26 @@
       "partnerSkills": [
         {
           "name": "Hug You So Much",
-          "descriptionScraped": "While in party, the player's attacks inflict Ivy-Covered (2~6). (Does not stack)",
+          "descriptionScraped": "While in party, the player's attacks inflict Ivy-Covered 2. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/100B-needoll-noct--hug-you-so-much--20260713-004615.jpg"
+      ],
+      "correctionIds": [
+        "needoll-noct-hug-you-so-much"
+      ],
+      "notes": "Ivy-Covered 2; game8 ok; paldb range; wiki missing."
     },
     {
       "pal": "Reindrix",
@@ -4676,18 +5574,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Overaffectionate",
-          "descriptionScraped": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Love's First Blossom",
           "descriptionScraped": "Can be ridden. While in party, Pal Eggs you pick up have a (35~45)% chance of becoming an Alpha Pal Egg. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Overaffectionate",
+          "descriptionScraped": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -4958,18 +5856,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Hard Armor",
-          "descriptionScraped": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Cast-Iron Shell",
           "descriptionScraped": "While in your party, generates a barrier around the player after 5 melee hits are landed within (5~9) seconds. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Hard Armor",
+          "descriptionScraped": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -5184,18 +6082,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Swooshy Spores",
-          "descriptionScraped": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Rampant Spores",
           "descriptionScraped": "Can be ridden. Sometimes drops Mushroom or Cavern Mushroom when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Swooshy Spores",
+          "descriptionScraped": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -5451,18 +6349,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Sky Dragon's Affection",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Sky Dragon Affection",
           "descriptionScraped": "Can be ridden as a flying mount. While in party, increases Attack of Dragon Pals by (15~30)%. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Sky Dragon's Affection",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -5486,18 +6384,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Grass Dragon's Affection",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Grass Dragon Affection",
           "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Grass and increases Attack by (5~20)%.",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Grass Dragon's Affection",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -5790,19 +6688,27 @@
       "partnerSkills": [
         {
           "name": "Power Stone",
-          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by (50~65)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by 50%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-12",
+      "verifiedFields": [
+        "skillName",
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/131-pierdon--power-stone--20260712-210017.jpg"
+      ],
+      "correctionIds": [
+        "pierdon-power-stone"
+      ],
+      "notes": "Palpedia Stats; Power Stone fixed 50% confirmed. paldb range 50~65 paraphrase; game8 omits percent; wiki-gg missing."
     },
     {
       "pal": "Pierdon Cryst",
@@ -6213,18 +7119,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Phantom Venom",
+          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack)",
+          "sources": [
+            "paldb"
+          ]
+        },
+        {
           "name": "Scorpion Sonar",
           "descriptionScraped": "While in the party, increases player's and pal's damage to enemies afflicted with Poison.",
           "sources": [
             "game8",
             "wiki-gg"
-          ]
-        },
-        {
-          "name": "Phantom Venom",
-          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack)",
-          "sources": [
-            "paldb"
           ]
         }
       ],
@@ -6687,18 +7593,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Grassland Speedster",
-          "descriptionScraped": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Grassland Gymnast",
           "descriptionScraped": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Grassland Speedster",
+          "descriptionScraped": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -8637,30 +9543,6 @@
             "paldb",
             "game8",
             "wiki-gg"
-          ]
-        }
-      ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
-    },
-    {
-      "pal": "Polapup Tera",
-      "id": null,
-      "deckNo": null,
-      "deckSort": 9000,
-      "elements": [],
-      "img": null,
-      "inPalsData": false,
-      "partnerSkills": [
-        {
-          "name": "Snowy Mountain Slider",
-          "descriptionScraped": "Functions as mount. Increased movement speed on snow.",
-          "sources": [
-            "game8"
           ]
         }
       ],

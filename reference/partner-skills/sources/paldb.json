@@ -4,7 +4,7 @@
     "sourceLabel": "paldb.cc",
     "sourceUrl": "https://paldb.cc/en/Partner_Skill",
     "kind": "skill_catalog",
-    "scrapedAt": "2026-07-13T01:07:37.068Z",
+    "scrapedAt": "2026-07-13T07:46:34.046Z",
     "scraper": "scripts/scrape-partner-skills.js",
     "note": "Scraped snapshot only. Do not hand-edit. Corrections live in corrections/corrections.json."
   },

@@ -2,16 +2,16 @@
 
 Auto-generated from scraped catalogs (`wiki-gg`, `game8`, `paldb`). **Not in-game truth** — use this to prioritize Palpedia screenshots.
 
-Generated: 2026-07-13T01:43:01.896Z
+Generated: 2026-07-13T07:46:34.086Z
 
 ## Summary
 
 | Metric | Count |
 |--------|------:|
-| Description text differs (same skill+pal) | 285 |
-| Coverage gaps (missing from ≥1 catalog site) | 172 |
+| Description text differs (same skill+pal) | 286 |
+| Coverage gaps (missing from ≥1 catalog site) | 171 |
 | Pals with conflicting skill *names* across sites | 47 |
-| Skill+pal only on a single site | 52 |
+| Skill+pal only on a single site | 50 |
 | Severe description conflicts (little shared wording) | 31 |
 
 Catalog sizes:
@@ -25,8 +25,8 @@ Fandom is excluded from name/description compare (level tables only). See `sourc
 Only-on-one-site breakdown:
 
 - **wiki-gg only**: 42
-- **game8 only**: 5
-- **paldb only**: 5
+- **game8 only**: 4
+- **paldb only**: 4
 
 ## 1. Same pal, different skill names
 
@@ -274,7 +274,7 @@ Same skill name + pal, but site texts share almost no wording (likely outdated r
 
 ## 3. All description mismatches
 
-Every skill+pal where at least two sites have descriptions that are not identical after whitespace normalize. (285 rows)
+Every skill+pal where at least two sites have descriptions that are not identical after whitespace normalize. (286 rows)
 
 | Pal | Skill | Sources disagree | wiki-gg | game8 | paldb |
 |-----|-------|------------------|---------|-------|-------|
@@ -469,6 +469,7 @@ Every skill+pal where at least two sites have descriptions that are not identica
 | Pierdon | Power Stone | game8, paldb | _missing_ | While in the party, increases player's and Pals' damage to enemies afflicted with Muddy. | While in party, increases player's and Pals' damage to enemies afflicted with Muddy by (50~65)%. (D… |
 | Pierdon Cryst | Power Crystal | game8, paldb | _missing_ | While in the party, player and party Pals take less Dragon damage. | While in party, player and party Pals take (15~30)% less Dragon damage. (Does not stack) |
 | Polapup | Rider of the Snowy Mountain | wiki-gg, game8, paldb | Can be ridden. Runs faster over snow. Can slide quickly down slopes. | Functions as mount.Can slide quickly down slopes. | Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quick… |
+| Polapup Terra | Snowy Mountain Slider | game8, paldb | _missing_ | Functions as mount. Increased movement speed on snow. | Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quick… |
 | Prixter | Scorpion Sonar | wiki-gg, game8 | When activated, it can analyze airborne particles and find a dungeon's exit. | While in the party, increases player's and pal's damage to enemies afflicted with Poison. | _missing_ |
 | Prixter Lux | Scorpion Longwave | game8, paldb | _missing_ | Increases Attack and changes the player's attack type to Electric. | When activated, Prixter Lux changes the player's attack type to Electric and increases Attack by (3… |
 | Prunelia | Prayer for Abundant Harvest | wiki-gg, game8, paldb | While at a base, Prunelia's prayers bless the crops, increasing their harvest. | While at a base, Prunelia's prayers bless the crops, increasing their harvest. | While at a base, Prunelia's prayers bless the crops, increasing their harvest by (18~35)%. |
@@ -570,7 +571,7 @@ Skill+pal pairs missing from one or more catalog sites.
 
 ### 4a. Only on a single site
 
-(52 rows)
+(50 rows)
 
 | Pal | Skill | Only on | Description (truncated) |
 |-----|-------|---------|-----------------------|
@@ -606,8 +607,6 @@ Skill+pal pairs missing from one or more catalog sites.
 | Melpaca | Pecapaca Wool | wiki-gg | Can be Ridden. Sometimes drops Wool when assigned to Ranch. |
 | Menasting Terra | Steel Scorpion | wiki-gg | When fighting together, increases the player's defense and Electric Pals drop more items when defeated. |
 | Neptilius | Sentinal of the Great Sea | wiki-gg | While fighting together, it follows up your attacks with spear strikes. Can be ridden to travel quicky across water. Wh… |
-| Polapup Tera | Snowy Mountain Slider | game8 | Functions as mount. Increased movement speed on snow. |
-| Polapup Terra | Snowy Mountain Slider | paldb | Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes. Whil… |
 | Prixter | Phantom Venom | paldb | While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack) |
 | Quivern | Sky Dragon's Affection | wiki-gg | Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted. |
 | Quivern Botan | Grass Dragon's Affection | wiki-gg | Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted. |
@@ -629,7 +628,7 @@ Skill+pal pairs missing from one or more catalog sites.
 
 ### 4b. Missing from exactly one site
 
-(120 rows)
+(121 rows)
 
 | Pal | Skill | Present on | Missing from |
 |-----|-------|------------|--------------|
@@ -700,6 +699,7 @@ Skill+pal pairs missing from one or more catalog sites.
 | Petallia Ignis | Passion of the Flower Spirit | game8, paldb | wiki-gg |
 | Pierdon | Power Stone | game8, paldb | wiki-gg |
 | Pierdon Cryst | Power Crystal | game8, paldb | wiki-gg |
+| Polapup Terra | Snowy Mountain Slider | game8, paldb | wiki-gg |
 | Prixter | Scorpion Sonar | wiki-gg, game8 | paldb |
 | Prixter Lux | Scorpion Longwave | game8, paldb | wiki-gg |
 | Puffolt | Crackle Booster | game8, paldb | wiki-gg |

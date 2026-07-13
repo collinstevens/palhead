@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T01:43:01.896Z",
+  "generatedAt": "2026-07-13T07:46:34.086Z",
   "generator": "scripts/build-partner-skills-discrepancies.js",
   "note": "Website-vs-website only. Not ground truth. In-game screenshots resolve these via corrections/ + checklist.",
   "sourcesCompared": [
@@ -13,14 +13,14 @@
     "paldb": 298
   },
   "summary": {
-    "descriptionMismatchCount": 285,
-    "coverageGapCount": 172,
+    "descriptionMismatchCount": 286,
+    "coverageGapCount": 171,
     "nameConflictPalCount": 47,
-    "onlyOneSourceCount": 52,
+    "onlyOneSourceCount": 50,
     "onlyOneSourceBySite": {
       "wiki-gg": 42,
-      "game8": 5,
-      "paldb": 5
+      "game8": 4,
+      "paldb": 4
     },
     "severeDescriptionMismatchCount": 31
   },
@@ -2949,6 +2949,20 @@
         "wiki-gg": "Can be ridden. Runs faster over snow. Can slide quickly down slopes.",
         "game8": "Functions as mount.Can slide quickly down slopes.",
         "paldb": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes."
+      }
+    },
+    {
+      "key": "snowy mountain slider||polapup terra",
+      "name": "Snowy Mountain Slider",
+      "pal": "Polapup Terra",
+      "presentIn": [
+        "game8",
+        "paldb"
+      ],
+      "uniqueDescriptionCount": 2,
+      "descriptions": {
+        "game8": "Functions as mount. Increased movement speed on snow.",
+        "paldb": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes. While it starts out slow, the top speed it can hit while sliding is no joke."
       }
     },
     {
@@ -6007,34 +6021,19 @@
       }
     },
     {
-      "key": "snowy mountain slider||polapup tera",
-      "name": "Snowy Mountain Slider",
-      "pal": "Polapup Tera",
-      "presentIn": [
-        "game8"
-      ],
-      "missingFrom": [
-        "wiki-gg",
-        "paldb"
-      ],
-      "kind": "only_one_source",
-      "descriptions": {
-        "game8": "Functions as mount. Increased movement speed on snow."
-      }
-    },
-    {
       "key": "snowy mountain slider||polapup terra",
       "name": "Snowy Mountain Slider",
       "pal": "Polapup Terra",
       "presentIn": [
+        "game8",
         "paldb"
       ],
       "missingFrom": [
-        "wiki-gg",
-        "game8"
+        "wiki-gg"
       ],
-      "kind": "only_one_source",
+      "kind": "missing_one_source",
       "descriptions": {
+        "game8": "Functions as mount. Increased movement speed on snow.",
         "paldb": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes. While it starts out slow, the top speed it can hit while sliding is no joke."
       }
     },

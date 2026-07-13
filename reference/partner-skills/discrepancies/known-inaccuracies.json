@@ -94,8 +94,4005 @@
       "notes": "Game8 says produces Eggs instead of sometimes lays an Egg.",
       "updatedAt": "2026-07-12",
       "resolvedAt": "2026-07-12"
+    },
+    {
+      "id": "pierdon-power-stone-desc",
+      "status": "resolved",
+      "pal": "Pierdon",
+      "skillName": "Power Stone",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases player's and Pals' damage to enemies afflicted with Muddy.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by (50~65)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by 50%. (Does not stack)",
+      "correctionId": "pierdon-power-stone",
+      "evidence": "reference/partner-skills/corrections/evidence/131-pierdon--power-stone--20260712-210017.jpg",
+      "notes": "In-game Palpedia shows fixed +50% and (Does not stack). paldb uses range (50~65)%. game8 omits percent and stack note. wiki-gg has no Pierdon entry.",
+      "updatedAt": "2026-07-12",
+      "resolvedAt": "2026-07-12"
+    },
+    {
+      "id": "lifmunk-lifmunk-recoil-desc",
+      "status": "resolved",
+      "pal": "Lifmunk",
+      "skillName": "Lifmunk Recoil",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Requires Lifmunk's Submachine Gun. While Lifmunk is the active Pal, activate its Partner Skill and it will ride on the player's head, shooting a submachine gun as the player attacks.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, leaps onto the player's head and uses a submachine gun to follow up player attacks.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, leaps onto the player's head and uses a submachine gun to follows up player attacks.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, leaps onto the player's head and uses a submachine gun to follows up player attacks.",
+      "correctionId": "lifmunk-lifmunk-recoil",
+      "evidence": "reference/partner-skills/corrections/evidence/004-lifmunk--lifmunk-recoil--20260713-002510.jpg",
+      "notes": "In-game Palpedia uses 'to follows up' (grammar quirk). paldb matches. wiki-gg silently fixes to 'follow'. game8 rewrites and adds Submachine Gun requirement wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "fuack-surfing-slam-desc",
+      "status": "resolved",
+      "pal": "Fuack",
+      "skillName": "Surfing Slam",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Fuack slides at high speeds and hits the opponent, dealing Water elemental damage and soaks them in water.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, Fuack body surfs toward an enemy and slams into them.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, Fuack body surfs towards an enemy and slams into them.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Fuack body surfs towards an enemy and slams into them.",
+      "correctionId": "fuack-surfing-slam",
+      "evidence": "reference/partner-skills/corrections/evidence/005-fuack--surfing-slam--20260713-002538.jpg",
+      "notes": "wiki-gg uses toward not towards. game8 invents Water damage/soak wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "fuack-ignis-fire-tackle-desc",
+      "status": "resolved",
+      "pal": "Fuack Ignis",
+      "skillName": "Fire Tackle",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Fuack Ignis fire surfs towards an enemy and slams into them.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": "When Activated, Fuack Ignis fire surfs towards and enemy and slams into them.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "When activated, Fuack Ignis fire surfs towards an enemy and slams into them.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Fuack Ignis fire surfs towards an enemy and slams into them.",
+      "correctionId": "fuack-ignis-fire-tackle",
+      "evidence": "reference/partner-skills/corrections/evidence/005B-fuack-ignis--fire-tackle--20260713-002538.jpg",
+      "notes": "wiki-gg capital Activated and missing 'an' before enemy.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "vixy-dig-here-desc",
+      "status": "resolved",
+      "pal": "Vixy",
+      "skillName": "Dig Here!",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When grazing in the Ranch, Vixy occasionally finds Pals Spheres, Arrows, and Gold. Vixy can also find Mega Pal Spheres.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes digs up items from the ground when assigned to Ranch",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Sometimes digs up items from the ground when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes digs up items from the ground when assigned to Ranch.",
+      "correctionId": "vixy-dig-here",
+      "evidence": "reference/partner-skills/corrections/evidence/006-vixy--dig-here--20260713-002538.jpg",
+      "notes": "game8 lists specific loot instead of generic items wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "celaray-zephyr-glider-desc",
+      "status": "resolved",
+      "pal": "Celaray",
+      "skillName": "Zephyr Glider",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the team, increases the glider’s speed and movement while preventing fall damage.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modifies the performance of the equipped glider. Increases speed while gliding for an extended time.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+      "correctionId": "celaray-zephyr-glider",
+      "evidence": "reference/partner-skills/corrections/evidence/007-celaray--zephyr-glider--20260713-002538.jpg",
+      "notes": "In-game uses party not team; second line is fall damage + high-speed gliding duration. wiki-gg omits fall damage and rewords speed.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "celaray-lux-jolt-glider-desc",
+      "status": "resolved",
+      "pal": "Celaray Lux",
+      "skillName": "Jolt Glider",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modifies the performance of the equipped glider. Increases speed while gliding for an extended time.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Prevents fall damage and extends the duration of high-speed gliding.",
+      "correctionId": "celaray-lux-jolt-glider",
+      "evidence": "reference/partner-skills/corrections/evidence/007B-celaray-lux--jolt-glider--20260713-002639.jpg",
+      "notes": "game8 inserts 'the' before party. wiki-gg team + omits fall damage.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "cremis-fluffy-wool-desc",
+      "status": "resolved",
+      "pal": "Cremis",
+      "skillName": "Fluffy Wool",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Powers up the attack of Neutral Pals in the party while Cremis is in the party. When assigned to the Ranch, Cremis produces Wool.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Neutral Pals. Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Neutral Pals by 15%. (Does not stack) Sometimes drops Wool when assigned to Ranch.",
+      "correctionId": "cremis-fluffy-wool",
+      "evidence": "reference/partner-skills/corrections/evidence/008-cremis--fluffy-wool--20260713-002639.jpg",
+      "notes": "Palpedia fixed +15%. paldb range. wiki-gg team without percent. game8 produces Wool paraphrase.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "croajiro-leap-stance-desc",
+      "status": "resolved",
+      "pal": "Croajiro",
+      "skillName": "Leap Stance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Croajiro puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's attack is increased.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, Croajiro swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's Attack is increased by (50~86)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While airborne before landing, the player's Attack is increased by 50%.",
+      "correctionId": "croajiro-leap-stance",
+      "evidence": "reference/partner-skills/corrections/evidence/009-croajiro--leap-stance--20260713-002639.jpg",
+      "notes": "In-game names Croajiro Noct on base Croajiro page (shared string). Fixed +50% Attack. wiki-gg omits airborne buff. game8 omits percent and says Croajiro not Croajiro Noct.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "croajiro-noct-shadow-stance-desc",
+      "status": "resolved",
+      "pal": "Croajiro Noct",
+      "skillName": "Shadow Stance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Croajiro Noct swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air. While in team, increases attack power of Dark Pals.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "When activated, Croajiro Noct swells its abdomen and channels its loyalty to build up energy. Climbing on top will propel the player high into the air. While in team, increases Attack of Dark pals.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While in party, improves player's and Pals' Dark damage to enemy weak points by (25~40)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Croajiro Noct channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air. While in party, improves player's and Pals' Dark damage to enemy weak points by 25%. (Does not stack)",
+      "correctionId": "croajiro-noct-shadow-stance",
+      "evidence": "reference/partner-skills/corrections/evidence/009B-croajiro-noct--shadow-stance--20260713-002639.jpg",
+      "notes": "Second effect is Dark weak-point damage +25% for player and Pals, not general Dark Attack. Fixed percent; paldb range.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "herbil-herbil-pulse-desc",
+      "status": "resolved",
+      "pal": "Herbil",
+      "skillName": "Herbil Pulse",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, restores the player's Max Health when incapacitated.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Herbil uses its healing powers to revive the player when incapacitated.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, Herbil uses its healing powers to restore (30~60)% of the player's Max Health when incapacitated.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, Herbil uses its healing powers to restore 30% of the player's Max Health when incapacitated.",
+      "correctionId": "herbil-herbil-pulse",
+      "evidence": "reference/partner-skills/corrections/evidence/010-herbil--herbil-pulse--20260713-002639.jpg",
+      "notes": "Fixed restore 30% Max Health; not generic revive. party not team.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "teafant-soothing-shower-desc",
+      "status": "resolved",
+      "pal": "Teafant",
+      "skillName": "Soothing Shower",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Teafant heals the player for a set amount per level of Soothing Shower when activated.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "When activated, spouts mysterious water that soothes wounds and restores the player's Health.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, restores (20~40)% of the player's Health when Health falls below 30%. (Does not stack) (120-second cooldown after activation)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, restores 20% of the player's Health when Health falls below 30%. (Does not stack) (120-second cooldown after activation)",
+      "correctionId": "teafant-soothing-shower",
+      "evidence": "reference/partner-skills/corrections/evidence/011-teafant--soothing-shower--20260713-002639.jpg",
+      "notes": "Passive low-HP heal 20% with 120s CD. wiki-gg/game8 still describe active spout heal.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "gumoss-logging-assistance-desc",
+      "status": "resolved",
+      "pal": "Gumoss",
+      "skillName": "Logging Assistance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's logging efficiency and reduces the weight of all wood types while Gumoss is in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, improves efficiency of cutting trees.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, improves logging efficiency by (30~50)% and reduces weight of all types of wood by (40~60)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, improves logging efficiency by 30% and reduces weight of all types of wood by 40%. (Does not stack)",
+      "correctionId": "gumoss-logging-assistance",
+      "evidence": "reference/partner-skills/corrections/evidence/012-gumoss--logging-assistance--20260713-002812.jpg",
+      "notes": "Fixed 30% logging efficiency and 40% wood weight reduction. paldb ranges. wiki-gg team + no numbers.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "pupperai-best-boy-desc",
+      "status": "resolved",
+      "pal": "Pupperai",
+      "skillName": "Best Boy",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the Party, increases the player's melee weapon damage.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases the player's melee weapon damage by (10~35)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the player's melee weapon damage by 10%. (Does not stack)",
+      "correctionId": "pupperai-best-boy",
+      "evidence": "reference/partner-skills/corrections/evidence/013-pupperai--best-boy--20260713-002812.jpg",
+      "notes": "Fixed +10% melee weapon damage. paldb range. game8 omits percent. wiki-gg missing Pupperai.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "clovee-happy-clover-desc",
+      "status": "resolved",
+      "pal": "Clovee",
+      "skillName": "Happy Clover",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While at a base, increased Gathering Work Sustainability Level for all other Base Pals.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While at a base, increases the Gathering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While at a base, increases the Gathering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "clovee-happy-clover",
+      "evidence": "reference/partner-skills/corrections/evidence/014-clovee--happy-clover--20260713-002850.jpg",
+      "notes": "game8 miswrites Suitability as Sustainability and omits +1 and stack note. wiki-gg missing.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "jolthog-jolt-bomb-desc",
+      "status": "resolved",
+      "pal": "Jolthog",
+      "skillName": "Jolt Bomb",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Equips Jolthog in the player's hand. When thrown, it creates a large electric explosion on impact, dealing damage and shocking enemies hit which stuns them and makes them easier to catch for a moment. The damage increases for each level of Jolt Bomb.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips Jolthog to the player's hand. When thrown at an enemy, causes an electrical explosion upon impact.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, equips Jolthog to the player to be thrown at an enemy, causing an Electric explosion upon impact.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips Jolthog to the player to be thrown at an enemy, causing an Electric explosion upon impact.",
+      "correctionId": "jolthog-jolt-bomb",
+      "evidence": "reference/partner-skills/corrections/evidence/015-jolthog--jolt-bomb--20260713-002850.jpg",
+      "notes": "wiki-gg rewords hand/electrical. game8 adds stun/catch and per-level damage not in Palpedia text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "jolthog-cryst-cold-bomb-desc",
+      "status": "resolved",
+      "pal": "Jolthog Cryst",
+      "skillName": "Cold Bomb",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Equips Jolthog Cryst in the player's hand. When thrown, it creates a large cold explosion on impact, dealing damage and freezing enemies hit, making them easier to catch. The damage increases for each level of Cold Bomb.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips Jolthog Cryst to the player's hand. When thrown at an enemy, causes an icy explosion upon impact.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, equips Jolthog Cryst to the player to be thrown at an enemy, causing an Ice explosion upon impact.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips Jolthog Cryst to the player to be thrown at an enemy, causing an Ice explosion upon impact.",
+      "correctionId": "jolthog-cryst-cold-bomb",
+      "evidence": "reference/partner-skills/corrections/evidence/015B-jolthog-cryst--cold-bomb--20260713-002850.jpg",
+      "notes": "wiki-gg icy vs Ice. game8 freeze/catch and level scaling not in Palpedia text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "depresso-caffeine-inoculation-desc",
+      "status": "resolved",
+      "pal": "Depresso",
+      "skillName": "Caffeine Inoculation",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Depresso gains a sudden burst of energy which increases its movement speed. The movement speed bonus increases for each level Caffeine Inoculation. May drop Venom Glands when assigned to a Ranch.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase for a limited time.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, Depresso chugs an entire energy drink, increasing its Movement Speed and Work Speed by (100~900)%. Sometimes drops Venom Gland when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Depresso chugs an entire energy drink, increasing its Movement Speed and Work Speed by 100%. Sometimes drops Venom Gland when assigned to Ranch.",
+      "correctionId": "depresso-caffeine-inoculation",
+      "evidence": "reference/partner-skills/corrections/evidence/016-depresso--caffeine-inoculation--20260713-002952.jpg",
+      "notes": "Fixed +100% Movement and Work Speed. paldb range. wiki-gg omits Work Speed and ranch drop. game8 movement-only + Glands plural.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "pengullet-pengullet-launcher-desc",
+      "status": "resolved",
+      "pal": "Pengullet",
+      "skillName": "Pengullet Launcher",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Arms a rocket launcher using Pengullet as ammo. On impact, Pengullet explodes and suffers lethal damage in exchange for dealing Neutral element damage, stunning any enemies it hits in a large area.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, the player equips a Rocket Launcher and fires Pengullet as ammunition. Pengullet explodes on contact and is incapacitated.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, the player equips a Rocket Launcher to fire Pengullet as ammunition. Pengullet explodes on impact and is incapacitated.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, the player equips a Rocket Launcher to fire Pengullet as ammunition. Pengullet explodes on impact and is incapacitated.",
+      "correctionId": "pengullet-pengullet-launcher",
+      "evidence": "reference/partner-skills/corrections/evidence/017-pengullet--pengullet-launcher--20260713-002952.jpg",
+      "notes": "wiki-gg contact vs impact and and fires. game8 lethal/Neutral stun rewrite.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "pengullet-lux-pengullet-lux-launcher-desc",
+      "status": "resolved",
+      "pal": "Pengullet Lux",
+      "skillName": "Pengullet Lux Launcher",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, the player equips a Rocket Launcher and fires Pengullet Lux as ammunition. Pengullet Lux explodes on contact and is incapacitated.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, the player equips a Rocket Launcher and fires Pengullet Lux as ammunition. Pengullet Lux explodes on contact and is incapacitated.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "When activated, the player equips Pengullet Lux to fire Rocket Launcher as ammunition. Pengullet Lux explodes on impact and is incapacitated.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, the player equips Pengullet Lux to fire Rocket Launcher as ammunition. Pengullet Lux explodes on impact and is incapacitated.",
+      "correctionId": "pengullet-lux-pengullet-lux-launcher",
+      "evidence": "reference/partner-skills/corrections/evidence/017B-pengullet-lux--pengullet-lux-launcher--20260713-002952.jpg",
+      "notes": "In-game matches paldb awkward subject order (equips Pengullet Lux to fire Rocket Launcher). wiki/game8 normalize to base Pengullet pattern.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "penking-brave-sailor-desc",
+      "status": "resolved",
+      "pal": "Penking",
+      "skillName": "Brave Sailor",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Penking is your active Pal, it increases the amount of items Fire Pals drop when defeated.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, Fire Pals drop more items when defeated.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, Fire Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, Fire Pals drop 40% more items when defeated. (Does not stack)",
+      "correctionId": "penking-brave-sailor",
+      "evidence": "reference/partner-skills/corrections/evidence/018-penking--brave-sailor--20260713-003039.jpg",
+      "notes": "Party passive fixed 40%. not active-only or fighting-together without percent.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "penking-lux-unyielding-storm-commander-desc",
+      "status": "resolved",
+      "pal": "Penking Lux",
+      "skillName": "Unyielding Storm Commander",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While fighting together, improves Water Pals and the player's damage.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, Water Pals drop more items when defeated.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, improves player's and Pals' Water damage to enemy weak points by (25~40)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, improves player's and Pals' Water damage to enemy weak points by 25%. (Does not stack)",
+      "correctionId": "penking-lux-unyielding-storm-commander",
+      "evidence": "reference/partner-skills/corrections/evidence/018B-penking-lux--unyielding-storm-commander--20260713-003039.jpg",
+      "notes": "Water weak-point damage 25%. wiki-gg still describes Fire-style drop buff for Water.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "hoocrates-dark-knowledge-desc",
+      "status": "resolved",
+      "pal": "Hoocrates",
+      "skillName": "Dark Knowledge",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Hoocrates is in your party, your active Dark Pal's attack is increased.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Dark Pals.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Dark Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Dark Pals by 15%. (Does not stack)",
+      "correctionId": "hoocrates-dark-knowledge",
+      "evidence": "reference/partner-skills/corrections/evidence/019-hoocrates--dark-knowledge--20260713-003039.jpg",
+      "notes": "Fixed 15% for Dark Pals generally. game8 active-only. wiki-gg no percent.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "melpaca-pacapaca-wool-desc",
+      "status": "resolved",
+      "pal": "Melpaca",
+      "skillName": "Pacapaca Wool",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Melpaca produces Wool. Also enables Melpaca to be mounted. Enhances Kingpaca's Defense and Movement Speed while Melpaca is in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be Ridden. Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, increases Kingpaca's Defense and Movement Speed. Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, increases Kingpaca's Defense and Movement Speed. Sometimes drops Wool when assigned to Ranch.",
+      "correctionId": "melpaca-pacapaca-wool",
+      "evidence": "reference/partner-skills/corrections/evidence/020-melpaca--pacapaca-wool--20260713-003039.jpg",
+      "notes": "Name is Pacapaca Wool. wiki-gg Pecapaca omits Kingpaca buff.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "kingpaca-king-of-muscles-desc",
+      "status": "resolved",
+      "pal": "Kingpaca",
+      "skillName": "King of Muscles",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Defense and Movement Speed increases for every Melpaca included in the party. Allows Kingpaca to be mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in a team, Kingpaca helps carry supplies, increasing the player's max carrying capacity.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
+      "correctionId": "kingpaca-king-of-muscles",
+      "evidence": "reference/partner-skills/corrections/evidence/021-kingpaca--king-of-muscles--20260713-003039.jpg",
+      "notes": "Fixed 5% per Melpaca. wiki-gg still documents old carry capacity skill.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "kingpaca-cryst-coldhearted-king-desc",
+      "status": "resolved",
+      "pal": "Kingpaca Cryst",
+      "skillName": "Coldhearted King",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": "While in a team, Kingpaca Cryst helps carry supplies, increasing the player's max carrying capacity.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden. This Pal's Defense and Movement Speed increase by (5~14)% for each Melpaca in party.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. This Pal's Defense and Movement Speed increase by 5% for each Melpaca in party.",
+      "correctionId": "kingpaca-cryst-coldhearted-king",
+      "evidence": "reference/partner-skills/corrections/evidence/021B-kingpaca-cryst--coldhearted-king--20260713-003039.jpg",
+      "notes": "game8 matches fixed 5%. wiki-gg wrong skill name and carry weight text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "daedream-dream-chaser-desc",
+      "status": "resolved",
+      "pal": "Daedream",
+      "skillName": "Dream Chaser",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Daedream accompanies you and follows up your attacks with dark magic that increase in damage for each level of Dream Chaser while it is in your party and not set as your active Pal.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, appears near the player. Follows up player attacks with magic bullets.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, appears near the player. Attacks hostile enemies with Dark magic bullets. These bullets will not reduce the target's Health below 1.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, appears near the player. Attacks hostile enemies with Dark magic bullets. These bullets will not reduce the target's Health below 1.",
+      "correctionId": "daedream-dream-chaser",
+      "evidence": "reference/partner-skills/corrections/evidence/022-daedream--dream-chaser--20260713-003039.jpg",
+      "notes": "Autonomous Dark bullets with HP floor 1; not follow-up-only. wiki/game8 outdated follow-up wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tanzee-cheery-rifle-desc",
+      "status": "resolved",
+      "pal": "Tanzee",
+      "skillName": "Cheery Rifle",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Tanzee arms itself with an assault rifle and shoots enemies in range, dealing neutral element damage for the skill's duration.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies for a limited time.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies for a limited time.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies for a limited time.",
+      "correctionId": "tanzee-cheery-rifle",
+      "evidence": "reference/partner-skills/corrections/evidence/023-tanzee--cheery-rifle--20260713-003154.jpg",
+      "notes": "game8 adds Neutral damage wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tanzee-ignis-chipper-chimp-gunfire-desc",
+      "status": "resolved",
+      "pal": "Tanzee Ignis",
+      "skillName": "Chipper Chimp Gunfire",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Tanzee Ignis will mercilessly fire a Fire assault rifle at nearby enemies for a limited time.",
+      "correctionId": "tanzee-ignis-chipper-chimp-gunfire",
+      "evidence": "reference/partner-skills/corrections/evidence/023B-tanzee-ignis--chipper-chimp-gunfire--20260713-003154.jpg",
+      "notes": "wiki-gg missing Tanzee Ignis.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "nox-kuudere-desc",
+      "status": "resolved",
+      "pal": "Nox",
+      "skillName": "Kuudere",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Reveals the locations of nearby Pal Effigies when activated.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When fighting together, changes the player's attack type to Dark.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "When activated, detects the location of nearby Pal Effigies.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, detects the location of nearby Pal Effigies.",
+      "correctionId": "nox-kuudere",
+      "evidence": "reference/partner-skills/corrections/evidence/024-nox--kuudere--20260713-003154.jpg",
+      "notes": "wiki-gg still documents old Dark attack type conversion.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "flambelle-magma-tears-desc",
+      "status": "resolved",
+      "pal": "Flambelle",
+      "skillName": "Magma Tears",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Flambelle produces Flame Organs. Slowly recovers health while outside of combat.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes produces Flame Organ when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, recovers Health of the player and Party Pals by (0.1~0.5)% per second outside of combat. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, recovers Health of the player and Party Pals by 0.1% per second outside of combat. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+      "correctionId": "flambelle-magma-tears",
+      "evidence": "reference/partner-skills/corrections/evidence/025-flambelle--magma-tears--20260713-003154.jpg",
+      "notes": "Fixed 0.1% per second heal for player and Party Pals.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "rooby-tiny-spark-desc",
+      "status": "resolved",
+      "pal": "Rooby",
+      "skillName": "Tiny Spark",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Rooby is in your party, your active Fire Pal's defense is increased.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Fire Pals.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, increases Defense of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Defense of Fire Pals by 15%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+      "correctionId": "rooby-tiny-spark",
+      "evidence": "reference/partner-skills/corrections/evidence/026-rooby--tiny-spark--20260713-003154.jpg",
+      "notes": "Defense 15% for Fire Pals + ranch Flame Organ. wiki says Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "mau-gold-digger-desc",
+      "status": "resolved",
+      "pal": "Mau",
+      "skillName": "Gold Digger",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Mau produces Gold Coins.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes digs up Gold Coin when assigned to a Ranch.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Sometimes digs up Gold Coin when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes digs up Gold Coin when assigned to Ranch.",
+      "correctionId": "mau-gold-digger",
+      "evidence": "reference/partner-skills/corrections/evidence/027-mau--gold-digger--20260713-003154.jpg",
+      "notes": "game8 produces Coins plural.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "rushoar-hard-head-desc",
+      "status": "resolved",
+      "pal": "Rushoar",
+      "skillName": "Hard Head",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases player's mining efficiency while riding Rushoar.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Increases efficiency of destroying boulders while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While mounted, increases efficiency of destroying Stone by (500~2000)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While mounted, increases efficiency of destroying Stone by 500%.",
+      "correctionId": "rushoar-hard-head",
+      "evidence": "reference/partner-skills/corrections/evidence/028-rushoar--hard-head--20260713-003154.jpg",
+      "notes": "Fixed 500% destroying Stone.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "foxparks-huggy-fire-desc",
+      "status": "resolved",
+      "pal": "Foxparks",
+      "skillName": "Huggy Fire",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Requires Foxparks's Harness. While Foxparks is the active Pal, activate its Partner Skill and it will hop onto the player's arms and will act as a flamethrower, replacing the player's weapon for the duration.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips to the player and transforms into a flamethrower.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "When activated, equips to the player and transforms into a flamethrower.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips to the player and transforms into a flamethrower.",
+      "correctionId": "foxparks-huggy-fire",
+      "evidence": "reference/partner-skills/corrections/evidence/029-foxparks--huggy-fire--20260713-003154.jpg",
+      "notes": "game8 adds harness requirement wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "foxparks-cryst-huggy-frost-desc",
+      "status": "resolved",
+      "pal": "Foxparks Cryst",
+      "skillName": "Huggy Frost",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, equips to the player and attacks using frigid air.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips to the player and attacks using frigid air.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "When activated, equips to the player and attacks using frigid air.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips to the player and attacks using frigid air.",
+      "correctionId": "foxparks-cryst-huggy-frost",
+      "evidence": "reference/partner-skills/corrections/evidence/029B-foxparks-cryst--huggy-frost--20260713-003255.jpg",
+      "notes": "wiki=When activated, equips to the player and attacks using frigid air.; game8=When activated, equips to the player and attacks using frigid air.; paldb=When activated, equips to the player and attacks using frigid air.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "killamari-fried-squid-desc",
+      "status": "resolved",
+      "pal": "Killamari",
+      "skillName": "Fried Squid",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, boosts the performance of the equipped glider. Allows for a slow and extended glide.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+      "correctionId": "killamari-fried-squid",
+      "evidence": "reference/partner-skills/corrections/evidence/030-killamari--fried-squid--20260713-003255.jpg",
+      "notes": "party not team; paldb exact.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "killamari-primo-fried-killamari-desc",
+      "status": "resolved",
+      "pal": "Killamari Primo",
+      "skillName": "Fried Killamari",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+      "correctionId": "killamari-primo-fried-killamari",
+      "evidence": "reference/partner-skills/corrections/evidence/030B-killamari-primo--fried-killamari--20260713-003255.jpg",
+      "notes": "party not team.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "fuddler-mining-assistance-desc",
+      "status": "resolved",
+      "pal": "Fuddler",
+      "skillName": "Mining Assistance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases mining efficiency and reduces stone weight while in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, improves player mining efficiency by (30~60)% and reduces Stone weight by (80~100)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, improves player mining efficiency by 30% and reduces Stone weight by 80%. (Does not stack)",
+      "correctionId": "fuddler-mining-assistance",
+      "evidence": "reference/partner-skills/corrections/evidence/031-fuddler--mining-assistance--20260713-003255.jpg",
+      "notes": "Fixed 30% and 80%.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "eikthyrdeer-guardian-of-the-forest-desc",
+      "status": "resolved",
+      "pal": "Eikthyrdeer",
+      "skillName": "Guardian of the Forest",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Enables Eikthyrdeer to be mounted. While mounted, Eikthyrdeer can perform a double jump and player gets increased logging efficiency.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can perform a double jump while mounted and increases lumbering efficiency by (220~500)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can perform a double jump while mounted and increases lumbering efficiency by 220%.",
+      "correctionId": "eikthyrdeer-guardian-of-the-forest",
+      "evidence": "reference/partner-skills/corrections/evidence/032-eikthyrdeer--guardian-of-the-forest--20260713-003255.jpg",
+      "notes": "Fixed lumbering 220%.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "direhowl-direhowl-rider-desc",
+      "status": "resolved",
+      "pal": "Direhowl",
+      "skillName": "Direhowl Rider",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases mount speed and enables mounting for Direhowl.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Moves slightly faster than most mounts",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden. Moves slightly faster than most mounts.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Moves slightly faster than most mounts.",
+      "correctionId": "direhowl-direhowl-rider",
+      "evidence": "reference/partner-skills/corrections/evidence/033-direhowl--direhowl-rider--20260713-003255.jpg",
+      "notes": "paldb exact with period.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "caprity-berry-picker-desc",
+      "status": "resolved",
+      "pal": "Caprity",
+      "skillName": "Berry Picker",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Caprity produces Berries. Restores Hunger over time.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Sometimes drops Red Berries from its back when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Sometimes drops Red Berries from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes drops Red Berries from its back when assigned to Ranch. While in party, restores 100 Pal's Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+      "correctionId": "caprity-berry-picker",
+      "evidence": "reference/partner-skills/corrections/evidence/034-caprity--berry-picker--20260713-003423.jpg",
+      "notes": "Fixed restore 100 Hunger every 5 minutes.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "caprity-noct-venom-picker-desc",
+      "status": "resolved",
+      "pal": "Caprity Noct",
+      "skillName": "Venom Picker",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores Pal's Hunger to the Pal with the lowest Hunger.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes drops Venom Gland from its back when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores (100~200) Pal’s Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes drops Venom Gland from its back when assigned to Ranch. While in party, restores 100 Pal's Hunger to the Pal with the lowest Hunger every 5 minutes. (Does not stack)",
+      "correctionId": "caprity-noct-venom-picker",
+      "evidence": "reference/partner-skills/corrections/evidence/034B-caprity-noct--venom-picker--20260713-003423.jpg",
+      "notes": "Fixed restore 100 Hunger every 5 minutes.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "swee-fluffy-desc",
+      "status": "resolved",
+      "pal": "Swee",
+      "skillName": "Fluffy",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases Sweepa's attack and defense.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Sweepa's stats will be increased.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack and Defense of Sweepa.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack and Defense of Sweepa.",
+      "correctionId": "swee-fluffy",
+      "evidence": "reference/partner-skills/corrections/evidence/035-swee--fluffy--20260713-003423.jpg",
+      "notes": "Attack and Defense of Sweepa, party wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "sweepa-king-of-fluff-desc",
+      "status": "resolved",
+      "pal": "Sweepa",
+      "skillName": "King of Fluff",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Unlocks the ability to mount Sweepa. Sweepa gains a small damage and defense increase for each Swee included in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. When fighting together, stats will increase the more Swee are in your team.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. This Pal's Attack and Defense increase by (12~24)% for each Swee in party.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. This Pal's Attack and Defense increase by 12% for each Swee in party.",
+      "correctionId": "sweepa-king-of-fluff",
+      "evidence": "reference/partner-skills/corrections/evidence/036-sweepa--king-of-fluff--20260713-003423.jpg",
+      "notes": "Fixed 12% Attack and Defense per Swee.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "turtacle-spikey-carrier-desc",
+      "status": "resolved",
+      "pal": "Turtacle",
+      "skillName": "Spikey Carrier",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, reduces Ore weight.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Turtacle helps carry supplies, decreasing the weight of armor in the player's inventory.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, reduces Ore weight by (80~100)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, reduces Ore weight by 80%. (Does not stack)",
+      "correctionId": "turtacle-spikey-carrier",
+      "evidence": "reference/partner-skills/corrections/evidence/037-turtacle--spikey-carrier--20260713-003423.jpg",
+      "notes": "Ore weight 80%, not armor carry.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "turtacle-terra-shiny-hauler-desc",
+      "status": "resolved",
+      "pal": "Turtacle Terra",
+      "skillName": "Shiny Hauler",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, reduces weight of Sulfur and Coal. Increases Pal's and player's Ground damage.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Turtacle Terra helps carry supplies, decreasing the weight of armor in the player's inventory. Also increases Attack of Ground Pals.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, reduces weight of Sulfur and Coal by (80~100)%. Also improves player's and Pals' Ground damage to enemy weak points by (80~100)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, reduces weight of Sulfur and Coal by 80%. Also improves player's and Pals' Ground damage to enemy weak points by 80%. (Does not stack)",
+      "correctionId": "turtacle-terra-shiny-hauler",
+      "evidence": "reference/partner-skills/corrections/evidence/037B-turtacle-terra--shiny-hauler--20260713-003423.jpg",
+      "notes": "Fixed 80% both effects; Ground weak-point not armor.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "hangyu-flying-trapeze-desc",
+      "status": "resolved",
+      "pal": "Hangyu",
+      "skillName": "Flying Trapeze",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the team, boosts the performance of the equipped glider. Lifts the player slowly while gliding.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modified the performance of the equipped glider. Enables slow ascent while gliding.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding.",
+      "correctionId": "hangyu-flying-trapeze",
+      "evidence": "reference/partner-skills/corrections/evidence/038-hangyu--flying-trapeze--20260713-003423.jpg",
+      "notes": "party + modifies + slow ascension.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "hangyu-cryst-winter-trapeze-desc",
+      "status": "resolved",
+      "pal": "Hangyu Cryst",
+      "skillName": "Winter Trapeze",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, boosts the performance of the equipped glider. Lifts the player slowly while gliding.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, can be summoned and used instead of a glider. Enables slow ascent while gliding.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Enables slow ascension while gliding.",
+      "correctionId": "hangyu-cryst-winter-trapeze",
+      "evidence": "reference/partner-skills/corrections/evidence/038B-hangyu-cryst--winter-trapeze--20260713-003527.jpg",
+      "notes": "party glider modify + slow ascension; not summon-as-glider.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "woolipop-candy-pop-desc",
+      "status": "resolved",
+      "pal": "Woolipop",
+      "skillName": "Candy Pop",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Woolipop produces Cotton Candy. Woolipop also decreases the hunger depletion while at a base.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes drops Cotton Candy when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Sometimes drops Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by (-10~-20)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes drops Cotton Candy when assigned to Ranch. While at a base, reduces Hunger depletion rate of Base Pals by -10%. (Does not stack)",
+      "correctionId": "woolipop-candy-pop",
+      "evidence": "reference/partner-skills/corrections/evidence/039-woolipop--candy-pop--20260713-003527.jpg",
+      "notes": "Fixed -10% hunger depletion for Base Pals.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "mozzarina-milk-maker-desc",
+      "status": "resolved",
+      "pal": "Mozzarina",
+      "skillName": "Milk Maker",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Mozzarina produces Milk.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes produces Milk when assigned to a Ranch.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "Sometimes drops Milk when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes drops Milk when assigned to Ranch.",
+      "correctionId": "mozzarina-milk-maker",
+      "evidence": "reference/partner-skills/corrections/evidence/040-mozzarina--milk-maker--20260713-003527.jpg",
+      "notes": "drops Milk wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "azurobe-waterwing-dance-desc",
+      "status": "resolved",
+      "pal": "Azurobe",
+      "skillName": "Waterwing Dance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack significantly and changes the player's damage type to Water while mounting Azurobe.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden to travel on water. Changes the player's attack type to Water while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden to travel on water. While mounted, changes the player's attack type to Water and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden to travel on water. While mounted, changes the player's attack type to Water and increases Attack by 5%.",
+      "correctionId": "azurobe-waterwing-dance",
+      "evidence": "reference/partner-skills/corrections/evidence/041-azurobe--waterwing-dance--20260713-003527.jpg",
+      "notes": "Fixed Attack +5%.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "azurobe-cryst-icewing-dance-desc",
+      "status": "resolved",
+      "pal": "Azurobe Cryst",
+      "skillName": "Icewing Dance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as a water mount. Increases player's Attack and changes the player's attack type to Ice.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden to travel on water. Changes the player's attack type to Ice while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden to travel on water. While mounted, changes the player’s attack type to Ice and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden to travel on water. While mounted, changes the player's attack type to Ice and increases Attack by 5%.",
+      "correctionId": "azurobe-cryst-icewing-dance",
+      "evidence": "reference/partner-skills/corrections/evidence/041B-azurobe-cryst--icewing-dance--20260713-003527.jpg",
+      "notes": "Fixed Attack +5% Ice mount.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "sparkit-static-electricity-desc",
+      "status": "resolved",
+      "pal": "Sparkit",
+      "skillName": "Static Electricity",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Sparkit is in your party, your active Electric Pal's attack is increased. Occasionally drops Electric Organ.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Electric Pals.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Electric Pals by (15~30)%. (Does not stack) Sometimes drops Electric Organ when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Electric Pals by 15%. (Does not stack) Sometimes drops Electric Organ when assigned to Ranch.",
+      "correctionId": "sparkit-static-electricity",
+      "evidence": "reference/partner-skills/corrections/evidence/042-sparkit--static-electricity--20260713-003527.jpg",
+      "notes": "Fixed 15% for all Electric Pals + ranch organ.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "kelpsea-aqua-spout-desc",
+      "status": "resolved",
+      "pal": "Kelpsea",
+      "skillName": "Aqua Spout",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Kelpsea is in your party, the attack of your active Water Pal is increased. When assigned to the Ranch, Kelpsea produces Aquatic Pal Fluids.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases the Attack of Water Pals. Sometimes drops Pal Fluids when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Water Pals by (15~30)%. (Does not stack) Sometimes drops Aquatic Pal Fluids when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Water Pals by 15%. (Does not stack) Sometimes drops Aquatic Pal Fluids when assigned to Ranch.",
+      "correctionId": "kelpsea-aqua-spout",
+      "evidence": "reference/partner-skills/corrections/evidence/043-kelpsea--aqua-spout--20260713-003527.jpg",
+      "notes": "Fixed 15% + Aquatic Pal Fluids.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "kelpsea-ignis-lava-spout-desc",
+      "status": "resolved",
+      "pal": "Kelpsea Ignis",
+      "skillName": "Lava Spout",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Kelpsea Ignis is in your party, the attack of your active Fire Pal is increased. When assigned to the Ranch, Kelpsea Ignis produces Flame Organ.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases the Attack of Fire Pals. Sometimes drops Flame Organ when assigned to Ranch.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Fire Pals by (15~30)%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Fire Pals by 15%. (Does not stack) Sometimes drops Flame Organ when assigned to Ranch.",
+      "correctionId": "kelpsea-ignis-lava-spout",
+      "evidence": "reference/partner-skills/corrections/evidence/043B-kelpsea-ignis--lava-spout--20260713-003527.jpg",
+      "notes": "Fixed 15% Fire Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "ribbuny-happy-go-lucky-bunny-desc",
+      "status": "resolved",
+      "pal": "Ribbuny",
+      "skillName": "Happy-Go-Lucky Bunny",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the attack of Neutral Pals in the party while Ribbuny is in the party. Also increases Handiwork Sustainability level for Base Pals.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Neutral Pals by 15%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "ribbuny-happy-go-lucky-bunny",
+      "evidence": "reference/partner-skills/corrections/evidence/044-ribbuny--happy-go-lucky-bunny--20260713-003527.jpg",
+      "notes": "Fixed 15% Neutral Attack. game8 Handiwork Sustainability wrong. wiki-gg missing.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "ribbuny-botan-ground-n-pound-desc",
+      "status": "resolved",
+      "pal": "Ribbuny Botan",
+      "skillName": "Ground 'n' Pound",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, improves player's and Pal's Grass damage. Increases efficiency when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, improves player's and Pals' Grass damage to enemy weak points by (25~40)%. (Does not stack) Increases efficiency by (200~400)% when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, improves player's and Pals' Grass damage to enemy weak points by 25%. (Does not stack) Increases efficiency by 200% when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+      "correctionId": "ribbuny-botan-ground-n-pound",
+      "evidence": "reference/partner-skills/corrections/evidence/044B-ribbuny-botan--ground-n-pound--20260713-003527.jpg",
+      "notes": "Fixed 25% Grass weak-point and 200% weapon facility. paldb ranges. wiki-gg missing.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "jelliette-jelliette-drop-desc",
+      "status": "resolved",
+      "pal": "Jelliette",
+      "skillName": "Jelliette Drop",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, increases items obtained from fishing. While Jelliette and Jellroy are in your base, Jelliette's watering speed is increased.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases items obtained from fishing. While Jelliette and Jellroy are in your base, Jelliette's watering speed is increased.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases items obtained from fishing by (55~95)%. While Jelliette and Jellroy are in your base, Jelliette's watering speed increases by (50~120)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases items obtained from fishing by 55%. While Jelliette and Jellroy are in your base, Jelliette's watering speed increases by 50%. (Does not stack)",
+      "correctionId": "jelliette-jelliette-drop",
+      "evidence": "reference/partner-skills/corrections/evidence/045-jelliette--jelliette-drop--20260713-003711.jpg",
+      "notes": "Fixed 55% fishing and 50% watering.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "jellroy-jellroy-drop-desc",
+      "status": "resolved",
+      "pal": "Jellroy",
+      "skillName": "Jellroy Drop",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, increases items obtained from salvage. While Jelliette and Jellroy are in your base, Jellroy's watering speed is increased.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases items obtained from salvage. While Jelliette and Jellroy are in your base, Jellroy's watering speed is increased.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases items obtained from salvaging by (55~95)%. While Jelliette and Jellroy are in your base, Jellroy's watering speed increases by (50~120)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases items obtained from salvaging by 55%. While Jelliette and Jellroy are in your base, Jellroy's watering speed increases by 50%. (Does not stack)",
+      "correctionId": "jellroy-jellroy-drop",
+      "evidence": "reference/partner-skills/corrections/evidence/046-jellroy--jellroy-drop--20260713-003711.jpg",
+      "notes": "Fixed 55% salvaging and 50% watering.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "amione-magical-twin-powers-desc",
+      "status": "resolved",
+      "pal": "Amione",
+      "skillName": "Magical Twin Powers",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While at a base, increases the Watering Work Suitability Level for all other base Pals.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While at a base, increases the Watering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While at a base, increases the Watering Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "amione-magical-twin-powers",
+      "evidence": "reference/partner-skills/corrections/evidence/047-amione--magical-twin-powers--20260713-003711.jpg",
+      "notes": "Watering +1 for other Base Pals.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "gloopie-sticky-princess-desc",
+      "status": "resolved",
+      "pal": "Gloopie",
+      "skillName": "Sticky Princess",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While fighting together, the capture gauge decreases more slowly in the fishing minigame when the capture bars are not overlapping.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, the capture gauge decreases more slowly in the fishing minigame when the bar is not aligned.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, the capture gauge decreases (12~35)% more slowly while the bars are not overlapping during the fishing minigame. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, the capture gauge decreases 12% more slowly while the bars are not overlapping during the fishing minigame. (Does not stack)",
+      "correctionId": "gloopie-sticky-princess",
+      "evidence": "reference/partner-skills/corrections/evidence/048-gloopie--sticky-princess--20260713-003711.jpg",
+      "notes": "Fixed 12% fishing gauge slowdown.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "galeclaw-galeclaw-glider-desc",
+      "status": "resolved",
+      "pal": "Galeclaw",
+      "skillName": "Galeclaw Glider",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, boosts the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+      "correctionId": "galeclaw-galeclaw-glider",
+      "evidence": "reference/partner-skills/corrections/evidence/049-galeclaw--galeclaw-glider--20260713-003711.jpg",
+      "notes": "In-game name Galeclaw Glider; wiki/game8 Galeclaw Rider + team wording.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "wispaw-death-cheating-feline-desc",
+      "status": "resolved",
+      "pal": "Wispaw",
+      "skillName": "Death-Cheating Feline",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases the capture rate when awarded a back bonus.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases the capture rate when awarded a back bonus. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the capture rate when awarded a back bonus. (Does not stack)",
+      "correctionId": "wispaw-death-cheating-feline",
+      "evidence": "reference/partner-skills/corrections/evidence/050-wispaw--death-cheating-feline--20260713-003711.jpg",
+      "notes": "back bonus capture rate; Does not stack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "nitewing-travel-companion-desc",
+      "status": "resolved",
+      "pal": "Nitewing",
+      "skillName": "Travel Companion",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases base mount speed and enables mounting for Nitewing.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount.",
+      "correctionId": "nitewing-travel-companion",
+      "evidence": "reference/partner-skills/corrections/evidence/051-nitewing--travel-companion--20260713-003711.jpg",
+      "notes": "simple flying mount text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tombat-ultrasonic-sensor-desc",
+      "status": "resolved",
+      "pal": "Tombat",
+      "skillName": "Ultrasonic Sensor",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Scans radius for nearby dungeons, treasure chests, and scrap. Higher levels of the skill expand the area of the scan.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, uses ultrasonic waves to detect the presence of nearby Pals.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "When activated, uses ultrasonic waves to detect nearby dungeons, treasure chests, and scrap.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, uses ultrasonic waves to detect nearby dungeons, treasure chests, and scrap.",
+      "correctionId": "tombat-ultrasonic-sensor",
+      "evidence": "reference/partner-skills/corrections/evidence/052-tombat--ultrasonic-sensor--20260713-003711.jpg",
+      "notes": "dungeons/chests/scrap not Pals.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tocotoco-eggbomb-launcher-desc",
+      "status": "resolved",
+      "pal": "Tocotoco",
+      "skillName": "Eggbomb Launcher",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Requires Tocotoco's Gloves. While Tocotoco is the active Pal, activate its Partner Skill and it will hop onto the player's arms and will act as a grenade launcher that shoots explosive eggs.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips to the player and transforms into an egg launcher.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "When activated, equips to the player and transforms into an egg launcher.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips to the player and transforms into an egg launcher.",
+      "correctionId": "tocotoco-eggbomb-launcher",
+      "evidence": "reference/partner-skills/corrections/evidence/053-tocotoco--eggbomb-launcher--20260713-003711.jpg",
+      "notes": "egg launcher equip text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "univolt-swift-deity-desc",
+      "status": "resolved",
+      "pal": "Univolt",
+      "skillName": "Swift Deity",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack significantly and changes the player's damage type to Electricity while mounting Univolt.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Changes the player's attack type to Electric while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, improves player's and Pals' Electric damage to weak points by (25~40)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, improves player's and Pals' Electric damage to weak points by 25%. (Does not stack)",
+      "correctionId": "univolt-swift-deity",
+      "evidence": "reference/partner-skills/corrections/evidence/054-univolt--swift-deity--20260713-003711.jpg",
+      "notes": "party Electric weak-point 25%, not mount type change.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "gobfin-ignis-angry-shark-desc",
+      "status": "resolved",
+      "pal": "Gobfin Ignis",
+      "skillName": "Angry Shark",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Unleashes a powerful attack when activated. Passively powers up the player's attack while this Pal is in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with a powerful Spirit Fire. While in team, increases player's Attack.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks targeted enemy with Spirit Fire. When this Pal uses Spirit Fire, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks targeted enemy with Spirit Fire. When this Pal uses Spirit Fire, it has a x1.1 damage multiplier. While in party, increases the player's Attack by 10%.",
+      "correctionId": "gobfin-ignis-angry-shark",
+      "evidence": "reference/partner-skills/corrections/evidence/055B-gobfin-ignis--angry-shark--20260713-003842.jpg",
+      "notes": "Fixed x1.1 Spirit Fire and +10% player Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "loupmoon-dark-gleam-strike-desc",
+      "status": "resolved",
+      "pal": "Loupmoon",
+      "skillName": "Dark Gleam Strike",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Loupmoon leaps and attacks the target enemy. Boosts the Attack Speed of player's melee weapon.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with a powerful Jumping Claw.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks targeted enemy with Jumping Claw. When this Pal uses Jumping Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks targeted enemy with Jumping Claw. When this Pal uses Jumping Claw, it has a x1.1 damage multiplier. While in party, increases the player's melee weapon attack speed by 15%. (Does not stack)",
+      "correctionId": "loupmoon-dark-gleam-strike",
+      "evidence": "reference/partner-skills/corrections/evidence/056-loupmoon--dark-gleam-strike--20260713-003842.jpg",
+      "notes": "Fixed x1.1 and 15% melee attack speed.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "loupmoon-cryst-frozen-gleam-strike-desc",
+      "status": "resolved",
+      "pal": "Loupmoon Cryst",
+      "skillName": "Frozen Gleam Strike",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, attacks targeted enemy with Snow Claw. While in party, increases the player's melee weapon attack speed.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with a powerful Snow Claw.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks targeted enemy with Snow Claw. When this Pal uses Snow Claw, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's melee weapon attack speed by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks targeted enemy with Snow Claw. When this Pal uses Snow Claw, it has a x1.1 damage multiplier. While in party, increases the player's melee weapon attack speed by 15%. (Does not stack)",
+      "correctionId": "loupmoon-cryst-frozen-gleam-strike",
+      "evidence": "reference/partner-skills/corrections/evidence/056B-loupmoon-cryst--frozen-gleam-strike--20260713-003842.jpg",
+      "notes": "Fixed x1.1 and 15% melee attack speed.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "cawgnito-eerie-nightstreaker-desc",
+      "status": "resolved",
+      "pal": "Cawgnito",
+      "skillName": "Eerie Nightstreaker",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Uses Night Vision in the dark and occasionally digs up Bones while in the Ranch.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch.",
+      "correctionId": "cawgnito-eerie-nightstreaker",
+      "evidence": "reference/partner-skills/corrections/evidence/057-cawgnito--eerie-nightstreaker--20260713-003842.jpg",
+      "notes": "toggle Night Vision + Bone ranch.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "arsox-warm-body-desc",
+      "status": "resolved",
+      "pal": "Arsox",
+      "skillName": "Warm Body",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases base mount speed and enables mounting for Arsox. Keeps the rider warm in cold environments.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Keeps the rider warm in cold environments.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, the player gains Cold Resistance +2. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, the player gains Cold Resistance +2. (Does not stack)",
+      "correctionId": "arsox-warm-body",
+      "evidence": "reference/partner-skills/corrections/evidence/058-arsox--warm-body--20260713-003842.jpg",
+      "notes": "Cold Resistance +2 party, not vague warm text.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "muffly-fluffy-flutterer-desc",
+      "status": "resolved",
+      "pal": "Muffly",
+      "skillName": "Fluffy Flutterer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases the capture rate of Freezed Pals.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases the capture rate of Pals afflicted with Freeze. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the capture rate of Pals afflicted with Freeze. (Does not stack)",
+      "correctionId": "muffly-fluffy-flutterer",
+      "evidence": "reference/partner-skills/corrections/evidence/059-muffly--fluffy-flutterer--20260713-003842.jpg",
+      "notes": "Freeze affliction capture rate.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "bristla-princess-gaze-desc",
+      "status": "resolved",
+      "pal": "Bristla",
+      "skillName": "Princess Gaze",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Bristla is in your party, your active Grass Pal's attack is increased.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Grass Pals.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Grass Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Grass Pals by 15%. (Does not stack)",
+      "correctionId": "bristla-princess-gaze",
+      "evidence": "reference/partner-skills/corrections/evidence/060-bristla--princess-gaze--20260713-003842.jpg",
+      "notes": "Fixed 15% Grass Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "cinnamoth-mysterious-scales-desc",
+      "status": "resolved",
+      "pal": "Cinnamoth",
+      "skillName": "Mysterious Scales",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Cinnamoth attacks a target with the Poison Fog skill, inflicting poison on the enemy. Boosts Farming work suitability while at the base.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with Poison Fog.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks the targeted enemy with Poison Fog. While at a base, increases the Farming Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks the targeted enemy with Poison Fog. While at a base, increases the Farming Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "cinnamoth-mysterious-scales",
+      "evidence": "reference/partner-skills/corrections/evidence/061-cinnamoth--mysterious-scales--20260713-003842.jpg",
+      "notes": "Poison Fog + Farming +1.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "elphidran-amicable-holy-dragon-desc",
+      "status": "resolved",
+      "pal": "Elphidran",
+      "skillName": "Amicable Holy Dragon",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Elphidran is your active Pal, it increases the amount of items Dark Pals drop when defeated. Allows the player to ride it as a flying mount while increasing flight speed.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. While flying, movement speed is increased. While fighting together, Dark Pals drop more items when defeated.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, Dark Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, Dark Pals drop 40% more items when defeated. (Does not stack)",
+      "correctionId": "elphidran-amicable-holy-dragon",
+      "evidence": "reference/partner-skills/corrections/evidence/063-elphidran--amicable-holy-dragon--20260713-003842.jpg",
+      "notes": "Fixed 40% Dark item drop party passive.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "elphidran-aqua-amicable-water-dragon-desc",
+      "status": "resolved",
+      "pal": "Elphidran Aqua",
+      "skillName": "Amicable Water Dragon",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Elphidran Aqua is your active Pal, it increases the amount of items Fire Pals drop when defeated. Allows the player to ride it as a flying mount while increasing flight speed.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. While flying, movement speed is increased. While fighting together, Fire Pals drop more items when defeated.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, player and party Pals take (15~30)% less Fire damage and are immune to Burn. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While flying, Movement Speed is increased. While in party, player and party Pals take 15% less Fire damage and are immune to Burn. (Does not stack)",
+      "correctionId": "elphidran-aqua-amicable-water-dragon",
+      "evidence": "reference/partner-skills/corrections/evidence/063B-elphidran-aqua--amicable-water-dragon--20260713-003842.jpg",
+      "notes": "Fire damage reduction + Burn immune, not Fire drop buff.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "vanwyrm-aerial-marauder-desc",
+      "status": "resolved",
+      "pal": "Vanwyrm",
+      "skillName": "Aerial Marauder",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's damage dealt to enemy weak points while mounted.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (20~40)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by 20%. (Does not stack)",
+      "correctionId": "vanwyrm-aerial-marauder",
+      "evidence": "reference/partner-skills/corrections/evidence/064-vanwyrm--aerial-marauder--20260713-003958.jpg",
+      "notes": "Party weak-point 20%, not only while mounted.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "vanwyrm-cryst-aerial-marauder-desc",
+      "status": "resolved",
+      "pal": "Vanwyrm Cryst",
+      "skillName": "Aerial Marauder",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's damage dealt to enemy weak points while mounted.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by (30~50)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While in party, increases damage player deals to enemy weak points by 30%. (Does not stack)",
+      "correctionId": "vanwyrm-cryst-aerial-marauder",
+      "evidence": "reference/partner-skills/corrections/evidence/064B-vanwyrm-cryst--aerial-marauder--20260713-003958.jpg",
+      "notes": "Party weak-point 30%.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "felbat-life-steal-desc",
+      "status": "resolved",
+      "pal": "Felbat",
+      "skillName": "Life Steal",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Felbat and the player heals a portion of the damage they deal while fighting together.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores Health.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While fighting together, grants the player and Felbat a life steal effect that restores (5~9)% of damage dealt as Health.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While fighting together, grants the player and Felbat a life steal effect that restores 5% of damage dealt as Health.",
+      "correctionId": "felbat-life-steal",
+      "evidence": "reference/partner-skills/corrections/evidence/065-felbat--life-steal--20260713-003958.jpg",
+      "notes": "5% of damage dealt as Health, not received damage.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "vaelet-purification-of-gaia-desc",
+      "status": "resolved",
+      "pal": "Vaelet",
+      "skillName": "Purification of Gaia",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Vaelet is your active Pal, it increases the amount of items Ground Pals drop when defeated.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, Ground Pals drop more items when defeated.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, Ground Pals drop (40~80)% more items when defeated. (Does not stack) Sometimes drops various seeds when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, Ground Pals drop 40% more items when defeated. (Does not stack) Sometimes drops various seeds when assigned to Ranch.",
+      "correctionId": "vaelet-purification-of-gaia",
+      "evidence": "reference/partner-skills/corrections/evidence/066-vaelet--purification-of-gaia--20260713-003958.jpg",
+      "notes": "Fixed 40% Ground drop + seeds ranch.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "beegarde-worker-bee-desc",
+      "status": "resolved",
+      "pal": "Beegarde",
+      "skillName": "Worker Bee",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Beegarde produces Honey. Each Beegarde in the party increases Elizabee's Attack.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes drops Honey when assigned to Ranch. While in team, Elizabee's stats will be increased.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, increases Elizabee's Attack. Sometimes drops Honey when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Elizabee's Attack. Sometimes drops Honey when assigned to Ranch.",
+      "correctionId": "beegarde-worker-bee",
+      "evidence": "reference/partner-skills/corrections/evidence/067-beegarde--worker-bee--20260713-003958.jpg",
+      "notes": "Elizabee Attack + Honey ranch.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "elizabee-queen-bee-command-desc",
+      "status": "resolved",
+      "pal": "Elizabee",
+      "skillName": "Queen Bee Command",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Elizabee gains a small damage increase for each level of this Partner Skill. Does not affect Beegarde.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": "When fighting together, stats will increase the more Beegarde are in your team.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "This Pal's Attack increases by (12~24)% for each Beegarde in party.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "This Pal's Attack increases by 12% for each Beegarde in party.",
+      "correctionId": "elizabee-queen-bee-command",
+      "evidence": "reference/partner-skills/corrections/evidence/068-elizabee--queen-bee-command--20260713-003958.jpg",
+      "notes": "Fixed 12% Attack per Beegarde in party.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "lovander-heart-drain-desc",
+      "status": "resolved",
+      "pal": "Lovander",
+      "skillName": "Heart Drain",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Lovander and the player heals for a portion of the damage they deal while fighting together.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While fighting together, grants the player and Loveander the life steal effect which absorbs some of the received damage and restores Health.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While fighting together, grants the player and Lovander a life steal effect that restores (5~9)% of damage dealt as Health.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While fighting together, grants the player and Lovander a life steal effect that restores 5% of damage dealt as Health.",
+      "correctionId": "lovander-heart-drain",
+      "evidence": "reference/partner-skills/corrections/evidence/069-lovander--heart-drain--20260713-003958.jpg",
+      "notes": "5% of damage dealt as Health.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "grintale-glaring-cats-eye-desc",
+      "status": "resolved",
+      "pal": "Grintale",
+      "skillName": "Glaring Cat's Eye",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the chance of receiving extra Pal Egg. Enables Grintale to be mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, picking up a Pal Egg has a (50~75)% chance of receiving one extra. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, picking up a Pal Egg has a 50% chance of receiving one extra. (Does not stack)",
+      "correctionId": "grintale-glaring-cats-eye",
+      "evidence": "reference/partner-skills/corrections/evidence/070-grintale--glaring-cats-eye--20260713-003958.jpg",
+      "notes": "Fixed 50% chance extra Pal Egg on pickup.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tarantriss-tarantriss-web-desc",
+      "status": "resolved",
+      "pal": "Tarantriss",
+      "skillName": "Tarantriss' Web",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as mount. Can double jump while mounted. Additionally, can shoot spider web to grapple and move at high speed.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Can double jump while mounted. Additionally, can shoot spider silk to grapple and move at fast speed.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can double jump while mounted. Additionally, can shoot spider web to grapple and move at high speed.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can double jump while mounted. Additionally, can shoot spider web to grapple and move at high speed.",
+      "correctionId": "tarantriss-tarantriss-web",
+      "evidence": "reference/partner-skills/corrections/evidence/071-tarantriss--tarantriss-web--20260713-003958.jpg",
+      "notes": "spider web + high speed grapple.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "polapup-rider-of-the-snowy-mountain-desc",
+      "status": "resolved",
+      "pal": "Polapup",
+      "skillName": "Rider of the Snowy Mountain",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as mount.Can slide quickly down slopes.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Runs faster over snow. Can slide quickly down slopes.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. Movement Speed is increased by (80~160)% while mounted on snow. Can also slide quickly down slopes.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Movement Speed is increased by 80% while mounted on snow. Can also slide quickly down slopes.",
+      "correctionId": "polapup-rider-of-the-snowy-mountain",
+      "evidence": "reference/partner-skills/corrections/evidence/072-polapup--rider-of-the-snowy-mountain--20260713-003958.jpg",
+      "notes": "Fixed 80% MS on snow.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "leezpunk-too-cool-to-be-seen-desc",
+      "status": "resolved",
+      "pal": "Leezpunk",
+      "skillName": "Too Cool to be Seen",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Leezpunk and the player become invisible to enemies.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, Leezpunk and the player become invisible, making them undetectable to enemies for (10~20) seconds.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Leezpunk and the player become invisible, making them undetectable to enemies for 10 seconds.",
+      "correctionId": "leezpunk-too-cool-to-be-seen",
+      "evidence": "reference/partner-skills/corrections/evidence/073-leezpunk--too-cool-to-be-seen--20260713-004111.jpg",
+      "notes": "Fixed 10-second invisibility.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "leezpunk-ignis-too-cool-to-be-seen-desc",
+      "status": "resolved",
+      "pal": "Leezpunk Ignis",
+      "skillName": "Too Cool to be Seen",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Leezpunk and the player become invisible to enemies.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, Leezpunk Ignis and the player become invisible, making them undetectable to enemies for (10~20) seconds.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Leezpunk Ignis and the player become invisible, making them undetectable to enemies for 10 seconds.",
+      "correctionId": "leezpunk-ignis-too-cool-to-be-seen",
+      "evidence": "reference/partner-skills/corrections/evidence/073B-leezpunk-ignis--too-cool-to-be-seen--20260713-004111.jpg",
+      "notes": "Fixed 10-second invisibility for Leezpunk Ignis.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "gorirat-full-power-gorilla-mode-desc",
+      "status": "resolved",
+      "pal": "Gorirat",
+      "skillName": "Full-Power Gorilla Mode",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, it significantly increases Gorirat and Gorirat Terra's attacks temporarily.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": "When activated, unleashes a primal fury that increases Gorirat's Attack for a limited time.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, unleashes a primal fury that increases Gorirat's Attack by (75~300)% for a limited time.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, unleashes a primal fury that increases Gorirat's Attack by 75% for a limited time.",
+      "correctionId": "gorirat-full-power-gorilla-mode",
+      "evidence": "reference/partner-skills/corrections/evidence/074-gorirat--full-power-gorilla-mode--20260713-004111.jpg",
+      "notes": "Fixed 75% Attack buff for Gorirat only.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "gorirat-terra-full-power-gorilla-pound-desc",
+      "status": "resolved",
+      "pal": "Gorirat Terra",
+      "skillName": "Full-Power Gorilla Pound",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in party, increases the player's climbing speed by 50%. (Does not stack)",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": "When activated, unleashes a primal fury that increases Gorirat Terra's Attack for a limited time.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, increases the player's climbing speed by (50~100)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the player's climbing speed by 50%. (Does not stack)",
+      "correctionId": "gorirat-terra-full-power-gorilla-pound",
+      "evidence": "reference/partner-skills/corrections/evidence/074B-gorirat-terra--full-power-gorilla-pound--20260713-004111.jpg",
+      "notes": "Climbing speed 50%, not Attack mode skill.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "surfent-swift-swimmer-desc",
+      "status": "resolved",
+      "pal": "Surfent",
+      "skillName": "Swift Swimmer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Allows the player to travel on water while mounted. Occasionally produces Leather when assigned to a Ranch.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden to travel on water. Sometimes drops Leather when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden to travel on water. Sometimes drops Leather when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden to travel on water. Sometimes drops Leather when assigned to Ranch.",
+      "correctionId": "surfent-swift-swimmer",
+      "evidence": "reference/partner-skills/corrections/evidence/075-surfent--swift-swimmer--20260713-004111.jpg",
+      "notes": "water ride + Leather ranch.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "surfent-terra-sand-swimmer-desc",
+      "status": "resolved",
+      "pal": "Surfent Terra",
+      "skillName": "Sand Swimmer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Players attacks inflict Muddy and enables mounting for Surfent Terra.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. While in team, Surfent Terra helps carry supplies, decreasing the weight of ores in the player's inventory.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, the player's attacks inflict Muddy (2~6). (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, the player's attacks inflict Muddy 2. (Does not stack)",
+      "correctionId": "surfent-terra-sand-swimmer",
+      "evidence": "reference/partner-skills/corrections/evidence/075B-surfent-terra--sand-swimmer--20260713-004111.jpg",
+      "notes": "Muddy 2 party, not ore weight.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "robinquill-grounded-archer-desc",
+      "status": "resolved",
+      "pal": "Robinquill",
+      "skillName": "Grounded Archer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases bow damage dealt while fighting with Robinquill.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases the player's bow damage by (10~35)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the player's bow damage by 10%. (Does not stack)",
+      "correctionId": "robinquill-grounded-archer",
+      "evidence": "reference/partner-skills/corrections/evidence/076-robinquill--grounded-archer--20260713-004111.jpg",
+      "notes": "Fixed 10% bow damage party passive.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "robinquill-terra-master-archer-desc",
+      "status": "resolved",
+      "pal": "Robinquill Terra",
+      "skillName": "Master Archer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in party, increases the player's bow charge speed by 15%. (Does not stack)",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases the player's bow charge speed by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the player's bow charge speed by 15%. (Does not stack)",
+      "correctionId": "robinquill-terra-master-archer",
+      "evidence": "reference/partner-skills/corrections/evidence/076B-robinquill-terra--master-archer--20260713-004111.jpg",
+      "notes": "Fixed 15% bow charge speed.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "flopie-helper-bunny-desc",
+      "status": "resolved",
+      "pal": "Flopie",
+      "skillName": "Helper Bunny",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Flopie accompanies you and picks up items within a certain range and adds them to your inventory.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, appears near the player. Automatically picks up nearby items.",
+          "assessment": "paraphrase"
+        },
+        "paldb": {
+          "value": "While in party, appears near the player. Automatically picks up nearby items.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, appears near the player. Automatically picks up nearby items.",
+      "correctionId": "flopie-helper-bunny",
+      "evidence": "reference/partner-skills/corrections/evidence/077-flopie--helper-bunny--20260713-004111.jpg",
+      "notes": "party item pickup companion.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "wixen-lord-fox-desc",
+      "status": "resolved",
+      "pal": "Wixen",
+      "skillName": "Lord Fox",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When fighting together with Wixen, increases player attack by a small amount and changes the player's damage type to Fire.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "When fighting together, changes the player's attack type to Fire.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, Wixen changes the player's attack type to Fire and increases Attack by (30~50)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Wixen changes the player's attack type to Fire and increases Attack by 30%.",
+      "correctionId": "wixen-lord-fox",
+      "evidence": "reference/partner-skills/corrections/evidence/078-wixen--lord-fox--20260713-004111.jpg",
+      "notes": "Activated Fire type + 30% Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "katress-mystical-black-magic-desc",
+      "status": "resolved",
+      "pal": "Katress",
+      "skillName": "Mystical Black Magic",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Katress is your active Pal, increases the amount of items Neutral Pals drop when defeated.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, Neutral Pals drop (40~80)% more items when defeated. Also has a (10~50)% chance to prevent Pal Sphere consumption when thrown. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, Neutral Pals drop 40% more items when defeated. Also has a 10% chance to prevent Pal Sphere consumption when thrown. (Does not stack)",
+      "correctionId": "katress-mystical-black-magic",
+      "evidence": "reference/partner-skills/corrections/evidence/079-katress--mystical-black-magic--20260713-004224.jpg",
+      "notes": "Fixed 40% drop and 10% sphere save.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "katress-ignis-blazing-black-magic-desc",
+      "status": "resolved",
+      "pal": "Katress Ignis",
+      "skillName": "Blazing Black Magic",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While fighting together, Grass Pals drop more items when defeated.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While at a base, increases the Kindling Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While at a base, increases the Kindling Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "katress-ignis-blazing-black-magic",
+      "evidence": "reference/partner-skills/corrections/evidence/079B-katress-ignis--blazing-black-magic--20260713-004224.jpg",
+      "notes": "Kindling +1 at base, not Grass drop.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "helzephyr-wings-of-death-desc",
+      "status": "resolved",
+      "pal": "Helzephyr",
+      "skillName": "Wings of Death",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack moderately and changes the player's damage type to Dark while mounting Helzephyr.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Changes the player's attack type to Dark while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Dark and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Dark and increases Attack by 5%.",
+      "correctionId": "helzephyr-wings-of-death",
+      "evidence": "reference/partner-skills/corrections/evidence/080-helzephyr--wings-of-death--20260713-004224.jpg",
+      "notes": "Fixed Dark type + 5% Attack while mounted.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "helzephyr-lux-wings-of-thunder-desc",
+      "status": "resolved",
+      "pal": "Helzephyr Lux",
+      "skillName": "Wings of Thunder",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as a flying mount. Applies Electric damage to the player's attacks while mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Changes the player's attack type to Electric while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Electric and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by 5%.",
+      "correctionId": "helzephyr-lux-wings-of-thunder",
+      "evidence": "reference/partner-skills/corrections/evidence/080B-helzephyr-lux--wings-of-thunder--20260713-004224.jpg",
+      "notes": "Fixed Electric type + 5% Attack while mounted.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "elgrove-mother-natures-menace-desc",
+      "status": "resolved",
+      "pal": "Elgrove",
+      "skillName": "Mother Nature's Menace",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When activated, Elgrove changes the player's attack type to Grass and increases Attack.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, Elgrove changes the player's attack type to Grass and increases Attack by (30~50)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Elgrove changes the player's attack type to Grass and increases Attack by 30%.",
+      "correctionId": "elgrove-mother-natures-menace",
+      "evidence": "reference/partner-skills/corrections/evidence/081-elgrove--mother-natures-menace--20260713-004224.jpg",
+      "notes": "Fixed Grass type + 30% Attack on activate.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "lunaris-antigravity-desc",
+      "status": "resolved",
+      "pal": "Lunaris",
+      "skillName": "Antigravity",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's max carrying capacity by a moderate amount while Lunaris is on the team.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, Lunaris manipulates gravity, increasing the player's max carrying capacity.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, spheres home in on Pals, and carrying capacity increases by (300~600). (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, spheres home in on Pals, and carrying capacity increases by 300. (Does not stack)",
+      "correctionId": "lunaris-antigravity",
+      "evidence": "reference/partner-skills/corrections/evidence/082-lunaris--antigravity--20260713-004224.jpg",
+      "notes": "Sphere home-in + fixed +300 carry.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "fenglope-wind-and-clouds-desc",
+      "status": "resolved",
+      "pal": "Fenglope",
+      "skillName": "Wind and Clouds",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases base mount speed and enables mounting for Fenglope. Allows Fenglope to double jump while mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Can double jump while mounted.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can double jump while mounted.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can double jump while mounted.",
+      "correctionId": "fenglope-wind-and-clouds",
+      "evidence": "reference/partner-skills/corrections/evidence/083-fenglope--wind-and-clouds--20260713-004224.jpg",
+      "notes": "ride + double jump.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "dinossom-fragrant-dragon-desc",
+      "status": "resolved",
+      "pal": "Dinossom",
+      "skillName": "Fragrant Dragon",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the Grass damage dealt by the player and Dinossom while mounted. Enables Dinossom to be mounted.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Enhances Grass attacks while mounted.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, increase Defense of Dragon Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, increase Defense of Dragon Pals by 15%. (Does not stack)",
+      "correctionId": "dinossom-fragrant-dragon",
+      "evidence": "reference/partner-skills/corrections/evidence/084-dinossom--fragrant-dragon--20260713-004224.jpg",
+      "notes": "Dragon Defense 15%, not Grass mounted damage.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "dinossom-lux-thunder-dragon-desc",
+      "status": "resolved",
+      "pal": "Dinossom Lux",
+      "skillName": "Thunder Dragon",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the Electric damage dealt by the player and Dinossom Lux while mounted. Enables Dinossom Lux to be mounted.",
+          "assessment": "wrong"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Enhances Electric attacks while mounted.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, increases Defense of Electric Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, increases Defense of Electric Pals by 15%. (Does not stack)",
+      "correctionId": "dinossom-lux-thunder-dragon",
+      "evidence": "reference/partner-skills/corrections/evidence/084B-dinossom-lux--thunder-dragon--20260713-004224.jpg",
+      "notes": "Electric Defense 15%, not Electric mounted damage.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "bushi-brandish-blade-desc",
+      "status": "resolved",
+      "pal": "Bushi",
+      "skillName": "Brandish Blade",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Bushi dashes towards a target Pal and performs a powerful slash.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with a powerful Iaigiri.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x(1.1~2.5) damage multiplier.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks targeted enemy with Iaigiri. When this Pal uses Iaigiri, it has a x1.1 damage multiplier.",
+      "correctionId": "bushi-brandish-blade",
+      "evidence": "reference/partner-skills/corrections/evidence/085-bushi--brandish-blade--20260713-004224.jpg",
+      "notes": "Fixed x1.1 Iaigiri multiplier.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "munchill-icy-maw-desc",
+      "status": "resolved",
+      "pal": "Munchill",
+      "skillName": "Icy Maw",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, Munchill cools ingredients inside its mouth, making the food in your inventory less likely to spoil. Decreases the weight of ingredient and food by a small amount.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Munchill cools ingredients inside its mouth, making the food in your inventory less likely to spoil.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, reduces the weight of ingredient and food by (30~60)%. When paired with another Ice Pal, their Rot Speed also reduces by (-30~-80)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, reduces the weight of ingredient and food by 30%. When paired with another Ice Pal, their Rot Speed also reduces by -30%. (Does not stack)",
+      "correctionId": "munchill-icy-maw",
+      "evidence": "reference/partner-skills/corrections/evidence/086-munchill--icy-maw--20260713-004340.jpg",
+      "notes": "Fixed 30% food weight and -30% rot with Ice pal.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "mammorest-gaia-crusher-desc",
+      "status": "resolved",
+      "pal": "Mammorest",
+      "skillName": "Gaia Crusher",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Improves the player's mining and logging efficiency while riding Mammorest.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While mounted, increases logging efficiency by 220% and mining efficiency by 500%.",
+      "correctionId": "mammorest-gaia-crusher",
+      "evidence": "reference/partner-skills/corrections/evidence/087-mammorest--gaia-crusher--20260713-004340.jpg",
+      "notes": "Fixed 220% logging and 500% mining.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "mammorest-cryst-ice-crusher-desc",
+      "status": "resolved",
+      "pal": "Mammorest Cryst",
+      "skillName": "Ice Crusher",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Improves the player's mining and logging efficiency while riding Mammorest Cryst.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While mounted, increases logging efficiency by (220~500)% and mining efficiency by (500~2000)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While mounted, increases logging efficiency by 220% and mining efficiency by 500%.",
+      "correctionId": "mammorest-cryst-ice-crusher",
+      "evidence": "reference/partner-skills/corrections/evidence/087B-mammorest-cryst--ice-crusher--20260713-004340.jpg",
+      "notes": "Fixed 220% logging and 500% mining.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "finsider-water-gun-desc",
+      "status": "resolved",
+      "pal": "Finsider",
+      "skillName": "Water Gun",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, Finsider changes the player's attack type to Water and increases Attack.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "When activated, Finsider changes the player's attack type to Water and increases Attack by (30~50)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, Finsider changes the player's attack type to Water and increases Attack by 30%.",
+      "correctionId": "finsider-water-gun",
+      "evidence": "reference/partner-skills/corrections/evidence/088-finsider--water-gun--20260713-004340.jpg",
+      "notes": "Activated Water type + 30% Attack.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "petallia-blessing-of-the-flower-spirit-desc",
+      "status": "resolved",
+      "pal": "Petallia",
+      "skillName": "Blessing of the Flower Spirit",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Petallia heals the player for a set amount per level when activated. Raises the Planting work suitability level while at base.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, uses medicinal flowers to restore the player's Health.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, soothing blossoms restore the player's Health by (75~85)%. While at a base, increases the Planting Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, soothing blossoms restore the player's Health by 75%. While at a base, increases the Planting Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "petallia-blessing-of-the-flower-spirit",
+      "evidence": "reference/partner-skills/corrections/evidence/089-petallia--blessing-of-the-flower-spirit--20260713-004340.jpg",
+      "notes": "Fixed 75% Health restore + Planting +1.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "leafan-selfless-discipline-desc",
+      "status": "resolved",
+      "pal": "Leafan",
+      "skillName": "Selfless Discipline",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "This Pal's Attack and Defense increase by 2% for each other Grass Pal in your party.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "This Pal's Attack and Defense increase by (2~6)% for each other Grass Pal in your party.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "This Pal's Attack and Defense increase by 2% for each other Grass Pal in your party.",
+      "correctionId": "leafan-selfless-discipline",
+      "evidence": "reference/partner-skills/corrections/evidence/090-leafan--selfless-discipline--20260713-004340.jpg",
+      "notes": "Fixed 2% Atk/Def per other Grass pal.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "incineram-flameclaw-hunter-desc",
+      "status": "resolved",
+      "pal": "Incineram",
+      "skillName": "Flameclaw Hunter",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Incineram attacks the target enemy with the Hellfire Claw skill, damaging and burning the enemy.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, attacks targeted enemy with a powerful Hellfire Claw.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, attacks the targeted enemy with Hellfire Claw. When this Pal uses Hellfire Claw, it has a x(1.1~2.5) damage multiplier.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, attacks the targeted enemy with Hellfire Claw. When this Pal uses Hellfire Claw, it has a x1.1 damage multiplier.",
+      "correctionId": "incineram-flameclaw-hunter",
+      "evidence": "reference/partner-skills/corrections/evidence/091-incineram--flameclaw-hunter--20260713-004340.jpg",
+      "notes": "Fixed x1.1 Hellfire Claw multiplier.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "dazzi-lady-of-lightning-desc",
+      "status": "resolved",
+      "pal": "Dazzi",
+      "skillName": "Lady of Lightning",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Dazzi accompanies you and follows up your attacks with lightning bolts that increase in damage per Partner Skill level while it is in your party and not set as your active Pal.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": "While in team, appears near the player. Follows up player attacks with lightning bolts.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, appears near the player. Attacks hostile enemies with Electric bolts. These bolts will not reduce the target's Health below 1.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, appears near the player. Attacks hostile enemies with Electric bolts. These bolts will not reduce the target's Health below 1.",
+      "correctionId": "dazzi-lady-of-lightning",
+      "evidence": "reference/partner-skills/corrections/evidence/092-dazzi--lady-of-lightning--20260713-004340.jpg",
+      "notes": "Autonomous Electric bolts, HP floor 1.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "pyrin-red-hare-desc",
+      "status": "resolved",
+      "pal": "Pyrin",
+      "skillName": "Red Hare",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack significantly and changes the player's damage type to Fire while mounting Pyrin.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Changes the player's attack type to Fire while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While mounted, changes the player’s attack type to Fire and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While mounted, changes the player's attack type to Fire and increases Attack by 5%.",
+      "correctionId": "pyrin-red-hare",
+      "evidence": "reference/partner-skills/corrections/evidence/093-pyrin--red-hare--20260713-004340.jpg",
+      "notes": "Fixed Fire type + 5% Attack while mounted.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "pyrin-noct-black-hare-desc",
+      "status": "resolved",
+      "pal": "Pyrin Noct",
+      "skillName": "Black Hare",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack significantly and changes the player's damage type to Dark while mounting Pyrin Noct.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Changes the player's attack type to Dark while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While mounted, changes the player’s attack type toDark and increases Attack by (5~20)%.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While mounted, changes the player's attack type to Dark and increases Attack by 5%.",
+      "correctionId": "pyrin-noct-black-hare",
+      "evidence": "reference/partner-skills/corrections/evidence/093B-pyrin-noct--black-hare--20260713-004340.jpg",
+      "notes": "Fixed Dark type + 5% Attack while mounted.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "relaxaurus-hungry-missile-desc",
+      "status": "resolved",
+      "pal": "Relaxaurus",
+      "skillName": "Hungry Missile",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Allows you to mount Relaxaurus and have it fire a series of rockets while mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+      "correctionId": "relaxaurus-hungry-missile",
+      "evidence": "reference/partner-skills/corrections/evidence/094-relaxaurus--hungry-missile--20260713-004457.jpg",
+      "notes": "missile launcher mount skill.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "relaxaurus-lux-missile-party-desc",
+      "status": "resolved",
+      "pal": "Relaxaurus Lux",
+      "skillName": "Missile Party",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Allows you to mount Relaxaurus Lux and have it fire a series of rockets while mounted.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+      "correctionId": "relaxaurus-lux-missile-party",
+      "evidence": "reference/partner-skills/corrections/evidence/094B-relaxaurus-lux--missile-party--20260713-004457.jpg",
+      "notes": "missile launcher mount skill.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "foxcicle-aurora-guide-desc",
+      "status": "resolved",
+      "pal": "Foxcicle",
+      "skillName": "Aurora Guide",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While Foxcicle is in your party, the attack of your Ice Pals is powered up. Occasionally drops Ice Organ when to a Ranch.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, increases Attack of Ice Pals.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Attack of Ice Pals by (15~30)%. (Does not stack) Sometimes drops Ice Organ when assigned to Ranch.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Attack of Ice Pals by 15%. (Does not stack) Sometimes drops Ice Organ when assigned to Ranch.",
+      "correctionId": "foxcicle-aurora-guide",
+      "evidence": "reference/partner-skills/corrections/evidence/095-foxcicle--aurora-guide--20260713-004457.jpg",
+      "notes": "Fixed 15% Ice Attack + ranch organ.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "beakon-thunderous-desc",
+      "status": "resolved",
+      "pal": "Beakon",
+      "skillName": "Thunderous",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's attack significantly, changes the player's damage type to Electric, and increases Movement Speed while mounting Beakon.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Changes the player's attack type to Electric while mounted.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by (5~20)%. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Beakon)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. While mounted, changes the player's attack type to Electric and increases Attack by 5%. This Pal's Movement Speed increases by 5% for each other Electric Pal in your party. (Excluding Beakon)",
+      "correctionId": "beakon-thunderous",
+      "evidence": "reference/partner-skills/corrections/evidence/096-beakon--thunderous--20260713-004457.jpg",
+      "notes": "Fixed 5% Attack and 5% MS per other Electric.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "ghangler-master-of-darkness-desc",
+      "status": "resolved",
+      "pal": "Ghangler",
+      "skillName": "Master of Darkness",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as a water mount that gains movement speed based on the number of Dark or Water Pals in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Dark or Water Pal in your party. (Excluding Ghangler)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden to travel on water. This Pal's Movement Speed increases by 5% for each other Dark or Water Pal in your party. (Excluding Ghangler)",
+      "correctionId": "ghangler-master-of-darkness",
+      "evidence": "reference/partner-skills/corrections/evidence/097-ghangler--master-of-darkness--20260713-004457.jpg",
+      "notes": "Fixed 5% MS per other Dark or Water.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "ghangler-ignis-abyssal-celebrity-chef-desc",
+      "status": "resolved",
+      "pal": "Ghangler Ignis",
+      "skillName": "Abyssal Celebrity Chef",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as a water mount that gains movement speed based on the number of Fire or Water Pals in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Fire or Water Pal in your party. (Excluding Ghangler Ignis)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden to travel on water. This Pal's Movement Speed increases by 5% for each other Fire or Water Pal in your party. (Excluding Ghangler Ignis)",
+      "correctionId": "ghangler-ignis-abyssal-celebrity-chef",
+      "evidence": "reference/partner-skills/corrections/evidence/097B-ghangler-ignis--abyssal-celebrity-chef--20260713-004457.jpg",
+      "notes": "Fixed 5% MS per other Fire or Water.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "rayhound-lightning-shepherd-desc",
+      "status": "resolved",
+      "pal": "Rayhound",
+      "skillName": "Lightning Shepherd",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases base mount speed and enables mounting for Rayhound. Allows Rayhound to double jump while mounted.",
+          "assessment": "outdated"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can perform a double jump while mounted. This Pal’s Movement Speed increases by (5~25)% for each other Electric Pal in your party. (Excluding Rayhound)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can perform a double jump while mounted. This Pal's Movement Speed increases by 5% for each other Electric Pal in your party. (Excluding Rayhound)",
+      "correctionId": "rayhound-lightning-shepherd",
+      "evidence": "reference/partner-skills/corrections/evidence/098-rayhound--lightning-shepherd--20260713-004457.jpg",
+      "notes": "Fixed 5% MS per other Electric + double jump.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "rayhound-cryst-snow-shepherd-desc",
+      "status": "resolved",
+      "pal": "Rayhound Cryst",
+      "skillName": "Snow Shepherd",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as mount and can perform a double jump. Increases Defense of Ice Pals.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden. Can perform a double jump while mounted. While in party, increases Defense of Ice Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. Can perform a double jump while mounted. While in party, increases Defense of Ice Pals by 15%. (Does not stack)",
+      "correctionId": "rayhound-cryst-snow-shepherd",
+      "evidence": "reference/partner-skills/corrections/evidence/098B-rayhound-cryst--snow-shepherd--20260713-004457.jpg",
+      "notes": "Fixed 15% Ice Defense + double jump.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "menasting-steel-scorpion-desc",
+      "status": "resolved",
+      "pal": "Menasting",
+      "skillName": "Steel Scorpion",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's defense and the amount of items Electric Pals drop when defeated.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, player's Defense increases by (5~10)%, and Electric Pals drop (40~80)% more items when defeated. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, player's Defense increases by 5%, and Electric Pals drop 40% more items when defeated. (Does not stack)",
+      "correctionId": "menasting-steel-scorpion",
+      "evidence": "reference/partner-skills/corrections/evidence/099-menasting--steel-scorpion--20260713-004457.jpg",
+      "notes": "Fixed 5% Defense and 40% Electric drop.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "needoll-hug-me-please-desc",
+      "status": "resolved",
+      "pal": "Needoll",
+      "skillName": "Hug Me Please",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases player's and Pal's damage to enemies afflicted with Ivy-Covered.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases player's and Pals' damage to enemies afflicted with Ivy-Covered by (50~65)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases player's and Pals' damage to enemies afflicted with Ivy-Covered by 50%. (Does not stack)",
+      "correctionId": "needoll-hug-me-please",
+      "evidence": "reference/partner-skills/corrections/evidence/100-needoll--hug-me-please--20260713-004457.jpg",
+      "notes": "Fixed 50% damage vs Ivy-Covered.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "needoll-noct-hug-you-so-much-desc",
+      "status": "resolved",
+      "pal": "Needoll Noct",
+      "skillName": "Hug You So Much",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in party, the player's attacks inflict Ivy-Covered 2. (Does not stack)",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, the player's attacks inflict Ivy-Covered (2~6). (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, the player's attacks inflict Ivy-Covered 2. (Does not stack)",
+      "correctionId": "needoll-noct-hug-you-so-much",
+      "evidence": "reference/partner-skills/corrections/evidence/100B-needoll-noct--hug-you-so-much--20260713-004615.jpg",
+      "notes": "Fixed Ivy-Covered 2. game8 exact. paldb range.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
     }
   ]
 }
-
-
