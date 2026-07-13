@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Palhead — Pals Work Suitability Spreadsheet</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        pal: {
+          bg: '#0b1220',
+          panel: '#121a2b',
+          panel2: '#182338',
+          border: '#2a3a55',
+          muted: '#8b9bb8',
+          text: '#e8eefc',
+          accent: '#5eead4',
+          accent2: '#38bdf8',
+          gold: '#fbbf24',
+        }
+      },
+      fontFamily: {
+        sans: ['Segoe UI', 'system-ui', 'sans-serif'],
+        mono: ['ui-monospace', 'Cascadia Code', 'Consolas', 'monospace']
+      }
+    }
+  }
+}
+</script>
+<style>
+
+  body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #16304f 0%, transparent 55%),
+      radial-gradient(900px 500px at 100% 0%, #1a2a1f 0%, transparent 40%),
+      #0b1220;
+  }
+  .table-wrap { max-height: calc(100vh - 220px); width: 100%; }
+  #table { width: 100%; table-layout: auto; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: #5eead4; }
+  th.sortable .sort-ind { opacity: 0.35; font-size: 0.7em; margin-left: 2px; }
+  th.sortable.active .sort-ind { opacity: 1; color: #5eead4; }
+  tr:hover td { background: rgba(94, 234, 212, 0.05); }
+  .lvl-0 { color: #3a4a63; }
+  .lvl-1 { color: #94a3b8; }
+  .lvl-2 { color: #7dd3fc; }
+  .lvl-3 { color: #34d399; }
+  .lvl-4 { color: #fbbf24; font-weight: 700; }
+  .lvl-5, .lvl-6, .lvl-7, .lvl-8, .lvl-9, .lvl-10 { color: #f472b6; font-weight: 800; }
+  .elem {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 2px 8px; border-radius: 999px; border: none;
+    line-height: 1.25;
+  }
+  .elem-Neutral { background: #475569; color: #f1f5f9; }
+  .elem-Fire { background: #dc2626; color: #fff1f2; }
+  .elem-Water { background: #0284c7; color: #f0f9ff; }
+  .elem-Grass { background: #16a34a; color: #f0fdf4; }
+  .elem-Electric { background: #ca8a04; color: #fefce8; }
+  .elem-Ice { background: #0891b2; color: #ecfeff; }
+  .elem-Ground { background: #c2410c; color: #fff7ed; }
+  .elem-Dark { background: #7c3aed; color: #f5f3ff; }
+  .elem-Dragon { background: #6d28d9; color: #f5f3ff; }
+  .chip {
+    display: inline-flex; align-items: center;
+    padding: 0; border: none; background: transparent; cursor: pointer;
+    border-radius: 999px; transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+    opacity: 0.72;
+  }
+  .chip .elem { font-size: 11px; padding: 4px 10px; }
+  .chip:hover { opacity: 1; transform: translateY(-1px); }
+  .chip.active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px #0b1220, 0 0 0 4px #5eead4;
+  }
+  #table thead th {
+    position: sticky; top: 0; z-index: 10;
+    background: #182338; box-shadow: inset 0 -1px 0 #2a3a55;
+  }
+  #table thead th.sticky-left, #table tbody td.sticky-left {
+    position: sticky; left: 0; z-index: 5;
+    background: #121a2b;
+  }
+  #table thead th.sticky-left { z-index: 15; background: #182338; }
+  #table thead th.sticky-name, #table tbody td.sticky-name {
+    position: sticky; left: 3.25rem; z-index: 5;
+    background: #121a2b;
+  }
+  #table thead th.sticky-name { z-index: 15; background: #182338; }
+  #table tbody tr:hover td.sticky-left,
+  #table tbody tr:hover td.sticky-name { background: #162033; }
+  .col-work { min-width: 0; }
+  .pal-icon {
+    width: 36px; height: 36px; object-fit: contain;
+    border-radius: 8px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+    image-rendering: auto;
+  }
+  .pal-icon-lg {
+    width: 48px; height: 48px; object-fit: contain;
+    border-radius: 10px; background: #0b1220;
+    border: 1px solid #2a3a55; flex-shrink: 0;
+  }
+  .pal-name-cell {
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .pal-name-link {
+    color: inherit; text-decoration: none;
+  }
+  .pal-name-link:hover {
+    color: #5eead4; text-decoration: underline;
+  }
+  .work-pill {
+    display: inline-flex; align-items: center;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 3px 10px; border-radius: 999px;
+    background: #1e3a4f; color: #7dd3fc; border: 1px solid #2a5a75;
+  }
+  .plus-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; font-family: ui-monospace, Consolas, monospace;
+    min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
+    background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
+  }
+  .src-badge, .status-badge {
+    display: inline-flex; align-items: center;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
+    padding: 2px 7px; border-radius: 999px; border: 1px solid transparent;
+    line-height: 1.25; white-space: nowrap;
+  }
+  .src-wiki-gg { background: rgba(56, 189, 248, 0.12); color: #7dd3fc; border-color: rgba(56, 189, 248, 0.3); }
+  .src-game8 { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+  .src-paldb { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+  .src-correction { background: rgba(244, 114, 182, 0.12); color: #f472b6; border-color: rgba(244, 114, 182, 0.35); }
+  .status-pending { background: rgba(148, 163, 184, 0.12); color: #94a3b8; border-color: rgba(148, 163, 184, 0.3); }
+  .status-partial { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+  .status-verified { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+  .status-skipped { background: rgba(167, 139, 250, 0.12); color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); }
+  .desc-cell { max-width: 36rem; line-height: 1.4; }
+  .per-source-block {
+    margin-top: 0.4rem; padding: 0.45rem 0.6rem; border-radius: 8px;
+    background: rgba(11, 18, 32, 0.65); border: 1px solid #2a3a55;
+    font-size: 11px; color: #8b9bb8;
+  }
+  .per-source-block strong { color: #e8eefc; font-weight: 600; }
+  .stat-card {
+    background: #121a2b; border: 1px solid #2a3a55; border-radius: 12px; padding: 0.75rem 1rem;
+  }
+  .stat-card .n { font-size: 1.35rem; font-weight: 800; line-height: 1.1; }
+  .filter-chip {
+    display: inline-flex; align-items: center; gap: 0.25rem;
+    padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid #2a3a55;
+    background: #0b1220; color: #8b9bb8; font-size: 12px; font-weight: 600;
+    cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
+  }
+  .filter-chip:hover { color: #e8eefc; border-color: #5eead4; }
+  .filter-chip.active { color: #5eead4; border-color: rgba(94, 234, 212, 0.45); background: rgba(94, 234, 212, 0.08); }
+  .section-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .section-tab {
+    padding: 0.4rem 0.85rem; border-radius: 999px; border: 1px solid #2a3a55;
+    background: #0b1220; color: #8b9bb8; font-size: 13px; font-weight: 600; cursor: pointer;
+  }
+  .section-tab.active { color: #0b1220; background: #5eead4; border-color: #5eead4; }
+  .conflict-card {
+    border: 1px solid #2a3a55; border-radius: 12px; background: #121a2b; padding: 0.85rem 1rem;
+  }
+  .tool-card {
+    display: flex; flex-direction: column; gap: 0.75rem;
+    border: 1px solid #2a3a55; border-radius: 16px; background: #121a2b;
+    padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    min-height: 100%;
+  }
+  .tool-card:hover {
+    border-color: rgba(94, 234, 212, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  }
+  .tool-card .tool-icon {
+    width: 2.5rem; height: 2.5rem; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 1rem; color: #0b1220;
+  }
+  .tool-card .tool-title {
+    font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em;
+  }
+  .tool-card .tool-desc {
+    font-size: 0.875rem; color: #8b9bb8; line-height: 1.45; flex: 1;
+  }
+  .tool-card .tool-meta {
+    display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.15rem;
+  }
+  .tool-card .tool-cta {
+    font-size: 0.8rem; font-weight: 700; color: #5eead4;
+  }
+  .home-hero {
+    border: 1px solid #2a3a55; border-radius: 20px;
+    background:
+      radial-gradient(700px 280px at 0% 0%, rgba(94, 234, 212, 0.12), transparent 55%),
+      radial-gradient(600px 240px at 100% 20%, rgba(56, 189, 248, 0.1), transparent 50%),
+      #121a2b;
+    padding: 1.5rem 1.4rem;
+  }
+
+</style>
+
+</head>
+<body class="text-pal-text font-sans antialiased min-h-screen">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-pal-border/80 bg-pal-panel/80 backdrop-blur sticky top-0 z-30">
+      <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</a>
+          <div>
+            <h1 class="text-lg font-bold tracking-tight leading-none">Palhead</h1>
+            <p class="text-xs text-pal-muted mt-0.5">Palworld tools — work suitability spreadsheet</p>
+          </div>
+        </div>
+        <nav class="flex items-center gap-2 text-sm">
+          <a href="index.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Home</a>
+          <a href="pals.html" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Pals</a>
+          <a href="partner-skills.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Partner Skills</a>
+          <a href="partner-verify.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Verify</a>
+          <a href="base-tips.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Base Tips</a>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
+      <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
+        <div class="flex flex-wrap items-end gap-3">
+          <div class="flex-1 min-w-[200px]">
+            <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
+            <input id="search" type="search" placeholder="Name or #…" class="w-full bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
+          </div>
+          <div>
+            <label class="block text-xs text-pal-muted mb-1 font-medium">Quick sort</label>
+            <select id="quickSort" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent min-w-[180px]">
+              <option value="d:asc"># ascending</option>
+              <option value="d:desc"># descending</option>
+              <option value="n:asc">Name A–Z</option>
+              <option value="n:desc">Name Z–A</option>
+            </select>
+          </div>
+          <button id="resetFilters" type="button" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Reset</button>
+        </div>
+
+        <div>
+          <div class="text-xs text-pal-muted mb-1.5 font-medium">Element</div>
+          <div id="elemFilters" class="flex flex-wrap gap-1.5"></div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-between gap-2 text-sm pt-1 border-t border-pal-border/60">
+          <div class="text-pal-muted">
+            Showing <span id="resultCount" class="text-pal-text font-semibold">0</span> of <span id="totalCount" class="text-pal-text font-semibold">0</span> pals
+            <span id="sortLabel" class="ml-2 text-pal-accent/90"></span>
+          </div>
+          <div class="text-xs text-pal-muted">Tip: click any column header to sort. Work columns default to high → low.</div>
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden flex-1">
+        <div class="table-wrap overflow-auto">
+          <table id="table" class="w-full min-w-full text-sm border-collapse">
+            <thead>
+              <tr id="theadRow"></tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  
+
+    <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
+      Palhead · data derived from community game data dumps · not affiliated with Pocketpair
+    </footer>
+  </div>
+
+<script>
+const DATA = {"work":["Kindling","Watering","Planting","Generating Electricity","Handiwork","Gathering","Lumbering","Mining","Medicine Production","Cooling","Transporting","Farming"],"workKeys":["EmitFlame","Watering","Seeding","GenerateElectricity","Handcraft","Collection","Deforest","Mining","ProductMedicine","Cool","Transport","MonsterFarm"],"pals":[{"id":"Sheepball","n":"Lamball","d":1,"e":["Neutral"],"w":[0,0,0,0,1,0,0,0,0,0,1,1],"img":"T_SheepBall_icon_normal.webp"},{"id":"PinkCat","n":"Cattiva","d":2,"e":["Neutral"],"w":[0,0,0,0,1,1,0,1,0,0,1,0],"img":"T_PinkCat_icon_normal.webp"},{"id":"ChickenPal","n":"Chikipi","d":3,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,0,1],"img":"T_ChickenPal_icon_normal.webp"},{"id":"Carbunclo","n":"Lifmunk","d":4,"e":["Grass"],"w":[0,0,1,0,1,1,1,0,1,0,0,0],"img":"T_Carbunclo_icon_normal.webp"},{"id":"BluePlatypus","n":"Fuack","d":5,"e":["Water"],"w":[0,1,0,0,1,0,0,0,0,0,1,0],"img":"T_BluePlatypus_icon_normal.webp"},{"id":"BluePlatypus_Fire","n":"Fuack Ignis","d":5,"e":["Water","Fire"],"w":[2,2,0,0,1,0,0,0,0,0,1,0],"img":"T_BluePlatypus_Fire_icon_normal.webp"},{"id":"CuteFox","n":"Vixy","d":6,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,0,1],"img":"T_CuteFox_icon_normal.webp"},{"id":"FlyingManta","n":"Celaray","d":7,"e":["Water"],"w":[0,1,0,0,0,0,0,0,0,0,1,0],"img":"T_FlyingManta_icon_normal.webp"},{"id":"FlyingManta_Thunder","n":"Celaray Lux","d":7,"e":["Water","Electric"],"w":[0,1,0,2,0,0,0,0,0,0,1,0],"img":"T_FlyingManta_Thunder_icon_normal.webp"},{"id":"WoolFox","n":"Cremis","d":8,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,0,2],"img":"T_WoolFox_icon_normal.webp"},{"id":"KendoFrog","n":"Croajiro","d":9,"e":["Water"],"w":[0,1,0,0,1,1,0,0,0,0,1,0],"img":"T_KendoFrog_icon_normal.webp"},{"id":"KendoFrog_Dark","n":"Croajiro Noct","d":9,"e":["Water","Dark"],"w":[0,1,0,0,2,1,0,0,0,0,1,0],"img":"T_KendoFrog_Dark_icon_normal.webp"},{"id":"LeafMomonga","n":"Herbil","d":10,"e":["Grass","Neutral"],"w":[0,0,1,0,0,1,0,0,0,0,1,0],"img":"T_LeafMomonga_icon_normal.webp"},{"id":"Ganesha","n":"Teafant","d":11,"e":["Water"],"w":[0,1,0,0,0,0,0,0,0,0,0,0],"img":"T_Ganesha_icon_normal.webp"},{"id":"PlantSlime","n":"Gumoss","d":12,"e":["Grass","Ground"],"w":[0,0,1,0,0,0,0,0,0,0,0,0],"img":"T_PlantSlime_icon_normal.webp"},{"id":"CloverFairy","n":"Clovee","d":14,"e":["Grass","Neutral"],"w":[0,0,1,0,0,1,0,0,0,0,0,0],"img":"T_CloverFairy_icon_normal.webp"},{"id":"Hedgehog","n":"Jolthog","d":15,"e":["Electric"],"w":[0,0,0,1,0,0,0,0,0,0,0,0],"img":"T_Hedgehog_icon_normal.webp"},{"id":"Hedgehog_Ice","n":"Jolthog Cryst","d":15,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,1,0,0],"img":"T_Hedgehog_Ice_icon_normal.webp"},{"id":"NegativeKoala","n":"Depresso","d":16,"e":["Dark"],"w":[0,0,0,0,1,0,0,1,0,0,1,1],"img":"T_NegativeKoala_icon_normal.webp"},{"id":"Penguin","n":"Pengullet","d":17,"e":["Water","Ice"],"w":[0,1,0,0,1,0,0,0,0,1,1,0],"img":"T_Penguin_icon_normal.webp"},{"id":"Penguin_Electric","n":"Pengullet Lux","d":17,"e":["Water","Electric"],"w":[0,1,0,2,1,0,0,0,0,0,1,0],"img":"T_Penguin_Electric_icon_normal.webp"},{"id":"CaptainPenguin","n":"Penking","d":18,"e":["Water","Ice"],"w":[0,2,0,0,2,0,0,3,0,2,3,0],"img":"T_CaptainPenguin_icon_normal.webp"},{"id":"CaptainPenguin_Black","n":"Penking Lux","d":18,"e":["Water","Electric"],"w":[0,2,0,3,2,0,0,3,0,0,3,0],"img":"T_CaptainPenguin_Black_icon_normal.webp"},{"id":"WizardOwl","n":"Hoocrates","d":19,"e":["Dark"],"w":[0,0,0,0,0,1,0,0,0,0,0,0],"img":"T_WizardOwl_icon_normal.webp"},{"id":"Alpaca","n":"Melpaca","d":20,"e":["Neutral"],"w":[0,0,0,0,0,0,0,0,0,0,0,2],"img":"T_Alpaca_icon_normal.webp"},{"id":"KingAlpaca","n":"Kingpaca","d":21,"e":["Neutral"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_KingAlpaca_icon_normal.webp"},{"id":"KingAlpaca_Ice","n":"Kingpaca Cryst","d":21,"e":["Ice"],"w":[0,0,0,0,0,2,0,0,0,4,0,0],"img":"T_KingAlpaca_Ice_icon_normal.webp"},{"id":"DreamDemon","n":"Daedream","d":22,"e":["Dark"],"w":[0,0,0,0,1,1,0,0,0,0,1,0],"img":"T_DreamDemon_icon_normal.webp"},{"id":"Monkey","n":"Tanzee","d":23,"e":["Grass"],"w":[0,0,1,0,1,1,1,0,0,0,1,0],"img":"T_Monkey_icon_normal.webp"},{"id":"Monkey_Fire","n":"Tanzee Ignis","d":23,"e":["Fire"],"w":[1,0,0,0,1,0,1,0,0,0,1,0],"img":"T_Monkey_Fire_icon_normal.webp"},{"id":"NightFox","n":"Nox","d":24,"e":["Dark"],"w":[0,0,0,0,0,1,0,0,0,0,0,0],"img":"T_NightFox_icon_normal.webp"},{"id":"LavaGirl","n":"Flambelle","d":25,"e":["Fire"],"w":[1,0,0,0,1,0,0,0,0,0,1,1],"img":"T_LavaGirl_icon_normal.webp"},{"id":"FlameBambi","n":"Rooby","d":26,"e":["Fire"],"w":[1,0,0,0,0,0,0,0,0,0,0,1],"img":"T_FlameBambi_icon_normal.webp"},{"id":"Bastet","n":"Mau","d":27,"e":["Dark"],"w":[0,0,0,0,0,1,0,0,0,0,0,1],"img":"T_Bastet_icon_normal.webp"},{"id":"Bastet_Ice","n":"Mau Cryst","d":27,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,1,0,1],"img":"T_Bastet_Ice_icon_normal.webp"},{"id":"Boar","n":"Rushoar","d":28,"e":["Ground"],"w":[0,0,0,0,0,0,0,1,0,0,0,0],"img":"T_Boar_icon_normal.webp"},{"id":"Kitsunebi","n":"Foxparks","d":29,"e":["Fire"],"w":[1,0,0,0,0,0,0,0,0,0,0,0],"img":"T_Kitsunebi_icon_normal.webp"},{"id":"Kitsunebi_Ice","n":"Foxparks Cryst","d":29,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,2,0,0],"img":"T_Kitsunebi_Ice_icon_normal.webp"},{"id":"NegativeOctopus","n":"Killamari","d":30,"e":["Dark","Water"],"w":[0,1,0,0,0,1,0,0,0,0,2,0],"img":"T_NegativeOctopus_icon_normal.webp"},{"id":"NegativeOctopus_Neutral","n":"Killamari Primo","d":30,"e":["Neutral","Water"],"w":[0,1,0,0,0,1,0,0,0,0,2,0],"img":"T_NegativeOctopus_Neutral_icon_normal.webp"},{"id":"CuteMole","n":"Fuddler","d":31,"e":["Ground"],"w":[0,0,0,0,1,0,0,1,0,0,1,0],"img":"T_CuteMole_icon_normal.webp"},{"id":"Deer","n":"Eikthyrdeer","d":32,"e":["Neutral"],"w":[0,0,0,0,0,0,2,0,0,0,0,0],"img":"T_Deer_icon_normal.webp"},{"id":"Deer_Ground","n":"Eikthyrdeer Terra","d":32,"e":["Ground"],"w":[0,0,0,0,0,0,2,0,0,0,0,0],"img":"T_Deer_Ground_icon_normal.webp"},{"id":"Garm","n":"Direhowl","d":33,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,0,0],"img":"T_Garm_icon_normal.webp"},{"id":"BerryGoat","n":"Caprity","d":34,"e":["Grass"],"w":[0,0,2,0,0,0,0,0,0,0,0,1],"img":"T_BerryGoat_icon_normal.webp"},{"id":"BerryGoat_Dark","n":"Caprity Noct","d":34,"e":["Dark"],"w":[0,0,2,0,0,0,0,0,0,0,0,1],"img":"T_BerryGoat_Dark_icon_normal.webp"},{"id":"MopBaby","n":"Swee","d":35,"e":["Ice"],"w":[0,0,0,0,0,1,0,0,0,1,0,0],"img":"T_MopBaby_icon_normal.webp"},{"id":"MopKing","n":"Sweepa","d":36,"e":["Ice"],"w":[0,0,0,0,0,2,0,0,0,3,0,0],"img":"T_MopKing_icon_normal.webp"},{"id":"TentacleTurtle","n":"Turtacle","d":37,"e":["Water"],"w":[0,2,0,0,0,0,0,1,0,0,1,0],"img":"T_TentacleTurtle_icon_normal.webp"},{"id":"TentacleTurtle_Ground","n":"Turtacle Terra","d":37,"e":["Water","Ground"],"w":[0,2,0,0,0,0,0,3,0,0,1,0],"img":"T_TentacleTurtle_Ground_icon_normal.webp"},{"id":"WindChimes","n":"Hangyu","d":38,"e":["Ground"],"w":[0,0,0,0,1,1,0,0,0,0,2,0],"img":"T_WindChimes_icon_normal.webp"},{"id":"WindChimes_Ice","n":"Hangyu Cryst","d":38,"e":["Ice"],"w":[0,0,0,0,3,2,0,0,0,2,3,0],"img":"T_WindChimes_Ice_icon_normal.webp"},{"id":"SweetsSheep","n":"Woolipop","d":39,"e":["Neutral"],"w":[0,0,0,0,0,0,0,0,0,0,0,1],"img":"T_SweetsSheep_icon_normal.webp"},{"id":"SweetsSheep_Ground","n":"Woolipop Terra","d":39,"e":["Ground"],"w":[0,0,0,0,0,0,0,0,0,0,0,1],"img":"T_SweetsSheep_Ground_icon_normal.webp"},{"id":"CowPal","n":"Mozzarina","d":40,"e":["Neutral"],"w":[0,0,0,0,0,0,0,0,0,0,0,2],"img":"T_CowPal_icon_normal.webp"},{"id":"BlueDragon","n":"Azurobe","d":41,"e":["Water","Dragon"],"w":[0,4,0,0,0,0,0,0,0,0,0,0],"img":"T_BlueDragon_icon_normal.webp"},{"id":"BlueDragon_Ice","n":"Azurobe Cryst","d":41,"e":["Ice","Dragon"],"w":[0,0,0,0,0,0,0,0,0,4,0,0],"img":"T_BlueDragon_Ice_icon_normal.webp"},{"id":"ElecCat","n":"Sparkit","d":42,"e":["Electric"],"w":[0,0,0,1,1,0,0,0,0,0,1,1],"img":"T_ElecCat_icon_normal.webp"},{"id":"Kelpie","n":"Kelpsea","d":43,"e":["Water"],"w":[0,1,0,0,0,0,0,0,0,0,0,1],"img":"T_Kelpie_icon_normal.webp"},{"id":"Kelpie_Fire","n":"Kelpsea Ignis","d":43,"e":["Fire"],"w":[1,0,0,0,0,0,0,0,0,0,0,1],"img":"T_Kelpie_Fire_icon_normal.webp"},{"id":"PinkRabbit","n":"Ribbuny","d":44,"e":["Neutral"],"w":[0,0,0,0,1,1,0,0,0,0,1,0],"img":"T_PinkRabbit_icon_normal.webp"},{"id":"PinkRabbit_Grass","n":"Ribbuny Botan","d":44,"e":["Grass"],"w":[0,0,2,0,2,2,0,0,0,0,1,0],"img":"T_PinkRabbit_Grass_icon_normal.webp"},{"id":"JellyfishFairy","n":"Jelliette","d":45,"e":["Water"],"w":[0,2,0,0,1,0,0,0,0,0,1,0],"img":"T_JellyfishFairy_icon_normal.webp"},{"id":"JellyfishGhost","n":"Jellroy","d":46,"e":["Water","Dark"],"w":[0,2,0,0,1,0,0,0,1,0,1,0],"img":"T_JellyfishGhost_icon_normal.webp"},{"id":"ClioneTwins","n":"Amione","d":47,"e":["Water"],"w":[0,1,0,0,2,0,0,0,0,0,1,0],"img":"T_ClioneTwins_icon_normal.webp"},{"id":"OctopusGirl","n":"Gloopie","d":48,"e":["Water","Dark"],"w":[0,2,0,0,2,0,0,0,0,0,2,0],"img":"T_OctopusGirl_icon_normal.webp"},{"id":"OctopusGirl_Neutral","n":"Gloopie Primo","d":48,"e":["Water","Neutral"],"w":[0,2,0,0,2,0,0,0,0,0,2,0],"img":"T_OctopusGirl_Neutral_icon_normal.webp"},{"id":"Eagle","n":"Galeclaw","d":49,"e":["Neutral"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_Eagle_icon_normal.webp"},{"id":"GhostBlackCat","n":"Wispaw","d":50,"e":["Dark"],"w":[0,0,0,0,2,0,1,0,1,0,1,0],"img":"T_GhostBlackCat_icon_normal.webp"},{"id":"HawkBird","n":"Nitewing","d":51,"e":["Neutral"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_HawkBird_icon_normal.webp"},{"id":"CatBat","n":"Tombat","d":52,"e":["Dark"],"w":[0,0,0,0,0,2,0,3,0,0,2,0],"img":"T_CatBat_icon_normal.webp"},{"id":"ColorfulBird","n":"Tocotoco","d":53,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,0,0],"img":"T_ColorfulBird_icon_normal.webp"},{"id":"Kirin","n":"Univolt","d":54,"e":["Electric"],"w":[0,0,0,3,0,0,1,0,0,0,0,0],"img":"T_Kirin_icon_normal.webp"},{"id":"Kirin_Ice","n":"Univolt Cryst","d":54,"e":["Ice"],"w":[0,0,0,0,0,0,3,0,0,6,0,0],"img":"T_Kirin_Ice_icon_normal.webp"},{"id":"SharkKid","n":"Gobfin","d":55,"e":["Water"],"w":[0,2,0,0,2,0,0,0,0,0,1,0],"img":"T_SharkKid_icon_normal.webp"},{"id":"SharkKid_Fire","n":"Gobfin Ignis","d":55,"e":["Fire"],"w":[2,0,0,0,2,0,0,0,0,0,1,0],"img":"T_SharkKid_Fire_icon_normal.webp"},{"id":"Werewolf","n":"Loupmoon","d":56,"e":["Dark"],"w":[0,0,0,0,2,0,0,0,0,0,0,0],"img":"T_Werewolf_icon_normal.webp"},{"id":"Werewolf_Ice","n":"Loupmoon Cryst","d":56,"e":["Ice"],"w":[0,0,0,0,4,0,0,0,0,4,0,0],"img":"T_Werewolf_Ice_icon_normal.webp"},{"id":"DarkCrow","n":"Cawgnito","d":57,"e":["Dark"],"w":[0,0,0,0,0,0,2,0,0,0,0,1],"img":"T_DarkCrow_icon_normal.webp"},{"id":"FlameBuffalo","n":"Arsox","d":58,"e":["Fire"],"w":[3,0,0,0,0,0,2,0,0,0,0,0],"img":"T_FlameBuffalo_icon_normal.webp"},{"id":"FluffyBird","n":"Muffly","d":59,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,2,1,0],"img":"T_FluffyBird_icon_normal.webp"},{"id":"LittleBriarRose","n":"Bristla","d":60,"e":["Grass"],"w":[0,0,2,0,2,2,0,0,2,0,1,0],"img":"T_LittleBriarRose_icon_normal.webp"},{"id":"CuteButterfly","n":"Cinnamoth","d":61,"e":["Grass"],"w":[0,0,2,0,0,2,0,0,2,0,0,0],"img":"T_CuteButterfly_icon_normal.webp"},{"id":"ElecPomeranian","n":"Puffolt","d":62,"e":["Electric"],"w":[0,0,0,2,0,0,0,0,0,0,1,0],"img":"T_ElecPomeranian_icon_normal.webp"},{"id":"FairyDragon","n":"Elphidran","d":63,"e":["Dragon"],"w":[0,0,0,0,0,0,3,0,0,0,0,0],"img":"T_FairyDragon_icon_normal.webp"},{"id":"FairyDragon_Water","n":"Elphidran Aqua","d":63,"e":["Dragon","Water"],"w":[0,4,0,0,0,0,3,0,0,0,0,0],"img":"T_FairyDragon_Water_icon_normal.webp"},{"id":"BirdDragon","n":"Vanwyrm","d":64,"e":["Fire","Dark"],"w":[2,0,0,0,0,0,0,0,0,0,3,0],"img":"T_BirdDragon_icon_normal.webp"},{"id":"BirdDragon_Ice","n":"Vanwyrm Cryst","d":64,"e":["Ice","Dark"],"w":[0,0,0,0,0,0,0,0,0,2,3,0],"img":"T_BirdDragon_Ice_icon_normal.webp"},{"id":"CatVampire","n":"Felbat","d":65,"e":["Dark"],"w":[0,0,0,0,0,0,0,0,3,0,0,0],"img":"T_CatVampire_icon_normal.webp"},{"id":"VioletFairy","n":"Vaelet","d":66,"e":["Grass"],"w":[0,0,3,0,3,3,0,0,3,0,2,2],"img":"T_VioletFairy_icon_normal.webp"},{"id":"QueenBee","n":"Elizabee","d":68,"e":["Grass"],"w":[0,0,4,0,4,4,3,0,4,0,0,0],"img":"T_QueenBee_icon_normal.webp"},{"id":"PinkLizard","n":"Lovander","d":69,"e":["Dark"],"w":[0,0,0,0,3,0,0,2,3,0,2,0],"img":"T_PinkLizard_icon_normal.webp"},{"id":"NaughtyCat","n":"Grintale","d":70,"e":["Neutral"],"w":[0,0,0,0,0,3,0,0,0,0,0,0],"img":"T_NaughtyCat_icon_normal.webp"},{"id":"PurpleSpider","n":"Tarantriss","d":71,"e":["Dark"],"w":[0,0,0,0,3,3,0,0,2,0,2,0],"img":"T_PurpleSpider_icon_normal.webp"},{"id":"IceSeal","n":"Polapup","d":72,"e":["Ice","Water"],"w":[0,3,0,0,0,0,0,0,0,4,0,0],"img":"T_IceSeal_icon_normal.webp"},{"id":"IceSeal_Ground","n":"Polapup Terra","d":72,"e":["Ice","Ground"],"w":[0,0,0,0,0,0,0,4,0,4,0,0],"img":"T_IceSeal_Ground_icon_normal.webp"},{"id":"LizardMan","n":"Leezpunk","d":73,"e":["Dark"],"w":[0,0,0,0,2,1,0,0,0,0,1,0],"img":"T_LizardMan_icon_normal.webp"},{"id":"LizardMan_Fire","n":"Leezpunk Ignis","d":73,"e":["Fire"],"w":[2,0,0,0,2,1,0,0,0,0,1,0],"img":"T_LizardMan_Fire_icon_normal.webp"},{"id":"Gorilla","n":"Gorirat","d":74,"e":["Neutral"],"w":[0,0,0,0,2,0,3,0,0,0,3,0],"img":"T_Gorilla_icon_normal.webp"},{"id":"Gorilla_Ground","n":"Gorirat Terra","d":74,"e":["Ground"],"w":[0,0,0,0,2,0,0,3,0,0,3,0],"img":"T_Gorilla_Ground_icon_normal.webp"},{"id":"Serpent","n":"Surfent","d":75,"e":["Water"],"w":[0,3,0,0,0,0,0,0,0,0,0,2],"img":"T_Serpent_icon_normal.webp"},{"id":"Serpent_Ground","n":"Surfent Terra","d":75,"e":["Ground"],"w":[0,0,0,0,0,3,0,0,0,0,0,0],"img":"T_Serpent_Ground_icon_normal.webp"},{"id":"RobinHood","n":"Robinquill","d":76,"e":["Grass"],"w":[0,0,2,0,3,3,2,0,1,0,2,0],"img":"T_RobinHood_icon_normal.webp"},{"id":"RobinHood_Ground","n":"Robinquill Terra","d":76,"e":["Grass","Ground"],"w":[0,0,0,0,3,3,2,0,2,0,2,0],"img":"T_RobinHood_Ground_icon_normal.webp"},{"id":"FlowerRabbit","n":"Flopie","d":77,"e":["Grass"],"w":[0,0,2,0,2,2,0,0,1,0,1,0],"img":"T_FlowerRabbit_icon_normal.webp"},{"id":"FoxMage","n":"Wixen","d":78,"e":["Fire"],"w":[3,0,0,0,3,0,0,0,0,0,2,0],"img":"T_FoxMage_icon_normal.webp"},{"id":"FoxMage_Dark","n":"Wixen Noct","d":78,"e":["Fire","Dark"],"w":[4,0,0,0,4,0,0,0,0,0,2,0],"img":"T_FoxMage_Dark_icon_normal.webp"},{"id":"CatMage","n":"Katress","d":79,"e":["Dark"],"w":[0,0,0,0,3,0,0,0,3,0,2,0],"img":"T_CatMage_icon_normal.webp"},{"id":"CatMage_Fire","n":"Katress Ignis","d":79,"e":["Dark","Fire"],"w":[3,0,0,0,3,0,0,0,3,0,2,0],"img":"T_CatMage_Fire_icon_normal.webp"},{"id":"HadesBird","n":"Helzephyr","d":80,"e":["Dark"],"w":[0,0,0,0,0,0,0,0,0,0,4,0],"img":"T_HadesBird_icon_normal.webp"},{"id":"HadesBird_Electric","n":"Helzephyr Lux","d":80,"e":["Dark","Electric"],"w":[0,0,0,4,0,0,0,0,0,0,5,0],"img":"T_HadesBird_Electric_icon_normal.webp"},{"id":"GrassMinotaur","n":"Elgrove","d":81,"e":["Grass"],"w":[0,0,3,0,0,2,3,2,0,0,3,0],"img":"T_GrassMinotaur_icon_normal.webp"},{"id":"GrassMinotaur_Ice","n":"Elgrove Cryst","d":81,"e":["Ice"],"w":[0,0,0,0,0,0,3,3,0,5,3,0],"img":"T_GrassMinotaur_Ice_icon_normal.webp"},{"id":"Mutant","n":"Lunaris","d":82,"e":["Neutral"],"w":[0,0,0,0,4,2,0,0,0,0,2,0],"img":"T_Mutant_icon_normal.webp"},{"id":"FengyunDeeper","n":"Fenglope","d":83,"e":["Neutral"],"w":[0,0,0,0,0,0,3,0,0,0,0,0],"img":"T_FengyunDeeper_icon_normal.webp"},{"id":"FengyunDeeper_Electric","n":"Fenglope Lux","d":83,"e":["Electric"],"w":[0,0,0,5,0,0,4,0,0,0,0,0],"img":"T_FengyunDeeper_Electric_icon_normal.webp"},{"id":"FlowerDinosaur","n":"Dinossom","d":84,"e":["Grass","Dragon"],"w":[0,0,3,0,0,0,3,0,0,0,0,0],"img":"T_FlowerDinosaur_icon_normal.webp"},{"id":"FlowerDinosaur_Electric","n":"Dinossom Lux","d":84,"e":["Electric","Dragon"],"w":[0,0,0,3,0,0,4,0,0,0,0,0],"img":"T_FlowerDinosaur_Electric_icon_normal.webp"},{"id":"Ronin","n":"Bushi","d":85,"e":["Fire"],"w":[2,0,0,0,2,1,3,0,0,0,2,0],"img":"T_Ronin_icon_normal.webp"},{"id":"Ronin_Dark","n":"Bushi Noct","d":85,"e":["Fire","Dark"],"w":[2,0,0,0,2,1,5,0,0,0,2,0],"img":"T_Ronin_Dark_icon_normal.webp"},{"id":"IceCrocodile","n":"Munchill","d":86,"e":["Ice","Water"],"w":[0,2,0,0,0,0,0,0,0,3,1,0],"img":"T_IceCrocodile_icon_normal.webp"},{"id":"GrassMammoth","n":"Mammorest","d":87,"e":["Grass","Ground"],"w":[0,0,4,0,0,0,4,4,0,0,0,0],"img":"T_GrassMammoth_icon_normal.webp"},{"id":"GrassMammoth_Ice","n":"Mammorest Cryst","d":87,"e":["Ice","Ground"],"w":[0,0,0,0,0,0,5,4,0,5,0,0],"img":"T_GrassMammoth_Ice_icon_normal.webp"},{"id":"StuffedShark","n":"Finsider","d":88,"e":["Water"],"w":[0,2,0,0,0,0,0,0,0,0,1,0],"img":"T_StuffedShark_icon_normal.webp"},{"id":"StuffedShark_Fire","n":"Finsider Ignis","d":88,"e":["Water","Fire"],"w":[2,2,0,0,0,0,0,0,0,0,1,0],"img":"T_StuffedShark_Fire_icon_normal.webp"},{"id":"FlowerDoll","n":"Petallia","d":89,"e":["Grass"],"w":[0,0,4,0,3,3,0,0,4,0,2,0],"img":"T_FlowerDoll_icon_normal.webp"},{"id":"FlowerDoll_Fire","n":"Petallia Ignis","d":89,"e":["Grass","Fire"],"w":[4,0,0,0,3,3,0,0,4,0,2,0],"img":"T_FlowerDoll_Fire_icon_normal.webp"},{"id":"PandaGirl","n":"Leafan","d":90,"e":["Grass"],"w":[0,0,3,0,3,3,0,0,0,0,2,0],"img":"T_PandaGirl_icon_normal.webp"},{"id":"Baphomet","n":"Incineram","d":91,"e":["Fire","Dark"],"w":[3,0,0,0,2,0,0,3,0,0,2,0],"img":"T_Baphomet_icon_normal.webp"},{"id":"Baphomet_Dark","n":"Incineram Noct","d":91,"e":["Dark"],"w":[0,0,0,0,3,0,0,4,0,0,3,0],"img":"T_Baphomet_Dark_icon_normal.webp"},{"id":"RaijinDaughter","n":"Dazzi","d":92,"e":["Electric"],"w":[0,0,0,3,2,0,0,0,0,0,2,0],"img":"T_RaijinDaughter_icon_normal.webp"},{"id":"RaijinDaughter_Water","n":"Dazzi Noct","d":92,"e":["Dark","Electric"],"w":[0,0,0,1,1,0,0,0,1,0,2,0],"img":"T_RaijinDaughter_Water_icon_normal.webp"},{"id":"FireKirin","n":"Pyrin","d":93,"e":["Fire"],"w":[4,0,0,0,0,0,2,0,0,0,0,0],"img":"T_FireKirin_icon_normal.webp"},{"id":"FireKirin_Dark","n":"Pyrin Noct","d":93,"e":["Fire","Dark"],"w":[4,0,0,0,0,0,3,0,0,0,0,0],"img":"T_FireKirin_Dark_icon_normal.webp"},{"id":"LazyDragon","n":"Relaxaurus","d":94,"e":["Dragon","Water"],"w":[0,3,0,0,0,0,0,0,0,0,3,0],"img":"T_LazyDragon_icon_normal.webp"},{"id":"LazyDragon_Electric","n":"Relaxaurus Lux","d":94,"e":["Dragon","Electric"],"w":[0,0,0,4,0,0,0,0,0,0,3,0],"img":"T_LazyDragon_Electric_icon_normal.webp"},{"id":"IceFox","n":"Foxcicle","d":95,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,4,0,3],"img":"T_IceFox_icon_normal.webp"},{"id":"ThunderBird","n":"Beakon","d":96,"e":["Electric"],"w":[0,0,0,4,0,2,0,0,0,0,5,0],"img":"T_ThunderBird_icon_normal.webp"},{"id":"ThunderBird_Ice","n":"Beakon Cryst","d":96,"e":["Ice"],"w":[0,0,0,0,0,2,0,0,0,5,5,0],"img":"T_ThunderBird_Ice_icon_normal.webp"},{"id":"GhostAnglerfish","n":"Ghangler","d":97,"e":["Dark","Water"],"w":[0,5,0,0,0,0,0,0,0,0,2,0],"img":"T_GhostAnglerfish_icon_normal.webp"},{"id":"GhostAnglerfish_Fire","n":"Ghangler Ignis","d":97,"e":["Fire","Water"],"w":[5,5,0,0,0,0,0,0,0,0,2,0],"img":"T_GhostAnglerfish_Fire_icon_normal.webp"},{"id":"ThunderDog","n":"Rayhound","d":98,"e":["Electric"],"w":[0,0,0,4,0,0,0,0,0,0,0,0],"img":"T_ThunderDog_icon_normal.webp"},{"id":"ThunderDog_Ice","n":"Rayhound Cryst","d":98,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,3,0,0],"img":"T_ThunderDog_Ice_icon_normal.webp"},{"id":"DarkScorpion","n":"Menasting","d":99,"e":["Dark","Ground"],"w":[0,0,0,0,0,0,3,5,0,0,0,0],"img":"T_DarkScorpion_icon_normal.webp"},{"id":"DarkScorpion_Ground","n":"Menasting Terra","d":99,"e":["Ground"],"w":[0,0,0,0,0,0,3,6,0,0,0,0],"img":"T_DarkScorpion_Ground_icon_normal.webp"},{"id":"CactusDoll","n":"Needoll","d":100,"e":["Grass"],"w":[0,0,3,0,0,3,0,0,0,0,1,0],"img":"T_CactusDoll_icon_normal.webp"},{"id":"CactusDoll_Dark","n":"Needoll Noct","d":100,"e":["Dark","Grass"],"w":[0,0,3,0,0,3,0,0,0,0,1,0],"img":"T_CactusDoll_Dark_icon_normal.webp"},{"id":"IceDeer","n":"Reindrix","d":101,"e":["Ice"],"w":[0,0,0,0,0,0,3,0,0,3,0,0],"img":"T_IceDeer_icon_normal.webp"},{"id":"GrassPanda","n":"Mossanda","d":102,"e":["Grass"],"w":[0,0,3,0,2,0,4,0,0,0,4,0],"img":"T_GrassPanda_icon_normal.webp"},{"id":"GrassPanda_Electric","n":"Mossanda Lux","d":102,"e":["Electric"],"w":[0,0,0,4,3,0,4,0,0,0,4,0],"img":"T_GrassPanda_Electric_icon_normal.webp"},{"id":"WeaselDragon","n":"Chillet","d":103,"e":["Ice","Dragon"],"w":[0,0,0,0,0,1,0,0,0,2,0,0],"img":"T_WeaselDragon_icon_normal.webp"},{"id":"WeaselDragon_Fire","n":"Chillet Ignis","d":103,"e":["Fire","Dragon"],"w":[4,0,0,0,0,3,0,0,0,0,0,0],"img":"T_WeaselDragon_Fire_icon_normal.webp"},{"id":"RedArmorBird","n":"Ragnahawk","d":104,"e":["Fire"],"w":[4,0,0,0,0,0,0,0,0,0,5,0],"img":"T_RedArmorBird_icon_normal.webp"},{"id":"VolcanoDragon","n":"Moldron","d":105,"e":["Fire","Ground"],"w":[5,0,0,0,0,0,0,5,0,0,0,0],"img":"T_VolcanoDragon_icon_normal.webp"},{"id":"VolcanoDragon_Ice","n":"Moldron Cryst","d":105,"e":["Ice","Ground"],"w":[0,0,0,0,0,0,0,5,0,5,0,0],"img":"T_VolcanoDragon_Ice_icon_normal.webp"},{"id":"TropicalOstrich","n":"Palumba","d":106,"e":["Grass"],"w":[0,0,4,0,0,4,0,5,0,0,0,0],"img":"T_TropicalOstrich_icon_normal.webp"},{"id":"DrillGame","n":"Digtoise","d":107,"e":["Ground"],"w":[0,0,0,0,0,0,0,4,0,0,0,0],"img":"T_DrillGame_icon_normal.webp"},{"id":"SakuraSaurus","n":"Broncherry","d":108,"e":["Grass"],"w":[0,0,5,0,0,0,0,0,0,0,0,0],"img":"T_SakuraSaurus_icon_normal.webp"},{"id":"SakuraSaurus_Water","n":"Broncherry Aqua","d":108,"e":["Grass","Water"],"w":[0,5,0,0,0,0,0,0,0,0,0,0],"img":"T_SakuraSaurus_Water_icon_normal.webp"},{"id":"LazyCatfish","n":"Dumud","d":109,"e":["Ground","Water"],"w":[0,2,0,0,0,0,0,2,0,0,1,1],"img":"T_LazyCatfish_icon_normal.webp"},{"id":"LazyCatfish_Gold","n":"Dumud Gild","d":109,"e":["Ground","Water"],"w":[0,2,0,0,0,0,0,2,0,0,1,4],"img":"T_LazyCatfish_Gold_icon_normal.webp"},{"id":"Plesiosaur","n":"Braloha","d":110,"e":["Grass","Ground"],"w":[0,0,5,0,0,5,0,3,0,0,0,0],"img":"T_Plesiosaur_icon_normal.webp"},{"id":"AmaterasuWolf","n":"Kitsun","d":111,"e":["Fire"],"w":[3,0,0,0,0,0,0,0,0,0,0,0],"img":"T_AmaterasuWolf_icon_normal.webp"},{"id":"AmaterasuWolf_Dark","n":"Kitsun Noct","d":111,"e":["Dark"],"w":[4,0,0,0,0,0,0,0,0,0,0,0],"img":"T_AmaterasuWolf_Dark_icon_normal.webp"},{"id":"Manticore","n":"Blazehowl","d":112,"e":["Fire"],"w":[5,0,0,0,0,0,3,0,0,0,0,0],"img":"T_Manticore_icon_normal.webp"},{"id":"Manticore_Dark","n":"Blazehowl Noct","d":112,"e":["Fire","Dark"],"w":[5,0,0,0,0,0,3,0,0,0,0,0],"img":"T_Manticore_Dark_icon_normal.webp"},{"id":"HerculesBeetle","n":"Warsect","d":113,"e":["Ground","Grass"],"w":[0,0,3,0,3,0,4,0,0,0,5,0],"img":"T_HerculesBeetle_icon_normal.webp"},{"id":"HerculesBeetle_Ground","n":"Warsect Terra","d":113,"e":["Ground"],"w":[0,0,0,0,2,0,0,5,0,0,5,0],"img":"T_HerculesBeetle_Ground_icon_normal.webp"},{"id":"SnowPeafowl","n":"Frostplume","d":114,"e":["Ice"],"w":[0,0,0,0,0,2,0,0,0,4,0,0],"img":"T_SnowPeafowl_icon_normal.webp"},{"id":"DarkFlameFox","n":"Majex","d":115,"e":["Dark","Fire"],"w":[4,0,0,0,5,0,0,0,3,0,2,0],"img":"T_DarkFlameFox_icon_normal.webp"},{"id":"WhiteMoth","n":"Sibelyx","d":116,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,3,3,0,3],"img":"T_WhiteMoth_icon_normal.webp"},{"id":"WhiteMoth_Neutral","n":"Sibelyx Primo","d":116,"e":["Neutral"],"w":[0,0,0,0,0,0,0,0,3,0,0,4],"img":"T_WhiteMoth_Neutral_icon_normal.webp"},{"id":"GhostBeast","n":"Maraith","d":117,"e":["Dark"],"w":[0,0,0,0,0,4,0,4,0,0,0,0],"img":"T_GhostBeast_icon_normal.webp"},{"id":"MushroomDragon","n":"Shroomer","d":118,"e":["Grass"],"w":[0,0,3,0,2,3,2,0,0,0,0,3],"img":"T_MushroomDragon_icon_normal.webp"},{"id":"MushroomDragon_Dark","n":"Shroomer Noct","d":118,"e":["Grass","Dark"],"w":[0,0,3,0,3,3,2,0,0,0,0,0],"img":"T_MushroomDragon_Dark_icon_normal.webp"},{"id":"IceWitch","n":"Icelyn","d":119,"e":["Ice"],"w":[0,0,0,0,5,0,0,0,4,5,2,0],"img":"T_IceWitch_icon_normal.webp"},{"id":"MummyPal","n":"Gildra","d":120,"e":["Dark","Ground"],"w":[0,0,0,0,5,0,0,0,4,0,2,0],"img":"T_MummyPal_icon_normal.webp"},{"id":"Umihebi","n":"Jormuntide","d":121,"e":["Dragon","Water"],"w":[0,7,0,0,0,0,0,0,0,0,0,0],"img":"T_Umihebi_icon_normal.webp"},{"id":"Umihebi_Fire","n":"Jormuntide Ignis","d":121,"e":["Dragon","Fire"],"w":[7,0,0,0,0,0,0,0,0,0,0,0],"img":"T_Umihebi_Fire_icon_normal.webp"},{"id":"Suzaku","n":"Suzaku","d":122,"e":["Fire"],"w":[5,0,0,0,0,0,0,0,0,0,0,0],"img":"T_Suzaku_icon_normal.webp"},{"id":"Suzaku_Water","n":"Suzaku Aqua","d":122,"e":["Water"],"w":[0,6,0,0,0,0,0,0,0,0,0,0],"img":"T_Suzaku_Water_icon_normal.webp"},{"id":"FeatherOstrich","n":"Dazemu","d":123,"e":["Ground"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_FeatherOstrich_icon_normal.webp"},{"id":"SkyDragon","n":"Quivern","d":124,"e":["Dragon"],"w":[0,0,0,0,2,3,0,4,0,0,5,0],"img":"T_SkyDragon_icon_normal.webp"},{"id":"SkyDragon_Grass","n":"Quivern Botan","d":124,"e":["Dragon","Grass"],"w":[0,0,5,0,2,4,0,3,0,0,4,0],"img":"T_SkyDragon_Grass_icon_normal.webp"},{"id":"LeafPrincess","n":"Lullu","d":125,"e":["Grass"],"w":[0,0,3,0,3,2,0,0,3,0,0,0],"img":"T_LeafPrincess_icon_normal.webp"},{"id":"SmallArmadillo","n":"Kikit","d":126,"e":["Ground"],"w":[0,0,0,0,0,0,0,1,0,0,0,0],"img":"T_SmallArmadillo_icon_normal.webp"},{"id":"SwordCutlassfish","n":"Skutlass","d":128,"e":["Water"],"w":[0,4,0,0,0,1,4,0,0,0,0,0],"img":"T_SwordCutlassfish_icon_normal.webp"},{"id":"SwordCutlassfish_Fire","n":"Skutlass Ignis","d":128,"e":["Water","Fire"],"w":[3,2,0,0,0,2,3,0,0,0,0,0],"img":"T_SwordCutlassfish_Fire_icon_normal.webp"},{"id":"VolcanicMonster","n":"Reptyro","d":129,"e":["Fire","Ground"],"w":[5,0,0,0,0,0,0,5,0,0,0,0],"img":"T_VolcanicMonster_icon_normal.webp"},{"id":"VolcanicMonster_Ice","n":"Reptyro Cryst","d":129,"e":["Ice","Ground"],"w":[0,0,0,0,0,0,0,5,0,5,0,0],"img":"T_VolcanicMonster_Ice_icon_normal.webp"},{"id":"NightBlueHorse","n":"Starryon","d":130,"e":["Dark"],"w":[0,0,0,0,0,5,0,0,0,0,0,0],"img":"T_NightBlueHorse_icon_normal.webp"},{"id":"NightBlueHorse_Neutral","n":"Starryon Primo","d":130,"e":["Neutral"],"w":[0,0,0,0,0,7,0,0,0,0,0,0],"img":"T_NightBlueHorse_Neutral_icon_normal.webp"},{"id":"RockBeast","n":"Pierdon","d":131,"e":["Ground"],"w":[0,0,0,0,0,0,0,5,0,0,0,0],"img":"T_RockBeast_icon_normal.webp"},{"id":"RockBeast_Ice","n":"Pierdon Cryst","d":131,"e":["Ice"],"w":[0,0,0,0,0,0,0,5,0,6,0,0],"img":"T_RockBeast_Ice_icon_normal.webp"},{"id":"WhiteTiger","n":"Cryolinx","d":132,"e":["Ice"],"w":[0,0,0,0,3,0,4,0,0,4,4,0],"img":"T_WhiteTiger_icon_normal.webp"},{"id":"WhiteTiger_Ground","n":"Cryolinx Terra","d":132,"e":["Ground"],"w":[0,0,0,0,2,0,6,5,0,0,4,0],"img":"T_WhiteTiger_Ground_icon_normal.webp"},{"id":"SmallYeti","n":"Snugloo","d":133,"e":["Ice"],"w":[0,0,0,0,2,0,0,3,0,3,2,0],"img":"T_SmallYeti_icon_normal.webp"},{"id":"Yeti","n":"Wumpo","d":134,"e":["Ice"],"w":[0,0,0,0,3,0,5,0,0,5,6,0],"img":"T_Yeti_icon_normal.webp"},{"id":"Yeti_Grass","n":"Wumpo Botan","d":134,"e":["Grass"],"w":[0,0,3,0,3,0,5,0,0,0,6,0],"img":"T_Yeti_Grass_icon_normal.webp"},{"id":"CandleGhost","n":"Sootseer","d":135,"e":["Dark","Fire"],"w":[3,0,0,0,3,2,0,3,0,0,0,2],"img":"T_CandleGhost_icon_normal.webp"},{"id":"VenusFlytrap","n":"Carnibora","d":136,"e":["Grass"],"w":[0,0,6,0,4,4,0,0,0,0,2,0],"img":"T_VenusFlytrap_icon_normal.webp"},{"id":"KingBahamut","n":"Blazamut","d":137,"e":["Fire"],"w":[6,0,0,0,0,0,0,7,0,0,0,0],"img":"T_KingBahamut_icon_normal.webp"},{"id":"KingBahamut_Dragon","n":"Blazamut Ryu","d":137,"e":["Dragon","Fire"],"w":[6,0,0,0,0,0,0,7,0,0,0,0],"img":"T_KingBahamut_Dragon_icon_normal.webp"},{"id":"GrassGolem","n":"Dualith","d":138,"e":["Ground","Grass"],"w":[0,0,3,0,0,3,5,6,0,0,6,0],"img":"T_GrassGolem_icon_normal.webp"},{"id":"GrassGolem_Dark","n":"Dualith Noct","d":138,"e":["Ground","Dark"],"w":[0,0,3,0,0,3,5,6,0,0,6,0],"img":"T_GrassGolem_Dark_icon_normal.webp"},{"id":"Anubis","n":"Anubis","d":139,"e":["Ground"],"w":[0,0,0,0,6,0,0,6,0,0,4,0],"img":"T_Anubis_icon_normal.webp"},{"id":"Sekhmet","n":"Sekhmet","d":140,"e":["Ground"],"w":[0,0,0,0,6,0,0,3,0,0,2,0],"img":"T_Sekhmet_icon_normal.webp"},{"id":"ScorpionMan","n":"Prixter","d":141,"e":["Dark","Ground"],"w":[0,0,0,0,0,2,4,0,2,0,0,0],"img":"T_ScorpionMan_icon_normal.webp"},{"id":"ScorpionMan_Electric","n":"Prixter Lux","d":141,"e":["Electric","Ground"],"w":[0,0,0,3,0,2,4,0,2,0,0,0],"img":"T_ScorpionMan_Electric_icon_normal.webp"},{"id":"CubeTurtle","n":"Tetroise","d":142,"e":["Ground"],"w":[0,0,0,0,0,0,0,4,0,0,0,0],"img":"T_CubeTurtle_icon_normal.webp"},{"id":"CubeTurtle_Neutral","n":"Tetroise Primo","d":142,"e":["Neutral"],"w":[0,0,0,0,0,0,0,6,0,0,0,0],"img":"T_CubeTurtle_Neutral_icon_normal.webp"},{"id":"BadCatgirl","n":"Nyafia","d":143,"e":["Dark"],"w":[0,0,0,0,4,4,2,0,0,0,3,0],"img":"T_BadCatgirl_icon_normal.webp"},{"id":"MimicDog","n":"Mimog","d":144,"e":["Neutral"],"w":[0,0,0,0,0,1,0,0,0,0,2,0],"img":"T_MimicDog_icon_normal.webp"},{"id":"DarkAlien","n":"Xenovader","d":145,"e":["Dark"],"w":[0,0,0,0,0,0,3,0,0,0,2,0],"img":"T_DarkAlien_icon_normal.webp"},{"id":"WhiteAlienDragon","n":"Xenogard","d":146,"e":["Dragon"],"w":[0,0,0,0,0,0,0,4,0,0,0,0],"img":"T_WhiteAlienDragon_icon_normal.webp"},{"id":"BlueberryFairy","n":"Prunelia","d":147,"e":["Grass","Dark"],"w":[0,0,3,0,1,2,0,0,3,0,1,0],"img":"T_BlueberryFairy_icon_normal.webp"},{"id":"GhostRabbit","n":"Nitemary","d":148,"e":["Dark"],"w":[0,0,0,0,4,0,0,0,0,0,2,0],"img":"T_GhostRabbit_icon_normal.webp"},{"id":"GhostRabbit_Grass","n":"Nitemary Botan","d":148,"e":["Grass"],"w":[0,0,3,0,4,0,0,0,0,0,2,0],"img":"T_GhostRabbit_Grass_icon_normal.webp"},{"id":"BlackPuppy","n":"Smokie","d":149,"e":["Dark"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_BlackPuppy_icon_normal.webp"},{"id":"BlackPuppy_Ice","n":"Smokie Cryst","d":149,"e":["Dark","Ice"],"w":[0,0,0,0,0,2,0,0,0,2,0,0],"img":"T_BlackPuppy_Ice_icon_normal.webp"},{"id":"MysteryMask","n":"Omascul","d":150,"e":["Dark"],"w":[0,0,0,0,0,5,0,0,0,0,0,0],"img":"T_MysteryMask_icon_normal.webp"},{"id":"IceNarwhal","n":"Whalaska","d":151,"e":["Ice","Water"],"w":[0,5,0,0,0,0,0,0,0,6,0,0],"img":"T_IceNarwhal_icon_normal.webp"},{"id":"IceNarwhal_Fire","n":"Whalaska Ignis","d":151,"e":["Ice","Fire"],"w":[5,0,0,0,0,0,0,0,0,6,0,0],"img":"T_IceNarwhal_Fire_icon_normal.webp"},{"id":"GrassRabbitMan","n":"Verdash","d":152,"e":["Grass"],"w":[0,0,4,0,5,5,3,0,0,0,3,0],"img":"T_GrassRabbitMan_icon_normal.webp"},{"id":"GrimGirl","n":"Splatterina","d":153,"e":["Dark"],"w":[0,0,0,0,6,0,3,0,5,0,2,0],"img":"T_GrimGirl_icon_normal.webp"},{"id":"GoldenHorse","n":"Gildane","d":154,"e":["Ground"],"w":[0,0,0,0,0,5,0,0,0,0,0,0],"img":"T_GoldenHorse_icon_normal.webp"},{"id":"SifuDog","n":"Dogen","d":155,"e":["Neutral"],"w":[0,0,0,0,4,3,3,0,2,0,3,0],"img":"T_SifuDog_icon_normal.webp"},{"id":"SumoDog","n":"Bulldosu","d":156,"e":["Ground"],"w":[0,0,0,0,0,0,0,4,0,0,3,0],"img":"T_SumoDog_icon_normal.webp"},{"id":"WhiteDeer","n":"Celesdir","d":157,"e":["Neutral"],"w":[0,0,0,0,0,4,7,0,0,0,0,0],"img":"T_WhiteDeer_icon_normal.webp"},{"id":"WhiteDeer_Dark","n":"Celesdir Noct","d":157,"e":["Dark"],"w":[0,0,0,0,0,4,8,0,0,0,0,0],"img":"T_WhiteDeer_Dark_icon_normal.webp"},{"id":"BlackMetalDragon","n":"Astegon","d":158,"e":["Dragon","Dark"],"w":[0,0,0,0,3,0,0,7,0,0,0,0],"img":"T_BlackMetalDragon_icon_normal.webp"},{"id":"WingGolem","n":"Knocklem","d":159,"e":["Ground"],"w":[0,0,0,0,0,4,0,7,0,0,7,0],"img":"T_WingGolem_icon_normal.webp"},{"id":"WingGolem_Fire","n":"Knocklem Ignis","d":159,"e":["Fire"],"w":[5,0,0,0,0,0,0,7,0,0,7,0],"img":"T_WingGolem_Fire_icon_normal.webp"},{"id":"WhiteShieldDragon","n":"Silvegis","d":160,"e":["Dragon"],"w":[0,0,0,0,0,0,6,0,0,0,0,0],"img":"T_WhiteShieldDragon_icon_normal.webp"},{"id":"BlueThunderHorse","n":"Azurmane","d":161,"e":["Electric"],"w":[0,0,0,5,0,0,0,0,0,0,0,0],"img":"T_BlueThunderHorse_icon_normal.webp"},{"id":"LongCat","n":"Valentail","d":162,"e":["Neutral"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_LongCat_icon_normal.webp"},{"id":"ElecSnail","n":"Snock","d":163,"e":["Electric"],"w":[0,0,0,4,0,0,0,0,0,0,0,0],"img":"T_ElecSnail_icon_normal.webp"},{"id":"ElecSnail_Ground","n":"Snock Lux","d":163,"e":["Electric","Ground"],"w":[0,0,0,4,0,0,0,0,0,0,0,0],"img":"T_ElecSnail_Ground_icon_normal.webp"},{"id":"DandelionGirl","n":"Souffline","d":164,"e":["Grass"],"w":[0,0,2,0,0,0,0,0,0,0,2,0],"img":"T_DandelionGirl_icon_normal.webp"},{"id":"BrownRabbit","n":"Lapiron","d":165,"e":["Ground"],"w":[0,0,0,0,3,4,0,2,0,0,1,0],"img":"T_BrownRabbit_icon_normal.webp"},{"id":"HoodGhost","n":"Hoodle","d":166,"e":["Dark"],"w":[0,0,0,0,1,0,0,0,0,0,1,0],"img":"T_HoodGhost_icon_normal.webp"},{"id":"ElecLizard","n":"Slowatt","d":167,"e":["Electric"],"w":[0,0,0,3,0,0,0,0,0,0,0,0],"img":"T_ElecLizard_icon_normal.webp"},{"id":"OniGhostGirl","n":"Bakemi","d":168,"e":["Dark"],"w":[0,0,0,0,3,0,0,0,4,0,2,0],"img":"T_OniGhostGirl_icon_normal.webp"},{"id":"KingSunfish","n":"Solmora","d":169,"e":["Water"],"w":[0,4,0,0,0,0,0,0,0,0,0,0],"img":"T_KingSunfish_icon_normal.webp"},{"id":"KingSunfish_Thunder","n":"Solmora Lux","d":169,"e":["Water","Electric"],"w":[0,4,0,6,0,0,0,0,0,0,0,0],"img":"T_KingSunfish_Thunder_icon_normal.webp"},{"id":"SleeveRabbit","n":"Lapure","d":170,"e":["Neutral"],"w":[0,0,0,0,6,5,0,0,0,0,0,0],"img":"T_SleeveRabbit_icon_normal.webp"},{"id":"GhostDragon","n":"Eidrolon","d":171,"e":["Dragon","Dark"],"w":[0,0,0,0,0,0,0,0,0,0,6,0],"img":"T_GhostDragon_icon_normal.webp"},{"id":"GhostDragon_Fire","n":"Eidrolon Ignis","d":171,"e":["Dragon","Fire"],"w":[6,0,0,0,0,0,0,0,0,0,6,0],"img":"T_GhostDragon_Fire_icon_normal.webp"},{"id":"ThunderFluffyBird","n":"Dynamoff","d":172,"e":["Electric"],"w":[0,0,0,6,0,3,0,0,0,0,3,0],"img":"T_ThunderFluffyBird_icon_normal.webp"},{"id":"RedFlowerBird","n":"Tropicaw","d":173,"e":["Grass"],"w":[0,0,5,0,0,5,0,0,0,0,0,0],"img":"T_RedFlowerBird_icon_normal.webp"},{"id":"FoxExorcist","n":"Flaracle","d":174,"e":["Fire"],"w":[7,0,0,0,6,0,0,0,0,0,2,0],"img":"T_FoxExorcist_icon_normal.webp"},{"id":"LotusDragon","n":"Ophydia","d":175,"e":["Grass","Water"],"w":[0,5,7,0,0,0,0,0,0,0,0,0],"img":"T_LotusDragon_icon_normal.webp"},{"id":"ClownRabbit","n":"Dupin","d":176,"e":["Fire"],"w":[7,0,0,0,5,0,0,0,4,0,2,0],"img":"T_ClownRabbit_icon_normal.webp"},{"id":"ThiefBird","n":"Roujay","d":177,"e":["Dark"],"w":[0,0,0,0,0,5,0,0,0,0,5,0],"img":"T_ThiefBird_icon_normal.webp"},{"id":"SnakeGirl","n":"Venusa","d":178,"e":["Dark"],"w":[0,0,0,0,6,6,0,0,5,0,2,0],"img":"T_SnakeGirl_icon_normal.webp"},{"id":"MushroomLady","n":"Mycora","d":179,"e":["Grass"],"w":[0,0,6,0,4,4,0,0,6,0,0,0],"img":"T_MushroomLady_icon_normal.webp"},{"id":"LanternButler","n":"Loomen","d":180,"e":["Dark","Fire"],"w":[4,0,0,0,4,0,0,0,4,0,0,0],"img":"T_LanternButler_icon_normal.webp"},{"id":"MoonChild","n":"Wistella","d":181,"e":["Dark"],"w":[0,0,0,0,6,0,0,0,6,0,1,0],"img":"T_MoonChild_icon_normal.webp"},{"id":"MonochromeQueen","n":"Solenne","d":182,"e":["Dark","Neutral"],"w":[0,0,0,0,8,4,0,0,0,0,2,0],"img":"T_MonochromeQueen_icon_normal.webp"},{"id":"KabukiMan","n":"Renjishi","d":183,"e":["Fire"],"w":[8,0,0,0,6,5,0,0,0,0,5,0],"img":"T_KabukiMan_icon_normal.webp"},{"id":"DomeArmorDragon","n":"Aegidron","d":184,"e":["Dragon","Ground"],"w":[0,0,0,0,0,0,0,8,0,0,0,0],"img":"T_DomeArmorDragon_icon_normal.webp"},{"id":"ElecPanda","n":"Grizzbolt","d":185,"e":["Electric"],"w":[0,0,0,5,4,0,3,0,0,0,5,0],"img":"T_ElecPanda_icon_normal.webp"},{"id":"LilyQueen","n":"Lyleen","d":186,"e":["Grass"],"w":[0,0,7,0,5,6,0,0,5,0,0,0],"img":"T_LilyQueen_icon_normal.webp"},{"id":"LilyQueen_Dark","n":"Lyleen Noct","d":186,"e":["Dark"],"w":[0,0,0,0,5,6,0,0,7,0,0,0],"img":"T_LilyQueen_Dark_icon_normal.webp"},{"id":"ThunderDragonMan","n":"Orserk","d":187,"e":["Dragon","Electric"],"w":[0,0,0,8,3,0,0,0,0,0,4,0],"img":"T_ThunderDragonMan_icon_normal.webp"},{"id":"Horus","n":"Faleris","d":188,"e":["Fire"],"w":[6,0,0,0,0,0,0,0,0,0,3,0],"img":"T_Horus_icon_normal.webp"},{"id":"Horus_Water","n":"Faleris Aqua","d":188,"e":["Water"],"w":[0,6,0,0,0,0,0,0,0,0,5,0],"img":"T_Horus_Water_icon_normal.webp"},{"id":"BlackGriffon","n":"Shadowbeak","d":189,"e":["Dark"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_BlackGriffon_icon_normal.webp"},{"id":"MoonQueen","n":"Selyne","d":190,"e":["Dark","Neutral"],"w":[0,0,0,0,7,0,0,0,6,0,3,0],"img":"T_MoonQueen_icon_normal.webp"},{"id":"SnowTigerBeastman","n":"Bastigor","d":191,"e":["Ice"],"w":[0,0,0,0,0,0,6,5,0,8,0,0],"img":"T_SnowTigerBeastman_icon_normal.webp"},{"id":"BlueSkyDragon","n":"Shaolong","d":192,"e":["Dragon","Water"],"w":[0,8,0,0,0,5,0,0,0,0,0,0],"img":"T_BlueSkyDragon_icon_normal.webp"},{"id":"Mothman","n":"Silvance","d":193,"e":["Grass"],"w":[0,0,6,0,6,4,0,0,8,0,2,0],"img":"T_Mothman_icon_normal.webp"},{"id":"FlowerPrince","n":"Dandilord","d":194,"e":["Grass","Dark"],"w":[0,0,8,0,6,5,0,0,6,0,3,0],"img":"T_FlowerPrince_icon_normal.webp"},{"id":"NightLady","n":"Bellanoir","d":195,"e":["Dark"],"w":[0,0,0,0,5,0,0,0,5,0,4,0],"img":"T_NightLady_icon_normal.webp"},{"id":"NightLady_Dark","n":"Bellanoir Libero","d":195,"e":["Dark"],"w":[0,0,0,0,6,0,0,0,7,0,4,0],"img":"T_NightLady_Dark_icon_normal.webp"},{"id":"DarkMechaDragon","n":"Xenolord","d":196,"e":["Dark","Dragon"],"w":[0,0,0,0,0,2,0,0,0,0,0,0],"img":"T_DarkMechaDragon_icon_normal.webp"},{"id":"LegendDeer","n":"Hartalis","d":197,"e":["Neutral"],"w":[0,0,0,0,0,7,7,0,0,0,0,0],"img":"T_LegendDeer_icon_normal.webp"},{"id":"SaintCentaur","n":"Paladius","d":198,"e":["Neutral"],"w":[0,0,0,0,0,0,6,6,0,0,0,0],"img":"T_SaintCentaur_icon_normal.webp"},{"id":"BlackCentaur","n":"Necromus","d":199,"e":["Dark"],"w":[0,0,0,0,0,0,6,6,0,0,0,0],"img":"T_BlackCentaur_icon_normal.webp"},{"id":"IceHorse","n":"Frostallion","d":200,"e":["Ice"],"w":[0,0,0,0,0,0,0,0,0,7,0,0],"img":"T_IceHorse_icon_normal.webp"},{"id":"IceHorse_Dark","n":"Frostallion Noct","d":200,"e":["Dark"],"w":[0,0,0,0,0,7,0,0,0,0,0,0],"img":"T_IceHorse_Dark_icon_normal.webp"},{"id":"PoseidonOrca","n":"Neptilius","d":201,"e":["Water"],"w":[0,7,0,0,0,0,0,0,0,0,0,0],"img":"T_PoseidonOrca_icon_normal.webp"},{"id":"JetDragon","n":"Jetragon","d":202,"e":["Dragon"],"w":[0,0,0,0,0,8,0,0,0,0,0,0],"img":"T_JetDragon_icon_normal.webp"},{"id":"KingWhale","n":"Panthalus","d":203,"e":["Water"],"w":[0,0,0,0,0,0,0,0,0,0,0,0],"img":"T_KingWhale_icon_normal.webp"},{"id":"WorldTreeDragon","n":"Astralym","d":204,"e":[],"w":[0,0,0,0,0,0,0,0,0,0,0,0],"img":"T_WorldTreeDragon_icon_normal.webp"}]};
+
+const ELEMENTS = ['Neutral','Fire','Water','Grass','Electric','Ice','Ground','Dark','Dragon'];
+const WORK = DATA.work;
+const PALS = DATA.pals;
+
+const state = {
+  search: '',
+  elements: new Set(),
+  sortKey: 'd',
+  sortDir: 'asc',
+};
+
+function lvlClass(n) {
+  if (n >= 5) return 'lvl-5';
+  return 'lvl-' + Math.min(n, 4);
+}
+
+function buildChrome() {
+  const elemBox = document.getElementById('elemFilters');
+  elemBox.innerHTML = ELEMENTS.map(e =>
+    '<button type="button" class="chip" data-elem="' + e + '"><span class="elem elem-' + e + '">' + e + '</span></button>'
+  ).join('');
+
+  const qs = document.getElementById('quickSort');
+  WORK.forEach((w, i) => {
+    const o1 = document.createElement('option');
+    o1.value = 'w' + i + ':desc';
+    o1.textContent = w + ' high → low';
+    qs.appendChild(o1);
+    const o2 = document.createElement('option');
+    o2.value = 'w' + i + ':asc';
+    o2.textContent = w + ' low → high';
+    qs.appendChild(o2);
+  });
+
+  document.getElementById('totalCount').textContent = PALS.length;
+  renderHead();
+}
+
+function renderHead() {
+  const cols = [
+    { key: 'd', label: '#', cls: 'sticky-left w-14 text-center' },
+    { key: 'n', label: 'Name', cls: 'sticky-name text-left min-w-[12rem]' },
+    { key: 'e', label: 'Element', cls: 'text-left min-w-[7rem]' },
+    ...WORK.map((w, i) => ({ key: 'w' + i, label: w, cls: 'col-work text-center' })),
+  ];
+
+  document.getElementById('theadRow').innerHTML = cols.map(c => {
+    const active = state.sortKey === c.key ? 'active' : '';
+    const arrow = state.sortKey === c.key
+      ? (state.sortDir === 'asc' ? ' ▲' : ' ▼')
+      : '';
+    const wrap = c.key.startsWith('w') ? 'whitespace-normal leading-tight' : 'whitespace-nowrap';
+    return '<th class="sortable ' + active + ' ' + c.cls +
+      ' px-1.5 py-2.5 text-[11px] font-semibold uppercase tracking-wide text-pal-muted ' + wrap + '" data-sort="' +
+      c.key + '" title="' + c.label + '">' + c.label +
+      (arrow ? '<span class="sort-ind">' + arrow.trim() + '</span>' : '') + '</th>';
+  }).join('');
+}
+
+function getSortValue(pal, key) {
+  if (key === 'd') return pal.d;
+  if (key === 'n') return pal.n.toLowerCase();
+  if (key === 'e') return (pal.e[0] || '').toLowerCase();
+  if (key.startsWith('w')) {
+    const i = +key.slice(1);
+    return pal.w[i] || 0;
+  }
+  return 0;
+}
+
+function filteredSorted() {
+  const q = state.search.trim().toLowerCase();
+  let list = PALS.filter(p => {
+    if (q) {
+      const hay = p.n.toLowerCase() + ' ' + p.d + ' #' + p.d;
+      if (!hay.includes(q)) return false;
+    }
+    if (state.elements.size) {
+      if (!p.e.some(e => state.elements.has(e))) return false;
+    }
+    return true;
+  });
+
+  const dir = state.sortDir === 'asc' ? 1 : -1;
+  const key = state.sortKey;
+  const isWork = key.startsWith('w');
+
+  list.sort((a, b) => {
+    let av = getSortValue(a, key);
+    let bv = getSortValue(b, key);
+    if (isWork && state.sortDir === 'desc') {
+      if (av === 0 && bv !== 0) return 1;
+      if (bv === 0 && av !== 0) return -1;
+    }
+    if (typeof av === 'string') {
+      const cmp = av.localeCompare(bv);
+      if (cmp !== 0) return cmp * dir;
+    } else if (av !== bv) {
+      return (av - bv) * dir;
+    }
+    return a.d - b.d || a.n.localeCompare(b.n);
+  });
+
+  return list;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function renderTable() {
+  const list = filteredSorted();
+  document.getElementById('resultCount').textContent = list.length;
+
+  const sortName = state.sortKey === 'd' ? '#'
+    : state.sortKey === 'n' ? 'Name'
+    : state.sortKey === 'e' ? 'Element'
+    : WORK[+state.sortKey.slice(1)];
+  document.getElementById('sortLabel').textContent =
+    '· sorted by ' + sortName + ' ' + (state.sortDir === 'asc' ? '↑' : '↓');
+
+  const tbody = document.getElementById('tbody');
+  const rows = list.map(p => {
+    const elems = p.e.map(e =>
+      '<span class="elem elem-' + e + '">' + e + '</span>'
+    ).join(' ');
+    const works = p.w.map(lv => {
+      if (!lv) {
+        return '<td class="px-1 py-1.5 text-center lvl-0"></td>';
+      }
+      return '<td class="px-1 py-1.5 text-center font-mono ' + lvlClass(lv) + '">' + lv + '</td>';
+    }).join('');
+    const img = p.img
+      ? '<img class="pal-icon" src="icons/' + escapeHtml(p.img) + '" alt="" loading="lazy" width="36" height="36" />'
+      : '<div class="pal-icon" aria-hidden="true"></div>';
+    const paldbUrl = 'https://paldb.cc/en/' + encodeURIComponent(p.n.replace(/ /g, '_'));
+    const nameLink = '<a class="pal-name-link" href="' + paldbUrl + '" target="_blank" rel="noopener noreferrer">' +
+      escapeHtml(p.n) + '</a>';
+    return '<tr class="border-t border-pal-border/40">' +
+      '<td class="sticky-left px-2 py-1.5 text-center text-pal-muted font-mono text-xs">' + p.d + '</td>' +
+      '<td class="sticky-name px-2 py-1.5 font-semibold whitespace-nowrap">' +
+        '<div class="pal-name-cell">' + img + nameLink + '</div>' +
+      '</td>' +
+      '<td class="px-2 py-1.5 whitespace-nowrap">' + elems + '</td>' +
+      works +
+    '</tr>';
+  }).join('');
+  tbody.innerHTML = rows ||
+    '<tr><td colspan="15" class="px-4 py-10 text-center text-pal-muted">No pals match your filters.</td></tr>';
+  renderHead();
+  syncQuickSort();
+}
+
+function syncQuickSort() {
+  const qs = document.getElementById('quickSort');
+  const val = state.sortKey + ':' + state.sortDir;
+  if ([...qs.options].some(o => o.value === val)) qs.value = val;
+}
+
+function setSort(key) {
+  if (state.sortKey === key) {
+    state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    state.sortKey = key;
+    state.sortDir = key.startsWith('w') ? 'desc' : 'asc';
+  }
+  renderTable();
+}
+
+function bind() {
+  document.getElementById('search').addEventListener('input', e => {
+    state.search = e.target.value;
+    renderTable();
+  });
+
+  document.getElementById('elemFilters').addEventListener('click', e => {
+    const btn = e.target.closest('[data-elem]');
+    if (!btn) return;
+    const el = btn.dataset.elem;
+    if (state.elements.has(el)) state.elements.delete(el);
+    else state.elements.add(el);
+    btn.classList.toggle('active', state.elements.has(el));
+    renderTable();
+  });
+
+  document.getElementById('quickSort').addEventListener('change', e => {
+    const [key, dir] = e.target.value.split(':');
+    state.sortKey = key;
+    state.sortDir = dir;
+    renderTable();
+  });
+
+  document.getElementById('table').addEventListener('click', e => {
+    const th = e.target.closest('th[data-sort]');
+    if (!th) return;
+    setSort(th.dataset.sort);
+  });
+
+  document.getElementById('resetFilters').addEventListener('click', () => {
+    state.search = '';
+    state.elements = new Set();
+    state.sortKey = 'd';
+    state.sortDir = 'asc';
+    document.getElementById('search').value = '';
+    document.querySelectorAll('#elemFilters .chip').forEach(c => c.classList.remove('active'));
+    renderTable();
+  });
+}
+
+buildChrome();
+bind();
+renderTable();
+</script>
+
+</body>
+</html>

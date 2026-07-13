@@ -9,7 +9,8 @@ const WORK = data.work;
 const PALS = data.pals;
 
 const NAV = [
-  { id: "pals", href: "index.html", label: "Pals" },
+  { id: "home", href: "index.html", label: "Home" },
+  { id: "pals", href: "pals.html", label: "Pals" },
   { id: "partner-skills", href: "partner-skills.html", label: "Partner Skills" },
   { id: "partner-verify", href: "partner-verify.html", label: "Verify" },
   { id: "base-tips", href: "base-tips.html", label: "Base Tips" },
@@ -265,6 +266,43 @@ function sharedStyles() {
   .conflict-card {
     border: 1px solid #2a3a55; border-radius: 12px; background: #121a2b; padding: 0.85rem 1rem;
   }
+  .tool-card {
+    display: flex; flex-direction: column; gap: 0.75rem;
+    border: 1px solid #2a3a55; border-radius: 16px; background: #121a2b;
+    padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    min-height: 100%;
+  }
+  .tool-card:hover {
+    border-color: rgba(94, 234, 212, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  }
+  .tool-card .tool-icon {
+    width: 2.5rem; height: 2.5rem; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 1rem; color: #0b1220;
+  }
+  .tool-card .tool-title {
+    font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em;
+  }
+  .tool-card .tool-desc {
+    font-size: 0.875rem; color: #8b9bb8; line-height: 1.45; flex: 1;
+  }
+  .tool-card .tool-meta {
+    display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.15rem;
+  }
+  .tool-card .tool-cta {
+    font-size: 0.8rem; font-weight: 700; color: #5eead4;
+  }
+  .home-hero {
+    border: 1px solid #2a3a55; border-radius: 20px;
+    background:
+      radial-gradient(700px 280px at 0% 0%, rgba(94, 234, 212, 0.12), transparent 55%),
+      radial-gradient(600px 240px at 100% 20%, rgba(56, 189, 248, 0.1), transparent 50%),
+      #121a2b;
+    padding: 1.5rem 1.4rem;
+  }
 `;
 }
 
@@ -476,7 +514,7 @@ function buildBaseTipsPage() {
 
       <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
         <h3 class="font-semibold">Coverage by work type</h3>
-        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-accent2 hover:underline" href="index.html">Pals spreadsheet</a>.</p>
+        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-accent2 hover:underline" href="pals.html">Pals spreadsheet</a>.</p>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
           ${coverageGrid()}
         </div>
@@ -1513,16 +1551,169 @@ showSection('checklist');
   });
 }
 
-const indexHtml = buildPalsPage();
+function buildHomePage() {
+  const checkStats = partnerChecklist.stats || {};
+  const pending = checkStats.pending ?? "—";
+  const verified = checkStats.verified ?? 0;
+  const skillCount = (partnerResolved.skills || []).length;
+  const palCount = PALS.length;
+  const nameConflicts = partnerDiff.summary?.nameConflictPalCount
+    ?? (partnerDiff.nameConflicts || []).length;
+  const severe = partnerDiff.summary?.severeDescriptionMismatchCount
+    ?? (partnerDiff.severeDescriptionMismatches || []).length;
+
+  const tools = [
+    {
+      href: "pals.html",
+      title: "Pals spreadsheet",
+      desc: "Sortable work-suitability table for every pal — filter by element, sort work columns high → low, open paldb pages.",
+      meta: [palCount + " pals", "12 work types"],
+      icon: "W",
+      iconBg: "linear-gradient(135deg,#5eead4,#38bdf8)",
+      cta: "Open spreadsheet",
+    },
+    {
+      href: "partner-skills.html",
+      title: "Partner skills",
+      desc: "Our merged partner-skill catalog from local scrapes (paldb, game8, wiki.gg) plus in-game corrections. Compare source wording.",
+      meta: [skillCount + " skills", "multi-source"],
+      icon: "P",
+      iconBg: "linear-gradient(135deg,#34d399,#5eead4)",
+      cta: "Browse catalog",
+    },
+    {
+      href: "partner-verify.html",
+      title: "Verify (Palpedia)",
+      desc: "Screenshot checklist and website conflicts. Track pending pals, name mismatches, and severe description diffs while you verify in-game.",
+      meta: [pending + " pending", nameConflicts + " name conflicts", severe + " severe diffs"],
+      icon: "V",
+      iconBg: "linear-gradient(135deg,#fbbf24,#f472b6)",
+      cta: "Work the checklist",
+    },
+    {
+      href: "base-tips.html",
+      title: "Base tips",
+      desc: "Work suitability +1 partner skills for base pals — clear “other base pals” boosts, coverage by work type, and ambiguous cases.",
+      meta: [BASE_WORK_BOOSTERS.length + " clear boosters", AMBIGUOUS_BOOSTERS.length + " ambiguous"],
+      icon: "B",
+      iconBg: "linear-gradient(135deg,#38bdf8,#a78bfa)",
+      cta: "View base tips",
+    },
+  ];
+
+  const toolCards = tools
+    .map((t) => {
+      const meta = (t.meta || [])
+        .map(
+          (m) =>
+            '<span class="src-badge src-paldb">' + escapeHtml(m) + "</span>"
+        )
+        .join("");
+      return (
+        '<a class="tool-card" href="' +
+        escapeHtml(t.href) +
+        '">' +
+        '<div class="tool-icon" style="background:' +
+        t.iconBg +
+        '">' +
+        escapeHtml(t.icon) +
+        "</div>" +
+        '<div class="tool-title">' +
+        escapeHtml(t.title) +
+        "</div>" +
+        '<p class="tool-desc">' +
+        escapeHtml(t.desc) +
+        "</p>" +
+        '<div class="tool-meta">' +
+        meta +
+        "</div>" +
+        '<div class="tool-cta">' +
+        escapeHtml(t.cta) +
+        " →</div>" +
+        "</a>"
+      );
+    })
+    .join("\n");
+
+  const body = `
+    <main class="flex-1 w-full mx-auto px-4 md:px-6 py-6 md:py-10 max-w-6xl flex flex-col gap-6">
+      <section class="home-hero space-y-4">
+        <div class="flex flex-wrap items-start justify-between gap-4">
+          <div class="min-w-0 max-w-2xl">
+            <p class="text-xs font-semibold uppercase tracking-[0.14em] text-pal-accent mb-2">Palworld tools</p>
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Pick a tool</h2>
+            <p class="text-sm md:text-base text-pal-muted mt-2 leading-relaxed">
+              Palhead is a small static toolkit for base work, partner skills, and cleaning up out-of-date wiki data against the live game.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-2 min-w-[12rem]">
+            <div class="stat-card">
+              <div class="n text-pal-accent">${palCount}</div>
+              <div class="text-xs text-pal-muted mt-1">Pals</div>
+            </div>
+            <div class="stat-card">
+              <div class="n text-pal-accent2">${skillCount}</div>
+              <div class="text-xs text-pal-muted mt-1">Partner skills</div>
+            </div>
+            <div class="stat-card">
+              <div class="n text-pal-gold">${pending}</div>
+              <div class="text-xs text-pal-muted mt-1">Verify pending</div>
+            </div>
+            <div class="stat-card">
+              <div class="n text-pal-text">${verified}</div>
+              <div class="text-xs text-pal-muted mt-1">Verified</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex items-end justify-between gap-3 mb-3">
+          <h3 class="text-sm font-semibold uppercase tracking-wide text-pal-muted">Tools</h3>
+          <p class="text-xs text-pal-muted">Also available in the top nav</p>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-3 md:gap-4">
+          ${toolCards}
+        </div>
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-2xl p-4 md:p-5 space-y-3">
+        <h3 class="font-semibold">Partner skill verification</h3>
+        <p class="text-sm text-pal-muted leading-relaxed">
+          Community sites disagree on skill names and descriptions in different places.
+          Use <a class="text-pal-accent2 hover:underline" href="partner-verify.html">Verify</a> to work a Palpedia screenshot checklist,
+          then read the merged result on <a class="text-pal-accent2 hover:underline" href="partner-skills.html">Partner Skills</a>.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <a href="partner-verify.html" class="px-3 py-2 text-sm rounded-lg bg-pal-accent text-pal-bg font-semibold hover:opacity-90 transition">Start checklist</a>
+          <a href="partner-skills.html" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Open catalog</a>
+          <a href="pals.html" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Work suitability</a>
+        </div>
+      </section>
+    </main>
+  `;
+
+  return shell({
+    title: "Palhead — Palworld tools",
+    subtitle: "Work suitability · partner skills · verification",
+    activeNav: "home",
+    body,
+  });
+}
+
+const homeHtml = buildHomePage();
+const palsHtml = buildPalsPage();
 const baseTipsHtml = buildBaseTipsPage();
 const partnerSkillsHtml = buildPartnerSkillsPage();
 const partnerVerifyHtml = buildPartnerVerifyPage();
 
-fs.writeFileSync("index.html", indexHtml);
+fs.writeFileSync("index.html", homeHtml);
+fs.writeFileSync("pals.html", palsHtml);
 fs.writeFileSync("base-tips.html", baseTipsHtml);
 fs.writeFileSync("partner-skills.html", partnerSkillsHtml);
 fs.writeFileSync("partner-verify.html", partnerVerifyHtml);
 console.log("wrote index.html", fs.statSync("index.html").size, "bytes");
+console.log("wrote pals.html", fs.statSync("pals.html").size, "bytes");
 console.log("wrote base-tips.html", fs.statSync("base-tips.html").size, "bytes");
 console.log("wrote partner-skills.html", fs.statSync("partner-skills.html").size, "bytes");
 console.log("wrote partner-verify.html", fs.statSync("partner-verify.html").size, "bytes");

@@ -169,6 +169,43 @@ tailwind.config = {
   .conflict-card {
     border: 1px solid #2a3a55; border-radius: 12px; background: #121a2b; padding: 0.85rem 1rem;
   }
+  .tool-card {
+    display: flex; flex-direction: column; gap: 0.75rem;
+    border: 1px solid #2a3a55; border-radius: 16px; background: #121a2b;
+    padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    min-height: 100%;
+  }
+  .tool-card:hover {
+    border-color: rgba(94, 234, 212, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  }
+  .tool-card .tool-icon {
+    width: 2.5rem; height: 2.5rem; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 1rem; color: #0b1220;
+  }
+  .tool-card .tool-title {
+    font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em;
+  }
+  .tool-card .tool-desc {
+    font-size: 0.875rem; color: #8b9bb8; line-height: 1.45; flex: 1;
+  }
+  .tool-card .tool-meta {
+    display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.15rem;
+  }
+  .tool-card .tool-cta {
+    font-size: 0.8rem; font-weight: 700; color: #5eead4;
+  }
+  .home-hero {
+    border: 1px solid #2a3a55; border-radius: 20px;
+    background:
+      radial-gradient(700px 280px at 0% 0%, rgba(94, 234, 212, 0.12), transparent 55%),
+      radial-gradient(600px 240px at 100% 20%, rgba(56, 189, 248, 0.1), transparent 50%),
+      #121a2b;
+    padding: 1.5rem 1.4rem;
+  }
 
 </style>
 
@@ -185,7 +222,8 @@ tailwind.config = {
           </div>
         </div>
         <nav class="flex items-center gap-2 text-sm">
-          <a href="index.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Pals</a>
+          <a href="index.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Home</a>
+          <a href="pals.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Pals</a>
           <a href="partner-skills.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Partner Skills</a>
           <a href="partner-verify.html" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">Verify</a>
           <a href="base-tips.html" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">Base Tips</a>

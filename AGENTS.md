@@ -12,7 +12,8 @@ Static site. No framework, no bundler for the app itself.
 | Path | Role |
 |------|------|
 | `build.js` | Source of truth for the UI. Embeds `pals_data.json` and writes all HTML pages. |
-| `index.html` | Generated pals spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
+| `index.html` | Generated home / tools hub. Do not hand-edit; change `build.js` and rebuild. |
+| `pals.html` | Generated pals work-suitability spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
 | `partner-skills.html` | Generated partner skills catalog (resolved scrapes + corrections). Do not hand-edit; change `build.js` and rebuild. |
 | `partner-verify.html` | Generated Palpedia checklist + site discrepancies. Do not hand-edit; change `build.js` and rebuild. |
 | `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
@@ -40,7 +41,7 @@ Zero work levels are shown as empty cells. Pal names link to `https://paldb.cc/e
 
 ```bash
 npm install
-npm run build            # rebuild index.html + dist/
+npm run build            # rebuild all HTML pages + dist/
 npm run download-icons   # re-fetch icons (needs network)
 npm run scrape-reference # re-fetch passives, work suitability, partner skills (needs network)
 npm run scrape-partner-skills # re-fetch all 4 partner-skill sources + resolved (needs network)
