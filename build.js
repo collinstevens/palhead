@@ -112,7 +112,7 @@ function renderNav(activeId) {
       return (
         '<a href="' +
         item.href +
-        '" class="px-3 py-1.5 rounded-lg bg-pal-accent/15 text-pal-accent font-semibold border border-pal-accent/30">' +
+        '" class="px-3 py-1.5 rounded-md bg-pal-panel2 text-pal-text font-medium border border-pal-border">' +
         escapeHtml(item.label) +
         "</a>"
       );
@@ -120,7 +120,7 @@ function renderNav(activeId) {
     return (
       '<a href="' +
       item.href +
-      '" class="px-3 py-1.5 rounded-lg text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">' +
+      '" class="px-3 py-1.5 rounded-md text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">' +
       escapeHtml(item.label) +
       "</a>"
     );
@@ -130,78 +130,76 @@ function renderNav(activeId) {
 function sharedStyles() {
   return `
   body {
-    background:
-      radial-gradient(1200px 600px at 10% -10%, #16304f 0%, transparent 55%),
-      radial-gradient(900px 500px at 100% 0%, #1a2a1f 0%, transparent 40%),
-      #0b1220;
+    background: #0a0a0b;
   }
   .table-wrap { max-height: calc(100vh - 220px); width: 100%; }
   #table { width: 100%; table-layout: auto; }
   th.sortable { cursor: pointer; user-select: none; }
-  th.sortable:hover { color: #5eead4; }
+  th.sortable:hover { color: #e4e4e7; }
   th.sortable .sort-ind { opacity: 0.35; font-size: 0.7em; margin-left: 2px; }
-  th.sortable.active .sort-ind { opacity: 1; color: #5eead4; }
-  tr:hover td { background: rgba(94, 234, 212, 0.05); }
-  .lvl-0 { color: #3a4a63; }
-  .lvl-1 { color: #94a3b8; }
-  .lvl-2 { color: #7dd3fc; }
-  .lvl-3 { color: #34d399; }
-  .lvl-4 { color: #fbbf24; font-weight: 700; }
-  .lvl-5, .lvl-6, .lvl-7, .lvl-8, .lvl-9, .lvl-10 { color: #f472b6; font-weight: 800; }
+  th.sortable.active .sort-ind { opacity: 1; color: #e4e4e7; }
+  tr:hover td { background: rgba(255, 255, 255, 0.03); }
+  .lvl-0 { color: #3f3f46; }
+  .lvl-1 { color: #71717a; }
+  .lvl-2 { color: #a1a1aa; }
+  .lvl-3 { color: #d4d4d8; }
+  .lvl-4 { color: #e4e4e7; font-weight: 600; }
+  .lvl-5, .lvl-6, .lvl-7, .lvl-8, .lvl-9, .lvl-10 { color: #fafafa; font-weight: 600; }
   .elem {
     display: inline-flex; align-items: center; justify-content: center;
-    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
-    padding: 2px 8px; border-radius: 999px; border: none;
+    font-size: 10px; font-weight: 600; letter-spacing: 0.02em;
+    padding: 2px 8px; border-radius: 4px; border: 1px solid transparent;
     line-height: 1.25;
   }
-  .elem-Neutral { background: #475569; color: #f1f5f9; }
-  .elem-Fire { background: #dc2626; color: #fff1f2; }
-  .elem-Water { background: #0284c7; color: #f0f9ff; }
-  .elem-Grass { background: #16a34a; color: #f0fdf4; }
-  .elem-Electric { background: #ca8a04; color: #fefce8; }
-  .elem-Ice { background: #0891b2; color: #ecfeff; }
-  .elem-Ground { background: #c2410c; color: #fff7ed; }
-  .elem-Dark { background: #7c3aed; color: #f5f3ff; }
-  .elem-Dragon { background: #6d28d9; color: #f5f3ff; }
+  .elem-Neutral { background: #27272a; color: #d4d4d8; border-color: #3f3f46; }
+  .elem-Fire { background: #2a1515; color: #c4a0a0; border-color: #4a2828; }
+  .elem-Water { background: #15202a; color: #a0b4c4; border-color: #283848; }
+  .elem-Grass { background: #152a18; color: #a0bca4; border-color: #284830; }
+  .elem-Electric { background: #2a2615; color: #c4bca0; border-color: #484028; }
+  .elem-Ice { background: #152628; color: #a0bcc0; border-color: #284048; }
+  .elem-Ground { background: #2a1c15; color: #c4b0a0; border-color: #483828; }
+  .elem-Dark { background: #1c1528; color: #b0a0c4; border-color: #382848; }
+  .elem-Dragon { background: #1a1528; color: #a8a0c4; border-color: #342848; }
   .chip {
     display: inline-flex; align-items: center;
     padding: 0; border: none; background: transparent; cursor: pointer;
-    border-radius: 999px; transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
-    opacity: 0.72;
+    border-radius: 4px; transition: opacity 0.12s ease;
+    opacity: 0.7;
   }
   .chip .elem { font-size: 11px; padding: 4px 10px; }
-  .chip:hover { opacity: 1; transform: translateY(-1px); }
+  .chip:hover { opacity: 1; }
   .chip.active {
     opacity: 1;
-    box-shadow: 0 0 0 2px #0b1220, 0 0 0 4px #5eead4;
+    outline: 1px solid #a1a1aa;
+    outline-offset: 2px;
   }
   #table thead th {
     position: sticky; top: 0; z-index: 10;
-    background: #182338; box-shadow: inset 0 -1px 0 #2a3a55;
+    background: #18181b; box-shadow: inset 0 -1px 0 #27272a;
   }
   #table thead th.sticky-left, #table tbody td.sticky-left {
     position: sticky; left: 0; z-index: 5;
-    background: #121a2b;
+    background: #121214;
   }
-  #table thead th.sticky-left { z-index: 15; background: #182338; }
+  #table thead th.sticky-left { z-index: 15; background: #18181b; }
   #table thead th.sticky-name, #table tbody td.sticky-name {
     position: sticky; left: 3.25rem; z-index: 5;
-    background: #121a2b;
+    background: #121214;
   }
-  #table thead th.sticky-name { z-index: 15; background: #182338; }
+  #table thead th.sticky-name { z-index: 15; background: #18181b; }
   #table tbody tr:hover td.sticky-left,
-  #table tbody tr:hover td.sticky-name { background: #162033; }
+  #table tbody tr:hover td.sticky-name { background: #1a1a1d; }
   .col-work { min-width: 0; }
   .pal-icon {
     width: 36px; height: 36px; object-fit: contain;
-    border-radius: 8px; background: #0b1220;
-    border: 1px solid #2a3a55; flex-shrink: 0;
+    border-radius: 6px; background: #0a0a0b;
+    border: 1px solid #27272a; flex-shrink: 0;
     image-rendering: auto;
   }
   .pal-icon-lg {
     width: 48px; height: 48px; object-fit: contain;
-    border-radius: 10px; background: #0b1220;
-    border: 1px solid #2a3a55; flex-shrink: 0;
+    border-radius: 6px; background: #0a0a0b;
+    border: 1px solid #27272a; flex-shrink: 0;
   }
   .pal-name-cell {
     display: flex; align-items: center; gap: 0.5rem;
@@ -210,97 +208,94 @@ function sharedStyles() {
     color: inherit; text-decoration: none;
   }
   .pal-name-link:hover {
-    color: #5eead4; text-decoration: underline;
+    color: #fafafa; text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .work-pill {
     display: inline-flex; align-items: center;
-    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
-    padding: 3px 10px; border-radius: 999px;
-    background: #1e3a4f; color: #7dd3fc; border: 1px solid #2a5a75;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.02em;
+    padding: 3px 10px; border-radius: 4px;
+    background: #18181b; color: #d4d4d8; border: 1px solid #27272a;
   }
   .plus-badge {
     display: inline-flex; align-items: center; justify-content: center;
-    font-size: 12px; font-weight: 800; font-family: ui-monospace, Consolas, monospace;
-    min-width: 2.25rem; padding: 2px 8px; border-radius: 8px;
-    background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35);
+    font-size: 12px; font-weight: 600; font-family: ui-monospace, Consolas, monospace;
+    min-width: 2.25rem; padding: 2px 8px; border-radius: 4px;
+    background: #18181b; color: #d4d4d8; border: 1px solid #3f3f46;
   }
   .src-badge, .status-badge {
     display: inline-flex; align-items: center;
-    font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
-    padding: 2px 7px; border-radius: 999px; border: 1px solid transparent;
+    font-size: 10px; font-weight: 600; letter-spacing: 0.02em;
+    padding: 2px 7px; border-radius: 4px; border: 1px solid #27272a;
     line-height: 1.25; white-space: nowrap;
+    background: #18181b; color: #a1a1aa;
   }
-  .src-wiki-gg { background: rgba(56, 189, 248, 0.12); color: #7dd3fc; border-color: rgba(56, 189, 248, 0.3); }
-  .src-game8 { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
-  .src-paldb { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
-  .src-correction { background: rgba(244, 114, 182, 0.12); color: #f472b6; border-color: rgba(244, 114, 182, 0.35); }
-  .status-pending { background: rgba(148, 163, 184, 0.12); color: #94a3b8; border-color: rgba(148, 163, 184, 0.3); }
-  .status-partial { background: rgba(251, 191, 36, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
-  .status-verified { background: rgba(52, 211, 153, 0.12); color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
-  .status-skipped { background: rgba(167, 139, 250, 0.12); color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); }
+  .src-wiki-gg, .src-game8, .src-paldb, .src-correction {
+    background: #18181b; color: #a1a1aa; border-color: #27272a;
+  }
+  .status-pending { background: #18181b; color: #71717a; border-color: #27272a; }
+  .status-partial { background: #1c1a15; color: #a8a090; border-color: #3a3528; }
+  .status-verified { background: #151a16; color: #90a898; border-color: #283a30; }
+  .status-skipped { background: #18181b; color: #71717a; border-color: #27272a; }
   .desc-cell { max-width: 36rem; line-height: 1.4; }
   .per-source-block {
-    margin-top: 0.4rem; padding: 0.45rem 0.6rem; border-radius: 8px;
-    background: rgba(11, 18, 32, 0.65); border: 1px solid #2a3a55;
-    font-size: 11px; color: #8b9bb8;
+    margin-top: 0.4rem; padding: 0.45rem 0.6rem; border-radius: 6px;
+    background: #0a0a0b; border: 1px solid #27272a;
+    font-size: 11px; color: #71717a;
   }
-  .per-source-block strong { color: #e8eefc; font-weight: 600; }
+  .per-source-block strong { color: #e4e4e7; font-weight: 600; }
   .stat-card {
-    background: #121a2b; border: 1px solid #2a3a55; border-radius: 12px; padding: 0.75rem 1rem;
+    background: #121214; border: 1px solid #27272a; border-radius: 8px; padding: 0.75rem 1rem;
   }
-  .stat-card .n { font-size: 1.35rem; font-weight: 800; line-height: 1.1; }
+  .stat-card .n { font-size: 1.35rem; font-weight: 600; line-height: 1.1; color: #e4e4e7; }
   .filter-chip {
     display: inline-flex; align-items: center; gap: 0.25rem;
-    padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid #2a3a55;
-    background: #0b1220; color: #8b9bb8; font-size: 12px; font-weight: 600;
+    padding: 0.3rem 0.7rem; border-radius: 4px; border: 1px solid #27272a;
+    background: #0a0a0b; color: #71717a; font-size: 12px; font-weight: 500;
     cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
   }
-  .filter-chip:hover { color: #e8eefc; border-color: #5eead4; }
-  .filter-chip.active { color: #5eead4; border-color: rgba(94, 234, 212, 0.45); background: rgba(94, 234, 212, 0.08); }
+  .filter-chip:hover { color: #e4e4e7; border-color: #3f3f46; }
+  .filter-chip.active { color: #e4e4e7; border-color: #52525b; background: #18181b; }
   .section-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; }
   .section-tab {
-    padding: 0.4rem 0.85rem; border-radius: 999px; border: 1px solid #2a3a55;
-    background: #0b1220; color: #8b9bb8; font-size: 13px; font-weight: 600; cursor: pointer;
+    padding: 0.4rem 0.85rem; border-radius: 4px; border: 1px solid #27272a;
+    background: #0a0a0b; color: #71717a; font-size: 13px; font-weight: 500; cursor: pointer;
   }
-  .section-tab.active { color: #0b1220; background: #5eead4; border-color: #5eead4; }
+  .section-tab.active { color: #0a0a0b; background: #e4e4e7; border-color: #e4e4e7; }
   .conflict-card {
-    border: 1px solid #2a3a55; border-radius: 12px; background: #121a2b; padding: 0.85rem 1rem;
+    border: 1px solid #27272a; border-radius: 8px; background: #121214; padding: 0.85rem 1rem;
   }
   .tool-card {
     display: flex; flex-direction: column; gap: 0.75rem;
-    border: 1px solid #2a3a55; border-radius: 16px; background: #121a2b;
+    border: 1px solid #27272a; border-radius: 8px; background: #121214;
     padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
-    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    transition: border-color 0.12s ease;
     min-height: 100%;
   }
   .tool-card:hover {
-    border-color: rgba(94, 234, 212, 0.45);
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    border-color: #52525b;
   }
   .tool-card .tool-icon {
-    width: 2.5rem; height: 2.5rem; border-radius: 12px;
+    width: 2.5rem; height: 2.5rem; border-radius: 6px;
     display: flex; align-items: center; justify-content: center;
-    font-weight: 900; font-size: 1rem; color: #0b1220;
+    font-weight: 600; font-size: 0.9rem; color: #a1a1aa;
+    background: #18181b; border: 1px solid #27272a;
   }
   .tool-card .tool-title {
-    font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em;
+    font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
   }
   .tool-card .tool-desc {
-    font-size: 0.875rem; color: #8b9bb8; line-height: 1.45; flex: 1;
+    font-size: 0.875rem; color: #71717a; line-height: 1.45; flex: 1;
   }
   .tool-card .tool-meta {
     display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.15rem;
   }
   .tool-card .tool-cta {
-    font-size: 0.8rem; font-weight: 700; color: #5eead4;
+    font-size: 0.8rem; font-weight: 500; color: #a1a1aa;
   }
   .home-hero {
-    border: 1px solid #2a3a55; border-radius: 20px;
-    background:
-      radial-gradient(700px 280px at 0% 0%, rgba(94, 234, 212, 0.12), transparent 55%),
-      radial-gradient(600px 240px at 100% 20%, rgba(56, 189, 248, 0.1), transparent 50%),
-      #121a2b;
+    border: 1px solid #27272a; border-radius: 8px;
+    background: #121214;
     padding: 1.5rem 1.4rem;
   }
 `;
@@ -320,15 +315,15 @@ tailwind.config = {
     extend: {
       colors: {
         pal: {
-          bg: '#0b1220',
-          panel: '#121a2b',
-          panel2: '#182338',
-          border: '#2a3a55',
-          muted: '#8b9bb8',
-          text: '#e8eefc',
-          accent: '#5eead4',
-          accent2: '#38bdf8',
-          gold: '#fbbf24',
+          bg: '#0a0a0b',
+          panel: '#121214',
+          panel2: '#18181b',
+          border: '#27272a',
+          muted: '#71717a',
+          text: '#e4e4e7',
+          accent: '#a1a1aa',
+          accent2: '#a1a1aa',
+          gold: '#a8a090',
         }
       },
       fontFamily: {
@@ -346,12 +341,12 @@ ${headExtra}
 </head>
 <body class="text-pal-text font-sans antialiased min-h-screen">
   <div class="min-h-screen flex flex-col">
-    <header class="border-b border-pal-border/80 bg-pal-panel/80 backdrop-blur sticky top-0 z-30">
+    <header class="border-b border-pal-border bg-pal-panel sticky top-0 z-30">
       <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
         <div class="flex items-center gap-3">
-          <a href="index.html" class="w-9 h-9 rounded-xl bg-gradient-to-br from-pal-accent to-pal-accent2 flex items-center justify-center font-black text-pal-bg text-lg shadow-lg shadow-pal-accent/20">P</a>
+          <a href="index.html" class="w-9 h-9 rounded-md bg-pal-panel2 border border-pal-border flex items-center justify-center font-semibold text-pal-text text-lg">P</a>
           <div>
-            <h1 class="text-lg font-bold tracking-tight leading-none">Palhead</h1>
+            <h1 class="text-lg font-semibold tracking-tight leading-none">Palhead</h1>
             <p class="text-xs text-pal-muted mt-0.5">${escapeHtml(subtitle)}</p>
           </div>
         </div>
@@ -441,11 +436,11 @@ function coverageGrid() {
     let detail;
     if (b) {
       status =
-        '<span class="text-pal-accent font-semibold text-xs">+1 aura</span>';
+        '<span class="text-pal-text font-medium text-xs">+1 aura</span>';
       detail = escapeHtml(b.pal);
     } else if (a) {
       status =
-        '<span class="text-pal-gold font-semibold text-xs">unclear</span>';
+        '<span class="text-pal-gold font-medium text-xs">unclear</span>';
       detail = escapeHtml(a.pal);
     } else if (NO_BOOST_WORK.includes(work)) {
       status =
@@ -474,23 +469,23 @@ function coverageGrid() {
 function buildBaseTipsPage() {
   const body = `
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-4 max-w-5xl">
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
         <div>
-          <h2 class="text-xl font-bold tracking-tight">Base tips</h2>
+          <h2 class="text-xl font-semibold tracking-tight">Base tips</h2>
           <p class="text-sm text-pal-muted mt-1 leading-relaxed">
             Partner skills that raise <span class="text-pal-text font-medium">work suitability level by +1</span>
             for other pals at your base. Passive skills never grant work levels — only work speed and similar stats.
           </p>
         </div>
         <ul class="grid sm:grid-cols-2 gap-2 text-sm text-pal-muted">
-          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Effects apply while the booster pal is assigned to that base.</span></li>
-          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Duplicates generally do not stack (Wumpo text says so explicitly).</span></li>
-          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>Only pals that already have the work type benefit from the +1.</span></li>
-          <li class="flex gap-2"><span class="text-pal-accent font-bold">·</span><span>No known base-wide +1 for Kindling or Lumbering.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Effects apply while the booster pal is assigned to that base.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Duplicates generally do not stack (Wumpo text says so explicitly).</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Only pals that already have the work type benefit from the +1.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>No known base-wide +1 for Kindling or Lumbering.</span></li>
         </ul>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+      <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
         <div class="px-4 py-3 border-b border-pal-border/70 flex flex-wrap items-center justify-between gap-2">
           <h3 class="font-semibold">Work suitability +1 partner skills</h3>
           <span class="text-xs text-pal-muted">${BASE_WORK_BOOSTERS.length} boosters · clear “other base pals” wording</span>
@@ -512,15 +507,15 @@ function buildBaseTipsPage() {
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
         <h3 class="font-semibold">Coverage by work type</h3>
-        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-accent2 hover:underline" href="pals.html">Pals spreadsheet</a>.</p>
+        <p class="text-xs text-pal-muted">Same column order as the <a class="text-pal-text underline underline-offset-2 hover:text-white" href="pals.html">Pals spreadsheet</a>.</p>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
           ${coverageGrid()}
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+      <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
         <div class="px-4 py-3 border-b border-pal-border/70">
           <h3 class="font-semibold">Ambiguous / self-only wording</h3>
           <p class="text-xs text-pal-muted mt-1">These raise suitability at base, but descriptions do not clearly say “other base pals.” Treat as uncertain until verified in-game.</p>
@@ -542,14 +537,14 @@ function buildBaseTipsPage() {
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-4 md:p-5 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
         <h3 class="font-semibold">Other base work tips</h3>
         <ul class="space-y-2 text-sm text-pal-muted">
-          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span><span class="text-pal-text">Pal Essence Condenser</span> can raise a work suitability by one level on the individual pal.</span></li>
-          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Match specialized workers to <span class="text-pal-text">Medicine Production</span> and <span class="text-pal-text">Cooling</span> — those tasks sit low in work priority.</span></li>
-          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Keep <span class="text-pal-text">Gathering</span> + <span class="text-pal-text">Transporting</span> covered so farms and mines actually clear into chests.</span></li>
-          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Use the <span class="text-pal-text">Monitor Stand</span> to allow/disallow work types when pals wander off priority jobs.</span></li>
-          <li class="flex gap-2"><span class="text-pal-gold font-bold">·</span><span>Passives like Artisan / Work Slave raise <span class="text-pal-text">work speed</span>, not suitability rank.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span><span class="text-pal-text">Pal Essence Condenser</span> can raise a work suitability by one level on the individual pal.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Match specialized workers to <span class="text-pal-text">Medicine Production</span> and <span class="text-pal-text">Cooling</span> — those tasks sit low in work priority.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Keep <span class="text-pal-text">Gathering</span> + <span class="text-pal-text">Transporting</span> covered so farms and mines actually clear into chests.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Use the <span class="text-pal-text">Monitor Stand</span> to allow/disallow work types when pals wander off priority jobs.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Passives like Artisan / Work Slave raise <span class="text-pal-text">work speed</span>, not suitability rank.</span></li>
         </ul>
       </section>
     </main>
@@ -566,7 +561,7 @@ function buildBaseTipsPage() {
 function buildPalsPage() {
   const body = `
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-end gap-3">
           <div class="flex-1 min-w-[200px]">
             <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
@@ -592,13 +587,13 @@ function buildPalsPage() {
         <div class="flex flex-wrap items-center justify-between gap-2 text-sm pt-1 border-t border-pal-border/60">
           <div class="text-pal-muted">
             Showing <span id="resultCount" class="text-pal-text font-semibold">0</span> of <span id="totalCount" class="text-pal-text font-semibold">0</span> pals
-            <span id="sortLabel" class="ml-2 text-pal-accent/90"></span>
+            <span id="sortLabel" class="ml-2 text-pal-muted"></span>
           </div>
           <div class="text-xs text-pal-muted">Tip: click any column header to sort. Work columns default to high → low.</div>
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden flex-1">
+      <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex-1">
         <div class="table-wrap overflow-auto">
           <table id="table" class="w-full min-w-full text-sm border-collapse">
             <thead>
@@ -935,7 +930,7 @@ function buildPartnerSkillsPage() {
 
   const body = `
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-start justify-between gap-3">
           <div class="min-w-0 max-w-3xl">
             <h2 class="text-base font-semibold">Partner skills</h2>
@@ -944,13 +939,13 @@ function buildPartnerSkillsPage() {
               (<span class="text-pal-text">paldb</span> → <span class="text-pal-text">game8</span> → <span class="text-pal-text">wiki.gg</span>)
               with in-game <span class="text-pal-text">corrections</span> applied on top.
               Not affiliated with those sites — use
-              <a class="text-pal-accent2 hover:underline" href="partner-verify.html">Verify</a>
+              <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a>
               for the Palpedia screenshot checklist and site conflicts.
             </p>
           </div>
           <div class="text-xs text-pal-muted text-right space-y-0.5">
             <div><span id="builtAt" class="text-pal-text">—</span></div>
-            <div>Corrections applied: <span id="corrCount" class="text-pal-accent font-semibold">0</span></div>
+            <div>Corrections applied: <span id="corrCount" class="text-pal-text font-medium">0</span></div>
           </div>
         </div>
 
@@ -998,7 +993,7 @@ function buildPartnerSkillsPage() {
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden flex-1">
+      <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex-1">
         <div class="table-wrap overflow-auto">
           <table id="table" class="w-full min-w-full text-sm border-collapse">
             <thead>
@@ -1114,7 +1109,7 @@ function perSourceHtml(s) {
   if (!state.showPerSource || !s.perSource) return '';
   const blocks = Object.entries(s.perSource).map(([src, row]) => {
     return '<div class="per-source-block"><strong>' + escapeHtml(src) + '</strong>' +
-      (row.name && row.name !== s.name ? ' · <span class="text-pal-gold">' + escapeHtml(row.name) + '</span>' : '') +
+      (row.name && row.name !== s.name ? ' · <span class="text-pal-muted">' + escapeHtml(row.name) + '</span>' : '') +
       '<div class="mt-0.5">' + escapeHtml(row.description || '—') + '</div></div>';
   }).join('');
   return blocks;
@@ -1208,14 +1203,14 @@ function buildPartnerVerifyPage() {
 
   const body = `
     <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
-      <section class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-start justify-between gap-3">
           <div class="min-w-0 max-w-3xl">
             <h2 class="text-base font-semibold">Palpedia verification</h2>
             <p class="text-sm text-pal-muted mt-1 leading-relaxed">
               Work checklist for in-game partner skill screenshots, plus where the websites disagree.
               Full merged catalog:
-              <a class="text-pal-accent2 hover:underline" href="partner-skills.html">Partner Skills</a>.
+              <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
               Screenshots are archived permanently under <span class="text-pal-text font-mono text-xs">reference/partner-skills/corrections/evidence/</span>.
             </p>
           </div>
@@ -1232,7 +1227,7 @@ function buildPartnerVerifyPage() {
       </section>
 
       <section id="panel-checklist" class="space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4 space-y-3">
+        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
           <div class="flex flex-wrap items-end gap-3">
             <div class="flex-1 min-w-[200px]">
               <label class="block text-xs text-pal-muted mb-1 font-medium">Search pals</label>
@@ -1243,10 +1238,10 @@ function buildPartnerVerifyPage() {
           </div>
           <div class="text-sm text-pal-muted">
             Showing <span id="checkCount" class="text-pal-text font-semibold">0</span> pals ·
-            next pending: <span id="nextPending" class="text-pal-accent font-semibold">—</span>
+            next pending: <span id="nextPending" class="text-pal-text font-medium">—</span>
           </div>
         </div>
-        <div class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
           <div class="table-wrap overflow-auto">
             <table id="checkTable" class="w-full min-w-full text-sm border-collapse">
               <thead>
@@ -1265,7 +1260,7 @@ function buildPartnerVerifyPage() {
       </section>
 
       <section id="panel-names" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4">
+        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
           <h3 class="font-semibold">Same pal, different skill names</h3>
           <p class="text-sm text-pal-muted mt-1">High priority for Palpedia screenshots — sites do not even agree on the skill title.</p>
           <div class="mt-3">
@@ -1276,7 +1271,7 @@ function buildPartnerVerifyPage() {
       </section>
 
       <section id="panel-severe" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4">
+        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
           <h3 class="font-semibold">Severe description mismatches</h3>
           <p class="text-sm text-pal-muted mt-1">Same skill name + pal, but wording barely overlaps (outdated rewrite or wrong effect text).</p>
           <div class="mt-3">
@@ -1287,7 +1282,7 @@ function buildPartnerVerifyPage() {
       </section>
 
       <section id="panel-onlyone" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-xl p-3 md:p-4">
+        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
           <h3 class="font-semibold">Only listed on one site</h3>
           <p class="text-sm text-pal-muted mt-1">Skill+pal pairs that appear in only wiki-gg, game8, or paldb.</p>
           <div class="mt-3 flex flex-wrap items-end gap-3">
@@ -1300,7 +1295,7 @@ function buildPartnerVerifyPage() {
             </select>
           </div>
         </div>
-        <div class="bg-pal-panel border border-pal-border rounded-xl overflow-hidden">
+        <div class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
           <div class="overflow-x-auto">
             <table class="w-full text-sm border-collapse">
               <thead>
@@ -1357,10 +1352,10 @@ function renderStats() {
   const sum = DATA.summary || {};
   const cards = [
     { label: 'Pending', n: s.pending || 0, cls: 'text-pal-muted' },
-    { label: 'Partial', n: s.partial || 0, cls: 'text-pal-gold' },
-    { label: 'Verified', n: s.verified || 0, cls: 'text-pal-accent' },
-    { label: 'Name conflicts', n: sum.nameConflictPalCount || (DATA.nameConflicts || []).length, cls: 'text-pal-accent2' },
-    { label: 'Severe diffs', n: sum.severeDescriptionMismatchCount || (DATA.severeDescriptionMismatches || []).length, cls: 'text-pal-gold' },
+    { label: 'Partial', n: s.partial || 0, cls: 'text-pal-text' },
+    { label: 'Verified', n: s.verified || 0, cls: 'text-pal-text' },
+    { label: 'Name conflicts', n: sum.nameConflictPalCount || (DATA.nameConflicts || []).length, cls: 'text-pal-text' },
+    { label: 'Severe diffs', n: sum.severeDescriptionMismatchCount || (DATA.severeDescriptionMismatches || []).length, cls: 'text-pal-text' },
     { label: 'Only one site', n: sum.onlyOneSourceCount || (DATA.onlyOneSource || []).length, cls: 'text-pal-muted' },
   ];
   document.getElementById('statCards').innerHTML = cards.map(c =>
@@ -1416,7 +1411,7 @@ function renderChecklist() {
       ? p.partnerSkills.map(escapeHtml).join('<span class="text-pal-muted"> · </span>')
       : '<span class="text-pal-muted">—</span>';
     const ev = (p.evidence || []).length
-      ? p.evidence.map(e => '<span class="font-mono text-xs text-pal-accent2">' + escapeHtml(String(e).split(/[\\\\\\/]/).pop()) + '</span>').join('<br>')
+      ? p.evidence.map(e => '<span class="font-mono text-xs text-pal-muted">' + escapeHtml(String(e).split(/[\\\\\\/]/).pop()) + '</span>').join('<br>')
       : '<span class="text-pal-muted">—</span>';
     return '<tr class="border-t border-pal-border/40 align-top">' +
       '<td class="sticky-left px-2 py-2 text-center text-pal-muted font-mono text-xs">' + escapeHtml(p.deckNo || '—') + '</td>' +
@@ -1569,7 +1564,6 @@ function buildHomePage() {
       desc: "Sortable work-suitability table for every pal — filter by element, sort work columns high → low, open paldb pages.",
       meta: [palCount + " pals", "12 work types"],
       icon: "W",
-      iconBg: "linear-gradient(135deg,#5eead4,#38bdf8)",
       cta: "Open spreadsheet",
     },
     {
@@ -1578,7 +1572,6 @@ function buildHomePage() {
       desc: "Our merged partner-skill catalog from local scrapes (paldb, game8, wiki.gg) plus in-game corrections. Compare source wording.",
       meta: [skillCount + " skills", "multi-source"],
       icon: "P",
-      iconBg: "linear-gradient(135deg,#34d399,#5eead4)",
       cta: "Browse catalog",
     },
     {
@@ -1587,7 +1580,6 @@ function buildHomePage() {
       desc: "Screenshot checklist and website conflicts. Track pending pals, name mismatches, and severe description diffs while you verify in-game.",
       meta: [pending + " pending", nameConflicts + " name conflicts", severe + " severe diffs"],
       icon: "V",
-      iconBg: "linear-gradient(135deg,#fbbf24,#f472b6)",
       cta: "Work the checklist",
     },
     {
@@ -1596,7 +1588,6 @@ function buildHomePage() {
       desc: "Work suitability +1 partner skills for base pals — clear “other base pals” boosts, coverage by work type, and ambiguous cases.",
       meta: [BASE_WORK_BOOSTERS.length + " clear boosters", AMBIGUOUS_BOOSTERS.length + " ambiguous"],
       icon: "B",
-      iconBg: "linear-gradient(135deg,#38bdf8,#a78bfa)",
       cta: "View base tips",
     },
   ];
@@ -1606,16 +1597,14 @@ function buildHomePage() {
       const meta = (t.meta || [])
         .map(
           (m) =>
-            '<span class="src-badge src-paldb">' + escapeHtml(m) + "</span>"
+            '<span class="src-badge">' + escapeHtml(m) + "</span>"
         )
         .join("");
       return (
         '<a class="tool-card" href="' +
         escapeHtml(t.href) +
         '">' +
-        '<div class="tool-icon" style="background:' +
-        t.iconBg +
-        '">' +
+        '<div class="tool-icon">' +
         escapeHtml(t.icon) +
         "</div>" +
         '<div class="tool-title">' +
@@ -1640,27 +1629,27 @@ function buildHomePage() {
       <section class="home-hero space-y-4">
         <div class="flex flex-wrap items-start justify-between gap-4">
           <div class="min-w-0 max-w-2xl">
-            <p class="text-xs font-semibold uppercase tracking-[0.14em] text-pal-accent mb-2">Palworld tools</p>
-            <h2 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Pick a tool</h2>
+            <p class="text-xs font-medium text-pal-muted mb-2">Palworld tools</p>
+            <h2 class="text-2xl md:text-3xl font-semibold tracking-tight leading-tight">Pick a tool</h2>
             <p class="text-sm md:text-base text-pal-muted mt-2 leading-relaxed">
               Palhead is a small static toolkit for base work, partner skills, and cleaning up out-of-date wiki data against the live game.
             </p>
           </div>
           <div class="grid grid-cols-2 gap-2 min-w-[12rem]">
             <div class="stat-card">
-              <div class="n text-pal-accent">${palCount}</div>
+              <div class="n">${palCount}</div>
               <div class="text-xs text-pal-muted mt-1">Pals</div>
             </div>
             <div class="stat-card">
-              <div class="n text-pal-accent2">${skillCount}</div>
+              <div class="n">${skillCount}</div>
               <div class="text-xs text-pal-muted mt-1">Partner skills</div>
             </div>
             <div class="stat-card">
-              <div class="n text-pal-gold">${pending}</div>
+              <div class="n">${pending}</div>
               <div class="text-xs text-pal-muted mt-1">Verify pending</div>
             </div>
             <div class="stat-card">
-              <div class="n text-pal-text">${verified}</div>
+              <div class="n">${verified}</div>
               <div class="text-xs text-pal-muted mt-1">Verified</div>
             </div>
           </div>
@@ -1669,7 +1658,7 @@ function buildHomePage() {
 
       <section>
         <div class="flex items-end justify-between gap-3 mb-3">
-          <h3 class="text-sm font-semibold uppercase tracking-wide text-pal-muted">Tools</h3>
+          <h3 class="text-sm font-medium text-pal-muted">Tools</h3>
           <p class="text-xs text-pal-muted">Also available in the top nav</p>
         </div>
         <div class="grid sm:grid-cols-2 gap-3 md:gap-4">
@@ -1677,17 +1666,17 @@ function buildHomePage() {
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-2xl p-4 md:p-5 space-y-3">
-        <h3 class="font-semibold">Partner skill verification</h3>
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
+        <h3 class="font-medium">Partner skill verification</h3>
         <p class="text-sm text-pal-muted leading-relaxed">
           Community sites disagree on skill names and descriptions in different places.
-          Use <a class="text-pal-accent2 hover:underline" href="partner-verify.html">Verify</a> to work a Palpedia screenshot checklist,
-          then read the merged result on <a class="text-pal-accent2 hover:underline" href="partner-skills.html">Partner Skills</a>.
+          Use <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a> to work a Palpedia screenshot checklist,
+          then read the merged result on <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
         </p>
         <div class="flex flex-wrap gap-2">
-          <a href="partner-verify.html" class="px-3 py-2 text-sm rounded-lg bg-pal-accent text-pal-bg font-semibold hover:opacity-90 transition">Start checklist</a>
-          <a href="partner-skills.html" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Open catalog</a>
-          <a href="pals.html" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Work suitability</a>
+          <a href="partner-verify.html" class="px-3 py-2 text-sm rounded-md bg-pal-text text-pal-bg font-medium hover:opacity-90 transition">Start checklist</a>
+          <a href="partner-skills.html" class="px-3 py-2 text-sm rounded-md border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Open catalog</a>
+          <a href="pals.html" class="px-3 py-2 text-sm rounded-md border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Work suitability</a>
         </div>
       </section>
     </main>
