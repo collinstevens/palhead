@@ -8,12 +8,101 @@ const dataJson = JSON.stringify(data);
 const WORK = data.work;
 const PALS = data.pals;
 
-const NAV = [
-  { id: "home", href: "index.html", label: "Home" },
-  { id: "pals", href: "pals.html", label: "Pals" },
-  { id: "partner-skills", href: "partner-skills.html", label: "Partner Skills" },
-  { id: "partner-verify", href: "partner-verify.html", label: "Verify" },
-  { id: "base-tips", href: "base-tips.html", label: "Base Tips" },
+const NAV_SECTIONS = [
+  {
+    id: "news",
+    label: "News",
+    href: "index.html#news",
+    activeOn: ["home"],
+    items: [
+      { href: "index.html#news", label: "All News", soon: true },
+      { href: "index.html#news", label: "Patch Notes", soon: true },
+      { href: "index.html#news", label: "Community", soon: true },
+    ],
+  },
+  {
+    id: "guides",
+    label: "Guides",
+    href: "base-tips.html",
+    activeOn: ["base-tips"],
+    items: [
+      { href: "base-tips.html", label: "Base Tips" },
+      { href: "index.html#guides", label: "Breeding", soon: true },
+      { href: "index.html#guides", label: "Combat", soon: true },
+      { href: "index.html#guides", label: "Exploration", soon: true },
+      { href: "index.html#guides", label: "Bosses", soon: true },
+    ],
+  },
+  {
+    id: "database",
+    label: "Database",
+    href: "pals.html",
+    activeOn: ["pals", "partner-skills"],
+    items: [
+      { href: "pals.html", label: "Pals" },
+      { href: "partner-skills.html", label: "Partner Skills" },
+      { href: "index.html#database", label: "Passive Skills", soon: true },
+      { href: "index.html#database", label: "Items", soon: true },
+      { href: "index.html#database", label: "Structures", soon: true },
+      { href: "index.html#database", label: "Technology", soon: true },
+    ],
+  },
+  {
+    id: "tools",
+    label: "Tools",
+    href: "partner-verify.html",
+    activeOn: ["partner-verify"],
+    items: [
+      { href: "pals.html", label: "Work Suitability" },
+      { href: "partner-skills.html", label: "Partner Skill Catalog" },
+      { href: "partner-verify.html", label: "Palpedia Verify" },
+      { href: "base-tips.html", label: "Base Boosters" },
+      { href: "index.html#tools", label: "Breeding Calculator", soon: true },
+      { href: "index.html#tools", label: "Team Builder", soon: true },
+    ],
+  },
+];
+
+const FOOTER_COLS = [
+  {
+    title: "Database",
+    links: [
+      { href: "pals.html", label: "Pals" },
+      { href: "partner-skills.html", label: "Partner Skills" },
+      { href: "#", label: "Passive Skills", soon: true },
+      { href: "#", label: "Items", soon: true },
+      { href: "#", label: "Structures", soon: true },
+    ],
+  },
+  {
+    title: "Tools",
+    links: [
+      { href: "pals.html", label: "Work Suitability" },
+      { href: "partner-verify.html", label: "Palpedia Verify" },
+      { href: "base-tips.html", label: "Base Boosters" },
+      { href: "#", label: "Breeding Calculator", soon: true },
+      { href: "#", label: "Team Builder", soon: true },
+    ],
+  },
+  {
+    title: "Guides",
+    links: [
+      { href: "base-tips.html", label: "Base Tips" },
+      { href: "#", label: "Breeding", soon: true },
+      { href: "#", label: "Combat", soon: true },
+      { href: "#", label: "Exploration", soon: true },
+      { href: "#", label: "Bosses", soon: true },
+    ],
+  },
+  {
+    title: "Site",
+    links: [
+      { href: "index.html", label: "Home" },
+      { href: "index.html#news", label: "News", soon: true },
+      { href: "#", label: "About", soon: true },
+      { href: "https://paldb.cc", label: "paldb.cc", external: true },
+    ],
+  },
 ];
 
 const BASE_WORK_BOOSTERS = [
@@ -107,31 +196,377 @@ function paldbUrl(name) {
 }
 
 function renderNav(activeId) {
-  return NAV.map((item) => {
-    if (item.id === activeId) {
-      return (
-        '<a href="' +
-        item.href +
-        '" class="px-3 py-1.5 rounded-md bg-pal-panel2 text-pal-text font-medium border border-pal-border">' +
-        escapeHtml(item.label) +
-        "</a>"
-      );
-    }
+  return NAV_SECTIONS.map((sec) => {
+    const active = (sec.activeOn || []).includes(activeId);
+    const items = (sec.items || [])
+      .map((item) => {
+        if (item.soon) {
+          return (
+            '<span class="nav-dd-item nav-dd-soon">' +
+            escapeHtml(item.label) +
+            ' <em>soon</em></span>'
+          );
+        }
+        return (
+          '<a class="nav-dd-item" href="' +
+          escapeHtml(item.href) +
+          '">' +
+          escapeHtml(item.label) +
+          "</a>"
+        );
+      })
+      .join("");
     return (
-      '<a href="' +
-      item.href +
-      '" class="px-3 py-1.5 rounded-md text-pal-muted border border-transparent hover:text-pal-text hover:border-pal-border transition">' +
-      escapeHtml(item.label) +
-      "</a>"
+      '<div class="nav-item' +
+      (active ? " is-active" : "") +
+      '">' +
+      '<a class="nav-link" href="' +
+      escapeHtml(sec.href) +
+      '">' +
+      escapeHtml(sec.label) +
+      "</a>" +
+      (items ? '<div class="nav-dropdown">' + items + "</div>" : "") +
+      "</div>"
     );
   }).join("\n          ");
+}
+
+function renderFooter() {
+  const cols = FOOTER_COLS.map((col) => {
+    const links = col.links
+      .map((l) => {
+        if (l.soon) {
+          return (
+            '<li><span class="footer-soon">' +
+            escapeHtml(l.label) +
+            " <em>soon</em></span></li>"
+          );
+        }
+        const ext = l.external
+          ? ' target="_blank" rel="noopener noreferrer"'
+          : "";
+        return (
+          "<li><a href=\"" +
+          escapeHtml(l.href) +
+          '"' +
+          ext +
+          ">" +
+          escapeHtml(l.label) +
+          "</a></li>"
+        );
+      })
+      .join("");
+    return (
+      '<div class="footer-col">' +
+      "<h4>" +
+      escapeHtml(col.title) +
+      "</h4>" +
+      "<ul>" +
+      links +
+      "</ul></div>"
+    );
+  }).join("");
+
+  return (
+    '<footer class="site-footer">' +
+    '<div class="footer-inner">' +
+    '<div class="footer-brand">' +
+    '<a href="index.html" class="footer-logo">Palhead</a>' +
+    '<p>Palworld tools — work suitability, partner skills, and verification. Not affiliated with Pocketpair.</p>' +
+    "</div>" +
+    '<div class="footer-cols">' +
+    cols +
+    "</div></div>" +
+    '<div class="footer-bottom">' +
+    "<span>Data from community dumps + multi-source scrapes · icons from paldb</span>" +
+    "</div></footer>"
+  );
+}
+
+function emptyState({ title, body, icon = "—" }) {
+  return (
+    '<div class="empty-state">' +
+    '<div class="empty-icon" aria-hidden="true">' +
+    escapeHtml(icon) +
+    "</div>" +
+    '<div class="empty-title">' +
+    escapeHtml(title) +
+    "</div>" +
+    (body
+      ? '<p class="empty-body">' + escapeHtml(body) + "</p>"
+      : "") +
+    "</div>"
+  );
 }
 
 function sharedStyles() {
   return `
   body {
-    background: #0a0a0b;
+    background: #0b0c0e;
+    color: #e4e4e7;
   }
+  a { color: inherit; }
+  .site-header {
+    position: sticky; top: 0; z-index: 40;
+    background: linear-gradient(180deg, #14161a 0%, #101114 100%);
+    border-bottom: 1px solid #1f2228;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.4);
+  }
+  .header-top {
+    display: flex; align-items: center; gap: 1rem;
+    padding: 0 1rem; min-height: 48px;
+    max-width: 1400px; margin: 0 auto;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 0.55rem;
+    text-decoration: none; flex-shrink: 0; padding: 0.5rem 0;
+  }
+  .brand-mark {
+    width: 30px; height: 30px; border-radius: 4px;
+    background: linear-gradient(145deg, #f0a020, #c47a10);
+    color: #1a1000; font-weight: 800; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+    letter-spacing: -0.03em;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.35);
+  }
+  .brand-name {
+    font-weight: 800; font-size: 1.15rem; letter-spacing: -0.02em;
+    color: #f4f4f5;
+  }
+  .brand-name span { color: #f0a020; }
+  .primary-nav {
+    display: flex; align-items: stretch; gap: 0.15rem;
+    flex: 1; min-width: 0; overflow-x: auto;
+  }
+  .nav-item { position: relative; display: flex; align-items: stretch; }
+  .nav-link {
+    display: flex; align-items: center;
+    padding: 0 0.85rem; height: 48px;
+    font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; text-decoration: none;
+    color: #a1a1aa; white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.12s, border-color 0.12s;
+  }
+  .nav-link:hover, .nav-item.is-active .nav-link {
+    color: #fafafa; border-bottom-color: #f0a020;
+  }
+  .nav-dropdown {
+    display: none; position: absolute; top: 100%; left: 0; min-width: 12.5rem;
+    background: #16181d; border: 1px solid #2a2e36; border-top: none;
+    border-radius: 0 0 6px 6px; padding: 0.35rem 0;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.45); z-index: 50;
+  }
+  .nav-item:hover .nav-dropdown, .nav-item:focus-within .nav-dropdown { display: block; }
+  .nav-dd-item {
+    display: block; padding: 0.45rem 0.9rem; font-size: 13px;
+    color: #d4d4d8; text-decoration: none; white-space: nowrap;
+  }
+  a.nav-dd-item:hover { background: #1e2229; color: #fff; }
+  .nav-dd-soon { color: #52525b; cursor: default; }
+  .nav-dd-soon em { font-style: normal; font-size: 10px; color: #3f3f46; margin-left: 0.25rem; }
+  .header-search {
+    display: flex; align-items: center; gap: 0.4rem; flex-shrink: 0;
+    margin-left: auto;
+  }
+  .header-search input {
+    width: 11rem; max-width: 28vw;
+    background: #0b0c0e; border: 1px solid #2a2e36; border-radius: 4px;
+    padding: 0.35rem 0.65rem; font-size: 12px; color: #e4e4e7;
+  }
+  .header-search input:focus { outline: none; border-color: #f0a020; }
+  .header-search input::placeholder { color: #52525b; }
+  .header-search button {
+    background: #1e2229; border: 1px solid #2a2e36; border-radius: 4px;
+    color: #a1a1aa; font-size: 12px; font-weight: 600;
+    padding: 0.35rem 0.65rem; cursor: pointer;
+  }
+  .header-search button:hover { color: #fff; border-color: #3f3f46; }
+  @media (max-width: 720px) {
+    .header-top { flex-wrap: wrap; min-height: auto; padding: 0.4rem 0.65rem; gap: 0.35rem 0.65rem; }
+    .primary-nav { order: 3; width: 100%; height: 40px; }
+    .nav-link { height: 40px; padding: 0 0.65rem; font-size: 11px; }
+    .header-search { margin-left: 0; }
+    .header-search input { width: 8rem; }
+  }
+  .promo-bar {
+    background: #12141a; border-bottom: 1px solid #1f2228;
+    padding: 0.55rem 1rem; text-align: center;
+    font-size: 13px; color: #a1a1aa;
+  }
+  .promo-bar strong { color: #f0a020; font-weight: 700; }
+  .promo-bar a { color: #e4e4e7; text-decoration: underline; text-underline-offset: 2px; }
+  .promo-bar a:hover { color: #fff; }
+  .page-wrap {
+    max-width: 1400px; margin: 0 auto; width: 100%;
+    padding: 0.85rem 0.75rem 2rem;
+  }
+  .page-wrap-wide {
+    max-width: none;
+  }
+  .panel {
+    background: #12141a; border: 1px solid #1f2228; border-radius: 4px;
+  }
+  .panel-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+    padding: 0.55rem 0.85rem; border-bottom: 1px solid #1f2228;
+    background: linear-gradient(180deg, #171a21 0%, #13151b 100%);
+  }
+  .panel-head h2, .panel-head h3 {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.02em;
+    display: flex; align-items: center; gap: 0.45rem; margin: 0;
+  }
+  .panel-head h2::before, .panel-head h3::before {
+    content: ""; width: 3px; height: 14px; border-radius: 1px;
+    background: #f0a020; flex-shrink: 0;
+  }
+  .panel-head .panel-meta { font-size: 11px; color: #71717a; }
+  .panel-body { padding: 0.75rem 0.85rem; }
+  .empty-state {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 1.75rem 1rem; min-height: 8rem;
+    color: #52525b;
+  }
+  .empty-icon {
+    width: 2.5rem; height: 2.5rem; border-radius: 6px;
+    border: 1px dashed #2a2e36; background: #0b0c0e;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700; color: #3f3f46; margin-bottom: 0.65rem;
+  }
+  .empty-title { font-size: 13px; font-weight: 600; color: #71717a; }
+  .empty-body { font-size: 12px; color: #52525b; margin-top: 0.3rem; max-width: 22rem; line-height: 1.45; }
+  .quick-list { list-style: none; margin: 0; padding: 0; }
+  .quick-list li { border-bottom: 1px solid #1a1d24; }
+  .quick-list li:last-child { border-bottom: none; }
+  .quick-list a, .quick-list .soon-row {
+    display: flex; align-items: center; gap: 0.55rem;
+    padding: 0.45rem 0.85rem; font-size: 13px; text-decoration: none;
+    color: #c4c4c8;
+  }
+  .quick-list a:hover { background: #171a21; color: #fff; }
+  .quick-list .dot {
+    width: 6px; height: 6px; border-radius: 50%; background: #f0a020; flex-shrink: 0;
+  }
+  .quick-list .dot.muted { background: #3f3f46; }
+  .quick-list .soon-row { color: #52525b; cursor: default; }
+  .quick-list .tag {
+    margin-left: auto; font-size: 10px; font-weight: 600; color: #71717a;
+    background: #0b0c0e; border: 1px solid #1f2228; border-radius: 3px;
+    padding: 1px 6px; white-space: nowrap;
+  }
+  .stat-list { list-style: none; margin: 0; padding: 0.35rem 0; }
+  .stat-list li {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem;
+    padding: 0.4rem 0.85rem; font-size: 13px; border-bottom: 1px solid #1a1d24;
+  }
+  .stat-list li:last-child { border-bottom: none; }
+  .stat-list .label { color: #a1a1aa; }
+  .stat-list .val { font-weight: 700; color: #f4f4f5; font-variant-numeric: tabular-nums; }
+  .stat-list a { color: #e4e4e7; text-decoration: none; }
+  .stat-list a:hover { color: #f0a020; }
+  .feature-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.65rem;
+  }
+  @media (max-width: 1000px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .feature-grid { grid-template-columns: 1fr; } }
+  .feature-card {
+    display: flex; flex-direction: column; min-height: 100%;
+    background: #12141a; border: 1px solid #1f2228; border-radius: 4px;
+    text-decoration: none; color: inherit; overflow: hidden;
+    transition: border-color 0.12s, transform 0.12s;
+  }
+  a.feature-card:hover { border-color: #f0a020; transform: translateY(-1px); }
+  .feature-card.is-empty { opacity: 0.75; }
+  .feature-thumb {
+    height: 96px; background: linear-gradient(135deg, #1a1d24 0%, #0f1115 100%);
+    border-bottom: 1px solid #1f2228;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem; font-weight: 800; color: #2a2e36; letter-spacing: -0.03em;
+  }
+  .feature-card:not(.is-empty) .feature-thumb {
+    background: linear-gradient(135deg, #2a2210 0%, #14161a 55%, #101218 100%);
+    color: #f0a020;
+  }
+  .feature-body { padding: 0.7rem 0.8rem 0.85rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
+  .feature-cat {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    color: #f0a020;
+  }
+  .feature-card.is-empty .feature-cat { color: #52525b; }
+  .feature-title { font-size: 14px; font-weight: 700; color: #f4f4f5; line-height: 1.3; }
+  .feature-card.is-empty .feature-title { color: #71717a; }
+  .feature-desc { font-size: 12px; color: #71717a; line-height: 1.4; flex: 1; }
+  .feature-meta { font-size: 11px; color: #52525b; margin-top: 0.25rem; }
+  .feed-list { list-style: none; margin: 0; padding: 0; }
+  .feed-item {
+    display: grid; grid-template-columns: 120px 1fr; gap: 0.85rem;
+    padding: 0.85rem; border-bottom: 1px solid #1a1d24;
+  }
+  .feed-item:last-child { border-bottom: none; }
+  .feed-thumb {
+    width: 120px; height: 72px; border-radius: 3px;
+    background: #0b0c0e; border: 1px solid #1f2228;
+    display: flex; align-items: center; justify-content: center;
+    color: #2a2e36; font-weight: 700; font-size: 12px;
+  }
+  .feed-cat {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    color: #f0a020; margin-bottom: 0.2rem;
+  }
+  .feed-title { font-size: 15px; font-weight: 700; color: #e4e4e7; margin: 0 0 0.25rem; }
+  .feed-desc { font-size: 13px; color: #71717a; line-height: 1.4; margin: 0; }
+  .feed-date { font-size: 11px; color: #52525b; margin-top: 0.35rem; }
+  .home-top-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem;
+  }
+  @media (max-width: 800px) { .home-top-grid { grid-template-columns: 1fr; } }
+  .guide-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.75rem 0.85rem; }
+  .guide-pill {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    padding: 0.4rem 0.7rem; border-radius: 3px; font-size: 12px; font-weight: 600;
+    background: #0b0c0e; border: 1px solid #1f2228; color: #c4c4c8; text-decoration: none;
+  }
+  a.guide-pill:hover { border-color: #f0a020; color: #fff; }
+  .guide-pill.soon { color: #52525b; border-style: dashed; cursor: default; }
+  .site-footer {
+    margin-top: auto; background: #0e1014; border-top: 1px solid #1f2228;
+  }
+  .footer-inner {
+    max-width: 1400px; margin: 0 auto; padding: 1.75rem 1rem 1.25rem;
+    display: grid; grid-template-columns: 1.2fr 2.5fr; gap: 1.5rem;
+  }
+  @media (max-width: 800px) { .footer-inner { grid-template-columns: 1fr; } }
+  .footer-brand .footer-logo {
+    font-weight: 800; font-size: 1.15rem; color: #f0a020; text-decoration: none;
+  }
+  .footer-brand p { font-size: 12px; color: #52525b; margin-top: 0.5rem; max-width: 16rem; line-height: 1.45; }
+  .footer-cols {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;
+  }
+  @media (max-width: 700px) { .footer-cols { grid-template-columns: repeat(2, 1fr); } }
+  .footer-col h4 {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    color: #a1a1aa; margin: 0 0 0.55rem;
+  }
+  .footer-col ul { list-style: none; margin: 0; padding: 0; }
+  .footer-col li { margin-bottom: 0.3rem; }
+  .footer-col a {
+    font-size: 12px; color: #71717a; text-decoration: none;
+  }
+  .footer-col a:hover { color: #f0a020; }
+  .footer-soon { font-size: 12px; color: #3f3f46; }
+  .footer-soon em { font-style: normal; font-size: 10px; }
+  .footer-bottom {
+    border-top: 1px solid #1a1d24; padding: 0.7rem 1rem; text-align: center;
+    font-size: 11px; color: #3f3f46;
+  }
+  .page-title-bar {
+    padding: 0.85rem 0 0.65rem; margin-bottom: 0.5rem;
+  }
+  .page-title-bar h1 {
+    font-size: 1.35rem; font-weight: 700; letter-spacing: -0.02em; margin: 0;
+  }
+  .page-title-bar p { font-size: 13px; color: #71717a; margin: 0.25rem 0 0; }
   .table-wrap { max-height: calc(100vh - 220px); width: 100%; }
   #table { width: 100%; table-layout: auto; }
   th.sortable { cursor: pointer; user-select: none; }
@@ -265,43 +700,14 @@ function sharedStyles() {
   .conflict-card {
     border: 1px solid #27272a; border-radius: 8px; background: #121214; padding: 0.85rem 1rem;
   }
-  .tool-card {
-    display: flex; flex-direction: column; gap: 0.75rem;
-    border: 1px solid #27272a; border-radius: 8px; background: #121214;
-    padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
-    transition: border-color 0.12s ease;
-    min-height: 100%;
-  }
-  .tool-card:hover {
-    border-color: #52525b;
-  }
-  .tool-card .tool-icon {
-    width: 2.5rem; height: 2.5rem; border-radius: 6px;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 600; font-size: 0.9rem; color: #a1a1aa;
-    background: #18181b; border: 1px solid #27272a;
-  }
-  .tool-card .tool-title {
-    font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
-  }
-  .tool-card .tool-desc {
-    font-size: 0.875rem; color: #71717a; line-height: 1.45; flex: 1;
-  }
-  .tool-card .tool-meta {
-    display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.15rem;
-  }
-  .tool-card .tool-cta {
-    font-size: 0.8rem; font-weight: 500; color: #a1a1aa;
-  }
-  .home-hero {
-    border: 1px solid #27272a; border-radius: 8px;
-    background: #121214;
-    padding: 1.5rem 1.4rem;
-  }
 `;
 }
 
-function shell({ title, subtitle, activeNav, body, headExtra = "", bodyScripts = "" }) {
+function shell({ title, subtitle, activeNav, body, headExtra = "", bodyScripts = "", showPromo = false }) {
+  const promo = showPromo
+    ? `<div class="promo-bar"><strong>Palhead</strong> — work suitability spreadsheet, partner skills catalog, and Palpedia verification tools. <a href="pals.html">Open the pals database →</a></div>`
+    : "";
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -315,15 +721,15 @@ tailwind.config = {
     extend: {
       colors: {
         pal: {
-          bg: '#0a0a0b',
-          panel: '#121214',
-          panel2: '#18181b',
-          border: '#27272a',
+          bg: '#0b0c0e',
+          panel: '#12141a',
+          panel2: '#171a21',
+          border: '#1f2228',
           muted: '#71717a',
           text: '#e4e4e7',
-          accent: '#a1a1aa',
+          accent: '#f0a020',
           accent2: '#a1a1aa',
-          gold: '#a8a090',
+          gold: '#f0a020',
         }
       },
       fontFamily: {
@@ -341,26 +747,26 @@ ${headExtra}
 </head>
 <body class="text-pal-text font-sans antialiased min-h-screen">
   <div class="min-h-screen flex flex-col">
-    <header class="border-b border-pal-border bg-pal-panel sticky top-0 z-30">
-      <div class="w-full mx-auto px-4 py-3 flex flex-wrap items-center gap-4 justify-between">
-        <div class="flex items-center gap-3">
-          <a href="index.html" class="w-9 h-9 rounded-md bg-pal-panel2 border border-pal-border flex items-center justify-center font-semibold text-pal-text text-lg">P</a>
-          <div>
-            <h1 class="text-lg font-semibold tracking-tight leading-none">Palhead</h1>
-            <p class="text-xs text-pal-muted mt-0.5">${escapeHtml(subtitle)}</p>
-          </div>
-        </div>
-        <nav class="flex items-center gap-2 text-sm">
+    <header class="site-header">
+      <div class="header-top">
+        <a href="index.html" class="brand" aria-label="Palhead home">
+          <span class="brand-mark">P</span>
+          <span class="brand-name">Pal<span>head</span></span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
           ${renderNav(activeNav)}
         </nav>
+        <form class="header-search" action="pals.html" method="get" role="search">
+          <input type="search" name="q" placeholder="Search pals…" aria-label="Search pals" />
+          <button type="submit">Search</button>
+        </form>
       </div>
     </header>
+    ${promo}
 
     ${body}
 
-    <footer class="border-t border-pal-border/60 py-3 text-center text-xs text-pal-muted">
-      Palhead · data derived from community game data dumps · not affiliated with Pocketpair
-    </footer>
+    ${renderFooter()}
   </div>
 ${bodyScripts}
 </body>
@@ -468,10 +874,14 @@ function coverageGrid() {
 
 function buildBaseTipsPage() {
   const body = `
-    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-4 max-w-5xl">
+    <main class="flex-1 page-wrap flex flex-col gap-3">
+      <div class="page-title-bar">
+        <h1>Base Tips</h1>
+        <p>Partner skills that raise work suitability for other pals at your base.</p>
+      </div>
       <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
         <div>
-          <h2 class="text-xl font-semibold tracking-tight">Base tips</h2>
+          <h2 class="text-xl font-semibold tracking-tight">How +1 auras work</h2>
           <p class="text-sm text-pal-muted mt-1 leading-relaxed">
             Partner skills that raise <span class="text-pal-text font-medium">work suitability level by +1</span>
             for other pals at your base. Passive skills never grant work levels — only work speed and similar stats.
@@ -560,7 +970,11 @@ function buildBaseTipsPage() {
 
 function buildPalsPage() {
   const body = `
-    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
+    <main class="flex-1 page-wrap page-wrap-wide flex flex-col gap-3">
+      <div class="page-title-bar">
+        <h1>Pals — Work Suitability</h1>
+        <p>Sortable spreadsheet for every pal. Click column headers to sort; work columns default high → low.</p>
+      </div>
       <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-end gap-3">
           <div class="flex-1 min-w-[200px]">
@@ -823,6 +1237,14 @@ function bind() {
 
 buildChrome();
 bind();
+(function initFromQuery() {
+  const q = new URLSearchParams(location.search).get('q');
+  if (q) {
+    state.search = q;
+    const input = document.getElementById('search');
+    if (input) input.value = q;
+  }
+})();
 renderTable();
 </script>
 `;
@@ -929,26 +1351,24 @@ function buildPartnerSkillsPage() {
   const payloadJson = JSON.stringify(payload);
 
   const body = `
-    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
-      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-        <div class="flex flex-wrap items-start justify-between gap-3">
-          <div class="min-w-0 max-w-3xl">
-            <h2 class="text-base font-semibold">Partner skills</h2>
-            <p class="text-sm text-pal-muted mt-1 leading-relaxed">
-              Our merged catalog from local scrapes
-              (<span class="text-pal-text">paldb</span> → <span class="text-pal-text">game8</span> → <span class="text-pal-text">wiki.gg</span>)
-              with in-game <span class="text-pal-text">corrections</span> applied on top.
-              Not affiliated with those sites — use
-              <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a>
-              for the Palpedia screenshot checklist and site conflicts.
-            </p>
-          </div>
-          <div class="text-xs text-pal-muted text-right space-y-0.5">
-            <div><span id="builtAt" class="text-pal-text">—</span></div>
-            <div>Corrections applied: <span id="corrCount" class="text-pal-text font-medium">0</span></div>
-          </div>
+    <main class="flex-1 page-wrap page-wrap-wide flex flex-col gap-3">
+      <div class="page-title-bar flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h1>Partner Skills</h1>
+          <p>
+            Merged catalog from local scrapes
+            (<span class="text-pal-text">paldb</span> → <span class="text-pal-text">game8</span> → <span class="text-pal-text">wiki.gg</span>)
+            with in-game <span class="text-pal-text">corrections</span>. Use
+            <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a>
+            for the Palpedia checklist.
+          </p>
         </div>
-
+        <div class="text-xs text-pal-muted text-right space-y-0.5">
+          <div><span id="builtAt" class="text-pal-text">—</span></div>
+          <div>Corrections applied: <span id="corrCount" class="text-pal-text font-medium">0</span></div>
+        </div>
+      </div>
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
         <div class="flex flex-wrap items-end gap-3">
           <div class="flex-1 min-w-[200px]">
             <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
@@ -1202,20 +1622,17 @@ function buildPartnerVerifyPage() {
   const payloadJson = JSON.stringify(payload);
 
   const body = `
-    <main class="flex-1 w-full mx-auto px-3 md:px-4 py-4 flex flex-col gap-3">
+    <main class="flex-1 page-wrap page-wrap-wide flex flex-col gap-3">
+      <div class="page-title-bar">
+        <h1>Palpedia Verification</h1>
+        <p>
+          In-game partner skill checklist and where the websites disagree.
+          Merged catalog:
+          <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
+          Screenshots live under <span class="text-pal-text font-mono text-xs">reference/partner-skills/corrections/evidence/</span>.
+        </p>
+      </div>
       <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-        <div class="flex flex-wrap items-start justify-between gap-3">
-          <div class="min-w-0 max-w-3xl">
-            <h2 class="text-base font-semibold">Palpedia verification</h2>
-            <p class="text-sm text-pal-muted mt-1 leading-relaxed">
-              Work checklist for in-game partner skill screenshots, plus where the websites disagree.
-              Full merged catalog:
-              <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
-              Screenshots are archived permanently under <span class="text-pal-text font-mono text-xs">reference/partner-skills/corrections/evidence/</span>.
-            </p>
-          </div>
-        </div>
-
         <div id="statCards" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2"></div>
 
         <div class="section-tabs" id="sectionTabs">
@@ -1546,147 +1963,270 @@ showSection('checklist');
   });
 }
 
+function featureCard({ href, cat, title, desc, meta, icon, empty }) {
+  if (empty) {
+    return (
+      '<div class="feature-card is-empty">' +
+      '<div class="feature-thumb">' +
+      escapeHtml(icon || "?") +
+      "</div>" +
+      '<div class="feature-body">' +
+      '<div class="feature-cat">' +
+      escapeHtml(cat || "Coming soon") +
+      "</div>" +
+      '<div class="feature-title">' +
+      escapeHtml(title) +
+      "</div>" +
+      '<p class="feature-desc">' +
+      escapeHtml(desc) +
+      "</p>" +
+      (meta ? '<div class="feature-meta">' + escapeHtml(meta) + "</div>" : "") +
+      "</div></div>"
+    );
+  }
+  return (
+    '<a class="feature-card" href="' +
+    escapeHtml(href) +
+    '">' +
+    '<div class="feature-thumb">' +
+    escapeHtml(icon || "P") +
+    "</div>" +
+    '<div class="feature-body">' +
+    '<div class="feature-cat">' +
+    escapeHtml(cat) +
+    "</div>" +
+    '<div class="feature-title">' +
+    escapeHtml(title) +
+    "</div>" +
+    '<p class="feature-desc">' +
+    escapeHtml(desc) +
+    "</p>" +
+    (meta ? '<div class="feature-meta">' + escapeHtml(meta) + "</div>" : "") +
+    "</div></a>"
+  );
+}
+
 function buildHomePage() {
   const checkStats = partnerChecklist.stats || {};
   const pending = checkStats.pending ?? "—";
   const verified = checkStats.verified ?? 0;
+  const totalCheck = checkStats.total ?? "—";
   const skillCount = (partnerResolved.skills || []).length;
   const palCount = PALS.length;
-  const nameConflicts = partnerDiff.summary?.nameConflictPalCount
-    ?? (partnerDiff.nameConflicts || []).length;
-  const severe = partnerDiff.summary?.severeDescriptionMismatchCount
-    ?? (partnerDiff.severeDescriptionMismatches || []).length;
+  const nameConflicts =
+    partnerDiff.summary?.nameConflictPalCount ??
+    (partnerDiff.nameConflicts || []).length;
+  const severe =
+    partnerDiff.summary?.severeDescriptionMismatchCount ??
+    (partnerDiff.severeDescriptionMismatches || []).length;
 
-  const tools = [
-    {
-      href: "pals.html",
-      title: "Pals spreadsheet",
-      desc: "Sortable work-suitability table for every pal — filter by element, sort work columns high → low, open paldb pages.",
-      meta: [palCount + " pals", "12 work types"],
-      icon: "W",
-      cta: "Open spreadsheet",
-    },
-    {
-      href: "partner-skills.html",
-      title: "Partner skills",
-      desc: "Our merged partner-skill catalog from local scrapes (paldb, game8, wiki.gg) plus in-game corrections. Compare source wording.",
-      meta: [skillCount + " skills", "multi-source"],
-      icon: "P",
-      cta: "Browse catalog",
-    },
-    {
-      href: "partner-verify.html",
-      title: "Verify (Palpedia)",
-      desc: "Screenshot checklist and website conflicts. Track pending pals, name mismatches, and severe description diffs while you verify in-game.",
-      meta: [pending + " pending", nameConflicts + " name conflicts", severe + " severe diffs"],
-      icon: "V",
-      cta: "Work the checklist",
-    },
-    {
-      href: "base-tips.html",
-      title: "Base tips",
-      desc: "Work suitability +1 partner skills for base pals — clear “other base pals” boosts, coverage by work type, and ambiguous cases.",
-      meta: [BASE_WORK_BOOSTERS.length + " clear boosters", AMBIGUOUS_BOOSTERS.length + " ambiguous"],
-      icon: "B",
-      cta: "View base tips",
-    },
-  ];
-
-  const toolCards = tools
+  const quickTools = [
+    { href: "pals.html", label: "Work Suitability spreadsheet", tag: palCount + " pals" },
+    { href: "partner-skills.html", label: "Partner Skills catalog", tag: skillCount + " skills" },
+    { href: "partner-verify.html", label: "Palpedia verification checklist", tag: pending + " pending" },
+    { href: "base-tips.html", label: "Base work +1 partner skills", tag: BASE_WORK_BOOSTERS.length + " boosters" },
+    { label: "Breeding calculator", soon: true },
+    { label: "Team / party builder", soon: true },
+    { label: "Passive skills database", soon: true },
+    { label: "Item & structure browser", soon: true },
+  ]
     .map((t) => {
-      const meta = (t.meta || [])
-        .map(
-          (m) =>
-            '<span class="src-badge">' + escapeHtml(m) + "</span>"
-        )
-        .join("");
+      if (t.soon) {
+        return (
+          '<li><span class="soon-row"><span class="dot muted"></span>' +
+          escapeHtml(t.label) +
+          '<span class="tag">soon</span></span></li>'
+        );
+      }
       return (
-        '<a class="tool-card" href="' +
+        "<li><a href=\"" +
         escapeHtml(t.href) +
-        '">' +
-        '<div class="tool-icon">' +
-        escapeHtml(t.icon) +
-        "</div>" +
-        '<div class="tool-title">' +
-        escapeHtml(t.title) +
-        "</div>" +
-        '<p class="tool-desc">' +
-        escapeHtml(t.desc) +
-        "</p>" +
-        '<div class="tool-meta">' +
-        meta +
-        "</div>" +
-        '<div class="tool-cta">' +
-        escapeHtml(t.cta) +
-        " →</div>" +
-        "</a>"
+        '"><span class="dot"></span>' +
+        escapeHtml(t.label) +
+        (t.tag ? '<span class="tag">' + escapeHtml(t.tag) + "</span>" : "") +
+        "</a></li>"
       );
     })
-    .join("\n");
+    .join("");
+
+  const featured = [
+    featureCard({
+      href: "pals.html",
+      cat: "Database",
+      title: "Pals Work Suitability",
+      desc: "Sortable table for every pal — filter by element, sort work columns high → low, jump to paldb.",
+      meta: palCount + " pals · 12 work types",
+      icon: "WS",
+    }),
+    featureCard({
+      href: "partner-skills.html",
+      cat: "Database",
+      title: "Partner Skills Catalog",
+      desc: "Merged catalog from paldb, game8, wiki.gg scrapes plus in-game corrections.",
+      meta: skillCount + " skills · multi-source",
+      icon: "PS",
+    }),
+    featureCard({
+      href: "partner-verify.html",
+      cat: "Tools",
+      title: "Palpedia Verify",
+      desc: "Screenshot checklist and cross-site conflicts while you verify partner skills in-game.",
+      meta: pending + " pending · " + verified + " verified",
+      icon: "✓",
+    }),
+    featureCard({
+      href: "base-tips.html",
+      cat: "Guides",
+      title: "Base Tips: Work +1 Skills",
+      desc: "Partner skills that raise work suitability for other pals at your base.",
+      meta: BASE_WORK_BOOSTERS.length + " clear · " + AMBIGUOUS_BOOSTERS.length + " ambiguous",
+      icon: "B+",
+    }),
+    featureCard({
+      empty: true,
+      cat: "News",
+      title: "Patch notes & updates",
+      desc: "Site news and Palworld patch coverage will land here.",
+      meta: "Empty",
+      icon: "N",
+    }),
+    featureCard({
+      empty: true,
+      cat: "Guides",
+      title: "Breeding guide",
+      desc: "Parent combos, passive inheritance, and hatching tips.",
+      meta: "Coming soon",
+      icon: "Br",
+    }),
+    featureCard({
+      empty: true,
+      cat: "Database",
+      title: "Passive Skills",
+      desc: "Ranked passives with effects and fixed-on pals.",
+      meta: "Coming soon",
+      icon: "Pa",
+    }),
+    featureCard({
+      empty: true,
+      cat: "Tools",
+      title: "Team Builder",
+      desc: "Plan parties by element, work load, and partner skills.",
+      meta: "Coming soon",
+      icon: "Tb",
+    }),
+  ].join("\n");
 
   const body = `
-    <main class="flex-1 w-full mx-auto px-4 md:px-6 py-6 md:py-10 max-w-6xl flex flex-col gap-6">
-      <section class="home-hero space-y-4">
-        <div class="flex flex-wrap items-start justify-between gap-4">
-          <div class="min-w-0 max-w-2xl">
-            <p class="text-xs font-medium text-pal-muted mb-2">Palworld tools</p>
-            <h2 class="text-2xl md:text-3xl font-semibold tracking-tight leading-tight">Pick a tool</h2>
-            <p class="text-sm md:text-base text-pal-muted mt-2 leading-relaxed">
-              Palhead is a small static toolkit for base work, partner skills, and cleaning up out-of-date wiki data against the live game.
-            </p>
+    <main class="flex-1 page-wrap flex flex-col gap-3">
+      <div class="home-top-grid">
+        <section class="panel" id="tools">
+          <div class="panel-head">
+            <h2>Quick Tools</h2>
+            <span class="panel-meta">Live now · placeholders marked soon</span>
           </div>
-          <div class="grid grid-cols-2 gap-2 min-w-[12rem]">
-            <div class="stat-card">
-              <div class="n">${palCount}</div>
-              <div class="text-xs text-pal-muted mt-1">Pals</div>
-            </div>
-            <div class="stat-card">
-              <div class="n">${skillCount}</div>
-              <div class="text-xs text-pal-muted mt-1">Partner skills</div>
-            </div>
-            <div class="stat-card">
-              <div class="n">${pending}</div>
-              <div class="text-xs text-pal-muted mt-1">Verify pending</div>
-            </div>
-            <div class="stat-card">
-              <div class="n">${verified}</div>
-              <div class="text-xs text-pal-muted mt-1">Verified</div>
-            </div>
+          <ul class="quick-list">${quickTools}</ul>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Site Status</h2>
+            <span class="panel-meta">Data snapshot</span>
+          </div>
+          <ul class="stat-list">
+            <li><span class="label">Pals in database</span><span class="val"><a href="pals.html">${palCount}</a></span></li>
+            <li><span class="label">Partner skills (resolved)</span><span class="val"><a href="partner-skills.html">${skillCount}</a></span></li>
+            <li><span class="label">Palpedia checklist</span><span class="val"><a href="partner-verify.html">${verified}/${totalCheck}</a></span></li>
+            <li><span class="label">Verify pending</span><span class="val"><a href="partner-verify.html">${pending}</a></span></li>
+            <li><span class="label">Name conflicts (sites)</span><span class="val"><a href="partner-verify.html">${nameConflicts}</a></span></li>
+            <li><span class="label">Severe description diffs</span><span class="val"><a href="partner-verify.html">${severe}</a></span></li>
+            <li><span class="label">Base work +1 boosters</span><span class="val"><a href="base-tips.html">${BASE_WORK_BOOSTERS.length}</a></span></li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="panel" id="database">
+        <div class="panel-head">
+          <h2>Featured</h2>
+          <span class="panel-meta">Tools live now · empty slots reserved</span>
+        </div>
+        <div class="panel-body">
+          <div class="feature-grid">
+            ${featured}
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="flex items-end justify-between gap-3 mb-3">
-          <h3 class="text-sm font-medium text-pal-muted">Tools</h3>
-          <p class="text-xs text-pal-muted">Also available in the top nav</p>
+      <section class="panel" id="guides">
+        <div class="panel-head">
+          <h2>Guides</h2>
+          <span class="panel-meta">1 live · more planned</span>
         </div>
-        <div class="grid sm:grid-cols-2 gap-3 md:gap-4">
-          ${toolCards}
+        <div class="guide-pills">
+          <a class="guide-pill" href="base-tips.html">Base Tips</a>
+          <span class="guide-pill soon">Breeding <em>· soon</em></span>
+          <span class="guide-pill soon">Combat <em>· soon</em></span>
+          <span class="guide-pill soon">Exploration <em>· soon</em></span>
+          <span class="guide-pill soon">Bosses <em>· soon</em></span>
+          <span class="guide-pill soon">Farming routes <em>· soon</em></span>
         </div>
       </section>
 
-      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
-        <h3 class="font-medium">Partner skill verification</h3>
-        <p class="text-sm text-pal-muted leading-relaxed">
-          Community sites disagree on skill names and descriptions in different places.
-          Use <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a> to work a Palpedia screenshot checklist,
-          then read the merged result on <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
-        </p>
-        <div class="flex flex-wrap gap-2">
-          <a href="partner-verify.html" class="px-3 py-2 text-sm rounded-md bg-pal-text text-pal-bg font-medium hover:opacity-90 transition">Start checklist</a>
-          <a href="partner-skills.html" class="px-3 py-2 text-sm rounded-md border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Open catalog</a>
-          <a href="pals.html" class="px-3 py-2 text-sm rounded-md border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Work suitability</a>
+      <section class="panel" id="news">
+        <div class="panel-head">
+          <h2>News</h2>
+          <span class="panel-meta">No posts yet</span>
         </div>
+        ${emptyState({
+          icon: "…",
+          title: "No news yet",
+          body: "Patch notes, tool updates, and community write-ups will show up here as a feed — same layout as a dense DB site homepage.",
+        })}
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Latest (placeholder feed)</h2>
+          <span class="panel-meta">Empty state rows</span>
+        </div>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <div class="feed-thumb">—</div>
+            <div>
+              <div class="feed-cat">Coming soon</div>
+              <h3 class="feed-title">Nothing published yet</h3>
+              <p class="feed-desc">When we add news or guide posts, each entry will use a thumbnail, category tag, title, blurb, and date — similar to a Wowhead-style feed.</p>
+              <div class="feed-date">—</div>
+            </div>
+          </li>
+          <li class="feed-item">
+            <div class="feed-thumb">—</div>
+            <div>
+              <div class="feed-cat">Coming soon</div>
+              <h3 class="feed-title">Reserved slot</h3>
+              <p class="feed-desc">Extra empty row so the layout reads as a real content list before we have posts.</p>
+              <div class="feed-date">—</div>
+            </div>
+          </li>
+          <li class="feed-item">
+            <div class="feed-thumb">—</div>
+            <div>
+              <div class="feed-cat">Coming soon</div>
+              <h3 class="feed-title">Reserved slot</h3>
+              <p class="feed-desc">Guides and database deep-dives will stack here under the featured grid.</p>
+              <div class="feed-date">—</div>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
   `;
 
   return shell({
-    title: "Palhead — Palworld tools",
+    title: "Palhead — Palworld Database & Tools",
     subtitle: "Work suitability · partner skills · verification",
     activeNav: "home",
     body,
+    showPromo: true,
   });
 }
 
