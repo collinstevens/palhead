@@ -15,17 +15,17 @@
     "verified": "Partner skill text confirmed from in-game Palpedia screenshot",
     "skipped": "Intentionally skipped (note required)"
   },
-  "generatedAt": "2026-07-13T01:18:48.221Z",
+  "generatedAt": "2026-07-13T02:44:21.149Z",
   "generator": "scripts/build-partner-skills-checklist.js",
   "stats": {
     "total": 301,
-    "pending": 301,
+    "pending": 298,
     "partial": 0,
-    "verified": 0,
+    "verified": 3,
     "skipped": 0,
     "withScrapedSkill": 300,
     "withoutScrapedSkill": 1,
-    "withEvidence": 0
+    "withEvidence": 3
   },
   "pals": [
     {
@@ -45,16 +45,24 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-12",
+      "verifiedFields": [
+        "skillName",
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/001-lamball--fluffy-shield--20260712-194244.jpg"
+      ],
+      "correctionIds": [
+        "lamball-fluffy-shield"
+      ],
+      "notes": "Palpedia Stats; Fluffy Shield text confirmed. Game8 paraphrases ranch drop wording."
     },
     {
       "pal": "Cattiva",
@@ -69,20 +77,28 @@
       "partnerSkills": [
         {
           "name": "Cat Helper",
-          "descriptionScraped": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by (100~200). (Does not stack)",
+          "descriptionScraped": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by 100. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-12",
+      "verifiedFields": [
+        "skillName",
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/002-cattiva--cat-helper--20260712-194338.jpg"
+      ],
+      "correctionIds": [
+        "cattiva-cat-helper"
+      ],
+      "notes": "Palpedia shows +100 fixed; sites disagree (range / team / paraphrase / fandom 50-90)."
     },
     {
       "pal": "Chikipi",
@@ -101,16 +117,24 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-12",
+      "verifiedFields": [
+        "skillName",
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/003-chikipi--egg-layer--20260712-194407.jpg"
+      ],
+      "correctionIds": [
+        "chikipi-egg-layer"
+      ],
+      "notes": "wiki-gg + paldb match; game8 paraphrases produces Eggs."
     },
     {
       "pal": "Lifmunk",
@@ -1219,18 +1243,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Ore Detector",
+          "descriptionScraped": "When activated, generates subtle vibrations to detect nearby ore.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Mining Assistance",
           "descriptionScraped": "While in party, improves player mining efficiency by (30~60)% and reduces Stone weight by (80~100)%. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Ore Detector",
-          "descriptionScraped": "When activated, generates subtle vibrations to detect nearby ore.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -1787,18 +1811,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Skilled Fingers",
+          "descriptionScraped": "While in team, increases Attack of Neutral Pals. While at a base, increases work efficiency when working at Weapon Workbench, Weapon Assembly Line, and other related facilities.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Happy-Go-Lucky Bunny",
           "descriptionScraped": "While in party, increases Attack of Neutral Pals by (15~30)%. (Does not stack) While at a base, increases the Handiwork Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Skilled Fingers",
-          "descriptionScraped": "While in team, increases Attack of Neutral Pals. While at a base, increases work efficiency when working at Weapon Workbench, Weapon Assembly Line, and other related facilities.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -1996,18 +2020,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Galeclaw Glider",
-          "descriptionScraped": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
-          "sources": [
-            "paldb"
-          ]
-        },
-        {
           "name": "Galeclaw Rider",
           "descriptionScraped": "While in team, boosts the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
           "sources": [
             "game8",
             "wiki-gg"
+          ]
+        },
+        {
+          "name": "Galeclaw Glider",
+          "descriptionScraped": "While in party, modifies the performance of the equipped glider. Enables high-speed gliding and allows shooting with the right hand.",
+          "sources": [
+            "paldb"
           ]
         }
       ],
@@ -2308,18 +2332,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Telepeck",
+          "descriptionScraped": "When activated, attacks targeted enemy with a powerful Phantom Peck.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Eerie Nightstreaker",
           "descriptionScraped": "When activated, grants Night Vision to see in dark places. Activate again to turn off. Sometimes digs up Bone when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Telepeck",
-          "descriptionScraped": "When activated, attacks targeted enemy with a powerful Phantom Peck.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -2733,18 +2757,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Plump Body",
+          "descriptionScraped": "Can be ridden. Enhances Neutral attacks while mounted.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Glaring Cat's Eye",
           "descriptionScraped": "Can be ridden. While in party, picking up a Pal Egg has a (50~75)% chance of receiving one extra. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Plump Body",
-          "descriptionScraped": "Can be ridden. Enhances Neutral attacks while mounted.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -3037,18 +3061,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Hawk Eye",
+          "descriptionScraped": "While fighting together, allows you to deal more damage to weak points.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Grounded Archer",
           "descriptionScraped": "While in party, increases the player's bow damage by (10~35)%. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Hawk Eye",
-          "descriptionScraped": "While fighting together, allows you to deal more damage to weak points.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -3663,18 +3687,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Echo Chamber",
-          "descriptionScraped": "While in team, Finsider helps carry supplies, decreasing the weight of weapons in the player's inventory.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Water Gun",
           "descriptionScraped": "When activated, Finsider changes the player's attack type to Water and increases Attack by (30~50)%.",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Echo Chamber",
+          "descriptionScraped": "While in team, Finsider helps carry supplies, decreasing the weight of weapons in the player's inventory.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -4122,18 +4146,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Master Night Angler",
-          "descriptionScraped": "Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
-          "sources": [
-            "wiki-gg"
-          ]
-        },
-        {
           "name": "Master of Darkness",
           "descriptionScraped": "Can be ridden to travel on water. This Pal’s Movement Speed increases by (5~25)% for each other Dark or Water Pal in your party. (Excluding Ghangler)",
           "sources": [
             "paldb",
             "game8"
+          ]
+        },
+        {
+          "name": "Master Night Angler",
+          "descriptionScraped": "Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
+          "sources": [
+            "wiki-gg"
           ]
         }
       ],
@@ -4652,18 +4676,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Overaffectionate",
+          "descriptionScraped": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Love's First Blossom",
           "descriptionScraped": "Can be ridden. While in party, Pal Eggs you pick up have a (35~45)% chance of becoming an Alpha Pal Egg. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Overaffectionate",
-          "descriptionScraped": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -4934,18 +4958,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Hard Armor",
+          "descriptionScraped": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Cast-Iron Shell",
           "descriptionScraped": "While in your party, generates a barrier around the player after 5 melee hits are landed within (5~9) seconds. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Hard Armor",
-          "descriptionScraped": "When fighting together, increases player's defense and reduces damage recieved from Fire.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -5160,18 +5184,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Swooshy Spores",
+          "descriptionScraped": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Rampant Spores",
           "descriptionScraped": "Can be ridden. Sometimes drops Mushroom or Cavern Mushroom when assigned to Ranch.",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Swooshy Spores",
-          "descriptionScraped": "Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -5427,18 +5451,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Sky Dragon's Affection",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Sky Dragon Affection",
           "descriptionScraped": "Can be ridden as a flying mount. While in party, increases Attack of Dragon Pals by (15~30)%. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Sky Dragon's Affection",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Dragon attacks while mounted.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -5462,18 +5486,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Grass Dragon's Affection",
+          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Grass Dragon Affection",
           "descriptionScraped": "Can be ridden as a flying mount. While mounted, changes the player’s attack type to Grass and increases Attack by (5~20)%.",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Grass Dragon's Affection",
-          "descriptionScraped": "Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],
@@ -6189,18 +6213,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
-          "name": "Phantom Venom",
-          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack)",
-          "sources": [
-            "paldb"
-          ]
-        },
-        {
           "name": "Scorpion Sonar",
           "descriptionScraped": "While in the party, increases player's and pal's damage to enemies afflicted with Poison.",
           "sources": [
             "game8",
             "wiki-gg"
+          ]
+        },
+        {
+          "name": "Phantom Venom",
+          "descriptionScraped": "While in party, increases player's and Pals' damage to enemies afflicted with Poison by (50~65)%. (Does not stack)",
+          "sources": [
+            "paldb"
           ]
         }
       ],
@@ -6663,18 +6687,18 @@
       "inPalsData": true,
       "partnerSkills": [
         {
+          "name": "Grassland Speedster",
+          "descriptionScraped": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
+          "sources": [
+            "wiki-gg"
+          ]
+        },
+        {
           "name": "Grassland Gymnast",
           "descriptionScraped": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)",
           "sources": [
             "paldb",
             "game8"
-          ]
-        },
-        {
-          "name": "Grassland Speedster",
-          "descriptionScraped": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
-          "sources": [
-            "wiki-gg"
           ]
         }
       ],

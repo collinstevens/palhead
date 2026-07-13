@@ -1,5 +1,56 @@
 {
   "schemaVersion": 1,
   "purpose": "Ground-truth partner skill amendments verified in-game (screenshots/notes). Applied over scraped sources when building resolved.json. Never mixed into source scrape files.",
-  "entries": []
+  "entries": [
+    {
+      "id": "lamball-fluffy-shield",
+      "status": "active",
+      "match": {
+        "pal": "Lamball",
+        "skillName": "Fluffy Shield"
+      },
+      "fields": {
+        "description": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch."
+      },
+      "verifiedAt": "2026-07-12",
+      "verifiedBy": "user-screenshot",
+      "evidence": "reference/partner-skills/corrections/evidence/001-lamball--fluffy-shield--20260712-194244.jpg",
+      "notes": "Palpedia Stats tab. Game8 paraphrases; wiki-gg and paldb match in-game text.",
+      "gameVersion": null
+    },
+    {
+      "id": "cattiva-cat-helper",
+      "status": "active",
+      "match": {
+        "pal": "Cattiva",
+        "skillName": "Cat Helper"
+      },
+      "fields": {
+        "description": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by 100. (Does not stack)"
+      },
+      "verifiedAt": "2026-07-12",
+      "verifiedBy": "user-screenshot",
+      "evidence": "reference/partner-skills/corrections/evidence/002-cattiva--cat-helper--20260712-194338.jpg",
+      "notes": "Palpedia shows fixed 100 (not paldb range 100~200). wiki-gg uses team and omits number; game8 paraphrases.",
+      "gameVersion": null
+    },
+    {
+      "id": "chikipi-egg-layer",
+      "status": "active",
+      "match": {
+        "pal": "Chikipi",
+        "skillName": "Egg Layer"
+      },
+      "fields": {
+        "description": "Sometimes lays an Egg when assigned to Ranch."
+      },
+      "verifiedAt": "2026-07-12",
+      "verifiedBy": "user-screenshot",
+      "evidence": "reference/partner-skills/corrections/evidence/003-chikipi--egg-layer--20260712-194407.jpg",
+      "notes": "wiki-gg and paldb match; game8 paraphrases as produces Eggs.",
+      "gameVersion": null
+    }
+  ]
 }
+
+

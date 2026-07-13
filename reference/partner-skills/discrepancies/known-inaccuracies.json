@@ -1,5 +1,101 @@
 {
   "schemaVersion": 1,
   "purpose": "Human-maintained log of which sites are wrong/outdated for which partner skill facts. Update as screenshots and in-game checks accumulate. Separate from auto cross-source-diff.json.",
-  "entries": []
+  "entries": [
+    {
+      "id": "lamball-fluffy-shield-desc",
+      "status": "resolved",
+      "pal": "Lamball",
+      "skillName": "Fluffy Shield",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Allows Lamball to be used as a shield. When assigned to the Ranch, Lamball produces Wool.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to Ranch.",
+      "correctionId": "lamball-fluffy-shield",
+      "evidence": "reference/partner-skills/corrections/evidence/001-lamball--fluffy-shield--20260712-194244.jpg",
+      "notes": "Game8 softens activation wording and says Lamball produces Wool instead of sometimes drops Wool.",
+      "updatedAt": "2026-07-12",
+      "resolvedAt": "2026-07-12"
+    },
+    {
+      "id": "cattiva-cat-helper-desc",
+      "status": "resolved",
+      "pal": "Cattiva",
+      "skillName": "Cat Helper",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases the player's max carrying capacity by a small amount while Cattiva is on the team.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by (100~200). (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": "Carry Weight lv1-5: 50/60/70/80/90",
+          "assessment": "wrong"
+        }
+      },
+      "correctValue": "While in party, Cattiva helps carry supplies, increasing the player's max carrying capacity by 100. (Does not stack)",
+      "correctionId": "cattiva-cat-helper",
+      "evidence": "reference/partner-skills/corrections/evidence/002-cattiva--cat-helper--20260712-194338.jpg",
+      "notes": "In-game Palpedia shows fixed +100 and (Does not stack). wiki-gg says team and omits number. paldb uses range (100~200). fandom carry table 50-90 conflicts with shown 100.",
+      "updatedAt": "2026-07-12",
+      "resolvedAt": "2026-07-12"
+    },
+    {
+      "id": "chikipi-egg-layer-desc",
+      "status": "resolved",
+      "pal": "Chikipi",
+      "skillName": "Egg Layer",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "When assigned to the Ranch, Chikipi produces Eggs.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Sometimes lays an Egg when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "paldb": {
+          "value": "Sometimes lays an Egg when assigned to Ranch.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Sometimes lays an Egg when assigned to Ranch.",
+      "correctionId": "chikipi-egg-layer",
+      "evidence": "reference/partner-skills/corrections/evidence/003-chikipi--egg-layer--20260712-194407.jpg",
+      "notes": "Game8 says produces Eggs instead of sometimes lays an Egg.",
+      "updatedAt": "2026-07-12",
+      "resolvedAt": "2026-07-12"
+    }
+  ]
 }
+
+

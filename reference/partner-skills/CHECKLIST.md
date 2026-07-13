@@ -14,22 +14,22 @@ Track in-game Palpedia screenshots for every pal. **Progress source of truth:** 
 
 | Status | Count |
 |--------|------:|
-| pending | 301 |
+| pending | 298 |
 | partial | 0 |
-| verified | 0 |
+| verified | 3 |
 | skipped | 0 |
 | **total** | **301** |
-| with evidence files | 0 |
+| with evidence files | 3 |
 
-Updated: 2026-07-13T01:18:48.221Z
+Updated: 2026-07-13T02:44:21.149Z
 
 ## Checklist
 
 | Done | # | Pal | Scraped partner skill(s) | Evidence |
 |:----:|---:|-----|--------------------------|----------|
-| [ ] | 001 | Lamball | Fluffy Shield |  |
-| [ ] | 002 | Cattiva | Cat Helper |  |
-| [ ] | 003 | Chikipi | Egg Layer |  |
+| [x] | 001 | Lamball | Fluffy Shield | 001-lamball--fluffy-shield--20260712-194244.jpg |
+| [x] | 002 | Cattiva | Cat Helper | 002-cattiva--cat-helper--20260712-194338.jpg |
+| [x] | 003 | Chikipi | Egg Layer | 003-chikipi--egg-layer--20260712-194407.jpg |
 | [ ] | 004 | Lifmunk | Lifmunk Recoil |  |
 | [ ] | 005 | Fuack | Surfing Slam |  |
 | [ ] | 005 | Fuack Ignis | Fire Tackle |  |
@@ -68,7 +68,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 029 | Foxparks Cryst | Huggy Frost |  |
 | [ ] | 030 | Killamari | Fried Squid |  |
 | [ ] | 030 | Killamari Primo | Fried Killamari |  |
-| [ ] | 031 | Fuddler | Mining Assistance; Ore Detector |  |
+| [ ] | 031 | Fuddler | Ore Detector; Mining Assistance |  |
 | [ ] | 032 | Eikthyrdeer | Guardian of the Forest |  |
 | [ ] | 032 | Eikthyrdeer Terra | Guardian of the Golden Forest |  |
 | [ ] | 033 | Direhowl | Direhowl Rider |  |
@@ -88,14 +88,14 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 042 | Sparkit | Static Electricity |  |
 | [ ] | 043 | Kelpsea | Aqua Spout |  |
 | [ ] | 043 | Kelpsea Ignis | Lava Spout |  |
-| [ ] | 044 | Ribbuny | Happy-Go-Lucky Bunny; Skilled Fingers |  |
+| [ ] | 044 | Ribbuny | Skilled Fingers; Happy-Go-Lucky Bunny |  |
 | [ ] | 044 | Ribbuny Botan | Grass Weaver; Ground 'n' Pound |  |
 | [ ] | 045 | Jelliette | Jelliette Drop |  |
 | [ ] | 046 | Jellroy | Jellroy Drop |  |
 | [ ] | 047 | Amione | Magical Twin Powers |  |
 | [ ] | 048 | Gloopie | Sticky Princess |  |
 | [ ] | 048 | Gloopie Primo | Cephalo-Princess |  |
-| [ ] | 049 | Galeclaw | Galeclaw Glider; Galeclaw Rider |  |
+| [ ] | 049 | Galeclaw | Galeclaw Rider; Galeclaw Glider |  |
 | [ ] | 050 | Wispaw | Death-Cheating Feline |  |
 | [ ] | 051 | Nitewing | Travel Companion |  |
 | [ ] | 052 | Tombat | Ultrasonic Sensor |  |
@@ -106,7 +106,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 055 | Gobfin Ignis | Angry Shark |  |
 | [ ] | 056 | Loupmoon | Dark Gleam Strike |  |
 | [ ] | 056 | Loupmoon Cryst | Frozen Gleam Strike |  |
-| [ ] | 057 | Cawgnito | Eerie Nightstreaker; Telepeck |  |
+| [ ] | 057 | Cawgnito | Telepeck; Eerie Nightstreaker |  |
 | [ ] | 058 | Arsox | Warm Body |  |
 | [ ] | 059 | Muffly | Fluffy Flutterer |  |
 | [ ] | 060 | Bristla | Princess Gaze |  |
@@ -121,7 +121,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 067 | Beegarde | Worker Bee |  |
 | [ ] | 068 | Elizabee | Queen Bee Command |  |
 | [ ] | 069 | Lovander | Heart Drain |  |
-| [ ] | 070 | Grintale | Glaring Cat's Eye; Plump Body |  |
+| [ ] | 070 | Grintale | Plump Body; Glaring Cat's Eye |  |
 | [ ] | 071 | Tarantriss | Tarantriss’ Web |  |
 | [ ] | 072 | Polapup | Rider of the Snowy Mountain |  |
 | [ ] | 072 | Polapup Terra | Snowy Mountain Slider |  |
@@ -131,7 +131,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 074 | Gorirat Terra | Full-power Gorilla Mode; Full-Power Gorilla Pound |  |
 | [ ] | 075 | Surfent | Swift Swimmer |  |
 | [ ] | 075 | Surfent Terra | Sand Swimmer |  |
-| [ ] | 076 | Robinquill | Grounded Archer; Hawk Eye |  |
+| [ ] | 076 | Robinquill | Hawk Eye; Grounded Archer |  |
 | [ ] | 076 | Robinquill Terra | Hawk Eye; Master Archer |  |
 | [ ] | 077 | Flopie | Helper Bunny |  |
 | [ ] | 078 | Wixen | Lord Fox |  |
@@ -152,7 +152,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 086 | Munchill | Icy Maw |  |
 | [ ] | 087 | Mammorest | Gaia Crusher |  |
 | [ ] | 087 | Mammorest Cryst | Ice Crusher |  |
-| [ ] | 088 | Finsider | Echo Chamber; Water Gun |  |
+| [ ] | 088 | Finsider | Water Gun; Echo Chamber |  |
 | [ ] | 088 | Finsider Ignis | Ember Chamber |  |
 | [ ] | 089 | Petallia | Blessing of the Flower Spirit |  |
 | [ ] | 089 | Petallia Ignis | Passion of the Flower Spirit |  |
@@ -168,7 +168,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 095 | Foxcicle | Aurora Guide |  |
 | [ ] | 096 | Beakon | Thunderous |  |
 | [ ] | 096 | Beakon Cryst | Coldsnap |  |
-| [ ] | 097 | Ghangler | Master Night Angler; Master of Darkness |  |
+| [ ] | 097 | Ghangler | Master of Darkness; Master Night Angler |  |
 | [ ] | 097 | Ghangler Ignis | Abyssal Celebrity Chef; Flame Lantern |  |
 | [ ] | 098 | Rayhound | Jumping Force; Lightning Shepherd |  |
 | [ ] | 098 | Rayhound Cryst | Snow Shepherd |  |
@@ -186,7 +186,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 105 | Moldron Cryst | Ice Overload |  |
 | [ ] | 106 | Palumba | Samba Step |  |
 | [ ] | 107 | Digtoise | Drill Crusher |  |
-| [ ] | 108 | Broncherry | Love's First Blossom; Overaffectionate |  |
+| [ ] | 108 | Broncherry | Overaffectionate; Love's First Blossom |  |
 | [ ] | 108 | Broncherry Aqua | Overaffectionate; Purity's Full Bloom |  |
 | [ ] | 109 | Dumud | Soil Improver |  |
 | [ ] | 109 | Dumud Gild | Golden Harvest |  |
@@ -195,14 +195,14 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 111 | Kitsun Noct | Fogged Mind; Gloomhowl |  |
 | [ ] | 112 | Blazehowl | Hellflame Lion |  |
 | [ ] | 112 | Blazehowl Noct | Darkflame Lion |  |
-| [ ] | 113 | Warsect | Cast-Iron Shell; Hard Armor |  |
+| [ ] | 113 | Warsect | Hard Armor; Cast-Iron Shell |  |
 | [ ] | 113 | Warsect Terra | Cast-Iron Shell; Fortified Shell; Fullmetal Shell |  |
 | [ ] | 114 | Frostplume | Peacock Pounce; Peacock Poune |  |
 | [ ] | 115 | Majex | Phantasmal Arcana |  |
 | [ ] | 116 | Sibelyx | Silk Maker; Silk Shroud |  |
 | [ ] | 116 | Sibelyx Primo | Gilded Shroud |  |
 | [ ] | 117 | Maraith | Messenger of Death |  |
-| [ ] | 118 | Shroomer | Rampant Spores; Swooshy Spores |  |
+| [ ] | 118 | Shroomer | Swooshy Spores; Rampant Spores |  |
 | [ ] | 118 | Shroomer Noct | Roiling Spores; Swooshy Spores |  |
 | [ ] | 119 | Icelyn | Witch's Icy Veil |  |
 | [ ] | 120 | Gildra | Resurrection |  |
@@ -211,8 +211,8 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 122 | Suzaku | Wings of Flame |  |
 | [ ] | 122 | Suzaku Aqua | Wings of Water |  |
 | [ ] | 123 | Dazemu | Sand Sprint |  |
-| [ ] | 124 | Quivern | Sky Dragon Affection; Sky Dragon's Affection |  |
-| [ ] | 124 | Quivern Botan | Grass Dragon Affection; Grass Dragon's Affection |  |
+| [ ] | 124 | Quivern | Sky Dragon's Affection; Sky Dragon Affection |  |
+| [ ] | 124 | Quivern Botan | Grass Dragon's Affection; Grass Dragon Affection |  |
 | [ ] | 125 | Lullu | Floral Boost |  |
 | [ ] | 126 | Kikit | Rollin' Full Oil; Sandball Soccer; Sandy Beach Ball |  |
 | [ ] | 127 | Yakumo | Birds of a Feather |  |
@@ -237,7 +237,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 138 | Dualith Noct | Corruption Laser |  |
 | [ ] | 139 | Anubis | Guardian of the Desert |  |
 | [ ] | 140 | Sekhmet | Desert Empress |  |
-| [ ] | 141 | Prixter | Phantom Venom; Scorpion Sonar |  |
+| [ ] | 141 | Prixter | Scorpion Sonar; Phantom Venom |  |
 | [ ] | 141 | Prixter Lux | Scorpion Longwave |  |
 | [ ] | 142 | Tetroise | Masonry Archelon |  |
 | [ ] | 142 | Tetroise Primo | Stone-Chaser Archelon |  |
@@ -253,7 +253,7 @@ Updated: 2026-07-13T01:18:48.221Z
 | [ ] | 150 | Omascul | Masquerade Dance |  |
 | [ ] | 151 | Whalaska | Chilled Whale Cruiser |  |
 | [ ] | 151 | Whalaska Ignis | Cozy Whale Cruiser |  |
-| [ ] | 152 | Verdash | Grassland Gymnast; Grassland Speedster |  |
+| [ ] | 152 | Verdash | Grassland Speedster; Grassland Gymnast |  |
 | [ ] | 153 | Splatterina | Blade of Uncontrolled Passion |  |
 | [ ] | 154 | Gildane | Sandstorm's Blessing |  |
 | [ ] | 155 | Dogen | Homeward Prayer |  |
