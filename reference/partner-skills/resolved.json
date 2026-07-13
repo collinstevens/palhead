@@ -1,7 +1,7 @@
 {
   "provenance": {
     "kind": "resolved_view",
-    "builtAt": "2026-07-13T07:46:34.142Z",
+    "builtAt": "2026-07-13T08:00:33.108Z",
     "builder": "scripts/scrape-partner-skills.js",
     "sourceFiles": [
       "reference/partner-skills/sources/wiki-gg.json",
@@ -18,7 +18,7 @@
     "note": "Working query view. For each field, first non-empty among preference wins; corrections always override. Re-run scrape to refresh sources; corrections are preserved."
   },
   "count": 349,
-  "correctionsApplied": 132,
+  "correctionsApplied": 133,
   "skills": [
     {
       "name": "(TBA)",
@@ -342,14 +342,15 @@
       "pal": "Gobfin",
       "no": "55",
       "type": "Combat / Utility",
-      "description": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%.",
+      "description": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x1.1 damage multiplier. While in party, increases the player's Attack by 10%.",
       "elements": [
         "Water"
       ],
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -373,7 +374,9 @@
           "type": "Combat / Utility",
           "description": "When activated, attacks targeted enemy with a powerful Aqua Gun. While in team, increases player's Attack."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "gobfin-angry-shark"
     },
     {
       "name": "Angry Shark",

@@ -1139,6 +1139,22 @@
       "gameVersion": null
     },
     {
+      "id": "gobfin-angry-shark",
+      "status": "active",
+      "match": {
+        "pal": "Gobfin",
+        "skillName": "Angry Shark"
+      },
+      "fields": {
+        "description": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x1.1 damage multiplier. While in party, increases the player's Attack by 10%."
+      },
+      "verifiedAt": "2026-07-13",
+      "verifiedBy": "user-screenshot",
+      "evidence": "reference/partner-skills/corrections/evidence/055-gobfin--angry-shark--20260713-010006.jpg",
+      "notes": "Fixed x1.1 Aqua Gun + 10% player Attack. paldb ranges. wiki/game8 soft.",
+      "gameVersion": null
+    },
+    {
       "id": "gobfin-ignis-angry-shark",
       "status": "active",
       "match": {

@@ -4,7 +4,7 @@
     "sourceLabel": "palworld.fandom.com",
     "sourceUrl": "https://palworld.fandom.com/wiki/Partner_Skills",
     "kind": "level_tables",
-    "scrapedAt": "2026-07-13T07:46:33.533Z",
+    "scrapedAt": "2026-07-13T08:00:32.269Z",
     "scraper": "scripts/scrape-partner-skills.js",
     "note": "Fandom Partner Skills page is quantitative level tables (mount speed, attack boosts, carry weight, etc.), not a skill-name catalog. Skill names are usually absent. Do not hand-edit. Corrections live in corrections/corrections.json."
   },

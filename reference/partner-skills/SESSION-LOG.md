@@ -4,6 +4,17 @@ Append a short entry each time you verify skills or change corrections. Newest a
 
 ---
 
+## 2026-07-13 — Gobfin #055 Angry Shark (backfill)
+
+- Evidence: `055-gobfin--angry-shark--20260713-010006.jpg`
+- In-game: **Angry Shark** — Aqua Gun **x1.1** + player Attack **10%**
+- paldb ranges; wiki/game8 soft/no numbers
+- Checklist: Gobfin → `verified` (was gap under #100)
+
+**Next:** remaining #≤100 gaps (Mau Cryst, Puffolt, variants) or #101+.
+
+---
+
 ## 2026-07-13 — Needoll Noct #100B Hug You So Much
 
 - Evidence: `100B-needoll-noct--hug-you-so-much--20260713-004615.jpg`

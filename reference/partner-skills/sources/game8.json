@@ -4,7 +4,7 @@
     "sourceLabel": "Game8",
     "sourceUrl": "https://game8.co/games/Palworld/archives/439665",
     "kind": "skill_catalog",
-    "scrapedAt": "2026-07-13T07:46:33.425Z",
+    "scrapedAt": "2026-07-13T08:00:32.151Z",
     "scraper": "scripts/scrape-partner-skills.js",
     "note": "Scraped snapshot only. Do not hand-edit. Corrections live in corrections/corrections.json."
   },

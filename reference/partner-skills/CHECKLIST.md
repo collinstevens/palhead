@@ -14,14 +14,14 @@ Track in-game Palpedia screenshots for every pal. **Progress source of truth:** 
 
 | Status | Count |
 |--------|------:|
-| pending | 168 |
+| pending | 167 |
 | partial | 0 |
-| verified | 132 |
+| verified | 133 |
 | skipped | 0 |
 | **total** | **300** |
-| with evidence files | 132 |
+| with evidence files | 133 |
 
-Updated: 2026-07-13T07:46:34.425Z
+Updated: 2026-07-13T08:00:33.395Z
 
 ## Checklist
 
@@ -102,7 +102,7 @@ Updated: 2026-07-13T07:46:34.425Z
 | [x] | 053 | Tocotoco | Eggbomb Launcher | 053-tocotoco--eggbomb-launcher--20260713-003711.jpg |
 | [x] | 054 | Univolt | Swift Deity | 054-univolt--swift-deity--20260713-003711.jpg |
 | [ ] | 054 | Univolt Cryst | Frigid Deity |  |
-| [ ] | 055 | Gobfin | Angry Shark |  |
+| [x] | 055 | Gobfin | Angry Shark | 055-gobfin--angry-shark--20260713-010006.jpg |
 | [x] | 055 | Gobfin Ignis | Angry Shark | 055B-gobfin-ignis--angry-shark--20260713-003842.jpg |
 | [x] | 056 | Loupmoon | Dark Gleam Strike | 056-loupmoon--dark-gleam-strike--20260713-003842.jpg |
 | [x] | 056 | Loupmoon Cryst | Frozen Gleam Strike | 056B-loupmoon-cryst--frozen-gleam-strike--20260713-003842.jpg |

@@ -15,17 +15,17 @@
     "verified": "Partner skill text confirmed from in-game Palpedia screenshot",
     "skipped": "Intentionally skipped (note required)"
   },
-  "generatedAt": "2026-07-13T07:46:34.425Z",
+  "generatedAt": "2026-07-13T08:00:33.395Z",
   "generator": "scripts/build-partner-skills-checklist.js",
   "stats": {
     "total": 300,
-    "pending": 168,
+    "pending": 167,
     "partial": 0,
-    "verified": 132,
+    "verified": 133,
     "skipped": 0,
     "withScrapedSkill": 299,
     "withoutScrapedSkill": 1,
-    "withEvidence": 132
+    "withEvidence": 133
   },
   "pals": [
     {
@@ -2691,20 +2691,27 @@
       "partnerSkills": [
         {
           "name": "Angry Shark",
-          "descriptionScraped": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x(1.1~2.5) damage multiplier. While in party, increases the player's Attack by (10~20)%.",
+          "descriptionScraped": "When activated, attacks targeted enemy with Aqua Gun. When this Pal uses Aqua Gun, it has a x1.1 damage multiplier. While in party, increases the player's Attack by 10%.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "description"
+      ],
+      "evidence": [
+        "reference/partner-skills/corrections/evidence/055-gobfin--angry-shark--20260713-010006.jpg"
+      ],
+      "correctionIds": [
+        "gobfin-angry-shark"
+      ],
+      "notes": "fixed x1.1 Aqua Gun + 10% player Attack; paldb ranges."
     },
     {
       "pal": "Gobfin Ignis",
