@@ -15,17 +15,17 @@
     "verified": "Partner skill text confirmed from in-game Palpedia screenshot",
     "skipped": "Intentionally skipped (note required)"
   },
-  "generatedAt": "2026-07-14T04:07:08.576Z",
+  "generatedAt": "2026-07-14T04:18:44.276Z",
   "generator": "scripts/build-partner-skills-checklist.js",
   "stats": {
     "total": 300,
-    "pending": 167,
+    "pending": 158,
     "partial": 0,
-    "verified": 133,
+    "verified": 142,
     "skipped": 0,
     "withScrapedSkill": 299,
     "withoutScrapedSkill": 1,
-    "withEvidence": 133
+    "withEvidence": 142
   },
   "pals": [
     {
@@ -6273,20 +6273,28 @@
       "partnerSkills": [
         {
           "name": "Wings of Flame",
-          "descriptionScraped": "Can be ridden as a flying mount. This Pal’s Movement Speed increases by (5~25)% for each other Fire Pal in your party. (Excluding Suzaku)",
+          "descriptionScraped": "Can be ridden as a flying mount. This Pal's Movement Speed increases by 5% for each other Fire Pal in your party. (Excluding Suzaku)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/122-suzaku--wings-of-flame--20260713-211811.jpg"
+      ],
+      "correctionIds": [
+        "suzaku-wings-of-flame"
+      ],
+      "notes": "Fixed 5% MS per Fire. paldb range 5~25. game8 soft. wiki wrong (Fire attacks while mounted)."
     },
     {
       "pal": "Suzaku Aqua",
@@ -7190,19 +7198,27 @@
       "partnerSkills": [
         {
           "name": "Masonry Archelon",
-          "descriptionScraped": "Can be ridden While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "descriptionScraped": "Can be ridden. While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/142-tetroise--masonry-archelon--20260713-211811.jpg"
+      ],
+      "correctionIds": [
+        "tetroise-masonry-archelon"
+      ],
+      "notes": "Ride + Mining +1 for other base pals. paldb missing period after ridden. game8 soft. wiki missing."
     },
     {
       "pal": "Tetroise Primo",
@@ -7276,16 +7292,24 @@
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/144-mimog--master-of-unlocking--20260713-211811.jpg"
+      ],
+      "correctionIds": [
+        "mimog-master-of-unlocking"
+      ],
+      "notes": "paldb/game8 exact. wiki skill-level chest types wording outdated."
     },
     {
       "pal": "Xenovader",
@@ -7308,19 +7332,27 @@
         },
         {
           "name": "Unknown Invader",
-          "descriptionScraped": "While in party, increases the damage of the last bullet fired from a full-auto weapon by (100~160)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases the damage of the last bullet fired from a full-auto weapon by 100%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/145-xenovader--unknown-invader--20260713-211811.jpg"
+      ],
+      "correctionIds": [
+        "xenovader-unknown-invader"
+      ],
+      "notes": "Fixed 100% last full-auto bullet. paldb range 100~160. wiki/game8 Meteor Mania wrong skill; game8 Unknown Invader soft."
     },
     {
       "pal": "Xenogard",
@@ -7427,19 +7459,27 @@
       "partnerSkills": [
         {
           "name": "Soul Binder",
-          "descriptionScraped": "While in party, increases Defense of Grass Pals by (15~30)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases Defense of Grass Pals by 15%. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/148B-nitemary-botan--soul-binder--20260713-211716.jpg"
+      ],
+      "correctionIds": [
+        "nitemary-botan-soul-binder"
+      ],
+      "notes": "Fixed 15% Grass Def. paldb range 15~30. game8 soft no %. wiki missing."
     },
     {
       "pal": "Smokie",
@@ -7516,20 +7556,28 @@
       "partnerSkills": [
         {
           "name": "Masquerade Dance",
-          "descriptionScraped": "While in party, increases Party Pals' EXP gained by (40~80)%. (Does not stack)",
+          "descriptionScraped": "While in party, increases Party Pals' EXP gained by 40%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/150-omascul--masquerade-dance--20260713-211716.jpg"
+      ],
+      "correctionIds": [
+        "omascul-masquerade-dance"
+      ],
+      "notes": "Fixed 40% party EXP. paldb range 40~80. wiki/game8 soft team wording no %."
     },
     {
       "pal": "Whalaska",
@@ -7545,20 +7593,28 @@
       "partnerSkills": [
         {
           "name": "Chilled Whale Cruiser",
-          "descriptionScraped": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by (5~14)%. Additionally, while the bars overlap, capture progress increases by (5~14)%. (Does not stack)",
+          "descriptionScraped": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by 5%. Additionally, while the bars overlap, capture progress increases by 5%. (Does not stack)",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/151-whalaska--chilled-whale-cruiser--20260713-211716.jpg"
+      ],
+      "correctionIds": [
+        "whalaska-chilled-whale-cruiser"
+      ],
+      "notes": "Fixed 5% gauge + 5% overlap progress. paldb ranges. wiki soft. game8 paraphrase."
     },
     {
       "pal": "Whalaska Ignis",
@@ -7605,7 +7661,8 @@
           "descriptionScraped": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)",
           "sources": [
             "paldb",
-            "game8"
+            "game8",
+            "correction"
           ]
         },
         {
@@ -7616,12 +7673,19 @@
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/152-verdash--grassland-gymnast--20260713-211716.jpg"
+      ],
+      "correctionIds": [
+        "verdash-grassland-gymnast"
+      ],
+      "notes": "paldb exact. game8 soft (no 1 counts / stack). wiki wrong skill Grassland Speedster (old MS+Grass type)."
     },
     {
       "pal": "Splatterina",
@@ -7831,20 +7895,28 @@
       "partnerSkills": [
         {
           "name": "Steel Guardian Mode",
-          "descriptionScraped": "When activated, a steel resolve increases Knocklem's Attack by (50~200)% and Defense by (50~200)% for a limited time.",
+          "descriptionScraped": "When activated, a steel resolve increases Knocklem's Attack by 50% and Defense by 50% for a limited time.",
           "sources": [
             "paldb",
             "game8",
-            "wiki-gg"
+            "wiki-gg",
+            "correction"
           ]
         }
       ],
-      "status": "pending",
-      "verifiedAt": null,
-      "verifiedFields": [],
-      "evidence": [],
-      "correctionIds": [],
-      "notes": null
+      "status": "verified",
+      "verifiedAt": "2026-07-13",
+      "verifiedFields": [
+        "name",
+        "description"
+      ],
+      "evidence": [
+        "corrections/evidence/159-knocklem--steel-guardian-mode--20260713-211716.jpg"
+      ],
+      "correctionIds": [
+        "knocklem-steel-guardian-mode"
+      ],
+      "notes": "Fixed 50%/50%. paldb range 50~200. wiki/game8 soft no numbers."
     },
     {
       "pal": "Knocklem Ignis",

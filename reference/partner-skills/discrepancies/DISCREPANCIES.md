@@ -2,7 +2,7 @@
 
 Auto-generated from scraped catalogs (`wiki-gg`, `game8`, `paldb`). **Not in-game truth** — use this to prioritize Palpedia screenshots.
 
-Generated: 2026-07-13T08:00:33.055Z
+Generated: 2026-07-14T04:18:44.175Z
 
 ## Summary
 

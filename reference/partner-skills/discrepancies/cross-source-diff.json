@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T08:00:33.055Z",
+  "generatedAt": "2026-07-14T04:18:44.175Z",
   "generator": "scripts/build-partner-skills-discrepancies.js",
   "note": "Website-vs-website only. Not ground truth. In-game screenshots resolve these via corrections/ + checklist.",
   "sourcesCompared": [

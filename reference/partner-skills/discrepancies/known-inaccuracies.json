@@ -4124,6 +4124,285 @@
       "notes": "Fixed Ivy-Covered 2. game8 exact. paldb range.",
       "updatedAt": "2026-07-13",
       "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "nitemary-botan-soul-binder-desc",
+      "status": "resolved",
+      "pal": "Nitemary Botan",
+      "skillName": "Soul Binder",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases Defense of Grass Pals while in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "While in party, increases Defense of Grass Pals by (15~30)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Defense of Grass Pals by 15%. (Does not stack)",
+      "correctionId": "nitemary-botan-soul-binder",
+      "evidence": "reference/partner-skills/corrections/evidence/148B-nitemary-botan--soul-binder--20260713-211716.jpg",
+      "notes": "Fixed 15% Grass Def. paldb range 15~30. game8 soft no %. wiki missing.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "omascul-masquerade-dance-desc",
+      "status": "resolved",
+      "pal": "Omascul",
+      "skillName": "Masquerade Dance",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in team, the Pals in the team gain more experience points.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in team, the Pals in the team gain more experience points.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While in party, increases Party Pals' EXP gained by (40~80)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases Party Pals' EXP gained by 40%. (Does not stack)",
+      "correctionId": "omascul-masquerade-dance",
+      "evidence": "reference/partner-skills/corrections/evidence/150-omascul--masquerade-dance--20260713-211716.jpg",
+      "notes": "Fixed 40% party EXP. paldb range 40~80. wiki/game8 soft team wording no %.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "whalaska-chilled-whale-cruiser-desc",
+      "status": "resolved",
+      "pal": "Whalaska",
+      "skillName": "Chilled Whale Cruiser",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as a mount that grants passive bonuses to fishing minigames while in the party.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden. While fighting together, the fishing minigame starts with the capture gauge higher than usual. Additionally, the capture gauge fills faster when the bar is aligned.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by (5~14)%. Additionally, while the bars overlap, capture progress increases by (5~14)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by 5%. Additionally, while the bars overlap, capture progress increases by 5%. (Does not stack)",
+      "correctionId": "whalaska-chilled-whale-cruiser",
+      "evidence": "reference/partner-skills/corrections/evidence/151-whalaska--chilled-whale-cruiser--20260713-211716.jpg",
+      "notes": "Fixed 5% gauge + 5% overlap progress. paldb ranges. wiki soft. game8 paraphrase.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "verdash-grassland-gymnast-desc",
+      "status": "resolved",
+      "pal": "Verdash",
+      "skillName": "Grassland Gymnast",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, grants additional jump and additional mid-air dash.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When fighting together, increases player's movement speed and Changes the player's attack type to Grass",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": "Verdash grants element swap to Grass with move speed bonus",
+          "assessment": "outdated"
+        }
+      },
+      "correctValue": "While in party, grants 1 additional jump and 1 additional mid-air dash. (Does not stack)",
+      "correctionId": "verdash-grassland-gymnast",
+      "evidence": "reference/partner-skills/corrections/evidence/152-verdash--grassland-gymnast--20260713-211716.jpg",
+      "notes": "paldb exact. game8 soft (no 1 counts / stack). wiki wrong skill Grassland Speedster (old MS+Grass type).",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "knocklem-steel-guardian-mode-desc",
+      "status": "resolved",
+      "pal": "Knocklem",
+      "skillName": "Steel Guardian Mode",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Increases Knocklem's Attack and Defense for a limited time.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "When activated, a steel resolve increases Knocklem's Attack and Defense for a limited time.",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "When activated, a steel resolve increases Knocklem's Attack by (50~200)% and Defense by (50~200)% for a limited time.",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "When activated, a steel resolve increases Knocklem's Attack by 50% and Defense by 50% for a limited time.",
+      "correctionId": "knocklem-steel-guardian-mode",
+      "evidence": "reference/partner-skills/corrections/evidence/159-knocklem--steel-guardian-mode--20260713-211716.jpg",
+      "notes": "Fixed 50%/50%. paldb range 50~200. wiki/game8 soft no numbers.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "suzaku-wings-of-flame-desc",
+      "status": "resolved",
+      "pal": "Suzaku",
+      "skillName": "Wings of Flame",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Can be ridden as a flying mount. This Pal's Movement Speed increases for every other Fire Pal in your party excluding Suzaku.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "Can be ridden as a flying mount. Enhances Fire attacks while mounted.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "Can be ridden as a flying mount. This Pal's Movement Speed increases by (5~25)% for each other Fire Pal in your party. (Excluding Suzaku)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": "Mounted element boost tables (legacy Fire mounted %)",
+          "assessment": "outdated"
+        }
+      },
+      "correctValue": "Can be ridden as a flying mount. This Pal's Movement Speed increases by 5% for each other Fire Pal in your party. (Excluding Suzaku)",
+      "correctionId": "suzaku-wings-of-flame",
+      "evidence": "reference/partner-skills/corrections/evidence/122-suzaku--wings-of-flame--20260713-211811.jpg",
+      "notes": "Fixed 5% MS per Fire. paldb range 5~25. game8 soft. wiki wrong (Fire attacks while mounted).",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "tetroise-masonry-archelon-desc",
+      "status": "resolved",
+      "pal": "Tetroise",
+      "skillName": "Masonry Archelon",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "Functions as mount. Increases the Mining Work Suitability Level for all other Base Pals.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": null,
+          "assessment": "missing"
+        },
+        "paldb": {
+          "value": "Can be ridden While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "Can be ridden. While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "correctionId": "tetroise-masonry-archelon",
+      "evidence": "reference/partner-skills/corrections/evidence/142-tetroise--masonry-archelon--20260713-211811.jpg",
+      "notes": "Ride + Mining +1 for other base pals. paldb missing period after ridden. game8 soft. wiki missing.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "mimog-master-of-unlocking-desc",
+      "status": "resolved",
+      "pal": "Mimog",
+      "skillName": "Master of Unlocking",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While fighting together, Mimog can open treasure chests without using a key.",
+          "assessment": "ok"
+        },
+        "wiki-gg": {
+          "value": "When near a treasure chest, Mimog can open the chest without using a key. The types of treasure chests that can be opened depend on the skill level",
+          "assessment": "outdated"
+        },
+        "paldb": {
+          "value": "While fighting together, Mimog can open treasure chests without using a key.",
+          "assessment": "ok"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While fighting together, Mimog can open treasure chests without using a key.",
+      "correctionId": "mimog-master-of-unlocking",
+      "evidence": "reference/partner-skills/corrections/evidence/144-mimog--master-of-unlocking--20260713-211811.jpg",
+      "notes": "paldb/game8 exact. wiki skill-level chest types wording outdated.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
+    },
+    {
+      "id": "xenovader-unknown-invader-desc",
+      "status": "resolved",
+      "pal": "Xenovader",
+      "skillName": "Unknown Invader",
+      "field": "description",
+      "sources": {
+        "game8": {
+          "value": "While in the party, increases the damage of the last bullet from full-auto weapon.",
+          "assessment": "paraphrase"
+        },
+        "wiki-gg": {
+          "value": "While in the team, increases damage dealt to ores, and it's easier to obtain Meteorite Fragment.",
+          "assessment": "wrong"
+        },
+        "paldb": {
+          "value": "While in party, increases the damage of the last bullet fired from a full-auto weapon by (100~160)%. (Does not stack)",
+          "assessment": "paraphrase"
+        },
+        "fandom": {
+          "value": null,
+          "assessment": "n/a"
+        }
+      },
+      "correctValue": "While in party, increases the damage of the last bullet fired from a full-auto weapon by 100%. (Does not stack)",
+      "correctionId": "xenovader-unknown-invader",
+      "evidence": "reference/partner-skills/corrections/evidence/145-xenovader--unknown-invader--20260713-211811.jpg",
+      "notes": "Fixed 100% last full-auto bullet. paldb range 100~160. wiki/game8 Meteor Mania wrong skill; game8 Unknown Invader soft.",
+      "updatedAt": "2026-07-13",
+      "resolvedAt": "2026-07-13"
     }
   ]
 }

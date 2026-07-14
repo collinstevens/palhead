@@ -14,14 +14,14 @@ Track in-game Palpedia screenshots for every pal. **Progress source of truth:** 
 
 | Status | Count |
 |--------|------:|
-| pending | 167 |
+| pending | 158 |
 | partial | 0 |
-| verified | 133 |
+| verified | 142 |
 | skipped | 0 |
 | **total** | **300** |
-| with evidence files | 133 |
+| with evidence files | 142 |
 
-Updated: 2026-07-14T04:07:08.576Z
+Updated: 2026-07-14T04:18:44.276Z
 
 ## Checklist
 
@@ -208,7 +208,7 @@ Updated: 2026-07-14T04:07:08.576Z
 | [ ] | 120 | Gildra | Resurrection |  |
 | [ ] | 121 | Jormuntide | Stormbringer Sea Dragon |  |
 | [ ] | 121 | Jormuntide Ignis | Stormbringer Lava Dragon |  |
-| [ ] | 122 | Suzaku | Wings of Flame |  |
+| [x] | 122 | Suzaku | Wings of Flame | 122-suzaku--wings-of-flame--20260713-211811.jpg |
 | [ ] | 122 | Suzaku Aqua | Wings of Water |  |
 | [ ] | 123 | Dazemu | Sand Sprint |  |
 | [ ] | 124 | Quivern | Sky Dragon Affection; Sky Dragon's Affection |  |
@@ -239,21 +239,21 @@ Updated: 2026-07-14T04:07:08.576Z
 | [ ] | 140 | Sekhmet | Desert Empress |  |
 | [ ] | 141 | Prixter | Phantom Venom; Scorpion Sonar |  |
 | [ ] | 141 | Prixter Lux | Scorpion Longwave |  |
-| [ ] | 142 | Tetroise | Masonry Archelon |  |
+| [x] | 142 | Tetroise | Masonry Archelon | 142-tetroise--masonry-archelon--20260713-211811.jpg |
 | [ ] | 142 | Tetroise Primo | Stone-Chaser Archelon |  |
 | [ ] | 143 | Nyafia | Shot-Nyan Mode |  |
-| [ ] | 144 | Mimog | Master of Unlocking |  |
-| [ ] | 145 | Xenovader | Meteor Mania; Unknown Invader |  |
+| [x] | 144 | Mimog | Master of Unlocking | 144-mimog--master-of-unlocking--20260713-211811.jpg |
+| [x] | 145 | Xenovader | Meteor Mania; Unknown Invader | 145-xenovader--unknown-invader--20260713-211811.jpg |
 | [ ] | 146 | Xenogard | Crater Enthusiast; Unknown Intruder |  |
 | [ ] | 147 | Prunelia | Prayer for Abundant Harvest |  |
 | [ ] | 148 | Nitemary | Soul Collector |  |
-| [ ] | 148 | Nitemary Botan | Soul Binder |  |
+| [x] | 148 | Nitemary Botan | Soul Binder | 148B-nitemary-botan--soul-binder--20260713-211716.jpg |
 | [ ] | 149 | Smokie | Dig, Dog, Dig!; Dig, Smokie! Dig! |  |
 | [ ] | 149 | Smokie Cryst | Cryo Instincts |  |
-| [ ] | 150 | Omascul | Masquerade Dance |  |
-| [ ] | 151 | Whalaska | Chilled Whale Cruiser |  |
+| [x] | 150 | Omascul | Masquerade Dance | 150-omascul--masquerade-dance--20260713-211716.jpg |
+| [x] | 151 | Whalaska | Chilled Whale Cruiser | 151-whalaska--chilled-whale-cruiser--20260713-211716.jpg |
 | [ ] | 151 | Whalaska Ignis | Cozy Whale Cruiser |  |
-| [ ] | 152 | Verdash | Grassland Gymnast; Grassland Speedster |  |
+| [x] | 152 | Verdash | Grassland Gymnast; Grassland Speedster | 152-verdash--grassland-gymnast--20260713-211716.jpg |
 | [ ] | 153 | Splatterina | Blade of Uncontrolled Passion |  |
 | [ ] | 154 | Gildane | Sandstorm's Blessing |  |
 | [ ] | 155 | Dogen | Homeward Prayer |  |
@@ -261,7 +261,7 @@ Updated: 2026-07-14T04:07:08.576Z
 | [ ] | 157 | Celesdir | Blessing of Purification |  |
 | [ ] | 157 | Celesdir Noct | Blessing of Chaos |  |
 | [ ] | 158 | Astegon | Black Ankylosaur |  |
-| [ ] | 159 | Knocklem | Steel Guardian Mode |  |
+| [x] | 159 | Knocklem | Steel Guardian Mode | 159-knocklem--steel-guardian-mode--20260713-211716.jpg |
 | [ ] | 159 | Knocklem Ignis | Iron Guardian Mode |  |
 | [ ] | 160 | Silvegis | Aegis Shield |  |
 | [ ] | 161 | Azurmane | Plasma Dash |  |

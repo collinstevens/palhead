@@ -1,7 +1,7 @@
 {
   "provenance": {
     "kind": "resolved_view",
-    "builtAt": "2026-07-13T08:00:33.108Z",
+    "builtAt": "2026-07-14T04:18:44.231Z",
     "builder": "scripts/scrape-partner-skills.js",
     "sourceFiles": [
       "reference/partner-skills/sources/wiki-gg.json",
@@ -18,7 +18,7 @@
     "note": "Working query view. For each field, first non-empty among preference wins; corrections always override. Re-run scrape to refresh sources; corrections are preserved."
   },
   "count": 349,
-  "correctionsApplied": 133,
+  "correctionsApplied": 142,
   "skills": [
     {
       "name": "(TBA)",
@@ -1742,7 +1742,7 @@
       "pal": "Whalaska",
       "no": "151",
       "type": "Mount / Utility",
-      "description": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by (5~14)%. Additionally, while the bars overlap, capture progress increases by (5~14)%. (Does not stack)",
+      "description": "Can be ridden. While in party, fishing minigames start with the capture gauge increased by 5%. Additionally, while the bars overlap, capture progress increases by 5%. (Does not stack)",
       "elements": [
         "Ice",
         "Water"
@@ -1750,7 +1750,8 @@
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -1774,7 +1775,9 @@
           "type": "Mount / Utility",
           "description": "Can be ridden. While fighting together, the fishing minigame starts with the capture gauge higher than usual. Additionally, the capture gauge fills faster when the bar is aligned."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "whalaska-chilled-whale-cruiser"
     },
     {
       "name": "Chillswitch",
@@ -4545,7 +4548,8 @@
       ],
       "sources": [
         "paldb",
-        "game8"
+        "game8",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -4562,7 +4566,9 @@
           "type": null,
           "description": "While in the party, grants additional jump and additional mid-air dash."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "verdash-grassland-gymnast"
     },
     {
       "name": "Grassland Speedster",
@@ -7114,13 +7120,14 @@
       "pal": "Tetroise",
       "no": "142",
       "type": null,
-      "description": "Can be ridden While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
+      "description": "Can be ridden. While at a base, increases the Mining Work Suitability Level for all other Base Pals by +1. (Does not stack)",
       "elements": [
         "Ground"
       ],
       "sources": [
         "paldb",
-        "game8"
+        "game8",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -7137,21 +7144,24 @@
           "type": null,
           "description": "Functions as mount. Increases the Mining Work Suitability Level for all other Base Pals."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "tetroise-masonry-archelon"
     },
     {
       "name": "Masquerade Dance",
       "pal": "Omascul",
       "no": "150",
       "type": "Utility",
-      "description": "While in party, increases Party Pals' EXP gained by (40~80)%. (Does not stack)",
+      "description": "While in party, increases Party Pals' EXP gained by 40%. (Does not stack)",
       "elements": [
         "Dark"
       ],
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -7175,7 +7185,9 @@
           "type": "Utility",
           "description": "While in team, the Pals in the team gain more experience points."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "omascul-masquerade-dance"
     },
     {
       "name": "Master Archer",
@@ -7277,7 +7289,8 @@
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -7301,7 +7314,9 @@
           "type": "Utility",
           "description": "When near a treasure chest, Mimog can open the chest without using a key. The types of treasure chests that can be opened depend on the skill level"
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "mimog-master-of-unlocking"
     },
     {
       "name": "Messenger of Death",
@@ -9933,13 +9948,14 @@
       "pal": "Nitemary Botan",
       "no": "148B",
       "type": null,
-      "description": "While in party, increases Defense of Grass Pals by (15~30)%. (Does not stack)",
+      "description": "While in party, increases Defense of Grass Pals by 15%. (Does not stack)",
       "elements": [
         "Grass"
       ],
       "sources": [
         "paldb",
-        "game8"
+        "game8",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -9956,7 +9972,9 @@
           "type": null,
           "description": "Increases Defense of Grass Pals while in the party."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "nitemary-botan-soul-binder"
     },
     {
       "name": "Soul Collector",
@@ -10202,14 +10220,15 @@
       "pal": "Knocklem",
       "no": "159",
       "type": "Combat",
-      "description": "When activated, a steel resolve increases Knocklem's Attack by (50~200)% and Defense by (50~200)% for a limited time.",
+      "description": "When activated, a steel resolve increases Knocklem's Attack by 50% and Defense by 50% for a limited time.",
       "elements": [
         "Ground"
       ],
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -10233,7 +10252,9 @@
           "type": "Combat",
           "description": "When activated, a steel resolve increases Knocklem's Attack and Defense for a limited time."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "knocklem-steel-guardian-mode"
     },
     {
       "name": "Steel Scorpion",
@@ -11084,13 +11105,14 @@
       "pal": "Xenovader",
       "no": "145",
       "type": null,
-      "description": "While in party, increases the damage of the last bullet fired from a full-auto weapon by (100~160)%. (Does not stack)",
+      "description": "While in party, increases the damage of the last bullet fired from a full-auto weapon by 100%. (Does not stack)",
       "elements": [
         "Dark"
       ],
       "sources": [
         "paldb",
-        "game8"
+        "game8",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -11107,7 +11129,9 @@
           "type": null,
           "description": "While in the party, increases the damage of the last bullet from full-auto weapon."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "xenovader-unknown-invader"
     },
     {
       "name": "Untainted Maiden",
@@ -11487,14 +11511,15 @@
       "pal": "Suzaku",
       "no": "122",
       "type": "Mount (Flying)",
-      "description": "Can be ridden as a flying mount. This Pal’s Movement Speed increases by (5~25)% for each other Fire Pal in your party. (Excluding Suzaku)",
+      "description": "Can be ridden as a flying mount. This Pal's Movement Speed increases by 5% for each other Fire Pal in your party. (Excluding Suzaku)",
       "elements": [
         "Fire"
       ],
       "sources": [
         "paldb",
         "game8",
-        "wiki-gg"
+        "wiki-gg",
+        "correction"
       ],
       "perSource": {
         "paldb": {
@@ -11518,7 +11543,9 @@
           "type": "Mount (Flying)",
           "description": "Can be ridden as a flying mount. Enhances Fire attacks while mounted."
         }
-      }
+      },
+      "corrected": true,
+      "correctionId": "suzaku-wings-of-flame"
     },
     {
       "name": "Wings of Thunder",

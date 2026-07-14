@@ -4,6 +4,33 @@ Append a short entry each time you verify skills or change corrections. Newest a
 
 ---
 
+## 2026-07-13 — Suzaku #122 / Tetroise #142 / Mimog #144 / Xenovader #145
+
+- **Suzaku / Wings of Flame** — fly + MS **5%** per Fire (wiki Fire-mounted **wrong**)
+- **Tetroise / Masonry Archelon** — ride + Mining **+1** other base pals
+- **Mimog / Master of Unlocking** — open chests without key (paldb/game8 exact)
+- **Xenovader / Unknown Invader** — last full-auto bullet **100%** (wiki **Meteor Mania** wrong)
+- Evidence timestamp `20260713-211811`
+- Checklist: four → `verified`
+
+**Next:** remaining #101–#160 gaps (Suzaku Aqua, Tetroise Primo, Smokie, Nitemary, etc.).
+
+---
+
+## 2026-07-13 — Nitemary Botan #148B → Knocklem #159 (jump batch of 5)
+
+- **Nitemary Botan / Soul Binder** — Grass Def **15%**
+- **Omascul / Masquerade Dance** — party EXP **40%**
+- **Whalaska / Chilled Whale Cruiser** — ride + fishing gauge **5%** + overlap progress **5%**
+- **Verdash / Grassland Gymnast** — +1 jump + +1 mid-air dash (wiki **Grassland Speedster** wrong)
+- **Knocklem / Steel Guardian Mode** — Atk **50%** + Def **50%** limited time
+- Evidence timestamp `20260713-211716`
+- Checklist: all five → `verified` (138 verified / 162 pending)
+
+**Next:** Nitemary #148 / Smokie #149 / Whalaska Ignis #151B / #153+ or remaining gaps.
+
+---
+
 ## 2026-07-13 — Pierdon #131 Power Stone (retake)
 
 - Evidence: `corrections/evidence/131-pierdon--power-stone--20260713-210652.jpg` (prior: `…20260712-210017.jpg`)
