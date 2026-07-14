@@ -4,6 +4,17 @@ Append a short entry each time you verify skills or change corrections. Newest a
 
 ---
 
+## 2026-07-13 — Pierdon #131 Power Stone (retake)
+
+- Evidence: `corrections/evidence/131-pierdon--power-stone--20260713-210652.jpg` (prior: `…20260712-210017.jpg`)
+- In-game: **Power Stone** — "While in party, increases player's and Pals' damage to enemies afflicted with Muddy by 50%. (Does not stack)"
+- Matches existing correction `pierdon-power-stone`; no field changes
+- Checklist: Pierdon remains `verified` (evidence appended)
+
+**Next:** Pierdon Cryst #131B or continue deck order from Reindrix #101.
+
+---
+
 ## 2026-07-13 — Gobfin #055 Angry Shark (backfill)
 
 - Evidence: `055-gobfin--angry-shark--20260713-010006.jpg`

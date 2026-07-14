@@ -17,11 +17,13 @@ Static site. No framework, no bundler for the app itself.
 | `partner-skills.html` | Generated partner skills catalog (resolved scrapes + corrections). Do not hand-edit; change `build.js` and rebuild. |
 | `partner-verify.html` | Generated Palpedia checklist + site discrepancies. Do not hand-edit; change `build.js` and rebuild. |
 | `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
+| `status-effects.html` | Generated status effects catalog from in-game Survival Guide. Do not hand-edit; change `build.js` and rebuild. |
 | `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
 | `reference/PROVENANCE.md` | How we track where every fact came from (scrapes vs corrections vs resolved). |
 | `reference/passive_skills.json` | Local reference: all passive skills (rank, effects, fixed-on pals). Agent lookup only; not deployed. |
 | `reference/partner-skills/` | Multi-source partner skills: per-site scrapes, corrections, discrepancies, resolved view. See its README. |
 | `reference/partner_skills.json` | Deprecated stub pointing at `reference/partner-skills/`. |
+| `reference/status-effects/` | Survival Guide status effects text + evidence screenshots. See its README. |
 | `reference/work_suitability.json` | Local reference: work suitability definitions, priority, tips. Agent lookup only; not deployed. |
 | `icons/` | Local pal icons (`.webp`), referenced as `icons/<file>`. |
 | `download-icons.js` | Scrapes/resolves paldb CDN icons into `icons/` and updates `img` on pals. |
@@ -65,6 +67,7 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
   - `reference/passive_skills.json` — from [wiki.gg Passive Skills/List](https://palworld.wiki.gg/wiki/Passive_Skills/List)
   - `reference/partner-skills/` — four independent scrapes ([wiki.gg](https://palworld.wiki.gg/wiki/Partner_Skills), [game8](https://game8.co/games/Palworld/archives/439665), [fandom](https://palworld.fandom.com/wiki/Partner_Skills), [paldb](https://paldb.cc/en/Partner_Skill)) + `corrections/` + `resolved.json` + **`checklist.json` / `CHECKLIST.md`** for Palpedia verification. Process: `reference/partner-skills/README.md`. **Preserve every user screenshot forever** under `partner-skills/corrections/evidence/`.
   - `reference/work_suitability.json` — from [fandom Work Suitability](https://palworld.fandom.com/wiki/Work_Suitability)
+  - `reference/status-effects/` — in-game Survival Guide → Tips → Status Effects (screenshot-verified). Evidence under `status-effects/evidence/`.
   - Refresh scrapes with `npm run scrape-reference` / `npm run scrape-partner-skills`. Apply in-game fixes only via `partner-skills/corrections/`.
 
 ## Hosting

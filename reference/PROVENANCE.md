@@ -58,6 +58,7 @@ Sources (each file is independent):
 |------|--------|--------|
 | `passive_skills.json` | wiki.gg Passive Skills/List | Single-source scrape today |
 | `work_suitability.json` | fandom Work Suitability | Definitions + priority notes |
+| `status-effects/` | In-game Survival Guide → Tips → Status Effects | Screenshot-verified; evidence under `status-effects/evidence/` |
 | `pals_data.json` (repo root) | Community dumps + paldb icons | Deployed dataset; separate from wiki partner-skill catalogs |
 
 When those gain multi-source treatment, follow the same **sources / corrections / discrepancies / resolved** split as partner skills.

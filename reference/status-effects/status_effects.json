@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "sourceId": "in-game-survival-guide",
+    "sourceLabel": "In-game Survival Guide → Tips → Status Effects",
+    "sourceUrl": null,
+    "kind": "status_effects_catalog",
+    "capturedAt": "2026-07-13T21:10:50.000Z",
+    "verifiedBy": "user-screenshot",
+    "note": "Exact wording transcribed from Palworld Survival Guide tips. Do not mix wiki paraphrases."
+  },
+  "evidence": [
+    "reference/status-effects/evidence/001-options-survival-guide--20260713-211050.jpg",
+    "reference/status-effects/evidence/002-status-effects-intro--20260713-211050.jpg",
+    "reference/status-effects/evidence/003-status-effects-burn-soaked--20260713-211050.jpg",
+    "reference/status-effects/evidence/004-status-effects-soaked-freeze--20260713-211050.jpg",
+    "reference/status-effects/evidence/005-status-effects-muddy--20260713-211050.jpg",
+    "reference/status-effects/evidence/006-status-effects-blind-poison--20260713-211050.jpg"
+  ],
+  "intro": [
+    "Pals and players may suffer status effects from nearby environments or skills.",
+    "There are many types of status effects, with varying differences.",
+    "Also, Pals are easier to capture when they are affected by a status effect."
+  ],
+  "effects": [
+    {
+      "id": "burn",
+      "name": "Burn",
+      "accent": "Fire",
+      "description": "The body catches fire and takes continuous damage. Damage taken from Grass attacks is reduced. Fire and Water Pals cannot be Burned."
+    },
+    {
+      "id": "soaked",
+      "name": "Soaked",
+      "accent": "Water",
+      "description": "The body becomes soaked, reducing movement speed. Damage taken from Electric attacks is increased. Damage taken from Fire attacks is reduced."
+    },
+    {
+      "id": "ivy-covered",
+      "name": "Ivy-Covered",
+      "accent": "Grass",
+      "description": "Vines wrap around the body, reducing movement speed. Certain actions, such as jumping and dodging, are restricted. Damage taken from Fire attacks is increased."
+    },
+    {
+      "id": "electrify",
+      "name": "Electrify",
+      "accent": "Electric",
+      "description": "Electricity paralyzes the body, rendering the target unable to act. Damage taken from Water attacks is increased."
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "accent": "Ice",
+      "description": "The body is frozen solid, rendering the target unable to act."
+    },
+    {
+      "id": "muddy",
+      "name": "Muddy",
+      "accent": "Ground",
+      "description": "The body becomes covered in mud, reducing movement speed. Damage taken from Grass attacks is increased. Damage taken from Electric attacks is reduced."
+    },
+    {
+      "id": "blind",
+      "name": "Blind",
+      "accent": "Dark",
+      "description": "Vision darkens, causing the target to lose sight of enemies."
+    },
+    {
+      "id": "poison",
+      "name": "Poison",
+      "accent": "Dark",
+      "description": "The body is afflicted with poison and takes continuous damage."
+    }
+  ]
+}

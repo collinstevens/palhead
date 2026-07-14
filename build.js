@@ -3,6 +3,7 @@ const data = require("./pals_data.json");
 const partnerResolved = require("./reference/partner-skills/resolved.json");
 const partnerChecklist = require("./reference/partner-skills/checklist.json");
 const partnerDiff = require("./reference/partner-skills/discrepancies/cross-source-diff.json");
+const statusEffects = require("./reference/status-effects/status_effects.json");
 const dataJson = JSON.stringify(data);
 
 const WORK = data.work;
@@ -24,9 +25,10 @@ const NAV_SECTIONS = [
     id: "guides",
     label: "Guides",
     href: "base-tips.html",
-    activeOn: ["base-tips"],
+    activeOn: ["base-tips", "status-effects"],
     items: [
       { href: "base-tips.html", label: "Base Tips" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "index.html#guides", label: "Breeding", soon: true },
       { href: "index.html#guides", label: "Combat", soon: true },
       { href: "index.html#guides", label: "Exploration", soon: true },
@@ -37,10 +39,11 @@ const NAV_SECTIONS = [
     id: "database",
     label: "Database",
     href: "pals.html",
-    activeOn: ["pals", "partner-skills"],
+    activeOn: ["pals", "partner-skills", "status-effects"],
     items: [
       { href: "pals.html", label: "Pals" },
       { href: "partner-skills.html", label: "Partner Skills" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "index.html#database", label: "Passive Skills", soon: true },
       { href: "index.html#database", label: "Items", soon: true },
       { href: "index.html#database", label: "Structures", soon: true },
@@ -57,6 +60,7 @@ const NAV_SECTIONS = [
       { href: "partner-skills.html", label: "Partner Skill Catalog" },
       { href: "partner-verify.html", label: "Palpedia Verify" },
       { href: "base-tips.html", label: "Base Boosters" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "index.html#tools", label: "Breeding Calculator", soon: true },
       { href: "index.html#tools", label: "Team Builder", soon: true },
     ],
@@ -69,6 +73,7 @@ const FOOTER_COLS = [
     links: [
       { href: "pals.html", label: "Pals" },
       { href: "partner-skills.html", label: "Partner Skills" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "#", label: "Passive Skills", soon: true },
       { href: "#", label: "Items", soon: true },
       { href: "#", label: "Structures", soon: true },
@@ -80,6 +85,7 @@ const FOOTER_COLS = [
       { href: "pals.html", label: "Work Suitability" },
       { href: "partner-verify.html", label: "Palpedia Verify" },
       { href: "base-tips.html", label: "Base Boosters" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "#", label: "Breeding Calculator", soon: true },
       { href: "#", label: "Team Builder", soon: true },
     ],
@@ -88,6 +94,7 @@ const FOOTER_COLS = [
     title: "Guides",
     links: [
       { href: "base-tips.html", label: "Base Tips" },
+      { href: "status-effects.html", label: "Status Effects" },
       { href: "#", label: "Breeding", soon: true },
       { href: "#", label: "Combat", soon: true },
       { href: "#", label: "Exploration", soon: true },
@@ -964,6 +971,94 @@ function buildBaseTipsPage() {
     title: "Palhead — Base Tips",
     subtitle: "Palworld tools — base work suitability boosts",
     activeNav: "base-tips",
+    body,
+  });
+}
+
+function statusEffectCards() {
+  return (statusEffects.effects || [])
+    .map((fx) => {
+      const accent = fx.accent || "Neutral";
+      return (
+        '<article class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex flex-col">' +
+        '<div class="px-4 py-3 border-b border-pal-border/70 flex items-center justify-between gap-2">' +
+        "<h3 class=\"font-semibold tracking-tight\">" +
+        escapeHtml(fx.name) +
+        "</h3>" +
+        '<span class="elem elem-' +
+        escapeHtml(accent) +
+        ' text-[11px]">' +
+        escapeHtml(accent) +
+        "</span>" +
+        "</div>" +
+        '<p class="px-4 py-3 text-sm text-pal-muted leading-relaxed flex-1">' +
+        escapeHtml(fx.description) +
+        "</p>" +
+        "</article>"
+      );
+    })
+    .join("\n");
+}
+
+function buildStatusEffectsPage() {
+  const introParas = (statusEffects.intro || [])
+    .map(
+      (line) =>
+        '<p class="text-sm text-pal-muted leading-relaxed">' +
+        escapeHtml(line) +
+        "</p>"
+    )
+    .join("\n");
+  const effectCount = (statusEffects.effects || []).length;
+  const sourceLabel =
+    (statusEffects.provenance && statusEffects.provenance.sourceLabel) ||
+    "In-game Survival Guide";
+  const capturedAt =
+    statusEffects.provenance && statusEffects.provenance.capturedAt
+      ? statusEffects.provenance.capturedAt.slice(0, 10)
+      : null;
+
+  const body = `
+    <main class="flex-1 page-wrap flex flex-col gap-3">
+      <div class="page-title-bar">
+        <h1>Status Effects</h1>
+        <p>Exact text from the in-game Survival Guide tip — what each status does when applied.</p>
+      </div>
+
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-3">
+        <div class="flex flex-wrap items-start justify-between gap-2">
+          <h2 class="text-xl font-semibold tracking-tight">Survival Guide</h2>
+          <span class="text-xs text-pal-muted">Options → Survival Guide → Tips → Status Effects</span>
+        </div>
+        <div class="space-y-2">
+          ${introParas}
+        </div>
+        <p class="text-xs text-pal-muted pt-1 border-t border-pal-border/60">
+          Source: <span class="text-pal-text">${escapeHtml(sourceLabel)}</span>
+          ${capturedAt ? " · captured " + escapeHtml(capturedAt) : ""}
+          · ${effectCount} effects
+        </p>
+      </section>
+
+      <section class="grid sm:grid-cols-2 xl:grid-cols-2 gap-3">
+        ${statusEffectCards()}
+      </section>
+
+      <section class="bg-pal-panel border border-pal-border rounded-lg p-4 md:p-5 space-y-2">
+        <h3 class="font-semibold">Notes</h3>
+        <ul class="space-y-2 text-sm text-pal-muted">
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Wording above is transcribed from the Survival Guide only — not from wiki sites.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Partner skills that name a status (e.g. <span class="text-pal-text">Muddy</span> on Pierdon's Power Stone) use these conditions.</span></li>
+          <li class="flex gap-2"><span class="text-pal-muted">·</span><span>Element-colored badges on each card are site labels for scanability; the guide itself does not list an element per status.</span></li>
+        </ul>
+      </section>
+    </main>
+  `;
+
+  return shell({
+    title: "Palhead — Status Effects",
+    subtitle: "Palworld tools — Survival Guide status effects",
+    activeNav: "status-effects",
     body,
   });
 }
@@ -2020,11 +2115,13 @@ function buildHomePage() {
     partnerDiff.summary?.severeDescriptionMismatchCount ??
     (partnerDiff.severeDescriptionMismatches || []).length;
 
+  const statusCount = (statusEffects.effects || []).length;
   const quickTools = [
     { href: "pals.html", label: "Work Suitability spreadsheet", tag: palCount + " pals" },
     { href: "partner-skills.html", label: "Partner Skills catalog", tag: skillCount + " skills" },
     { href: "partner-verify.html", label: "Palpedia verification checklist", tag: pending + " pending" },
     { href: "base-tips.html", label: "Base work +1 partner skills", tag: BASE_WORK_BOOSTERS.length + " boosters" },
+    { href: "status-effects.html", label: "Status Effects (Survival Guide)", tag: statusCount + " effects" },
     { label: "Breeding calculator", soon: true },
     { label: "Team / party builder", soon: true },
     { label: "Passive skills database", soon: true },
@@ -2081,6 +2178,14 @@ function buildHomePage() {
       desc: "Partner skills that raise work suitability for other pals at your base.",
       meta: BASE_WORK_BOOSTERS.length + " clear · " + AMBIGUOUS_BOOSTERS.length + " ambiguous",
       icon: "B+",
+    }),
+    featureCard({
+      href: "status-effects.html",
+      cat: "Guides",
+      title: "Status Effects",
+      desc: "Burn, Muddy, Soaked, and the rest — exact Survival Guide wording for every status.",
+      meta: (statusEffects.effects || []).length + " effects · in-game source",
+      icon: "Fx",
     }),
     featureCard({
       empty: true,
@@ -2140,6 +2245,7 @@ function buildHomePage() {
             <li><span class="label">Name conflicts (sites)</span><span class="val"><a href="partner-verify.html">${nameConflicts}</a></span></li>
             <li><span class="label">Severe description diffs</span><span class="val"><a href="partner-verify.html">${severe}</a></span></li>
             <li><span class="label">Base work +1 boosters</span><span class="val"><a href="base-tips.html">${BASE_WORK_BOOSTERS.length}</a></span></li>
+            <li><span class="label">Status effects (Survival Guide)</span><span class="val"><a href="status-effects.html">${(statusEffects.effects || []).length}</a></span></li>
           </ul>
         </section>
       </div>
@@ -2159,10 +2265,11 @@ function buildHomePage() {
       <section class="panel" id="guides">
         <div class="panel-head">
           <h2>Guides</h2>
-          <span class="panel-meta">1 live · more planned</span>
+          <span class="panel-meta">2 live · more planned</span>
         </div>
         <div class="guide-pills">
           <a class="guide-pill" href="base-tips.html">Base Tips</a>
+          <a class="guide-pill" href="status-effects.html">Status Effects</a>
           <span class="guide-pill soon">Breeding <em>· soon</em></span>
           <span class="guide-pill soon">Combat <em>· soon</em></span>
           <span class="guide-pill soon">Exploration <em>· soon</em></span>
@@ -2233,19 +2340,23 @@ function buildHomePage() {
 const homeHtml = buildHomePage();
 const palsHtml = buildPalsPage();
 const baseTipsHtml = buildBaseTipsPage();
+const statusEffectsHtml = buildStatusEffectsPage();
 const partnerSkillsHtml = buildPartnerSkillsPage();
 const partnerVerifyHtml = buildPartnerVerifyPage();
 
 fs.writeFileSync("index.html", homeHtml);
 fs.writeFileSync("pals.html", palsHtml);
 fs.writeFileSync("base-tips.html", baseTipsHtml);
+fs.writeFileSync("status-effects.html", statusEffectsHtml);
 fs.writeFileSync("partner-skills.html", partnerSkillsHtml);
 fs.writeFileSync("partner-verify.html", partnerVerifyHtml);
 console.log("wrote index.html", fs.statSync("index.html").size, "bytes");
 console.log("wrote pals.html", fs.statSync("pals.html").size, "bytes");
 console.log("wrote base-tips.html", fs.statSync("base-tips.html").size, "bytes");
+console.log("wrote status-effects.html", fs.statSync("status-effects.html").size, "bytes");
 console.log("wrote partner-skills.html", fs.statSync("partner-skills.html").size, "bytes");
 console.log("wrote partner-verify.html", fs.statSync("partner-verify.html").size, "bytes");
 console.log("pals:", data.pals.length);
 console.log("partner skills:", (partnerResolved.skills || []).length);
 console.log("checklist pals:", (partnerChecklist.pals || []).length);
+console.log("status effects:", (statusEffects.effects || []).length);

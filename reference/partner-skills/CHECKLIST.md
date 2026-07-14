@@ -21,7 +21,7 @@ Track in-game Palpedia screenshots for every pal. **Progress source of truth:** 
 | **total** | **300** |
 | with evidence files | 133 |
 
-Updated: 2026-07-13T08:00:33.395Z
+Updated: 2026-07-14T04:07:08.576Z
 
 ## Checklist
 
@@ -222,7 +222,7 @@ Updated: 2026-07-13T08:00:33.395Z
 | [ ] | 129 | Reptyro Cryst | Ice-Loving Beast; Ore-loving Beast |  |
 | [ ] | 130 | Starryon | Night Dancer |  |
 | [ ] | 130 | Starryon Primo | Light Dancer |  |
-| [x] | 131 | Pierdon | Power Stone | 131-pierdon--power-stone--20260712-210017.jpg |
+| [x] | 131 | Pierdon | Power Stone | 131-pierdon--power-stone--20260712-210017.jpg, 131-pierdon--power-stone--20260713-210652.jpg |
 | [ ] | 131 | Pierdon Cryst | Power Crystal |  |
 | [ ] | 132 | Cryolinx | Dragon Hunter |  |
 | [ ] | 132 | Cryolinx Terra | Electro Hunter; Explosive Strength |  |
