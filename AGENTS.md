@@ -69,6 +69,7 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
   - `reference/work_suitability.json` — from [fandom Work Suitability](https://palworld.fandom.com/wiki/Work_Suitability)
   - `reference/status-effects/` — in-game Survival Guide → Tips → Status Effects (screenshot-verified). Evidence under `status-effects/evidence/`.
   - Refresh scrapes with `npm run scrape-reference` / `npm run scrape-partner-skills`. Apply in-game fixes only via `partner-skills/corrections/`.
+- **External reference repo (not in this tree):** `C:\projects\collinstevens\paldb-cc-exports` — local crawl/export of [paldb.cc](https://paldb.cc) HTML pages (`exports/en/…`). Prefer this over live fetches when looking up paldb.cc content.
 
 ## Hosting
 
