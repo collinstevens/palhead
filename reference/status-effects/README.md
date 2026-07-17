@@ -2,7 +2,7 @@
 
 In-game **Survival Guide → Tips → Status Effects** text, captured from screenshots.
 
-**Not shipped** on the Phase 0 rebuild scaffold yet. Keep this folder until a guides phase re-adds the page.
+Shipped on **`/guides/status-effects/`** (normalized into `data/normalized/status-effects.json` at build time).
 
 | File | Role |
 |------|------|

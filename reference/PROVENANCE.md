@@ -66,7 +66,7 @@ Typical style tables (when present): `homepage.json`, `news.json`, `guides.json`
 ## 3. Local exception: status effects
 
 `reference/status-effects/` is in-game **Survival Guide → Tips → Status Effects** text with screenshots.  
-Preserve evidence; re-ship when guides return. Not from paldb multi-wiki merge; not from Wowhead.
+Shipped on `/guides/status-effects/`. Preserve evidence JSON + images; not from paldb multi-wiki merge; not from Wowhead.
 
 ---
 

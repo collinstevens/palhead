@@ -151,7 +151,7 @@ function homePage({ siteMeta, pals }) {
       ${panel({
         id: "news",
         title: "News",
-        meta: "Empty — Phase 8+",
+        meta: "See /news/",
         body:
           '<div class="wh-section-grid-2">' +
           '<div class="wh-split">' +

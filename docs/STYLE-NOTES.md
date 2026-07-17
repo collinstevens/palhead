@@ -1,4 +1,4 @@
-# Palhead style notes (Phase 3)
+# Palhead style notes
 
 **Identity:** Palhead (not a rebrand).  
 **Influence:** Wowhead-class game-database density via `wowhead-com-exports` → `data/style-vendor/`.  
@@ -11,8 +11,7 @@
 | Name | **Palhead** |
 | Density | High — multi-panel home, dual-row nav (primary + subnav), sticky header |
 | **Content width** | **Centered island** `max-width: 1280px` for header inner, icon rail, main, footer (black gutters like Wowhead) |
-| Empty content | **Stub hubs** for everything not built yet; honest “coming soon” / reserved feed rows |
-| Live surfaces | Migrate pals, skills, work suitability into the new chrome |
+| Empty content | Honest empty states via `site/empty.js` — never invent fake entities |
 | Framework | Multi-page SSG + vanilla JS only |
 
 ## Taken from Wowhead (feel)
@@ -21,9 +20,8 @@
 - Secondary quick-link strip under the main nav
 - Panel blocks with uppercase section headers
 - Home: main column + right rail (tools list, snapshot, samples)
-- Empty feed rows that look like a news list without inventing posts
 - Dense tables with sticky name columns
-- Search field stub in header (global search = later phase)
+- Header global search (Cmd/Ctrl-K) over the search index
 
 ## Color & type (matched to Wowhead `global.css` / `universal.css`)
 
@@ -51,32 +49,27 @@ Loaded via Google Fonts: Open Sans 400/600/700.
 - Fake game data to fill empty hubs
 - Copying WoW news/guide article text into Palhead product UI
 
-## Stub routes (empty)
+## Live routes
 
-`/news/`, `/guides/`, `/guides/base-tips/`, `/guides/status-effects/`,  
-`/database/`, `/items/`, `/structures/`, `/tech/`, `/world/`,  
-`/tools/`, `/tools/breeding/`, `/tools/team-builder/`, `/tools/drop-finder/`
-
-## Live routes (migrated chrome)
-
-`/`, `/pals/`, `/pal/{slug}/`, `/skills/…`, `/tools/*`,  
+`/`, `/pals/`, `/pal/{slug}/`, `/skills/…`,  
 `/items/`, `/items/{category}/`, `/item/{slug}/`, `/recipes/`,  
 `/structures/`, `/structure/{slug}/`, `/tech/`, `/tech/{slug}/`,  
-`/world/…`, `/guides/…`, `/news/`, `/database/`
+`/world/…`, `/guides/…`, `/news/`, `/database/`,  
+`/tools/`, `/tools/work-suitability/`, `/tools/breeding/`,  
+`/tools/team-builder/`, `/tools/drop-finder/`
 
-## Reuse contract for phases 4–8
+## Page chrome contract
 
-When implementing items, base/tech, world, tools, or polish:
+When adding or changing pages:
 
-1. **Extend, don’t fork** — every new page goes through `site/shell.js` (centered 1280px island, dual nav, icon rail, footer).
+1. **Extend, don’t fork** — every page goes through `site/shell.js` (centered 1280px island, dual nav, icon rail, footer).
 2. **Same list chrome as pals/skills** — filter bar, result count, dense table; client pattern after `site/client/pals-browser.js` / `skills-browser.js`.
 3. **Same detail chrome** — breadcrumb → entity head → quick facts → stacked `wh-panel` sections.
 4. **Empty states** — `site/empty.js` only; never invent fake entities to fill hubs.
-5. **Promote stubs in place** — replace stub content for the existing URL; keep unfinished hubs honest.
-6. **Cross-link the graph** — item ↔ recipe ↔ structure ↔ drop ↔ pal; dead-end pages are a UX failure.
-7. **Style cues** — `data/style-vendor/` + this file; game facts only from `data/vendor/` / normalized.
+5. **Cross-link the graph** — item ↔ recipe ↔ structure ↔ drop ↔ pal; dead-end pages are a UX failure.
+6. **Style cues** — `data/style-vendor/` + this file; game facts only from `data/vendor/` / normalized.
 
-Full phase-by-phase UX requirements: `docs/SITE-REBUILD.md` §5 “Wowhead UX contract” and each of Phases 4–8.
+**Shared primitives:** `site/shell.js`, `site/empty.js`, list clients under `site/client/`, page modules under `site/pages/`.
 
 ## Refresh style sample
 
@@ -84,4 +77,4 @@ Full phase-by-phase UX requirements: `docs/SITE-REBUILD.md` §5 “Wowhead UX co
 npm run style:import
 ```
 
-See also `reference/PROVENANCE.md` and `docs/SITE-REBUILD.md` Phase 3 + phases 4–8.
+See also `reference/PROVENANCE.md` and `docs/ICONS.md`.

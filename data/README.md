@@ -69,17 +69,26 @@ Style vendor is **not** fed into normalize as game entities. Agents and UI work 
 | File | Purpose |
 |------|---------|
 | `site-meta.json` | Footer version, bundle name, validation, counts |
-| `search-index.json` | Search entries |
+| `search-index.json` | Global search entries |
 | `pals.json` / `pals-by-slug.json` | Pal list + detail |
 | `skills-*.json` | Partner / passive / active |
-| `items-*.json` | Materials / weapons / armor |
+| `items-*.json` / `recipes.json` | Items by category + craft |
 | `structures.json` / `technologies.json` | Base / tech |
-| `relations.json` | pal↔skill links |
+| `world-*.json` / `drops-browser.json` | World content + drop finder |
+| `breeding.json` | Breeding tool inputs |
+| `news.json` / `tips.json` / `status-effects.json` | News + guides |
+| `relations.json` | Cross-entity links |
 | `manifest.json` | Build inventory |
 
 ## Routing (site)
 
+Nested static folders under `dist/`. Full map: `AGENTS.md` / `CLAUDE.md`.
+
 - `/` → home  
 - `/pals/`, `/pal/{slug}/`  
 - `/skills/…`  
-- `/tools/work-suitability/`  
+- `/items/…`, `/item/{slug}/`, `/recipes/`  
+- `/structures/…`, `/structure/{slug}/`, `/tech/…`  
+- `/world/…`  
+- `/tools/work-suitability/`, `/tools/breeding/`, `/tools/team-builder/`, `/tools/drop-finder/`  
+- `/guides/…`, `/news/`, `/database/`  

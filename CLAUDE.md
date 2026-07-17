@@ -1,13 +1,14 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Phases 0–8 complete (encyclopedia, tools, search, news, sitemap).
+Palworld multi-page static database & tools site.
 
 **Live:** https://palhead.com  
 **Pages (previews):** https://palhead.pages.dev  
 **Pages project:** `palhead`  
 **Game data source of truth:** [paldb.cc](https://paldb.cc) via `paldb-cc-exports`  
 **UX / style reference:** [wowhead.com](https://www.wowhead.com/) sample via `wowhead-com-exports`  
-**Plan:** `docs/SITE-REBUILD.md` (Phase 3 design **done**; phases 4–8 content/tools **must reuse** Wowhead chrome — see §5 UX contract + `docs/STYLE-NOTES.md`)
+**Style notes:** `docs/STYLE-NOTES.md`  
+**Icons:** `docs/ICONS.md`
 
 ## Architecture
 
@@ -22,15 +23,17 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 | `scripts/data-import.js` | Latest paldb publish → `data/vendor/` (game) |
 | `scripts/style-import.js` | Latest wowhead sample publish → `data/style-vendor/` (UX only) |
 | `scripts/data-normalize.js` | Normalize **game** vendor → `data/normalized/` |
+| `scripts/download-icons.js` | Local pal/item/structure icons from paldb CDN |
 | `scripts/prepare-dist.js` | Ensure `dist/icons` after build |
 | `data/vendor/` | Pinned paldb game snapshot (gitignored contents) |
 | `data/style-vendor/` | Pinned wowhead style sample (gitignored contents) |
 | `data/normalized/` | pals, skills, items, relations, search-index, site-meta |
 | `data/README.md` | Dual-import pipeline notes |
-| `docs/SITE-REBUILD.md` | Multi-phase rebuild plan |
-| `icons/` | Local pal icons (`.webp`) |
+| `docs/STYLE-NOTES.md` | Chrome, density, tokens, page patterns |
+| `docs/ICONS.md` | Icon download + layout |
+| `icons/` | Local game icons (`.webp`) |
 | `reference/PROVENANCE.md` | Game vs style corpus policy |
-| `reference/status-effects/` | Survival Guide captures (not shipped yet) |
+| `reference/status-effects/` | Survival Guide captures (guides source) |
 | `dist/` | Deploy artifact (gitignored) |
 | `wrangler.toml` | Cloudflare Pages (`pages_build_output_dir = "dist"`) |
 
@@ -42,7 +45,7 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 - **Default pal list filter:** dex only (`deck > 0`); toggle for all entities
 - **Stack:** multi-page SSG + vanilla JS forever — never React/Next/SPA
 
-### Shipped pages (Phases 1–4)
+### Shipped routes
 
 | Path | Role |
 |------|------|
@@ -50,13 +53,31 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 | `/pals/` | Pal database (filter/sort, table/cards/compact) |
 | `/pal/{slug}/` | Pal detail |
 | `/skills/` | Skills hub |
-| `/skills/partner|passive|active/` | Skill lists |
+| `/skills/partner\|passive\|active/` | Skill lists |
 | `/skills/{kind}/{slug}/` | Skill detail + owners |
-| `/tools/work-suitability/` | Work-focused spreadsheet tool |
 | `/items/` | Items hub (categories) |
 | `/items/{category}/` | Item category list |
 | `/item/{slug}/` | Item detail (craft / used-in / drops) |
 | `/recipes/` | Recipes browser |
+| `/structures/` | Structure list |
+| `/structure/{slug}/` | Structure detail |
+| `/tech/` | Technologies |
+| `/tech/{slug}/` | Technology detail |
+| `/world/` | World hub |
+| `/world/{section}/…` | Alphas, bosses, drops, merchants, maps, … |
+| `/tools/` | Tools hub |
+| `/tools/work-suitability/` | Work-focused spreadsheet |
+| `/tools/breeding/` | Breeding calculator (honest CombiRank limits) |
+| `/tools/team-builder/` | Party planner |
+| `/tools/drop-finder/` | Drop finder |
+| `/guides/` | Guides hub |
+| `/guides/status-effects/` | Survival Guide status effects |
+| `/guides/base-tips/` | Base tips |
+| `/guides/san/` | SAN guide |
+| `/guides/work-power/` | Work power guide |
+| `/news/` | Patch notes / versions from paldb |
+| `/database/` | Database category hub |
+| `/search/` (header Cmd/Ctrl-K) | Global entity search |
 
 ## Commands
 
@@ -65,6 +86,7 @@ npm install
 npm run data:import      # latest paldb publish → data/vendor/ (game)
 npm run style:import     # latest wowhead sample → data/style-vendor/ (UX)
 npm run data:normalize   # write data/normalized/ from game vendor only
+npm run download-icons   # local icons from paldb CDN (see docs/ICONS.md)
 npm run build            # both imports + normalize + SSG + dist/
 npm run build:html       # normalize + SSG (reuse current vendors)
 npm run build:static     # SSG only (reuse normalized)
@@ -106,8 +128,8 @@ npm run preview          # local static server on dist/
 
 ## UI conventions
 
-- Aim for Wowhead-class density: sticky chrome, filter bars, entity tables, deep links — informed by `data/style-vendor/` and `wowhead-com-exports` docs
-- **Phases 4–8:** extend Phase 3 chrome only — `site/shell.js`, `wh-*` classes, `site/empty.js`, pals/skills list+detail patterns. No second layout system. Full rules: `docs/SITE-REBUILD.md` §5 + each phase’s “Wowhead UX requirements”
+- Aim for Wowhead-class density: sticky chrome, filter bars, entity tables, deep links — informed by `data/style-vendor/` and `docs/STYLE-NOTES.md`
+- **Extend existing chrome only** — `site/shell.js`, `wh-*` classes, `site/empty.js`, list + detail patterns from pals/skills. No second layout system.
 - **Typography:** Open Sans + Arial/Helvetica stack (matches Wowhead body stack; loaded via Google Fonts)
 - **Colors:** black page (`#000`), panels `#181818`, links `#0070dd`, brand accent `#a71a19` — see `docs/STYLE-NOTES.md` and `site/shell.js` CSS vars
 - **Content width:** centered island `max-width: 1280px` (header, icon rail, main, footer)
@@ -115,6 +137,7 @@ npm run preview          # local static server on dist/
 - Nested static routes for entities
 - Element pills share solid fill styles
 - Do **not** copy Wowhead branding/trademarks
+- Hide empty sections; do not invent game data or full breeding matrices when the export lacks them
 
 ## Git Guidelines
 

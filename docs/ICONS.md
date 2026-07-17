@@ -1,4 +1,4 @@
-# Game icons (Phase 4b)
+# Game icons
 
 Local game icons for Pals, items, and structures. Source: **paldb.cc CDN** (`cdn.paldb.cc`), discovered from offline HTML in `paldb-cc-exports` when available. Production pages use **local** files only (no CDN hotlink).
 
