@@ -6,7 +6,7 @@ Palworld multi-page static database & tools site. Phases 0–3 complete (foundat
 **Pages project:** `palhead`  
 **Game data source of truth:** [paldb.cc](https://paldb.cc) via `paldb-cc-exports`  
 **UX / style reference:** [wowhead.com](https://www.wowhead.com/) sample via `wowhead-com-exports`  
-**Plan:** `docs/SITE-REBUILD.md` (Phase 3 = design next; content phases 4+)
+**Plan:** `docs/SITE-REBUILD.md` (Phase 3 design **done**; phases 4–8 content/tools **must reuse** Wowhead chrome — see §5 UX contract + `docs/STYLE-NOTES.md`)
 
 ## Architecture
 
@@ -102,8 +102,10 @@ npm run preview          # local static server on dist/
 ## UI conventions
 
 - Aim for Wowhead-class density: sticky chrome, filter bars, entity tables, deep links — informed by `data/style-vendor/` and `wowhead-com-exports` docs
+- **Phases 4–8:** extend Phase 3 chrome only — `site/shell.js`, `wh-*` classes, `site/empty.js`, pals/skills list+detail patterns. No second layout system. Full rules: `docs/SITE-REBUILD.md` §5 + each phase’s “Wowhead UX requirements”
 - **Typography:** Open Sans + Arial/Helvetica stack (matches Wowhead body stack; loaded via Google Fonts)
 - **Colors:** black page (`#000`), panels `#181818`, links `#0070dd`, brand accent `#a71a19` — see `docs/STYLE-NOTES.md` and `site/shell.js` CSS vars
+- **Content width:** centered island `max-width: 1280px` (header, icon rail, main, footer)
 - Tailwind via CDN (for now); `pal.*` tokens mirror the same palette
 - Nested static routes for entities
 - Element pills share solid fill styles

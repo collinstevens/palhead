@@ -61,10 +61,24 @@ Loaded via Google Fonts: Open Sans 400/600/700.
 
 `/`, `/pals/`, `/pal/{slug}/`, `/skills/…`, `/tools/work-suitability/`
 
+## Reuse contract for phases 4–8
+
+When implementing items, base/tech, world, tools, or polish:
+
+1. **Extend, don’t fork** — every new page goes through `site/shell.js` (centered 1280px island, dual nav, icon rail, footer).
+2. **Same list chrome as pals/skills** — filter bar, result count, dense table; client pattern after `site/client/pals-browser.js` / `skills-browser.js`.
+3. **Same detail chrome** — breadcrumb → entity head → quick facts → stacked `wh-panel` sections.
+4. **Empty states** — `site/empty.js` only; never invent fake entities to fill hubs.
+5. **Promote stubs in place** — replace stub content for the existing URL; keep unfinished hubs honest.
+6. **Cross-link the graph** — item ↔ recipe ↔ structure ↔ drop ↔ pal; dead-end pages are a UX failure.
+7. **Style cues** — `data/style-vendor/` + this file; game facts only from `data/vendor/` / normalized.
+
+Full phase-by-phase UX requirements: `docs/SITE-REBUILD.md` §5 “Wowhead UX contract” and each of Phases 4–8.
+
 ## Refresh style sample
 
 ```bash
 npm run style:import
 ```
 
-See also `reference/PROVENANCE.md` and `docs/SITE-REBUILD.md` Phase 3.
+See also `reference/PROVENANCE.md` and `docs/SITE-REBUILD.md` Phase 3 + phases 4–8.

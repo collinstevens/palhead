@@ -209,16 +209,41 @@ Status-effect evidence under `reference/status-effects/` is separate from import
 | 0 | Foundations | **Done** | Ingest, normalize contract, URL scheme, shell, search schema |
 | 1 | Pals database | **Done** | Pal list + detail; work tool migration |
 | 2 | Skills database | **Done** | Partner / passive / active lists + detail |
-| **3** | **Design / style / UX** | **Next** | Wowhead-influenced chrome, empty states, design system (before more content) |
-| 4 | Items & recipes | Pending | Inventory encyclopedia + craft/drop links |
-| 5 | Base & technology | Pending | Structures, workstations, tech, work/SAN |
-| 6 | World content | Pending | Alphas, bosses, drops, merchants, maps (list-first) |
-| 7 | Tools | Pending | Breeding (honest limits), team builder, drop finder |
-| 8 | Platform polish | Pending | Global search, tooltips, news, SEO, perf |
+| 3 | Design / style / UX | **Done** | Wowhead-influenced chrome, empty states, design system |
+| **4** | **Items & recipes** | **Next** | Inventory encyclopedia + craft/drop links **inside Phase 3 chrome** |
+| 5 | Base & technology | Pending | Structures, workstations, tech, work/SAN **inside Phase 3 chrome** |
+| 6 | World content | Pending | Alphas, bosses, drops, merchants, maps (list-first) **inside Phase 3 chrome** |
+| 7 | Tools | Pending | Breeding (honest limits), team builder, drop finder **inside Phase 3 chrome** |
+| 8 | Platform polish | Pending | Global search, tooltips, news, SEO, perf — **extend chrome, do not replace it** |
 
-**Why Phase 3 sits here:** Content surfaces for pals + skills already exist. Lock IA, density, empty states, and shared chrome **before** pouring items/world/tools into half-finished layouts. Style corpus: `wowhead-com-exports` → `data/style-vendor/`.
+**Why Phase 3 sits here:** Content surfaces for pals + skills already exist. Chrome, density, empty states, and shared components are **locked** so phases 4–8 only fill content into that system. Style corpus: `wowhead-com-exports` → `data/style-vendor/`.
 
-**Earlier MVP note:** Phases 0–2 were the data MVP cut. **Current focus:** Phase 3 design pass, then content phases 4+.
+**Earlier MVP note:** Phases 0–2 were the data MVP cut. Phase 3 design is done. **Current focus:** Phase 4 items — every new page reuses the Wowhead UX contract below.
+
+### Wowhead UX contract (mandatory for phases 4–8)
+
+Phases 4–8 are **content and tools inside existing chrome**, not redesigns. Before writing page code, re-read `docs/STYLE-NOTES.md` and skim `data/style-vendor/homepage.json` (and relevant database/guide samples) for density cues.
+
+| Must | Must not |
+|------|----------|
+| Use `site/shell.js` page shell (header, dual nav, icon rail, centered 1280px main, footer) | Invent a second layout system or full-bleed content without the island |
+| Reuse `wh-*` tokens/classes (`wh-panel`, `wh-filter-bar`, `wh-table`, `wh-breadcrumb`, `wh-entity-head`, `wh-btn`, …) | One-off hex colors or ad-hoc card kits that fight the design tokens |
+| Reuse `site/empty.js` for no-results, reserved sections, and “coming soon” | Fake sample items/structures to “look finished” |
+| Match pals/skills list pattern: filter bar → result count → table/cards (where lists apply) | Dump unpaginated walls of rows (especially drops) |
+| Match pals/skills detail pattern: breadcrumb → title/icon block → quick facts → section panels | Bare wiki dumps without section hierarchy |
+| Cross-link entities like Wowhead (item → recipe → structure → drop → pal) | Dead-end pages with no graph links |
+| Keep multi-page SSG + vanilla JS; client JS only for filters/calculators | React / Next / SPA / client app router |
+| Promote stubs to live content in place (same URLs); keep remaining stubs honest | Leave broken nav or invent parallel “v2” routes |
+| Attribute game data via existing footer / subtle source chips | Wowhead trademarks, logos, or copied WoW article text |
+
+**Shared primitives to extend (do not fork):**
+
+- `site/shell.js` — CSS tokens, nav IA, footer, page wrap  
+- `site/empty.js` — empty states, reserved feed rows, panel helper  
+- List clients: pattern after `site/client/pals-browser.js` / `skills-browser.js`  
+- Stub→live: replace `site/pages/stub.js` content for a path; do not invent a second hub style  
+
+**Style refresh (optional mid-phase):** `npm run style:import` when layout questions arise — style-vendor is cues only, never game facts.
 
 ---
 
@@ -358,7 +383,7 @@ Partner, passive, and active skills as first-class entities with ownership and i
 
 ---
 
-## 9. Phase 3 — Design / style / UX (Wowhead-influenced) **← current**
+## 9. Phase 3 — Design / style / UX (Wowhead-influenced) **Done**
 
 ### Goal
 
@@ -445,16 +470,26 @@ Still: multi-page SSG + vanilla JS only.
 
 ### Status
 
-**Implemented (shell + stubs + migrate live pages).** Iterate visually before Phase 4 items.
+**Done** (shell + stubs + migrate live pages). Chrome is the baseline for phases 4–8 — extend it; do not redesign from scratch.
 
 ---
 
-## 10. Phase 4 — Items, gear, recipes
+## 10. Phase 4 — Items, gear, recipes **← current**
 
 ### Goal
 
-Inventory encyclopedia + “how do I get / craft this?”  
-*(Uses Phase 3 list/detail chrome + empty states.)*
+Inventory encyclopedia + “how do I get / craft this?” — **shipped inside the Phase 3 Wowhead chrome**, not a parallel items UI.
+
+### Wowhead UX requirements (this phase)
+
+- Promote `/items/` stub → live **database hub** (category cards in `wh-panel` grid, same density as `/database/` / home panels)
+- Category lists mirror **pals/skills list chrome**: sticky filter bar, search, result count, dense `wh-table` (and optional cards later)
+- Item detail mirrors **pal/skill detail chrome**: `wh-breadcrumb` → entity head (name + rarity color; icon when 4b) → quick-fact chips → stacked `wh-panel` sections
+- Recipes browser uses the same filter-bar + table pattern; craft tree is nested panels / indented rows, not a new visual language
+- Bidirectional links (crafted at, materials, used in, dropped by) use standard entity link styles (`wh-link` / table name column)
+- Empty: hide sections with no data; filter no-results use `empty.js` — never fake items
+- Nav: Database → Items becomes **live** (drop “soon”); remaining empty categories stay stubs with reserved empty state
+- Style cues: `data/style-vendor/` database hub samples for category-index density; do not invent full-width marketplace layouts
 
 ### Nav categories
 
@@ -472,6 +507,7 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 - Filter by workstation, product category, input material
 - Craft tree expansion 1–2 levels deep in v1
+- Same list chrome as category pages (filters + dense table)
 
 ### Data hygiene
 
@@ -481,14 +517,16 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 ### Icons sub-phases
 
-- **4a:** Text + rarity color (ship without icons)
-- **4b:** Icon harvest pipeline (CDN or export assets) — separate task
+- **4a:** Text + rarity color (ship without icons) — rarity uses gold/quality-adjacent tokens already in shell where possible
+- **4b:** Icon harvest pipeline (CDN or export assets) — separate task; when icons land, drop into existing entity-head slot (like pal icons)
 
 ### Exit criteria
 
-- [ ] Major item categories have list + detail
+- [ ] Major item categories have list + detail **using shell + list/detail patterns from pals/skills**
 - [ ] Bidirectional craft links work for majority of clean recipes
 - [ ] Item pages link from pals/drops when data exists
+- [ ] `/items/` is no longer a generic “coming soon” stub; remaining unbuilt surfaces still use honest empty states
+- [ ] No new layout/CSS system; pages sit in the centered 1280px shell
 
 ---
 
@@ -496,7 +534,17 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 ### Goal
 
-Base-building side of the database: buildings, stations, tech tree, work power.
+Base-building side of the database: buildings, stations, tech tree, work power — **same encyclopedia chrome as pals/items**.
+
+### Wowhead UX requirements (this phase)
+
+- Promote `/structures/` and `/tech/` stubs → live lists/hubs with category chips or subnav (Wowhead database-section density)
+- Structure detail: entity head + panels for category, work requirements, linked recipes, related tech
+- Tech list/detail: level / points / category filters on the shared filter bar; detail links to unlocks (structures/items)
+- Work suitability tool already live: any data-source upgrade **keeps** current tool chrome (filter bar + table); do not restyle into a different app
+- SAN / sickness pages (if shipped): guide-like or table-like panels consistent with skill lists — not a third visual language
+- Guides: when Base Tips returns under `/guides/`, use guide panel chrome from Phase 3 empty guide hub (fill reserved slots; do not invent CMS chrome)
+- Cross-links: structure ↔ recipe ↔ item ↔ work type ↔ pal (graph navigation)
 
 ### Pages
 
@@ -509,9 +557,10 @@ Base-building side of the database: buildings, stations, tech tree, work power.
 
 ### Exit criteria
 
-- [ ] Structures + technologies browsable
-- [ ] Work suitability tool reads normalized distilled work data (not only legacy `pals_data.json`)
+- [ ] Structures + technologies browsable in Phase 3 shell
+- [ ] Work suitability tool reads normalized distilled work data (not only legacy `pals_data.json`) without a visual rewrite
 - [ ] Structure detail links to recipes and required work types when known
+- [ ] Filter no-results / empty categories use shared empty states
 
 ---
 
@@ -519,7 +568,16 @@ Base-building side of the database: buildings, stations, tech tree, work power.
 
 ### Goal
 
-Answer “where does this live / drop / spawn?”
+Answer “where does this live / drop / spawn?” — list-first, dense tables, Wowhead “finder” density without SPA maps-first.
+
+### Wowhead UX requirements (this phase)
+
+- Promote `/world/` stub → world hub with category cards (alphas, bosses, drops, merchants, …) matching database hub panels
+- Entity lists: same filter bar + dense table pattern; **paginate or virtualize** large sets (drops ~12k) — never one unpaginated dump
+- Detail pattern: source entity → loot table panel → item links → region notes — section stack like pal detail
+- Pal/item “obtained from” sections: add `wh-panel` blocks on existing detail pages; do not invent a floating widget system
+- Maps/POIs: **list-first** tables/cards; interactive map only later and only if it fits shell (no full-screen map app that abandons chrome)
+- Performance is a UX requirement: sticky headers, compact rows, mobile-usable filter bars (same tokens as pals list)
 
 ### Priority order
 
@@ -532,13 +590,14 @@ Answer “where does this live / drop / spawn?”
 
 ### Detail pattern
 
-Source entity → loot table → item links → region notes when present
+Source entity → loot table → item links → region notes when present (all inside standard section panels)
 
 ### Exit criteria
 
-- [ ] Alphas + bosses + drops searchable
-- [ ] Pal/item pages show “obtained from” when data exists
-- [ ] Large tables remain performant on mobile
+- [ ] Alphas + bosses + drops searchable/browseable in shell chrome
+- [ ] Pal/item pages show “obtained from” when data exists (panel sections)
+- [ ] Large tables remain performant on mobile (pagination/virtualization + dense rows)
+- [ ] World hub replaces stub; unfinished world slices stay honest empty states
 
 ---
 
@@ -546,7 +605,17 @@ Source entity → loot table → item links → region notes when present
 
 ### Goal
 
-Sticky calculators that make Palhead more useful than raw tables.
+Sticky calculators that make Palhead more useful than raw tables — **tools live under the same header/subnav chrome as the database**, not a separate product skin.
+
+### Wowhead UX requirements (this phase)
+
+- Promote `/tools/` hub and child stubs (`breeding`, `team-builder`, `drop-finder`) using tools-hub panel layout already sketched in Phase 3
+- Each tool page: breadcrumb + title block + short honest limit copy (especially breeding) + calculator UI inside `wh-panel`s
+- Controls: reuse input/button tokens (`wh-input`, `wh-btn`, filter chips) so tools feel like advanced list filters, not a different app
+- Results: dense tables or result cards consistent with entity lists; entity names link out to detail pages
+- Work suitability: remain the reference implementation for tool chrome; new tools should feel sibling to it
+- Empty / invalid states: shared empty kit (“pick two parents”, “no results”) — no blank white voids
+- Never ship a client-side router or full-screen SPA shell for tools
 
 | Tool | Depends on | Notes |
 |------|------------|--------|
@@ -567,13 +636,30 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ### Exit criteria
 
-- [ ] Work suitability live on new data
-- [ ] At least one new calculator (breeding **or** team builder) live
+- [ ] Work suitability live on new data (chrome unchanged in spirit)
+- [ ] At least one new calculator (breeding **or** team builder) live **under tools hub chrome**
 - [ ] Tools consume normalized entities, not one-off JSON forks
+- [ ] Tools hub no longer all-stub; remaining tools still show reserved empty states
 
 ---
 
 ## 14. Phase 8 — Platform polish
+
+### Goal
+
+Layer Wowhead-class **platform** behaviors (search, tooltips, news fill, SEO, perf) **on top of** the Phase 3 shell — polish the product, do not replace the design system.
+
+### Wowhead UX requirements (this phase)
+
+- **Global search:** implement the existing header search field stub (Cmd/Ctrl-K); results dropdown dense like Wowhead quick-search (icon, name, type, path) — not a separate search app page only
+- **Hover tooltips** on entity links: compact card (icon + name + one-liner + type) using panel tokens; no third-party tooltip skin that fights dark theme
+- **News / patch notes:** fill Phase 3 empty news chrome (`wh-feed-list` / home panels) with real rows from distilled meta when available — same feed row structure as reserved slots
+- **SEO:** titles/meta/OG consistent with entity head naming; sitemap covers nested entity URLs
+- **Perf:** split JSON, lazy icons, list virtualization — keep visual density; do not thin the UI to “feel faster”
+- **A11y + mobile:** polish existing sticky nav / dual-row header; do not invent a mobile-only app chrome
+- Optional interactive map / i18n: only if they stay multi-page + shell-compatible
+
+### Deliverables
 
 - Global search (Cmd/Ctrl-K) over search index
 - Hover tooltips on entity links (icon + name + one-liner)
@@ -586,9 +672,12 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ### Exit criteria
 
-- [ ] Search finds entities across shipped kinds
+- [ ] Search finds entities across shipped kinds from the header control
+- [ ] Tooltips match shell tokens on major entity link surfaces
+- [ ] News/home feed uses real data or stays honestly empty (no fake posts)
 - [ ] Core list pages stay fast on mid-range mobile
 - [ ] Sitemap covers entity pages
+- [ ] No redesign that abandons centered shell / `wh-*` system
 
 ---
 
@@ -623,16 +712,14 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ## 17. First reviewable milestone
 
-**Done:** Phases 0–2 (foundations + pals + skills).
+**Done:** Phases 0–3 (foundations + pals + skills + Wowhead chrome / empty stubs).
 
-**Next reviewable:** Phase 3 design pass —
+**Next reviewable:** Phase 4 items —
 
-- Homepage multi-panel layout with empty News/Guides slots  
-- Shared empty-state kit  
-- Consistent entity list/detail chrome on live pages  
-- Stub hubs for items/tools (empty, honest)  
-
-Then Phase 4 fills items into that chrome.
+- `/items/` hub + category lists + item detail **in existing shell**  
+- Recipes browser + bidirectional craft links  
+- Filter bar / empty states / panels match pals & skills (Wowhead UX contract)  
+- Rarity-as-text first (4a); icons optional follow-up (4b)
 
 ---
 
@@ -676,23 +763,33 @@ Then Phase 4 fills items into that chrome.
 - [x] Entity list/detail chrome pass (pals + skills)
 - [x] Stub hubs: news, guides, items, structures, tech, world, tools/*
 - [x] `docs/STYLE-NOTES.md`
+- [x] Wowhead UX contract documented for phases 4–8
 
 ### Phase 4 — items
-- [ ] Item category hub + lists + detail + recipes
-- [ ] Reverse craft / drop indexes
-- [ ] (Optional) icon pipeline 4b
+- [ ] Item category hub + lists + detail + recipes **(reuse list/detail chrome)**
+- [ ] Reverse craft / drop indexes + entity cross-links
+- [ ] Promote `/items/` stub; honest empties for unbuilt slices
+- [ ] (Optional) icon pipeline 4b into existing entity-head slot
 
 ### Phase 5 — base / tech
-- [ ] Structures + workstations + technologies + SAN
+- [ ] Structures + workstations + technologies + SAN **in shell panels**
+- [ ] Work tool data upgrade without visual fork
+- [ ] Structure ↔ recipe ↔ item graph links
 
 ### Phase 6 — world
-- [ ] Alphas / bosses / drops browser / merchants / maps list-first
+- [ ] World hub + alphas / bosses / drops (paginated) **in shell**
+- [ ] “Obtained from” panels on pal/item detail
+- [ ] Maps list-first; no SPA map shell
 
 ### Phase 7 — tools
-- [ ] Breeding and/or team builder + tools hub
+- [ ] Breeding and/or team builder under tools hub chrome
+- [ ] Calculator panels + shared inputs/buttons + entity result links
+- [ ] Honest breeding limits copy in UI
 
 ### Phase 8 — polish
-- [ ] Global search, tooltips, news fill, SEO sitemap, perf
+- [ ] Header global search + entity tooltips (shell tokens)
+- [ ] News feed fill or honest empty
+- [ ] SEO sitemap, perf, a11y/mobile polish — extend chrome, don’t replace
 
 ---
 
@@ -729,5 +826,6 @@ Then Phase 4 fills items into that chrome.
 | 2026-07-16 | Document + import wowhead-com-exports as UX/style reference (separate from paldb game data) |
 | 2026-07-16 | **Insert Phase 3 Design/style/UX** (Wowhead influence + empty states); renumber items→polish to 4–8 |
 | 2026-07-16 | Phase 3 implemented: dense shell, empty stubs, migrate live pals/skills/work into chrome |
+| 2026-07-16 | Phases 4–8 plan expanded: mandatory Wowhead UX contract (reuse shell/`wh-*`/empty kit; no layout forks) |
 
 When decisions land on open questions, record them here so implementers do not re-litigate architecture mid-flight.
