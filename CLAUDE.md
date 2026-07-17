@@ -1,6 +1,6 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Rebuilding toward a full entity DB using paldb-derived data.
+Palworld multi-page static database & tools site. Phase 0 foundations complete; building toward a full entity DB from paldb-derived data.
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
@@ -13,27 +13,36 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 
 | Path | Role |
 |------|------|
-| `build.js` | SSG entry. Writes HTML pages. |
+| `build.js` | SSG orchestrator → writes `dist/` (home + all pal entity pages) |
+| `site/` | Shell, paths, pages (`home.js`, `pal.js`), helpers |
 | `scripts/data-import.js` | Copy paldb publish bundle → `data/vendor/` |
-| `scripts/data-normalize.js` | Normalize vendor → `data/normalized/` (Phase 0 stub) |
-| `scripts/prepare-dist.js` | Copy HTML + `icons/` → `dist/` |
+| `scripts/data-normalize.js` | Normalize vendor → `data/normalized/` |
+| `scripts/prepare-dist.js` | Ensure `dist/icons` after build |
 | `data/vendor/` | Pinned paldb publish snapshot (gitignored contents) |
-| `data/normalized/` | Build-facing normalized JSON (gitignored contents) |
+| `data/normalized/` | pals, skills, items, relations, search-index, site-meta |
 | `data/README.md` | Pipeline notes |
 | `docs/SITE-REBUILD.md` | Multi-phase rebuild plan |
 | `icons/` | Local pal icons (`.webp`) |
 | `reference/PROVENANCE.md` | paldb SoT policy |
-| `reference/status-effects/` | In-game Survival Guide status effects + evidence (not paldb; not shipped yet) |
+| `reference/status-effects/` | Survival Guide captures (not shipped yet) |
 | `dist/` | Deploy artifact (gitignored) |
 | `wrangler.toml` | Cloudflare Pages (`pages_build_output_dir = "dist"`) |
+
+### Locked Phase 0 decisions
+
+- **Routes:** nested static folders, e.g. `/pal/anubis/index.html`
+- **Vendor data:** import-pin into `data/vendor/` (not committed; refresh via import)
+- **Default pal list filter:** dex only (`deck > 0`); full entity set still normalized/built
+- **Stack:** multi-page SSG + vanilla JS forever — never React/Next/SPA
 
 ## Commands
 
 ```bash
 npm install
 npm run data:import      # pin paldb publish bundle into data/vendor/
-npm run data:normalize   # write data/normalized/ (stub → full later)
-npm run build            # HTML + dist/
+npm run data:normalize   # write data/normalized/
+npm run build            # normalize + SSG + dist/
+npm run build:html       # SSG only (requires normalized data)
 npm run login
 npm run whoami
 npm run deploy           # build + wrangler pages deploy dist --project-name palhead --branch master
@@ -44,12 +53,19 @@ Import source defaults to
 `C:\projects\collinstevens\paldb-cc-exports\data\publish\paldb-data-demo`  
 Override: `PALDB_PUBLISH_DIR=...` or `npm run data:import -- <path>`.
 
+Full refresh chain:
+
+```bash
+npm run data:import && npm run build
+```
+
 ## Data
 
-- **Source of truth for game data is [paldb.cc](https://paldb.cc)** via `paldb-cc-exports` distilled/publish bundles.
+- **Source of truth for game data is [paldb.cc](https://paldb.cc)** via `paldb-cc-exports` publish bundles.
 - No multi-site verification, Palpedia checklists, or correction overlays.
 - External pipeline repo: `C:\projects\collinstevens\paldb-cc-exports`
-- Status effects remain in-game Survival Guide captures under `reference/status-effects/` (re-ship in a later phase).
+- Footer shows data version, validation status, and import time from `site-meta.json`.
+- Client search index published at `dist/data/search-index.json` (UI in a later phase).
 
 ## Hosting
 
@@ -61,8 +77,8 @@ Override: `PALDB_PUBLISH_DIR=...` or `npm run data:import -- <path>`.
 
 - Tailwind via CDN (for now)
 - Dark theme `pal.*` colors
-- Full-width layout for data tables when they return
-- Nested static routes preferred for new pages (lock in Phase 0)
+- Nested static routes for entities
+- Element pills share solid fill styles
 
 ## Git Guidelines
 

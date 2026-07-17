@@ -6,7 +6,8 @@
   "scripts": {
     "data:import": "node scripts/data-import.js",
     "data:normalize": "node scripts/data-normalize.js",
-    "build": "node build.js && node scripts/prepare-dist.js",
+    "build": "node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
+    "build:html": "node build.js && node scripts/prepare-dist.js",
     "login": "wrangler login",
     "whoami": "wrangler whoami",
     "deploy": "npm run build && wrangler pages deploy dist --project-name palhead --branch master",

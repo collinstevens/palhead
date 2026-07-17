@@ -1,96 +1,115 @@
 const fs = require("fs");
 const path = require("path");
+const { hrefToFs } = require("./site/paths");
+const { homePage } = require("./site/pages/home");
+const { palPage } = require("./site/pages/pal");
 
 const root = __dirname;
-const vendorMetaPath = path.join(root, "data", "vendor", "catalog.json");
+const normalizedDir = path.join(root, "data", "normalized");
+const distDir = path.join(root, "dist");
+const iconsSrc = path.join(root, "icons");
 
-function readVendorMeta() {
-  try {
-    if (!fs.existsSync(vendorMetaPath)) return null;
-    return JSON.parse(fs.readFileSync(vendorMetaPath, "utf8"));
-  } catch {
-    return null;
+function fail(msg) {
+  console.error(msg);
+  process.exit(1);
+}
+
+function readJson(file) {
+  return JSON.parse(fs.readFileSync(file, "utf8"));
+}
+
+function writeFile(file, contents) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, contents);
+}
+
+function copyDir(src, dest) {
+  if (!fs.existsSync(src)) return;
+  fs.mkdirSync(dest, { recursive: true });
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    const from = path.join(src, entry.name);
+    const to = path.join(dest, entry.name);
+    if (entry.isDirectory()) copyDir(from, to);
+    else fs.copyFileSync(from, to);
   }
 }
 
-function escapeHtml(s) {
-  return String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]
-  );
+const required = [
+  "site-meta.json",
+  "pals.json",
+  "pals-by-slug.json",
+  "search-index.json",
+];
+for (const name of required) {
+  if (!fs.existsSync(path.join(normalizedDir, name))) {
+    fail(
+      "Missing data/normalized/" +
+        name +
+        "\nRun: npm run data:import && npm run data:normalize"
+    );
+  }
 }
 
-function dataVersionLabel(meta) {
-  if (!meta) return "no vendor data yet";
-  const when = meta.generated_at || meta.generatedAt || null;
-  const tables = meta.table_count ?? meta.tableCount ?? null;
-  const parts = [];
-  if (when) parts.push(String(when).slice(0, 10));
-  if (tables != null) parts.push(tables + " tables");
-  return parts.length ? parts.join(" · ") : "vendor present";
+const siteMeta = readJson(path.join(normalizedDir, "site-meta.json"));
+const palsList = readJson(path.join(normalizedDir, "pals.json"));
+const palsBySlug = readJson(path.join(normalizedDir, "pals-by-slug.json"));
+
+fs.rmSync(distDir, { recursive: true, force: true });
+fs.mkdirSync(distDir, { recursive: true });
+
+const samplePal =
+  palsBySlug.anubis ||
+  (palsList.pals || []).find((p) => p.is_dex) ||
+  (palsList.pals || [])[0] ||
+  null;
+
+const sampleDetail = samplePal
+  ? palsBySlug[samplePal.path_segment] || samplePal
+  : null;
+
+writeFile(
+  path.join(distDir, "index.html"),
+  homePage({
+    siteMeta,
+    pals: palsList.pals || [],
+    samplePal: sampleDetail,
+  })
+);
+
+let palPages = 0;
+for (const [seg, pal] of Object.entries(palsBySlug)) {
+  const href = pal.path || "/pal/" + seg + "/";
+  writeFile(hrefToFs(href, distDir), palPage({ pal, siteMeta }));
+  palPages += 1;
 }
 
-const meta = readVendorMeta();
-const versionText = dataVersionLabel(meta);
+copyDir(iconsSrc, path.join(distDir, "icons"));
 
-const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Palhead — rebuild in progress</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            pal: {
-              bg: "#0c0e12",
-              panel: "#14181f",
-              border: "#252a33",
-              text: "#e8eaed",
-              muted: "#8b919a",
-              accent: "#5b9fd4",
-            },
-          },
-        },
-      },
-    };
-  </script>
-  <style>
-    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
-  </style>
-</head>
-<body class="min-h-screen bg-pal-bg text-pal-text antialiased flex flex-col">
-  <header class="border-b border-pal-border bg-pal-panel">
-    <div class="px-4 py-3 flex items-center justify-between gap-4">
-      <a href="index.html" class="font-bold tracking-tight text-lg">Palhead</a>
-      <span class="text-xs text-pal-muted">Phase 0 · foundations</span>
-    </div>
-  </header>
-  <main class="flex-1 px-4 py-10 max-w-2xl">
-    <h1 class="text-2xl font-semibold mb-3">Site rebuild in progress</h1>
-    <p class="text-pal-muted text-sm leading-relaxed mb-6">
-      Palhead is being rebuilt as a multi-page static database (SSG + vanilla JS),
-      with <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>
-      as the game-data source of truth. No React/Next/SPA.
-    </p>
-    <ul class="text-sm space-y-2 text-pal-muted mb-8">
-      <li><span class="text-pal-text">Data:</span> import from <code class="text-xs bg-pal-panel px-1 rounded">paldb-cc-exports</code> → <code class="text-xs bg-pal-panel px-1 rounded">data/vendor/</code></li>
-      <li><span class="text-pal-text">Normalize:</span> <code class="text-xs bg-pal-panel px-1 rounded">data/normalized/</code></li>
-      <li><span class="text-pal-text">Plan:</span> <code class="text-xs bg-pal-panel px-1 rounded">docs/SITE-REBUILD.md</code></li>
-    </ul>
-    <p class="text-xs text-pal-muted">Vendor data: <span class="text-pal-text">${escapeHtml(versionText)}</span></p>
-  </main>
-  <footer class="border-t border-pal-border px-4 py-4 text-xs text-pal-muted">
-    Game data source of truth:
-    <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>
-    · Not affiliated with Pocketpair
-  </footer>
-</body>
-</html>
-`;
+const searchSrc = path.join(normalizedDir, "search-index.json");
+const dataOut = path.join(distDir, "data");
+fs.mkdirSync(dataOut, { recursive: true });
+fs.copyFileSync(searchSrc, path.join(dataOut, "search-index.json"));
+fs.copyFileSync(
+  path.join(normalizedDir, "site-meta.json"),
+  path.join(dataOut, "site-meta.json")
+);
 
-fs.writeFileSync(path.join(root, "index.html"), html);
-console.log("wrote index.html", fs.statSync(path.join(root, "index.html")).size, "bytes");
-console.log("vendor:", versionText);
+writeFile(
+  path.join(root, "index.html"),
+  homePage({
+    siteMeta,
+    pals: palsList.pals || [],
+    samplePal: sampleDetail,
+  })
+);
+
+console.log("build complete →", distDir);
+console.log("home +", palPages, "pal pages");
+console.log(
+  "data:",
+  siteMeta.data_version,
+  "validate:",
+  siteMeta.validation_status,
+  "search entries:",
+  siteMeta.counts?.search_entries
+);

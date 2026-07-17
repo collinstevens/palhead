@@ -255,18 +255,18 @@ Make the site capable of growing to thousands of pages without a second rewrite.
 
 ### Decisions to lock in Phase 0
 
-- [ ] Nested routes (`/pal/anubis/`) vs flat HTML (`pal-anubis.html`)
-- [ ] Vendor snapshot in-repo vs always read sibling `paldb-cc-exports` path in dev
-- [ ] Default list filter: dex pals only vs all entities
+- [x] Nested routes (`/pal/anubis/`) — not flat HTML
+- [x] Vendor via `npm run data:import` pin into `data/vendor/` (gitignored contents; sibling path is the default import source only)
+- [x] Default pal list filter: **dex** (`deck > 0`); all entities still normalized and get pages
 - [x] Stack locked: multi-page SSG + vanilla JS — **never** React/Next/SPA
 
 ### Exit criteria
 
-- [ ] Import + normalize + build is one documented command chain
-- [ ] Home shows real catalog counts from vendored data
-- [ ] Sample entity page renders from distilled JSON
-- [ ] Footer shows data version + validation status when available
-- [ ] Old pages still build/deploy (no regression)
+- [x] Import + normalize + build is one documented command chain (`data:import` → `build`)
+- [x] Home shows real catalog counts from vendored/normalized data
+- [x] Sample entity page renders from distilled JSON (`/pal/anubis/`; all pals also generated)
+- [x] Footer shows data version + validation status when available
+- [x] Deployable `dist/` (mini-site removed intentionally; placeholder + entities)
 
 ---
 
@@ -640,5 +640,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | 2026-07-16 | Removed Palpedia verify / multi-source corrections; paldb.cc is SoT |
 | 2026-07-16 | Hard rule: never React/Next/SPA — multi-page SSG + vanilla JS only |
 | 2026-07-16 | Phase 0 prep: deleted old mini-site; import/normalize stubs + placeholder home |
+| 2026-07-16 | Phase 0 implemented: normalize, nested SSG shell, all pal pages, search-index |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.

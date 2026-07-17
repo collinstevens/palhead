@@ -4,24 +4,26 @@ const path = require("path");
 const root = path.join(__dirname, "..");
 const dist = path.join(root, "dist");
 
-fs.rmSync(dist, { recursive: true, force: true });
-fs.mkdirSync(dist, { recursive: true });
-
-for (const file of fs.readdirSync(root)) {
-  if (file.endsWith(".html")) {
-    fs.copyFileSync(path.join(root, file), path.join(dist, file));
-  }
+if (!fs.existsSync(path.join(dist, "index.html"))) {
+  console.error(
+    "dist/index.html missing. Run: npm run data:normalize && node build.js"
+  );
+  process.exit(1);
 }
 
-function copyDir(src, dest) {
-  fs.mkdirSync(dest, { recursive: true });
-  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
-    const from = path.join(src, entry.name);
-    const to = path.join(dest, entry.name);
-    if (entry.isDirectory()) copyDir(from, to);
-    else fs.copyFileSync(from, to);
+const iconsSrc = path.join(root, "icons");
+const iconsDest = path.join(dist, "icons");
+if (fs.existsSync(iconsSrc)) {
+  function copyDir(src, dest) {
+    fs.mkdirSync(dest, { recursive: true });
+    for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+      const from = path.join(src, entry.name);
+      const to = path.join(dest, entry.name);
+      if (entry.isDirectory()) copyDir(from, to);
+      else fs.copyFileSync(from, to);
+    }
   }
+  copyDir(iconsSrc, iconsDest);
 }
 
-copyDir(path.join(root, "icons"), path.join(dist, "icons"));
-console.log("prepared dist/");
+console.log("prepared dist/ (icons ensured)");
