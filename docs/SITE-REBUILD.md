@@ -98,7 +98,7 @@ Pipeline complete through **extract → validate → publish**.
 1. **Database-first, tools-second** — tools consume the same normalized entities as pages.
 2. **Cross-links everywhere** — Wowhead’s power is graph navigation, not walls of text.
 3. **paldb.cc is the game-data source of truth** — no multi-site verification, Palpedia checklists, or correction overlays that override paldb. Attribute data version / extract date in the footer when shipping distilled data.
-4. **Static-first** — no app server required for v1; Cloudflare Pages only.
+4. **Static multi-page forever** — no app server; Cloudflare Pages only; never React/Next/SPA.
 5. **Ship vertical slices** — each phase exits with something usable and deployable.
 6. **Honest gaps** — hide empty sections; document missing matrices (breeding) instead of inventing data.
 
@@ -133,13 +133,21 @@ paldb-cc-exports
 | Hosting | Cloudflare Pages (existing) | Already production |
 | Build | Node modular SSG (evolve beyond single `build.js`) | Thousands of entity pages |
 | CSS | Tailwind CDN initially; local Tailwind optional later | Match current look |
-| Client JS | Small vanilla modules per tool/list | No framework tax for v1 |
+| Client JS | Small vanilla modules per tool/list | Progressive enhancement only |
 | Data | Vendored publish bundle snapshot | Reproducible deploys |
 | Icons | Existing pal icons first; item icons later | Unblocks content |
 
-**Default routing model:** SSG multi-page site + client-side filter/search on list pages (SEO-friendly deep links, Wowhead-like share URLs).
+**Routing model:** multi-page **static HTML** (SSG) + light client JS for filter/sort/search on list pages (SEO-friendly deep links, Wowhead-like share URLs).
 
-**Not default for v1:** React/Next SPA rewrite before URL scheme and normalize layer are stable.
+### Hard stack rule — no SPA / React / Next
+
+**Permanent decision (not a v1 temporary preference):**
+
+- **Do not** rewrite Palhead as a React, Next.js, Vue, SvelteKit, or other SPA/CSR app framework site.
+- **Do not** introduce a client-side router that owns the whole app shell.
+- **Do** stay multi-page static HTML generated at build time (Node SSG is fine; Astro-like SSG only if it stays zero-JS-by-default and is explicitly approved later — default remains plain Node + HTML).
+- **Do** use small vanilla JS modules for interactivity (tables, filters, calculators).
+- Optional later: local Tailwind build, image tooling — still not a React/Next app.
 
 ### Proposed URL scheme
 
@@ -249,7 +257,7 @@ Make the site capable of growing to thousands of pages without a second rewrite.
 - [ ] Nested routes (`/pal/anubis/`) vs flat HTML (`pal-anubis.html`)
 - [ ] Vendor snapshot in-repo vs always read sibling `paldb-cc-exports` path in dev
 - [ ] Default list filter: dex pals only vs all entities
-- [ ] Confirm stack: SSG + vanilla JS (default) vs framework
+- [x] Stack locked: multi-page SSG + vanilla JS — **never** React/Next/SPA
 
 ### Exit criteria
 
@@ -491,7 +499,7 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ## 14. What not to do early
 
-- Full SPA framework rewrite before URL + normalize contracts stabilize
+- React / Next / SPA / client-router app rewrites (**never** — see hard stack rule)
 - Interactive world map before drop/entity quality is proven
 - Claiming complete breeding combinations without source data
 - Shipping unpaginated 12k-row drop tables
@@ -537,14 +545,16 @@ This already reads as a database site rather than a single spreadsheet.
 
 1. **Identity:** Keep “Palhead” or rebrand for the database era?
 2. **Dex filter default:** Only real pals (deck # > 0), or all 592 entities?
-3. **Architecture:** Approve SSG + vanilla JS, or prefer Astro/Next/etc.?
-4. **Data coupling:** Vendor snapshot in-repo for deploys vs symlink to sibling repo in dev only?
-5. **Post-pals priority:** Skills (Phase 2) or Items/recipes (Phase 3)?
-6. **Breeding:** Ship limited calculator soon, or wait for matrix data?
-7. **Item icons:** OK to ship item pages without icons initially?
-8. **v1 scope ceiling:** “Pals + skills + items + work tool” vs full world content at first public launch?
+3. **Data coupling:** Vendor snapshot in-repo for deploys vs symlink to sibling repo in dev only?
+4. **Post-pals priority:** Skills (Phase 2) or Items/recipes (Phase 3)?
+5. **Breeding:** Ship limited calculator soon, or wait for matrix data?
+6. **Item icons:** OK to ship item pages without icons initially?
+7. **v1 scope ceiling:** “Pals + skills + items + work tool” vs full world content at first public launch?
 
-**Decided:** Palpedia verify tool, multi-site partner-skill scrapes, discrepancy reports, and correction overlays are **removed**. paldb.cc is the sole game-data source of truth.
+**Decided:**
+
+- Palpedia verify tool, multi-site partner-skill scrapes, discrepancy reports, and correction overlays are **removed**. paldb.cc is the sole game-data source of truth.
+- **No React / Next / SPA.** Permanent multi-page static HTML + Node SSG + vanilla JS.
 
 ---
 
@@ -626,5 +636,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 |------|--------|
 | 2026-07-16 | Initial multi-phase plan written for review |
 | 2026-07-16 | Removed Palpedia verify / multi-source corrections; paldb.cc is SoT |
+| 2026-07-16 | Hard rule: never React/Next/SPA — multi-page SSG + vanilla JS only |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.

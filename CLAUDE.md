@@ -8,7 +8,7 @@ Palworld tools site. First tool is a work-suitability spreadsheet for all pals: 
 
 ## Architecture
 
-Static site. No framework, no bundler for the app itself.
+Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-router app.** No framework bundler for the app UI — Node SSG generates HTML; small vanilla JS for interactivity only.
 
 | Path | Role |
 |------|------|
