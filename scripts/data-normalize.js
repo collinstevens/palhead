@@ -110,6 +110,7 @@ fs.writeFileSync(path.join(outDir, ".gitkeep"), "");
 const relations = {
   pal_to_partner_skill: [],
   partner_skill_to_pals: {},
+  passive_skill_to_pals: {},
   pal_to_passive_skills: [],
 };
 
@@ -224,15 +225,31 @@ palsOut.sort((a, b) => {
   return a.name.localeCompare(b.name);
 });
 
+const palPathSet = new Set(palsOut.map((p) => p.path_segment));
+const partnerOwners = new Map();
+
+function addPartnerOwner(skillSeg, palSeg) {
+  if (!skillSeg || !palSeg || !palPathSet.has(palSeg)) return;
+  if (!partnerOwners.has(skillSeg)) partnerOwners.set(skillSeg, new Set());
+  partnerOwners.get(skillSeg).add(palSeg);
+}
+
+for (const pal of palsOut) {
+  if (!pal.partner_skill_name) continue;
+  addPartnerOwner(pathSegment(pal.partner_skill_name), pal.path_segment);
+}
+
 const partnerSkills = [];
+const partnerBySlug = {};
 for (const raw of partnerDoc?.skills || []) {
   const name = raw.name || raw.id;
   if (!name || name === "-") continue;
   const pathSeg = pathSegment(name);
-  const owners = splitOwners(raw.owner_slugs || raw.owner_pals);
-  const ownerSegs = owners.map(pathSegment);
+  const owners = splitOwners(raw.owner_slugs || raw.owner_pals).map(pathSegment);
+  for (const o of owners) addPartnerOwner(pathSeg, o);
+  const ownerList = [...(partnerOwners.get(pathSeg) || [])].sort();
   const href = skillPartnerHref(name);
-  partnerSkills.push({
+  const skill = {
     id: raw.id || name,
     slug: pathSeg,
     path: href,
@@ -240,9 +257,13 @@ for (const raw of partnerDoc?.skills || []) {
     description: raw.description || null,
     level_shown: raw.level_shown ?? null,
     category: raw.category || null,
-    owner_slugs: ownerSegs,
-  });
-  relations.partner_skill_to_pals[pathSeg] = ownerSegs;
+    owner_slugs: ownerList,
+    owner_count: ownerList.length,
+    source_url: raw.source_url || "https://paldb.cc/en/Partner_Skill",
+  };
+  partnerSkills.push(skill);
+  partnerBySlug[pathSeg] = skill;
+  relations.partner_skill_to_pals[pathSeg] = ownerList;
   searchEntries.push({
     name,
     type: "skill_partner",
@@ -250,17 +271,45 @@ for (const raw of partnerDoc?.skills || []) {
     path: href,
     elements: null,
     icon: null,
-    rank: null,
+    rank: ownerList.length || null,
   });
 }
 
+for (const [skillSeg, owners] of partnerOwners.entries()) {
+  if (partnerBySlug[skillSeg]) continue;
+  const ownerList = [...owners].sort();
+  const name = skillSeg.replace(/_/g, " ");
+  const href = "/skills/partner/" + skillSeg + "/";
+  const skill = {
+    id: skillSeg,
+    slug: skillSeg,
+    path: href,
+    name: name.replace(/\b\w/g, (c) => c.toUpperCase()),
+    description: null,
+    level_shown: null,
+    category: null,
+    owner_slugs: ownerList,
+    owner_count: ownerList.length,
+    source_url: null,
+  };
+  partnerSkills.push(skill);
+  partnerBySlug[skillSeg] = skill;
+  relations.partner_skill_to_pals[skillSeg] = ownerList;
+}
+
+partnerSkills.sort((a, b) => a.name.localeCompare(b.name));
+
 const passiveSkills = [];
+const passiveBySlug = {};
+const passiveByCode = {};
+const passiveOwners = new Map();
+
 for (const raw of passiveDoc?.skills || []) {
   const name = raw.name || raw.id;
   if (!name) continue;
   const pathSeg = pathSegment(name);
   const href = skillPassiveHref(name);
-  passiveSkills.push({
+  const skill = {
     id: raw.id || name,
     slug: pathSeg,
     path: href,
@@ -269,7 +318,14 @@ for (const raw of passiveDoc?.skills || []) {
     weight: raw.weight ?? null,
     modifiers: raw.modifiers || null,
     description: raw.description || null,
-  });
+    owner_slugs: [],
+    owner_count: 0,
+    source_url: raw.source_url || "https://paldb.cc/en/Passive_Skills",
+  };
+  passiveSkills.push(skill);
+  passiveBySlug[pathSeg] = skill;
+  passiveByCode[String(raw.id || name)] = skill;
+  passiveByCode[pathSeg] = skill;
   searchEntries.push({
     name,
     type: "skill_passive",
@@ -281,14 +337,44 @@ for (const raw of passiveDoc?.skills || []) {
   });
 }
 
+for (const pal of palsOut) {
+  const detail = palsBySlug[pal.path_segment];
+  const ids = detail?.passive_skills || [];
+  for (const id of ids) {
+    const skill =
+      passiveByCode[id] ||
+      passiveByCode[pathSegment(id)] ||
+      passiveBySlug[pathSegment(id)];
+    if (!skill) continue;
+    if (!passiveOwners.has(skill.slug)) passiveOwners.set(skill.slug, new Set());
+    passiveOwners.get(skill.slug).add(pal.path_segment);
+  }
+}
+
+for (const skill of passiveSkills) {
+  const owners = [...(passiveOwners.get(skill.slug) || [])].sort();
+  skill.owner_slugs = owners;
+  skill.owner_count = owners.length;
+  relations.passive_skill_to_pals = relations.passive_skill_to_pals || {};
+  relations.passive_skill_to_pals[skill.slug] = owners;
+}
+
+passiveSkills.sort((a, b) => {
+  const ra = a.rank == null ? 999 : a.rank;
+  const rb = b.rank == null ? 999 : b.rank;
+  if (ra !== rb) return ra - rb;
+  return a.name.localeCompare(b.name);
+});
+
 const activeSkills = [];
+const activeBySlug = {};
 for (const raw of activeDoc?.skills || []) {
   const slug = raw.slug || raw.id || raw.name;
   if (!slug) continue;
   const pathSeg = pathSegment(slug);
   const href = skillActiveHref(slug);
   const elements = normalizeElements(raw.element);
-  activeSkills.push({
+  const skill = {
     id: raw.id || slug,
     slug: pathSeg,
     path: href,
@@ -297,12 +383,23 @@ for (const raw of activeDoc?.skills || []) {
     elements,
     power: raw.power ?? raw.display_power ?? null,
     cool_time: raw.cool_time ?? null,
+    min_range: raw.min_range ?? null,
+    max_range: raw.max_range ?? null,
     category: raw.category || null,
+    aggregate_status: raw.aggregate_status || null,
+    aggregate_value: raw.aggregate_value ?? null,
+    strength: raw.strength || null,
     description: raw.description || null,
     skill_fruit_slug: raw.skill_fruit_slug
       ? pathSegment(raw.skill_fruit_slug)
       : null,
-  });
+    skill_fruit_raw: raw.skill_fruit_slug || null,
+    will_not_inherit: !!raw.will_not_inherit,
+    source_url: raw.source_url || null,
+    code: raw.code || null,
+  };
+  activeSkills.push(skill);
+  activeBySlug[pathSeg] = skill;
   searchEntries.push({
     name: raw.name || slug,
     type: "skill_active",
@@ -313,6 +410,13 @@ for (const raw of activeDoc?.skills || []) {
     rank: raw.power ?? null,
   });
 }
+
+activeSkills.sort((a, b) => {
+  const pa = a.power == null ? -1 : a.power;
+  const pb = b.power == null ? -1 : b.power;
+  if (pa !== pb) return pb - pa;
+  return a.name.localeCompare(b.name);
+});
 
 function normalizeItems(list, type) {
   const out = [];
@@ -459,8 +563,11 @@ const manifest = {
     "pals.json",
     "pals-by-slug.json",
     "skills-partner.json",
+    "skills-partner-by-slug.json",
     "skills-passive.json",
+    "skills-passive-by-slug.json",
     "skills-active.json",
+    "skills-active-by-slug.json",
     "items-materials.json",
     "items-weapons.json",
     "items-armor.json",
@@ -492,14 +599,17 @@ writeJson(path.join(outDir, "skills-partner.json"), {
   count: partnerSkills.length,
   skills: partnerSkills,
 });
+writeJson(path.join(outDir, "skills-partner-by-slug.json"), partnerBySlug);
 writeJson(path.join(outDir, "skills-passive.json"), {
   count: passiveSkills.length,
   skills: passiveSkills,
 });
+writeJson(path.join(outDir, "skills-passive-by-slug.json"), passiveBySlug);
 writeJson(path.join(outDir, "skills-active.json"), {
   count: activeSkills.length,
   skills: activeSkills,
 });
+writeJson(path.join(outDir, "skills-active-by-slug.json"), activeBySlug);
 writeJson(path.join(outDir, "items-materials.json"), {
   count: materials.length,
   items: materials,

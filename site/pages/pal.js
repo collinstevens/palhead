@@ -1,6 +1,6 @@
 const { escapeHtml } = require("../escape");
 const { shell } = require("../shell");
-const { depthPrefix } = require("../paths");
+const { depthPrefix, pathSegment } = require("../paths");
 
 function fmtRange(r) {
   if (!r) return "—";
@@ -63,7 +63,7 @@ function palPage({ pal, siteMeta }) {
       <div class="text-xs text-pal-muted">
         <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
         <span class="mx-1">/</span>
-        <span class="text-pal-text">Pal</span>
+        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}pals/">Pals</a>
         <span class="mx-1">/</span>
         <span class="text-pal-text">${escapeHtml(pal.name)}</span>
       </div>
@@ -90,8 +90,18 @@ function palPage({ pal, siteMeta }) {
           <div class="flex flex-wrap gap-1 mb-2">${elems || '<span class="text-xs text-pal-muted">No elements</span>'}</div>
           <p class="text-xs text-pal-muted">
             ${escapeHtml(pal.is_dex ? "Dex pal" : "Non-dex / special entity")}
+            ${
+              pal.identity?.GenusCategory
+                ? " · " + escapeHtml(pal.identity.GenusCategory)
+                : ""
+            }
             ${pal.size ? " · size " + escapeHtml(pal.size) : ""}
             ${pal.food_amount != null ? " · food " + escapeHtml(String(pal.food_amount)) : ""}
+            ${
+              pal.male_probability != null
+                ? " · ♂ " + escapeHtml(String(pal.male_probability)) + "%"
+                : ""
+            }
             ${pal.code ? " · code " + escapeHtml(pal.code) : ""}
           </p>
           ${
@@ -131,9 +141,16 @@ function palPage({ pal, siteMeta }) {
           <h2 class="text-sm font-semibold mb-2">Partner skill</h2>
           ${
             partner
-              ? '<div class="text-sm font-semibold mb-1">' +
+              ? '<div class="text-sm font-semibold mb-1"><a class="hover:text-pal-accent" href="' +
+                escapeHtml(
+                  prefix +
+                    "skills/partner/" +
+                    pathSegment(partner.name || "") +
+                    "/"
+                ) +
+                '">' +
                 escapeHtml(partner.name || "—") +
-                '</div><p class="text-sm text-pal-muted leading-relaxed">' +
+                "</a></div><p class=\"text-sm text-pal-muted leading-relaxed\">" +
                 escapeHtml(partner.description || "—") +
                 "</p>"
               : '<p class="text-sm text-pal-muted">None listed.</p>'
@@ -141,17 +158,27 @@ function palPage({ pal, siteMeta }) {
         </section>
       </div>
 
-      <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
-        <h2 class="text-sm font-semibold mb-2">Movement</h2>
-        <div class="stat-grid">
-          ${statCard("Walk", move.WalkSpeed)}
-          ${statCard("Run", move.RunSpeed)}
-          ${statCard("Ride sprint", move.RideSprintSpeed)}
-          ${statCard("Transport", move.TransportSpeed)}
-          ${statCard("Swim", move.SwimSpeed)}
-          ${statCard("Stamina", move.Stamina)}
-        </div>
-      </section>
+      <div class="grid md:grid-cols-2 gap-4">
+        <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
+          <h2 class="text-sm font-semibold mb-2">Movement</h2>
+          <div class="stat-grid">
+            ${statCard("Walk", move.WalkSpeed)}
+            ${statCard("Run", move.RunSpeed)}
+            ${statCard("Ride sprint", move.RideSprintSpeed)}
+            ${statCard("Transport", move.TransportSpeed)}
+            ${statCard("Swim", move.SwimSpeed)}
+            ${statCard("Stamina", move.Stamina)}
+          </div>
+        </section>
+        <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
+          <h2 class="text-sm font-semibold mb-2">Breeding</h2>
+          <div class="stat-grid">
+            ${statCard("Combi rank", pal.stats?.combi_rank)}
+            ${statCard("Male %", pal.male_probability != null ? pal.male_probability + "%" : null)}
+            ${statCard("Capture rate", pal.capture_rate_correct)}
+          </div>
+        </section>
+      </div>
 
       ${
         Array.isArray(pal.passive_skills) && pal.passive_skills.length
@@ -160,6 +187,12 @@ function palPage({ pal, siteMeta }) {
             "</p></section>"
           : ""
       }
+
+      <p class="text-xs text-pal-muted">
+        <a class="text-pal-accent underline underline-offset-2" href="${escapeHtml(prefix)}pals/">← Back to pals list</a>
+        ·
+        <a class="text-pal-accent underline underline-offset-2" href="${escapeHtml(prefix)}tools/work-suitability/">Work suitability tool</a>
+      </p>
     </div>
   </main>`;
 

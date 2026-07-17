@@ -3,6 +3,9 @@ const path = require("path");
 const { hrefToFs } = require("./site/paths");
 const { homePage } = require("./site/pages/home");
 const { palPage } = require("./site/pages/pal");
+const { palsBrowserPage } = require("./site/pages/pals-list");
+const { skillsHubPage, skillsListPage } = require("./site/pages/skills-list");
+const { skillDetailPage } = require("./site/pages/skill-detail");
 
 const root = __dirname;
 const normalizedDir = path.join(root, "data", "normalized");
@@ -39,6 +42,12 @@ const required = [
   "pals.json",
   "pals-by-slug.json",
   "search-index.json",
+  "skills-partner.json",
+  "skills-passive.json",
+  "skills-active.json",
+  "skills-partner-by-slug.json",
+  "skills-passive-by-slug.json",
+  "skills-active-by-slug.json",
 ];
 for (const name of required) {
   if (!fs.existsSync(path.join(normalizedDir, name))) {
@@ -53,26 +62,86 @@ for (const name of required) {
 const siteMeta = readJson(path.join(normalizedDir, "site-meta.json"));
 const palsList = readJson(path.join(normalizedDir, "pals.json"));
 const palsBySlug = readJson(path.join(normalizedDir, "pals-by-slug.json"));
+const partnerList = readJson(path.join(normalizedDir, "skills-partner.json"));
+const passiveList = readJson(path.join(normalizedDir, "skills-passive.json"));
+const activeList = readJson(path.join(normalizedDir, "skills-active.json"));
+const partnerBySlug = readJson(
+  path.join(normalizedDir, "skills-partner-by-slug.json")
+);
+const passiveBySlug = readJson(
+  path.join(normalizedDir, "skills-passive-by-slug.json")
+);
+const activeBySlug = readJson(
+  path.join(normalizedDir, "skills-active-by-slug.json")
+);
+
+const palsPayload = {
+  count: palsList.count,
+  dex_count: palsList.dex_count,
+  pals: palsList.pals || [],
+};
 
 fs.rmSync(distDir, { recursive: true, force: true });
 fs.mkdirSync(distDir, { recursive: true });
-
-const samplePal =
-  palsBySlug.anubis ||
-  (palsList.pals || []).find((p) => p.is_dex) ||
-  (palsList.pals || [])[0] ||
-  null;
-
-const sampleDetail = samplePal
-  ? palsBySlug[samplePal.path_segment] || samplePal
-  : null;
 
 writeFile(
   path.join(distDir, "index.html"),
   homePage({
     siteMeta,
     pals: palsList.pals || [],
-    samplePal: sampleDetail,
+  })
+);
+
+writeFile(
+  hrefToFs("/pals/", distDir),
+  palsBrowserPage({
+    mode: "database",
+    siteMeta,
+    palsPayload,
+  })
+);
+
+writeFile(
+  hrefToFs("/tools/work-suitability/", distDir),
+  palsBrowserPage({
+    mode: "work",
+    siteMeta,
+    palsPayload,
+  })
+);
+
+writeFile(
+  hrefToFs("/skills/", distDir),
+  skillsHubPage({
+    siteMeta,
+    counts: siteMeta.counts || {},
+  })
+);
+
+writeFile(
+  hrefToFs("/skills/partner/", distDir),
+  skillsListPage({
+    kind: "partner",
+    siteMeta,
+    skillsPayload: partnerList,
+  })
+);
+
+writeFile(
+  hrefToFs("/skills/passive/", distDir),
+  skillsListPage({
+    kind: "passive",
+    siteMeta,
+    skillsPayload: passiveList,
+  })
+);
+
+writeFile(
+  hrefToFs("/skills/active/", distDir),
+  skillsListPage({
+    kind: "active",
+    siteMeta,
+    skillsPayload: activeList,
   })
 );
 
@@ -83,33 +152,75 @@ for (const [seg, pal] of Object.entries(palsBySlug)) {
   palPages += 1;
 }
 
+let skillPages = 0;
+for (const skill of Object.values(partnerBySlug)) {
+  writeFile(
+    hrefToFs(skill.path, distDir),
+    skillDetailPage({
+      kind: "partner",
+      skill,
+      siteMeta,
+      palsBySlug,
+    })
+  );
+  skillPages += 1;
+}
+for (const skill of Object.values(passiveBySlug)) {
+  writeFile(
+    hrefToFs(skill.path, distDir),
+    skillDetailPage({
+      kind: "passive",
+      skill,
+      siteMeta,
+      palsBySlug,
+    })
+  );
+  skillPages += 1;
+}
+for (const skill of Object.values(activeBySlug)) {
+  writeFile(
+    hrefToFs(skill.path, distDir),
+    skillDetailPage({
+      kind: "active",
+      skill,
+      siteMeta,
+      palsBySlug,
+    })
+  );
+  skillPages += 1;
+}
+
 copyDir(iconsSrc, path.join(distDir, "icons"));
 
-const searchSrc = path.join(normalizedDir, "search-index.json");
 const dataOut = path.join(distDir, "data");
 fs.mkdirSync(dataOut, { recursive: true });
-fs.copyFileSync(searchSrc, path.join(dataOut, "search-index.json"));
-fs.copyFileSync(
-  path.join(normalizedDir, "site-meta.json"),
-  path.join(dataOut, "site-meta.json")
-);
+for (const name of [
+  "search-index.json",
+  "site-meta.json",
+  "pals.json",
+  "skills-partner.json",
+  "skills-passive.json",
+  "skills-active.json",
+]) {
+  fs.copyFileSync(
+    path.join(normalizedDir, name),
+    path.join(dataOut, name)
+  );
+}
 
 writeFile(
   path.join(root, "index.html"),
   homePage({
     siteMeta,
     pals: palsList.pals || [],
-    samplePal: sampleDetail,
   })
 );
 
 console.log("build complete →", distDir);
-console.log("home +", palPages, "pal pages");
+console.log("pal pages:", palPages, "skill pages:", skillPages);
 console.log(
   "data:",
   siteMeta.data_version,
   "validate:",
-  siteMeta.validation_status,
-  "search entries:",
-  siteMeta.counts?.search_entries
+  siteMeta.validation_status
 );

@@ -311,10 +311,10 @@ Sections / tabs:
 
 ### Exit criteria
 
-- [ ] Every dex pal has a detail page
-- [ ] List filters match or beat current spreadsheet
-- [ ] Deep-linkable pal URLs
-- [ ] Work suitability tool still available and linked from nav
+- [x] Every dex pal has a detail page (all pals have pages; list defaults to dex)
+- [x] List filters: element, work min, size, food, rarity, search, dex toggle; table/cards/compact
+- [x] Deep-linkable pal URLs (`/pal/{slug}/`)
+- [x] Work suitability tool at `/tools/work-suitability/` linked from nav
 
 ---
 
@@ -351,8 +351,9 @@ Partner, passive, and active skills as first-class entities with ownership and i
 
 ### Exit criteria
 
-- [ ] All three skill types browsable
-- [ ] Pal detail pages link to skill details
+- [x] All three skill types browsable (`/skills/partner|passive|active/`)
+- [x] Pal detail pages link to partner skill details
+- [x] Skill detail pages with owners (partner/passive) and skill fruit note (active)
 
 ---
 
@@ -641,5 +642,7 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | 2026-07-16 | Hard rule: never React/Next/SPA — multi-page SSG + vanilla JS only |
 | 2026-07-16 | Phase 0 prep: deleted old mini-site; import/normalize stubs + placeholder home |
 | 2026-07-16 | Phase 0 implemented: normalize, nested SSG shell, all pal pages, search-index |
+| 2026-07-16 | Phase 1: pals list + work suitability tool + detail polish |
+| 2026-07-16 | Phase 2: partner/passive/active skill lists + detail pages |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.

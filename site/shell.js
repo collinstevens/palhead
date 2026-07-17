@@ -62,7 +62,9 @@ function renderNav(prefix, active) {
   return (
     '<nav class="flex flex-wrap items-stretch gap-1" aria-label="Primary">' +
     link("index.html", "Home", "home") +
-    link("pal/anubis/", "Sample pal", "pal") +
+    link("pals/", "Pals", "pals") +
+    link("skills/", "Skills", "skills") +
+    link("tools/work-suitability/", "Work", "work") +
     "</nav>"
   );
 }
@@ -102,6 +104,7 @@ function shell({
   prefix = "",
   siteMeta = null,
   headExtra = "",
+  bodyScripts = "",
 }) {
   const desc = description
     ? '<meta name="description" content="' + escapeHtml(description) + '" />'
@@ -127,6 +130,7 @@ function shell({
   </header>
   ${body}
   ${renderFooter(siteMeta, prefix)}
+  ${bodyScripts}
 </body>
 </html>
 `;

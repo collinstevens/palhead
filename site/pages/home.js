@@ -6,38 +6,24 @@ function formatCount(n) {
   return Number(n || 0).toLocaleString("en-US");
 }
 
-function homePage({ siteMeta, pals, samplePal }) {
+function homePage({ siteMeta, pals }) {
   const href = "/";
   const prefix = depthPrefix(href);
   const c = siteMeta.counts || {};
-  const sampleHref = samplePal
-    ? prefix + samplePal.path.replace(/^\//, "")
-    : null;
 
-  const countRows = [
-    ["Pals (all)", c.pals, null],
-    ["Pals (dex default)", c.pals_dex, null],
-    ["Partner skills", c.skill_partner, null],
-    ["Passive skills", c.skill_passive, null],
-    ["Active skills", c.skill_active, null],
-    ["Materials", c.item_material, null],
-    ["Weapons", c.item_weapon, null],
-    ["Armor", c.item_armor, null],
-    ["Structures", c.structure, null],
-    ["Search index entries", c.search_entries, null],
-  ]
-    .map(([label, val]) => {
-      return (
-        "<li class=\"flex justify-between gap-4 border-b border-pal-border/50 py-1.5\">" +
-        '<span class="text-pal-muted">' +
-        escapeHtml(label) +
-        "</span>" +
-        '<span class="text-pal-text font-medium tabular-nums">' +
-        escapeHtml(formatCount(val)) +
-        "</span></li>"
-      );
-    })
-    .join("");
+  const feature = (hrefRel, title, desc, meta) =>
+    '<a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="' +
+    escapeHtml(prefix + hrefRel) +
+    '">' +
+    '<div class="font-semibold">' +
+    escapeHtml(title) +
+    "</div>" +
+    '<p class="text-sm text-pal-muted flex-1">' +
+    escapeHtml(desc) +
+    "</p>" +
+    '<div class="text-xs text-pal-accent">' +
+    escapeHtml(meta) +
+    "</div></a>";
 
   const sampleCards = (pals || [])
     .filter((p) => p.is_dex)
@@ -80,48 +66,57 @@ function homePage({ siteMeta, pals, samplePal }) {
   <main class="flex-1 px-4 py-8 w-full">
     <div class="max-w-5xl mx-auto flex flex-col gap-6">
       <div>
-        <p class="text-xs uppercase tracking-wide text-pal-muted mb-1">Phase 0 · foundations</p>
-        <h1 class="text-2xl sm:text-3xl font-semibold mb-2">Palhead database rebuild</h1>
+        <p class="text-xs uppercase tracking-wide text-pal-muted mb-1">Palworld database</p>
+        <h1 class="text-2xl sm:text-3xl font-semibold mb-2">Palhead</h1>
         <p class="text-pal-muted text-sm leading-relaxed max-w-2xl">
-          Multi-page static SSG (no React/Next/SPA). Game data is imported from
-          <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>
-          publish bundles, normalized, then rendered to nested HTML routes.
+          Multi-page static database powered by
+          <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>.
+          Browse every pal, filter work suitability, open deep-linkable entity pages.
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-4">
-        <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
-          <h2 class="text-sm font-semibold mb-3">Vendor catalog</h2>
-          <ul class="text-sm">${countRows}</ul>
-        </section>
-        <section class="rounded-lg border border-pal-border bg-pal-panel p-4 flex flex-col gap-3">
-          <h2 class="text-sm font-semibold">Pipeline status</h2>
-          <dl class="text-sm space-y-2">
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Data version</dt><dd class="text-pal-text">${escapeHtml(siteMeta.data_version || "—")}</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Validation</dt><dd class="text-pal-text">${escapeHtml(siteMeta.validation_status || "—")}</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Tables</dt><dd class="text-pal-text">${escapeHtml(String(siteMeta.table_count ?? "—"))}</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Routing</dt><dd class="text-pal-text">nested (/pal/…/)</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Default pal filter</dt><dd class="text-pal-text">dex (#&gt;0)</dd></div>
-          </dl>
-          ${
-            sampleHref
-              ? '<a class="inline-flex items-center justify-center rounded-lg bg-pal-accent/15 text-pal-accent border border-pal-accent/40 px-3 py-2 text-sm font-medium hover:bg-pal-accent/25 transition" href="' +
-                escapeHtml(sampleHref) +
-                '">Open sample entity → ' +
-                escapeHtml(samplePal.name) +
-                "</a>"
-              : ""
-          }
-        </section>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        ${feature(
+          "pals/",
+          "Pals database",
+          "Filter by element, work, size, food, and rarity. Table, cards, or compact views.",
+          formatCount(c.pals_dex) + " dex · " + formatCount(c.pals) + " total"
+        )}
+        ${feature(
+          "skills/",
+          "Skills",
+          "Partner, passive, and active skills from paldb.cc.",
+          formatCount(
+            (c.skill_partner || 0) +
+              (c.skill_passive || 0) +
+              (c.skill_active || 0)
+          ) + " total"
+        )}
+        ${feature(
+          "tools/work-suitability/",
+          "Work suitability",
+          "Spreadsheet-style work columns. Sort high → low with zeros sinking.",
+          "12 work types"
+        )}
       </div>
+
+      <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
+        <h2 class="text-sm font-semibold mb-3">Data snapshot</h2>
+        <ul class="text-sm grid sm:grid-cols-2 gap-x-6">
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Data version</span><span>${escapeHtml(siteMeta.data_version || "—")}</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Validation</span><span>${escapeHtml(siteMeta.validation_status || "—")}</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Pals (dex)</span><span>${escapeHtml(formatCount(c.pals_dex))}</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Search index</span><span>${escapeHtml(formatCount(c.search_entries))}</span></li>
+        </ul>
+      </section>
 
       <section>
         <div class="flex items-end justify-between gap-3 mb-3">
-          <h2 class="text-sm font-semibold">Sample dex pals</h2>
-          <span class="text-xs text-pal-muted">Entity pages generated for all pals</span>
+          <h2 class="text-sm font-semibold">Dex pals</h2>
+          <a class="text-xs text-pal-accent underline underline-offset-2" href="${escapeHtml(prefix)}pals/">View all →</a>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2">
-          ${sampleCards || '<p class="text-sm text-pal-muted">No pals in normalized data.</p>'}
+          ${sampleCards || '<p class="text-sm text-pal-muted">No pals loaded.</p>'}
         </div>
       </section>
     </div>
@@ -130,7 +125,7 @@ function homePage({ siteMeta, pals, samplePal }) {
   return shell({
     title: "Palhead — Palworld database",
     description:
-      "Palworld database rebuild. Static multi-page site powered by paldb.cc data.",
+      "Palworld pals database and work suitability tools. Static multi-page site powered by paldb.cc.",
     activeNav: "home",
     body,
     prefix,

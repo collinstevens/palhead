@@ -1,6 +1,6 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Phase 0 foundations complete; building toward a full entity DB from paldb-derived data.
+Palworld multi-page static database & tools site. Phases 0–2 complete (foundations, pals, skills); next is items/recipes.
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
@@ -13,8 +13,8 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 
 | Path | Role |
 |------|------|
-| `build.js` | SSG orchestrator → writes `dist/` (home + all pal entity pages) |
-| `site/` | Shell, paths, pages (`home.js`, `pal.js`), helpers |
+| `build.js` | SSG orchestrator → writes `dist/` (home, pals list, work tool, pal pages) |
+| `site/` | Shell, paths, pages (`home`, `pals-list`, `pal`), client filter JS |
 | `scripts/data-import.js` | Copy paldb publish bundle → `data/vendor/` |
 | `scripts/data-normalize.js` | Normalize vendor → `data/normalized/` |
 | `scripts/prepare-dist.js` | Ensure `dist/icons` after build |
@@ -28,12 +28,24 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 | `dist/` | Deploy artifact (gitignored) |
 | `wrangler.toml` | Cloudflare Pages (`pages_build_output_dir = "dist"`) |
 
-### Locked Phase 0 decisions
+### Locked decisions
 
-- **Routes:** nested static folders, e.g. `/pal/anubis/index.html`
+- **Routes:** nested static folders, e.g. `/pals/`, `/pal/anubis/`, `/tools/work-suitability/`
 - **Vendor data:** import-pin into `data/vendor/` (not committed; refresh via import)
-- **Default pal list filter:** dex only (`deck > 0`); full entity set still normalized/built
+- **Default pal list filter:** dex only (`deck > 0`); toggle for all entities
 - **Stack:** multi-page SSG + vanilla JS forever — never React/Next/SPA
+
+### Shipped pages (Phase 1)
+
+| Path | Role |
+|------|------|
+| `/` | Home hub |
+| `/pals/` | Pal database (filter/sort, table/cards/compact) |
+| `/pal/{slug}/` | Pal detail |
+| `/skills/` | Skills hub |
+| `/skills/partner|passive|active/` | Skill lists |
+| `/skills/{kind}/{slug}/` | Skill detail + owners |
+| `/tools/work-suitability/` | Work-focused spreadsheet tool |
 
 ## Commands
 

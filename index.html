@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Palhead — Palworld database</title>
-  <meta name="description" content="Palworld database rebuild. Static multi-page site powered by paldb.cc data." />
+  <meta name="description" content="Palworld pals database and work suitability tools. Static multi-page site powered by paldb.cc." />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -50,44 +50,42 @@
   <header class="border-b border-pal-border bg-pal-panel sticky top-0 z-20">
     <div class="px-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-0 min-h-[3rem]">
       <a href="index.html" class="font-bold tracking-tight text-lg py-2">Palhead</a>
-      <nav class="flex flex-wrap items-stretch gap-1" aria-label="Primary"><a class="px-2 py-3 text-sm text-pal-text border-b-2 border-pal-accent" href="index.html">Home</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="pal/anubis/">Sample pal</a></nav>
+      <nav class="flex flex-wrap items-stretch gap-1" aria-label="Primary"><a class="px-2 py-3 text-sm text-pal-text border-b-2 border-pal-accent" href="index.html">Home</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="pals/">Pals</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="skills/">Skills</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="tools/work-suitability/">Work</a></nav>
     </div>
   </header>
   
   <main class="flex-1 px-4 py-8 w-full">
     <div class="max-w-5xl mx-auto flex flex-col gap-6">
       <div>
-        <p class="text-xs uppercase tracking-wide text-pal-muted mb-1">Phase 0 · foundations</p>
-        <h1 class="text-2xl sm:text-3xl font-semibold mb-2">Palhead database rebuild</h1>
+        <p class="text-xs uppercase tracking-wide text-pal-muted mb-1">Palworld database</p>
+        <h1 class="text-2xl sm:text-3xl font-semibold mb-2">Palhead</h1>
         <p class="text-pal-muted text-sm leading-relaxed max-w-2xl">
-          Multi-page static SSG (no React/Next/SPA). Game data is imported from
-          <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>
-          publish bundles, normalized, then rendered to nested HTML routes.
+          Multi-page static database powered by
+          <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>.
+          Browse every pal, filter work suitability, open deep-linkable entity pages.
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-4">
-        <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
-          <h2 class="text-sm font-semibold mb-3">Vendor catalog</h2>
-          <ul class="text-sm"><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Pals (all)</span><span class="text-pal-text font-medium tabular-nums">592</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Pals (dex default)</span><span class="text-pal-text font-medium tabular-nums">266</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Partner skills</span><span class="text-pal-text font-medium tabular-nums">288</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Passive skills</span><span class="text-pal-text font-medium tabular-nums">286</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Active skills</span><span class="text-pal-text font-medium tabular-nums">374</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Materials</span><span class="text-pal-text font-medium tabular-nums">188</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Weapons</span><span class="text-pal-text font-medium tabular-nums">131</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Armor</span><span class="text-pal-text font-medium tabular-nums">109</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Structures</span><span class="text-pal-text font-medium tabular-nums">551</span></li><li class="flex justify-between gap-4 border-b border-pal-border/50 py-1.5"><span class="text-pal-muted">Search index entries</span><span class="text-pal-text font-medium tabular-nums">3,107</span></li></ul>
-        </section>
-        <section class="rounded-lg border border-pal-border bg-pal-panel p-4 flex flex-col gap-3">
-          <h2 class="text-sm font-semibold">Pipeline status</h2>
-          <dl class="text-sm space-y-2">
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Data version</dt><dd class="text-pal-text">2026-07-16</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Validation</dt><dd class="text-pal-text">pass</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Tables</dt><dd class="text-pal-text">70</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Routing</dt><dd class="text-pal-text">nested (/pal/…/)</dd></div>
-            <div class="flex justify-between gap-3"><dt class="text-pal-muted">Default pal filter</dt><dd class="text-pal-text">dex (#&gt;0)</dd></div>
-          </dl>
-          <a class="inline-flex items-center justify-center rounded-lg bg-pal-accent/15 text-pal-accent border border-pal-accent/40 px-3 py-2 text-sm font-medium hover:bg-pal-accent/25 transition" href="pal/anubis/">Open sample entity → Anubis</a>
-        </section>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="pals/"><div class="font-semibold">Pals database</div><p class="text-sm text-pal-muted flex-1">Filter by element, work, size, food, and rarity. Table, cards, or compact views.</p><div class="text-xs text-pal-accent">266 dex · 592 total</div></a>
+        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="skills/"><div class="font-semibold">Skills</div><p class="text-sm text-pal-muted flex-1">Partner, passive, and active skills from paldb.cc.</p><div class="text-xs text-pal-accent">951 total</div></a>
+        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="tools/work-suitability/"><div class="font-semibold">Work suitability</div><p class="text-sm text-pal-muted flex-1">Spreadsheet-style work columns. Sort high → low with zeros sinking.</p><div class="text-xs text-pal-accent">12 work types</div></a>
       </div>
+
+      <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
+        <h2 class="text-sm font-semibold mb-3">Data snapshot</h2>
+        <ul class="text-sm grid sm:grid-cols-2 gap-x-6">
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Data version</span><span>2026-07-16</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Validation</span><span>pass</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Pals (dex)</span><span>266</span></li>
+          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Search index</span><span>3,107</span></li>
+        </ul>
+      </section>
 
       <section>
         <div class="flex items-end justify-between gap-3 mb-3">
-          <h2 class="text-sm font-semibold">Sample dex pals</h2>
-          <span class="text-xs text-pal-muted">Entity pages generated for all pals</span>
+          <h2 class="text-sm font-semibold">Dex pals</h2>
+          <a class="text-xs text-pal-accent underline underline-offset-2" href="pals/">View all →</a>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2">
           <a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/lamball/"><img src="icons/T_SheepBall_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Lamball</div><div class="text-xs text-pal-muted">#1 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/cattiva/"><img src="icons/T_PinkCat_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Cattiva</div><div class="text-xs text-pal-muted">#2 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/chikipi/"><img src="icons/T_ChickenPal_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Chikipi</div><div class="text-xs text-pal-muted">#3 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/lifmunk/"><img src="icons/T_Carbunclo_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Lifmunk</div><div class="text-xs text-pal-muted">#4 · <span class="elem elem-Grass">Grass</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/fuack/"><img src="icons/T_BluePlatypus_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Fuack</div><div class="text-xs text-pal-muted">#5 · <span class="elem elem-Water">Water</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/fuack_ignis/"><img src="icons/T_BluePlatypus_Fire_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Fuack Ignis</div><div class="text-xs text-pal-muted">#5 · <span class="elem elem-Water">Water</span> <span class="elem elem-Fire">Fire</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/vixy/"><img src="icons/T_CuteFox_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Vixy</div><div class="text-xs text-pal-muted">#6 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/celaray/"><img src="icons/T_FlyingManta_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Celaray</div><div class="text-xs text-pal-muted">#7 · <span class="elem elem-Water">Water</span></div></div></a>
@@ -96,5 +94,6 @@
     </div>
   </main>
   <footer class="border-t border-pal-border mt-auto"><div class="px-4 py-4 text-xs text-pal-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"><div>Game data: <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a> · Not affiliated with Pocketpair</div><div class="text-pal-muted/90">Data <span class="text-pal-text">2026-07-16</span> · validate <span class="text-pal-text">pass</span> · imported <span class="text-pal-text">2026-07-17 00:43:15Z</span></div></div></footer>
+  
 </body>
 </html>
