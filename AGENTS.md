@@ -1,6 +1,6 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Phases 0–3 complete (foundations, pals, skills, Wowhead-style chrome + empty hubs). **Next: Phase 4 — items & recipes.**
+Palworld multi-page static database & tools site. Phases 0–4 complete (foundations, pals, skills, Wowhead chrome, items & recipes). **Next: Phase 5 — base & technology.**
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
@@ -41,7 +41,7 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 - **Default pal list filter:** dex only (`deck > 0`); toggle for all entities
 - **Stack:** multi-page SSG + vanilla JS forever — never React/Next/SPA
 
-### Shipped pages (Phase 1)
+### Shipped pages (Phases 1–4)
 
 | Path | Role |
 |------|------|
@@ -52,6 +52,10 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 | `/skills/partner|passive|active/` | Skill lists |
 | `/skills/{kind}/{slug}/` | Skill detail + owners |
 | `/tools/work-suitability/` | Work-focused spreadsheet tool |
+| `/items/` | Items hub (categories) |
+| `/items/{category}/` | Item category list |
+| `/item/{slug}/` | Item detail (craft / used-in / drops) |
+| `/recipes/` | Recipes browser |
 
 ## Commands
 

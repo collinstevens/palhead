@@ -28,6 +28,14 @@ function itemHref(slug) {
   return "/item/" + pathSegment(slug) + "/";
 }
 
+function itemsCategoryHref(category) {
+  return "/items/" + pathSegment(category) + "/";
+}
+
+function recipesHref() {
+  return "/recipes/";
+}
+
 function structureHref(slug) {
   return "/structure/" + pathSegment(slug) + "/";
 }
@@ -52,6 +60,8 @@ module.exports = {
   skillPassiveHref,
   skillActiveHref,
   itemHref,
+  itemsCategoryHref,
+  recipesHref,
   structureHref,
   hrefToFs,
   depthPrefix,

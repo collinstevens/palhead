@@ -7,9 +7,208 @@ const {
   skillPassiveHref,
   skillActiveHref,
   itemHref,
+  itemsCategoryHref,
+  recipesHref,
   structureHref,
 } = require("../site/paths");
 const { normalizeElements } = require("../site/elements");
+
+const ITEM_CATEGORIES = [
+  {
+    key: "materials",
+    vendor: "materials.json",
+    listKey: "materials",
+    type: "item_material",
+    label: "Materials",
+    blurb: "Crafting materials and intermediate goods.",
+  },
+  {
+    key: "weapons",
+    vendor: "weapons.json",
+    listKey: "weapons",
+    type: "item_weapon",
+    label: "Weapons",
+    blurb: "Ranged and melee weapons.",
+  },
+  {
+    key: "armor",
+    vendor: "armor.json",
+    listKey: "armor",
+    type: "item_armor",
+    label: "Armor",
+    blurb: "Body, head, and shield armor.",
+  },
+  {
+    key: "accessories",
+    vendor: "accessories.json",
+    listKey: "accessories",
+    type: "item_accessory",
+    label: "Accessories",
+    blurb: "Rings, glasses, and other accessories.",
+  },
+  {
+    key: "consumables",
+    vendor: "consumables.json",
+    listKey: "consumables",
+    type: "item_consumable",
+    label: "Consumables",
+    blurb: "Meds, food buffs, and throwables.",
+  },
+  {
+    key: "ammo",
+    vendor: "ammo.json",
+    listKey: "ammo",
+    type: "item_ammo",
+    label: "Ammo",
+    blurb: "Ammunition for weapons.",
+  },
+  {
+    key: "ingredients",
+    vendor: "ingredients.json",
+    listKey: "ingredients",
+    type: "item_ingredient",
+    label: "Ingredients",
+    blurb: "Cooking ingredients and prepared food.",
+  },
+  {
+    key: "spheres",
+    vendor: "spheres.json",
+    listKey: "spheres",
+    type: "item_sphere",
+    label: "Spheres",
+    blurb: "Capture spheres.",
+  },
+  {
+    key: "sphere-modules",
+    vendor: "sphere_modules.json",
+    listKey: "sphere_modules",
+    type: "item_sphere_module",
+    label: "Sphere modules",
+    blurb: "Sphere trajectory and capture modules.",
+  },
+  {
+    key: "saddles",
+    vendor: "saddles.json",
+    listKey: "saddles",
+    type: "item_saddle",
+    label: "Saddles",
+    blurb: "Pal gear and saddles.",
+  },
+  {
+    key: "skill-fruits",
+    vendor: "skill_fruits.json",
+    listKey: "skill_fruits",
+    type: "item_skill_fruit",
+    label: "Skill fruits",
+    blurb: "Fruits that teach active skills.",
+  },
+  {
+    key: "schematics",
+    vendor: "schematics.json",
+    listKey: "schematics",
+    type: "item_schematic",
+    label: "Schematics",
+    blurb: "Blueprints and schematics.",
+  },
+  {
+    key: "key-items",
+    vendor: "key_items.json",
+    listKey: "key_items",
+    type: "item_key",
+    label: "Key items",
+    blurb: "Quest tokens, keys, and special items.",
+  },
+];
+
+function humanizeName(value) {
+  return String(value || "")
+    .replace(/_/g, " ")
+    .replace(/:{2,}/g, ": ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isJunkSlug(value) {
+  if (value == null) return true;
+  const s = String(value).trim();
+  return !s || s === "-" || s === "—";
+}
+
+function parseMaterials(raw) {
+  if (!raw) return [];
+  if (Array.isArray(raw)) {
+    return raw
+      .map((m) => {
+        if (m == null) return null;
+        if (typeof m === "string") {
+          const slug = pathSegment(m);
+          if (isJunkSlug(slug) || slug === "material" || slug === "key_items")
+            return null;
+          return { slug, name: humanizeName(m), quantity: null };
+        }
+        const slugRaw = m.slug || m.id || m.name;
+        if (isJunkSlug(slugRaw)) return null;
+        const slug = pathSegment(slugRaw);
+        if (slug === "material" || slug === "key_items" || slug === "schematic")
+          return null;
+        return {
+          slug,
+          name: humanizeName(m.name || m.slug || slugRaw),
+          quantity: m.quantity != null ? Number(m.quantity) || m.quantity : null,
+        };
+      })
+      .filter(Boolean);
+  }
+  if (typeof raw === "string") {
+    return raw
+      .split(/[,;]/)
+      .map((part) => {
+        const t = part.trim();
+        if (!t) return null;
+        const m = t.match(/^(.+?)\s*[x×]\s*(\d+)\s*$/i) || t.match(/^(\d+)\s*[x×]\s*(.+)$/i);
+        if (m) {
+          const a = m[1];
+          const b = m[2];
+          const qtyFirst = /^\d+$/.test(a);
+          const name = humanizeName(qtyFirst ? b : a);
+          const quantity = Number(qtyFirst ? a : b);
+          return { slug: pathSegment(name), name, quantity };
+        }
+        return { slug: pathSegment(t), name: humanizeName(t), quantity: null };
+      })
+      .filter(Boolean);
+  }
+  return [];
+}
+
+function parseWorkstations(raw) {
+  if (!raw) return [];
+  if (Array.isArray(raw)) {
+    return raw
+      .map((w) => {
+        if (w == null) return null;
+        if (typeof w === "string") {
+          if (isJunkSlug(w)) return null;
+          return { slug: pathSegment(w), name: humanizeName(w) };
+        }
+        const slugRaw = w.slug || w.id || w.name;
+        if (isJunkSlug(slugRaw)) return null;
+        return {
+          slug: pathSegment(slugRaw),
+          name: humanizeName(w.name || w.slug || slugRaw),
+        };
+      })
+      .filter(Boolean);
+  }
+  if (typeof raw === "string") {
+    return raw
+      .split(/[,;]/)
+      .map((s) => s.trim())
+      .filter((s) => !isJunkSlug(s))
+      .map((s) => ({ slug: pathSegment(s), name: humanizeName(s) }));
+  }
+  return [];
+}
 
 const root = path.join(__dirname, "..");
 const vendorDir = path.join(root, "data", "vendor");
@@ -90,9 +289,6 @@ const palsDoc = loadVendor("pals.json");
 const partnerDoc = loadVendor("partner_skills.json");
 const passiveDoc = loadVendor("passive_skills.json");
 const activeDoc = loadVendor("active_skills.json");
-const materialsDoc = loadVendor("materials.json");
-const weaponsDoc = loadVendor("weapons.json");
-const armorDoc = loadVendor("armor.json");
 const structuresDoc = loadVendor("structures.json");
 const technologiesDoc = loadVendor("technologies.json");
 
@@ -418,27 +614,92 @@ activeSkills.sort((a, b) => {
   return a.name.localeCompare(b.name);
 });
 
-function normalizeItems(list, type) {
-  const out = [];
-  for (const raw of list || []) {
-    const slug = raw.slug || raw.id || raw.name;
-    if (!slug || slug === "-") continue;
-    const pathSeg = pathSegment(slug);
-    const href = itemHref(slug);
-    const name = raw.name || slug;
-    out.push({
-      id: raw.id || slug,
+const itemsOut = [];
+const itemsBySlug = {};
+const itemsByCategory = {};
+const usedItemPathSegs = new Set();
+const itemAliasToSlug = new Map();
+
+function registerItemAlias(alias, pathSeg) {
+  if (!alias || isJunkSlug(alias)) return;
+  const key = pathSegment(alias);
+  if (!key || itemAliasToSlug.has(key)) return;
+  itemAliasToSlug.set(key, pathSeg);
+}
+
+for (const cat of ITEM_CATEGORIES) {
+  itemsByCategory[cat.key] = [];
+  const doc = loadVendor(cat.vendor);
+  const list = doc?.[cat.listKey] || [];
+  for (const raw of list) {
+    let slugRaw = raw.slug;
+    if (isJunkSlug(slugRaw)) slugRaw = raw.code || raw.id || raw.name;
+    if (isJunkSlug(slugRaw)) continue;
+
+    let pathSeg = pathSegment(slugRaw);
+    if (usedItemPathSegs.has(pathSeg)) {
+      const alt = pathSegment(pathSeg + "-" + cat.key);
+      if (usedItemPathSegs.has(alt)) continue;
+      pathSeg = alt;
+    }
+    usedItemPathSegs.add(pathSeg);
+
+    let name = raw.name;
+    if (isJunkSlug(name)) name = raw.code || raw.id || slugRaw;
+    name = humanizeName(name);
+
+    const href = itemHref(pathSeg);
+    const materials = parseMaterials(raw.recipe_materials || raw.materials);
+    const workstations = parseWorkstations(raw.workstations);
+    const rarity = raw.rarity || raw.rarity_label || null;
+    const description =
+      raw.description && !isJunkSlug(raw.description)
+        ? String(raw.description).trim()
+        : null;
+
+    const compact = {
+      id: raw.id || raw.code || pathSeg,
       slug: pathSeg,
       path: href,
       name,
-      type,
-      rarity: raw.rarity || raw.rarity_label || null,
-      category: raw.category || null,
-      description: raw.description || null,
-    });
+      code: raw.code || raw.id || null,
+      category: cat.key,
+      category_label: cat.label,
+      type: cat.type,
+      rarity,
+      rank: raw.rank ?? null,
+      weight: raw.weight ?? null,
+      max_stack: raw.max_stack_count ?? raw.max_stack ?? null,
+      type_a: raw.type_a || null,
+      type_b: raw.type_b || null,
+      has_recipe: materials.length > 0 || workstations.length > 0,
+    };
+
+    const detail = {
+      ...compact,
+      description,
+      materials,
+      workstations,
+      craft_times: Array.isArray(raw.craft_times) ? raw.craft_times : [],
+      source_url: raw.source_url || null,
+      recipes_as_product: [],
+      used_in: [],
+      dropped_by: [],
+    };
+
+    itemsOut.push(compact);
+    itemsBySlug[pathSeg] = detail;
+    itemsByCategory[cat.key].push(compact);
+
+    registerItemAlias(raw.slug, pathSeg);
+    registerItemAlias(raw.code, pathSeg);
+    registerItemAlias(raw.id, pathSeg);
+    registerItemAlias(raw.name, pathSeg);
+    registerItemAlias(pathSeg, pathSeg);
+
     searchEntries.push({
       name,
-      type,
+      type: cat.type,
       slug: pathSeg,
       path: href,
       elements: null,
@@ -446,12 +707,180 @@ function normalizeItems(list, type) {
       rank: raw.rank ?? null,
     });
   }
-  return out;
+  itemsByCategory[cat.key].sort((a, b) => a.name.localeCompare(b.name));
 }
 
-const materials = normalizeItems(materialsDoc?.materials, "item_material");
-const weapons = normalizeItems(weaponsDoc?.weapons, "item_weapon");
-const armor = normalizeItems(armorDoc?.armor, "item_armor");
+itemsOut.sort((a, b) => a.name.localeCompare(b.name));
+
+function resolveItemSlug(ref) {
+  if (!ref || isJunkSlug(ref)) return null;
+  const key = pathSegment(ref);
+  if (itemsBySlug[key]) return key;
+  return itemAliasToSlug.get(key) || null;
+}
+
+const recipesDoc = loadVendor("recipes.json");
+const recipesOut = [];
+const recipeIdSet = new Set();
+
+for (const raw of recipesDoc?.recipes || []) {
+  const productSlugRaw =
+    raw.product_slug && !isJunkSlug(raw.product_slug)
+      ? raw.product_slug
+      : raw.product_code || raw.id;
+  if (isJunkSlug(productSlugRaw)) continue;
+
+  const materials = parseMaterials(raw.materials);
+  const workstations = parseWorkstations(raw.workstations);
+  if (!materials.length && !workstations.length) {
+    const productOnly = resolveItemSlug(productSlugRaw);
+    if (!productOnly) continue;
+  }
+
+  const productResolved = resolveItemSlug(productSlugRaw);
+  const productPathSeg = productResolved || pathSegment(productSlugRaw);
+  const productName = humanizeName(
+    raw.product_name && !isJunkSlug(raw.product_name)
+      ? raw.product_name
+      : productSlugRaw
+  );
+
+  const recipeId =
+    pathSegment(
+      (raw.id || raw.product_code || productPathSeg) +
+        "-" +
+        (workstations[0]?.slug || "craft")
+    ) +
+    (recipeIdSet.has(
+      pathSegment((raw.id || productPathSeg) + "-" + (workstations[0]?.slug || "craft"))
+    )
+      ? "-" + recipesOut.length
+      : "");
+  const rid = recipeIdSet.has(recipeId) ? recipeId + "-" + recipesOut.length : recipeId;
+  recipeIdSet.add(rid);
+
+  const materialLinks = materials.map((m) => {
+    const resolved = resolveItemSlug(m.slug) || resolveItemSlug(m.name);
+    return {
+      slug: resolved || m.slug,
+      name: resolved ? itemsBySlug[resolved].name : m.name,
+      quantity: m.quantity,
+      path: resolved ? itemsBySlug[resolved].path : null,
+      known: !!resolved,
+    };
+  });
+
+  const recipe = {
+    id: rid,
+    product_slug: productPathSeg,
+    product_name: productResolved
+      ? itemsBySlug[productResolved].name
+      : productName,
+    product_path: productResolved ? itemsBySlug[productResolved].path : null,
+    product_known: !!productResolved,
+    product_code: raw.product_code || raw.id || null,
+    category: raw.category || null,
+    materials: materialLinks,
+    workstations,
+    craft_times: Array.isArray(raw.craft_times) ? raw.craft_times : [],
+    material_count: materialLinks.length,
+    workstation_labels: workstations.map((w) => w.name).join(", "),
+  };
+  recipesOut.push(recipe);
+
+  if (productResolved) {
+    itemsBySlug[productResolved].recipes_as_product.push({
+      id: rid,
+      materials: materialLinks,
+      workstations,
+      craft_times: recipe.craft_times,
+    });
+  }
+
+  for (const m of materialLinks) {
+    if (!m.known || !itemsBySlug[m.slug]) continue;
+    itemsBySlug[m.slug].used_in.push({
+      product_slug: productPathSeg,
+      product_name: recipe.product_name,
+      product_path: recipe.product_path,
+      quantity: m.quantity,
+      workstations,
+    });
+  }
+}
+
+recipesOut.sort((a, b) => a.product_name.localeCompare(b.product_name));
+
+const dropsDoc = loadVendor("drops.json");
+const dropByItem = dropsDoc?.by_item || {};
+for (const [itemKey, rows] of Object.entries(dropByItem)) {
+  if (!Array.isArray(rows) || !rows.length) continue;
+  if (String(itemKey).startsWith("_characterName")) continue;
+  const resolved = resolveItemSlug(itemKey);
+  if (!resolved || !itemsBySlug[resolved]) continue;
+  const mapped = rows
+    .map((row) => ({
+      source_type: row.source_type || null,
+      source_slug: row.source_slug || null,
+      source_name: humanizeName(row.source_name || row.source_slug || "Unknown"),
+      quantity: row.quantity != null ? String(row.quantity) : null,
+      rate: row.rate != null ? row.rate : null,
+    }))
+    .slice(0, 40);
+  itemsBySlug[resolved].dropped_by = mapped;
+  itemsBySlug[resolved].drop_count = rows.length;
+}
+
+for (const item of Object.values(itemsBySlug)) {
+  item.used_in_count = item.used_in.length;
+  item.recipe_count = item.recipes_as_product.length;
+  if (item.used_in.length > 30) {
+    item.used_in = item.used_in.slice(0, 30);
+  }
+  item.materials = (item.materials || []).map((m) => {
+    const resolved = resolveItemSlug(m.slug) || resolveItemSlug(m.name);
+    return {
+      slug: resolved || m.slug,
+      name: resolved ? itemsBySlug[resolved].name : m.name,
+      quantity: m.quantity,
+      path: resolved ? itemsBySlug[resolved].path : null,
+      known: !!resolved,
+    };
+  });
+  if (!item.recipes_as_product.length && (item.materials.length || item.workstations.length)) {
+    item.recipes_as_product.push({
+      id: item.slug + "-inline",
+      materials: item.materials,
+      workstations: item.workstations,
+      craft_times: item.craft_times || [],
+    });
+    item.recipe_count = 1;
+  }
+}
+
+relations.item_used_in = {};
+relations.item_recipes = {};
+relations.item_drops = {};
+for (const item of Object.values(itemsBySlug)) {
+  if (item.used_in.length)
+    relations.item_used_in[item.slug] = item.used_in.map((u) => u.product_slug);
+  if (item.recipes_as_product.length)
+    relations.item_recipes[item.slug] = item.recipes_as_product.length;
+  if (item.dropped_by.length)
+    relations.item_drops[item.slug] = item.dropped_by.length;
+}
+
+for (const skill of activeSkills) {
+  if (!skill.skill_fruit_raw) continue;
+  const resolved =
+    resolveItemSlug(skill.skill_fruit_raw) ||
+    resolveItemSlug(skill.skill_fruit_slug);
+  if (resolved) {
+    skill.skill_fruit_slug = resolved;
+    skill.skill_fruit_path = itemsBySlug[resolved].path;
+    skill.skill_fruit_name = itemsBySlug[resolved].name;
+  }
+}
 
 const structures = [];
 for (const raw of structuresDoc?.structures || []) {
@@ -459,7 +888,7 @@ for (const raw of structuresDoc?.structures || []) {
   if (!slug) continue;
   const pathSeg = pathSegment(slug);
   const href = structureHref(slug);
-  const name = raw.name || slug;
+  const name = humanizeName(raw.name || slug);
   structures.push({
     id: raw.id || slug,
     slug: pathSeg,
@@ -487,13 +916,13 @@ for (const raw of technologiesDoc?.technologies || technologiesDoc?.items || [])
   technologies.push({
     id: raw.id || name,
     slug: pathSeg,
-    name,
+    name: humanizeName(name),
     level: raw.level ?? raw.player_level ?? null,
     points: raw.points ?? null,
     category: raw.category || null,
   });
   searchEntries.push({
-    name,
+    name: humanizeName(name),
     type: "tech",
     slug: pathSeg,
     path: "/tech/",
@@ -511,19 +940,28 @@ const tables = (catalog.tables || []).map((t) => ({
   bytes: t.bytes,
 }));
 
+const itemCategoryCounts = {};
+for (const cat of ITEM_CATEGORIES) {
+  itemCategoryCounts[cat.key] = itemsByCategory[cat.key].length;
+}
+
 const counts = {
   pals: palsOut.length,
   pals_dex: palsOut.filter((p) => p.is_dex).length,
   skill_partner: partnerSkills.length,
   skill_passive: passiveSkills.length,
   skill_active: activeSkills.length,
-  item_material: materials.length,
-  item_weapon: weapons.length,
-  item_armor: armor.length,
+  items: itemsOut.length,
+  recipes: recipesOut.length,
+  item_categories: itemCategoryCounts,
   structure: structures.length,
   tech: technologies.length,
   search_entries: searchEntries.length,
 };
+
+for (const cat of ITEM_CATEGORIES) {
+  counts[cat.type] = itemsByCategory[cat.key].length;
+}
 
 const siteMeta = {
   built_at: builtAt,
@@ -540,6 +978,14 @@ const siteMeta = {
   validation_status: validation?.status || "unknown",
   validation_summary: validation?.summary || null,
   counts,
+  item_categories: ITEM_CATEGORIES.map((c) => ({
+    key: c.key,
+    label: c.label,
+    blurb: c.blurb,
+    type: c.type,
+    path: itemsCategoryHref(c.key),
+    count: itemsByCategory[c.key].length,
+  })),
   sample_pal_path: palsBySlug.anubis ? palHref("Anubis") : palsOut[0]?.path || null,
   routing: "nested",
   default_pal_list_filter: "dex",
@@ -548,7 +994,7 @@ const siteMeta = {
 
 const manifest = {
   built_at: builtAt,
-  phase: 0,
+  phase: 4,
   source: {
     generated_at: catalog.generated_at || importMeta?.generated_at || null,
     tool_version: catalog.tool_version || importMeta?.tool_version || null,
@@ -571,9 +1017,10 @@ const manifest = {
     "skills-passive-by-slug.json",
     "skills-active.json",
     "skills-active-by-slug.json",
-    "items-materials.json",
-    "items-weapons.json",
-    "items-armor.json",
+    "items.json",
+    "items-by-slug.json",
+    "items-categories.json",
+    "recipes.json",
     "structures.json",
     "technologies.json",
   ],
@@ -613,17 +1060,37 @@ writeJson(path.join(outDir, "skills-active.json"), {
   skills: activeSkills,
 });
 writeJson(path.join(outDir, "skills-active-by-slug.json"), activeBySlug);
-writeJson(path.join(outDir, "items-materials.json"), {
-  count: materials.length,
-  items: materials,
+writeJson(path.join(outDir, "items.json"), {
+  built_at: builtAt,
+  count: itemsOut.length,
+  items: itemsOut,
 });
-writeJson(path.join(outDir, "items-weapons.json"), {
-  count: weapons.length,
-  items: weapons,
+writeJson(path.join(outDir, "items-by-slug.json"), itemsBySlug);
+writeJson(path.join(outDir, "items-categories.json"), {
+  categories: ITEM_CATEGORIES.map((c) => ({
+    key: c.key,
+    label: c.label,
+    blurb: c.blurb,
+    type: c.type,
+    path: itemsCategoryHref(c.key),
+    count: itemsByCategory[c.key].length,
+    items: itemsByCategory[c.key],
+  })),
 });
-writeJson(path.join(outDir, "items-armor.json"), {
-  count: armor.length,
-  items: armor,
+for (const cat of ITEM_CATEGORIES) {
+  writeJson(path.join(outDir, "items-" + cat.key + ".json"), {
+    category: cat.key,
+    label: cat.label,
+    blurb: cat.blurb,
+    count: itemsByCategory[cat.key].length,
+    items: itemsByCategory[cat.key],
+  });
+}
+writeJson(path.join(outDir, "recipes.json"), {
+  built_at: builtAt,
+  count: recipesOut.length,
+  path: recipesHref(),
+  recipes: recipesOut,
 });
 writeJson(path.join(outDir, "structures.json"), {
   count: structures.length,

@@ -210,7 +210,7 @@ Status-effect evidence under `reference/status-effects/` is separate from import
 | 1 | Pals database | **Done** | Pal list + detail; work tool migration |
 | 2 | Skills database | **Done** | Partner / passive / active lists + detail |
 | 3 | Design / style / UX | **Done** | Wowhead-influenced chrome, empty states, design system |
-| **4** | **Items & recipes** | **Next** | Inventory encyclopedia + craft/drop links **inside Phase 3 chrome** |
+| 4 | Items & recipes | **Done** | Inventory encyclopedia + craft/drop links **inside Phase 3 chrome** |
 | 5 | Base & technology | Pending | Structures, workstations, tech, work/SAN **inside Phase 3 chrome** |
 | 6 | World content | Pending | Alphas, bosses, drops, merchants, maps (list-first) **inside Phase 3 chrome** |
 | 7 | Tools | Pending | Breeding (honest limits), team builder, drop finder **inside Phase 3 chrome** |
@@ -474,7 +474,7 @@ Still: multi-page SSG + vanilla JS only.
 
 ---
 
-## 10. Phase 4 — Items, gear, recipes **← current**
+## 10. Phase 4 — Items, gear, recipes **Done**
 
 ### Goal
 
@@ -522,15 +522,19 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 ### Exit criteria
 
-- [ ] Major item categories have list + detail **using shell + list/detail patterns from pals/skills**
-- [ ] Bidirectional craft links work for majority of clean recipes
-- [ ] Item pages link from pals/drops when data exists
-- [ ] `/items/` is no longer a generic “coming soon” stub; remaining unbuilt surfaces still use honest empty states
-- [ ] No new layout/CSS system; pages sit in the centered 1280px shell
+- [x] Major item categories have list + detail **using shell + list/detail patterns from pals/skills**
+- [x] Bidirectional craft links work for majority of clean recipes
+- [x] Item pages link from pals/drops when data exists
+- [x] `/items/` is no longer a generic “coming soon” stub; remaining unbuilt surfaces still use honest empty states
+- [x] No new layout/CSS system; pages sit in the centered 1280px shell
+
+### Status
+
+**Done (4a text + rarity).** Icons deferred to 4b. Next: Phase 5 base & technology.
 
 ---
 
-## 11. Phase 5 — Base, work, technology
+## 11. Phase 5 — Base, work, technology **← current**
 
 ### Goal
 
@@ -766,9 +770,9 @@ Layer Wowhead-class **platform** behaviors (search, tooltips, news fill, SEO, pe
 - [x] Wowhead UX contract documented for phases 4–8
 
 ### Phase 4 — items
-- [ ] Item category hub + lists + detail + recipes **(reuse list/detail chrome)**
-- [ ] Reverse craft / drop indexes + entity cross-links
-- [ ] Promote `/items/` stub; honest empties for unbuilt slices
+- [x] Item category hub + lists + detail + recipes **(reuse list/detail chrome)**
+- [x] Reverse craft / drop indexes + entity cross-links
+- [x] Promote `/items/` stub; honest empties for unbuilt slices
 - [ ] (Optional) icon pipeline 4b into existing entity-head slot
 
 ### Phase 5 — base / tech
@@ -827,5 +831,6 @@ Layer Wowhead-class **platform** behaviors (search, tooltips, news fill, SEO, pe
 | 2026-07-16 | **Insert Phase 3 Design/style/UX** (Wowhead influence + empty states); renumber items→polish to 4–8 |
 | 2026-07-16 | Phase 3 implemented: dense shell, empty stubs, migrate live pals/skills/work into chrome |
 | 2026-07-16 | Phases 4–8 plan expanded: mandatory Wowhead UX contract (reuse shell/`wh-*`/empty kit; no layout forks) |
+| 2026-07-16 | Phase 4 implemented: items hub/categories/detail, recipes browser, craft+drop reverse links (4a no icons) |
 
 When decisions land on open questions, record them here so implementers do not re-litigate architecture mid-flight.

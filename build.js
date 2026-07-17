@@ -6,6 +6,12 @@ const { palPage } = require("./site/pages/pal");
 const { palsBrowserPage } = require("./site/pages/pals-list");
 const { skillsHubPage, skillsListPage } = require("./site/pages/skills-list");
 const { skillDetailPage } = require("./site/pages/skill-detail");
+const {
+  itemsHubPage,
+  itemsListPage,
+  recipesListPage,
+} = require("./site/pages/items-list");
+const { itemDetailPage } = require("./site/pages/item-detail");
 const { stubPage } = require("./site/pages/stub");
 
 const root = __dirname;
@@ -49,6 +55,10 @@ const required = [
   "skills-partner-by-slug.json",
   "skills-passive-by-slug.json",
   "skills-active-by-slug.json",
+  "items.json",
+  "items-by-slug.json",
+  "items-categories.json",
+  "recipes.json",
 ];
 for (const name of required) {
   if (!fs.existsSync(path.join(normalizedDir, name))) {
@@ -75,6 +85,11 @@ const passiveBySlug = readJson(
 const activeBySlug = readJson(
   path.join(normalizedDir, "skills-active-by-slug.json")
 );
+const itemsCategories = readJson(
+  path.join(normalizedDir, "items-categories.json")
+);
+const itemsBySlug = readJson(path.join(normalizedDir, "items-by-slug.json"));
+const recipesList = readJson(path.join(normalizedDir, "recipes.json"));
 
 const palsPayload = {
   count: palsList.count,
@@ -146,6 +161,71 @@ writeFile(
   })
 );
 
+const categories = itemsCategories.categories || siteMeta.item_categories || [];
+
+writeFile(
+  hrefToFs("/items/", distDir),
+  itemsHubPage({
+    siteMeta,
+    categories,
+  })
+);
+
+const recipesCompact = (recipesList.recipes || []).map((r) => ({
+  id: r.id,
+  product_name: r.product_name,
+  product_path: r.product_path,
+  product_code: r.product_code,
+  category: r.category,
+  materials: (r.materials || []).map((m) => ({
+    name: m.name,
+    slug: m.slug,
+    path: m.path,
+    quantity: m.quantity,
+  })),
+  material_count: r.material_count,
+  workstations: (r.workstations || []).map((w) => ({
+    slug: w.slug,
+    name: w.name,
+  })),
+  workstation_labels: r.workstation_labels,
+}));
+
+writeFile(
+  hrefToFs("/recipes/", distDir),
+  recipesListPage({
+    siteMeta,
+    recipesPayload: {
+      count: recipesCompact.length,
+      recipes: recipesCompact,
+    },
+  })
+);
+
+let itemListPages = 0;
+for (const cat of categories) {
+  writeFile(
+    hrefToFs(cat.path || "/items/" + cat.key + "/", distDir),
+    itemsListPage({
+      category: cat,
+      siteMeta,
+      itemsPayload: {
+        category: cat.key,
+        label: cat.label,
+        count: cat.count,
+        items: cat.items || [],
+      },
+    })
+  );
+  itemListPages += 1;
+}
+
+let itemPages = 0;
+for (const item of Object.values(itemsBySlug)) {
+  writeFile(hrefToFs(item.path, distDir), itemDetailPage({ item, siteMeta }));
+  itemPages += 1;
+}
+
 const stubs = [
   {
     path: "/news/",
@@ -155,6 +235,7 @@ const stubs = [
     related: [
       { href: "pals/", label: "Pals database", tag: "live" },
       { href: "skills/", label: "Skills", tag: "live" },
+      { href: "items/", label: "Items", tag: "live" },
     ],
   },
   {
@@ -186,20 +267,11 @@ const stubs = [
     related: [
       { href: "pals/", label: "Pals", tag: "live" },
       { href: "skills/", label: "Skills", tag: "live" },
-      { href: "items/", label: "Items", soon: true },
+      { href: "items/", label: "Items", tag: "live" },
+      { href: "recipes/", label: "Recipes", tag: "live" },
       { href: "structures/", label: "Structures", soon: true },
       { href: "tech/", label: "Technology", soon: true },
       { href: "world/", label: "World", soon: true },
-    ],
-  },
-  {
-    path: "/items/",
-    heading: "Items",
-    activeNav: "items",
-    crumbs: [{ href: "database/", label: "Database" }, { label: "Items" }],
-    related: [
-      { href: "pals/", label: "Pals", tag: "live" },
-      { href: "structures/", label: "Structures", soon: true },
     ],
   },
   {
@@ -221,7 +293,7 @@ const stubs = [
     crumbs: [{ href: "database/", label: "Database" }, { label: "World" }],
     related: [
       { href: "pals/", label: "Pals", tag: "live" },
-      { href: "items/", label: "Items", soon: true },
+      { href: "items/", label: "Items", tag: "live" },
     ],
   },
   {
@@ -329,6 +401,8 @@ for (const name of [
   "skills-partner.json",
   "skills-passive.json",
   "skills-active.json",
+  "items.json",
+  "recipes.json",
 ]) {
   fs.copyFileSync(
     path.join(normalizedDir, name),
@@ -350,6 +424,10 @@ console.log(
   palPages,
   "skill pages:",
   skillPages,
+  "item pages:",
+  itemPages,
+  "item lists:",
+  itemListPages,
   "stub hubs:",
   stubPages
 );
@@ -357,5 +435,9 @@ console.log(
   "data:",
   siteMeta.data_version,
   "validate:",
-  siteMeta.validation_status
+  siteMeta.validation_status,
+  "items:",
+  siteMeta.counts?.items,
+  "recipes:",
+  siteMeta.counts?.recipes
 );

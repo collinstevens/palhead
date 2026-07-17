@@ -560,6 +560,7 @@ function renderNav(prefix, active) {
         { href: "skills/active/", label: "Active Skills" },
         { sep: true },
         { href: "items/", label: "Items" },
+        { href: "recipes/", label: "Recipes" },
         { href: "structures/", label: "Structures" },
         { href: "tech/", label: "Technology" },
         { href: "world/", label: "World" },
@@ -610,7 +611,8 @@ function renderSubnav(prefix, active) {
     { href: "skills/passive/", label: "Passives", id: "skills" },
     { href: "skills/active/", label: "Actives", id: "skills" },
     { href: "tools/work-suitability/", label: "Work suitability", id: "work" },
-    { href: "items/", label: "Items", soon: true },
+    { href: "items/", label: "Items", id: "items" },
+    { href: "recipes/", label: "Recipes", id: "items" },
     { href: "structures/", label: "Structures", soon: true },
     { href: "world/", label: "World", soon: true },
     { href: "tools/breeding/", label: "Breeding", soon: true },
@@ -647,7 +649,8 @@ function renderIconRail(prefix) {
     { href: "tools/work-suitability/", label: "Work", ico: "WK" },
     { href: "skills/partner/", label: "Partner", ico: "PS" },
     { href: "skills/active/", label: "Actives", ico: "AS" },
-    { href: "items/", label: "Items", ico: "IT", soon: true },
+    { href: "items/", label: "Items", ico: "IT" },
+    { href: "recipes/", label: "Recipes", ico: "RC" },
     { href: "structures/", label: "Structures", ico: "ST", soon: true },
     { href: "world/", label: "World", ico: "WD", soon: true },
     { href: "tools/breeding/", label: "Breeding", ico: "BR", soon: true },
@@ -718,7 +721,8 @@ function renderFooter(prefix) {
         { href: "skills/partner/", label: "Partner Skills" },
         { href: "skills/passive/", label: "Passive Skills" },
         { href: "skills/active/", label: "Active Skills" },
-        { href: "items/", label: "Items", soon: true },
+        { href: "items/", label: "Items" },
+        { href: "recipes/", label: "Recipes" },
         { href: "structures/", label: "Structures", soon: true },
         { href: "world/", label: "World", soon: true },
       ],
@@ -789,7 +793,7 @@ function renderFooter(prefix) {
     '<div class="wh-footer-mid-nav">' +
     footerNavItem(prefix, "tools/work-suitability/", "Work") +
     footerNavItem(prefix, "skills/", "Skills") +
-    footerNavItem(prefix, "items/", "Items", true) +
+    footerNavItem(prefix, "items/", "Items") +
     footerNavItem(prefix, "world/", "World", true) +
     "</div></div>" +
     '<div class="wh-footer-cols">' +

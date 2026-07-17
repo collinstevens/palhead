@@ -30,6 +30,8 @@ function homePage({ siteMeta, pals }) {
   const liveLinks = [
     ["pals/", "Pals database"],
     ["skills/", "Skills catalog"],
+    ["items/", "Items database"],
+    ["recipes/", "Recipes browser"],
     ["tools/work-suitability/", "Work suitability"],
     ["skills/partner/", "Partner skills"],
     ["skills/passive/", "Passive skills"],
@@ -48,7 +50,6 @@ function homePage({ siteMeta, pals }) {
   const soonLinks = [
     "Breeding calculator",
     "Team builder",
-    "Item browser",
     "Drop finder",
     "Structures",
     "World / drops",
@@ -134,10 +135,12 @@ function homePage({ siteMeta, pals }) {
           linkCell(prefix, "skills/", "Skills hub") +
           "</div>" +
           '<div class="wh-feat-col">' +
-          "<h3>More</h3>" +
-          '<span class="soon-line">Items · soon</span>' +
+          "<h3>Items</h3>" +
+          linkCell(prefix, "items/", "Items hub") +
+          linkCell(prefix, "recipes/", "Recipes") +
+          linkCell(prefix, "items/", formatCount(c.items) + " items") +
+          linkCell(prefix, "recipes/", formatCount(c.recipes) + " recipes") +
           '<span class="soon-line">Structures · soon</span>' +
-          '<span class="soon-line">Technology · soon</span>' +
           '<span class="soon-line">World & drops · soon</span>' +
           "</div></div>",
       })}
@@ -181,6 +184,8 @@ function homePage({ siteMeta, pals }) {
             ["Partner skills", formatCount(c.skill_partner)],
             ["Passive skills", formatCount(c.skill_passive)],
             ["Active skills", formatCount(c.skill_active)],
+            ["Items", formatCount(c.items)],
+            ["Recipes", formatCount(c.recipes)],
           ]
             .map(
               ([label, val]) =>

@@ -59,7 +59,8 @@ Loaded via Google Fonts: Open Sans 400/600/700.
 
 ## Live routes (migrated chrome)
 
-`/`, `/pals/`, `/pal/{slug}/`, `/skills/…`, `/tools/work-suitability/`
+`/`, `/pals/`, `/pal/{slug}/`, `/skills/…`, `/tools/work-suitability/`,  
+`/items/`, `/items/{category}/`, `/item/{slug}/`, `/recipes/`
 
 ## Reuse contract for phases 4–8
 

@@ -118,10 +118,20 @@ function skillDetailPage({ kind, skill, siteMeta, palsBySlug }) {
   }
 
   const fruit =
-    kind === "active" && skill.skill_fruit_raw
-      ? '<section class="rounded-lg border border-pal-border bg-pal-panel p-4"><h2 class="text-sm font-semibold mb-1">Skill fruit</h2><p class="text-sm text-pal-muted font-mono break-all">' +
-        escapeHtml(skill.skill_fruit_raw) +
-        "</p><p class=\"text-xs text-pal-muted mt-1\">Item pages land in Phase 3.</p></section>"
+    kind === "active" && (skill.skill_fruit_path || skill.skill_fruit_raw)
+      ? '<section class="rounded-lg border border-pal-border bg-pal-panel p-4"><h2 class="text-sm font-semibold mb-1">Skill fruit</h2>' +
+        (skill.skill_fruit_path
+          ? '<p class="text-sm"><a href="' +
+            escapeHtml(
+              prefix + skill.skill_fruit_path.replace(/^\//, "")
+            ) +
+            '">' +
+            escapeHtml(skill.skill_fruit_name || skill.skill_fruit_raw) +
+            "</a></p>"
+          : '<p class="text-sm text-pal-muted font-mono break-all">' +
+            escapeHtml(skill.skill_fruit_raw) +
+            "</p>") +
+        "</section>"
       : "";
 
   const ownersSection =
