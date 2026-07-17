@@ -1,10 +1,11 @@
 # Palhead
 
-Palworld tools site. First tool is a work-suitability spreadsheet for all pals: sortable/filterable table with icons, element filters, and links to paldb.cc.
+Palworld multi-page static database & tools site. Rebuilding toward a full entity DB using paldb-derived data.
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
-**Game data source of truth:** [paldb.cc](https://paldb.cc) (see `reference/PROVENANCE.md`)
+**Game data source of truth:** [paldb.cc](https://paldb.cc)  
+**Plan:** `docs/SITE-REBUILD.md`
 
 ## Architecture
 
@@ -12,78 +13,56 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 
 | Path | Role |
 |------|------|
-| `build.js` | Source of truth for the UI. Embeds data and writes all HTML pages. |
-| `index.html` | Generated home / tools hub. Do not hand-edit; change `build.js` and rebuild. |
-| `pals.html` | Generated pals work-suitability spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
-| `partner-skills.html` | Generated partner skills catalog from paldb scrape. Do not hand-edit; change `build.js` and rebuild. |
-| `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
-| `status-effects.html` | Generated status effects catalog from in-game Survival Guide. Do not hand-edit; change `build.js` and rebuild. |
-| `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
-| `reference/PROVENANCE.md` | Data policy: paldb.cc is SoT; local files are caches. |
-| `reference/passive_skills.json` | Local cache (legacy wiki.gg); agent lookup only; not deployed. |
-| `reference/partner-skills/` | paldb partner-skill scrape (`sources/paldb.json`). See its README. |
-| `reference/partner_skills.json` | Deprecated stub pointing at `reference/partner-skills/sources/paldb.json`. |
-| `reference/status-effects/` | Survival Guide status effects text + evidence screenshots. See its README. |
-| `reference/work_suitability.json` | Local cache (legacy fandom); agent lookup only; not deployed. |
-| `icons/` | Local pal icons (`.webp`), referenced as `icons/<file>`. |
-| `download-icons.js` | Scrapes/resolves paldb CDN icons into `icons/` and updates `img` on pals. |
-| `scripts/scrape-reference-data.js` | Pulls passive skills + work suitability; invokes partner-skills scraper. |
-| `scripts/scrape-partner-skills.js` | Scrapes paldb.cc partner skills → `sources/paldb.json`. |
-| `scripts/prepare-dist.js` | Copies HTML + `icons/` → `dist/` for deploy. |
-| `dist/` | Deploy artifact (gitignored). |
-| `wrangler.toml` | Cloudflare Pages config (`pages_build_output_dir = "dist"`). |
-| `docs/SITE-REBUILD.md` | Plan to rebuild as full database from `paldb-cc-exports`. |
-
-Work suitability columns order in `pals_data.json` `work` array:
-
-Kindling, Watering, Planting, Generating Electricity, Handiwork, Gathering, Lumbering, Mining, Medicine Production, Cooling, Transporting, Farming
-
-Zero work levels are shown as empty cells. Pal names link to `https://paldb.cc/en/<Name_With_Underscores>`.
+| `build.js` | SSG entry. Writes HTML pages. |
+| `scripts/data-import.js` | Copy paldb publish bundle → `data/vendor/` |
+| `scripts/data-normalize.js` | Normalize vendor → `data/normalized/` (Phase 0 stub) |
+| `scripts/prepare-dist.js` | Copy HTML + `icons/` → `dist/` |
+| `data/vendor/` | Pinned paldb publish snapshot (gitignored contents) |
+| `data/normalized/` | Build-facing normalized JSON (gitignored contents) |
+| `data/README.md` | Pipeline notes |
+| `docs/SITE-REBUILD.md` | Multi-phase rebuild plan |
+| `icons/` | Local pal icons (`.webp`) |
+| `reference/PROVENANCE.md` | paldb SoT policy |
+| `reference/status-effects/` | In-game Survival Guide status effects + evidence (not paldb; not shipped yet) |
+| `dist/` | Deploy artifact (gitignored) |
+| `wrangler.toml` | Cloudflare Pages (`pages_build_output_dir = "dist"`) |
 
 ## Commands
 
 ```bash
 npm install
-npm run build            # rebuild all HTML pages + dist/
-npm run download-icons   # re-fetch icons (needs network)
-npm run scrape-reference # re-fetch passives, work suitability, partner skills (needs network)
-npm run scrape-partner-skills # re-fetch partner skills from paldb.cc (needs network)
-npm run login            # wrangler OAuth
+npm run data:import      # pin paldb publish bundle into data/vendor/
+npm run data:normalize   # write data/normalized/ (stub → full later)
+npm run build            # HTML + dist/
+npm run login
 npm run whoami
-npm run deploy           # build + wrangler pages deploy dist --project-name palhead
+npm run deploy           # build + wrangler pages deploy dist --project-name palhead --branch master
 npm run preview          # local static server on dist/
 ```
 
-After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
+Import source defaults to  
+`C:\projects\collinstevens\paldb-cc-exports\data\publish\paldb-data-demo`  
+Override: `PALDB_PUBLISH_DIR=...` or `npm run data:import -- <path>`.
 
 ## Data
 
-- **Source of truth for game data is [paldb.cc](https://paldb.cc).** No multi-site verification, Palpedia checklist, or correction overlays.
-- `pals_data.json` is a compact deployed table (community dumps + paldb icons). Prefer regenerating via scripts / paldb-derived data over hand-editing hundreds of pals.
-- Keep the site offline-capable except Tailwind CDN and outbound paldb name links.
-- **Provenance:** see `reference/PROVENANCE.md`.
-- Agent reference (not shipped in `dist/`):
-  - `reference/partner-skills/sources/paldb.json` — from [paldb Partner Skill](https://paldb.cc/en/Partner_Skill)
-  - `reference/passive_skills.json` — legacy cache; replace with paldb extract when ready
-  - `reference/work_suitability.json` — legacy cache; replace with paldb extract when ready
-  - `reference/status-effects/` — in-game Survival Guide → Tips → Status Effects (screenshot-verified)
-  - Refresh partner skills with `npm run scrape-partner-skills`
-- **External reference repo (not in this tree):** `C:\projects\collinstevens\paldb-cc-exports` — local crawl/export/distill of [paldb.cc](https://paldb.cc). Prefer this over live fetches when looking up paldb content.
+- **Source of truth for game data is [paldb.cc](https://paldb.cc)** via `paldb-cc-exports` distilled/publish bundles.
+- No multi-site verification, Palpedia checklists, or correction overlays.
+- External pipeline repo: `C:\projects\collinstevens\paldb-cc-exports`
+- Status effects remain in-game Survival Guide captures under `reference/status-effects/` (re-ship in a later phase).
 
 ## Hosting
 
-- Cloudflare Pages project name: **palhead**
-- Deploy only `dist/` contents (HTML + icons)
-- Production branch: **`master` only** (serves `palhead.pages.dev`). Local git and Pages production must both use `master` — never `main`. `npm run deploy` uses `--branch master`.
+- Cloudflare Pages project: **palhead**
+- Deploy only `dist/`
+- Production branch: **`master` only** (`npm run deploy` uses `--branch master`)
 
 ## UI conventions
 
-- Tailwind via CDN only (no build pipeline for CSS)
-- Dark theme using `pal.*` colors in the Tailwind config inside `build.js`
-- Full-width layout (no max-width container on main content)
-- Work column headers use full suitability names (not abbreviations)
-- Sort: work columns default to desc (high → low) on first click; zeros sink when sorting work desc
-- Element filter chips and table element pills share the same solid fill styles (no harsh borders)
+- Tailwind via CDN (for now)
+- Dark theme `pal.*` colors
+- Full-width layout for data tables when they return
+- Nested static routes preferred for new pages (lock in Phase 0)
 
 ## Git Guidelines
 

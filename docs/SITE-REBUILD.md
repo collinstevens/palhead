@@ -46,18 +46,19 @@ Turn Palhead from a small tools hub (work suitability spreadsheet, partner skill
 
 ## 2. Current baseline
 
-### Palhead today
+### Palhead today (Phase 0 clean slate)
+
+Old mini-site (work sheet, partner catalog, base tips, status-effects page, scrapes) was **removed** to prepare for the rebuild.
 
 | Asset | Role |
 |-------|------|
-| `build.js` | Single-file SSG: home, pals sheet, partner skills, verify, base tips, status effects |
-| `pals_data.json` | Compact pal work/elements/icons (~dex pals) |
-| `icons/` | ~285 local pal icons (`.webp`) |
-| `reference/partner-skills/` | Multi-source scrapes + corrections + evidence screenshots |
-| `reference/status-effects/` | In-game Survival Guide text + evidence |
+| `build.js` | Minimal SSG placeholder home |
+| `scripts/data-import.js` | Pin paldb publish → `data/vendor/` |
+| `scripts/data-normalize.js` | Stub normalize → `data/normalized/` |
+| `icons/` | ~285 local pal icons (`.webp`) kept for Phase 1 |
+| `reference/status-effects/` | Survival Guide JSON + evidence (not shipped yet) |
+| `docs/SITE-REBUILD.md` | This plan |
 | Cloudflare Pages | `dist/` only; project `palhead`; production branch `master` |
-
-Nav already has “soon” stubs for News, Passive Skills, Items, Structures, Technology, Breeding Calculator, Team Builder.
 
 ### paldb-cc-exports today
 
@@ -86,9 +87,9 @@ Pipeline complete through **extract → validate → publish**.
 
 ### Must preserve
 
-- Status-effects **in-game evidence** under `reference/status-effects/` (Survival Guide; not multi-site wiki verification)
+- Status-effects **in-game evidence** under `reference/status-effects/` (not shipped until guides return)
 - paldb-as-SoT policy in `reference/PROVENANCE.md`
-- Dark `pal.*` visual language
+- Hard stack rule: multi-page SSG + vanilla JS — never React/Next/SPA
 - Deploy path: `npm run deploy` → `dist` → Pages `--branch master`
 
 ---
@@ -196,7 +197,7 @@ Cloudflare Pages supports nested folders (`/pal/anubis/index.html`) or flat file
 5. palhead: npm run deploy        # --branch master
 ```
 
-Partner corrections and status-effect evidence are **never** overwritten by import.
+Status-effect evidence under `reference/status-effects/` is separate from import and is never overwritten by import.
 
 ---
 
@@ -237,10 +238,10 @@ Make the site capable of growing to thousands of pages without a second rewrite.
    - Output under `data/normalized/`
    - Entity kinds: pal, skill_partner, skill_passive, skill_active, item_*, structure, tech, world_*
    - Relation tables and search-index contract
-   - Overlay path for `reference/partner-skills/` corrections
+   - No correction overlays — paldb vendor data only
 
 3. **URL + build skeleton**
-   - Modular SSG entry (split from monolithic `build.js` over time)
+   - Modular SSG entry (started from minimal `build.js`)
    - Shared shell: header, nav, footer, entity page layout tokens
    - One sample entity page generated end-to-end from distilled JSON
 
@@ -626,7 +627,8 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | `paldb-cc-exports/docs/DATA-REFERENCES.md` | Field intent + extract checklist |
 | `paldb-cc-exports/docs/PIPELINE.md` | Stage contracts |
 | `palhead/reference/PROVENANCE.md` | Scrape vs correction rules |
-| `palhead/reference/partner-skills/` | paldb partner-skill scrape (`sources/paldb.json`) |
+| `palhead/data/` | Vendor import + normalized pipeline (Phase 0+) |
+| `palhead/reference/status-effects/` | Survival Guide captures (guides phase) |
 
 ---
 
@@ -637,5 +639,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | 2026-07-16 | Initial multi-phase plan written for review |
 | 2026-07-16 | Removed Palpedia verify / multi-source corrections; paldb.cc is SoT |
 | 2026-07-16 | Hard rule: never React/Next/SPA — multi-page SSG + vanilla JS only |
+| 2026-07-16 | Phase 0 prep: deleted old mini-site; import/normalize stubs + placeholder home |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.
