@@ -86,9 +86,8 @@ Pipeline complete through **extract → validate → publish**.
 
 ### Must preserve
 
-- Partner-skill **corrections + evidence** under `reference/partner-skills/corrections/`
-- Status-effects **in-game evidence** under `reference/status-effects/`
-- Provenance rules in `reference/PROVENANCE.md` (scrapes never mixed with corrections)
+- Status-effects **in-game evidence** under `reference/status-effects/` (Survival Guide; not multi-site wiki verification)
+- paldb-as-SoT policy in `reference/PROVENANCE.md`
 - Dark `pal.*` visual language
 - Deploy path: `npm run deploy` → `dist` → Pages `--branch master`
 
@@ -98,7 +97,7 @@ Pipeline complete through **extract → validate → publish**.
 
 1. **Database-first, tools-second** — tools consume the same normalized entities as pages.
 2. **Cross-links everywhere** — Wowhead’s power is graph navigation, not walls of text.
-3. **Provenance visible** — footer data version; badges for `paldb extract` vs `in-game verified`.
+3. **paldb.cc is the game-data source of truth** — no multi-site verification, Palpedia checklists, or correction overlays that override paldb. Attribute data version / extract date in the footer when shipping distilled data.
 4. **Static-first** — no app server required for v1; Cloudflare Pages only.
 5. **Ship vertical slices** — each phase exits with something usable and deployable.
 6. **Honest gaps** — hide empty sections; document missing matrices (breeding) instead of inventing data.
@@ -177,7 +176,6 @@ Cloudflare Pages supports nested folders (`/pal/anubis/index.html`) or flat file
 - Element name normalization (Leaf/Grass, Earth/Ground, etc.)
 - Structured arrays for materials, workstations, owners where extract left strings
 - Relation indexes: pal→skills, item→recipes, item→drops, skill→owners
-- Overlay merge: partner-skill corrections with provenance flags
 - Compact list indexes + search index for the client
 
 ### Data refresh workflow
@@ -251,7 +249,6 @@ Make the site capable of growing to thousands of pages without a second rewrite.
 - [ ] Nested routes (`/pal/anubis/`) vs flat HTML (`pal-anubis.html`)
 - [ ] Vendor snapshot in-repo vs always read sibling `paldb-cc-exports` path in dev
 - [ ] Default list filter: dex pals only vs all entities
-- [ ] Partner-verify page: public tool vs internal/dev only
 - [ ] Confirm stack: SSG + vanilla JS (default) vs framework
 
 ### Exit criteria
@@ -334,10 +331,9 @@ Partner, passive, and active skills as first-class entities with ownership and i
 - Related items (skill fruits for active skills)
 - Provenance chips: `paldb` | `in-game verified`
 
-### Overlays
+### Data
 
-- Prefer palhead **resolved + corrections** for partner skill text when present
-- Never drop evidence screenshots
+- Partner / passive / active from paldb extract only (no multi-site merge)
 
 ### Migration
 
@@ -348,7 +344,6 @@ Partner, passive, and active skills as first-class entities with ownership and i
 
 - [ ] All three skill types browsable
 - [ ] Pal detail pages link to skill details
-- [ ] Corrected partner skills show verification badge
 
 ---
 
@@ -546,9 +541,10 @@ This already reads as a database site rather than a single spreadsheet.
 4. **Data coupling:** Vendor snapshot in-repo for deploys vs symlink to sibling repo in dev only?
 5. **Post-pals priority:** Skills (Phase 2) or Items/recipes (Phase 3)?
 6. **Breeding:** Ship limited calculator soon, or wait for matrix data?
-7. **Partner verify:** Keep public, or hide as internal QA?
-8. **Item icons:** OK to ship item pages without icons initially?
-9. **v1 scope ceiling:** “Pals + skills + items + work tool” vs full world content at first public launch?
+7. **Item icons:** OK to ship item pages without icons initially?
+8. **v1 scope ceiling:** “Pals + skills + items + work tool” vs full world content at first public launch?
+
+**Decided:** Palpedia verify tool, multi-site partner-skill scrapes, discrepancy reports, and correction overlays are **removed**. paldb.cc is the sole game-data source of truth.
 
 ---
 
@@ -575,7 +571,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 ### Phase 2
 - [ ] Partner / passive / active lists
 - [ ] Skill detail pages
-- [ ] Correction overlay wiring
 - [ ] Links from pal pages
 
 ### Phase 3
@@ -621,7 +616,7 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | `paldb-cc-exports/docs/DATA-REFERENCES.md` | Field intent + extract checklist |
 | `paldb-cc-exports/docs/PIPELINE.md` | Stage contracts |
 | `palhead/reference/PROVENANCE.md` | Scrape vs correction rules |
-| `palhead/reference/partner-skills/` | Partner skill multi-source + in-game corrections |
+| `palhead/reference/partner-skills/` | paldb partner-skill scrape (`sources/paldb.json`) |
 
 ---
 
@@ -630,5 +625,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | Date | Change |
 |------|--------|
 | 2026-07-16 | Initial multi-phase plan written for review |
+| 2026-07-16 | Removed Palpedia verify / multi-source corrections; paldb.cc is SoT |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.

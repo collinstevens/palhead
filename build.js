@@ -1,8 +1,6 @@
 const fs = require("fs");
 const data = require("./pals_data.json");
-const partnerResolved = require("./reference/partner-skills/resolved.json");
-const partnerChecklist = require("./reference/partner-skills/checklist.json");
-const partnerDiff = require("./reference/partner-skills/discrepancies/cross-source-diff.json");
+const partnerPaldb = require("./reference/partner-skills/sources/paldb.json");
 const statusEffects = require("./reference/status-effects/status_effects.json");
 const dataJson = JSON.stringify(data);
 
@@ -53,12 +51,11 @@ const NAV_SECTIONS = [
   {
     id: "tools",
     label: "Tools",
-    href: "partner-verify.html",
-    activeOn: ["partner-verify"],
+    href: "pals.html",
+    activeOn: ["pals", "partner-skills", "base-tips", "status-effects"],
     items: [
       { href: "pals.html", label: "Work Suitability" },
       { href: "partner-skills.html", label: "Partner Skill Catalog" },
-      { href: "partner-verify.html", label: "Palpedia Verify" },
       { href: "base-tips.html", label: "Base Boosters" },
       { href: "status-effects.html", label: "Status Effects" },
       { href: "index.html#tools", label: "Breeding Calculator", soon: true },
@@ -83,7 +80,7 @@ const FOOTER_COLS = [
     title: "Tools",
     links: [
       { href: "pals.html", label: "Work Suitability" },
-      { href: "partner-verify.html", label: "Palpedia Verify" },
+      { href: "partner-skills.html", label: "Partner Skill Catalog" },
       { href: "base-tips.html", label: "Base Boosters" },
       { href: "status-effects.html", label: "Status Effects" },
       { href: "#", label: "Breeding Calculator", soon: true },
@@ -279,13 +276,13 @@ function renderFooter() {
     '<div class="footer-inner">' +
     '<div class="footer-brand">' +
     '<a href="index.html" class="footer-logo">Palhead</a>' +
-    '<p>Palworld tools — work suitability, partner skills, and verification. Not affiliated with Pocketpair.</p>' +
+    '<p>Palworld tools — work suitability, partner skills, and guides. Not affiliated with Pocketpair.</p>' +
     "</div>" +
     '<div class="footer-cols">' +
     cols +
     "</div></div>" +
     '<div class="footer-bottom">' +
-    "<span>Data from community dumps + multi-source scrapes · icons from paldb</span>" +
+    '<span>Game data source of truth: <a href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a></span>' +
     "</div></footer>"
   );
 }
@@ -712,7 +709,7 @@ function sharedStyles() {
 
 function shell({ title, subtitle, activeNav, body, headExtra = "", bodyScripts = "", showPromo = false }) {
   const promo = showPromo
-    ? `<div class="promo-bar"><strong>Palhead</strong> — work suitability spreadsheet, partner skills catalog, and Palpedia verification tools. <a href="pals.html">Open the pals database →</a></div>`
+    ? `<div class="promo-bar"><strong>Palhead</strong> — Palworld tools and database, powered by <a href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>. <a href="pals.html">Open the pals database →</a></div>`
     : "";
 
   return `<!DOCTYPE html>
@@ -1354,90 +1351,25 @@ renderTable();
 }
 
 function buildPartnerSkillsPayload() {
-  const checklistByPal = new Map(
-    (partnerChecklist.pals || []).map((p) => [p.pal, p])
-  );
   const palsByName = new Map(PALS.map((p) => [p.n, p]));
-
-  const skills = (partnerResolved.skills || []).map((s) => {
+  const skills = (partnerPaldb.skills || []).map((s) => {
     const pal = palsByName.get(s.pal);
-    const check = checklistByPal.get(s.pal);
     return {
       name: s.name,
       pal: s.pal,
       no: s.no,
       type: s.type,
       description: s.description,
-      sources: s.sources || [],
-      corrected: !!s.corrected,
-      perSource: s.perSource || null,
       deck: pal ? pal.d : null,
       img: pal ? pal.img : null,
       elements: pal ? pal.e : s.elements || [],
-      verifyStatus: check ? check.status : "pending",
     };
   });
-
   return {
-    builtAt: partnerResolved.provenance?.builtAt || null,
-    mergePreference: partnerResolved.provenance?.mergePreference || [],
-    correctionsApplied: partnerResolved.correctionsApplied || 0,
+    builtAt: partnerPaldb.provenance?.scrapedAt || null,
+    sourceUrl: partnerPaldb.provenance?.sourceUrl || "https://paldb.cc/en/Partner_Skill",
     count: skills.length,
     skills,
-  };
-}
-
-function buildPartnerVerifyPayload() {
-  const palsByName = new Map(PALS.map((p) => [p.n, p]));
-  const skillsByPal = new Map();
-  for (const s of partnerResolved.skills || []) {
-    if (!s.pal) continue;
-    if (!skillsByPal.has(s.pal)) skillsByPal.set(s.pal, []);
-    skillsByPal.get(s.pal).push({
-      name: s.name,
-      description: s.description,
-      sources: s.sources || [],
-    });
-  }
-
-  const pals = (partnerChecklist.pals || []).map((p) => {
-    const pal = palsByName.get(p.pal);
-    return {
-      pal: p.pal,
-      deckNo: p.deckNo,
-      deckSort: p.deckSort,
-      status: p.status,
-      img: pal ? pal.img : p.img,
-      elements: pal ? pal.e : p.elements || [],
-      partnerSkills: (p.partnerSkills || []).map((s) => s.name).filter(Boolean),
-      scraped: skillsByPal.get(p.pal) || [],
-      evidence: (p.evidence || []).map((e) =>
-        typeof e === "string" ? e : e.file || ""
-      ),
-      notes: p.notes,
-    };
-  });
-
-  const onlyOne = (partnerDiff.coverageGaps || []).filter(
-    (g) => g.kind === "only_one_source" || (g.presentIn && g.presentIn.length === 1)
-  );
-
-  return {
-    generatedAt: partnerChecklist.generatedAt || partnerDiff.generatedAt || null,
-    stats: partnerChecklist.stats || {},
-    summary: partnerDiff.summary || {},
-    screenshotPolicy: partnerChecklist.screenshotPolicy || null,
-    pals,
-    nameConflicts: partnerDiff.nameConflicts || [],
-    severeDescriptionMismatches: partnerDiff.severeDescriptionMismatches || [],
-    onlyOneSource: onlyOne.map((g) => ({
-      pal: g.pal,
-      name: g.name,
-      onlyOn: (g.presentIn || [])[0] || null,
-      description: g.descriptions
-        ? g.descriptions[(g.presentIn || [])[0]] || null
-        : null,
-    })),
   };
 }
 
@@ -1451,16 +1383,14 @@ function buildPartnerSkillsPage() {
         <div>
           <h1>Partner Skills</h1>
           <p>
-            Merged catalog from local scrapes
-            (<span class="text-pal-text">paldb</span> → <span class="text-pal-text">game8</span> → <span class="text-pal-text">wiki.gg</span>)
-            with in-game <span class="text-pal-text">corrections</span>. Use
-            <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-verify.html">Verify</a>
-            for the Palpedia checklist.
+            Catalog from
+            <a class="text-pal-text underline underline-offset-2 hover:text-white" href="https://paldb.cc/en/Partner_Skill" target="_blank" rel="noopener noreferrer">paldb.cc</a>
+            — our source of truth for game data.
           </p>
         </div>
         <div class="text-xs text-pal-muted text-right space-y-0.5">
           <div><span id="builtAt" class="text-pal-text">—</span></div>
-          <div>Corrections applied: <span id="corrCount" class="text-pal-text font-medium">0</span></div>
+          <div><a class="text-pal-text underline underline-offset-2 hover:text-white" href="https://paldb.cc/en/Partner_Skill" target="_blank" rel="noopener noreferrer">View on paldb.cc</a></div>
         </div>
       </div>
       <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
@@ -1469,45 +1399,15 @@ function buildPartnerSkillsPage() {
             <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
             <input id="search" type="search" placeholder="Pal, skill, description…" class="w-full bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
           </div>
-          <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Source</label>
-            <select id="sourceFilter" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent min-w-[140px]">
-              <option value="">All sources</option>
-              <option value="paldb">paldb</option>
-              <option value="game8">game8</option>
-              <option value="wiki-gg">wiki-gg</option>
-              <option value="correction">correction</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Verify status</label>
-            <select id="statusFilter" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent min-w-[140px]">
-              <option value="">All</option>
-              <option value="pending">pending</option>
-              <option value="partial">partial</option>
-              <option value="verified">verified</option>
-              <option value="skipped">skipped</option>
-            </select>
-          </div>
-          <label class="inline-flex items-center gap-2 text-sm text-pal-muted cursor-pointer select-none pb-2">
-            <input id="diffOnly" type="checkbox" class="rounded border-pal-border bg-pal-bg" />
-            Sources disagree
-          </label>
-          <label class="inline-flex items-center gap-2 text-sm text-pal-muted cursor-pointer select-none pb-2">
-            <input id="showPerSource" type="checkbox" class="rounded border-pal-border bg-pal-bg" />
-            Show per-source text
-          </label>
           <button id="resetFilters" type="button" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Reset</button>
         </div>
-
         <div class="flex flex-wrap items-center justify-between gap-2 text-sm pt-1 border-t border-pal-border/60">
           <div class="text-pal-muted">
             Showing <span id="resultCount" class="text-pal-text font-semibold">0</span> of <span id="totalCount" class="text-pal-text font-semibold">0</span> skills
           </div>
-          <div class="text-xs text-pal-muted">Click column headers to sort. Expand row details with per-source text when enabled.</div>
+          <div class="text-xs text-pal-muted">Click column headers to sort.</div>
         </div>
       </section>
-
       <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex-1">
         <div class="table-wrap overflow-auto">
           <table id="table" class="w-full min-w-full text-sm border-collapse">
@@ -1527,10 +1427,6 @@ const DATA = ${payloadJson};
 
 const state = {
   search: '',
-  source: '',
-  status: '',
-  diffOnly: false,
-  showPerSource: false,
   sortKey: 'deck',
   sortDir: 'asc',
 };
@@ -1541,42 +1437,13 @@ function escapeHtml(s) {
   }[c]));
 }
 
-function sourcesDisagree(s) {
-  if (!s.perSource) return false;
-  const descs = Object.values(s.perSource).map(x => (x.description || '').replace(/\\s+/g, ' ').trim().toLowerCase()).filter(Boolean);
-  if (descs.length < 2) return false;
-  return descs.some(d => d !== descs[0]);
-}
-
-function srcBadges(sources) {
-  return (sources || []).map(src => {
-    const cls = src === 'wiki-gg' ? 'src-wiki-gg'
-      : src === 'game8' ? 'src-game8'
-      : src === 'paldb' ? 'src-paldb'
-      : src === 'correction' ? 'src-correction'
-      : 'src-game8';
-    return '<span class="src-badge ' + cls + '">' + escapeHtml(src) + '</span>';
-  }).join(' ');
-}
-
-function statusBadge(status) {
-  const s = status || 'pending';
-  return '<span class="status-badge status-' + escapeHtml(s) + '">' + escapeHtml(s) + '</span>';
-}
-
 function filteredSorted() {
   const q = state.search.trim().toLowerCase();
   let list = DATA.skills.filter(s => {
-    if (q) {
-      const hay = [s.pal, s.name, s.description, s.type, s.no, ...(s.sources||[])].join(' ').toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    if (state.source && !(s.sources || []).includes(state.source)) return false;
-    if (state.status && s.verifyStatus !== state.status) return false;
-    if (state.diffOnly && !sourcesDisagree(s)) return false;
-    return true;
+    if (!q) return true;
+    const hay = [s.pal, s.name, s.description, s.type, s.no].join(' ').toLowerCase();
+    return hay.includes(q);
   });
-
   const dir = state.sortDir === 'asc' ? 1 : -1;
   const key = state.sortKey;
   list.sort((a, b) => {
@@ -1585,7 +1452,6 @@ function filteredSorted() {
     else if (key === 'pal') { av = (a.pal || '').toLowerCase(); bv = (b.pal || '').toLowerCase(); }
     else if (key === 'name') { av = (a.name || '').toLowerCase(); bv = (b.name || '').toLowerCase(); }
     else if (key === 'type') { av = (a.type || '').toLowerCase(); bv = (b.type || '').toLowerCase(); }
-    else if (key === 'status') { av = a.verifyStatus || ''; bv = b.verifyStatus || ''; }
     else { av = 0; bv = 0; }
     if (typeof av === 'string') {
       const cmp = av.localeCompare(bv);
@@ -1603,11 +1469,9 @@ function renderHead() {
     { key: 'name', label: 'Partner skill', cls: 'text-left min-w-[10rem]' },
     { key: 'type', label: 'Type', cls: 'text-left min-w-[7rem]' },
     { key: 'desc', label: 'Description', cls: 'text-left' },
-    { key: 'sources', label: 'Sources', cls: 'text-left min-w-[8rem]' },
-    { key: 'status', label: 'Verify', cls: 'text-left min-w-[5.5rem]' },
   ];
   document.getElementById('theadRow').innerHTML = cols.map(c => {
-    const sortable = c.key !== 'desc' && c.key !== 'sources';
+    const sortable = c.key !== 'desc';
     const active = state.sortKey === c.key ? 'active' : '';
     const arrow = state.sortKey === c.key ? (state.sortDir === 'asc' ? ' ▲' : ' ▼') : '';
     if (!sortable) {
@@ -1618,16 +1482,6 @@ function renderHead() {
       c.key + '">' + c.label +
       (arrow ? '<span class="sort-ind">' + arrow.trim() + '</span>' : '') + '</th>';
   }).join('');
-}
-
-function perSourceHtml(s) {
-  if (!state.showPerSource || !s.perSource) return '';
-  const blocks = Object.entries(s.perSource).map(([src, row]) => {
-    return '<div class="per-source-block"><strong>' + escapeHtml(src) + '</strong>' +
-      (row.name && row.name !== s.name ? ' · <span class="text-pal-muted">' + escapeHtml(row.name) + '</span>' : '') +
-      '<div class="mt-0.5">' + escapeHtml(row.description || '—') + '</div></div>';
-  }).join('');
-  return blocks;
 }
 
 function renderTable() {
@@ -1642,10 +1496,6 @@ function renderTable() {
       '<span class="elem elem-' + escapeHtml(e) + '">' + escapeHtml(e) + '</span>'
     ).join(' ');
     const paldb = 'https://paldb.cc/en/' + encodeURIComponent(String(s.pal || '').replace(/ /g, '_'));
-    const disagree = sourcesDisagree(s)
-      ? ' <span class="src-badge src-correction" title="Source descriptions differ">diff</span>'
-      : '';
-    const corr = s.corrected ? ' <span class="src-badge src-correction">corrected</span>' : '';
     return '<tr class="border-t border-pal-border/40 align-top">' +
       '<td class="sticky-left px-2 py-2 text-center text-pal-muted font-mono text-xs">' + (s.deck != null ? s.deck : '—') + '</td>' +
       '<td class="sticky-name px-2 py-2">' +
@@ -1656,31 +1506,21 @@ function renderTable() {
           '</div>' +
         '</div>' +
       '</td>' +
-      '<td class="px-2 py-2 font-semibold whitespace-nowrap">' + escapeHtml(s.name || '—') + corr + disagree + '</td>' +
+      '<td class="px-2 py-2 font-semibold whitespace-nowrap">' + escapeHtml(s.name || '—') + '</td>' +
       '<td class="px-2 py-2 text-xs text-pal-muted whitespace-nowrap">' + escapeHtml(s.type || '—') + '</td>' +
-      '<td class="px-2 py-2 text-sm desc-cell">' + escapeHtml(s.description || '—') + perSourceHtml(s) + '</td>' +
-      '<td class="px-2 py-2"><div class="flex flex-wrap gap-1">' + srcBadges(s.sources) + '</div></td>' +
-      '<td class="px-2 py-2">' + statusBadge(s.verifyStatus) + '</td>' +
+      '<td class="px-2 py-2 text-sm desc-cell">' + escapeHtml(s.description || '—') + '</td>' +
     '</tr>';
   }).join('') ||
-    '<tr><td colspan="7" class="px-4 py-10 text-center text-pal-muted">No skills match your filters.</td></tr>';
+    '<tr><td colspan="5" class="px-4 py-10 text-center text-pal-muted">No skills match your search.</td></tr>';
   renderHead();
 }
 
 function bind() {
   document.getElementById('search').addEventListener('input', e => { state.search = e.target.value; renderTable(); });
-  document.getElementById('sourceFilter').addEventListener('change', e => { state.source = e.target.value; renderTable(); });
-  document.getElementById('statusFilter').addEventListener('change', e => { state.status = e.target.value; renderTable(); });
-  document.getElementById('diffOnly').addEventListener('change', e => { state.diffOnly = e.target.checked; renderTable(); });
-  document.getElementById('showPerSource').addEventListener('change', e => { state.showPerSource = e.target.checked; renderTable(); });
   document.getElementById('resetFilters').addEventListener('click', () => {
-    state.search = ''; state.source = ''; state.status = ''; state.diffOnly = false; state.showPerSource = false;
+    state.search = '';
     state.sortKey = 'deck'; state.sortDir = 'asc';
     document.getElementById('search').value = '';
-    document.getElementById('sourceFilter').value = '';
-    document.getElementById('statusFilter').value = '';
-    document.getElementById('diffOnly').checked = false;
-    document.getElementById('showPerSource').checked = false;
     renderTable();
   });
   document.getElementById('table').addEventListener('click', e => {
@@ -1688,16 +1528,15 @@ function bind() {
     if (!th) return;
     const key = th.dataset.sort;
     if (state.sortKey === key) state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
-    else { state.sortKey = key; state.sortDir = key === 'deck' ? 'asc' : 'asc'; }
+    else { state.sortKey = key; state.sortDir = 'asc'; }
     renderTable();
   });
 }
 
 document.getElementById('totalCount').textContent = DATA.count;
-document.getElementById('corrCount').textContent = DATA.correctionsApplied || 0;
 document.getElementById('builtAt').textContent = DATA.builtAt
-  ? 'Built ' + new Date(DATA.builtAt).toLocaleString()
-  : 'Local reference build';
+  ? 'Scraped ' + new Date(DATA.builtAt).toLocaleString()
+  : 'paldb.cc snapshot';
 bind();
 renderTable();
 </script>
@@ -1705,354 +1544,8 @@ renderTable();
 
   return shell({
     title: "Palhead — Partner Skills",
-    subtitle: "Palworld tools — partner skill catalog",
+    subtitle: "Palworld tools — partner skill catalog (paldb.cc)",
     activeNav: "partner-skills",
-    body,
-    bodyScripts,
-  });
-}
-
-function buildPartnerVerifyPage() {
-  const payload = buildPartnerVerifyPayload();
-  const payloadJson = JSON.stringify(payload);
-
-  const body = `
-    <main class="flex-1 page-wrap page-wrap-wide flex flex-col gap-3">
-      <div class="page-title-bar">
-        <h1>Palpedia Verification</h1>
-        <p>
-          In-game partner skill checklist and where the websites disagree.
-          Merged catalog:
-          <a class="text-pal-text underline underline-offset-2 hover:text-white" href="partner-skills.html">Partner Skills</a>.
-          Screenshots live under <span class="text-pal-text font-mono text-xs">reference/partner-skills/corrections/evidence/</span>.
-        </p>
-      </div>
-      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-        <div id="statCards" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2"></div>
-
-        <div class="section-tabs" id="sectionTabs">
-          <button type="button" class="section-tab active" data-section="checklist">Checklist</button>
-          <button type="button" class="section-tab" data-section="names">Name conflicts</button>
-          <button type="button" class="section-tab" data-section="severe">Severe text diffs</button>
-          <button type="button" class="section-tab" data-section="onlyone">Only on one site</button>
-        </div>
-      </section>
-
-      <section id="panel-checklist" class="space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-          <div class="flex flex-wrap items-end gap-3">
-            <div class="flex-1 min-w-[200px]">
-              <label class="block text-xs text-pal-muted mb-1 font-medium">Search pals</label>
-              <input id="checkSearch" type="search" placeholder="Pal or skill…" class="w-full bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
-            </div>
-            <div class="flex flex-wrap gap-1.5" id="statusChips"></div>
-            <button id="checkReset" type="button" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Reset</button>
-          </div>
-          <div class="text-sm text-pal-muted">
-            Showing <span id="checkCount" class="text-pal-text font-semibold">0</span> pals ·
-            next pending: <span id="nextPending" class="text-pal-text font-medium">—</span>
-          </div>
-        </div>
-        <div class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
-          <div class="table-wrap overflow-auto">
-            <table id="checkTable" class="w-full min-w-full text-sm border-collapse">
-              <thead>
-                <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
-                  <th class="sticky-left px-2 py-2.5 font-semibold w-14 text-center">#</th>
-                  <th class="sticky-name px-2 py-2.5 font-semibold min-w-[11rem]">Pal</th>
-                  <th class="px-2 py-2.5 font-semibold">Status</th>
-                  <th class="px-2 py-2.5 font-semibold">Partner skill(s)</th>
-                  <th class="px-2 py-2.5 font-semibold">Evidence</th>
-                </tr>
-              </thead>
-              <tbody id="checkBody"></tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section id="panel-names" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
-          <h3 class="font-semibold">Same pal, different skill names</h3>
-          <p class="text-sm text-pal-muted mt-1">High priority for Palpedia screenshots — sites do not even agree on the skill title.</p>
-          <div class="mt-3">
-            <input id="nameSearch" type="search" placeholder="Filter by pal…" class="w-full max-w-md bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
-          </div>
-        </div>
-        <div id="nameList" class="grid lg:grid-cols-2 gap-2"></div>
-      </section>
-
-      <section id="panel-severe" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
-          <h3 class="font-semibold">Severe description mismatches</h3>
-          <p class="text-sm text-pal-muted mt-1">Same skill name + pal, but wording barely overlaps (outdated rewrite or wrong effect text).</p>
-          <div class="mt-3">
-            <input id="severeSearch" type="search" placeholder="Filter by pal or skill…" class="w-full max-w-md bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
-          </div>
-        </div>
-        <div id="severeList" class="space-y-2"></div>
-      </section>
-
-      <section id="panel-onlyone" class="hidden space-y-3">
-        <div class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4">
-          <h3 class="font-semibold">Only listed on one site</h3>
-          <p class="text-sm text-pal-muted mt-1">Skill+pal pairs that appear in only wiki-gg, game8, or paldb.</p>
-          <div class="mt-3 flex flex-wrap items-end gap-3">
-            <input id="onlySearch" type="search" placeholder="Filter…" class="flex-1 min-w-[200px] max-w-md bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
-            <select id="onlySource" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent">
-              <option value="">All sites</option>
-              <option value="wiki-gg">wiki-gg only</option>
-              <option value="game8">game8 only</option>
-              <option value="paldb">paldb only</option>
-            </select>
-          </div>
-        </div>
-        <div class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden">
-          <div class="overflow-x-auto">
-            <table class="w-full text-sm border-collapse">
-              <thead>
-                <tr class="bg-pal-panel2 text-left text-[11px] uppercase tracking-wide text-pal-muted">
-                  <th class="px-3 py-2.5 font-semibold">Pal</th>
-                  <th class="px-3 py-2.5 font-semibold">Skill</th>
-                  <th class="px-3 py-2.5 font-semibold">Only on</th>
-                  <th class="px-3 py-2.5 font-semibold">Description</th>
-                </tr>
-              </thead>
-              <tbody id="onlyBody"></tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-    </main>
-  `;
-
-  const bodyScripts = `
-<script>
-const DATA = ${payloadJson};
-
-const state = {
-  section: 'checklist',
-  checkSearch: '',
-  status: 'pending',
-  nameSearch: '',
-  severeSearch: '',
-  onlySearch: '',
-  onlySource: '',
-};
-
-function escapeHtml(s) {
-  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-  }[c]));
-}
-
-function statusBadge(status) {
-  const s = status || 'pending';
-  return '<span class="status-badge status-' + escapeHtml(s) + '">' + escapeHtml(s) + '</span>';
-}
-
-function srcBadge(src) {
-  const cls = src === 'wiki-gg' ? 'src-wiki-gg'
-    : src === 'game8' ? 'src-game8'
-    : src === 'paldb' ? 'src-paldb'
-    : 'src-correction';
-  return '<span class="src-badge ' + cls + '">' + escapeHtml(src || '—') + '</span>';
-}
-
-function renderStats() {
-  const s = DATA.stats || {};
-  const sum = DATA.summary || {};
-  const cards = [
-    { label: 'Pending', n: s.pending || 0, cls: 'text-pal-muted' },
-    { label: 'Partial', n: s.partial || 0, cls: 'text-pal-text' },
-    { label: 'Verified', n: s.verified || 0, cls: 'text-pal-text' },
-    { label: 'Name conflicts', n: sum.nameConflictPalCount || (DATA.nameConflicts || []).length, cls: 'text-pal-text' },
-    { label: 'Severe diffs', n: sum.severeDescriptionMismatchCount || (DATA.severeDescriptionMismatches || []).length, cls: 'text-pal-text' },
-    { label: 'Only one site', n: sum.onlyOneSourceCount || (DATA.onlyOneSource || []).length, cls: 'text-pal-muted' },
-  ];
-  document.getElementById('statCards').innerHTML = cards.map(c =>
-    '<div class="stat-card"><div class="n ' + c.cls + '">' + c.n + '</div><div class="text-xs text-pal-muted mt-1">' + c.label + '</div></div>'
-  ).join('');
-}
-
-function showSection(id) {
-  state.section = id;
-  ['checklist', 'names', 'severe', 'onlyone'].forEach(sec => {
-    document.getElementById('panel-' + sec).classList.toggle('hidden', sec !== id);
-  });
-  document.querySelectorAll('#sectionTabs .section-tab').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.section === id);
-  });
-}
-
-function renderStatusChips() {
-  const statuses = [
-    { id: '', label: 'All' },
-    { id: 'pending', label: 'Pending' },
-    { id: 'partial', label: 'Partial' },
-    { id: 'verified', label: 'Verified' },
-    { id: 'skipped', label: 'Skipped' },
-  ];
-  document.getElementById('statusChips').innerHTML = statuses.map(s =>
-    '<button type="button" class="filter-chip' + (state.status === s.id ? ' active' : '') + '" data-status="' + s.id + '">' + s.label + '</button>'
-  ).join('');
-}
-
-function renderChecklist() {
-  const q = state.checkSearch.trim().toLowerCase();
-  const list = (DATA.pals || []).filter(p => {
-    if (state.status && p.status !== state.status) return false;
-    if (!q) return true;
-    const hay = [p.pal, p.deckNo, ...(p.partnerSkills || [])].join(' ').toLowerCase();
-    return hay.includes(q);
-  });
-  document.getElementById('checkCount').textContent = list.length;
-  const next = (DATA.pals || []).find(p => p.status === 'pending');
-  document.getElementById('nextPending').textContent = next
-    ? ((next.deckNo ? '#' + next.deckNo + ' ' : '') + next.pal)
-    : 'none left';
-
-  document.getElementById('checkBody').innerHTML = list.map(p => {
-    const img = p.img
-      ? '<img class="pal-icon" src="icons/' + escapeHtml(p.img) + '" alt="" loading="lazy" width="36" height="36" />'
-      : '<div class="pal-icon" aria-hidden="true"></div>';
-    const elems = (p.elements || []).map(e =>
-      '<span class="elem elem-' + escapeHtml(e) + '">' + escapeHtml(e) + '</span>'
-    ).join(' ');
-    const skills = (p.partnerSkills || []).length
-      ? p.partnerSkills.map(escapeHtml).join('<span class="text-pal-muted"> · </span>')
-      : '<span class="text-pal-muted">—</span>';
-    const ev = (p.evidence || []).length
-      ? p.evidence.map(e => '<span class="font-mono text-xs text-pal-muted">' + escapeHtml(String(e).split(/[\\\\\\/]/).pop()) + '</span>').join('<br>')
-      : '<span class="text-pal-muted">—</span>';
-    return '<tr class="border-t border-pal-border/40 align-top">' +
-      '<td class="sticky-left px-2 py-2 text-center text-pal-muted font-mono text-xs">' + escapeHtml(p.deckNo || '—') + '</td>' +
-      '<td class="sticky-name px-2 py-2">' +
-        '<div class="pal-name-cell">' + img +
-          '<div class="min-w-0">' +
-            '<div class="font-semibold">' + escapeHtml(p.pal) + '</div>' +
-            (elems ? '<div class="mt-1 flex flex-wrap gap-1">' + elems + '</div>' : '') +
-          '</div>' +
-        '</div>' +
-      '</td>' +
-      '<td class="px-2 py-2">' + statusBadge(p.status) + '</td>' +
-      '<td class="px-2 py-2 text-sm">' + skills + '</td>' +
-      '<td class="px-2 py-2">' + ev + '</td>' +
-    '</tr>';
-  }).join('') ||
-    '<tr><td colspan="5" class="px-4 py-10 text-center text-pal-muted">No pals match.</td></tr>';
-}
-
-function renderNames() {
-  const q = state.nameSearch.trim().toLowerCase();
-  const list = (DATA.nameConflicts || []).filter(r =>
-    !q || String(r.pal || '').toLowerCase().includes(q)
-  );
-  document.getElementById('nameList').innerHTML = list.map(r => {
-    const rows = ['wiki-gg', 'game8', 'paldb'].map(src => {
-      const names = (r.sources && r.sources[src]) || [];
-      return '<div class="flex gap-2 text-sm"><span class="w-16 shrink-0">' + srcBadge(src) + '</span>' +
-        '<span>' + (names.length ? names.map(escapeHtml).join('; ') : '<span class="text-pal-muted">—</span>') + '</span></div>';
-    }).join('');
-    return '<div class="conflict-card"><div class="font-semibold mb-2">' + escapeHtml(r.pal) + '</div>' + rows + '</div>';
-  }).join('') || '<div class="text-pal-muted text-sm px-1">No name conflicts match.</div>';
-}
-
-function renderSevere() {
-  const q = state.severeSearch.trim().toLowerCase();
-  const list = (DATA.severeDescriptionMismatches || []).filter(r => {
-    if (!q) return true;
-    const hay = [r.pal, r.name].join(' ').toLowerCase();
-    return hay.includes(q);
-  });
-  document.getElementById('severeList').innerHTML = list.map(r => {
-    const descs = ['wiki-gg', 'game8', 'paldb'].map(src => {
-      const present = (r.presentIn || []).includes(src);
-      const text = present ? (r.descriptions && r.descriptions[src]) : null;
-      return '<div class="per-source-block"><strong>' + escapeHtml(src) + '</strong>' +
-        '<div class="mt-0.5">' + (present ? escapeHtml(text || '_(empty)_') : '<em>missing</em>') + '</div></div>';
-    }).join('');
-    return '<div class="conflict-card">' +
-      '<div class="font-semibold">' + escapeHtml(r.pal) + ' <span class="text-pal-muted font-normal">—</span> ' + escapeHtml(r.name) + '</div>' +
-      '<div class="mt-2 space-y-1.5">' + descs + '</div></div>';
-  }).join('') || '<div class="text-pal-muted text-sm px-1">No severe mismatches match.</div>';
-}
-
-function renderOnlyOne() {
-  const q = state.onlySearch.trim().toLowerCase();
-  const list = (DATA.onlyOneSource || []).filter(r => {
-    if (state.onlySource && r.onlyOn !== state.onlySource) return false;
-    if (!q) return true;
-    return [r.pal, r.name, r.onlyOn, r.description].join(' ').toLowerCase().includes(q);
-  });
-  document.getElementById('onlyBody').innerHTML = list.map(r =>
-    '<tr class="border-t border-pal-border/40 align-top">' +
-      '<td class="px-3 py-2 font-semibold whitespace-nowrap">' + escapeHtml(r.pal) + '</td>' +
-      '<td class="px-3 py-2 whitespace-nowrap">' + escapeHtml(r.name) + '</td>' +
-      '<td class="px-3 py-2">' + srcBadge(r.onlyOn) + '</td>' +
-      '<td class="px-3 py-2 text-sm text-pal-muted desc-cell">' + escapeHtml(r.description || '—') + '</td>' +
-    '</tr>'
-  ).join('') ||
-    '<tr><td colspan="4" class="px-4 py-10 text-center text-pal-muted">No rows match.</td></tr>';
-}
-
-function bind() {
-  document.getElementById('sectionTabs').addEventListener('click', e => {
-    const btn = e.target.closest('[data-section]');
-    if (!btn) return;
-    showSection(btn.dataset.section);
-  });
-  document.getElementById('statusChips').addEventListener('click', e => {
-    const btn = e.target.closest('[data-status]');
-    if (!btn) return;
-    state.status = btn.dataset.status;
-    renderStatusChips();
-    renderChecklist();
-  });
-  document.getElementById('checkSearch').addEventListener('input', e => {
-    state.checkSearch = e.target.value;
-    renderChecklist();
-  });
-  document.getElementById('checkReset').addEventListener('click', () => {
-    state.checkSearch = '';
-    state.status = 'pending';
-    document.getElementById('checkSearch').value = '';
-    renderStatusChips();
-    renderChecklist();
-  });
-  document.getElementById('nameSearch').addEventListener('input', e => {
-    state.nameSearch = e.target.value;
-    renderNames();
-  });
-  document.getElementById('severeSearch').addEventListener('input', e => {
-    state.severeSearch = e.target.value;
-    renderSevere();
-  });
-  document.getElementById('onlySearch').addEventListener('input', e => {
-    state.onlySearch = e.target.value;
-    renderOnlyOne();
-  });
-  document.getElementById('onlySource').addEventListener('change', e => {
-    state.onlySource = e.target.value;
-    renderOnlyOne();
-  });
-}
-
-renderStats();
-renderStatusChips();
-renderChecklist();
-renderNames();
-renderSevere();
-renderOnlyOne();
-bind();
-showSection('checklist');
-</script>
-`;
-
-  return shell({
-    title: "Palhead — Partner Skill Verify",
-    subtitle: "Palworld tools — Palpedia checklist & site conflicts",
-    activeNav: "partner-verify",
     body,
     bodyScripts,
   });
@@ -2102,24 +1595,13 @@ function featureCard({ href, cat, title, desc, meta, icon, empty }) {
 }
 
 function buildHomePage() {
-  const checkStats = partnerChecklist.stats || {};
-  const pending = checkStats.pending ?? "—";
-  const verified = checkStats.verified ?? 0;
-  const totalCheck = checkStats.total ?? "—";
-  const skillCount = (partnerResolved.skills || []).length;
+  const skillCount = (partnerPaldb.skills || []).length;
   const palCount = PALS.length;
-  const nameConflicts =
-    partnerDiff.summary?.nameConflictPalCount ??
-    (partnerDiff.nameConflicts || []).length;
-  const severe =
-    partnerDiff.summary?.severeDescriptionMismatchCount ??
-    (partnerDiff.severeDescriptionMismatches || []).length;
-
   const statusCount = (statusEffects.effects || []).length;
+
   const quickTools = [
     { href: "pals.html", label: "Work Suitability spreadsheet", tag: palCount + " pals" },
     { href: "partner-skills.html", label: "Partner Skills catalog", tag: skillCount + " skills" },
-    { href: "partner-verify.html", label: "Palpedia verification checklist", tag: pending + " pending" },
     { href: "base-tips.html", label: "Base work +1 partner skills", tag: BASE_WORK_BOOSTERS.length + " boosters" },
     { href: "status-effects.html", label: "Status Effects (Survival Guide)", tag: statusCount + " effects" },
     { label: "Breeding calculator", soon: true },
@@ -2136,7 +1618,7 @@ function buildHomePage() {
         );
       }
       return (
-        "<li><a href=\"" +
+        '<li><a href="' +
         escapeHtml(t.href) +
         '"><span class="dot"></span>' +
         escapeHtml(t.label) +
@@ -2159,17 +1641,9 @@ function buildHomePage() {
       href: "partner-skills.html",
       cat: "Database",
       title: "Partner Skills Catalog",
-      desc: "Merged catalog from paldb, game8, wiki.gg scrapes plus in-game corrections.",
-      meta: skillCount + " skills · multi-source",
+      desc: "Partner skills from paldb.cc, our source of truth for game data.",
+      meta: skillCount + " skills · paldb.cc",
       icon: "PS",
-    }),
-    featureCard({
-      href: "partner-verify.html",
-      cat: "Tools",
-      title: "Palpedia Verify",
-      desc: "Screenshot checklist and cross-site conflicts while you verify partner skills in-game.",
-      meta: pending + " pending · " + verified + " verified",
-      icon: "✓",
     }),
     featureCard({
       href: "base-tips.html",
@@ -2184,7 +1658,7 @@ function buildHomePage() {
       cat: "Guides",
       title: "Status Effects",
       desc: "Burn, Muddy, Soaked, and the rest — exact Survival Guide wording for every status.",
-      meta: (statusEffects.effects || []).length + " effects · in-game source",
+      meta: statusCount + " effects · in-game source",
       icon: "Fx",
     }),
     featureCard({
@@ -2239,13 +1713,10 @@ function buildHomePage() {
           </div>
           <ul class="stat-list">
             <li><span class="label">Pals in database</span><span class="val"><a href="pals.html">${palCount}</a></span></li>
-            <li><span class="label">Partner skills (resolved)</span><span class="val"><a href="partner-skills.html">${skillCount}</a></span></li>
-            <li><span class="label">Palpedia checklist</span><span class="val"><a href="partner-verify.html">${verified}/${totalCheck}</a></span></li>
-            <li><span class="label">Verify pending</span><span class="val"><a href="partner-verify.html">${pending}</a></span></li>
-            <li><span class="label">Name conflicts (sites)</span><span class="val"><a href="partner-verify.html">${nameConflicts}</a></span></li>
-            <li><span class="label">Severe description diffs</span><span class="val"><a href="partner-verify.html">${severe}</a></span></li>
+            <li><span class="label">Partner skills (paldb)</span><span class="val"><a href="partner-skills.html">${skillCount}</a></span></li>
             <li><span class="label">Base work +1 boosters</span><span class="val"><a href="base-tips.html">${BASE_WORK_BOOSTERS.length}</a></span></li>
-            <li><span class="label">Status effects (Survival Guide)</span><span class="val"><a href="status-effects.html">${(statusEffects.effects || []).length}</a></span></li>
+            <li><span class="label">Status effects (Survival Guide)</span><span class="val"><a href="status-effects.html">${statusCount}</a></span></li>
+            <li><span class="label">Game data source</span><span class="val"><a href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a></span></li>
           </ul>
         </section>
       </div>
@@ -2330,7 +1801,7 @@ function buildHomePage() {
 
   return shell({
     title: "Palhead — Palworld Database & Tools",
-    subtitle: "Work suitability · partner skills · verification",
+    subtitle: "Work suitability · partner skills · guides",
     activeNav: "home",
     body,
     showPromo: true,
@@ -2342,21 +1813,17 @@ const palsHtml = buildPalsPage();
 const baseTipsHtml = buildBaseTipsPage();
 const statusEffectsHtml = buildStatusEffectsPage();
 const partnerSkillsHtml = buildPartnerSkillsPage();
-const partnerVerifyHtml = buildPartnerVerifyPage();
 
 fs.writeFileSync("index.html", homeHtml);
 fs.writeFileSync("pals.html", palsHtml);
 fs.writeFileSync("base-tips.html", baseTipsHtml);
 fs.writeFileSync("status-effects.html", statusEffectsHtml);
 fs.writeFileSync("partner-skills.html", partnerSkillsHtml);
-fs.writeFileSync("partner-verify.html", partnerVerifyHtml);
 console.log("wrote index.html", fs.statSync("index.html").size, "bytes");
 console.log("wrote pals.html", fs.statSync("pals.html").size, "bytes");
 console.log("wrote base-tips.html", fs.statSync("base-tips.html").size, "bytes");
 console.log("wrote status-effects.html", fs.statSync("status-effects.html").size, "bytes");
 console.log("wrote partner-skills.html", fs.statSync("partner-skills.html").size, "bytes");
-console.log("wrote partner-verify.html", fs.statSync("partner-verify.html").size, "bytes");
 console.log("pals:", data.pals.length);
-console.log("partner skills:", (partnerResolved.skills || []).length);
-console.log("checklist pals:", (partnerChecklist.pals || []).length);
+console.log("partner skills:", (partnerPaldb.skills || []).length);
 console.log("status effects:", (statusEffects.effects || []).length);

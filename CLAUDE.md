@@ -3,7 +3,8 @@
 Palworld tools site. First tool is a work-suitability spreadsheet for all pals: sortable/filterable table with icons, element filters, and links to paldb.cc.
 
 **Live:** https://palhead.pages.dev  
-**Pages project:** `palhead`
+**Pages project:** `palhead`  
+**Game data source of truth:** [paldb.cc](https://paldb.cc) (see `reference/PROVENANCE.md`)
 
 ## Architecture
 
@@ -11,27 +12,27 @@ Static site. No framework, no bundler for the app itself.
 
 | Path | Role |
 |------|------|
-| `build.js` | Source of truth for the UI. Embeds `pals_data.json` and writes all HTML pages. |
+| `build.js` | Source of truth for the UI. Embeds data and writes all HTML pages. |
 | `index.html` | Generated home / tools hub. Do not hand-edit; change `build.js` and rebuild. |
 | `pals.html` | Generated pals work-suitability spreadsheet. Do not hand-edit; change `build.js` and rebuild. |
-| `partner-skills.html` | Generated partner skills catalog (resolved scrapes + corrections). Do not hand-edit; change `build.js` and rebuild. |
-| `partner-verify.html` | Generated Palpedia checklist + site discrepancies. Do not hand-edit; change `build.js` and rebuild. |
+| `partner-skills.html` | Generated partner skills catalog from paldb scrape. Do not hand-edit; change `build.js` and rebuild. |
 | `base-tips.html` | Generated base tips (work +1 partner skills). Do not hand-edit; change `build.js` and rebuild. |
 | `status-effects.html` | Generated status effects catalog from in-game Survival Guide. Do not hand-edit; change `build.js` and rebuild. |
 | `pals_data.json` | Compact pal dataset (`id`, `n` name, `d` deck #, `e` elements, `w` work levels array, `img` icon filename). |
-| `reference/PROVENANCE.md` | How we track where every fact came from (scrapes vs corrections vs resolved). |
-| `reference/passive_skills.json` | Local reference: all passive skills (rank, effects, fixed-on pals). Agent lookup only; not deployed. |
-| `reference/partner-skills/` | Multi-source partner skills: per-site scrapes, corrections, discrepancies, resolved view. See its README. |
-| `reference/partner_skills.json` | Deprecated stub pointing at `reference/partner-skills/`. |
+| `reference/PROVENANCE.md` | Data policy: paldb.cc is SoT; local files are caches. |
+| `reference/passive_skills.json` | Local cache (legacy wiki.gg); agent lookup only; not deployed. |
+| `reference/partner-skills/` | paldb partner-skill scrape (`sources/paldb.json`). See its README. |
+| `reference/partner_skills.json` | Deprecated stub pointing at `reference/partner-skills/sources/paldb.json`. |
 | `reference/status-effects/` | Survival Guide status effects text + evidence screenshots. See its README. |
-| `reference/work_suitability.json` | Local reference: work suitability definitions, priority, tips. Agent lookup only; not deployed. |
+| `reference/work_suitability.json` | Local cache (legacy fandom); agent lookup only; not deployed. |
 | `icons/` | Local pal icons (`.webp`), referenced as `icons/<file>`. |
 | `download-icons.js` | Scrapes/resolves paldb CDN icons into `icons/` and updates `img` on pals. |
 | `scripts/scrape-reference-data.js` | Pulls passive skills + work suitability; invokes partner-skills scraper. |
-| `scripts/scrape-partner-skills.js` | Scrapes 4 partner-skill sites into separate source files + rebuilds resolved view. |
-| `scripts/prepare-dist.js` | Copies `index.html` + `icons/` → `dist/` for deploy. |
+| `scripts/scrape-partner-skills.js` | Scrapes paldb.cc partner skills → `sources/paldb.json`. |
+| `scripts/prepare-dist.js` | Copies HTML + `icons/` → `dist/` for deploy. |
 | `dist/` | Deploy artifact (gitignored). |
 | `wrangler.toml` | Cloudflare Pages config (`pages_build_output_dir = "dist"`). |
+| `docs/SITE-REBUILD.md` | Plan to rebuild as full database from `paldb-cc-exports`. |
 
 Work suitability columns order in `pals_data.json` `work` array:
 
@@ -46,9 +47,7 @@ npm install
 npm run build            # rebuild all HTML pages + dist/
 npm run download-icons   # re-fetch icons (needs network)
 npm run scrape-reference # re-fetch passives, work suitability, partner skills (needs network)
-npm run scrape-partner-skills # re-fetch all 4 partner-skill sources + resolved (needs network)
-npm run build-partner-checklist # rebuild CHECKLIST.md from checklist.json progress
-npm run build-partner-discrepancies # rebuild site-vs-site DISCREPANCIES.md
+npm run scrape-partner-skills # re-fetch partner skills from paldb.cc (needs network)
 npm run login            # wrangler OAuth
 npm run whoami
 npm run deploy           # build + wrangler pages deploy dist --project-name palhead
@@ -59,17 +58,17 @@ After UI changes: edit `build.js` → `npm run build` (or `npm run deploy`).
 
 ## Data
 
-- `pals_data.json` is derived from community game data (oMaN-Rod/palworld-save-pal style dumps) + paldb icons.
-- Prefer regenerating via scripts over hand-editing hundreds of pals.
+- **Source of truth for game data is [paldb.cc](https://paldb.cc).** No multi-site verification, Palpedia checklist, or correction overlays.
+- `pals_data.json` is a compact deployed table (community dumps + paldb icons). Prefer regenerating via scripts / paldb-derived data over hand-editing hundreds of pals.
 - Keep the site offline-capable except Tailwind CDN and outbound paldb name links.
-- **Provenance:** see `reference/PROVENANCE.md`. Scraped site copies and human/in-game corrections are never mixed.
+- **Provenance:** see `reference/PROVENANCE.md`.
 - Agent reference (not shipped in `dist/`):
-  - `reference/passive_skills.json` — from [wiki.gg Passive Skills/List](https://palworld.wiki.gg/wiki/Passive_Skills/List)
-  - `reference/partner-skills/` — four independent scrapes ([wiki.gg](https://palworld.wiki.gg/wiki/Partner_Skills), [game8](https://game8.co/games/Palworld/archives/439665), [fandom](https://palworld.fandom.com/wiki/Partner_Skills), [paldb](https://paldb.cc/en/Partner_Skill)) + `corrections/` + `resolved.json` + **`checklist.json` / `CHECKLIST.md`** for Palpedia verification. Process: `reference/partner-skills/README.md`. **Preserve every user screenshot forever** under `partner-skills/corrections/evidence/`.
-  - `reference/work_suitability.json` — from [fandom Work Suitability](https://palworld.fandom.com/wiki/Work_Suitability)
-  - `reference/status-effects/` — in-game Survival Guide → Tips → Status Effects (screenshot-verified). Evidence under `status-effects/evidence/`.
-  - Refresh scrapes with `npm run scrape-reference` / `npm run scrape-partner-skills`. Apply in-game fixes only via `partner-skills/corrections/`.
-- **External reference repo (not in this tree):** `C:\projects\collinstevens\paldb-cc-exports` — local crawl/export of [paldb.cc](https://paldb.cc) HTML pages (`exports/en/…`). Prefer this over live fetches when looking up paldb.cc content.
+  - `reference/partner-skills/sources/paldb.json` — from [paldb Partner Skill](https://paldb.cc/en/Partner_Skill)
+  - `reference/passive_skills.json` — legacy cache; replace with paldb extract when ready
+  - `reference/work_suitability.json` — legacy cache; replace with paldb extract when ready
+  - `reference/status-effects/` — in-game Survival Guide → Tips → Status Effects (screenshot-verified)
+  - Refresh partner skills with `npm run scrape-partner-skills`
+- **External reference repo (not in this tree):** `C:\projects\collinstevens\paldb-cc-exports` — local crawl/export/distill of [paldb.cc](https://paldb.cc). Prefer this over live fetches when looking up paldb content.
 
 ## Hosting
 

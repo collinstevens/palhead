@@ -6,7 +6,7 @@
     "kind": "skill_catalog",
     "scrapedAt": "2026-07-14T04:18:44.135Z",
     "scraper": "scripts/scrape-partner-skills.js",
-    "note": "Scraped snapshot only. Do not hand-edit. Corrections live in corrections/corrections.json."
+    "note": "Scraped snapshot of paldb.cc only. Do not hand-edit. paldb.cc is the site source of truth."
   },
   "count": 298,
   "notes": {

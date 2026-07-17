@@ -181,7 +181,7 @@ function sourceEnvelope(sourceId, skills, extra = {}) {
       kind: meta.kind,
       scrapedAt: new Date().toISOString(),
       scraper: "scripts/scrape-partner-skills.js",
-      note: "Scraped snapshot only. Do not hand-edit. Corrections live in corrections/corrections.json.",
+      note: "Scraped snapshot of paldb.cc only. Do not hand-edit. paldb.cc is the site source of truth.",
     },
     count: skills.length,
     ...extra,
@@ -397,7 +397,7 @@ async function scrapeFandom() {
       scrapedAt: new Date().toISOString(),
       scraper: "scripts/scrape-partner-skills.js",
       note:
-        "Fandom Partner Skills page is quantitative level tables (mount speed, attack boosts, carry weight, etc.), not a skill-name catalog. Skill names are usually absent. Do not hand-edit. Corrections live in corrections/corrections.json.",
+        "Fandom Partner Skills page is quantitative level tables (mount speed, attack boosts, carry weight, etc.), not a skill-name catalog. Skill names are usually absent. Unused: site SoT is paldb.cc only.",
     },
     count: entryCount,
     sectionCount: sections.length,
@@ -658,50 +658,7 @@ function mergeCatalogs(sourceDocs) {
 }
 
 function ensureScaffold(dir) {
-  const correctionsDir = path.join(dir, "corrections");
-  const evidenceDir = path.join(correctionsDir, "evidence");
-  const discrepanciesDir = path.join(dir, "discrepancies");
-  const sourcesDir = path.join(dir, "sources");
-  for (const d of [dir, correctionsDir, evidenceDir, discrepanciesDir, sourcesDir]) {
-    fs.mkdirSync(d, { recursive: true });
-  }
-
-  const correctionsPath = path.join(correctionsDir, "corrections.json");
-  if (!fs.existsSync(correctionsPath)) {
-    fs.writeFileSync(
-      correctionsPath,
-      JSON.stringify(
-        {
-          schemaVersion: 1,
-          purpose:
-            "Ground-truth partner skill amendments verified in-game (screenshots/notes). Applied over scraped sources when building resolved.json. Never mixed into source scrape files.",
-          entries: [],
-        },
-        null,
-        2
-      ) + "\n"
-    );
-  }
-
-  const inaccuraciesPath = path.join(discrepanciesDir, "known-inaccuracies.json");
-  if (!fs.existsSync(inaccuraciesPath)) {
-    fs.writeFileSync(
-      inaccuraciesPath,
-      JSON.stringify(
-        {
-          schemaVersion: 1,
-          purpose:
-            "Human-maintained log of which sites are wrong/outdated for which partner skill facts. Update as screenshots and in-game checks accumulate. Separate from auto cross-source-diff.json.",
-          entries: [],
-        },
-        null,
-        2
-      ) + "\n"
-    );
-  }
-
-  const evidenceKeep = path.join(evidenceDir, ".gitkeep");
-  if (!fs.existsSync(evidenceKeep)) fs.writeFileSync(evidenceKeep, "");
+  fs.mkdirSync(path.join(dir, "sources"), { recursive: true });
 }
 
 async function main() {
@@ -709,61 +666,11 @@ async function main() {
   const outDir = path.join(root, "reference", "partner-skills");
   ensureScaffold(outDir);
 
-  console.log("Scraping wiki.gg...");
-  const wiki = await scrapeWikiGg();
-  console.log("Scraping game8...");
-  const game8 = await scrapeGame8();
-  console.log("Scraping fandom...");
-  const fandom = await scrapeFandom();
-  console.log("Scraping paldb...");
+  console.log("Scraping paldb.cc (source of truth)...");
   const paldb = await scrapePaldb();
-
-  const sourceDocs = {
-    "wiki-gg": wiki,
-    game8,
-    fandom,
-    paldb,
-  };
-
-  const sourcesDir = path.join(outDir, "sources");
-  for (const [id, doc] of Object.entries(sourceDocs)) {
-    const filePath = path.join(sourcesDir, `${id}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(doc, null, 2) + "\n");
-    console.log(`Wrote ${filePath} (${doc.count} entries)`);
-  }
-
-  console.log("Building cross-source discrepancy report...");
-  require("child_process").execFileSync(
-    process.execPath,
-    [path.join(__dirname, "build-partner-skills-discrepancies.js")],
-    { stdio: "inherit", cwd: root }
-  );
-
-  const correctionsPath = path.join(outDir, "corrections", "corrections.json");
-  const corrections = loadJsonIfExists(correctionsPath, { entries: [] });
-  const merged = mergeCatalogs(sourceDocs);
-  const { skills: resolvedSkills, applied } = applyCorrections(merged, corrections);
-
-  const resolved = {
-    provenance: {
-      kind: "resolved_view",
-      builtAt: new Date().toISOString(),
-      builder: "scripts/scrape-partner-skills.js",
-      sourceFiles: Object.keys(sourceDocs).map(
-        (id) => `reference/partner-skills/sources/${id}.json`
-      ),
-      correctionsFile: "reference/partner-skills/corrections/corrections.json",
-      mergePreference: ["paldb", "game8", "wiki-gg"],
-      note:
-        "Working query view. For each field, first non-empty among preference wins; corrections always override. Re-run scrape to refresh sources; corrections are preserved.",
-    },
-    count: resolvedSkills.length,
-    correctionsApplied: applied.length,
-    skills: resolvedSkills,
-  };
-  const resolvedPath = path.join(outDir, "resolved.json");
-  fs.writeFileSync(resolvedPath, JSON.stringify(resolved, null, 2) + "\n");
-  console.log(`Wrote ${resolvedPath} (${resolved.count} skills, corrections=${applied.length})`);
+  const filePath = path.join(outDir, "sources", "paldb.json");
+  fs.writeFileSync(filePath, JSON.stringify(paldb, null, 2) + "\n");
+  console.log(`Wrote ${filePath} (${paldb.count} entries)`);
 
   const legacyPath = path.join(root, "reference", "partner_skills.json");
   fs.writeFileSync(
@@ -771,13 +678,13 @@ async function main() {
     JSON.stringify(
       {
         deprecated: true,
-        movedTo: "reference/partner-skills/",
+        movedTo: "reference/partner-skills/sources/paldb.json",
         see: [
           "reference/partner-skills/README.md",
-          "reference/partner-skills/resolved.json",
-          "reference/partner-skills/sources/",
+          "reference/partner-skills/sources/paldb.json",
+          "reference/PROVENANCE.md",
         ],
-        note: "Partner skills are now split by source with separate corrections. Use resolved.json for queries.",
+        note: "Partner skills ship from paldb.cc only. Use sources/paldb.json.",
         migratedAt: new Date().toISOString(),
       },
       null,
@@ -785,13 +692,6 @@ async function main() {
     ) + "\n"
   );
   console.log(`Wrote deprecation stub ${legacyPath}`);
-
-  console.log("Refreshing partner skills checklist...");
-  require("child_process").execFileSync(
-    process.execPath,
-    [path.join(__dirname, "build-partner-skills-checklist.js")],
-    { stdio: "inherit", cwd: root }
-  );
 }
 
 main().catch((err) => {

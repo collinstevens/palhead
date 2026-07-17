@@ -1,11 +1,11 @@
 {
   "deprecated": true,
-  "movedTo": "reference/partner-skills/",
+  "movedTo": "reference/partner-skills/sources/paldb.json",
   "see": [
     "reference/partner-skills/README.md",
-    "reference/partner-skills/resolved.json",
-    "reference/partner-skills/sources/"
+    "reference/partner-skills/sources/paldb.json",
+    "reference/PROVENANCE.md"
   ],
-  "note": "Partner skills are now split by source with separate corrections. Use resolved.json for queries.",
-  "migratedAt": "2026-07-14T04:18:44.234Z"
+  "note": "Partner skills ship from paldb.cc only. Use sources/paldb.json.",
+  "migratedAt": "2026-07-16T00:00:00.000Z"
 }
