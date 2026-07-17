@@ -2,7 +2,8 @@
 
 Palworld multi-page static database & tools site. Phases 0–8 complete (encyclopedia, tools, search, news, sitemap).
 
-**Live:** https://palhead.pages.dev  
+**Live:** https://palhead.com  
+**Pages (previews):** https://palhead.pages.dev  
 **Pages project:** `palhead`  
 **Game data source of truth:** [paldb.cc](https://paldb.cc) via `paldb-cc-exports`  
 **UX / style reference:** [wowhead.com](https://www.wowhead.com/) sample via `wowhead-com-exports`  

@@ -2,7 +2,8 @@
 
 **Status:** draft for review  
 **Date:** 2026-07-16  
-**Live site:** https://palhead.pages.dev  
+**Live site:** https://palhead.com  
+**Pages (previews):** https://palhead.pages.dev  
 **Game data source:** `C:\projects\collinstevens\paldb-cc-exports` (distilled / publish bundle)  
 **Style / UX sample:** `C:\projects\collinstevens\wowhead-com-exports` (sample homepage + section links)
 

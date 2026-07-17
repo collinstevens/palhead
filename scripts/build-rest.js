@@ -93,6 +93,7 @@ function buildRest({ root, distDir, normalizedDir, siteMeta, palsList }) {
         path: s.path,
         activeNav: "structures",
         siteMeta,
+        icon: s.icon || null,
         crumbs: [
           { href: "database/", label: "Database" },
           { href: "structures/", label: "Structures" },
@@ -417,7 +418,7 @@ function buildRest({ root, distDir, normalizedDir, siteMeta, palsList }) {
   const searchEntries = exists("search-index.json")
     ? readJson(n("search-index.json")).entries || []
     : [];
-  const baseUrl = "https://palhead.pages.dev";
+  const baseUrl = "https://palhead.com";
   const urls = new Set(["/", "/pals/", "/skills/", "/items/", "/recipes/", "/structures/", "/tech/", "/world/", "/tools/", "/guides/", "/news/", "/database/"]);
   for (const e of searchEntries) {
     if (e.path) urls.add(e.path.endsWith("/") ? e.path : e.path + "/");
