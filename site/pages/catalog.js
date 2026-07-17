@@ -214,8 +214,10 @@ function detailPage({
   stats = [],
   sections = [],
   subtitle = null,
+  icon = null,
 }) {
   const prefix = depthPrefix(path);
+  const iconSrc = icon ? prefix + "icons/" + icon : null;
   const crumbHtml =
     '<div class="wh-breadcrumb"><a href="' +
     escapeHtml(prefix) +
@@ -266,7 +268,15 @@ function detailPage({
   <main class="wh-page wh-page-pad">
     <div class="max-w-3xl flex flex-col gap-3">
       ${crumbHtml}
-      <header class="wh-panel" style="padding:12px;margin:0">
+      <header class="wh-panel" style="padding:12px;margin:0;display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px">
+        ${
+          iconSrc
+            ? '<img src="' +
+              escapeHtml(iconSrc) +
+              '" alt="" width="64" height="64" class="w-16 h-16 rounded-lg bg-pal-bg" loading="lazy" />'
+            : '<div class="w-16 h-16 rounded-lg bg-pal-bg shrink-0"></div>'
+        }
+        <div class="min-w-0 flex-1">
         <div class="flex flex-wrap items-center gap-2 mb-1">
           <span class="wh-chip wh-chip-live">paldb</span>
           <span class="text-xs text-pal-muted">${escapeHtml(kindLabel || "")}</span>
@@ -279,6 +289,7 @@ function detailPage({
               "</p>"
             : ""
         }
+        </div>
       </header>
       ${statsHtml ? '<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">' + statsHtml + "</div>" : ""}
       ${sectionsHtml}

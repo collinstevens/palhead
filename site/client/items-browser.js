@@ -67,6 +67,17 @@ function itemHref(it) {
   return ASSET_PREFIX + p.replace(/^\\//, "");
 }
 
+function iconHtml(it) {
+  if (!it.icon) {
+    return '<span class="inline-block w-7 h-7 rounded bg-pal-bg shrink-0"></span>';
+  }
+  return (
+    '<img class="inline-block w-7 h-7 rounded bg-pal-bg shrink-0" src="' +
+    escapeHtml(ASSET_PREFIX + "icons/" + it.icon) +
+    '" alt="" width="28" height="28" loading="lazy" />'
+  );
+}
+
 function render() {
   const list = filteredSorted();
   document.getElementById("resultCount").textContent = String(list.length);
@@ -75,8 +86,9 @@ function render() {
   tbody.innerHTML = list.map(it =>
     '<tr class="border-t border-pal-border/40 hover:bg-white/[0.02]">' +
       '<td class="px-3 py-2 sticky left-0 z-[1]" style="background:var(--wh-panel)">' +
-        '<a class="font-semibold hover:text-pal-accent" href="' + escapeHtml(itemHref(it)) + '">' +
-        escapeHtml(it.name) + "</a></td>" +
+        '<a class="font-semibold hover:text-pal-accent inline-flex items-center gap-2" href="' +
+        escapeHtml(itemHref(it)) + '">' + iconHtml(it) +
+        '<span>' + escapeHtml(it.name) + "</span></a></td>" +
       '<td class="px-3 py-2 text-xs"><span class="' + rarityClass(it.rarity) + '">' +
         escapeHtml(it.rarity || "—") + "</span></td>" +
       '<td class="px-3 py-2 text-xs text-pal-muted tabular-nums text-center">' +

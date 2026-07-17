@@ -217,6 +217,7 @@ const root = path.join(__dirname, "..");
 const vendorDir = path.join(root, "data", "vendor");
 const outDir = path.join(root, "data", "normalized");
 const iconsDir = path.join(root, "icons");
+const iconManifestPath = path.join(root, "data", "icon-manifest.json");
 
 function fail(msg) {
   console.error(msg);
@@ -248,22 +249,128 @@ function splitOwners(value) {
     .filter(Boolean);
 }
 
-function buildIconIndex() {
-  const byCode = new Map();
-  if (!fs.existsSync(iconsDir)) return byCode;
-  for (const file of fs.readdirSync(iconsDir)) {
-    const m = file.match(/^T_(.+)_icon_normal\.webp$/i);
-    if (!m) continue;
-    byCode.set(m[1], file);
+function iconFileExists(relUnderIcons) {
+  if (!relUnderIcons) return false;
+  const abs = path.join(iconsDir, relUnderIcons);
+  try {
+    return fs.statSync(abs).size > 0;
+  } catch {
+    return false;
   }
-  return byCode;
 }
 
-function resolveIcon(iconIndex, code, slug) {
+function toIconsRelative(file) {
+  if (!file) return null;
+  let rel = String(file).replace(/\\/g, "/");
+  if (rel.startsWith("icons/")) rel = rel.slice("icons/".length);
+  return rel;
+}
+
+function buildIconIndexes() {
+  const pals = new Map();
+  const items = new Map();
+  const structures = new Map();
+
+  if (fs.existsSync(iconsDir)) {
+    for (const file of fs.readdirSync(iconsDir)) {
+      const m = file.match(/^T_(.+)_icon_normal\.webp$/i);
+      if (!m) continue;
+      pals.set(m[1], file);
+      pals.set(m[1].toLowerCase(), file);
+    }
+    const itemsDir = path.join(iconsDir, "items");
+    if (fs.existsSync(itemsDir)) {
+      for (const file of fs.readdirSync(itemsDir)) {
+        if (!/\.webp$/i.test(file)) continue;
+        const stem = file.replace(/\.webp$/i, "");
+        const rel = "items/" + file;
+        items.set(stem, rel);
+        items.set(stem.toLowerCase(), rel);
+      }
+    }
+    const structuresDir = path.join(iconsDir, "structures");
+    if (fs.existsSync(structuresDir)) {
+      for (const file of fs.readdirSync(structuresDir)) {
+        if (!/\.webp$/i.test(file)) continue;
+        const stem = file.replace(/\.webp$/i, "");
+        const rel = "structures/" + file;
+        structures.set(stem, rel);
+        structures.set(stem.toLowerCase(), rel);
+      }
+    }
+  }
+
+  if (fs.existsSync(iconManifestPath)) {
+    try {
+      const man = readJson(iconManifestPath);
+      for (const row of man.files || []) {
+        const rel = toIconsRelative(row.file);
+        if (!rel || !iconFileExists(rel)) continue;
+        const keys = [row.code, row.icon_name, row.id, row.slug].filter(Boolean);
+        const target =
+          row.kind === "pal"
+            ? pals
+            : row.kind === "structure"
+              ? structures
+              : items;
+        for (const k of keys) {
+          target.set(String(k), rel);
+          target.set(String(k).toLowerCase(), rel);
+        }
+      }
+    } catch {
+      /* ignore bad manifest */
+    }
+  }
+
+  return { pals, items, structures };
+}
+
+function resolvePalIcon(iconIndex, code, slug) {
   if (code && iconIndex.has(code)) return iconIndex.get(code);
   if (slug && iconIndex.has(slug)) return iconIndex.get(slug);
-  if (code && iconIndex.has(code.replace(/_/g, ""))) return iconIndex.get(code.replace(/_/g, ""));
+  if (code && iconIndex.has(String(code).toLowerCase()))
+    return iconIndex.get(String(code).toLowerCase());
+  if (slug && iconIndex.has(String(slug).toLowerCase()))
+    return iconIndex.get(String(slug).toLowerCase());
+  if (code && iconIndex.has(code.replace(/_/g, "")))
+    return iconIndex.get(code.replace(/_/g, ""));
   return null;
+}
+
+function resolveKeyedIcon(index, ...keys) {
+  for (const k of keys) {
+    if (!k) continue;
+    if (index.has(k)) return index.get(k);
+    const lower = String(k).toLowerCase();
+    if (index.has(lower)) return index.get(lower);
+  }
+  return null;
+}
+
+function resolveItemIcon(itemIndex, iconName, code, id, slug) {
+  const hit = resolveKeyedIcon(itemIndex, iconName, code, id, slug);
+  if (hit && iconFileExists(hit)) return hit;
+  const candidates = [];
+  for (const k of [iconName, code, id]) {
+    if (!k) continue;
+    candidates.push("items/" + k + ".webp");
+  }
+  for (const rel of candidates) {
+    if (iconFileExists(rel)) return rel;
+  }
+  return hit || null;
+}
+
+function resolveStructureIcon(structureIndex, code, id, slug) {
+  const hit = resolveKeyedIcon(structureIndex, code, id, slug);
+  if (hit && iconFileExists(hit)) return hit;
+  for (const k of [code, id]) {
+    if (!k) continue;
+    const rel = "structures/" + k + ".webp";
+    if (iconFileExists(rel)) return rel;
+  }
+  return hit || null;
 }
 
 function statRange(stats, key) {
@@ -299,7 +406,7 @@ if (!palsDoc || !Array.isArray(palsDoc.pals)) {
   fail("data/vendor/pals.json missing or invalid");
 }
 
-const iconIndex = buildIconIndex();
+const iconIndexes = buildIconIndexes();
 const builtAt = new Date().toISOString();
 
 fs.rmSync(outDir, { recursive: true, force: true });
@@ -330,7 +437,7 @@ for (const raw of palsDoc.pals) {
   const isPal = raw.flags?.is_pal !== false;
   const isDex = isPal && deck != null && deck > 0;
   const elements = normalizeElements(raw.elements);
-  const icon = resolveIcon(iconIndex, code, slug);
+  const icon = resolvePalIcon(iconIndexes.pals, code, slug);
   let pathSeg = pathSegment(slug);
   if (usedPalPathSegs.has(pathSeg)) {
     const alt = pathSegment(code || raw.id || slug + "-2");
@@ -660,6 +767,14 @@ for (const cat of ITEM_CATEGORIES) {
         ? String(raw.description).trim()
         : null;
 
+    const icon = resolveItemIcon(
+      iconIndexes.items,
+      raw.icon_name || null,
+      raw.code || null,
+      raw.id || null,
+      pathSeg
+    );
+
     const compact = {
       id: raw.id || raw.code || pathSeg,
       slug: pathSeg,
@@ -675,6 +790,7 @@ for (const cat of ITEM_CATEGORIES) {
       max_stack: raw.max_stack_count ?? raw.max_stack ?? null,
       type_a: raw.type_a || null,
       type_b: raw.type_b || null,
+      icon,
       has_recipe: materials.length > 0 || workstations.length > 0,
     };
 
@@ -685,6 +801,7 @@ for (const cat of ITEM_CATEGORIES) {
       workstations,
       craft_times: Array.isArray(raw.craft_times) ? raw.craft_times : [],
       source_url: raw.source_url || null,
+      icon_name: raw.icon_name || null,
       recipes_as_product: [],
       used_in: [],
       dropped_by: [],
@@ -706,7 +823,7 @@ for (const cat of ITEM_CATEGORIES) {
       slug: pathSeg,
       path: href,
       elements: null,
-      icon: null,
+      icon,
       rank: raw.rank ?? null,
     });
   }
@@ -930,4 +1047,6 @@ require("./normalize-late")({
   activeBySlug,
   searchEntries,
   relations,
+  iconIndexes,
+  resolveStructureIcon,
 });

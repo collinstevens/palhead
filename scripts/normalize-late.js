@@ -44,6 +44,8 @@ module.exports = function normalizeLate(ctx) {
     partnerSkills: _ps,
     searchEntries,
     relations,
+    iconIndexes,
+    resolveStructureIcon,
   } = ctx;
 
   function linkMaterials(rawMats) {
@@ -85,6 +87,16 @@ module.exports = function normalizeLate(ctx) {
     const href = structureHref(pathSeg);
     const name = humanizeName(raw.name || slug);
     const materials = linkMaterials(raw.recipe_materials || raw.materials);
+    const code = raw.code || raw.id || null;
+    const icon =
+      typeof resolveStructureIcon === "function" && iconIndexes
+        ? resolveStructureIcon(
+            iconIndexes.structures,
+            code,
+            raw.id || null,
+            pathSeg
+          )
+        : null;
     const compact = {
       id: raw.id || slug,
       slug: pathSeg,
@@ -97,6 +109,8 @@ module.exports = function normalizeLate(ctx) {
       defense: raw.defense ?? null,
       type_a: raw.type_a || null,
       type_b: raw.type_b || null,
+      code,
+      icon,
     };
     structures.push(compact);
     structuresBySlug[pathSeg] = {
@@ -108,7 +122,6 @@ module.exports = function normalizeLate(ctx) {
       materials,
       build_times: Array.isArray(raw.build_times) ? raw.build_times : [],
       source_url: raw.source_url || null,
-      code: raw.code || null,
     };
     searchEntries.push({
       name,
@@ -116,7 +129,7 @@ module.exports = function normalizeLate(ctx) {
       slug: pathSeg,
       path: href,
       elements: null,
-      icon: null,
+      icon,
       rank: raw.rank ?? null,
     });
   }

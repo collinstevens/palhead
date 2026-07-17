@@ -55,10 +55,19 @@ function cell(row, col) {
   if (col.render === "link") {
     const p = row.path || row[col.pathField];
     const label = row[col.field] || "—";
-    if (!p) return escapeHtml(label);
-    return '<a class="font-semibold hover:text-pal-accent" href="' +
+    const icon = row.icon
+      ? '<img class="inline-block w-7 h-7 rounded bg-pal-bg shrink-0" src="' +
+        escapeHtml(ASSET_PREFIX + "icons/" + row.icon) +
+        '" alt="" width="28" height="28" loading="lazy" />'
+      : "";
+    if (!p) {
+      return icon
+        ? '<span class="inline-flex items-center gap-2">' + icon + escapeHtml(label) + "</span>"
+        : escapeHtml(label);
+    }
+    return '<a class="font-semibold hover:text-pal-accent inline-flex items-center gap-2" href="' +
       escapeHtml(ASSET_PREFIX + String(p).replace(/^\\//, "")) + '">' +
-      escapeHtml(label) + "</a>";
+      icon + '<span>' + escapeHtml(label) + "</span></a>";
   }
   if (col.render === "elements") {
     return (row.elements || []).map(e =>

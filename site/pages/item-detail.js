@@ -111,6 +111,7 @@ function itemDetailPage({ item, siteMeta }) {
   const prefix = depthPrefix(href);
   const catPath = "items/" + (item.category || "") + "/";
   const catLabel = item.category_label || item.category || "Items";
+  const iconSrc = item.icon ? prefix + "icons/" + item.icon : null;
 
   const stats =
     statCard("Rarity", item.rarity, rarityClass(item.rarity)) +
@@ -255,7 +256,15 @@ function itemDetailPage({ item, siteMeta }) {
         <span style="color:#c5ccda">${escapeHtml(item.name)}</span>
       </div>
 
-      <header class="wh-panel" style="padding:12px;margin:0">
+      <header class="wh-panel" style="padding:12px;margin:0;display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px">
+        ${
+          iconSrc
+            ? '<img src="' +
+              escapeHtml(iconSrc) +
+              '" alt="" width="64" height="64" class="w-16 h-16 rounded-lg bg-pal-bg" loading="lazy" />'
+            : '<div class="w-16 h-16 rounded-lg bg-pal-bg shrink-0"></div>'
+        }
+        <div class="min-w-0 flex-1">
         <div class="flex flex-wrap items-center gap-2 mb-1">
           <span class="wh-chip wh-chip-live">paldb</span>
           <span class="text-xs text-pal-muted">${escapeHtml(catLabel)}</span>
@@ -277,6 +286,7 @@ function itemDetailPage({ item, siteMeta }) {
               "</p>"
             : ""
         }
+        </div>
       </header>
 
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">${stats}</div>
