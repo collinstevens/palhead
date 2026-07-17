@@ -28,6 +28,7 @@ if (fs.existsSync(importMetaPath)) {
 
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
+fs.writeFileSync(path.join(outDir, ".gitkeep"), "");
 
 const tables = (catalog.tables || []).map((t) => ({
   file: t.file,

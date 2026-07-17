@@ -35,6 +35,7 @@ if (!fs.existsSync(catalogPath)) {
 
 fs.rmSync(vendorDir, { recursive: true, force: true });
 fs.mkdirSync(vendorDir, { recursive: true });
+fs.writeFileSync(path.join(vendorDir, ".gitkeep"), "");
 
 function copyTree(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
