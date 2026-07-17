@@ -132,24 +132,24 @@ function skillDetailPage({ kind, skill, siteMeta, palsBySlug }) {
         "</section>";
 
   const body = `
-  <main class="flex-1 px-4 py-6 w-full">
-    <div class="max-w-3xl mx-auto flex flex-col gap-5">
-      <div class="text-xs text-pal-muted">
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
-        <span class="mx-1">/</span>
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}skills/">Skills</a>
-        <span class="mx-1">/</span>
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix + listPath)}">${escapeHtml(kindLabel + "s")}</a>
-        <span class="mx-1">/</span>
-        <span class="text-pal-text">${escapeHtml(skill.name)}</span>
+  <main class="wh-page wh-page-pad">
+    <div class="max-w-3xl flex flex-col gap-3">
+      <div class="wh-breadcrumb">
+        <a href="${escapeHtml(prefix)}index.html">Home</a>
+        <span> / </span>
+        <a href="${escapeHtml(prefix)}skills/">Skills</a>
+        <span> / </span>
+        <a href="${escapeHtml(prefix + listPath)}">${escapeHtml(kindLabel + "s")}</a>
+        <span> / </span>
+        <span style="color:#c5ccda">${escapeHtml(skill.name)}</span>
       </div>
 
-      <header class="rounded-lg border border-pal-border bg-pal-panel p-4">
+      <header class="wh-panel" style="padding:12px;margin:0">
         <div class="flex flex-wrap items-center gap-2 mb-1">
-          <span class="text-[10px] uppercase tracking-wide text-pal-muted border border-pal-border rounded px-1.5 py-0.5">paldb</span>
+          <span class="wh-chip wh-chip-live">paldb</span>
           <span class="text-xs text-pal-muted">${escapeHtml(kindLabel)}</span>
         </div>
-        <h1 class="text-2xl font-semibold mb-2">${escapeHtml(skill.name)}</h1>
+        <h1 class="wh-h1" style="margin-bottom:8px">${escapeHtml(skill.name)}</h1>
         ${elems ? '<div class="flex flex-wrap gap-1 mb-2">' + elems + "</div>" : ""}
         <p class="text-sm text-pal-muted leading-relaxed">${escapeHtml(skill.description || "No description in extract.")}</p>
         ${

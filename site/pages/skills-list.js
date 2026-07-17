@@ -120,39 +120,44 @@ function skillsListPage({ kind, siteMeta, skillsPayload }) {
           "</select></div>";
 
   const body = `
-  <main class="flex-1 px-3 md:px-4 py-4 w-full flex flex-col gap-3">
-    <div>
-      <div class="text-xs text-pal-muted mb-1">
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
-        <span class="mx-1">/</span>
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}skills/">Skills</a>
-        <span class="mx-1">/</span>
-        <span class="text-pal-text">${escapeHtml(meta.title)}</span>
+  <main class="wh-page wh-page-pad flex flex-col gap-2">
+    <div class="wh-breadcrumb">
+      <a href="${escapeHtml(prefix)}index.html">Home</a>
+      <span> / </span>
+      <a href="${escapeHtml(prefix)}skills/">Skills</a>
+      <span> / </span>
+      <span style="color:#c5ccda">${escapeHtml(meta.title)}</span>
+    </div>
+    <div class="flex flex-wrap items-end justify-between gap-2">
+      <div>
+        <h1 class="wh-h1">${escapeHtml(meta.title)}</h1>
+        <p class="wh-lede">${escapeHtml(meta.blurb)} Source: paldb.cc.</p>
       </div>
-      <h1 class="text-xl font-semibold">${escapeHtml(meta.title)}</h1>
-      <p class="text-sm text-pal-muted mt-0.5">${escapeHtml(meta.blurb)}</p>
-      <p class="text-xs text-pal-muted mt-1">Source: paldb.cc</p>
+      <span class="wh-chip wh-chip-live">live</span>
     </div>
 
-    <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-      <div class="flex flex-wrap items-end gap-3">
+    <section class="wh-panel" style="margin-bottom:8px">
+      <div class="wh-panel-head"><h2>Filters</h2></div>
+      <div class="wh-panel-body">
+      <div class="flex flex-wrap items-end gap-2">
         <div class="flex-1 min-w-[12rem]">
-          <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
-          <input id="search" type="search" placeholder="Name, description…" class="w-full bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent" />
+          <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Search</label>
+          <input id="search" type="search" placeholder="Name, description…" class="w-full bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm" />
         </div>
         ${filters}
-        <button id="resetFilters" type="button" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent">Reset</button>
+        <button id="resetFilters" type="button" class="wh-btn wh-btn-ghost">Reset</button>
       </div>
-      <div class="text-sm text-pal-muted">
-        Showing <span id="resultCount" class="text-pal-text font-semibold">0</span>
-        of <span id="totalCount" class="text-pal-text font-semibold">0</span>
+      <div class="text-xs text-pal-muted mt-2">
+        Showing <span id="resultCount" class="text-pal-text font-bold">0</span>
+        of <span id="totalCount" class="text-pal-text font-bold">0</span>
+      </div>
       </div>
     </section>
 
-    <section class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex-1">
+    <section class="wh-panel flex-1" style="margin:0">
       <div class="overflow-auto max-h-[calc(100vh-14rem)]">
         <table id="table" class="w-full text-sm border-collapse">
-          <thead class="bg-pal-panel sticky top-0 z-10"><tr>${headers}</tr></thead>
+          <thead class="sticky top-0 z-10" style="background:var(--wh-panel)"><tr>${headers}</tr></thead>
           <tbody id="tbody"></tbody>
         </table>
       </div>
@@ -185,33 +190,31 @@ function skillsHubPage({ siteMeta, counts }) {
   const c = counts || {};
 
   const card = (rel, title, desc, n) =>
-    '<a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="' +
+    '<a class="wh-panel" style="display:flex;flex-direction:column;text-decoration:none;color:inherit;margin:0" href="' +
     escapeHtml(prefix + rel) +
-    '"><div class="font-semibold">' +
+    '"><div class="wh-panel-head"><h2 style="text-transform:none;letter-spacing:0;font-size:13px">' +
     escapeHtml(title) +
-    '</div><p class="text-sm text-pal-muted flex-1">' +
+    '</h2><span class="wh-chip wh-chip-live">live</span></div><div class="wh-panel-body"><p style="margin:0 0 8px;font-size:12px;color:var(--wh-muted)">' +
     escapeHtml(desc) +
-    '</p><div class="text-xs text-pal-accent">' +
+    '</p><div style="font-size:11px;color:var(--wh-link)">' +
     escapeHtml(String(n ?? "—")) +
-    " skills</div></a>";
+    " skills</div></div></a>";
 
   const body = `
-  <main class="flex-1 px-4 py-8 w-full">
-    <div class="max-w-3xl mx-auto flex flex-col gap-6">
-      <div>
-        <div class="text-xs text-pal-muted mb-1">
-          <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
-          <span class="mx-1">/</span>
-          <span class="text-pal-text">Skills</span>
-        </div>
-        <h1 class="text-2xl font-semibold mb-2">Skills</h1>
-        <p class="text-sm text-pal-muted">Partner, passive, and active skills from paldb.cc.</p>
-      </div>
-      <div class="grid sm:grid-cols-3 gap-3">
-        ${card("skills/partner/", "Partner skills", "Rides, combat boosts, base utilities.", c.skill_partner)}
-        ${card("skills/passive/", "Passive skills", "Ranks, weights, fixed-on pals when known.", c.skill_passive)}
-        ${card("skills/active/", "Active skills", "Power, CT, elements, skill fruits.", c.skill_active)}
-      </div>
+  <main class="wh-page wh-page-pad">
+    <div class="wh-breadcrumb">
+      <a href="${escapeHtml(prefix)}index.html">Home</a>
+      <span> / </span>
+      <a href="${escapeHtml(prefix)}database/">Database</a>
+      <span> / </span>
+      <span style="color:#c5ccda">Skills</span>
+    </div>
+    <h1 class="wh-h1">Skills</h1>
+    <p class="wh-lede">Partner, passive, and active skills from paldb.cc.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
+      ${card("skills/partner/", "Partner skills", "Rides, combat boosts, base utilities.", c.skill_partner)}
+      ${card("skills/passive/", "Passive skills", "Ranks, weights, fixed-on pals when known.", c.skill_passive)}
+      ${card("skills/active/", "Active skills", "Power, CT, elements, skill fruits.", c.skill_active)}
     </div>
   </main>`;
 

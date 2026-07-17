@@ -58,17 +58,17 @@ function palPage({ pal, siteMeta }) {
   const partner = pal.partner_skill;
 
   const body = `
-  <main class="flex-1 px-4 py-6 w-full">
-    <div class="max-w-4xl mx-auto flex flex-col gap-5">
-      <div class="text-xs text-pal-muted">
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
-        <span class="mx-1">/</span>
-        <a class="hover:text-pal-text" href="${escapeHtml(prefix)}pals/">Pals</a>
-        <span class="mx-1">/</span>
-        <span class="text-pal-text">${escapeHtml(pal.name)}</span>
+  <main class="wh-page wh-page-pad">
+    <div class="max-w-4xl flex flex-col gap-3">
+      <div class="wh-breadcrumb">
+        <a href="${escapeHtml(prefix)}index.html">Home</a>
+        <span> / </span>
+        <a href="${escapeHtml(prefix)}pals/">Pals</a>
+        <span> / </span>
+        <span style="color:#c5ccda">${escapeHtml(pal.name)}</span>
       </div>
 
-      <header class="flex flex-wrap items-start gap-4 rounded-lg border border-pal-border bg-pal-panel p-4">
+      <header class="wh-panel" style="padding:12px;display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px;margin:0">
         ${
           iconSrc
             ? '<img src="' +

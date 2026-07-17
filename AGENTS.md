@@ -1,12 +1,12 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Phases 0–2 complete (foundations, pals, skills); next is items/recipes.
+Palworld multi-page static database & tools site. Phases 0–3 complete (foundations, pals, skills, Wowhead-style chrome + empty hubs). **Next: Phase 4 — items & recipes.**
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
 **Game data source of truth:** [paldb.cc](https://paldb.cc) via `paldb-cc-exports`  
 **UX / style reference:** [wowhead.com](https://www.wowhead.com/) sample via `wowhead-com-exports`  
-**Plan:** `docs/SITE-REBUILD.md`
+**Plan:** `docs/SITE-REBUILD.md` (Phase 3 = design next; content phases 4+)
 
 ## Architecture
 
@@ -102,8 +102,9 @@ npm run preview          # local static server on dist/
 ## UI conventions
 
 - Aim for Wowhead-class density: sticky chrome, filter bars, entity tables, deep links — informed by `data/style-vendor/` and `wowhead-com-exports` docs
-- Tailwind via CDN (for now)
-- Dark theme `pal.*` colors
+- **Typography:** Open Sans + Arial/Helvetica stack (matches Wowhead body stack; loaded via Google Fonts)
+- **Colors:** black page (`#000`), panels `#181818`, links `#0070dd`, brand accent `#a71a19` — see `docs/STYLE-NOTES.md` and `site/shell.js` CSS vars
+- Tailwind via CDN (for now); `pal.*` tokens mirror the same palette
 - Nested static routes for entities
 - Element pills share solid fill styles
 - Do **not** copy Wowhead branding/trademarks

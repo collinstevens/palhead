@@ -32,47 +32,49 @@ function filterChrome({ mode, prefix }) {
     ).join("");
 
   return `
-      <section class="bg-pal-panel border border-pal-border rounded-lg p-3 md:p-4 space-y-3">
-        <div class="flex flex-wrap items-end gap-3">
+      <section class="wh-panel" style="margin-bottom:8px">
+        <div class="wh-panel-head"><h2>Filters</h2><span class="wh-panel-meta">client-side</span></div>
+        <div class="wh-panel-body space-y-3">
+        <div class="flex flex-wrap items-end gap-2">
           <div class="flex-1 min-w-[12rem]">
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Search</label>
-            <input id="search" type="search" placeholder="Name, skill, element…" class="w-full bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent placeholder:text-pal-muted/60" />
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Search</label>
+            <input id="search" type="search" placeholder="Name, skill, element…" class="w-full bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm focus:outline-none focus:border-pal-accent" />
           </div>
           <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Size</label>
-            <select id="sizeFilter" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent">${sizeOpts}</select>
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Size</label>
+            <select id="sizeFilter" class="bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm">${sizeOpts}</select>
           </div>
           <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Food ≥</label>
-            <input id="foodMin" type="number" min="0" max="10" class="w-20 bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent" />
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Food ≥</label>
+            <input id="foodMin" type="number" min="0" max="10" class="w-16 bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm" />
           </div>
           <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Rarity ≥</label>
-            <input id="rarityMin" type="number" min="0" class="w-20 bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent" />
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Rarity ≥</label>
+            <input id="rarityMin" type="number" min="0" class="w-16 bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm" />
           </div>
           <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Work type</label>
-            <select id="workKey" class="bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent min-w-[10rem]">${workOpts}</select>
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Work type</label>
+            <select id="workKey" class="bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm min-w-[9rem]">${workOpts}</select>
           </div>
           <div>
-            <label class="block text-xs text-pal-muted mb-1 font-medium">Work ≥</label>
-            <input id="workMin" type="number" min="1" max="5" placeholder="1" class="w-16 bg-pal-bg border border-pal-border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-pal-accent" />
+            <label class="block text-[10px] uppercase tracking-wide text-pal-muted mb-1 font-bold">Work ≥</label>
+            <input id="workMin" type="number" min="1" max="5" placeholder="1" class="w-14 bg-pal-bg border border-pal-border rounded-sm px-2 py-1.5 text-sm" />
           </div>
-          <label class="inline-flex items-center gap-2 text-sm text-pal-muted cursor-pointer select-none pb-2">
+          <label class="inline-flex items-center gap-2 text-xs text-pal-muted cursor-pointer select-none pb-1.5">
             <input id="dexOnly" type="checkbox" checked class="rounded border-pal-border bg-pal-bg" />
             Dex only
           </label>
-          <button id="resetFilters" type="button" class="px-3 py-2 text-sm rounded-lg border border-pal-border text-pal-muted hover:text-pal-text hover:border-pal-accent transition">Reset</button>
+          <button id="resetFilters" type="button" class="wh-btn wh-btn-ghost">Reset</button>
         </div>
-        <div class="flex flex-wrap gap-1.5 items-center">
-          <span class="text-xs text-pal-muted mr-1">Elements</span>
+        <div class="flex flex-wrap gap-1 items-center">
+          <span class="text-[10px] uppercase tracking-wide text-pal-muted mr-1 font-bold">Elements</span>
           ${elementChips}
         </div>
-        <div class="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-pal-border/60">
-          <div class="text-sm text-pal-muted">
-            Showing <span id="resultCount" class="text-pal-text font-semibold">0</span>
-            of <span id="totalCount" class="text-pal-text font-semibold">0</span>
-            ${isWork ? " · work columns default high → low (zeros sink)" : ""}
+        <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-pal-border">
+          <div class="text-xs text-pal-muted">
+            Showing <span id="resultCount" class="text-pal-text font-bold">0</span>
+            of <span id="totalCount" class="text-pal-text font-bold">0</span>
+            ${isWork ? " · work sort high → low (zeros sink)" : ""}
           </div>
           <div class="flex flex-wrap gap-1">
             <button type="button" data-view="table" class="view-btn is-active">Table</button>
@@ -80,16 +82,17 @@ function filterChrome({ mode, prefix }) {
             <button type="button" data-view="compact" class="view-btn">Compact</button>
           </div>
         </div>
-        <div class="text-xs text-pal-muted">
+        <div class="text-[11px] text-pal-muted">
           ${
             isWork
-              ? 'Also browse the full <a class="text-pal-accent underline underline-offset-2" href="' +
+              ? 'Also browse the full <a href="' +
                 escapeHtml(prefix + "pals/") +
                 '">pals database</a>.'
-              : 'Need work-focused columns? Open the <a class="text-pal-accent underline underline-offset-2" href="' +
+              : 'Need work-focused columns? Open the <a href="' +
                 escapeHtml(prefix + "tools/work-suitability/") +
                 '">work suitability tool</a>.'
           }
+        </div>
         </div>
       </section>`;
 }
@@ -107,43 +110,50 @@ function palsBrowserPage({ mode, siteMeta, palsPayload }) {
     : "Searchable pal encyclopedia. Default filter is dex (#>0); open any row for full stats.";
 
   const extraStyles = `
-  .elem-chip { cursor: pointer; opacity: 0.45; border: 1px solid transparent; }
-  .elem-chip.is-on { opacity: 1; box-shadow: 0 0 0 1px rgba(255,255,255,0.25); }
+  .elem-chip { cursor: pointer; opacity: 0.4; border: 1px solid transparent; }
+  .elem-chip.is-on { opacity: 1; outline: 1px solid rgba(255,255,255,0.35); }
   .view-btn {
-    font-size: 12px; padding: 0.35rem 0.65rem; border-radius: 0.5rem;
-    border: 1px solid #252a33; color: #8b919a; background: #0c0e12;
+    font-size: 11px; padding: 4px 8px; border-radius: 2px;
+    border: 1px solid var(--wh-border); color: var(--wh-muted); background: #0a0d12;
   }
-  .view-btn.is-active { color: #e8eaed; border-color: #5b9fd4; background: rgba(91,159,212,0.12); }
-  .table-wrap { overflow: auto; max-height: calc(100vh - 16rem); }
-  table { border-collapse: collapse; width: 100%; }
-  th.sortable { cursor: pointer; user-select: none; }
-  th.sortable:hover { color: #e8eaed; }
-  .sticky-left { position: sticky; left: 0; background: #14181f; z-index: 1; }
-  .sticky-name { position: sticky; left: 2.5rem; background: #14181f; z-index: 1; }
-  thead .sticky-left, thead .sticky-name { z-index: 2; background: #14181f; }
-  tbody tr:hover .sticky-left, tbody tr:hover .sticky-name { background: #1a1f28; }
+  .view-btn.is-active { color: var(--wh-text); border-color: var(--wh-accent); background: rgba(61,126,255,0.12); }
+  .sticky-left { position: sticky; left: 0; background: var(--wh-panel); z-index: 1; }
+  .sticky-name { position: sticky; left: 2.5rem; background: var(--wh-panel); z-index: 1; }
+  thead .sticky-left, thead .sticky-name { z-index: 2; }
+  tbody tr:hover .sticky-left, tbody tr:hover .sticky-name { background: #1a2030; }
+  tbody tr:hover { background: var(--wh-row-hover); }
 `;
 
   const body = `
-  <main class="flex-1 px-3 md:px-4 py-4 w-full flex flex-col gap-3">
-    <div class="page-title-bar flex flex-wrap items-end justify-between gap-2">
+  <main class="wh-page wh-page-pad flex flex-col gap-2">
+    <div class="wh-breadcrumb">
+      <a href="${escapeHtml(prefix)}index.html">Home</a>
+      <span> / </span>
+      ${
+        isWork
+          ? '<a href="' +
+            escapeHtml(prefix + "tools/") +
+            '">Tools</a><span> / </span>'
+          : '<a href="' +
+            escapeHtml(prefix + "database/") +
+            '">Database</a><span> / </span>'
+      }
+      <span style="color:#c5ccda">${escapeHtml(heading)}</span>
+    </div>
+    <div class="flex flex-wrap items-end justify-between gap-2">
       <div>
-        <div class="text-xs text-pal-muted mb-1">
-          <a class="hover:text-pal-text" href="${escapeHtml(prefix)}index.html">Home</a>
-          <span class="mx-1">/</span>
-          <span class="text-pal-text">${escapeHtml(heading)}</span>
-        </div>
-        <h1 class="text-xl font-semibold">${escapeHtml(heading)}</h1>
-        <p class="text-sm text-pal-muted mt-0.5">${escapeHtml(subtitle)}</p>
+        <h1 class="wh-h1">${escapeHtml(heading)}</h1>
+        <p class="wh-lede">${escapeHtml(subtitle)}</p>
       </div>
+      <span class="wh-chip wh-chip-live">live</span>
     </div>
 
     ${filterChrome({ mode, prefix })}
 
-    <section id="tableWrap" class="bg-pal-panel border border-pal-border rounded-lg overflow-hidden flex-1">
-      <div class="table-wrap">
-        <table id="table" class="text-sm">
-          <thead class="bg-pal-panel"><tr id="theadRow"></tr></thead>
+    <section id="tableWrap" class="wh-panel flex-1" style="margin:0">
+      <div class="table-wrap overflow-auto" style="max-height:calc(100vh - 16rem)">
+        <table id="table" class="text-sm w-full">
+          <thead style="background:var(--wh-panel)"><tr id="theadRow"></tr></thead>
           <tbody id="tbody"></tbody>
         </table>
       </div>

@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Palhead — Palworld database</title>
-  <meta name="description" content="Palworld pals database and work suitability tools. Static multi-page site powered by paldb.cc." />
+  <title>Palhead — Palworld Database &amp; Tools</title>
+  <meta name="description" content="Palhead is a Palworld database and tools site — pals, skills, work suitability, and more. Game data from paldb.cc." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -12,23 +15,445 @@
         extend: {
           colors: {
             pal: {
-              bg: "#0c0e12",
-              panel: "#14181f",
-              border: "#252a33",
-              text: "#e8eaed",
-              muted: "#8b919a",
-              accent: "#5b9fd4",
+              bg: "#000000",
+              panel: "#181818",
+              border: "#2a2a2a",
+              text: "#e3e0d9",
+              muted: "#9d9d9d",
+              accent: "#0070dd",
             },
+          },
+          fontFamily: {
+            sans: ['"Open Sans"', "Arial", '"Helvetica Neue"', "Helvetica", "sans-serif"],
           },
         },
       },
     };
   </script>
   <style>
-  body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  :root {
+    /* Closely matched to Wowhead standard theme tokens (global.css) */
+    --wh-bg: #000000;
+    --wh-page: #101010;
+    --wh-panel: #181818;
+    --wh-panel-2: #1e1e1e;
+    --wh-panel-3: #222222;
+    --wh-input: #282828;
+    --wh-border: #2a2a2a;
+    --wh-border-hi: #444444;
+    --wh-text: #e3e0d9;
+    --wh-text-bright: #ffffff;
+    --wh-muted: #9d9d9d;
+    --wh-muted-2: #818181;
+    --wh-muted-3: #bbb;
+    --wh-link: #0070dd;
+    --wh-link-hover: #338dff;
+    --wh-accent: #a71a19;
+    --wh-accent-loud: #da2020;
+    --wh-accent-quiet: #8c1515;
+    --wh-header: #121212;
+    --wh-subnav: #161616;
+    --wh-row-hover: rgba(255,255,255,0.04);
+    --wh-gold: #e5cc80;
+    --wh-font: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --wh-font-mono: "JetBrains Mono", Consolas, "Bitstream Vera Sans Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  html { background-color: #000; }
+  body {
+    font-family: var(--wh-font);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.45;
+    background: var(--wh-bg);
+    color: var(--wh-text);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, .wh-h1, .wh-panel-head h2, .wh-feed-title, .wh-logo {
+    font-family: var(--wh-font);
+  }
+  code, .font-mono, .wh-mono {
+    font-family: var(--wh-font-mono);
+  }
+  a { color: var(--wh-link); text-decoration: none; }
+  a:hover { color: var(--wh-link-hover); text-decoration: underline; }
+  .wh-shell {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .wh-top {
+    background: var(--wh-header);
+    border-bottom: 1px solid var(--wh-border);
+    position: sticky; top: 0; z-index: 40;
+    width: 100%;
+  }
+  .wh-top-inner {
+    display: flex; flex-wrap: wrap; align-items: stretch;
+    min-height: 48px; gap: 0 10px;
+  }
+  .wh-logo {
+    display: flex; align-items: center; gap: 8px;
+    font-weight: 700; font-size: 18px; letter-spacing: -0.02em;
+    color: var(--wh-text) !important; text-decoration: none !important;
+    padding: 0 6px 0 2px; margin-right: 4px;
+  }
+  .wh-logo:hover { color: #fff !important; }
+  .wh-logo-mark {
+    width: 22px; height: 22px; border-radius: 3px;
+    background: linear-gradient(180deg, var(--wh-accent-loud) 0%, var(--wh-accent) 100%);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.5);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 800; color: #fff;
+  }
+  .wh-nav { display: flex; flex-wrap: wrap; align-items: stretch; flex: 1; min-width: 0; }
+  .wh-nav-item { position: relative; display: flex; align-items: stretch; }
+  .wh-nav-link {
+    display: flex; align-items: center; padding: 0 11px; height: 48px;
+    color: var(--wh-muted-3) !important; font-size: 12px; font-weight: 600;
+    text-decoration: none !important; border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .wh-nav-link:hover { color: var(--wh-text-bright) !important; background: rgba(255,255,255,0.04); }
+  .wh-nav-item.is-active .wh-nav-link {
+    color: var(--wh-text-bright) !important; border-bottom-color: var(--wh-accent-loud);
+  }
+  .wh-nav-item.is-soon .wh-nav-link { color: #555 !important; cursor: default; }
+  .wh-dd {
+    display: none; position: absolute; top: 100%; left: 0; min-width: 200px;
+    background: var(--wh-panel-2); border: 1px solid var(--wh-border-hi);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.55); z-index: 50; padding: 4px 0;
+  }
+  .wh-nav-item:hover .wh-dd, .wh-nav-item:focus-within .wh-dd { display: block; }
+  .wh-dd a, .wh-dd span {
+    display: block; padding: 7px 12px; font-size: 12px; color: var(--wh-text) !important;
+    text-decoration: none !important;
+  }
+  .wh-dd a:hover { background: rgba(167,26,25,0.28); color: #fff !important; }
+  .wh-dd .soon { color: #666 !important; cursor: default; }
+  .wh-dd .soon em { font-style: normal; font-size: 10px; margin-left: 6px; opacity: 0.8; }
+  .wh-dd-sep { height: 1px; background: var(--wh-border); margin: 4px 0; }
+  .wh-top-right {
+    display: flex; align-items: center; gap: 8px; margin-left: auto;
+    font-size: 11px; color: var(--wh-muted); flex: 1; min-width: 200px;
+    max-width: 420px; justify-content: flex-end;
+  }
+  .wh-search-stub {
+    display: flex; align-items: center; gap: 8px; width: 100%;
+    background: var(--wh-input); border: 1px solid var(--wh-border);
+    border-radius: 3px; padding: 7px 10px; color: var(--wh-muted-2);
+    font-weight: 600; font-size: 12px;
+  }
+  .wh-search-stub span:nth-child(2) { flex: 1; }
+  .wh-subnav-wrap {
+    background: var(--wh-subnav); border-bottom: 1px solid var(--wh-border); width: 100%;
+  }
+  .wh-subnav {
+    display: flex; flex-wrap: wrap; gap: 2px 0; min-height: 32px; align-items: center;
+  }
+  .wh-subnav a, .wh-subnav span {
+    padding: 7px 10px; font-size: 11px; color: var(--wh-muted) !important;
+    text-decoration: none !important; border-radius: 2px; font-weight: 600;
+  }
+  .wh-subnav a:hover { color: var(--wh-text) !important; background: rgba(255,255,255,0.04); }
+  .wh-subnav .is-active { color: var(--wh-text-bright) !important; background: rgba(167,26,25,0.2); }
+  .wh-subnav .soon { color: #555 !important; cursor: default; }
+  .wh-iconrail-wrap {
+    background: #0d0d0d; border-bottom: 1px solid var(--wh-border); width: 100%;
+  }
+  .wh-iconrail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 8px;
+    padding: 10px 0;
+  }
+  .wh-iconrail a, .wh-iconrail .wh-iconrail-soon {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 6px; width: 108px; min-height: 72px; padding: 8px 6px; flex: 0 0 108px;
+    background: var(--wh-panel); border: 1px solid var(--wh-border);
+    border-radius: 3px; text-decoration: none !important; color: var(--wh-text) !important;
+    text-align: center;
+  }
+  .wh-iconrail a:hover {
+    border-color: var(--wh-border-hi); background: var(--wh-panel-2);
+    text-decoration: none !important; color: #fff !important;
+  }
+  .wh-iconrail-ico {
+    width: 36px; height: 36px; border-radius: 3px;
+    background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%);
+    border: 1px solid var(--wh-border-hi);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 800; color: var(--wh-muted-3);
+  }
+  .wh-iconrail a .wh-iconrail-ico { color: #fff; border-color: rgba(167,26,25,0.45); }
+  .wh-iconrail-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em;
+    line-height: 1.2; color: var(--wh-muted-3);
+  }
+  .wh-iconrail-soon { opacity: 0.45; cursor: default; }
+  .wh-iconrail-soon .wh-iconrail-label { color: #666; }
+  .wh-page { flex: 1; width: 100%; }
+  .wh-page-pad {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 16px 28px;
+  }
+  .wh-breadcrumb {
+    font-size: 11px; color: var(--wh-muted); margin-bottom: 8px;
+  }
+  .wh-breadcrumb a { color: var(--wh-link); }
+  .wh-h1 {
+    font-size: 20px; font-weight: 700; margin: 0 0 4px; letter-spacing: -0.01em;
+  }
+  .wh-lede { color: var(--wh-muted); font-size: 12px; margin: 0 0 12px; max-width: 52rem; }
+  .wh-panel {
+    background: var(--wh-panel); border: 1px solid var(--wh-border);
+    border-radius: 2px; margin-bottom: 10px;
+  }
+  .wh-panel-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 7px 10px; border-bottom: 1px solid var(--wh-border);
+    background: var(--wh-panel-3);
+  }
+  .wh-panel-head h2 {
+    margin: 0; font-size: 12px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.04em; color: var(--wh-text-bright);
+  }
+  .wh-panel-meta { font-size: 11px; color: var(--wh-muted); }
+  .wh-panel-body { padding: 8px 10px; }
+  .wh-panel-body.flush { padding: 0; }
+  .wh-empty { text-align: center; color: var(--wh-muted); }
+  .wh-empty-icon {
+    width: 40px; height: 40px; margin: 0 auto 8px; border-radius: 3px;
+    border: 1px dashed var(--wh-border-hi); display: flex; align-items: center;
+    justify-content: center; font-size: 14px; color: var(--wh-muted-2);
+  }
+  .wh-empty-title { font-size: 13px; font-weight: 700; color: var(--wh-muted-3); margin-bottom: 4px; }
+  .wh-empty-body { font-size: 12px; max-width: 28rem; margin: 0 auto; line-height: 1.5; }
+  .wh-feed-list { list-style: none; margin: 0; padding: 0; }
+  .wh-feed-item {
+    display: flex; gap: 10px; padding: 8px 0;
+    border-bottom: 1px solid var(--wh-border);
+  }
+  .wh-feed-item:last-child { border-bottom: 0; }
+  .wh-feed-item.is-empty { opacity: 0.55; }
+  .wh-feed-thumb {
+    width: 48px; height: 48px; flex-shrink: 0; border-radius: 2px;
+    background: var(--wh-input); border: 1px solid var(--wh-border);
+    display: flex; align-items: center; justify-content: center; color: #555;
+    font-size: 11px;
+  }
+  .wh-feed-cat {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--wh-gold); font-weight: 700; margin-bottom: 2px;
+  }
+  .wh-feed-title { font-size: 13px; font-weight: 700; color: var(--wh-text); margin-bottom: 2px; }
+  .wh-feed-desc { font-size: 11px; color: var(--wh-muted); line-height: 1.4; }
+  .wh-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 5px 10px; font-size: 12px; font-weight: 600; border-radius: 2px;
+    border: 1px solid var(--wh-border-hi); background: var(--wh-panel-3); color: var(--wh-text) !important;
+    text-decoration: none !important; cursor: pointer; font-family: var(--wh-font);
+  }
+  .wh-btn:hover { background: #2a2a2a; color: #fff !important; text-decoration: none !important; }
+  .wh-btn-primary {
+    background: var(--wh-accent);
+    border-color: var(--wh-accent-quiet); color: #fff !important;
+  }
+  .wh-btn-primary:hover { background: var(--wh-accent-loud); color: #fff !important; }
+  .wh-btn-ghost { background: transparent; }
+  .wh-chip {
+    display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 2px;
+    border: 1px solid var(--wh-border); color: var(--wh-muted); background: var(--wh-input);
+    font-weight: 600;
+  }
+  .wh-chip-live {
+    border-color: rgba(0,112,221,0.55); color: #71d5ff;
+    background: rgba(0,112,221,0.12);
+  }
+  .wh-chip-soon {
+    border-color: var(--wh-border); color: #666;
+  }
+  .wh-stack { display: flex; flex-direction: column; gap: 10px; }
+  .wh-section-grid-2 {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  }
+  .wh-section-grid-2 > .wh-split {
+    border-right: 1px solid var(--wh-border);
+    padding: 0 10px;
+  }
+  .wh-section-grid-2 > .wh-split:last-child { border-right: 0; }
+  .wh-link-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0;
+  }
+  .wh-link-grid a, .wh-link-grid .soon-cell {
+    display: block; padding: 6px 8px; font-size: 12px; font-weight: 600;
+    border-bottom: 1px solid var(--wh-border); border-right: 1px solid var(--wh-border);
+    color: var(--wh-link) !important; text-decoration: none !important;
+  }
+  .wh-link-grid a:hover { background: var(--wh-row-hover); color: var(--wh-link-hover) !important; }
+  .wh-link-grid .soon-cell { color: #666 !important; cursor: default; font-weight: 600; }
+  .wh-feat-row {
+    display: grid; grid-template-columns: 200px 1fr 1fr 1fr; gap: 0;
+    min-height: 120px;
+  }
+  .wh-feat-media {
+    background: var(--wh-input); border-right: 1px solid var(--wh-border);
+    display: flex; align-items: center; justify-content: center;
+    color: #555; font-size: 12px; font-weight: 700; text-align: center; padding: 12px;
+  }
+  .wh-feat-col { border-right: 1px solid var(--wh-border); padding: 8px 10px; }
+  .wh-feat-col:last-child { border-right: 0; }
+  .wh-feat-col h3 {
+    margin: 0 0 6px; font-size: 12px; font-weight: 700; color: var(--wh-text-bright);
+  }
+  .wh-feat-col a {
+    display: block; font-size: 12px; font-weight: 600; padding: 2px 0;
+    color: var(--wh-link) !important; text-decoration: none !important;
+  }
+  .wh-feat-col a:hover { color: var(--wh-link-hover) !important; text-decoration: underline !important; }
+  .wh-feat-col .soon-line { display: block; font-size: 12px; padding: 2px 0; color: #666; font-weight: 600; }
+  .wh-grid-home {
+    display: grid; grid-template-columns: 1fr; gap: 10px; align-items: start;
+  }
+  @media (max-width: 1100px) {
+    .wh-feat-row { grid-template-columns: 1fr 1fr; }
+    .wh-feat-media { grid-column: 1 / -1; min-height: 80px; border-right: 0; border-bottom: 1px solid var(--wh-border); }
+    .wh-link-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 720px) {
+    .wh-section-grid-2 { grid-template-columns: 1fr; }
+    .wh-section-grid-2 > .wh-split { border-right: 0; border-bottom: 1px solid var(--wh-border); padding: 0; }
+    .wh-feat-row { grid-template-columns: 1fr; }
+    .wh-top-right { max-width: none; flex: 1 1 100%; order: 3; }
+    .wh-iconrail a, .wh-iconrail .wh-iconrail-soon { width: 96px; flex-basis: 96px; }
+  }
+  .wh-quick-list { list-style: none; margin: 0; padding: 0; }
+  .wh-quick-list li { border-bottom: 1px solid var(--wh-border); }
+  .wh-quick-list li:last-child { border-bottom: 0; }
+  .wh-quick-list a, .wh-quick-list .soon-row {
+    display: flex; align-items: center; gap: 8px; padding: 7px 2px;
+    color: var(--wh-text) !important; text-decoration: none !important; font-size: 12px;
+  }
+  .wh-quick-list a:hover { color: var(--wh-link-hover) !important; }
+  .wh-quick-list .dot {
+    width: 6px; height: 6px; border-radius: 50%; background: var(--wh-link); flex-shrink: 0;
+  }
+  .wh-quick-list .dot.muted { background: #444; }
+  .wh-quick-list .tag {
+    margin-left: auto; font-size: 10px; color: var(--wh-muted);
+    background: var(--wh-input); border: 1px solid var(--wh-border); padding: 1px 5px; border-radius: 2px;
+    font-weight: 600;
+  }
+  .wh-quick-list .soon-row { color: #666 !important; cursor: default; }
+  .wh-stat-list { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+  .wh-stat-list li {
+    display: flex; justify-content: space-between; gap: 10px;
+    padding: 5px 0; border-bottom: 1px solid var(--wh-border);
+  }
+  .wh-stat-list li:last-child { border-bottom: 0; }
+  .wh-stat-list .label { color: var(--wh-muted); }
+  .wh-stat-list .val { font-weight: 600; color: var(--wh-text); }
+  .wh-footer {
+    border-top: 1px solid var(--wh-border); background: #181818;
+    margin-top: auto; padding: 0; font-size: 12px; color: var(--wh-muted);
+    width: 100%;
+  }
+  .wh-footer-mid {
+    border-bottom: 1px solid var(--wh-border);
+    padding: 18px 0 8px;
+  }
+  .wh-footer-mid-row {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 10px 16px; margin-bottom: 18px;
+  }
+  .wh-footer-mid-nav {
+    display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: center;
+  }
+  .wh-footer-mid-nav a {
+    color: var(--wh-text) !important; text-decoration: none !important;
+    font-size: 13px; font-weight: 600;
+  }
+  .wh-footer-mid-nav a:hover { color: #fff !important; text-decoration: underline !important; }
+  .wh-footer-mid-nav .soon {
+    color: #666; font-size: 13px; font-weight: 600; cursor: default;
+  }
+  .wh-footer-brand {
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    min-width: 120px; flex: 0 0 auto;
+  }
+  .wh-footer-brand a {
+    display: flex; align-items: center; gap: 8px;
+    color: #fff !important; text-decoration: none !important;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.02em;
+  }
+  .wh-footer-brand a:hover { color: #fff !important; }
+  .wh-footer-brand .wh-logo-mark { width: 28px; height: 28px; font-size: 13px; }
+  .wh-footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 24px;
+    padding-bottom: 8px;
+  }
+  .wh-footer-col h4 {
+    margin: 0 0 10px; font-size: 11px; font-weight: 800;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--wh-accent-loud);
+  }
+  .wh-footer-col ul { list-style: none; margin: 0; padding: 0; }
+  .wh-footer-col li { margin: 0 0 6px; }
+  .wh-footer-col a {
+    color: var(--wh-text) !important; text-decoration: none !important;
+    font-size: 12px; font-weight: 600;
+  }
+  .wh-footer-col a:hover { color: #fff !important; text-decoration: underline !important; }
+  .wh-footer-col .soon {
+    color: #666; font-size: 12px; font-weight: 600; cursor: default;
+  }
+  .wh-footer-bottom {
+    border-top: 1px solid var(--wh-border);
+    padding: 12px 0 16px;
+  }
+  .wh-footer-bottom-inner {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 10px 16px;
+  }
+  .wh-footer-legal {
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
+  }
+  .wh-footer-legal a, .wh-footer-legal .soon {
+    color: var(--wh-muted) !important; text-decoration: none !important;
+    font-size: 11px; font-weight: 600;
+  }
+  .wh-footer-legal a:hover { color: #fff !important; text-decoration: underline !important; }
+  .wh-footer-legal .soon { color: #555 !important; cursor: default; }
+  .wh-footer-social {
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  }
+  .wh-footer-social span {
+    width: 28px; height: 28px; border-radius: 3px;
+    background: var(--wh-panel-3); border: 1px solid var(--wh-border);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; color: #666; cursor: default;
+  }
+  @media (max-width: 900px) {
+    .wh-footer-cols { grid-template-columns: repeat(2, 1fr); }
+    .wh-footer-mid-row { justify-content: center; text-align: center; }
+    .wh-footer-mid-nav { justify-content: center; }
+  }
+  @media (max-width: 520px) {
+    .wh-footer-cols { grid-template-columns: 1fr; }
+  }
   .elem {
-    display: inline-block; font-size: 10px; font-weight: 600; padding: 0.1rem 0.4rem;
-    border-radius: 999px; line-height: 1.4; color: #fff;
+    display: inline-block; font-size: 10px; font-weight: 700; padding: 0 5px;
+    border-radius: 2px; line-height: 1.5; color: #fff;
   }
   .elem-Neutral { background: #6b7280; }
   .elem-Fire { background: #dc2626; }
@@ -39,61 +464,79 @@
   .elem-Ground { background: #a16207; }
   .elem-Dark { background: #4c1d95; }
   .elem-Dragon { background: #7c3aed; }
-  .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr)); gap: 0.5rem; }
-  .stat-card { background: #0c0e12; border: 1px solid #252a33; border-radius: 0.5rem; padding: 0.6rem 0.75rem; }
-  .stat-card .label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: #8b919a; }
-  .stat-card .value { font-size: 0.95rem; font-weight: 600; margin-top: 0.15rem; }
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: 6px; }
+  .stat-card {
+    background: var(--wh-input); border: 1px solid var(--wh-border); border-radius: 2px; padding: 6px 8px;
+  }
+  .stat-card .label {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--wh-muted);
+    font-weight: 600;
+  }
+  .stat-card .value { font-size: 13px; font-weight: 700; margin-top: 2px; color: var(--wh-text-bright); }
+  .bg-pal-bg { background: var(--wh-bg); }
+  .bg-pal-panel { background: var(--wh-panel); }
+  .border-pal-border { border-color: var(--wh-border); }
+  .text-pal-text { color: var(--wh-text); }
+  .text-pal-muted { color: var(--wh-muted); }
+  .text-pal-accent { color: var(--wh-link); }
+  .hover\:text-pal-accent:hover { color: var(--wh-link-hover); }
+  .hover\:border-pal-accent:hover { border-color: var(--wh-link); }
+  .bg-pal-accent\/15 { background: rgba(0,112,221,0.15); }
+  .border-pal-accent\/40 { border-color: rgba(0,112,221,0.4); }
+  .focus\:border-pal-accent:focus { border-color: var(--wh-link); outline: none; }
+  input, select, textarea, button {
+    font-family: var(--wh-font);
+  }
+  input[type=search], input[type=text], input[type=number], select {
+    background: var(--wh-input) !important;
+    color: var(--wh-text);
+    border-color: var(--wh-border) !important;
+    font-weight: 600;
+  }
+  table { border-collapse: collapse; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--wh-text-bright); }
+  th { color: var(--wh-muted); font-weight: 700; }
 </style>
   
 </head>
-<body class="min-h-screen bg-pal-bg text-pal-text antialiased flex flex-col">
-  <header class="border-b border-pal-border bg-pal-panel sticky top-0 z-20">
-    <div class="px-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-0 min-h-[3rem]">
-      <a href="index.html" class="font-bold tracking-tight text-lg py-2">Palhead</a>
-      <nav class="flex flex-wrap items-stretch gap-1" aria-label="Primary"><a class="px-2 py-3 text-sm text-pal-text border-b-2 border-pal-accent" href="index.html">Home</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="pals/">Pals</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="skills/">Skills</a><a class="px-2 py-3 text-sm text-pal-muted hover:text-pal-text" href="tools/work-suitability/">Work</a></nav>
+<body class="min-h-screen flex flex-col">
+  <header class="wh-top">
+    <div class="wh-shell wh-top-inner">
+      <a class="wh-logo" href="index.html">
+        <span class="wh-logo-mark">P</span>
+        Palhead
+      </a>
+      <nav class="wh-nav" aria-label="Primary"><div class="wh-nav-item"><a class="wh-nav-link" href="news/">News</a><div class="wh-dd"><a href="news/">All News</a><span class="soon">Patch Notes <em>soon</em></span><span class="soon">Community <em>soon</em></span></div></div><div class="wh-nav-item"><a class="wh-nav-link" href="guides/">Guides</a><div class="wh-dd"><a href="guides/">All Guides</a><span class="soon">Status Effects <em>soon</em></span><span class="soon">Base Tips <em>soon</em></span><span class="soon">Breeding <em>soon</em></span><span class="soon">Combat <em>soon</em></span><span class="soon">Bosses <em>soon</em></span></div></div><div class="wh-nav-item"><a class="wh-nav-link" href="database/">Database</a><div class="wh-dd"><a href="pals/">Pals</a><a href="skills/">Skills hub</a><a href="skills/partner/">Partner Skills</a><a href="skills/passive/">Passive Skills</a><a href="skills/active/">Active Skills</a><div class="wh-dd-sep"></div><a href="items/">Items</a><a href="structures/">Structures</a><a href="tech/">Technology</a><a href="world/">World</a></div></div><div class="wh-nav-item"><a class="wh-nav-link" href="tools/">Tools</a><div class="wh-dd"><a href="tools/work-suitability/">Work Suitability</a><a href="tools/breeding/">Breeding Calculator</a><a href="tools/team-builder/">Team Builder</a><a href="tools/drop-finder/">Drop Finder</a></div></div></nav>
+      <div class="wh-top-right">
+        <div class="wh-search-stub" title="Global search — Phase 8">
+          <span>⌕</span><span>Search guides, news, database…</span>
+          <span class="wh-chip wh-chip-soon">soon</span>
+        </div>
+      </div>
     </div>
+    <div class="wh-subnav-wrap"><div class="wh-shell wh-subnav" aria-label="Quick database"><a class="" href="pals/">Pals</a><a class="" href="skills/partner/">Partner skills</a><a class="" href="skills/passive/">Passives</a><a class="" href="skills/active/">Actives</a><a class="" href="tools/work-suitability/">Work suitability</a><span class="soon">Items · soon</span><span class="soon">Structures · soon</span><span class="soon">World · soon</span><span class="soon">Breeding · soon</span></div></div>
   </header>
+  <div class="wh-iconrail-wrap"><div class="wh-shell wh-iconrail" aria-label="Feature shortcuts"><a href="pals/"><div class="wh-iconrail-ico">PL</div><div class="wh-iconrail-label">Pals</div></a><a href="skills/"><div class="wh-iconrail-ico">SK</div><div class="wh-iconrail-label">Skills</div></a><a href="tools/work-suitability/"><div class="wh-iconrail-ico">WK</div><div class="wh-iconrail-label">Work</div></a><a href="skills/partner/"><div class="wh-iconrail-ico">PS</div><div class="wh-iconrail-label">Partner</div></a><a href="skills/active/"><div class="wh-iconrail-ico">AS</div><div class="wh-iconrail-label">Actives</div></a><div class="wh-iconrail-soon"><div class="wh-iconrail-ico">IT</div><div class="wh-iconrail-label">Items</div></div><div class="wh-iconrail-soon"><div class="wh-iconrail-ico">ST</div><div class="wh-iconrail-label">Structures</div></div><div class="wh-iconrail-soon"><div class="wh-iconrail-ico">WD</div><div class="wh-iconrail-label">World</div></div><div class="wh-iconrail-soon"><div class="wh-iconrail-ico">BR</div><div class="wh-iconrail-label">Breeding</div></div></div></div>
   
-  <main class="flex-1 px-4 py-8 w-full">
-    <div class="max-w-5xl mx-auto flex flex-col gap-6">
-      <div>
-        <p class="text-xs uppercase tracking-wide text-pal-muted mb-1">Palworld database</p>
-        <h1 class="text-2xl sm:text-3xl font-semibold mb-2">Palhead</h1>
-        <p class="text-pal-muted text-sm leading-relaxed max-w-2xl">
-          Multi-page static database powered by
-          <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a>.
-          Browse every pal, filter work suitability, open deep-linkable entity pages.
-        </p>
-      </div>
+  <main class="wh-page wh-page-pad">
+    <div class="wh-stack">
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="pals/"><div class="font-semibold">Pals database</div><p class="text-sm text-pal-muted flex-1">Filter by element, work, size, food, and rarity. Table, cards, or compact views.</p><div class="text-xs text-pal-accent">266 dex · 592 total</div></a>
-        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="skills/"><div class="font-semibold">Skills</div><p class="text-sm text-pal-muted flex-1">Partner, passive, and active skills from paldb.cc.</p><div class="text-xs text-pal-accent">951 total</div></a>
-        <a class="rounded-lg border border-pal-border bg-pal-panel p-4 hover:border-pal-accent transition flex flex-col gap-2" href="tools/work-suitability/"><div class="font-semibold">Work suitability</div><p class="text-sm text-pal-muted flex-1">Spreadsheet-style work columns. Sort high → low with zeros sinking.</p><div class="text-xs text-pal-accent">12 work types</div></a>
-      </div>
+      <section class="wh-panel"><div class="wh-panel-head"><h2>Database &amp; tools</h2><span class="wh-panel-meta">Live · placeholders marked soon</span></div><div class="wh-panel-body"><div class="wh-section-grid-2"><div class="wh-split" style="padding:8px 10px 10px"><div style="font-size:11px;font-weight:700;color:var(--wh-gold);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">Live</div><a href="pals/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Pals database</a><a href="skills/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Skills catalog</a><a href="tools/work-suitability/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Work suitability</a><a href="skills/partner/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Partner skills</a><a href="skills/passive/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Passive skills</a><a href="skills/active/" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">Active skills</a></div><div class="wh-split" style="padding:8px 10px 10px"><div style="font-size:11px;font-weight:700;color:var(--wh-muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">Coming soon</div><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">Breeding calculator · soon</span><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">Team builder · soon</span><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">Item browser · soon</span><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">Drop finder · soon</span><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">Structures · soon</span><span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">World / drops · soon</span></div></div></div></section>
 
-      <section class="rounded-lg border border-pal-border bg-pal-panel p-4">
-        <h2 class="text-sm font-semibold mb-3">Data snapshot</h2>
-        <ul class="text-sm grid sm:grid-cols-2 gap-x-6">
-          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Data version</span><span>2026-07-17</span></li>
-          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Validation</span><span>pass</span></li>
-          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Pals (dex)</span><span>266</span></li>
-          <li class="flex justify-between gap-3 border-b border-pal-border/40 py-1.5"><span class="text-pal-muted">Search index</span><span>3,107</span></li>
-        </ul>
-      </section>
+      <section class="wh-panel"><div class="wh-panel-head"><h2>Featured database</h2><span class="wh-panel-meta">Palworld · paldb.cc</span></div><div class="wh-panel-body"><div class="wh-feat-row"><div class="wh-feat-media">PALHEAD<br/><span style="font-weight:600;color:var(--wh-muted);font-size:11px">Game database</span></div><div class="wh-feat-col"><h3>Pals</h3><a href="pals/">Browse all pals</a><a href="pals/">266 dex entries</a><a href="tools/work-suitability/">Work suitability tool</a><span class="soon-line">Mounts · soon</span></div><div class="wh-feat-col"><h3>Skills</h3><a href="skills/partner/">Partner skills</a><a href="skills/passive/">Passive skills</a><a href="skills/active/">Active skills</a><a href="skills/">Skills hub</a></div><div class="wh-feat-col"><h3>More</h3><span class="soon-line">Items · soon</span><span class="soon-line">Structures · soon</span><span class="soon-line">Technology · soon</span><span class="soon-line">World & drops · soon</span></div></div></div></section>
 
-      <section>
-        <div class="flex items-end justify-between gap-3 mb-3">
-          <h2 class="text-sm font-semibold">Dex pals</h2>
-          <a class="text-xs text-pal-accent underline underline-offset-2" href="pals/">View all →</a>
-        </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2">
-          <a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/lamball/"><img src="icons/T_SheepBall_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Lamball</div><div class="text-xs text-pal-muted">#1 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/cattiva/"><img src="icons/T_PinkCat_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Cattiva</div><div class="text-xs text-pal-muted">#2 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/chikipi/"><img src="icons/T_ChickenPal_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Chikipi</div><div class="text-xs text-pal-muted">#3 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/lifmunk/"><img src="icons/T_Carbunclo_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Lifmunk</div><div class="text-xs text-pal-muted">#4 · <span class="elem elem-Grass">Grass</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/fuack/"><img src="icons/T_BluePlatypus_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Fuack</div><div class="text-xs text-pal-muted">#5 · <span class="elem elem-Water">Water</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/fuack_ignis/"><img src="icons/T_BluePlatypus_Fire_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Fuack Ignis</div><div class="text-xs text-pal-muted">#5 · <span class="elem elem-Water">Water</span> <span class="elem elem-Fire">Fire</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/vixy/"><img src="icons/T_CuteFox_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Vixy</div><div class="text-xs text-pal-muted">#6 · <span class="elem elem-Neutral">Neutral</span></div></div></a><a class="flex items-center gap-3 rounded-lg border border-pal-border bg-pal-panel p-3 hover:border-pal-accent transition" href="pal/celaray/"><img src="icons/T_FlyingManta_icon_normal.webp" alt="" width="40" height="40" class="w-10 h-10 rounded bg-pal-bg" loading="lazy" /><div class="min-w-0"><div class="font-semibold truncate">Celaray</div><div class="text-xs text-pal-muted">#7 · <span class="elem elem-Water">Water</span></div></div></a>
-        </div>
-      </section>
+      <section class="wh-panel" id="news"><div class="wh-panel-head"><h2>News</h2><span class="wh-panel-meta">Empty — Phase 8+</span></div><div class="wh-panel-body"><div class="wh-section-grid-2"><div class="wh-split"><div class="wh-empty py-6 px-4"><div class="wh-empty-icon" aria-hidden="true">N</div><div class="wh-empty-title">No news yet</div><p class="wh-empty-body">Site updates and patch notes will list here in a dense two-column feed.</p></div><ul class="wh-feed-list"><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li></ul></div><div class="wh-split"><ul class="wh-feed-list"><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li><li class="wh-feed-item is-empty"><div class="wh-feed-thumb">—</div><div class="min-w-0 flex-1"><div class="wh-feed-cat">Coming soon</div><div class="wh-feed-title">Reserved slot</div><div class="wh-feed-desc">This row will hold a headline, blurb, and date when content ships.</div></div></li></ul></div></div></div></section>
+
+      <section class="wh-panel"><div class="wh-panel-head"><h2>Dex pals</h2><span class="wh-panel-meta">Live sample</span></div><div class="wh-panel-body"><div style="display:grid;grid-template-columns:1fr 1fr"><div style="border-right:1px solid var(--wh-border)"><a href="pal/lamball/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_SheepBall_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#1</span><span style="color:var(--wh-text)">Lamball</span></a><a href="pal/cattiva/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_PinkCat_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#2</span><span style="color:var(--wh-text)">Cattiva</span></a><a href="pal/chikipi/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_ChickenPal_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#3</span><span style="color:var(--wh-text)">Chikipi</span></a><a href="pal/lifmunk/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_Carbunclo_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#4</span><span style="color:var(--wh-text)">Lifmunk</span></a><a href="pal/fuack/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_BluePlatypus_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#5</span><span style="color:var(--wh-text)">Fuack</span></a><a href="pal/fuack_ignis/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_BluePlatypus_Fire_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#5</span><span style="color:var(--wh-text)">Fuack Ignis</span></a><a href="pal/vixy/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_CuteFox_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#6</span><span style="color:var(--wh-text)">Vixy</span></a><a href="pal/celaray/" style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-bottom:1px solid var(--wh-border);text-decoration:none;color:var(--wh-link);font-size:12px;font-weight:600"><img src="icons/T_FlyingManta_icon_normal.webp" alt="" width="28" height="28" style="width:28px;height:28px;border-radius:2px;background:#111" loading="lazy" /><span style="color:var(--wh-muted);font-weight:600;width:2rem">#7</span><span style="color:var(--wh-text)">Celaray</span></a></div><div style="padding:10px"><ul class="wh-stat-list"><li><span class="label">Data version</span><span class="val">2026-07-17</span></li><li><span class="label">Validation</span><span class="val">pass</span></li><li><span class="label">Bundle</span><span class="val">paldb-data-20260717</span></li><li><span class="label">Pals (dex)</span><span class="val">266</span></li><li><span class="label">Pals (all)</span><span class="val">592</span></li><li><span class="label">Partner skills</span><span class="val">291</span></li><li><span class="label">Passive skills</span><span class="val">286</span></li><li><span class="label">Active skills</span><span class="val">374</span></li></ul><div style="padding-top:10px"><a class="wh-btn wh-btn-primary" href="pals/">View all pals</a></div></div></div></div></section>
+
+      <section class="wh-panel" id="guides"><div class="wh-panel-head"><h2>Guides</h2><span class="wh-panel-meta">Empty hub</span></div><div class="wh-panel-body"><div class="wh-empty py-6 px-4"><div class="wh-empty-icon" aria-hidden="true">G</div><div class="wh-empty-title">No guides published</div><p class="wh-empty-body">Base tips, status effects, breeding, and boss write-ups will use this section card. Structure only for now.</p><a class="wh-btn wh-btn-ghost mt-3 inline-flex" href="guides/">Open guides hub</a></div><div class="wh-link-grid" style="border-top:1px solid var(--wh-border);margin-top:8px"><span class="soon-cell">Base tips</span><span class="soon-cell">Status effects</span><span class="soon-cell">Breeding</span><span class="soon-cell">Combat</span><span class="soon-cell">Bosses</span><span class="soon-cell">Exploration</span></div></div></section>
+
+      <section class="wh-panel"><div class="wh-panel-head"><h2>Countdowns &amp; status</h2><span class="wh-panel-meta">Reserved</span></div><div class="wh-panel-body"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:4px 0"><div style="flex:1;min-width:200px;background:var(--wh-input);border:1px solid var(--wh-border);padding:12px;min-height:64px;display:flex;align-items:center;justify-content:center;color:#555;font-weight:700;font-size:12px">Event art · soon</div><div style="flex:2;min-width:220px"><div style="font-size:14px;font-weight:700;color:var(--wh-text-bright);margin-bottom:4px">Nothing scheduled</div><div style="font-size:12px;color:var(--wh-muted)">Countdowns and “today in Palworld” style blocks will sit here.</div></div></div></div></section>
+
     </div>
   </main>
-  <footer class="border-t border-pal-border mt-auto"><div class="px-4 py-4 text-xs text-pal-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"><div>Game data: <a class="text-pal-accent underline underline-offset-2" href="https://paldb.cc" target="_blank" rel="noopener noreferrer">paldb.cc</a> · Not affiliated with Pocketpair</div><div class="text-pal-muted/90">Data <span class="text-pal-text">2026-07-17</span> · bundle <span class="text-pal-text">paldb-data-20260717</span> · validate <span class="text-pal-text">pass</span> · imported <span class="text-pal-text">2026-07-17 03:14:36Z</span></div></div></footer>
+  <footer class="wh-footer"><div class="wh-footer-mid"><div class="wh-shell"><div class="wh-footer-mid-row"><div class="wh-footer-mid-nav"><a href="news/">News</a><a href="guides/">Guides</a><a href="database/">Database</a><a href="tools/">Tools</a></div><div class="wh-footer-brand"><a href="index.html"><span class="wh-logo-mark">P</span>Palhead</a></div><div class="wh-footer-mid-nav"><a href="tools/work-suitability/">Work</a><a href="skills/">Skills</a><span class="soon">Items</span><span class="soon">World</span></div></div><div class="wh-footer-cols"><div class="wh-footer-col"><h4>Pal database</h4><ul><li><a href="pals/">All Pals</a></li><li><a href="tools/work-suitability/">Work Suitability</a></li><li><a href="skills/partner/">Partner Skills</a></li><li><a href="skills/passive/">Passive Skills</a></li><li><a href="skills/active/">Active Skills</a></li><li><span class="soon">Items</span></li><li><span class="soon">Structures</span></li><li><span class="soon">World</span></li></ul></div><div class="wh-footer-col"><h4>Guides</h4><ul><li><a href="guides/">All Guides</a></li><li><span class="soon">Base Tips</span></li><li><span class="soon">Status Effects</span></li><li><span class="soon">Breeding</span></li><li><span class="soon">Combat</span></li><li><span class="soon">Bosses</span></li><li><span class="soon">Exploration</span></li></ul></div><div class="wh-footer-col"><h4>Tools</h4><ul><li><a href="tools/">Tools Hub</a></li><li><a href="tools/work-suitability/">Work Suitability</a></li><li><span class="soon">Breeding Calculator</span></li><li><span class="soon">Team Builder</span></li><li><span class="soon">Drop Finder</span></li></ul></div><div class="wh-footer-col"><h4>News &amp; more</h4><ul><li><a href="news/">All News</a></li><li><span class="soon">Patch Notes</span></li><li><a href="database/">Database Hub</a></li><li><span class="soon">Technology</span></li><li><a href="index.html">Home</a></li></ul></div></div></div></div><div class="wh-footer-bottom"><div class="wh-shell wh-footer-bottom-inner"><div class="wh-footer-legal"><a href="index.html">Home</a><span class="soon">About</span><span class="soon">Privacy</span><span class="soon">Terms</span><span class="soon">Contact</span></div><div class="wh-footer-social" aria-hidden="true"><span>X</span><span>f</span><span>yt</span><span>dc</span></div></div></div></footer>
   
 </body>
 </html>

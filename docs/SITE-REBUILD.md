@@ -204,21 +204,21 @@ Status-effect evidence under `reference/status-effects/` is separate from import
 
 ## 5. Phase map
 
-| Phase | Name | Outcome |
-|------:|------|---------|
-| 0 | Foundations | Ingest, normalize contract, URL scheme, shell, search schema |
-| 1 | Pals database | Pal list + detail; work tool migration |
-| 2 | Skills database | Partner / passive / active lists + detail |
-| 3 | Items & recipes | Inventory encyclopedia + craft/drop links |
-| 4 | Base & technology | Structures, workstations, tech, work/SAN |
-| 5 | World content | Alphas, bosses, drops, merchants, maps (list-first) |
-| 6 | Tools | Breeding (honest limits), team builder, drop finder |
-| 7 | Platform polish | Global search, tooltips, news, SEO, perf |
+| Phase | Name | Status | Outcome |
+|------:|------|--------|---------|
+| 0 | Foundations | **Done** | Ingest, normalize contract, URL scheme, shell, search schema |
+| 1 | Pals database | **Done** | Pal list + detail; work tool migration |
+| 2 | Skills database | **Done** | Partner / passive / active lists + detail |
+| **3** | **Design / style / UX** | **Next** | Wowhead-influenced chrome, empty states, design system (before more content) |
+| 4 | Items & recipes | Pending | Inventory encyclopedia + craft/drop links |
+| 5 | Base & technology | Pending | Structures, workstations, tech, work/SAN |
+| 6 | World content | Pending | Alphas, bosses, drops, merchants, maps (list-first) |
+| 7 | Tools | Pending | Breeding (honest limits), team builder, drop finder |
+| 8 | Platform polish | Pending | Global search, tooltips, news, SEO, perf |
 
-**Suggested public MVP cut:** Phases 0 + 1 + 2 + work-tool migration + search stub.  
-Items / world / breeding calculators ship after MVP unless priorities change.
+**Why Phase 3 sits here:** Content surfaces for pals + skills already exist. Lock IA, density, empty states, and shared chrome **before** pouring items/world/tools into half-finished layouts. Style corpus: `wowhead-com-exports` → `data/style-vendor/`.
 
-Phases 1–5 can be parallel PR streams after Phase 0 if desired.
+**Earlier MVP note:** Phases 0–2 were the data MVP cut. **Current focus:** Phase 3 design pass, then content phases 4+.
 
 ---
 
@@ -358,11 +358,103 @@ Partner, passive, and active skills as first-class entities with ownership and i
 
 ---
 
-## 9. Phase 3 — Items, gear, recipes
+## 9. Phase 3 — Design / style / UX (Wowhead-influenced) **← current**
 
 ### Goal
 
-Inventory encyclopedia + “how do I get / craft this?”
+Make Palhead **look and feel like a serious game database** (Wowhead-class density and IA) **before** adding more entity kinds. Use empty / stub surfaces so layout can be judged without waiting on items/world data.
+
+**Influences hard from:** `C:\projects\collinstevens\wowhead-com-exports` → `npm run style:import` → `data/style-vendor/`  
+(homepage sections, news/guides chrome, database hub density — **not** WoW facts, **not** Wowhead trademarks)
+
+**Game facts still from:** paldb only (`data/vendor/`).
+
+### Why empty states first
+
+- Design list headers, side rails, toolbars, and feed rows without shipping incomplete item/world content  
+- Every future content phase reuses the same empty, loading, and “no results” patterns  
+- Homepage can show reserved slots (News, Guides, Database cards) the way Wowhead reserves section chrome  
+
+### Design principles (Palhead, not a clone)
+
+| Take from Wowhead (feel) | Do not take |
+|--------------------------|-------------|
+| Dense primary nav + secondary tool links | Wowhead logo, name, colors, copy |
+| Sticky header, filter bars above wide tables | SPA / client router |
+| Entity page: icon + title + quick facts + tabs/sections | Live Wowhead assets or trackers |
+| Homepage multi-panel grid (news / tools / db) | Full news CMS before we have posts |
+| Clear empty states (“No news yet”, “Coming soon”) | Fake sample content that looks like real data |
+| High information density, scannable tables | Clutter without hierarchy |
+
+Still: multi-page SSG + vanilla JS only.
+
+### Deliverables
+
+1. **Design tokens + shell v2** (`site/shell.js` + shared CSS)
+   - Header height, nav density, panel borders, table sticky columns, accent usage  
+   - Align with dark `pal.*` palette but tighter Wowhead-like spacing  
+   - Footer already shows data version / bundle — keep, restyle if needed  
+
+2. **Empty-state component kit**
+   - `emptyState({ icon, title, body, cta? })` — already partially exists; standardize  
+   - Variants: **no results** (filters), **section reserved** (soon), **no posts** (news), **coming soon tool**  
+   - Never invent fake pals/items to fill space  
+
+3. **Homepage redesign (Wowhead-influenced layout, empty where needed)**
+   - Top: quick tools / database entry points (live: Pals, Skills, Work)  
+   - Mid: multi-column or grid **panels** for News / Guides / Database with empty rows  
+   - Optional right rail or secondary column for “site status” / data version  
+   - Read section order inspiration from `data/style-vendor/homepage.json` (Blue Tracker → Guides → Countdowns → Today → Featured News → All News as **layout metaphors**, rename to Palworld-relevant empty sections)
+
+4. **Entity chrome pass (apply to existing pals + skills)**
+   - List pages: filter bar + result count + table/cards toggle styling consistency  
+   - Detail pages: breadcrumb, title block, stat cards, section headers — same rhythm on pal and skill  
+   - “Source: paldb” chips stay subtle, not wiki-verify noise  
+
+5. **Stub routes with empty shells (optional but recommended)**
+   Wire navigable empty pages so IA is real before Phase 4 content:
+
+   | Path | Empty state meaning |
+   |------|---------------------|
+   | `/news/` or home `#news` | No posts yet |
+   | `/guides/` | Guides reserved (status-effects can reappear later) |
+   | `/items/` | Items database coming (Phase 4) |
+   | `/tools/` | Tools hub; work suitability linked; breeding/team “soon” |
+   | `/database/` (optional) | Hub of category cards, empty or live |
+
+6. **Style-vendor workflow**
+   - `npm run style:import` (already on `npm run build`)  
+   - Short `docs/STYLE-NOTES.md` or section in this plan: what we copied as patterns vs what we rejected  
+   - Agents: when restyling, open `data/style-vendor/homepage.json` + guide/news samples for density cues  
+
+### Explicit non-goals for this phase
+
+- No new game entity tables (items, structures, world) beyond empty hubs  
+- No React/Next/SPA  
+- No pixel-perfect Wowhead clone or stolen assets  
+- No real news/CMS backend  
+
+### Exit criteria
+
+- [x] Shared shell/tokens feel intentional and consistent across home, pals, skills, tools  
+- [x] Standard empty-state patterns used for no-results + reserved sections  
+- [x] Homepage has Wowhead-like multi-panel structure with honest empty/soon panels  
+- [x] Existing live tools still work (pals list, work suitability, skill pages)  
+- [x] Stub hubs (news, guides, items, structures, tech, world, tools children)  
+- [x] Design notes document Wowhead influence vs Palhead identity (`docs/STYLE-NOTES.md`)  
+
+### Status
+
+**Implemented (shell + stubs + migrate live pages).** Iterate visually before Phase 4 items.
+
+---
+
+## 10. Phase 4 — Items, gear, recipes
+
+### Goal
+
+Inventory encyclopedia + “how do I get / craft this?”  
+*(Uses Phase 3 list/detail chrome + empty states.)*
 
 ### Nav categories
 
@@ -389,8 +481,8 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 ### Icons sub-phases
 
-- **3a:** Text + rarity color (ship without icons)
-- **3b:** Icon harvest pipeline (CDN or export assets) — separate task
+- **4a:** Text + rarity color (ship without icons)
+- **4b:** Icon harvest pipeline (CDN or export assets) — separate task
 
 ### Exit criteria
 
@@ -400,7 +492,7 @@ Materials · Weapons · Armor · Accessories · Consumables · Ammo · Ingredien
 
 ---
 
-## 10. Phase 4 — Base, work, technology
+## 11. Phase 5 — Base, work, technology
 
 ### Goal
 
@@ -423,7 +515,7 @@ Base-building side of the database: buildings, stations, tech tree, work power.
 
 ---
 
-## 11. Phase 5 — World content
+## 12. Phase 6 — World content
 
 ### Goal
 
@@ -450,7 +542,7 @@ Source entity → loot table → item links → region notes when present
 
 ---
 
-## 12. Phase 6 — Tools
+## 13. Phase 7 — Tools
 
 ### Goal
 
@@ -458,12 +550,12 @@ Sticky calculators that make Palhead more useful than raw tables.
 
 | Tool | Depends on | Notes |
 |------|------------|--------|
-| Work suitability | Phases 1, 4 | Already strong; upgrade filters + data source |
+| Work suitability | Phases 1, 5 | Already strong; upgrade filters + data source |
 | Partner catalog / base boosters | Phase 2 | Partially done |
 | Breeding calculator | Phase 1 + `breeding.json` | CombiRank heuristics only until full matrix exists; UI must state limit |
 | Team builder | Pals + skills + elements | Party of 5; element + work coverage |
 | Capture helper | `capture_rates.json` | Thin data — ship only if useful |
-| Drop finder | Phase 5 | “Where do I farm X?” |
+| Drop finder | Phase 6 | “Where do I farm X?” |
 
 ### Breeding honesty rule
 
@@ -481,11 +573,11 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ---
 
-## 13. Phase 7 — Platform polish
+## 14. Phase 8 — Platform polish
 
 - Global search (Cmd/Ctrl-K) over search index
 - Hover tooltips on entity links (icon + name + one-liner)
-- News section: patch notes / versions / tips from distilled meta tables
+- News section: patch notes / versions / tips from distilled meta tables (fills Phase 3 empty news chrome)
 - SEO: titles, meta description, Open Graph, sitemap from entity index
 - Performance: split JSON, lazy icons, list virtualization for drops
 - Accessibility + mobile nav polish
@@ -500,125 +592,111 @@ Do **not** invent a complete parent×parent matrix. Options later:
 
 ---
 
-## 14. What not to do early
+## 15. What not to do early
 
 - React / Next / SPA / client-router app rewrites (**never** — see hard stack rule)
 - Interactive world map before drop/entity quality is proven
 - Claiming complete breeding combinations without source data
 - Shipping unpaginated 12k-row drop tables
-- Deleting partner evidence / corrections pipeline
 - Copying paldb.cc branding or layout wholesale
+- Copying Wowhead branding, trademarks, or assets wholesale
 - Mixing scrape rows into correction files (provenance rule)
+- Filling empty states with fake game data to “look finished”
 
 ---
 
-## 15. Risk register
+## 16. Risk register
 
 | Risk | Mitigation |
 |------|------------|
 | Distilled fields messy / thin | Normalize on import; hide empty UI sections; fix extract upstream when systematic |
 | No full breeding matrix | Limited calculator + honest copy; improve data later |
-| Icon coverage for items | Text + rarity first; icon pipeline as Phase 3b |
+| Icon coverage for items | Text + rarity first; icon pipeline as Phase 4b |
 | Bundle size (~22 MB raw) | Per-page embed only needed fields; compact list indexes |
-| Legal / attribution | Attribute paldb.cc; review terms before heavy marketing |
-| Scope explosion | Hard phase exit criteria; MVP cut is 0–2 |
+| Legal / attribution | Attribute paldb.cc; never ship Wowhead marks; review terms before heavy marketing |
+| Scope explosion | Hard phase exit criteria; design phase before more content |
 | Boss pollution in pal lists | Default dex filter; “show all entities” toggle |
-| Dual data sources drift | Single normalize layer; tools never read raw vendor JSON ad hoc |
+| Dual data sources drift | Single normalize layer for game; style-vendor never mixed into entity facts |
+| Design thrash during content phases | Lock chrome in Phase 3 before items/world |
 
 ---
 
-## 16. First reviewable milestone
+## 17. First reviewable milestone
 
-**Phase 0 + Phase 1 only:**
+**Done:** Phases 0–2 (foundations + pals + skills).
 
-- New hub homepage
-- `/pals/` filterable list from distilled data
-- `/pal/{slug}/` detail pages
-- Work suitability tool still available (migrated path or alias)
-- Existing partner / status tools still linked
-- Footer: extract data version
+**Next reviewable:** Phase 3 design pass —
 
-This already reads as a database site rather than a single spreadsheet.
+- Homepage multi-panel layout with empty News/Guides slots  
+- Shared empty-state kit  
+- Consistent entity list/detail chrome on live pages  
+- Stub hubs for items/tools (empty, honest)  
 
-**Public MVP recommendation:** Phase 0 + 1 + 2 + work tool on new data + search stub.
+Then Phase 4 fills items into that chrome.
 
 ---
 
-## 17. Open questions (resolve before / during Phase 0)
+## 18. Open questions
 
-1. **Identity:** Keep “Palhead” or rebrand for the database era?
-2. **Dex filter default:** Only real pals (deck # > 0), or all 592 entities?
-3. **Data coupling:** Vendor snapshot in-repo for deploys vs symlink to sibling repo in dev only?
-4. **Post-pals priority:** Skills (Phase 2) or Items/recipes (Phase 3)?
-5. **Breeding:** Ship limited calculator soon, or wait for matrix data?
-6. **Item icons:** OK to ship item pages without icons initially?
-7. **v1 scope ceiling:** “Pals + skills + items + work tool” vs full world content at first public launch?
+1. **Breeding:** Ship limited calculator soon (Phase 7), or wait for matrix data?
+2. **Item icons:** OK to ship Phase 4 without icons initially?
+3. **News later:** Real posts only in Phase 8, or light patch-notes feed earlier from paldb `patch_notes.json`?
 
 **Decided:**
 
-- Palpedia verify tool, multi-site partner-skill scrapes, discrepancy reports, and correction overlays are **removed**. paldb.cc is the sole game-data source of truth.
-- **No React / Next / SPA.** Permanent multi-page static HTML + Node SSG + vanilla JS.
+- Palpedia verify tool / multi-site corrections removed; paldb = game SoT  
+- **No React / Next / SPA**  
+- **Name = Palhead**  
+- **Mimic Wowhead density/IA as much as possible** without trademarks/assets  
+- **Stub empty hubs for everything not built**; migrate live pages into new chrome  
+- Wowhead sample = style influence only (`wowhead-com-exports` / `data/style-vendor/`)
 
 ---
 
-## 18. Implementation checklist (high level)
+## 19. Implementation checklist (high level)
 
-Use this as a tracking board once execution starts. Do not start until open questions are decided (or explicitly deferred).
+### Phase 0 — done
+- [x] `data:import` + latest publish
+- [x] `data:normalize` + schemas
+- [x] URL scheme locked (nested)
+- [x] Shared shell + footer data version
+- [x] Pal entity pages + package scripts
 
-### Phase 0
-- [ ] `data:import` script + vendor path
-- [ ] `data:normalize` script + schemas
-- [ ] URL scheme locked
-- [ ] Shared shell / design tokens
-- [ ] Sample entity page
-- [ ] Footer data version
-- [ ] package.json scripts + short README section
+### Phase 1 — done
+- [x] Pal list page + work suitability tool
+- [x] Pal detail + nav
 
-### Phase 1
-- [ ] Pal list page
-- [ ] Pal detail page
-- [ ] Icon mapping
-- [ ] Work suitability tool path migration
-- [ ] Nav updates
+### Phase 2 — done
+- [x] Partner / passive / active lists + detail + pal links
 
-### Phase 2
-- [ ] Partner / passive / active lists
-- [ ] Skill detail pages
-- [ ] Links from pal pages
+### Phase 3 — design / UX
+- [x] Design tokens + shell v2 (Wowhead-dense nav)
+- [x] Empty-state kit + reserved feed rows
+- [x] Homepage multi-panel structure
+- [x] Entity list/detail chrome pass (pals + skills)
+- [x] Stub hubs: news, guides, items, structures, tech, world, tools/*
+- [x] `docs/STYLE-NOTES.md`
 
-### Phase 3
-- [ ] Item category hub + lists
-- [ ] Item detail + recipes
+### Phase 4 — items
+- [ ] Item category hub + lists + detail + recipes
 - [ ] Reverse craft / drop indexes
-- [ ] (Optional) icon pipeline 3b
+- [ ] (Optional) icon pipeline 4b
 
-### Phase 4
-- [ ] Structures + workstations
-- [ ] Technologies
-- [ ] Work suitability data upgrade
-- [ ] SAN page/section
+### Phase 5 — base / tech
+- [ ] Structures + workstations + technologies + SAN
 
-### Phase 5
-- [ ] Alphas / bosses / raids
-- [ ] Drops browser
-- [ ] Merchants / boxes / eggs (as quality allows)
-- [ ] Maps/POIs list-first
+### Phase 6 — world
+- [ ] Alphas / bosses / drops browser / merchants / maps list-first
 
-### Phase 6
-- [ ] Breeding tool (honest limits)
-- [ ] Team builder and/or drop finder
-- [ ] Tools hub page
+### Phase 7 — tools
+- [ ] Breeding and/or team builder + tools hub
 
-### Phase 7
-- [ ] Global search
-- [ ] Tooltips
-- [ ] News / patch notes
-- [ ] SEO sitemap
-- [ ] Perf pass
+### Phase 8 — polish
+- [ ] Global search, tooltips, news fill, SEO sitemap, perf
 
 ---
 
-## 19. Related repos and paths
+## 20. Related repos and paths
 
 | Path | Role |
 |------|------|
@@ -637,7 +715,7 @@ Use this as a tracking board once execution starts. Do not start until open ques
 
 ---
 
-## 20. Changelog (plan doc)
+## 21. Changelog (plan doc)
 
 | Date | Change |
 |------|--------|
@@ -649,5 +727,7 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | 2026-07-16 | Phase 1: pals list + work suitability tool + detail polish |
 | 2026-07-16 | Phase 2: partner/passive/active skill lists + detail pages |
 | 2026-07-16 | Document + import wowhead-com-exports as UX/style reference (separate from paldb game data) |
+| 2026-07-16 | **Insert Phase 3 Design/style/UX** (Wowhead influence + empty states); renumber items→polish to 4–8 |
+| 2026-07-16 | Phase 3 implemented: dense shell, empty stubs, migrate live pals/skills/work into chrome |
 
-When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.
+When decisions land on open questions, record them here so implementers do not re-litigate architecture mid-flight.
