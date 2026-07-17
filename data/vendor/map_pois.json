@@ -1,0 +1,703 @@
+{
+  "generated_at": "2026-07-16T23:10:30.435549+00:00",
+  "language": "en",
+  "count": 87,
+  "map_pois": [
+    {
+      "map": "Palpagos_Islands",
+      "category": "Lifmunk Effigy",
+      "count": 140,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Lamball Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Pengullet Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Munchill Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Rooby Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Herbil Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Tanzee Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Depresso Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Lunaris Effigy",
+      "count": 4,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Relaxaurus Effigy",
+      "count": 4,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Yakumo Effigy",
+      "count": 2,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ancient Ruin",
+      "count": 106,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Journals",
+      "count": 55,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Sakura Egg",
+      "count": 36,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Desert Egg",
+      "count": 122,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Volcano Egg",
+      "count": 310,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Frozen Egg",
+      "count": 271,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Grass Egg",
+      "count": 441,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Feybreak Egg",
+      "count": 567,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Sunreach Egg",
+      "count": 39,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Anti-Air Turret",
+      "count": 11,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Enemy Camp",
+      "count": 44,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Tower",
+      "count": 8,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Incident",
+      "count": 88,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Alpha Pal",
+      "count": 83,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Cave Entrance",
+      "count": 15,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Fishing Spot",
+      "count": 529,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Salvage Rank1",
+      "count": 776,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Salvage Rank2",
+      "count": 1987,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Region",
+      "count": 80,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Home",
+      "count": 12,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Watchtower",
+      "count": 20,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Fast Travel",
+      "count": 137,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Treasure Map",
+      "count": 42,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Dungeon",
+      "count": 170,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Heat Source",
+      "count": 20,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Respawn",
+      "count": 8,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ancient Bone",
+      "count": 10,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Chromite",
+      "count": 257,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Coal",
+      "count": 520,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Coal Cluster",
+      "count": 33,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ore",
+      "count": 1463,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ore Cluster",
+      "count": 31,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ancient Lava",
+      "count": 10,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Pure Quartz",
+      "count": 523,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Pure Quartz Cluster",
+      "count": 11,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Hexolite Quartz",
+      "count": 349,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Soralite",
+      "count": 208,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Sulfur",
+      "count": 280,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Sulfur Cluster",
+      "count": 8,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Ancient Bark",
+      "count": 10,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Wandering Merchant",
+      "count": 8,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Black Marketeer",
+      "count": 19,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "NPC",
+      "count": 164,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Arrogant Pal Critic",
+      "count": 9,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Oilrig Treasure Goal",
+      "count": 9,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Oilrig Treasure",
+      "count": 47,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Skyland Warp Altar",
+      "count": 20,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "City",
+      "count": 73,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Unknown",
+      "count": 22,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Kinship Peach",
+      "count": 22,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Fruit Tree",
+      "count": 31,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Beautiful Flower",
+      "count": 27,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Crude Oil",
+      "count": 185,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Nightstar Sand",
+      "count": 271,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Treasure Element",
+      "count": 109,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Treasure",
+      "count": 1350,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Supply",
+      "count": 480,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "Palpagos_Islands",
+      "category": "Junk",
+      "count": 646,
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Lifmunk Effigy",
+      "count": 15,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Cattiva Effigy",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Yakumo Effigy",
+      "count": 2,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Journals",
+      "count": 9,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "World Tree Egg",
+      "count": 30,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Anti-Air Turret",
+      "count": 11,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Enemy Camp",
+      "count": 44,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Tower",
+      "count": 4,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Incident",
+      "count": 9,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Alpha Pal",
+      "count": 7,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Fishing Spot",
+      "count": 77,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Watchtower",
+      "count": 2,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Fast Travel",
+      "count": 15,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Paloxite",
+      "count": 80,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "NPC",
+      "count": 1,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Memo Planner",
+      "count": 61,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Fruit Tree",
+      "count": 12,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    },
+    {
+      "map": "The_World_Tree",
+      "category": "Junk",
+      "count": 24,
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    }
+  ]
+}

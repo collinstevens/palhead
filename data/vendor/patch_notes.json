@@ -1,0 +1,220 @@
+{
+  "generated_at": "2026-07-16T23:19:43.722865+00:00",
+  "language": "en",
+  "count": 16,
+  "patch_notes": [
+    {
+      "id": "v0.7.3",
+      "slug": "v0.7.3",
+      "name": "v0.7.3",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling",
+        "Blueprints stored in chests at the base can now actually be used in crafting.",
+        "Fixed an issue where using non-foundation structures such as pillars would cause roofs and other structures to float in mid-air."
+      ],
+      "source_url": "https://paldb.cc/en/v0.7.3",
+      "source_export": "data/raw/exports/en/v0.7.3.html"
+    },
+    {
+      "id": "v0.7.2",
+      "slug": "v0.7.2",
+      "name": "v0.7.2",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.7.2",
+      "source_export": "data/raw/exports/en/v0.7.2.html"
+    },
+    {
+      "id": "v0.7.1",
+      "slug": "v0.7.1",
+      "name": "v0.7.1",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.7.1",
+      "source_export": "data/raw/exports/en/v0.7.1.html"
+    },
+    {
+      "id": "v0.6.8",
+      "slug": "v0.6.8",
+      "name": "v0.6.8",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.6.8",
+      "source_export": "data/raw/exports/en/v0.6.8.html"
+    },
+    {
+      "id": "v0.6.6",
+      "slug": "v0.6.6",
+      "name": "v0.6.6",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling",
+        "A warning will now be displayed on screen if the world settings are set too high for the system playing the game.",
+        "Changed Herbil Pulse so that players will be invincible for a short time when getting up.",
+        "Slightly expanded the hit detection of Excalibur’s shockwave.",
+        "Fixed an issue where the hit detection and visual effects of Terra Blade were misaligned.",
+        "[Controller] Easy Bulk Storage control adjustment: pressing the LS button now applies immediately.",
+        "Changed the appearance of Pal's rank-up items.",
+        "Adjust NPC trust modifiers to be in line with the implementation of NPC passive skills.",
+        "Added \"Item Decay Speed\" options to the world settings.",
+        "Implemented countermeasures for save data bloating and rollback issues.",
+        "Fixed a bug where passive skill effects were not applied to human NPCs.",
+        "Fixed a bug that allowed climbing on spheres during capture.",
+        "Fixed an issue where the sorting order of Key Items appeared to shuffle randomly.",
+        "Fixed a bug where treasure chests would sometimes not appear at the end of random dungeons.",
+        "Fixed a bug where Zoe’s Assault Rifle would continue to fire after defeating an enemy.",
+        "Fixed a bug where shooting Boost Gun / Mega Boost Gun at base Pals while mounted would not increase their stats.",
+        "Fixed a bug in multiplayer where equipping a waist lantern and entering a dungeon would turn the entire screen yellow.",
+        "Fixed a bug where using High Breach with Whalaska or Whalaska Ignis could sometimes cause the player to fall through the floor.",
+        "Fixed a bug where if Herbil was used just before the player became incapacitated, Herbil Pulse would not activate and progression could become impossible.",
+        "Fixed a bug where NPCs would not retaliate when attacked.",
+        "Fixed a bug that allowed construction near towers.",
+        "Fixed a bug where battle BGM would sometimes continue playing after the player died.",
+        "Fixed a bug where aim assist would not function properly during the Moonlord battle.",
+        "Fixed a bug where certain Pal skills would fail when used over water.",
+        "Fixed a bug in the Arena where using “Huggy Fire” would cause enemies to become stuck.",
+        "Fixed a bug where Hallowed Plate Mail was not reducing damage taken from Extreme Moonlord.",
+        "Fixed a bug where unreleased items were being displayed in the flea market.",
+        "Fixed an issue where DualSense input was not supported on Windows (Win64)."
+      ],
+      "source_url": "https://paldb.cc/en/v0.6.6",
+      "source_export": "data/raw/exports/en/v0.6.6.html"
+    },
+    {
+      "id": "v0.6.4",
+      "slug": "v0.6.4",
+      "name": "v0.6.4",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.6.4",
+      "source_export": "data/raw/exports/en/v0.6.4.html"
+    },
+    {
+      "id": "v0.4.15",
+      "slug": "v0.4.15",
+      "name": "v0.4.15",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.4.15",
+      "source_export": "data/raw/exports/en/v0.4.15.html"
+    },
+    {
+      "id": "v0.4.14",
+      "slug": "v0.4.14",
+      "name": "v0.4.14",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.4.14",
+      "source_export": "data/raw/exports/en/v0.4.14.html"
+    },
+    {
+      "id": "v0.3.5",
+      "slug": "v0.3.5",
+      "name": "v0.3.5",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling",
+        "The frequency of notifications for Pals stuck in the base was too high, so we have suppressed them Notifications are now only displayed when the player is within the range of the base where the incident is occurring",
+        "Notifications for problems related to natural objects like rocks and trees will no longer be shown",
+        "In some cases where a working pal is stuck, they will now work remotely from where they are standing",
+        "Fixed a problem where pillars could not be built underwater",
+        "Fixed a problem where the oil rig turrets were desyncing in multiplayer",
+        "Fixed a bug where simplified characters were mixed into the traditional Chinese translation",
+        "Other minor text related bugs fixed"
+      ],
+      "source_url": "https://paldb.cc/en/v0.3.5",
+      "source_export": "data/raw/exports/en/v0.3.5.html"
+    },
+    {
+      "id": "v0.3.4",
+      "slug": "v0.3.4",
+      "name": "v0.3.4",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.3.4",
+      "source_export": "data/raw/exports/en/v0.3.4.html"
+    },
+    {
+      "id": "v0.3.10",
+      "slug": "v0.3.10",
+      "name": "v0.3.10",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.3.10",
+      "source_export": "data/raw/exports/en/v0.3.10.html"
+    },
+    {
+      "id": "v0.2.4.0",
+      "slug": "v0.2.4.0",
+      "name": "v0.2.4.0",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.2.4.0",
+      "source_export": "data/raw/exports/en/v0.2.4.0.html"
+    },
+    {
+      "id": "v0.2.3.0",
+      "slug": "v0.2.3.0",
+      "name": "v0.2.3.0",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.2.3.0",
+      "source_export": "data/raw/exports/en/v0.2.3.0.html"
+    },
+    {
+      "id": "v0.2.2.0",
+      "slug": "v0.2.2.0",
+      "name": "v0.2.2.0",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling",
+        "Corrected an issue that caused all Pal attacks to deal only half the intended damage Attack Before: (50+PalBase*PalLv*0.075*IV)*Condenser*StatueOfPower*PassiveSkills*FoodBuff",
+        "Attack After: (100+PalBase*PalLv*0.075*IV)*Condenser*StatueOfPower*PassiveSkills*FoodBuff",
+        "Corrected the hit detection in the latter parts of the \" Nightmare Ray \" and \" Nightmare Bloom \" attacks",
+        "Reduced the jittering of sleeping Pals on Pal beds",
+        "You can now close the character editing screen of the antique dresser using the ESC key",
+        "Corrected other minor bugs"
+      ],
+      "source_url": "https://paldb.cc/en/v0.2.2.0",
+      "source_export": "data/raw/exports/en/v0.2.2.0.html"
+    },
+    {
+      "id": "v0.2.1.0",
+      "slug": "v0.2.1.0",
+      "name": "v0.2.1.0",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling",
+        "Fixed an issue where eggs could not be placed in the egg incubator if you loaded save data from v0.1.5.x or earlier."
+      ],
+      "source_url": "https://paldb.cc/en/v0.2.1.0",
+      "source_export": "data/raw/exports/en/v0.2.1.0.html"
+    },
+    {
+      "id": "v0.2.0.6",
+      "slug": "v0.2.0.6",
+      "name": "v0.2.0.6",
+      "kind": "patch_notes",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/v0.2.0.6",
+      "source_export": "data/raw/exports/en/v0.2.0.6.html"
+    }
+  ]
+}

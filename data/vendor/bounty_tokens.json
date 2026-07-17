@@ -1,0 +1,2555 @@
+{
+  "generated_at": "2026-07-17T02:45:05.449030+00:00",
+  "language": "en",
+  "count": 100,
+  "bounty_tokens": [
+    {
+      "id": "BossDefeatReward_DomeArmorDragon",
+      "slug": "Aegidron_Bounty_Token",
+      "name": "Aegidron_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Aegidron_Bounty_Token",
+      "source_export": "data/raw/exports/en/Aegidron_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_DomeArmorDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_DomeArmorDragon",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_DomeArmorDragon",
+      "sort_id": 20102,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Anubis",
+      "slug": "Anubis_Bounty_Token",
+      "name": "Anubis_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Anubis_Bounty_Token",
+      "source_export": "data/raw/exports/en/Anubis_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Anubis",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Anubis",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Anubis",
+      "sort_id": 20036,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FlameBuffalo",
+      "slug": "Arsox_Bounty_Token",
+      "name": "Arsox_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Arsox_Bounty_Token",
+      "source_export": "data/raw/exports/en/Arsox_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FlameBuffalo",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FlameBuffalo",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FlameBuffalo",
+      "sort_id": 20093,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BlackMetalDragon",
+      "slug": "Astegon_Bounty_Token",
+      "name": "Astegon_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Astegon_Bounty_Token",
+      "source_export": "data/raw/exports/en/Astegon_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BlackMetalDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BlackMetalDragon",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BlackMetalDragon",
+      "sort_id": 20037,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BlueThunderHorse",
+      "slug": "Azurmane_Bounty_Token",
+      "name": "Azurmane_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Azurmane_Bounty_Token",
+      "source_export": "data/raw/exports/en/Azurmane_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BlueThunderHorse",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BlueThunderHorse",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BlueThunderHorse",
+      "sort_id": 20043,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BlueDragon",
+      "slug": "Azurobe_Bounty_Token",
+      "name": "Azurobe_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Azurobe_Bounty_Token",
+      "source_export": "data/raw/exports/en/Azurobe_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BlueDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BlueDragon",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BlueDragon",
+      "sort_id": 20006,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ThunderBird",
+      "slug": "Beakon_Bounty_Token",
+      "name": "Beakon_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Beakon_Bounty_Token",
+      "source_export": "data/raw/exports/en/Beakon_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ThunderBird",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ThunderBird",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ThunderBird",
+      "sort_id": 20017,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_KingBahamut",
+      "slug": "Blazamut_Bounty_Token",
+      "name": "Blazamut_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Blazamut_Bounty_Token",
+      "source_export": "data/raw/exports/en/Blazamut_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_KingBahamut",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_KingBahamut",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_KingBahamut",
+      "sort_id": 20038,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Manticore",
+      "slug": "Blazehowl_Bounty_Token",
+      "name": "Blazehowl_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Blazehowl_Bounty_Token",
+      "source_export": "data/raw/exports/en/Blazehowl_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Manticore",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Manticore",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Manticore",
+      "sort_id": 20092,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_SakuraSaurus_Water",
+      "slug": "Broncherry_Aqua_Bounty_Token",
+      "name": "Broncherry_Aqua_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Broncherry_Aqua_Bounty_Token",
+      "source_export": "data/raw/exports/en/Broncherry_Aqua_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_SakuraSaurus_Water",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_SakuraSaurus_Water",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_SakuraSaurus_Water",
+      "sort_id": 20019,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_SakuraSaurus",
+      "slug": "Broncherry_Bounty_Token",
+      "name": "Broncherry_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Broncherry_Bounty_Token",
+      "source_export": "data/raw/exports/en/Broncherry_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_SakuraSaurus",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_SakuraSaurus",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_SakuraSaurus",
+      "sort_id": 20012,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Ronin",
+      "slug": "Bushi_Bounty_Token",
+      "name": "Bushi_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bushi_Bounty_Token",
+      "source_export": "data/raw/exports/en/Bushi_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Ronin",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Ronin",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Ronin",
+      "sort_id": 20014,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BerryGoat_Dark",
+      "slug": "Caprity_Noct_Bounty_Token",
+      "name": "Caprity_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Caprity_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Caprity_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BerryGoat_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BerryGoat_Dark",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BerryGoat_Dark",
+      "sort_id": 20064,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WhiteDeer",
+      "slug": "Celesdir_Bounty_Token",
+      "name": "Celesdir_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Celesdir_Bounty_Token",
+      "source_export": "data/raw/exports/en/Celesdir_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WhiteDeer",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WhiteDeer",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WhiteDeer",
+      "sort_id": 20046,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WhiteDeer_Dark",
+      "slug": "Celesdir_Noct_Bounty_Token",
+      "name": "Celesdir_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Celesdir_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Celesdir_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WhiteDeer_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WhiteDeer_Dark",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WhiteDeer_Dark",
+      "sort_id": 20081,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WeaselDragon",
+      "slug": "Chillet_Bounty_Token",
+      "name": "Chillet_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Chillet_Bounty_Token",
+      "source_export": "data/raw/exports/en/Chillet_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WeaselDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WeaselDragon",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WeaselDragon",
+      "sort_id": 20001,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WhiteTiger_Ground",
+      "slug": "Cryolinx_Terra_Bounty_Token",
+      "name": "Cryolinx_Terra_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Cryolinx_Terra_Bounty_Token",
+      "source_export": "data/raw/exports/en/Cryolinx_Terra_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WhiteTiger_Ground",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WhiteTiger_Ground",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WhiteTiger_Ground",
+      "sort_id": 20063,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_RaijinDaughter_Water",
+      "slug": "Dazzi_Noct_Bounty_Token",
+      "name": "Dazzi_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dazzi_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dazzi_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_RaijinDaughter_Water",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_RaijinDaughter_Water",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_RaijinDaughter_Water",
+      "sort_id": 20062,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FlowerDinosaur_Electric",
+      "slug": "Dinossom_Lux_Bounty_Token",
+      "name": "Dinossom_Lux_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dinossom_Lux_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dinossom_Lux_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FlowerDinosaur_Electric",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FlowerDinosaur_Electric",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FlowerDinosaur_Electric",
+      "sort_id": 20035,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GrassGolem",
+      "slug": "Dualith_Bounty_Token",
+      "name": "Dualith_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dualith_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dualith_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GrassGolem",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GrassGolem",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GrassGolem",
+      "sort_id": 20079,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GrassGolem_Dark",
+      "slug": "Dualith_Noct_Bounty_Token",
+      "name": "Dualith_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dualith_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dualith_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GrassGolem_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GrassGolem_Dark",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GrassGolem_Dark",
+      "sort_id": 20091,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_LazyCatfish",
+      "slug": "Dumud_Bounty_Token",
+      "name": "Dumud_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dumud_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dumud_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_LazyCatfish",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_LazyCatfish",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_LazyCatfish",
+      "sort_id": 20004,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ThunderFluffyBird",
+      "slug": "Dynamoff_Bounty_Token",
+      "name": "Dynamoff_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Dynamoff_Bounty_Token",
+      "source_export": "data/raw/exports/en/Dynamoff_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ThunderFluffyBird",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ThunderFluffyBird",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ThunderFluffyBird",
+      "sort_id": 20085,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GhostDragon",
+      "slug": "Eidrolon_Bounty_Token",
+      "name": "Eidrolon_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Eidrolon_Bounty_Token",
+      "source_export": "data/raw/exports/en/Eidrolon_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GhostDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GhostDragon",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GhostDragon",
+      "sort_id": 20088,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_QueenBee",
+      "slug": "Elizabee_Bounty_Token",
+      "name": "Elizabee_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Elizabee_Bounty_Token",
+      "source_export": "data/raw/exports/en/Elizabee_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_QueenBee",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_QueenBee",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_QueenBee",
+      "sort_id": 20023,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FairyDragon",
+      "slug": "Elphidran_Bounty_Token",
+      "name": "Elphidran_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Elphidran_Bounty_Token",
+      "source_export": "data/raw/exports/en/Elphidran_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FairyDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FairyDragon",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FairyDragon",
+      "sort_id": 20020,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Horus_Water",
+      "slug": "Faleris_Aqua_Bounty_Token",
+      "name": "Faleris_Aqua_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Faleris_Aqua_Bounty_Token",
+      "source_export": "data/raw/exports/en/Faleris_Aqua_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Horus_Water",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Horus_Water",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Horus_Water",
+      "sort_id": 20048,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CatVampire",
+      "slug": "Felbat_Bounty_Token",
+      "name": "Felbat_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Felbat_Bounty_Token",
+      "source_export": "data/raw/exports/en/Felbat_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CatVampire",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CatVampire",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CatVampire",
+      "sort_id": 20010,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FengyunDeeper",
+      "slug": "Fenglope_Bounty_Token",
+      "name": "Fenglope_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Fenglope_Bounty_Token",
+      "source_export": "data/raw/exports/en/Fenglope_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FengyunDeeper",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FengyunDeeper",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FengyunDeeper",
+      "sort_id": 20015,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FengyunDeeper_Electric",
+      "slug": "Fenglope_Lux_Bounty_Token",
+      "name": "Fenglope_Lux_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Fenglope_Lux_Bounty_Token",
+      "source_export": "data/raw/exports/en/Fenglope_Lux_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FengyunDeeper_Electric",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FengyunDeeper_Electric",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FengyunDeeper_Electric",
+      "sort_id": 20045,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FoxExorcist",
+      "slug": "Flaracle_Bounty_Token",
+      "name": "Flaracle_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Flaracle_Bounty_Token",
+      "source_export": "data/raw/exports/en/Flaracle_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FoxExorcist",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FoxExorcist",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FoxExorcist",
+      "sort_id": 20084,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_IceFox",
+      "slug": "Foxicle_Bounty_Token",
+      "name": "Foxicle_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Foxicle_Bounty_Token",
+      "source_export": "data/raw/exports/en/Foxicle_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_IceFox",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_IceFox",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_IceFox",
+      "sort_id": 20094,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Kitsunebi_Ice",
+      "slug": "Foxparks_Cryst_Bounty_Token",
+      "name": "Foxparks_Cryst_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Foxparks_Cryst_Bounty_Token",
+      "source_export": "data/raw/exports/en/Foxparks_Cryst_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Kitsunebi_Ice",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Kitsunebi_Ice",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Kitsunebi_Ice",
+      "sort_id": 20061,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_IceHorse",
+      "slug": "Frostallion_Bounty_Token",
+      "name": "Frostallion_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Frostallion_Bounty_Token",
+      "source_export": "data/raw/exports/en/Frostallion_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_IceHorse",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_IceHorse",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_IceHorse",
+      "sort_id": 20050,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_IceHorse_Dark",
+      "slug": "Frostallion_Noct_Bounty_Token",
+      "name": "Frostallion_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Frostallion_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Frostallion_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_IceHorse_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_IceHorse_Dark",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_IceHorse_Dark",
+      "sort_id": 20060,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GoldenHorse",
+      "slug": "Gildane_Bounty_Token",
+      "name": "Gildane_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Gildane_Bounty_Token",
+      "source_export": "data/raw/exports/en/Gildane_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GoldenHorse",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GoldenHorse",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GoldenHorse",
+      "sort_id": 20057,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_NaughtyCat",
+      "slug": "Grintale_Bounty_Token",
+      "name": "Grintale_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Grintale_Bounty_Token",
+      "source_export": "data/raw/exports/en/Grintale_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_NaughtyCat",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_NaughtyCat",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_NaughtyCat",
+      "sort_id": 20007,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ElecPanda",
+      "slug": "Grizzbolt_Bounty_Token",
+      "name": "Grizzbolt_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Grizzbolt_Bounty_Token",
+      "source_export": "data/raw/exports/en/Grizzbolt_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ElecPanda",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ElecPanda",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ElecPanda",
+      "sort_id": 20090,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_PlantSlime",
+      "slug": "Gumoss_Bounty_Token",
+      "name": "Gumoss_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Gumoss_Bounty_Token",
+      "source_export": "data/raw/exports/en/Gumoss_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_PlantSlime",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_PlantSlime",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_PlantSlime",
+      "sort_id": 20003,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_KingAlpaca_Ice",
+      "slug": "Ice_Kingpaca_Bounty_Token",
+      "name": "Ice_Kingpaca_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Ice_Kingpaca_Bounty_Token",
+      "source_export": "data/raw/exports/en/Ice_Kingpaca_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_KingAlpaca_Ice",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_KingAlpaca_Ice",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_KingAlpaca_Ice",
+      "sort_id": 20034,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_JetDragon",
+      "slug": "Jetragon_Bounty_Token",
+      "name": "Jetragon_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Jetragon_Bounty_Token",
+      "source_export": "data/raw/exports/en/Jetragon_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_JetDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_JetDragon",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_JetDragon",
+      "sort_id": 20049,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Umihebi",
+      "slug": "Jormuntide_Bounty_Token",
+      "name": "Jormuntide_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Jormuntide_Bounty_Token",
+      "source_export": "data/raw/exports/en/Jormuntide_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Umihebi",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Umihebi",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Umihebi",
+      "sort_id": 20033,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CatMage",
+      "slug": "Katress_Bounty_Token",
+      "name": "Katress_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Katress_Bounty_Token",
+      "source_export": "data/raw/exports/en/Katress_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CatMage",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CatMage",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CatMage",
+      "sort_id": 20013,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_KingAlpaca",
+      "slug": "Kingpaca_Bounty_Token",
+      "name": "Kingpaca_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Kingpaca_Bounty_Token",
+      "source_export": "data/raw/exports/en/Kingpaca_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_KingAlpaca",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_KingAlpaca",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_KingAlpaca",
+      "sort_id": 20011,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_AmaterasuWolf_Dark",
+      "slug": "Kitsun_Noct_Bounty_Token",
+      "name": "Kitsun_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Kitsun_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Kitsun_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_AmaterasuWolf_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_AmaterasuWolf_Dark",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_AmaterasuWolf_Dark",
+      "sort_id": 20044,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WingGolem",
+      "slug": "Knocklem_Bounty_Token",
+      "name": "Knocklem_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Knocklem_Bounty_Token",
+      "source_export": "data/raw/exports/en/Knocklem_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WingGolem",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WingGolem",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WingGolem",
+      "sort_id": 20041,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_RockBeast",
+      "slug": "Kuprok_Bounty_Token",
+      "name": "Kuprok_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Kuprok_Bounty_Token",
+      "source_export": "data/raw/exports/en/Kuprok_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_RockBeast",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_RockBeast",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_RockBeast",
+      "sort_id": 20099,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_RockBeast_Ice",
+      "slug": "Kuprok_Cryst_Bounty_Token",
+      "name": "Kuprok_Cryst_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Kuprok_Cryst_Bounty_Token",
+      "source_export": "data/raw/exports/en/Kuprok_Cryst_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_RockBeast_Ice",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_RockBeast_Ice",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_RockBeast_Ice",
+      "sort_id": 20082,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Werewolf_Ice",
+      "slug": "Loupmoon_Cryst_Bounty_Token",
+      "name": "Loupmoon_Cryst_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Loupmoon_Cryst_Bounty_Token",
+      "source_export": "data/raw/exports/en/Loupmoon_Cryst_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Werewolf_Ice",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Werewolf_Ice",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Werewolf_Ice",
+      "sort_id": 20065,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Mutant",
+      "slug": "Lunaris_Bounty_Token",
+      "name": "Lunaris_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Lunaris_Bounty_Token",
+      "source_export": "data/raw/exports/en/Lunaris_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Mutant",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Mutant",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Mutant",
+      "sort_id": 20025,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_LilyQueen",
+      "slug": "Lyleen_Bounty_Token",
+      "name": "Lyleen_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Lyleen_Bounty_Token",
+      "source_export": "data/raw/exports/en/Lyleen_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_LilyQueen",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_LilyQueen",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_LilyQueen",
+      "sort_id": 20089,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_LilyQueen_Dark",
+      "slug": "Lyleen_Noct_Bounty_Token",
+      "name": "Lyleen_Noct_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Lyleen_Noct_Bounty_Token",
+      "source_export": "data/raw/exports/en/Lyleen_Noct_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_LilyQueen_Dark",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_LilyQueen_Dark",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_LilyQueen_Dark",
+      "sort_id": 20039,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GrassMammoth",
+      "slug": "Mammorest_Bounty_Token",
+      "name": "Mammorest_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Mammorest_Bounty_Token",
+      "source_export": "data/raw/exports/en/Mammorest_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GrassMammoth",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GrassMammoth",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GrassMammoth",
+      "sort_id": 20028,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Menasting_Bounty_Token",
+      "slug": "Menasting_Bounty_Token",
+      "name": "Menasting_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Menasting_Bounty_Token",
+      "source_export": "data/raw/exports/en/Menasting_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_DarkScorpion_Ground",
+      "slug": "Menasting_Terra_Bounty_Token",
+      "name": "Menasting_Terra_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Menasting_Terra_Bounty_Token",
+      "source_export": "data/raw/exports/en/Menasting_Terra_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_DarkScorpion_Ground",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_DarkScorpion_Ground",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_DarkScorpion_Ground",
+      "sort_id": 20040,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_VolcanoDragon",
+      "slug": "Moldron_Bounty_Token",
+      "name": "Moldron_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Moldron_Bounty_Token",
+      "source_export": "data/raw/exports/en/Moldron_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_VolcanoDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_VolcanoDragon",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_VolcanoDragon",
+      "sort_id": 20100,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_VolcanoDragon_Ice",
+      "slug": "Moldron_Cryst_Bounty_Token",
+      "name": "Moldron_Cryst_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Moldron_Cryst_Bounty_Token",
+      "source_export": "data/raw/exports/en/Moldron_Cryst_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_VolcanoDragon_Ice",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_VolcanoDragon_Ice",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_VolcanoDragon_Ice",
+      "sort_id": 20078,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GrassPanda_Electric",
+      "slug": "Mossanda_Lux_Bounty_Token",
+      "name": "Mossanda_Lux_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Mossanda_Lux_Bounty_Token",
+      "source_export": "data/raw/exports/en/Mossanda_Lux_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GrassPanda_Electric",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GrassPanda_Electric",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GrassPanda_Electric",
+      "sort_id": 20024,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CactusDoll",
+      "slug": "Needoll_Bounty_Token",
+      "name": "Needoll_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Needoll_Bounty_Token",
+      "source_export": "data/raw/exports/en/Needoll_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CactusDoll",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CactusDoll",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CactusDoll",
+      "sort_id": 20101,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_PoseidonOrca",
+      "slug": "Neptilius_Bounty_Token",
+      "name": "Neptilius_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Neptilius_Bounty_Token",
+      "source_export": "data/raw/exports/en/Neptilius_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_PoseidonOrca",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_PoseidonOrca",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_PoseidonOrca",
+      "sort_id": 20069,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GhostRabbit",
+      "slug": "Nitemary_Bounty_Token",
+      "name": "Nitemary_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Nitemary_Bounty_Token",
+      "source_export": "data/raw/exports/en/Nitemary_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GhostRabbit",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GhostRabbit",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GhostRabbit",
+      "sort_id": 20053,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_HawkBird",
+      "slug": "Nitewing_Bounty_Token",
+      "name": "Nitewing_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Nitewing_Bounty_Token",
+      "source_export": "data/raw/exports/en/Nitewing_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_HawkBird",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_HawkBird",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_HawkBird",
+      "sort_id": 20008,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BadCatgirl",
+      "slug": "Nyafia_Bounty_Token",
+      "name": "Nyafia_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Nyafia_Bounty_Token",
+      "source_export": "data/raw/exports/en/Nyafia_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BadCatgirl",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BadCatgirl",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BadCatgirl",
+      "sort_id": 20056,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_MysteryMask",
+      "slug": "Omascul_Bounty_Token",
+      "name": "Omascul_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Omascul_Bounty_Token",
+      "source_export": "data/raw/exports/en/Omascul_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_MysteryMask",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_MysteryMask",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_MysteryMask",
+      "sort_id": 20058,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_LotusDragon",
+      "slug": "Ophydia_Bounty_Token",
+      "name": "Ophydia_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Ophydia_Bounty_Token",
+      "source_export": "data/raw/exports/en/Ophydia_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_LotusDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_LotusDragon",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_LotusDragon",
+      "sort_id": 20083,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CaptainPenguin",
+      "slug": "Penking_Bounty_Token",
+      "name": "Penking_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Penking_Bounty_Token",
+      "source_export": "data/raw/exports/en/Penking_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CaptainPenguin",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CaptainPenguin",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CaptainPenguin",
+      "sort_id": 20005,
+      "rarity": "Common",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FlowerDoll",
+      "slug": "Petallia_Bounty_Token",
+      "name": "Petallia_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Petallia_Bounty_Token",
+      "source_export": "data/raw/exports/en/Petallia_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FlowerDoll",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FlowerDoll",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FlowerDoll",
+      "sort_id": 20016,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ScorpionMan_Electric",
+      "slug": "Prixter_Lux_Bounty_Token",
+      "name": "Prixter_Lux_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Prixter_Lux_Bounty_Token",
+      "source_export": "data/raw/exports/en/Prixter_Lux_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ScorpionMan_Electric",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ScorpionMan_Electric",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ScorpionMan_Electric",
+      "sort_id": 20098,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BlueberryFairy",
+      "slug": "Prunelia_Bounty_Token",
+      "name": "Prunelia_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Prunelia_Bounty_Token",
+      "source_export": "data/raw/exports/en/Prunelia_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BlueberryFairy",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BlueberryFairy",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BlueberryFairy",
+      "sort_id": 20055,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_FireKirin",
+      "slug": "Pyrin_Bounty_Token",
+      "name": "Pyrin_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Pyrin_Bounty_Token",
+      "source_export": "data/raw/exports/en/Pyrin_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_FireKirin",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_FireKirin",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_FireKirin",
+      "sort_id": 20074,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_SkyDragon",
+      "slug": "Quivern_Bounty_Token",
+      "name": "Quivern_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Quivern_Bounty_Token",
+      "source_export": "data/raw/exports/en/Quivern_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_SkyDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_SkyDragon",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_SkyDragon",
+      "sort_id": 20009,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Relaxaurus_Bounty_Token",
+      "slug": "Relaxaurus_Bounty_Token",
+      "name": "Relaxaurus_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Relaxaurus_Bounty_Token",
+      "source_export": "data/raw/exports/en/Relaxaurus_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_KabukiMan",
+      "slug": "Renjishi_Bounty_Token",
+      "name": "Renjishi_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Renjishi_Bounty_Token",
+      "source_export": "data/raw/exports/en/Renjishi_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_KabukiMan",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_KabukiMan",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_KabukiMan",
+      "sort_id": 20077,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_VolcanicMonster",
+      "slug": "Reptyro_Bounty_Token",
+      "name": "Reptyro_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Reptyro_Bounty_Token",
+      "source_export": "data/raw/exports/en/Reptyro_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_VolcanicMonster",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_VolcanicMonster",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_VolcanicMonster",
+      "sort_id": 20076,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_PinkRabbit_Grass",
+      "slug": "Ribbuny_Botan_Bounty_Token",
+      "name": "Ribbuny_Botan_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Ribbuny_Botan_Bounty_Token",
+      "source_export": "data/raw/exports/en/Ribbuny_Botan_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_PinkRabbit_Grass",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_PinkRabbit_Grass",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_PinkRabbit_Grass",
+      "sort_id": 20066,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_MushroomLady",
+      "slug": "Shroomly_Bounty_Token",
+      "name": "Shroomly_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Shroomly_Bounty_Token",
+      "source_export": "data/raw/exports/en/Shroomly_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_MushroomLady",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_MushroomLady",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_MushroomLady",
+      "sort_id": 20080,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WhiteMoth",
+      "slug": "Sibelyx_Bounty_Token",
+      "name": "Sibelyx_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Sibelyx_Bounty_Token",
+      "source_export": "data/raw/exports/en/Sibelyx_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WhiteMoth",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WhiteMoth",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WhiteMoth",
+      "sort_id": 20030,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_WhiteShieldDragon",
+      "slug": "Silvegis_Bounty_Token",
+      "name": "Silvegis_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Silvegis_Bounty_Token",
+      "source_export": "data/raw/exports/en/Silvegis_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_WhiteShieldDragon",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_WhiteShieldDragon",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_WhiteShieldDragon",
+      "sort_id": 20047,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ElecLizard",
+      "slug": "Slowatt_Bounty_Token",
+      "name": "Slowatt_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Slowatt_Bounty_Token",
+      "source_export": "data/raw/exports/en/Slowatt_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ElecLizard",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ElecLizard",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ElecLizard",
+      "sort_id": 20086,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_BlackPuppy",
+      "slug": "Smokie_Bounty_Token",
+      "name": "Smokie_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Smokie_Bounty_Token",
+      "source_export": "data/raw/exports/en/Smokie_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_BlackPuppy",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_BlackPuppy",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_BlackPuppy",
+      "sort_id": 20052,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_ElecSnail",
+      "slug": "Snock_Bounty_Token",
+      "name": "Snock_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Snock_Bounty_Token",
+      "source_export": "data/raw/exports/en/Snock_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_ElecSnail",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_ElecSnail",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_ElecSnail",
+      "sort_id": 20087,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_GrimGirl",
+      "slug": "Splatterina_Bounty_Token",
+      "name": "Splatterina_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Splatterina_Bounty_Token",
+      "source_export": "data/raw/exports/en/Splatterina_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_GrimGirl",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_GrimGirl",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_GrimGirl",
+      "sort_id": 20042,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_NightBlueHorse",
+      "slug": "Starryon_Bounty_Token",
+      "name": "Starryon_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Starryon_Bounty_Token",
+      "source_export": "data/raw/exports/en/Starryon_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_NightBlueHorse",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_NightBlueHorse",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_NightBlueHorse",
+      "sort_id": 20054,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BountyProof_1",
+      "slug": "Successful_Bounty_Token",
+      "name": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Successful_Bounty_Token",
+      "source_export": "data/raw/exports/en/Successful_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BountyProof_1",
+      "type_a": "Material",
+      "type_b": "MaterialJewelry",
+      "icon_name": "BountyProof_1",
+      "rarity_label": "Epic",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 5105,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Material",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_Suzaku",
+      "slug": "Suzaku_Bounty_Token",
+      "name": "Suzaku_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Suzaku_Bounty_Token",
+      "source_export": "data/raw/exports/en/Suzaku_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Suzaku",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Suzaku",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Suzaku",
+      "sort_id": 20032,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Sweepa_Bounty_Token",
+      "slug": "Sweepa_Bounty_Token",
+      "name": "Sweepa_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Sweepa_Bounty_Token",
+      "source_export": "data/raw/exports/en/Sweepa_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_PurpleSpider",
+      "slug": "Tarantris_Bounty_Token",
+      "name": "Tarantris_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Tarantris_Bounty_Token",
+      "source_export": "data/raw/exports/en/Tarantris_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_PurpleSpider",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_PurpleSpider",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_PurpleSpider",
+      "sort_id": 20059,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CubeTurtle",
+      "slug": "Tetroise_Bounty_Token",
+      "name": "Tetroise_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Tetroise_Bounty_Token",
+      "source_export": "data/raw/exports/en/Tetroise_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CubeTurtle",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CubeTurtle",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CubeTurtle",
+      "sort_id": 20075,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_CubeTurtle_Neutral",
+      "slug": "Tetroise_Primo_Bounty_Token",
+      "name": "Tetroise_Primo_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Tetroise_Primo_Bounty_Token",
+      "source_export": "data/raw/exports/en/Tetroise_Primo_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_CubeTurtle_Neutral",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_CubeTurtle_Neutral",
+      "rarity_label": "Epic",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_CubeTurtle_Neutral",
+      "sort_id": 20096,
+      "rarity": "Epic",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Twin_Knights_Bounty_Token",
+      "slug": "Twin_Knights_Bounty_Token",
+      "name": "Twin_Knights_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Twin_Knights_Bounty_Token",
+      "source_export": "data/raw/exports/en/Twin_Knights_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_Kirin",
+      "slug": "Univolt_Bounty_Token",
+      "name": "Univolt_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Univolt_Bounty_Token",
+      "source_export": "data/raw/exports/en/Univolt_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Kirin",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Kirin",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Kirin",
+      "sort_id": 20022,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Vaelet_Bounty_Token",
+      "slug": "Vaelet_Bounty_Token",
+      "name": "Vaelet_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Vaelet_Bounty_Token",
+      "source_export": "data/raw/exports/en/Vaelet_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "Verdash_Bounty_Token",
+      "slug": "Verdash_Bounty_Token",
+      "name": "Verdash_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Verdash_Bounty_Token",
+      "source_export": "data/raw/exports/en/Verdash_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_HerculesBeetle",
+      "slug": "Warsect_Bounty_Token",
+      "name": "Warsect_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Warsect_Bounty_Token",
+      "source_export": "data/raw/exports/en/Warsect_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_HerculesBeetle",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_HerculesBeetle",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_HerculesBeetle",
+      "sort_id": 20018,
+      "rarity": "Rare",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_HerculesBeetle_Ground",
+      "slug": "Warsect_Terra_Bounty_Token",
+      "name": "Warsect_Terra_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Warsect_Terra_Bounty_Token",
+      "source_export": "data/raw/exports/en/Warsect_Terra_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_HerculesBeetle_Ground",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_HerculesBeetle_Ground",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_HerculesBeetle_Ground",
+      "sort_id": 20067,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Whalaska_Bounty_Token",
+      "slug": "Whalaska_Bounty_Token",
+      "name": "Whalaska_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Whalaska_Bounty_Token",
+      "source_export": "data/raw/exports/en/Whalaska_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_IceNarwhal_Fire",
+      "slug": "Whalaska_Ignis_Bounty_Token",
+      "name": "Whalaska_Ignis_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Whalaska_Ignis_Bounty_Token",
+      "source_export": "data/raw/exports/en/Whalaska_Ignis_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_IceNarwhal_Fire",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_IceNarwhal_Fire",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_IceNarwhal_Fire",
+      "sort_id": 20070,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "BossDefeatReward_MoonChild",
+      "slug": "Wistella_Bounty_Token",
+      "name": "Wistella_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Wistella_Bounty_Token",
+      "source_export": "data/raw/exports/en/Wistella_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_MoonChild",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_MoonChild",
+      "rarity_label": "Legendary",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_MoonChild",
+      "sort_id": 20097,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "Wixen_Bounty_Token",
+      "slug": "Wixen_Bounty_Token",
+      "name": "Wixen_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Wixen_Bounty_Token",
+      "source_export": "data/raw/exports/en/Wixen_Bounty_Token.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "id": "BossDefeatReward_Yeti_Grass",
+      "slug": "Wumpo_Botan_Bounty_Token",
+      "name": "Wumpo_Botan_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Wumpo_Botan_Bounty_Token",
+      "source_export": "data/raw/exports/en/Wumpo_Botan_Bounty_Token.html",
+      "from_index": "Bounty.html",
+      "export_thin": false,
+      "code": "BossDefeatReward_Yeti_Grass",
+      "type_a": "Essential",
+      "type_b": "Essential_BossReward",
+      "icon_name": "BossDefeatReward_Yeti_Grass",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "passive_skill_1": "BossDefeatReward_Yeti_Grass",
+      "sort_id": 20027,
+      "rarity": "Uncommon",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Key_Items",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

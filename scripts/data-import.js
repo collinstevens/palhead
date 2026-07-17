@@ -88,13 +88,28 @@ function resolveSource() {
 }
 
 const { source, how } = resolveSource();
+const allowMissingVendor =
+  process.env.ALLOW_MISSING_VENDOR === "1" ||
+  process.env.ALLOW_MISSING_VENDOR === "true" ||
+  process.env.CI === "true";
+const vendorCatalog = path.join(vendorDir, "catalog.json");
 
 if (!fs.existsSync(source)) {
+  if (allowMissingVendor && fs.existsSync(vendorCatalog)) {
+    console.warn(
+      "paldb publish source not found — using committed data/vendor/ (CI / offline)."
+    );
+    console.warn("looked for: " + source + " (" + how + ")");
+    process.exit(0);
+  }
   fail(
     "Import source not found: " +
       source +
       "\nSet PALDB_PUBLISH_DIR, pass a path, or ensure paldb-cc-exports publish bundles exist under:\n  " +
-      DEFAULT_PUBLISH_ROOT
+      DEFAULT_PUBLISH_ROOT +
+      (allowMissingVendor
+        ? "\nOr commit a data/vendor/ snapshot with catalog.json for CI builds."
+        : "")
   );
 }
 

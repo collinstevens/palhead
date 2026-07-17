@@ -1,0 +1,774 @@
+{
+  "generated_at": "2026-07-17T02:45:01.963883+00:00",
+  "language": "en",
+  "count": 28,
+  "source_url": "https://paldb.cc/en/Disposable_Implant",
+  "source_export": "data/raw/exports/en/Disposable_Implant.html",
+  "paragraphs": [
+    "\"Disposable Implant\" usable at the Pal Surgery Table . It is consumed on use, but can grant more powerful passive skills.",
+    "A new category, World Tree Passive Skills, has also been added. These are incredibly powerful passive skills, but they come with a cost…"
+  ],
+  "disposable_implants": [
+    {
+      "id": "PalPassiveSkillChange_Consumable_MutationPal_Babysitter",
+      "slug": "Disposable_Implant__Babysitter",
+      "name": "Disposable_Implant__Babysitter",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Babysitter",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Babysitter.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_MutationPal_Babysitter",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6261,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Babysitter"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_PAL_ALLAttack_up3",
+      "slug": "Disposable_Implant__Demon_God",
+      "name": "Disposable_Implant__Demon_God",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Demon_God",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Demon_God.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_PAL_ALLAttack_up3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6252,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Demon_God"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_CraftSpeed",
+      "slug": "Disposable_Implant__Demonic_Grasp",
+      "name": "Disposable_Implant__Demonic_Grasp",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Demonic_Grasp",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Demonic_Grasp.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_CraftSpeed",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6243,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Demonic_Grasp"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Deffence_up3",
+      "slug": "Disposable_Implant__Diamond_Body",
+      "name": "Disposable_Implant__Diamond_Body",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Diamond_Body",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Diamond_Body.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Deffence_up3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6249,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Diamond_Body"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_MoveSpeed",
+      "slug": "Disposable_Implant__Dimensional_Leap",
+      "name": "Disposable_Implant__Dimensional_Leap",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Dimensional_Leap",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Dimensional_Leap.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_MoveSpeed",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6246,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Dimensional_Leap"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_ATK",
+      "slug": "Disposable_Implant__Double-Edged_Holy_Sword",
+      "name": "Disposable_Implant__Double-Edged_Holy_Sword",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Double-Edged_Holy_Sword",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Double-Edged_Holy_Sword.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_ATK",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6241,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Double-Edged_Holy_Sword"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Stamina_Up_3",
+      "slug": "Disposable_Implant__Eternal_Engine",
+      "name": "Disposable_Implant__Eternal_Engine",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Eternal_Engine",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Eternal_Engine.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Stamina_Up_3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6256,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Eternal_Engine"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_EternalFlame",
+      "slug": "Disposable_Implant__Eternal_Flame",
+      "name": "Disposable_Implant__Eternal_Flame",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Eternal_Flame",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Eternal_Flame.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_EternalFlame",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Eternal_Flame"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_ATK_DEF",
+      "slug": "Disposable_Implant__God_of_Destruction",
+      "name": "Disposable_Implant__God_of_Destruction",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_God_of_Destruction",
+      "source_export": "data/raw/exports/en/Disposable_Implant__God_of_Destruction.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_ATK_DEF",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6247,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "God_of_Destruction"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_PAL_Sanity_Down_3",
+      "slug": "Disposable_Implant__Heart_of_the_Immovable_King",
+      "name": "Disposable_Implant__Heart_of_the_Immovable_King",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Heart_of_the_Immovable_King",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Heart_of_the_Immovable_King.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_PAL_Sanity_Down_3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6254,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Heart_of_the_Immovable_King"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_MutationPal_ExplosionResist",
+      "slug": "Disposable_Implant__Heavily_Armored",
+      "name": "Disposable_Implant__Heavily_Armored",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Heavily_Armored",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Heavily_Armored.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_MutationPal_ExplosionResist",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6264,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [
+        {
+          "slug": "Passive_Skills",
+          "name": "Heavily Armored"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Heavily_Armored"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_Sanity",
+      "slug": "Disposable_Implant__Hermit",
+      "name": "Disposable_Implant__Hermit",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Hermit",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Hermit.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_Sanity",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6245,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Hermit"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_MutationPal_Mutant",
+      "slug": "Disposable_Implant__Idiosyncratic",
+      "name": "Disposable_Implant__Idiosyncratic",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Idiosyncratic",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Idiosyncratic.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_MutationPal_Mutant",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6262,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Idiosyncratic"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_MutationPal_Immortal",
+      "slug": "Disposable_Implant__Immortality",
+      "name": "Disposable_Implant__Immortality",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Immortality",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Immortality.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_MutationPal_Immortal",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6263,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Immortality"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Invader",
+      "slug": "Disposable_Implant__Invader",
+      "name": "Disposable_Implant__Invader",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Invader",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Invader.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Invader",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Invader"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_SwimSpeed_up_3",
+      "slug": "Disposable_Implant__King_of_the_Waves",
+      "name": "Disposable_Implant__King_of_the_Waves",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_King_of_the_Waves",
+      "source_export": "data/raw/exports/en/Disposable_Implant__King_of_the_Waves.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_SwimSpeed_up_3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6259,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "King_of_the_Waves"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Legend",
+      "slug": "Disposable_Implant__Legend",
+      "name": "Disposable_Implant__Legend",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Legend",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Legend.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Legend",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Legend"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Rare",
+      "slug": "Disposable_Implant__Lucky",
+      "name": "Disposable_Implant__Lucky",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Lucky",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Lucky.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Rare",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Lucky"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Nushi",
+      "slug": "Disposable_Implant__Lunker",
+      "name": "Disposable_Implant__Lunker",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Lunker",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Lunker.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Nushi",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Lunker"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_PAL_FullStomach_Down_3",
+      "slug": "Disposable_Implant__Mastery_of_Fasting",
+      "name": "Disposable_Implant__Mastery_of_Fasting",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Mastery_of_Fasting",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Mastery_of_Fasting.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_PAL_FullStomach_Down_3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6253,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Mastery_of_Fasting"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_CraftSpeed_up3",
+      "slug": "Disposable_Implant__Remarkable_Craftsmanship",
+      "name": "Disposable_Implant__Remarkable_Craftsmanship",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Remarkable_Craftsmanship",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Remarkable_Craftsmanship.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_CraftSpeed_up3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6248,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Remarkable_Craftsmanship"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_DEF",
+      "slug": "Disposable_Implant__Sacred_Flesh",
+      "name": "Disposable_Implant__Sacred_Flesh",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Sacred_Flesh",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Sacred_Flesh.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_DEF",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6242,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Sacred_Flesh"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Salvation",
+      "slug": "Disposable_Implant__Savior",
+      "name": "Disposable_Implant__Savior",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Savior",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Savior.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Salvation",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6260,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Savior"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Witch",
+      "slug": "Disposable_Implant__Siren_of_the_Void",
+      "name": "Disposable_Implant__Siren_of_the_Void",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Siren_of_the_Void",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Siren_of_the_Void.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Witch",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 99,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Siren_of_the_Void"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_RideJumpCount_Increase2",
+      "slug": "Disposable_Implant__Skymarcher",
+      "name": "Disposable_Implant__Skymarcher",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Skymarcher",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Skymarcher.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_RideJumpCount_Increase2",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6265,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Skymarcher"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_MoveSpeed_up_3",
+      "slug": "Disposable_Implant__Swift",
+      "name": "Disposable_Implant__Swift",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Swift",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Swift.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_MoveSpeed_up_3",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6255,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Swift"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_Vampire",
+      "slug": "Disposable_Implant__Vampiric",
+      "name": "Disposable_Implant__Vampiric",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_Vampiric",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Vampiric.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_Vampire",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6257,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "Vampiric"
+    },
+    {
+      "id": "PalPassiveSkillChange_Consumable_WorldTree_FullStomach",
+      "slug": "Disposable_Implant__World_Trees_Bounty",
+      "name": "Disposable_Implant__World_Trees_Bounty",
+      "source_url": "https://paldb.cc/en/Disposable_Implant%3A_World_Trees_Bounty",
+      "source_export": "data/raw/exports/en/Disposable_Implant__World_Trees_Bounty.html",
+      "export_thin": false,
+      "code": "PalPassiveSkillChange_Consumable_WorldTree_FullStomach",
+      "type_a": "Consume",
+      "type_b": "ConsumePassiveSkillChange",
+      "icon_name": "PalPassiveSkillChange_Consumable",
+      "rarity_label": "Legendary",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 6244,
+      "rarity": "Legendary",
+      "craft_times": [],
+      "workstations": [],
+      "recipe_materials": [
+        {
+          "slug": "Consumable",
+          "quantity": 10
+        }
+      ],
+      "passive_hint": "World_Trees_Bounty"
+    }
+  ]
+}

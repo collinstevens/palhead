@@ -1,0 +1,935 @@
+{
+  "generated_at": "2026-07-17T02:45:03.476859+00:00",
+  "language": "en",
+  "count": 21,
+  "boss_entities": [
+    {
+      "id": "BOSS_NAME_BeardedDragon_BeardedDragon",
+      "slug": "BOSS_NAME_BeardedDragon_BeardedDragon",
+      "name": "BOSS_NAME_BeardedDragon_BeardedDragon",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_BeardedDragon_BeardedDragon",
+      "source_export": "data/raw/exports/en/BOSS_NAME_BeardedDragon_BeardedDragon.html",
+      "identity": {
+        "Code": "BOSS_BeardedDragon",
+        "BPClass": "BeardedDragon",
+        "Tribe": "BeardedDragon",
+        "ZukanIndex": -1,
+        "GenusCategory": "Dragon"
+      },
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 32,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "BOSS_NAME_DarkMutant_DarkMutant",
+      "slug": "BOSS_NAME_DarkMutant_DarkMutant",
+      "name": "BOSS_NAME_DarkMutant_DarkMutant",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_DarkMutant_DarkMutant",
+      "source_export": "data/raw/exports/en/BOSS_NAME_DarkMutant_DarkMutant.html",
+      "identity": {
+        "Code": "BOSS_DarkMutant",
+        "BPClass": "BOSS_DarkMutant",
+        "Tribe": "DarkMutant",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 37,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "BOSS_NAME_ElecLion_Boltmane",
+      "slug": "BOSS_NAME_ElecLion_Boltmane",
+      "name": "BOSS_NAME_ElecLion_Boltmane",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_ElecLion_Boltmane",
+      "source_export": "data/raw/exports/en/BOSS_NAME_ElecLion_Boltmane.html",
+      "identity": {
+        "Code": "BOSS_ElecLion",
+        "BPClass": "BOSS_ElecLion",
+        "Tribe": "ElecLion",
+        "ZukanIndex": -1,
+        "GenusCategory": "FourLegged"
+      },
+      "elements": [
+        "Electricity"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 760,
+          "max": 958,
+          "raw": "760 – 958"
+        },
+        "Defense": {
+          "min": 470,
+          "max": 596,
+          "raw": "470 – 596"
+        },
+        "Rarity": 32,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "BOSS_NAME_GrassDragon_GrassDragon",
+      "slug": "BOSS_NAME_GrassDragon_GrassDragon",
+      "name": "BOSS_NAME_GrassDragon_GrassDragon",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_GrassDragon_GrassDragon",
+      "source_export": "data/raw/exports/en/BOSS_NAME_GrassDragon_GrassDragon.html",
+      "identity": {
+        "Code": "BOSS_GrassDragon",
+        "BPClass": "GrassDragon",
+        "Tribe": "GrassDragon",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Leaf"
+      ],
+      "stats": {
+        "Health": {
+          "min": 7140,
+          "max": 9012,
+          "raw": "7140 – 9012"
+        },
+        "Attack": {
+          "min": 820,
+          "max": 1036,
+          "raw": "820 – 1036"
+        },
+        "Defense": {
+          "min": 590,
+          "max": 752,
+          "raw": "590 – 752"
+        },
+        "Rarity": 32,
+        "MeleeAttack": 30,
+        "Support": 42,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "slug": "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "name": "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "source_export": "data/raw/exports/en/BOSS_NAME_PinkKangaroo_PinkKangaroo.html",
+      "identity": {
+        "Code": "BOSS_PinkKangaroo",
+        "BPClass": "BOSS_PinkKangaroo",
+        "Tribe": "PinkKangaroo",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Normal"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 32,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "BOSS_NAME_WaterLizard_WaterLizard",
+      "slug": "BOSS_NAME_WaterLizard_WaterLizard",
+      "name": "BOSS_NAME_WaterLizard_WaterLizard",
+      "source_url": "https://paldb.cc/en/BOSS_NAME_WaterLizard_WaterLizard",
+      "source_export": "data/raw/exports/en/BOSS_NAME_WaterLizard_WaterLizard.html",
+      "identity": {
+        "Code": "BOSS_WaterLizard",
+        "BPClass": "BOSS_WaterLizard",
+        "Tribe": "WaterLizard",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5220,
+          "max": 6516,
+          "raw": "5220 – 6516"
+        },
+        "Attack": {
+          "min": 640,
+          "max": 802,
+          "raw": "640 – 802"
+        },
+        "Defense": {
+          "min": 590,
+          "max": 752,
+          "raw": "590 – 752"
+        },
+        "Rarity": 32,
+        "MeleeAttack": 70,
+        "Support": 42,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_4",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "slug": "Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "name": "Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "source_url": "https://paldb.cc/en/Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "source_export": "data/raw/exports/en/Rayne_Syndicate_Boss_Zoe_&_Grizzbolt.html",
+      "identity": {
+        "Code": "GYM_ElecPanda",
+        "BPClass": "GYM_ElecPanda",
+        "Tribe": "ElecPanda",
+        "ZukanIndex": -2,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Electricity"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5100,
+          "max": 6360,
+          "raw": "5100 – 6360"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 37,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "CombiRank": 32,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "TowerBoss",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_ArmorWoodlouse",
+      "slug": "_BOSS_ArmorWoodlouse",
+      "name": "_BOSS_ArmorWoodlouse",
+      "source_url": "https://paldb.cc/en/_BOSS_ArmorWoodlouse",
+      "source_export": "data/raw/exports/en/_BOSS_ArmorWoodlouse.html",
+      "identity": {
+        "Code": "BOSS_ArmorWoodlouse",
+        "BPClass": "BOSS_ArmorWoodlouse",
+        "Tribe": "ArmorWoodlouse",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Earth"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_BlueWoolRabbit",
+      "slug": "_BOSS_BlueWoolRabbit",
+      "name": "_BOSS_BlueWoolRabbit",
+      "source_url": "https://paldb.cc/en/_BOSS_BlueWoolRabbit",
+      "source_export": "data/raw/exports/en/_BOSS_BlueWoolRabbit.html",
+      "identity": {
+        "Code": "BOSS_BlueWoolRabbit",
+        "BPClass": "BOSS_BlueWoolRabbit",
+        "Tribe": "BlueWoolRabbit",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_5",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_CuteOrca",
+      "slug": "_BOSS_CuteOrca",
+      "name": "_BOSS_CuteOrca",
+      "source_url": "https://paldb.cc/en/_BOSS_CuteOrca",
+      "source_export": "data/raw/exports/en/_BOSS_CuteOrca.html",
+      "identity": {
+        "Code": "BOSS_CuteOrca",
+        "BPClass": "BOSS_CuteOrca",
+        "Tribe": "CuteOrca",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_ElecSnail_Fire",
+      "slug": "_BOSS_ElecSnail_Fire",
+      "name": "_BOSS_ElecSnail_Fire",
+      "source_url": "https://paldb.cc/en/_BOSS_ElecSnail_Fire",
+      "source_export": "data/raw/exports/en/_BOSS_ElecSnail_Fire.html",
+      "identity": {
+        "Code": "BOSS_ElecSnail_Fire",
+        "BPClass": "BOSS_ElecSnail_Fire",
+        "Tribe": "ElecSnail_Fire",
+        "ZukanIndex": -1,
+        "GenusCategory": "FourLegged"
+      },
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_5",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_FrozenBear",
+      "slug": "_BOSS_FrozenBear",
+      "name": "_BOSS_FrozenBear",
+      "source_url": "https://paldb.cc/en/_BOSS_FrozenBear",
+      "source_export": "data/raw/exports/en/_BOSS_FrozenBear.html",
+      "identity": {
+        "Code": "BOSS_FrozenBear",
+        "BPClass": "BOSS_FrozenBear",
+        "Tribe": "FrozenBear",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_3",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_IceVeilDragon",
+      "slug": "_BOSS_IceVeilDragon",
+      "name": "_BOSS_IceVeilDragon",
+      "source_url": "https://paldb.cc/en/_BOSS_IceVeilDragon",
+      "source_export": "data/raw/exports/en/_BOSS_IceVeilDragon.html",
+      "identity": {
+        "Code": "BOSS_IceVeilDragon",
+        "BPClass": "BOSS_IceVeilDragon",
+        "Tribe": "IceVeilDragon",
+        "ZukanIndex": -1,
+        "GenusCategory": "Dragon"
+      },
+      "elements": [
+        "Dragon",
+        "Ice"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_KingCrab",
+      "slug": "_BOSS_KingCrab",
+      "name": "_BOSS_KingCrab",
+      "source_url": "https://paldb.cc/en/_BOSS_KingCrab",
+      "source_export": "data/raw/exports/en/_BOSS_KingCrab.html",
+      "identity": {
+        "Code": "BOSS_KingCrab",
+        "BPClass": "BOSS_KingCrab",
+        "Tribe": "KingCrab",
+        "ZukanIndex": -1,
+        "GenusCategory": "FourLegged"
+      },
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_3",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_LeafBird",
+      "slug": "_BOSS_LeafBird",
+      "name": "_BOSS_LeafBird",
+      "source_url": "https://paldb.cc/en/_BOSS_LeafBird",
+      "source_export": "data/raw/exports/en/_BOSS_LeafBird.html",
+      "identity": {
+        "Code": "BOSS_LeafBird",
+        "BPClass": "BOSS_LeafBird",
+        "Tribe": "LeafBird",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Leaf"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_MedjedBird",
+      "slug": "_BOSS_MedjedBird",
+      "name": "_BOSS_MedjedBird",
+      "source_url": "https://paldb.cc/en/_BOSS_MedjedBird",
+      "source_export": "data/raw/exports/en/_BOSS_MedjedBird.html",
+      "identity": {
+        "Code": "BOSS_MedjedBird",
+        "BPClass": "BOSS_MedjedBird",
+        "Tribe": "MedjedBird",
+        "ZukanIndex": -1,
+        "GenusCategory": "Bird"
+      },
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_3",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_MexicanSalamander",
+      "slug": "_BOSS_MexicanSalamander",
+      "name": "_BOSS_MexicanSalamander",
+      "source_url": "https://paldb.cc/en/_BOSS_MexicanSalamander",
+      "source_export": "data/raw/exports/en/_BOSS_MexicanSalamander.html",
+      "identity": {
+        "Code": "BOSS_MexicanSalamander",
+        "BPClass": "BOSS_MexicanSalamander",
+        "Tribe": "MexicanSalamander",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_Monkey_Ice",
+      "slug": "_BOSS_Monkey_Ice",
+      "name": "_BOSS_Monkey_Ice",
+      "source_url": "https://paldb.cc/en/_BOSS_Monkey_Ice",
+      "source_export": "data/raw/exports/en/_BOSS_Monkey_Ice.html",
+      "identity": {
+        "Code": "BOSS_Monkey_Ice",
+        "BPClass": "BOSS_Monkey_Ice",
+        "Tribe": "Monkey_Ice",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "Health": {
+          "min": 4740,
+          "max": 5892,
+          "raw": "4740 – 5892"
+        },
+        "Attack": {
+          "min": 520,
+          "max": 646,
+          "raw": "520 – 646"
+        },
+        "Defense": {
+          "min": 500,
+          "max": 635,
+          "raw": "500 – 635"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "NotInterested",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_MonochromeMushroom",
+      "slug": "_BOSS_MonochromeMushroom",
+      "name": "_BOSS_MonochromeMushroom",
+      "source_url": "https://paldb.cc/en/_BOSS_MonochromeMushroom",
+      "source_export": "data/raw/exports/en/_BOSS_MonochromeMushroom.html",
+      "identity": {
+        "Code": "BOSS_MonochromeMushroom",
+        "BPClass": "BOSS_MonochromeMushroom",
+        "Tribe": "MonochromeMushroom",
+        "ZukanIndex": -1,
+        "GenusCategory": "Other"
+      },
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_4",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_RockCheetah",
+      "slug": "_BOSS_RockCheetah",
+      "name": "_BOSS_RockCheetah",
+      "source_url": "https://paldb.cc/en/_BOSS_RockCheetah",
+      "source_export": "data/raw/exports/en/_BOSS_RockCheetah.html",
+      "identity": {
+        "Code": "BOSS_RockCheetah",
+        "BPClass": "BOSS_RockCheetah",
+        "Tribe": "RockCheetah",
+        "ZukanIndex": -1,
+        "GenusCategory": "Humanoid"
+      },
+      "elements": [
+        "Earth"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    },
+    {
+      "id": "_BOSS_SnakeQueen",
+      "slug": "_BOSS_SnakeQueen",
+      "name": "_BOSS_SnakeQueen",
+      "source_url": "https://paldb.cc/en/_BOSS_SnakeQueen",
+      "source_export": "data/raw/exports/en/_BOSS_SnakeQueen.html",
+      "identity": {
+        "Code": "BOSS_SnakeQueen",
+        "BPClass": "BOSS_SnakeQueen",
+        "Tribe": "SnakeQueen",
+        "ZukanIndex": -1,
+        "GenusCategory": "Other"
+      },
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "Health": {
+          "min": 5700,
+          "max": 7140,
+          "raw": "5700 – 7140"
+        },
+        "Attack": {
+          "min": 700,
+          "max": 880,
+          "raw": "700 – 880"
+        },
+        "Defense": {
+          "min": 650,
+          "max": 830,
+          "raw": "650 – 830"
+        },
+        "Rarity": 21,
+        "MeleeAttack": 50,
+        "Support": 58,
+        "WorkSpeed": 100
+      },
+      "flags": {
+        "is_pal": true,
+        "ai_response": "Boss",
+        "battle_bgm": "FieldBoss_Tier_2",
+        "biological_grade": 9
+      }
+    }
+  ]
+}

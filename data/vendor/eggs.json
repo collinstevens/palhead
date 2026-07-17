@@ -1,0 +1,4936 @@
+{
+  "generated_at": "2026-07-17T02:45:15.795540+00:00",
+  "language": "en",
+  "count": 27,
+  "eggs": [
+    {
+      "id": "Common_Egg",
+      "name": "Common Egg",
+      "pals": [
+        {
+          "name": "Lapure",
+          "slug": "Lapure",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Valentail",
+          "slug": "Valentail",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Nitewing",
+          "slug": "Nitewing",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Direhowl",
+          "slug": "Direhowl",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Woolipop",
+          "slug": "Woolipop",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Ribbuny",
+          "slug": "Ribbuny",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Galeclaw",
+          "slug": "Galeclaw",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Tocotoco",
+          "slug": "Tocotoco",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Ribbuny",
+          "slug": "Ribbuny",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Melpaca",
+          "slug": "Melpaca",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Direhowl",
+          "slug": "Direhowl",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Chikipi",
+          "slug": "Chikipi",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Cattiva",
+          "slug": "Cattiva",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Lamball",
+          "slug": "Lamball",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Vixy",
+          "slug": "Vixy",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Nitewing",
+          "slug": "Nitewing",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Cremis",
+          "slug": "Cremis",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Mozzarina",
+          "slug": "Mozzarina",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Tocotoco",
+          "slug": "Tocotoco",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Killamari Primo",
+          "slug": "Killamari_Primo",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Yakumo",
+          "slug": "Yakumo",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Tocotoco",
+          "slug": "Tocotoco",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Lamball Cattiva Chikipi Vixy Cremis Melpaca Killamari Primo Direhowl Woolipop Mozzarina Ribbuny Galeclaw Nitewing Tocotoco Fenglope Yakumo Valentail Lapure",
+          "slug": "Lamball",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Damp_Egg",
+      "name": "Damp Egg",
+      "pals": [
+        {
+          "name": "Amione",
+          "slug": "Amione",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Jellroy",
+          "slug": "Jellroy",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Jelliette",
+          "slug": "Jelliette",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Turtacle",
+          "slug": "Turtacle",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Gobfin",
+          "slug": "Gobfin",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Surfent",
+          "slug": "Surfent",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Celaray",
+          "slug": "Celaray",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Fuack",
+          "slug": "Fuack",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Kelpsea",
+          "slug": "Kelpsea",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Gobfin",
+          "slug": "Gobfin",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Celaray",
+          "slug": "Celaray",
+          "weight": "5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Teafant",
+          "slug": "Teafant",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Kelpsea",
+          "slug": "Kelpsea",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Croajiro",
+          "slug": "Croajiro",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Amione",
+          "slug": "Amione",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Fuack",
+          "slug": "Fuack",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Pengullet",
+          "slug": "Pengullet",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Gobfin",
+          "slug": "Gobfin",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Turtacle",
+          "slug": "Turtacle",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Fuack Ignis",
+          "slug": "Fuack_Ignis",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Pengullet",
+          "slug": "Pengullet",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Turtacle",
+          "slug": "Turtacle",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Croajiro",
+          "slug": "Croajiro",
+          "weight": "4",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Surfent",
+          "slug": "Surfent",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Celaray Lux",
+          "slug": "Celaray_Lux",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Pengullet",
+          "slug": "Pengullet",
+          "weight": "8",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Turtacle",
+          "slug": "Turtacle",
+          "weight": "8",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Croajiro",
+          "slug": "Croajiro",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Turtacle Terra",
+          "slug": "Turtacle_Terra",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Fuack Fuack Ignis Celaray Celaray Lux Croajiro Teafant Pengullet Pengullet Lux Turtacle Turtacle Terra Kelpsea Jelliette Jellroy Amione Gobfin Surfent Finsider Finsider Ignis Solmora",
+          "slug": "Fuack",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Dark_Egg",
+      "name": "Dark Egg",
+      "pals": [
+        {
+          "name": "Wistella",
+          "slug": "Wistella",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Hoodle",
+          "slug": "Hoodle",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Bakemi",
+          "slug": "Bakemi",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Dazzi Noct",
+          "slug": "Dazzi_Noct",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Caprity Noct",
+          "slug": "Caprity_Noct",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Nyafia",
+          "slug": "Nyafia",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Omascul",
+          "slug": "Omascul",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Splatterina",
+          "slug": "Splatterina",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Smokie",
+          "slug": "Smokie",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Killamari",
+          "slug": "Killamari",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Cawgnito",
+          "slug": "Cawgnito",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Tarantriss",
+          "slug": "Tarantriss",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Tarantriss",
+          "slug": "Tarantriss",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Dazzi Noct",
+          "slug": "Dazzi_Noct",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Loupmoon",
+          "slug": "Loupmoon",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Daedream",
+          "slug": "Daedream",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Caprity Noct",
+          "slug": "Caprity_Noct",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Depresso",
+          "slug": "Depresso",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Hoocrates",
+          "slug": "Hoocrates",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Leezpunk",
+          "slug": "Leezpunk",
+          "weight": "10",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Killamari",
+          "slug": "Killamari",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Loupmoon",
+          "slug": "Loupmoon",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Loupmoon",
+          "slug": "Loupmoon",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Cawgnito",
+          "slug": "Cawgnito",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Leezpunk",
+          "slug": "Leezpunk",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Cawgnito",
+          "slug": "Cawgnito",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Smokie",
+          "slug": "Smokie",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Caprity Noct",
+          "slug": "Caprity_Noct",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Loupmoon",
+          "slug": "Loupmoon",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Depresso Hoocrates Daedream Mau Killamari Caprity Noct Loupmoon Cawgnito Tarantriss Leezpunk Dazzi Noct Needoll Noct Nyafia Smokie Smokie Cryst Omascul Splatterina Hoodle Bakemi Wistella",
+          "slug": "Depresso",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Electric_Egg",
+      "name": "Electric Egg",
+      "pals": [
+        {
+          "name": "Snock Lux",
+          "slug": "Snock_Lux",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Snock",
+          "slug": "Snock",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Puffolt",
+          "slug": "Puffolt",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Slowatt",
+          "slug": "Slowatt",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Fenglope Lux",
+          "slug": "Fenglope_Lux",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Slowatt",
+          "slug": "Slowatt",
+          "weight": "3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Snock",
+          "slug": "Snock",
+          "weight": "3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Puffolt",
+          "slug": "Puffolt",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Jolthog",
+          "slug": "Jolthog",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Jolthog",
+          "slug": "Jolthog",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dazzi",
+          "slug": "Dazzi",
+          "weight": "8",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Dazzi",
+          "slug": "Dazzi",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Jolthog Sparkit Puffolt Fenglope Lux Dazzi Snock Snock Lux Slowatt",
+          "slug": "Jolthog",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Frozen_Egg",
+      "name": "Frozen Egg",
+      "pals": [
+        {
+          "name": "Muffly",
+          "slug": "Muffly",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Loupmoon Cryst",
+          "slug": "Loupmoon_Cryst",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Reindrix",
+          "slug": "Reindrix",
+          "weight": "10",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Snugloo",
+          "slug": "Snugloo",
+          "weight": "7",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Swee",
+          "slug": "Swee",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Jolthog Cryst",
+          "slug": "Jolthog_Cryst",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Muffly",
+          "slug": "Muffly",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Chillet",
+          "slug": "Chillet",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Foxparks Cryst",
+          "slug": "Foxparks_Cryst",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Chillet",
+          "slug": "Chillet",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Hangyu Cryst",
+          "slug": "Hangyu_Cryst",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Swee",
+          "slug": "Swee",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Reindrix",
+          "slug": "Reindrix",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Frostplume",
+          "slug": "Frostplume",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Foxparks Cryst",
+          "slug": "Foxparks_Cryst",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Munchill",
+          "slug": "Munchill",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Swee",
+          "slug": "Swee",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Hangyu Cryst",
+          "slug": "Hangyu_Cryst",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Foxparks Cryst",
+          "slug": "Foxparks_Cryst",
+          "weight": "8",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Munchill",
+          "slug": "Munchill",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Jolthog Cryst Mau Cryst Foxparks Cryst Swee Hangyu Cryst Loupmoon Cryst Muffly Munchill Reindrix Chillet Frostplume Icelyn Snugloo",
+          "slug": "Jolthog_Cryst",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Common_Egg",
+      "name": "Huge Common Egg",
+      "pals": [
+        {
+          "name": "Starryon Primo",
+          "slug": "Starryon_Primo",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Tetroise Primo",
+          "slug": "Tetroise_Primo",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Sibelyx Primo",
+          "slug": "Sibelyx_Primo",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Treasure Trove Mimog",
+          "slug": "Treasure_Trove_Mimog",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Silvermane Starryon Primo",
+          "slug": "Silvermane_Starryon_Primo",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Sandsea Wardenstone Tetroise Primo",
+          "slug": "Sandsea_Wardenstone_Tetroise_Primo",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Gilded Lady Sibelyx Primo",
+          "slug": "Gilded_Lady_Sibelyx_Primo",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Beast of Salvation Celesdir",
+          "slug": "Beast_of_Salvation_Celesdir",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Tetroise Primo",
+          "slug": "Tetroise_Primo",
+          "weight": "3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Sandsea Wardenstone Tetroise Primo",
+          "slug": "Sandsea_Wardenstone_Tetroise_Primo",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Jungle Punk Gorirat",
+          "slug": "Jungle_Punk_Gorirat",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Extraterrestrial Lunaris",
+          "slug": "Extraterrestrial_Lunaris",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Pompous Shanks Melpaca",
+          "slug": "Pompous_Shanks_Melpaca",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Extraterrestrial Lunaris",
+          "slug": "Extraterrestrial_Lunaris",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Extraterrestrial Lunaris",
+          "slug": "Extraterrestrial_Lunaris",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Extraterrestrial Lunaris",
+          "slug": "Extraterrestrial_Lunaris",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "State of Enlightenment Dogen",
+          "slug": "State_of_Enlightenment_Dogen",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Marshmallow Body Grintale",
+          "slug": "Marshmallow_Body_Grintale",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Kingpaca Sibelyx Primo Starryon Primo Tetroise Primo Hartalis Paladius",
+          "slug": "Kingpaca",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Damp_Egg",
+      "name": "Huge Damp Egg",
+      "pals": [
+        {
+          "name": "Faleris Aqua",
+          "slug": "Faleris_Aqua",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Sentinel of the Tides Faleris Aqua",
+          "slug": "Sentinel_of_the_Tides_Faleris_Aqua",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Buoyant Brigadier Solmora Lux",
+          "slug": "Buoyant_Brigadier_Solmora_Lux",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Everyday Trickster Gloopie Primo",
+          "slug": "Everyday_Trickster_Gloopie_Primo",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Natural Born Killer Croajiro Noct",
+          "slug": "Natural_Born_Killer_Croajiro_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Trickster of the Sea Gloopie",
+          "slug": "Trickster_of_the_Sea_Gloopie",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Everyday Trickster Gloopie Primo",
+          "slug": "Everyday_Trickster_Gloopie_Primo",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Lady of the Lake Azurobe",
+          "slug": "Lady_of_the_Lake_Azurobe",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Splashy Determined Draw Skutlass",
+          "slug": "Splashy_Determined_Draw_Skutlass",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Pioneer of the Frozen Sea Penking",
+          "slug": "Pioneer_of_the_Frozen_Sea_Penking",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Pioneer of the Frozen Sea Penking",
+          "slug": "Pioneer_of_the_Frozen_Sea_Penking",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Trickster of the Sea Gloopie",
+          "slug": "Trickster_of_the_Sea_Gloopie",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Suzaku Aqua Faleris Aqua Neptilius Panthalus",
+          "slug": "Suzaku_Aqua",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Dark_Egg",
+      "name": "Huge Dark Egg",
+      "pals": [
+        {
+          "name": "Lyleen Noct",
+          "slug": "Lyleen_Noct",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Selyne",
+          "slug": "Selyne",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Flickering Shadow Majex",
+          "slug": "Flickering_Shadow_Majex",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Adorable Phantom Thief Wispaw",
+          "slug": "Adorable_Phantom_Thief_Wispaw",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Revealer of Truths Loomen",
+          "slug": "Revealer_of_Truths_Loomen",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Empress of the Abyss Lyleen Noct",
+          "slug": "Empress_of_the_Abyss_Lyleen_Noct",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Veiled Dancer of Dusk Solenne",
+          "slug": "Veiled_Dancer_of_Dusk_Solenne",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Crescent of the Darkest Night Selyne",
+          "slug": "Crescent_of_the_Darkest_Night_Selyne",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Salon Shunner Venusa",
+          "slug": "Salon_Shunner_Venusa",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Pitch Black Pilferer Roujay",
+          "slug": "Pitch_Black_Pilferer_Roujay",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Beast of Chaos Celesdir Noct",
+          "slug": "Beast_of_Chaos_Celesdir_Noct",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Guardian of the Dark Flame Kitsun Noct",
+          "slug": "Guardian_of_the_Dark_Flame_Kitsun_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Midnight Blue Mane Starryon",
+          "slug": "Midnight_Blue_Mane_Starryon",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Soul of the Dark Rabbit Nitemary",
+          "slug": "Soul_of_the_Dark_Rabbit_Nitemary",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Flickering Flame Sootseer",
+          "slug": "Flickering_Flame_Sootseer",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Gloom-Shrouded Bloodsucker Felbat",
+          "slug": "Gloom-Shrouded_Bloodsucker_Felbat",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Wings of The Underworld Helzephyr",
+          "slug": "Wings_of_The_Underworld_Helzephyr",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Temptation in the Deep Ghangler",
+          "slug": "Temptation_in_the_Deep_Ghangler",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Fire-Licked Feline Katress Ignis",
+          "slug": "Fire-Licked_Feline_Katress_Ignis",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Phantasmal Feline Katress",
+          "slug": "Phantasmal_Feline_Katress",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Pal on the Prowl Lovander",
+          "slug": "Pal_on_the_Prowl_Lovander",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Phantasmal Feline Katress",
+          "slug": "Phantasmal_Feline_Katress",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Wings of The Underworld Helzephyr",
+          "slug": "Wings_of_The_Underworld_Helzephyr",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Nighttime Prince Nox",
+          "slug": "Nighttime_Prince_Nox",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Trickster Tombat",
+          "slug": "Trickster_Tombat",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Adorable Phantom Thief Wispaw",
+          "slug": "Adorable_Phantom_Thief_Wispaw",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Phantasmal Feline Katress",
+          "slug": "Phantasmal_Feline_Katress",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Messenger of Death Maraith",
+          "slug": "Messenger_of_Death_Maraith",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Phantasmal Feline Katress",
+          "slug": "Phantasmal_Feline_Katress",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Messenger of Death Maraith",
+          "slug": "Messenger_of_Death_Maraith",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Bad Boy Prixter",
+          "slug": "Bad_Boy_Prixter",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Pal on the Prowl Lovander",
+          "slug": "Pal_on_the_Prowl_Lovander",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Golden Blade of Duat Gildra",
+          "slug": "Golden_Blade_of_Duat_Gildra",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Menasting",
+          "slug": "Menasting",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Unstoppable Stinger Menasting",
+          "slug": "Unstoppable_Stinger_Menasting",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Helzephyr Lux",
+          "slug": "Helzephyr_Lux",
+          "weight": "4",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Flickering Flame Sootseer",
+          "slug": "Flickering_Flame_Sootseer",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Wings of Netherstorm Helzephyr Lux",
+          "slug": "Wings_of_Netherstorm_Helzephyr_Lux",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Bad Boy Prixter",
+          "slug": "Bad_Boy_Prixter",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Helzephyr Lux Menasting Lyleen Noct Shadowbeak Selyne Bellanoir Bellanoir Libero Xenolord Necromus Frostallion Noct",
+          "slug": "Helzephyr_Lux",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Dragon_Egg",
+      "name": "Huge Dragon Egg",
+      "pals": [
+        {
+          "name": "Shaolong",
+          "slug": "Shaolong",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Eidrolon Ignis",
+          "slug": "Eidrolon_Ignis",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Orserk",
+          "slug": "Orserk",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Aegidron",
+          "slug": "Aegidron",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Water God Shaolong",
+          "slug": "Water_God_Shaolong",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Wings of Distrust Eidrolon Ignis",
+          "slug": "Wings_of_Distrust_Eidrolon_Ignis",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Roaring Thunder Orserk",
+          "slug": "Roaring_Thunder_Orserk",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Guardian of Luminous Trails Aegidron",
+          "slug": "Guardian_of_Luminous_Trails_Aegidron",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Silvegis",
+          "slug": "Silvegis",
+          "weight": "2",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Jormuntide Ignis",
+          "slug": "Jormuntide_Ignis",
+          "weight": "1",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Guardian Dragon of Ironclad Silvegis",
+          "slug": "Guardian_Dragon_of_Ironclad_Silvegis",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Volcanic Emperor Jormuntide Ignis",
+          "slug": "Volcanic_Emperor_Jormuntide_Ignis",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Elphidran Aqua",
+          "slug": "Elphidran_Aqua",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Beast of the Tides Elphidran Aqua",
+          "slug": "Beast_of_the_Tides_Elphidran_Aqua",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Gluttonous Thunder Dragon Relaxaurus Lux",
+          "slug": "Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Relaxaurus Lux",
+          "slug": "Relaxaurus_Lux",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Emperor of the Sea Jormuntide",
+          "slug": "Emperor_of_the_Sea_Jormuntide",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Jormuntide",
+          "slug": "Jormuntide",
+          "weight": "1",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Relaxaurus",
+          "slug": "Relaxaurus",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Gluttonous Dragon Relaxaurus",
+          "slug": "Gluttonous_Dragon_Relaxaurus",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Gluttonous Thunder Dragon Relaxaurus Lux",
+          "slug": "Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Relaxaurus Lux",
+          "slug": "Relaxaurus_Lux",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Gentle Sky Dragon Elphidran",
+          "slug": "Gentle_Sky_Dragon_Elphidran",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Relaxaurus",
+          "slug": "Relaxaurus",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Gluttonous Dragon Relaxaurus",
+          "slug": "Gluttonous_Dragon_Relaxaurus",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Quivern Botan",
+          "slug": "Quivern_Botan",
+          "weight": "1",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Snow-White Soarer Quivern",
+          "slug": "Snow-White_Soarer_Quivern",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Evergreen Flyer Quivern Botan",
+          "slug": "Evergreen_Flyer_Quivern_Botan",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Snow-White Soarer Quivern",
+          "slug": "Snow-White_Soarer_Quivern",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Gluttonous Thunder Dragon Relaxaurus Lux",
+          "slug": "Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Relaxaurus Lux",
+          "slug": "Relaxaurus_Lux",
+          "weight": "3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Quivern Botan",
+          "slug": "Quivern_Botan",
+          "weight": "3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Evergreen Flyer Quivern Botan",
+          "slug": "Evergreen_Flyer_Quivern_Botan",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Elphidran Aqua",
+          "slug": "Elphidran_Aqua",
+          "weight": "5",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Beast of the Tides Elphidran Aqua",
+          "slug": "Beast_of_the_Tides_Elphidran_Aqua",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Elphidran Aqua Relaxaurus Relaxaurus Lux Jormuntide Jormuntide Ignis Quivern Botan Blazamut Ryu Xenogard Astegon Silvegis Eidrolon Ignis Aegidron Orserk Shaolong Jetragon",
+          "slug": "Elphidran_Aqua",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Electric_Egg",
+      "name": "Huge Electric Egg",
+      "pals": [
+        {
+          "name": "Grizzbolt",
+          "slug": "Grizzbolt",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Claws of Lightning Grizzbolt",
+          "slug": "Claws_of_Lightning_Grizzbolt",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Inheritor of the Storm Mossanda Lux",
+          "slug": "Inheritor_of_the_Storm_Mossanda_Lux",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Buzzy Bundle Dynamoff",
+          "slug": "Buzzy_Bundle_Dynamoff",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Blue Lightning Steed Azurmane",
+          "slug": "Blue_Lightning_Steed_Azurmane",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Electro-Charged Zoomies Rayhound",
+          "slug": "Electro-Charged_Zoomies_Rayhound",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Wings of Thunderbolt Beakon",
+          "slug": "Wings_of_Thunderbolt_Beakon",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Swift Deity Univolt",
+          "slug": "Swift_Deity_Univolt",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Electro-Charged Zoomies Rayhound",
+          "slug": "Electro-Charged_Zoomies_Rayhound",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Guardian of Lightning Dinossom Lux",
+          "slug": "Guardian_of_Lightning_Dinossom_Lux",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Wings of Thunderbolt Beakon",
+          "slug": "Wings_of_Thunderbolt_Beakon",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Electro-Charged Zoomies Rayhound",
+          "slug": "Electro-Charged_Zoomies_Rayhound",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Grizzbolt",
+          "slug": "Grizzbolt",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Frozen_Egg",
+      "name": "Huge Frozen Egg",
+      "pals": [
+        {
+          "name": "Whalaska Ignis",
+          "slug": "Whalaska_Ignis",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Bastigor",
+          "slug": "Bastigor",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Moldron Cryst",
+          "slug": "Moldron_Cryst",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Frozen Minotaur Elgrove Cryst",
+          "slug": "Frozen_Minotaur_Elgrove_Cryst",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Gentle Crimson Lance Whalaska Ignis",
+          "slug": "Gentle_Crimson_Lance_Whalaska_Ignis",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Blustery Blizzard Fiend Univolt Cryst",
+          "slug": "Blustery_Blizzard_Fiend_Univolt_Cryst",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "King of Frostfang Bastigor",
+          "slug": "King_of_Frostfang_Bastigor",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Wings of Frost Beakon Cryst",
+          "slug": "Wings_of_Frost_Beakon_Cryst",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Frost-Fringed Zoomies Rayhound Cryst",
+          "slug": "Frost-Fringed_Zoomies_Rayhound_Cryst",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Frigid Voyager Moldron Cryst",
+          "slug": "Frigid_Voyager_Moldron_Cryst",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Shuffling Glacier Pierdon Cryst",
+          "slug": "Shuffling_Glacier_Pierdon_Cryst",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Marauder of Frozen Skies Vanwyrm Cryst",
+          "slug": "Marauder_of_Frozen_Skies_Vanwyrm_Cryst",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Frostbound Fox Foxcicle",
+          "slug": "Frostbound_Fox_Foxcicle",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Pallid Lady Sibelyx",
+          "slug": "Pallid_Lady_Sibelyx",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "King of the Floof Sweepa",
+          "slug": "King_of_the_Floof_Sweepa",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Mammorest Cryst",
+          "slug": "Mammorest_Cryst",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "King of the Tundra Mammorest Cryst",
+          "slug": "King_of_the_Tundra_Mammorest_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Idol on Ice Polapup",
+          "slug": "Idol_on_Ice_Polapup",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "King of the Floof Sweepa",
+          "slug": "King_of_the_Floof_Sweepa",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Mammorest Cryst",
+          "slug": "Mammorest_Cryst",
+          "weight": "3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Marauder of Frozen Skies Vanwyrm Cryst",
+          "slug": "Marauder_of_Frozen_Skies_Vanwyrm_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Frostbound Fox Foxcicle",
+          "slug": "Frostbound_Fox_Foxcicle",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Pallid Lady Sibelyx",
+          "slug": "Pallid_Lady_Sibelyx",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Predator of Snowy Peaks Cryolinx",
+          "slug": "Predator_of_Snowy_Peaks_Cryolinx",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Guardian of the Snowy Fields Wumpo",
+          "slug": "Guardian_of_the_Snowy_Fields_Wumpo",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Ice-Breaking Juggernaut Reptyro Cryst",
+          "slug": "Ice-Breaking_Juggernaut_Reptyro_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "King of the Tundra Mammorest Cryst",
+          "slug": "King_of_the_Tundra_Mammorest_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Kingpaca Cryst",
+          "slug": "Kingpaca_Cryst",
+          "weight": "3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Azure Fluff Commander Kingpaca Cryst",
+          "slug": "Azure_Fluff_Commander_Kingpaca_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Idol on Ice Polapup",
+          "slug": "Idol_on_Ice_Polapup",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "King of the Floof Sweepa",
+          "slug": "King_of_the_Floof_Sweepa",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Idol on Ice Polapup",
+          "slug": "Idol_on_Ice_Polapup",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Kingpaca Cryst Azurobe Cryst Mammorest Cryst Moldron Cryst Whalaska Whalaska Ignis Bastigor Frostallion",
+          "slug": "Kingpaca_Cryst",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Rocky_Egg",
+      "name": "Huge Rocky Egg",
+      "pals": [
+        {
+          "name": "Dualith",
+          "slug": "Dualith",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Dualith Noct",
+          "slug": "Dualith_Noct",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Knocklem",
+          "slug": "Knocklem",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Twinhearted Azure Construct Dualith",
+          "slug": "Twinhearted_Azure_Construct_Dualith",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Twinhearted Violet Construct Dualith Noct",
+          "slug": "Twinhearted_Violet_Construct_Dualith_Noct",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Suit of Armor Knocklem",
+          "slug": "Suit_of_Armor_Knocklem",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Warsect Terra",
+          "slug": "Warsect_Terra",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Gildane",
+          "slug": "Gildane",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Gold-Armored Warrior Warsect Terra",
+          "slug": "Gold-Armored_Warrior_Warsect_Terra",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Guardian Beast of Twilight Gildane",
+          "slug": "Guardian_Beast_of_Twilight_Gildane",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Predator of the Earth Cryolinx Terra",
+          "slug": "Predator_of_the_Earth_Cryolinx_Terra",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "The Desert's Wrath Surfent Terra",
+          "slug": "The_Deserts_Wrath_Surfent_Terra",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Warsect",
+          "slug": "Warsect",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Unyielding Colossus Warsect",
+          "slug": "Unyielding_Colossus_Warsect",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Drilling Machine Digtoise",
+          "slug": "Drilling_Machine_Digtoise",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Up for a Brawl Gorirat Terra",
+          "slug": "Up_for_a_Brawl_Gorirat_Terra",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Knocklem",
+          "slug": "Knocklem",
+          "weight": "1",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Suit of Armor Knocklem",
+          "slug": "Suit_of_Armor_Knocklem",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Dualith",
+          "slug": "Dualith",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Twinhearted Azure Construct Dualith",
+          "slug": "Twinhearted_Azure_Construct_Dualith",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Piece of Cake Dumud Gild",
+          "slug": "Piece_of_Cake_Dumud_Gild",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Drilling Machine Digtoise",
+          "slug": "Drilling_Machine_Digtoise",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Tetroise",
+          "slug": "Tetroise",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Up for a Brawl Gorirat Terra",
+          "slug": "Up_for_a_Brawl_Gorirat_Terra",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Sandsea Monolith Tetroise",
+          "slug": "Sandsea_Monolith_Tetroise",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Cutthroat Sun Snuffer Sekhmet",
+          "slug": "Cutthroat_Sun_Snuffer_Sekhmet",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Brilliant Steps Dazemu",
+          "slug": "Brilliant_Steps_Dazemu",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "The Desert's Wrath Surfent Terra",
+          "slug": "The_Deserts_Wrath_Surfent_Terra",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Brilliant Steps Dazemu",
+          "slug": "Brilliant_Steps_Dazemu",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Piece of Cake Dumud Gild",
+          "slug": "Piece_of_Cake_Dumud_Gild",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Menasting Terra",
+          "slug": "Menasting_Terra",
+          "weight": "1",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Gold-Piercing Spear Menasting Terra",
+          "slug": "Gold-Piercing_Spear_Menasting_Terra",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "The Desert's Wrath Surfent Terra",
+          "slug": "The_Deserts_Wrath_Surfent_Terra",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Menasting Terra Warsect Warsect Terra Dualith Dualith Noct Anubis Tetroise Gildane Knocklem",
+          "slug": "Menasting_Terra",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Scorching_Egg",
+      "name": "Huge Scorching Egg",
+      "pals": [
+        {
+          "name": "Faleris",
+          "slug": "Faleris",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Knocklem Ignis",
+          "slug": "Knocklem_Ignis",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Illusionist Cottontail Dupin",
+          "slug": "Illusionist_Cottontail_Dupin",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Self-Serving Seer Flaracle",
+          "slug": "Self-Serving_Seer_Flaracle",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Sentinel of Dawn Faleris",
+          "slug": "Sentinel_of_Dawn_Faleris",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Blazing Suit of Armor Knocklem Ignis",
+          "slug": "Blazing_Suit_of_Armor_Knocklem_Ignis",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Scorching Ovation Renjishi",
+          "slug": "Scorching_Ovation_Renjishi",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Self-Serving Seer Flaracle",
+          "slug": "Self-Serving_Seer_Flaracle",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Blazehowl Noct",
+          "slug": "Blazehowl_Noct",
+          "weight": "5",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Samurai of Darkness Bushi Noct",
+          "slug": "Samurai_of_Darkness_Bushi_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Inferno Goliath Blazehowl Noct",
+          "slug": "Inferno_Goliath_Blazehowl_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Crimson Goliath Blazehowl",
+          "slug": "Crimson_Goliath_Blazehowl",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Wings of Inferno Ragnahawk",
+          "slug": "Wings_of_Inferno_Ragnahawk",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Guardian of the Azure Flame Kitsun",
+          "slug": "Guardian_of_the_Azure_Flame_Kitsun",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Fire-Licked Furball Wixen",
+          "slug": "Fire-Licked_Furball_Wixen",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Fire-Licked Furball Wixen",
+          "slug": "Fire-Licked_Furball_Wixen",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Crimson Goliath Blazehowl",
+          "slug": "Crimson_Goliath_Blazehowl",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Vagrant Warrior Bushi",
+          "slug": "Vagrant_Warrior_Bushi",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Steed of Flames Pyrin",
+          "slug": "Steed_of_Flames_Pyrin",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Lava-Devouring Juggernaut Reptyro",
+          "slug": "Lava-Devouring_Juggernaut_Reptyro",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Wings of Inferno Ragnahawk",
+          "slug": "Wings_of_Inferno_Ragnahawk",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Fire-Licked Furball Wixen",
+          "slug": "Fire-Licked_Furball_Wixen",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Crimson Goliath Blazehowl",
+          "slug": "Crimson_Goliath_Blazehowl",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Hyena of the Wild Incineram",
+          "slug": "Hyena_of_the_Wild_Incineram",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Scorched Wanderer Moldron",
+          "slug": "Scorched_Wanderer_Moldron",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Steed of Flames Pyrin",
+          "slug": "Steed_of_Flames_Pyrin",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Wings of Inferno Ragnahawk",
+          "slug": "Wings_of_Inferno_Ragnahawk",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Fire-Licked Furball Wixen",
+          "slug": "Fire-Licked_Furball_Wixen",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Crimson Goliath Blazehowl",
+          "slug": "Crimson_Goliath_Blazehowl",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Hyena of the Wild Incineram",
+          "slug": "Hyena_of_the_Wild_Incineram",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Vagrant Warrior Bushi",
+          "slug": "Vagrant_Warrior_Bushi",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Cursed Tyrant Blazamut",
+          "slug": "Cursed_Tyrant_Blazamut",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Blazamut",
+          "slug": "Blazamut",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Guardian of the Azure Flame Kitsun",
+          "slug": "Guardian_of_the_Azure_Flame_Kitsun",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Vagrant Warrior Bushi",
+          "slug": "Vagrant_Warrior_Bushi",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Guardian of the Azure Flame Kitsun",
+          "slug": "Guardian_of_the_Azure_Flame_Kitsun",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Suzaku",
+          "slug": "Suzaku",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Ruler of the Crimson Dawn Suzaku",
+          "slug": "Ruler_of_the_Crimson_Dawn_Suzaku",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Vagrant Warrior Bushi",
+          "slug": "Vagrant_Warrior_Bushi",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Cherry Blossom Dancer Chillet Ignis",
+          "slug": "Cherry_Blossom_Dancer_Chillet_Ignis",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Phantasmal Furball Wixen Noct",
+          "slug": "Phantasmal_Furball_Wixen_Noct",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Samurai of Darkness Bushi Noct",
+          "slug": "Samurai_of_Darkness_Bushi_Noct",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Vagrant Warrior Bushi",
+          "slug": "Vagrant_Warrior_Bushi",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Blazehowl Noct Suzaku Blazamut Knocklem Ignis Faleris",
+          "slug": "Blazehowl_Noct",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Huge_Verdant_Egg",
+      "name": "Huge Verdant Egg",
+      "pals": [
+        {
+          "name": "Petallia Ignis",
+          "slug": "Petallia_Ignis",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Lyleen",
+          "slug": "Lyleen",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Lady of the Ashen Wastes Petallia Ignis",
+          "slug": "Lady_of_the_Ashen_Wastes_Petallia_Ignis",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Empress of Lilies Lyleen",
+          "slug": "Empress_of_Lilies_Lyleen",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Cute as a Button Mycora",
+          "slug": "Cute_as_a_Button_Mycora",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Hardcore Heartbreaker Leafan",
+          "slug": "Hardcore_Heartbreaker_Leafan",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Blooming Crooner Tropicaw",
+          "slug": "Blooming_Crooner_Tropicaw",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Indigo Handmaiden Prunelia",
+          "slug": "Indigo_Handmaiden_Prunelia",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Verdash",
+          "slug": "Verdash",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Broncherry",
+          "slug": "Broncherry",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Elizabee",
+          "slug": "Elizabee",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Broncherry Aqua",
+          "slug": "Broncherry_Aqua",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Suddenly Transformed Gumoss",
+          "slug": "Suddenly_Transformed_Gumoss",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Winds of Spring Broncherry",
+          "slug": "Winds_of_Spring_Broncherry",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Empress of the Hive Elizabee",
+          "slug": "Empress_of_the_Hive_Elizabee",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Archer of the Forest Robinquill",
+          "slug": "Archer_of_the_Forest_Robinquill",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Wanderer of the Forest Mossanda",
+          "slug": "Wanderer_of_the_Forest_Mossanda",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Gale of the Forest Verdash",
+          "slug": "Gale_of_the_Forest_Verdash",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Waves of Summer Broncherry Aqua",
+          "slug": "Waves_of_Summer_Broncherry_Aqua",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Hardcore Heartbreaker Leafan",
+          "slug": "Hardcore_Heartbreaker_Leafan",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "King of the Forest Mammorest",
+          "slug": "King_of_the_Forest_Mammorest",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Mammorest",
+          "slug": "Mammorest",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Winds of Spring Broncherry",
+          "slug": "Winds_of_Spring_Broncherry",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Broncherry",
+          "slug": "Broncherry",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Verdant Minotaur Elgrove",
+          "slug": "Verdant_Minotaur_Elgrove",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Vaelet",
+          "slug": "Vaelet",
+          "weight": "3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Voice of the Violets Vaelet",
+          "slug": "Voice_of_the_Violets_Vaelet",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Petallia",
+          "slug": "Petallia",
+          "weight": "7",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Lady of the Flower Garden Petallia",
+          "slug": "Lady_of_the_Flower_Garden_Petallia",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Guardian of Blossoming Gardens Dinossom",
+          "slug": "Guardian_of_Blossoming_Gardens_Dinossom",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Mammorest",
+          "slug": "Mammorest",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Broncherry",
+          "slug": "Broncherry",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Braloha",
+          "slug": "Braloha",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Suddenly Transformed Gumoss",
+          "slug": "Suddenly_Transformed_Gumoss",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "King of the Forest Mammorest",
+          "slug": "King_of_the_Forest_Mammorest",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Winds of Spring Broncherry",
+          "slug": "Winds_of_Spring_Broncherry",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Ancient Bloombringer Braloha",
+          "slug": "Ancient_Bloombringer_Braloha",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Mammorest",
+          "slug": "Mammorest",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "King of the Forest Mammorest",
+          "slug": "King_of_the_Forest_Mammorest",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Dangerous Mushroom Shroomer Noct",
+          "slug": "Dangerous_Mushroom_Shroomer_Noct",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Archer of the Sands Robinquill Terra",
+          "slug": "Archer_of_the_Sands_Robinquill_Terra",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Braloha",
+          "slug": "Braloha",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "No Dance, No Life Palumba",
+          "slug": "No_Dance,_No_Life_Palumba",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Ancient Bloombringer Braloha",
+          "slug": "Ancient_Bloombringer_Braloha",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Guardian of Blossoming Gardens Dinossom",
+          "slug": "Guardian_of_Blossoming_Gardens_Dinossom",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Verdash",
+          "slug": "Verdash",
+          "weight": "5",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Petallia",
+          "slug": "Petallia",
+          "weight": "2",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Dangerous Mushroom Shroomer Noct",
+          "slug": "Dangerous_Mushroom_Shroomer_Noct",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Gale of the Forest Verdash",
+          "slug": "Gale_of_the_Forest_Verdash",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Lady of the Flower Garden Petallia",
+          "slug": "Lady_of_the_Flower_Garden_Petallia",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Voice of the Violets Vaelet",
+          "slug": "Voice_of_the_Violets_Vaelet",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Vaelet",
+          "slug": "Vaelet",
+          "weight": "3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Guardian of the Grassy Fields Wumpo Botan",
+          "slug": "Guardian_of_the_Grassy_Fields_Wumpo_Botan",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Wumpo Botan",
+          "slug": "Wumpo_Botan",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Vaelet Elizabee Mammorest Petallia Petallia Ignis Broncherry Broncherry Aqua Braloha Wumpo Botan Verdash Ophydia Lyleen Silvance Dandilord",
+          "slug": "Vaelet",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Common_Egg",
+      "name": "Large Common Egg",
+      "pals": [
+        {
+          "name": "Mimog",
+          "slug": "Mimog",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Pristine Fisticuffs Lapure",
+          "slug": "Pristine_Fisticuffs_Lapure",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Plays Both Sides Valentail",
+          "slug": "Plays_Both_Sides_Valentail",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Celesdir",
+          "slug": "Celesdir",
+          "weight": "2",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Gorirat",
+          "slug": "Gorirat",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Lunaris",
+          "slug": "Lunaris",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Wings of the Firmament Nitewing",
+          "slug": "Wings_of_the_Firmament_Nitewing",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Hunter of the Steppe Direhowl",
+          "slug": "Hunter_of_the_Steppe_Direhowl",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Giant Cotton Candy Woolipop",
+          "slug": "Giant_Cotton_Candy_Woolipop",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Eikthyrdeer",
+          "slug": "Eikthyrdeer",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Protector of the Herd Eikthyrdeer",
+          "slug": "Protector_of_the_Herd_Eikthyrdeer",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Heart-Melting Smile Ribbuny",
+          "slug": "Heart-Melting_Smile_Ribbuny",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Proud Courier Galeclaw",
+          "slug": "Proud_Courier_Galeclaw",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Boom or Bust Tocotoco",
+          "slug": "Boom_or_Bust_Tocotoco",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Eikthyrdeer",
+          "slug": "Eikthyrdeer",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Heart-Melting Smile Ribbuny",
+          "slug": "Heart-Melting_Smile_Ribbuny",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Hunter of the Steppe Direhowl",
+          "slug": "Hunter_of_the_Steppe_Direhowl",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Protector of the Herd Eikthyrdeer",
+          "slug": "Protector_of_the_Herd_Eikthyrdeer",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Plump & Juicy Chikipi",
+          "slug": "Plump_&_Juicy_Chikipi",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "The Cat's Pajamas Cattiva",
+          "slug": "The_Cats_Pajamas_Cattiva",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Big Floof Lamball",
+          "slug": "Big_Floof_Lamball",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Star of the Steppe Vixy",
+          "slug": "Star_of_the_Steppe_Vixy",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Wings of the Firmament Nitewing",
+          "slug": "Wings_of_the_Firmament_Nitewing",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Darling Furball Cremis",
+          "slug": "Darling_Furball_Cremis",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Prime Beef Mozzarina",
+          "slug": "Prime_Beef_Mozzarina",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Lunaris",
+          "slug": "Lunaris",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Lunaris",
+          "slug": "Lunaris",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Lunaris",
+          "slug": "Lunaris",
+          "weight": "3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Boom or Bust Tocotoco",
+          "slug": "Boom_or_Bust_Tocotoco",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Devoid of Emotion Killamari Primo",
+          "slug": "Devoid_of_Emotion_Killamari_Primo",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Grintale",
+          "slug": "Grintale",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Dogen",
+          "slug": "Dogen",
+          "weight": "4",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Unwavering Loyalty Yakumo",
+          "slug": "Unwavering_Loyalty_Yakumo",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Boom or Bust Tocotoco",
+          "slug": "Boom_or_Bust_Tocotoco",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Eikthyrdeer Grintale Gorirat Lunaris Mimog Dogen Celesdir",
+          "slug": "Eikthyrdeer",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Damp_Egg",
+      "name": "Large Damp Egg",
+      "pals": [
+        {
+          "name": "Solmora Lux",
+          "slug": "Solmora_Lux",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Gloopie Primo",
+          "slug": "Gloopie_Primo",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Miraculously Close Amione",
+          "slug": "Miraculously_Close_Amione",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Gloopie",
+          "slug": "Gloopie",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Croajiro Noct",
+          "slug": "Croajiro_Noct",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Sunlight Drifter Jelliette",
+          "slug": "Sunlight_Drifter_Jelliette",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Shade Drifter Jellroy",
+          "slug": "Shade_Drifter_Jellroy",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Gloopie Primo",
+          "slug": "Gloopie_Primo",
+          "weight": "3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Mini Fortress Turtacle",
+          "slug": "Mini_Fortress_Turtacle",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Sea Thug Gobfin",
+          "slug": "Sea_Thug_Gobfin",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "The Ocean's Wrath Surfent",
+          "slug": "The_Oceans_Wrath_Surfent",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Soaring Skyfish Celaray",
+          "slug": "Soaring_Skyfish_Celaray",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Rowdy Wave Ripper Fuack",
+          "slug": "Rowdy_Wave_Ripper_Fuack",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Child of the Deep Kelpsea",
+          "slug": "Child_of_the_Deep_Kelpsea",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Sea Thug Gobfin",
+          "slug": "Sea_Thug_Gobfin",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Azurobe",
+          "slug": "Azurobe",
+          "weight": "2",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Skutlass",
+          "slug": "Skutlass",
+          "weight": "2",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Penking",
+          "slug": "Penking",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Soaring Skyfish Celaray",
+          "slug": "Soaring_Skyfish_Celaray",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Adorable Watering Can Teafant",
+          "slug": "Adorable_Watering_Can_Teafant",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Child of the Deep Kelpsea",
+          "slug": "Child_of_the_Deep_Kelpsea",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Harakiri Master Croajiro",
+          "slug": "Harakiri_Master_Croajiro",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Miraculously Close Amione",
+          "slug": "Miraculously_Close_Amione",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Rowdy Wave Ripper Fuack",
+          "slug": "Rowdy_Wave_Ripper_Fuack",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Ate Too Much Pengullet",
+          "slug": "Ate_Too_Much_Pengullet",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Sea Thug Gobfin",
+          "slug": "Sea_Thug_Gobfin",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Mini Fortress Turtacle",
+          "slug": "Mini_Fortress_Turtacle",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Runaway Wave Rider Fuack Ignis",
+          "slug": "Runaway_Wave_Rider_Fuack_Ignis",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Ate Too Much Pengullet",
+          "slug": "Ate_Too_Much_Pengullet",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Penking",
+          "slug": "Penking",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Ate Too Much Pengullet",
+          "slug": "Ate_Too_Much_Pengullet",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Mini Fortress Turtacle",
+          "slug": "Mini_Fortress_Turtacle",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Harakiri Master Croajiro",
+          "slug": "Harakiri_Master_Croajiro",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "The Ocean's Wrath Surfent",
+          "slug": "The_Oceans_Wrath_Surfent",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Sky-Swimming Fish Celaray Lux",
+          "slug": "Sky-Swimming_Fish_Celaray_Lux",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Ate Too Much Pengullet",
+          "slug": "Ate_Too_Much_Pengullet",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Penking",
+          "slug": "Penking",
+          "weight": "4",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Mini Fortress Turtacle",
+          "slug": "Mini_Fortress_Turtacle",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Harakiri Master Croajiro",
+          "slug": "Harakiri_Master_Croajiro",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Golden Fortress Turtacle Terra",
+          "slug": "Golden_Fortress_Turtacle_Terra",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Gloopie",
+          "slug": "Gloopie",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Croajiro Noct Penking Penking Lux Azurobe Gloopie Gloopie Primo Skutlass Skutlass Ignis Solmora Lux",
+          "slug": "Croajiro_Noct",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Dark_Egg",
+      "name": "Large Dark Egg",
+      "pals": [
+        {
+          "name": "Majex",
+          "slug": "Majex",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Wispaw",
+          "slug": "Wispaw",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Loomen",
+          "slug": "Loomen",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Solenne",
+          "slug": "Solenne",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Venusa",
+          "slug": "Venusa",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Roujay",
+          "slug": "Roujay",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Celesdir Noct",
+          "slug": "Celesdir_Noct",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Mantle of the Night Sky Wistella",
+          "slug": "Mantle_of_the_Night_Sky_Wistella",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Vanishing Master Hoodle",
+          "slug": "Vanishing_Master_Hoodle",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Freakily Cute Bakemi",
+          "slug": "Freakily_Cute_Bakemi",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Kitsun Noct",
+          "slug": "Kitsun_Noct",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Starryon",
+          "slug": "Starryon",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Nitemary",
+          "slug": "Nitemary",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Ghangler",
+          "slug": "Ghangler",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Helzephyr",
+          "slug": "Helzephyr",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Felbat",
+          "slug": "Felbat",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Sootseer",
+          "slug": "Sootseer",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Night Shade Hunter Nyafia",
+          "slug": "Night_Shade_Hunter_Nyafia",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Hundred-Faced Apostle Omascul",
+          "slug": "Hundred-Faced_Apostle_Omascul",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Crimson Butcher Splatterina",
+          "slug": "Crimson_Butcher_Splatterina",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Jet-Black Little Hero Smokie",
+          "slug": "Jet-Black_Little_Hero_Smokie",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Born of the Thunderclouds Dazzi Noct",
+          "slug": "Born_of_the_Thunderclouds_Dazzi_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Tainted Farm Caprity Noct",
+          "slug": "Tainted_Farm_Caprity_Noct",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Emotionless Killamari",
+          "slug": "Emotionless_Killamari",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Katress Ignis",
+          "slug": "Katress_Ignis",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Enraptured by Moonlight Loupmoon",
+          "slug": "Enraptured_by_Moonlight_Loupmoon",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Tactician of the Thread Realm Tarantriss",
+          "slug": "Tactician_of_the_Thread_Realm_Tarantriss",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Katress",
+          "slug": "Katress",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Tactician of the Thread Realm Tarantriss",
+          "slug": "Tactician_of_the_Thread_Realm_Tarantriss",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Lovander",
+          "slug": "Lovander",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Born of the Thunderclouds Dazzi Noct",
+          "slug": "Born_of_the_Thunderclouds_Dazzi_Noct",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Enraptured by Moonlight Loupmoon",
+          "slug": "Enraptured_by_Moonlight_Loupmoon",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Katress",
+          "slug": "Katress",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Helzephyr",
+          "slug": "Helzephyr",
+          "weight": "3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Nox",
+          "slug": "Nox",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Tombat",
+          "slug": "Tombat",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dream Eater Daedream",
+          "slug": "Dream_Eater_Daedream",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Wispaw",
+          "slug": "Wispaw",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Tainted Farm Caprity Noct",
+          "slug": "Tainted_Farm_Caprity_Noct",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Several Sleepless Nights Later Depresso",
+          "slug": "Several_Sleepless_Nights_Later_Depresso",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Purveyor of Wisdom Hoocrates",
+          "slug": "Purveyor_of_Wisdom_Hoocrates",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Self-Proclaimed Genius Leezpunk",
+          "slug": "Self-Proclaimed_Genius_Leezpunk",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Emotionless Killamari",
+          "slug": "Emotionless_Killamari",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Katress",
+          "slug": "Katress",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Enraptured by Moonlight Loupmoon",
+          "slug": "Enraptured_by_Moonlight_Loupmoon",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Maraith",
+          "slug": "Maraith",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Katress",
+          "slug": "Katress",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Enraptured by Moonlight Loupmoon",
+          "slug": "Enraptured_by_Moonlight_Loupmoon",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Maraith",
+          "slug": "Maraith",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Prixter",
+          "slug": "Prixter",
+          "weight": "4",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Lovander",
+          "slug": "Lovander",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Shadow-Cloaked Schemer Cawgnito",
+          "slug": "Shadow-Cloaked_Schemer_Cawgnito",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Gildra",
+          "slug": "Gildra",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Self-Proclaimed Genius Leezpunk",
+          "slug": "Self-Proclaimed_Genius_Leezpunk",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Sootseer",
+          "slug": "Sootseer",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Shadow-Cloaked Schemer Cawgnito",
+          "slug": "Shadow-Cloaked_Schemer_Cawgnito",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Prixter",
+          "slug": "Prixter",
+          "weight": "5",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Jet-Black Little Hero Smokie",
+          "slug": "Jet-Black_Little_Hero_Smokie",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Tainted Farm Caprity Noct",
+          "slug": "Tainted_Farm_Caprity_Noct",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Enraptured by Moonlight Loupmoon",
+          "slug": "Enraptured_by_Moonlight_Loupmoon",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Nox Wispaw Tombat Felbat Lovander Katress Katress Ignis Helzephyr Incineram Noct Ghangler Kitsun Noct Majex Maraith Gildra Starryon Sootseer Prixter Xenovader Nitemary Celesdir Noct Roujay Venusa Loomen Solenne",
+          "slug": "Nox",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Dragon_Egg",
+      "name": "Large Dragon Egg",
+      "pals": [
+        {
+          "name": "Elphidran",
+          "slug": "Elphidran",
+          "weight": "3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Quivern",
+          "slug": "Quivern",
+          "weight": "1",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Quivern",
+          "slug": "Quivern",
+          "weight": "1",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Elphidran Quivern Eidrolon",
+          "slug": "Elphidran",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Electric_Egg",
+      "name": "Large Electric Egg",
+      "pals": [
+        {
+          "name": "Mossanda Lux",
+          "slug": "Mossanda_Lux",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Sluggish Dazzling Flash Snock Lux",
+          "slug": "Sluggish_Dazzling_Flash_Snock_Lux",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Dynamoff",
+          "slug": "Dynamoff",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Sluggish Blue Bolt Snock",
+          "slug": "Sluggish_Blue_Bolt_Snock",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Sulky Static Puffolt",
+          "slug": "Sulky_Static_Puffolt",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Shockingly Laid-Back Slowatt",
+          "slug": "Shockingly_Laid-Back_Slowatt",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Azurmane",
+          "slug": "Azurmane",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Rayhound",
+          "slug": "Rayhound",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Drifting Thundercloud Fenglope Lux",
+          "slug": "Drifting_Thundercloud_Fenglope_Lux",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Shockingly Laid-Back Slowatt",
+          "slug": "Shockingly_Laid-Back_Slowatt",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Sluggish Blue Bolt Snock",
+          "slug": "Sluggish_Blue_Bolt_Snock",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Beakon",
+          "slug": "Beakon",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Univolt",
+          "slug": "Univolt",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Sulky Static Puffolt",
+          "slug": "Sulky_Static_Puffolt",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Don't Touch! Jolthog",
+          "slug": "Dont_Touch!_Jolthog",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Born of the Storm Dazzi",
+          "slug": "Born_of_the_Storm_Dazzi",
+          "weight": "0.3",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Rayhound",
+          "slug": "Rayhound",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Beakon",
+          "slug": "Beakon",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Dinossom Lux",
+          "slug": "Dinossom_Lux",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Born of the Storm Dazzi",
+          "slug": "Born_of_the_Storm_Dazzi",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Rayhound",
+          "slug": "Rayhound",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Univolt Dinossom Lux Beakon Rayhound Mossanda Lux Prixter Lux Azurmane Dynamoff",
+          "slug": "Univolt",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Frozen_Egg",
+      "name": "Large Frozen Egg",
+      "pals": [
+        {
+          "name": "Elgrove Cryst",
+          "slug": "Elgrove_Cryst",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Univolt Cryst",
+          "slug": "Univolt_Cryst",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Beakon Cryst",
+          "slug": "Beakon_Cryst",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Rayhound Cryst",
+          "slug": "Rayhound_Cryst",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Totally Toasty Muffly",
+          "slug": "Totally_Toasty_Muffly",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Pierdon Cryst",
+          "slug": "Pierdon_Cryst",
+          "weight": "5",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Enraptured by the Frozen Moonlight Loupmoon Cryst",
+          "slug": "Enraptured_by_the_Frozen_Moonlight_Loupmoon_Cryst",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Enraptured by the Frozen Moonlight Loupmoon Cryst",
+          "slug": "Enraptured_by_the_Frozen_Moonlight_Loupmoon_Cryst",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Vanwyrm Cryst",
+          "slug": "Vanwyrm_Cryst",
+          "weight": "4",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Foxcicle",
+          "slug": "Foxcicle",
+          "weight": "10",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Frosthorn Beast Reindrix",
+          "slug": "Frosthorn_Beast_Reindrix",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Alpine Dwarf Snugloo",
+          "slug": "Alpine_Dwarf_Snugloo",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Sibelyx",
+          "slug": "Sibelyx",
+          "weight": "10",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Sweepa",
+          "slug": "Sweepa",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Curious Floof Swee",
+          "slug": "Curious_Floof_Swee",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Watch Your Feet! Jolthog Cryst",
+          "slug": "Watch_Your_Feet!_Jolthog_Cryst",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Totally Toasty Muffly",
+          "slug": "Totally_Toasty_Muffly",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Dancer on the Steppe Chillet",
+          "slug": "Dancer_on_the_Steppe_Chillet",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Watch Your Feet! Jolthog Cryst",
+          "slug": "Watch_Your_Feet!_Jolthog_Cryst",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Icy Blossom Voyager Foxparks Cryst",
+          "slug": "Icy_Blossom_Voyager_Foxparks_Cryst",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dancer on the Steppe Chillet",
+          "slug": "Dancer_on_the_Steppe_Chillet",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Polapup",
+          "slug": "Polapup",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Glacial Harbinger Hangyu Cryst",
+          "slug": "Glacial_Harbinger_Hangyu_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Sweepa",
+          "slug": "Sweepa",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Curious Floof Swee",
+          "slug": "Curious_Floof_Swee",
+          "weight": "0.3",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Vanwyrm Cryst",
+          "slug": "Vanwyrm_Cryst",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Foxcicle",
+          "slug": "Foxcicle",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Sibelyx",
+          "slug": "Sibelyx",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Cryolinx",
+          "slug": "Cryolinx",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Wumpo",
+          "slug": "Wumpo",
+          "weight": "5",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Reptyro Cryst",
+          "slug": "Reptyro_Cryst",
+          "weight": "3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Frosthorn Beast Reindrix",
+          "slug": "Frosthorn_Beast_Reindrix",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Snowlaced Feather Mantle Frostplume",
+          "slug": "Snowlaced_Feather_Mantle_Frostplume",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Polapup",
+          "slug": "Polapup",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Icy Blossom Voyager Foxparks Cryst",
+          "slug": "Icy_Blossom_Voyager_Foxparks_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Walking Refrigerator Munchill",
+          "slug": "Walking_Refrigerator_Munchill",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Sweepa",
+          "slug": "Sweepa",
+          "weight": "10",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Curious Floof Swee",
+          "slug": "Curious_Floof_Swee",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Glacial Harbinger Hangyu Cryst",
+          "slug": "Glacial_Harbinger_Hangyu_Cryst",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Polapup",
+          "slug": "Polapup",
+          "weight": "4",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Icy Blossom Voyager Foxparks Cryst",
+          "slug": "Icy_Blossom_Voyager_Foxparks_Cryst",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Walking Refrigerator Munchill",
+          "slug": "Walking_Refrigerator_Munchill",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Sweepa Univolt Cryst Vanwyrm Cryst Polapup Polapup Terra Elgrove Cryst Foxcicle Beakon Cryst Rayhound Cryst Sibelyx Reptyro Cryst Pierdon Cryst Cryolinx Wumpo",
+          "slug": "Sweepa",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Rocky_Egg",
+      "name": "Large Rocky Egg",
+      "pals": [
+        {
+          "name": "Indomitable Racer Lapiron",
+          "slug": "Indomitable_Racer_Lapiron",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Cryolinx Terra",
+          "slug": "Cryolinx_Terra",
+          "weight": "8",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Surfent Terra",
+          "slug": "Surfent_Terra",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Perpetual Procrastinator Dumud",
+          "slug": "Perpetual_Procrastinator_Dumud",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Bringer of Luck Hangyu",
+          "slug": "Bringer_of_Luck_Hangyu",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Perpetual Procrastinator Dumud",
+          "slug": "Perpetual_Procrastinator_Dumud",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Digtoise",
+          "slug": "Digtoise",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Underground Explorer Fuddler",
+          "slug": "Underground_Explorer_Fuddler",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Zealous Alpha Pupperai",
+          "slug": "Zealous_Alpha_Pupperai",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Woodland Ruffian Rushoar",
+          "slug": "Woodland_Ruffian_Rushoar",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Bringer of Luck Hangyu",
+          "slug": "Bringer_of_Luck_Hangyu",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Gorirat Terra",
+          "slug": "Gorirat_Terra",
+          "weight": "8",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Perpetual Procrastinator Dumud",
+          "slug": "Perpetual_Procrastinator_Dumud",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Dumud Gild",
+          "slug": "Dumud_Gild",
+          "weight": "4",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Gorirat Terra",
+          "slug": "Gorirat_Terra",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Digtoise",
+          "slug": "Digtoise",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Underground Explorer Fuddler",
+          "slug": "Underground_Explorer_Fuddler",
+          "weight": "0.3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Sekhmet",
+          "slug": "Sekhmet",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Dazemu",
+          "slug": "Dazemu",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Surfent Terra",
+          "slug": "Surfent_Terra",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Dazemu",
+          "slug": "Dazemu",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Armored to the Teeth Kikit",
+          "slug": "Armored_to_the_Teeth_Kikit",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Dumud Gild",
+          "slug": "Dumud_Gild",
+          "weight": "1",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Bangin' Yokozuna Bulldosu",
+          "slug": "Bangin_Yokozuna_Bulldosu",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Surfent Terra",
+          "slug": "Surfent_Terra",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Eikthyrdeer Terra Gorirat Terra Surfent Terra Digtoise Dumud Gild Dazemu Pierdon Cryolinx Terra Sekhmet",
+          "slug": "Eikthyrdeer_Terra",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Scorching_Egg",
+      "name": "Large Scorching Egg",
+      "pals": [
+        {
+          "name": "Dupin",
+          "slug": "Dupin",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Flaracle",
+          "slug": "Flaracle",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Renjishi",
+          "slug": "Renjishi",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Flaracle",
+          "slug": "Flaracle",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Vanwyrm",
+          "slug": "Vanwyrm",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Ragnahawk",
+          "slug": "Ragnahawk",
+          "weight": "1",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Blazehowl",
+          "slug": "Blazehowl",
+          "weight": "1",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Bushi Noct",
+          "slug": "Bushi_Noct",
+          "weight": "2",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Aerial Marauder Vanwyrm",
+          "slug": "Aerial_Marauder_Vanwyrm",
+          "weight": "0.3",
+          "location": "tenraku_grade_02"
+        },
+        {
+          "name": "Kitsun",
+          "slug": "Kitsun",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Blazing Brute Arsox",
+          "slug": "Blazing_Brute_Arsox",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Self-Proclaimed Fashionista Leezpunk Ignis",
+          "slug": "Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Child of the Molten Depths Kelpsea Ignis",
+          "slug": "Child_of_the_Molten_Depths_Kelpsea_Ignis",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Volcano Thug Gobfin Ignis",
+          "slug": "Volcano_Thug_Gobfin_Ignis",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Wixen",
+          "slug": "Wixen",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Vanwyrm",
+          "slug": "Vanwyrm",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Aerial Marauder Vanwyrm",
+          "slug": "Aerial_Marauder_Vanwyrm",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Molten Daughter Flambelle",
+          "slug": "Molten_Daughter_Flambelle",
+          "weight": "0.3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Chief of the Herd Rooby",
+          "slug": "Chief_of_the_Herd_Rooby",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Molten Daughter Flambelle",
+          "slug": "Molten_Daughter_Flambelle",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Wixen",
+          "slug": "Wixen",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Blazing Brute Arsox",
+          "slug": "Blazing_Brute_Arsox",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Blazehowl",
+          "slug": "Blazehowl",
+          "weight": "2",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Bushi",
+          "slug": "Bushi",
+          "weight": "2",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Molten Daughter Flambelle",
+          "slug": "Molten_Daughter_Flambelle",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Revealer of Paths Foxparks",
+          "slug": "Revealer_of_Paths_Foxparks",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Chief of the Herd Rooby",
+          "slug": "Chief_of_the_Herd_Rooby",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Flame Aficionado Tanzee Ignis",
+          "slug": "Flame_Aficionado_Tanzee_Ignis",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Ragnahawk",
+          "slug": "Ragnahawk",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Wixen",
+          "slug": "Wixen",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Pyrin",
+          "slug": "Pyrin",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Reptyro",
+          "slug": "Reptyro",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Blazehowl",
+          "slug": "Blazehowl",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Moldron",
+          "slug": "Moldron",
+          "weight": "10",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Vanwyrm",
+          "slug": "Vanwyrm",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Pyrin",
+          "slug": "Pyrin",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Ragnahawk",
+          "slug": "Ragnahawk",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Wixen",
+          "slug": "Wixen",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Child of the Molten Depths Kelpsea Ignis",
+          "slug": "Child_of_the_Molten_Depths_Kelpsea_Ignis",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Self-Proclaimed Fashionista Leezpunk Ignis",
+          "slug": "Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Aerial Marauder Vanwyrm",
+          "slug": "Aerial_Marauder_Vanwyrm",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Blazehowl",
+          "slug": "Blazehowl",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Blazing Brute Arsox",
+          "slug": "Blazing_Brute_Arsox",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Self-Proclaimed Fashionista Leezpunk Ignis",
+          "slug": "Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Molten Daughter Flambelle",
+          "slug": "Molten_Daughter_Flambelle",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Volcano Thug Gobfin Ignis",
+          "slug": "Volcano_Thug_Gobfin_Ignis",
+          "weight": "0.3",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Bushi",
+          "slug": "Bushi",
+          "weight": "2",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Kitsun",
+          "slug": "Kitsun",
+          "weight": "5",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Bushi",
+          "slug": "Bushi",
+          "weight": "10",
+          "location": "glacier_grade_01"
+        },
+        {
+          "name": "Kitsun",
+          "slug": "Kitsun",
+          "weight": "3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Bushi",
+          "slug": "Bushi",
+          "weight": "3",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Chillet Ignis",
+          "slug": "Chillet_Ignis",
+          "weight": "4",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Bushi Noct",
+          "slug": "Bushi_Noct",
+          "weight": "2",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Bushi",
+          "slug": "Bushi",
+          "weight": "2",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Wixen Noct",
+          "slug": "Wixen_Noct",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Aerial Marauder Vanwyrm",
+          "slug": "Aerial_Marauder_Vanwyrm",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Vanwyrm",
+          "slug": "Vanwyrm",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Vanwyrm Wixen Wixen Noct Bushi Bushi Noct Pyrin Pyrin Noct Ghangler Ignis Chillet Ignis Ragnahawk Moldron Kitsun Blazehowl Reptyro Flaracle Dupin Renjishi",
+          "slug": "Vanwyrm",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Large_Verdant_Egg",
+      "name": "Large Verdant Egg",
+      "pals": [
+        {
+          "name": "Mycora",
+          "slug": "Mycora",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Creeping Mushroom Shroomer",
+          "slug": "Creeping_Mushroom_Shroomer",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Leafan",
+          "slug": "Leafan",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Tropicaw",
+          "slug": "Tropicaw",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Windborne Seedling Souffline",
+          "slug": "Windborne_Seedling_Souffline",
+          "weight": "0.3",
+          "location": null
+        },
+        {
+          "name": "Prunelia",
+          "slug": "Prunelia",
+          "weight": "10",
+          "location": "tenraku_grade_01"
+        },
+        {
+          "name": "Robinquill",
+          "slug": "Robinquill",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Mossanda",
+          "slug": "Mossanda",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Coward of the Steppe Lifmunk",
+          "slug": "Coward_of_the_Steppe_Lifmunk",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Dexterous Primate Tanzee",
+          "slug": "Dexterous_Primate_Tanzee",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Thorny Rose Bristla",
+          "slug": "Thorny_Rose_Bristla",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Captain of the Guard Beegarde",
+          "slug": "Captain_of_the_Guard_Beegarde",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Walking Farm Caprity",
+          "slug": "Walking_Farm_Caprity",
+          "weight": "0.3",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Leafan",
+          "slug": "Leafan",
+          "weight": "5",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Sparkling Smile Ribbuny Botan",
+          "slug": "Sparkling_Smile_Ribbuny_Botan",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Percussive Maintenance Herbil",
+          "slug": "Percussive_Maintenance_Herbil",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Elgrove",
+          "slug": "Elgrove",
+          "weight": "2",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Thorny Rose Bristla",
+          "slug": "Thorny_Rose_Bristla",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Butterfly Promenade Cinnamoth",
+          "slug": "Butterfly_Promenade_Cinnamoth",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Walking Farm Caprity",
+          "slug": "Walking_Farm_Caprity",
+          "weight": "0.3",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Dinossom",
+          "slug": "Dinossom",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Percussive Maintenance Herbil",
+          "slug": "Percussive_Maintenance_Herbil",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dubiously Lucky Clovee",
+          "slug": "Dubiously_Lucky_Clovee",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dexterous Primate Tanzee",
+          "slug": "Dexterous_Primate_Tanzee",
+          "weight": "0.5",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Shroomer Noct",
+          "slug": "Shroomer_Noct",
+          "weight": "4",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Creeping Mushroom Shroomer",
+          "slug": "Creeping_Mushroom_Shroomer",
+          "weight": "0.3",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Robinquill Terra",
+          "slug": "Robinquill_Terra",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Dinossom",
+          "slug": "Dinossom",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Palumba",
+          "slug": "Palumba",
+          "weight": "2",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Shroomer Noct",
+          "slug": "Shroomer_Noct",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Primal Source of Hay Fever Lullu",
+          "slug": "Primal_Source_of_Hay_Fever_Lullu",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Creeping Mushroom Shroomer",
+          "slug": "Creeping_Mushroom_Shroomer",
+          "weight": "0.3",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Robinquill Robinquill Terra Elgrove Dinossom Leafan Mossanda Palumba Shroomer Noct Carnibora Prunelia Nitemary Botan Tropicaw Mycora",
+          "slug": "Robinquill",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Rocky_Egg",
+      "name": "Rocky Egg",
+      "pals": [
+        {
+          "name": "Lapiron",
+          "slug": "Lapiron",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Dumud",
+          "slug": "Dumud",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Hangyu",
+          "slug": "Hangyu",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Dumud",
+          "slug": "Dumud",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Fuddler",
+          "slug": "Fuddler",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Pupperai",
+          "slug": "Pupperai",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Rushoar",
+          "slug": "Rushoar",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Hangyu",
+          "slug": "Hangyu",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Dumud",
+          "slug": "Dumud",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Fuddler",
+          "slug": "Fuddler",
+          "weight": "10",
+          "location": "desert_grade_01"
+        },
+        {
+          "name": "Kikit",
+          "slug": "Kikit",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Bulldosu",
+          "slug": "Bulldosu",
+          "weight": "7",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Pupperai Rushoar Fuddler Hangyu Woolipop Terra Dumud Kikit Bulldosu Lapiron",
+          "slug": "Pupperai",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Scorching_Egg",
+      "name": "Scorching Egg",
+      "pals": [
+        {
+          "name": "Arsox",
+          "slug": "Arsox",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Leezpunk Ignis",
+          "slug": "Leezpunk_Ignis",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Kelpsea Ignis",
+          "slug": "Kelpsea_Ignis",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Gobfin Ignis",
+          "slug": "Gobfin_Ignis",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Flambelle",
+          "slug": "Flambelle",
+          "weight": "3",
+          "location": "grass_grade_04"
+        },
+        {
+          "name": "Flambelle",
+          "slug": "Flambelle",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Rooby",
+          "slug": "Rooby",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Arsox",
+          "slug": "Arsox",
+          "weight": "2",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Flambelle",
+          "slug": "Flambelle",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Foxparks",
+          "slug": "Foxparks",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Rooby",
+          "slug": "Rooby",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Tanzee Ignis",
+          "slug": "Tanzee_Ignis",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Incineram",
+          "slug": "Incineram",
+          "weight": "5",
+          "location": "volcanic_grade_02"
+        },
+        {
+          "name": "Kelpsea Ignis",
+          "slug": "Kelpsea_Ignis",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Leezpunk Ignis",
+          "slug": "Leezpunk_Ignis",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Arsox",
+          "slug": "Arsox",
+          "weight": "5",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Leezpunk Ignis",
+          "slug": "Leezpunk_Ignis",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Flambelle",
+          "slug": "Flambelle",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Gobfin Ignis",
+          "slug": "Gobfin_Ignis",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Incineram",
+          "slug": "Incineram",
+          "weight": "10",
+          "location": "volcanic_grade_01"
+        },
+        {
+          "name": "Tanzee Ignis Flambelle Rooby Foxparks Kelpsea Ignis Gobfin Ignis Arsox Leezpunk Ignis Incineram",
+          "slug": "Tanzee_Ignis",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Unknown",
+      "name": "Unknown",
+      "pals": [
+        {
+          "name": "Astralym",
+          "slug": "Astralym",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    },
+    {
+      "id": "Verdant_Egg",
+      "name": "Verdant Egg",
+      "pals": [
+        {
+          "name": "Shroomer",
+          "slug": "Shroomer",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Souffline",
+          "slug": "Souffline",
+          "weight": "10",
+          "location": null
+        },
+        {
+          "name": "Lifmunk",
+          "slug": "Lifmunk",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Beegarde",
+          "slug": "Beegarde",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Caprity",
+          "slug": "Caprity",
+          "weight": "10",
+          "location": "grass_grade_03"
+        },
+        {
+          "name": "Ribbuny Botan",
+          "slug": "Ribbuny_Botan",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Herbil",
+          "slug": "Herbil",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Bristla",
+          "slug": "Bristla",
+          "weight": "5",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Cinnamoth",
+          "slug": "Cinnamoth",
+          "weight": "10",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Caprity",
+          "slug": "Caprity",
+          "weight": "7",
+          "location": "grass_grade_02"
+        },
+        {
+          "name": "Gumoss",
+          "slug": "Gumoss",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Herbil",
+          "slug": "Herbil",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Clovee",
+          "slug": "Clovee",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Tanzee",
+          "slug": "Tanzee",
+          "weight": "10",
+          "location": "grass_grade_01"
+        },
+        {
+          "name": "Shroomer",
+          "slug": "Shroomer",
+          "weight": "4",
+          "location": "glacier_grade_02"
+        },
+        {
+          "name": "Shroomer",
+          "slug": "Shroomer",
+          "weight": "10",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Lullu",
+          "slug": "Lullu",
+          "weight": "2",
+          "location": "Sakurajima_grade_01"
+        },
+        {
+          "name": "Lifmunk Herbil Gumoss Clovee Tanzee Caprity Ribbuny Botan Bristla Cinnamoth Beegarde Flopie Needoll Shroomer Lullu Souffline",
+          "slug": "Lifmunk",
+          "weight": null,
+          "location": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Eggs",
+      "source_export": "data/raw/exports/en/Eggs.html",
+      "from_index": "Eggs.html"
+    }
+  ]
+}

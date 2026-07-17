@@ -1,0 +1,607 @@
+{
+  "generated_at": "2026-07-17T02:45:03.067340+00:00",
+  "language": "en",
+  "count": 60,
+  "character_spawn_items": [
+    {
+      "id": "CharacterSpawnItem_ElecSnail_1",
+      "slug": "CharacterSpawnItem_ElecSnail_1",
+      "name": "CharacterSpawnItem_ElecSnail_1",
+      "pal_hint": "ElecSnail",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_10",
+      "slug": "CharacterSpawnItem_ElecSnail_10",
+      "name": "CharacterSpawnItem_ElecSnail_10",
+      "pal_hint": "ElecSnail",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_2",
+      "slug": "CharacterSpawnItem_ElecSnail_2",
+      "name": "CharacterSpawnItem_ElecSnail_2",
+      "pal_hint": "ElecSnail",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_3",
+      "slug": "CharacterSpawnItem_ElecSnail_3",
+      "name": "CharacterSpawnItem_ElecSnail_3",
+      "pal_hint": "ElecSnail",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_4",
+      "slug": "CharacterSpawnItem_ElecSnail_4",
+      "name": "CharacterSpawnItem_ElecSnail_4",
+      "pal_hint": "ElecSnail",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_5",
+      "slug": "CharacterSpawnItem_ElecSnail_5",
+      "name": "CharacterSpawnItem_ElecSnail_5",
+      "pal_hint": "ElecSnail",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_6",
+      "slug": "CharacterSpawnItem_ElecSnail_6",
+      "name": "CharacterSpawnItem_ElecSnail_6",
+      "pal_hint": "ElecSnail",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_7",
+      "slug": "CharacterSpawnItem_ElecSnail_7",
+      "name": "CharacterSpawnItem_ElecSnail_7",
+      "pal_hint": "ElecSnail",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_8",
+      "slug": "CharacterSpawnItem_ElecSnail_8",
+      "name": "CharacterSpawnItem_ElecSnail_8",
+      "pal_hint": "ElecSnail",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_ElecSnail_9",
+      "slug": "CharacterSpawnItem_ElecSnail_9",
+      "name": "CharacterSpawnItem_ElecSnail_9",
+      "pal_hint": "ElecSnail",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_ElecSnail_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_ElecSnail_9.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_1",
+      "slug": "CharacterSpawnItem_FireOrgan_1",
+      "name": "CharacterSpawnItem_FireOrgan_1",
+      "pal_hint": "FireOrgan",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_10",
+      "slug": "CharacterSpawnItem_FireOrgan_10",
+      "name": "CharacterSpawnItem_FireOrgan_10",
+      "pal_hint": "FireOrgan",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_2",
+      "slug": "CharacterSpawnItem_FireOrgan_2",
+      "name": "CharacterSpawnItem_FireOrgan_2",
+      "pal_hint": "FireOrgan",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_3",
+      "slug": "CharacterSpawnItem_FireOrgan_3",
+      "name": "CharacterSpawnItem_FireOrgan_3",
+      "pal_hint": "FireOrgan",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_4",
+      "slug": "CharacterSpawnItem_FireOrgan_4",
+      "name": "CharacterSpawnItem_FireOrgan_4",
+      "pal_hint": "FireOrgan",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_5",
+      "slug": "CharacterSpawnItem_FireOrgan_5",
+      "name": "CharacterSpawnItem_FireOrgan_5",
+      "pal_hint": "FireOrgan",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_6",
+      "slug": "CharacterSpawnItem_FireOrgan_6",
+      "name": "CharacterSpawnItem_FireOrgan_6",
+      "pal_hint": "FireOrgan",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_7",
+      "slug": "CharacterSpawnItem_FireOrgan_7",
+      "name": "CharacterSpawnItem_FireOrgan_7",
+      "pal_hint": "FireOrgan",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_8",
+      "slug": "CharacterSpawnItem_FireOrgan_8",
+      "name": "CharacterSpawnItem_FireOrgan_8",
+      "pal_hint": "FireOrgan",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_FireOrgan_9",
+      "slug": "CharacterSpawnItem_FireOrgan_9",
+      "name": "CharacterSpawnItem_FireOrgan_9",
+      "pal_hint": "FireOrgan",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_FireOrgan_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_FireOrgan_9.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_1",
+      "slug": "CharacterSpawnItem_Horn_1",
+      "name": "CharacterSpawnItem_Horn_1",
+      "pal_hint": "Horn",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_10",
+      "slug": "CharacterSpawnItem_Horn_10",
+      "name": "CharacterSpawnItem_Horn_10",
+      "pal_hint": "Horn",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_2",
+      "slug": "CharacterSpawnItem_Horn_2",
+      "name": "CharacterSpawnItem_Horn_2",
+      "pal_hint": "Horn",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_3",
+      "slug": "CharacterSpawnItem_Horn_3",
+      "name": "CharacterSpawnItem_Horn_3",
+      "pal_hint": "Horn",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_4",
+      "slug": "CharacterSpawnItem_Horn_4",
+      "name": "CharacterSpawnItem_Horn_4",
+      "pal_hint": "Horn",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_5",
+      "slug": "CharacterSpawnItem_Horn_5",
+      "name": "CharacterSpawnItem_Horn_5",
+      "pal_hint": "Horn",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_6",
+      "slug": "CharacterSpawnItem_Horn_6",
+      "name": "CharacterSpawnItem_Horn_6",
+      "pal_hint": "Horn",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_7",
+      "slug": "CharacterSpawnItem_Horn_7",
+      "name": "CharacterSpawnItem_Horn_7",
+      "pal_hint": "Horn",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_8",
+      "slug": "CharacterSpawnItem_Horn_8",
+      "name": "CharacterSpawnItem_Horn_8",
+      "pal_hint": "Horn",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Horn_9",
+      "slug": "CharacterSpawnItem_Horn_9",
+      "name": "CharacterSpawnItem_Horn_9",
+      "pal_hint": "Horn",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Horn_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Horn_9.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_1",
+      "slug": "CharacterSpawnItem_IceOrgan_1",
+      "name": "CharacterSpawnItem_IceOrgan_1",
+      "pal_hint": "IceOrgan",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_10",
+      "slug": "CharacterSpawnItem_IceOrgan_10",
+      "name": "CharacterSpawnItem_IceOrgan_10",
+      "pal_hint": "IceOrgan",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_2",
+      "slug": "CharacterSpawnItem_IceOrgan_2",
+      "name": "CharacterSpawnItem_IceOrgan_2",
+      "pal_hint": "IceOrgan",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_3",
+      "slug": "CharacterSpawnItem_IceOrgan_3",
+      "name": "CharacterSpawnItem_IceOrgan_3",
+      "pal_hint": "IceOrgan",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_4",
+      "slug": "CharacterSpawnItem_IceOrgan_4",
+      "name": "CharacterSpawnItem_IceOrgan_4",
+      "pal_hint": "IceOrgan",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_5",
+      "slug": "CharacterSpawnItem_IceOrgan_5",
+      "name": "CharacterSpawnItem_IceOrgan_5",
+      "pal_hint": "IceOrgan",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_6",
+      "slug": "CharacterSpawnItem_IceOrgan_6",
+      "name": "CharacterSpawnItem_IceOrgan_6",
+      "pal_hint": "IceOrgan",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_7",
+      "slug": "CharacterSpawnItem_IceOrgan_7",
+      "name": "CharacterSpawnItem_IceOrgan_7",
+      "pal_hint": "IceOrgan",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_8",
+      "slug": "CharacterSpawnItem_IceOrgan_8",
+      "name": "CharacterSpawnItem_IceOrgan_8",
+      "pal_hint": "IceOrgan",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_IceOrgan_9",
+      "slug": "CharacterSpawnItem_IceOrgan_9",
+      "name": "CharacterSpawnItem_IceOrgan_9",
+      "pal_hint": "IceOrgan",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_IceOrgan_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_IceOrgan_9.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_1",
+      "slug": "CharacterSpawnItem_Leather_1",
+      "name": "CharacterSpawnItem_Leather_1",
+      "pal_hint": "Leather",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_10",
+      "slug": "CharacterSpawnItem_Leather_10",
+      "name": "CharacterSpawnItem_Leather_10",
+      "pal_hint": "Leather",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_2",
+      "slug": "CharacterSpawnItem_Leather_2",
+      "name": "CharacterSpawnItem_Leather_2",
+      "pal_hint": "Leather",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_3",
+      "slug": "CharacterSpawnItem_Leather_3",
+      "name": "CharacterSpawnItem_Leather_3",
+      "pal_hint": "Leather",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_4",
+      "slug": "CharacterSpawnItem_Leather_4",
+      "name": "CharacterSpawnItem_Leather_4",
+      "pal_hint": "Leather",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_5",
+      "slug": "CharacterSpawnItem_Leather_5",
+      "name": "CharacterSpawnItem_Leather_5",
+      "pal_hint": "Leather",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_6",
+      "slug": "CharacterSpawnItem_Leather_6",
+      "name": "CharacterSpawnItem_Leather_6",
+      "pal_hint": "Leather",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_7",
+      "slug": "CharacterSpawnItem_Leather_7",
+      "name": "CharacterSpawnItem_Leather_7",
+      "pal_hint": "Leather",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_8",
+      "slug": "CharacterSpawnItem_Leather_8",
+      "name": "CharacterSpawnItem_Leather_8",
+      "pal_hint": "Leather",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_Leather_9",
+      "slug": "CharacterSpawnItem_Leather_9",
+      "name": "CharacterSpawnItem_Leather_9",
+      "pal_hint": "Leather",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_Leather_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_Leather_9.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_1",
+      "slug": "CharacterSpawnItem_PalFluid_1",
+      "name": "CharacterSpawnItem_PalFluid_1",
+      "pal_hint": "PalFluid",
+      "variant_index": 1,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_1",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_1.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_10",
+      "slug": "CharacterSpawnItem_PalFluid_10",
+      "name": "CharacterSpawnItem_PalFluid_10",
+      "pal_hint": "PalFluid",
+      "variant_index": 10,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_10",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_10.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_2",
+      "slug": "CharacterSpawnItem_PalFluid_2",
+      "name": "CharacterSpawnItem_PalFluid_2",
+      "pal_hint": "PalFluid",
+      "variant_index": 2,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_2",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_2.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_3",
+      "slug": "CharacterSpawnItem_PalFluid_3",
+      "name": "CharacterSpawnItem_PalFluid_3",
+      "pal_hint": "PalFluid",
+      "variant_index": 3,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_3",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_3.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_4",
+      "slug": "CharacterSpawnItem_PalFluid_4",
+      "name": "CharacterSpawnItem_PalFluid_4",
+      "pal_hint": "PalFluid",
+      "variant_index": 4,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_4",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_4.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_5",
+      "slug": "CharacterSpawnItem_PalFluid_5",
+      "name": "CharacterSpawnItem_PalFluid_5",
+      "pal_hint": "PalFluid",
+      "variant_index": 5,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_5",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_5.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_6",
+      "slug": "CharacterSpawnItem_PalFluid_6",
+      "name": "CharacterSpawnItem_PalFluid_6",
+      "pal_hint": "PalFluid",
+      "variant_index": 6,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_6",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_6.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_7",
+      "slug": "CharacterSpawnItem_PalFluid_7",
+      "name": "CharacterSpawnItem_PalFluid_7",
+      "pal_hint": "PalFluid",
+      "variant_index": 7,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_7",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_7.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_8",
+      "slug": "CharacterSpawnItem_PalFluid_8",
+      "name": "CharacterSpawnItem_PalFluid_8",
+      "pal_hint": "PalFluid",
+      "variant_index": 8,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_8",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_8.html",
+      "export_sparse": true
+    },
+    {
+      "id": "CharacterSpawnItem_PalFluid_9",
+      "slug": "CharacterSpawnItem_PalFluid_9",
+      "name": "CharacterSpawnItem_PalFluid_9",
+      "pal_hint": "PalFluid",
+      "variant_index": 9,
+      "source_url": "https://paldb.cc/en/CharacterSpawnItem_PalFluid_9",
+      "source_export": "data/raw/exports/en/CharacterSpawnItem_PalFluid_9.html",
+      "export_sparse": true
+    }
+  ]
+}

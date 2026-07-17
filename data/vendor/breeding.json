@@ -1,0 +1,3539 @@
+{
+  "generated_at": "2026-07-16T23:17:15.719672+00:00",
+  "language": "en",
+  "count": 299,
+  "source_url": "https://paldb.cc/en/Breed",
+  "source_export": "data/raw/exports/en/Breed.html",
+  "pals": [
+    {
+      "code": "YakushimaMonster001_Blue",
+      "label": "Blue Slime",
+      "name": "Blue Slime",
+      "zukan_index": -1,
+      "slug": "Blue_Slime",
+      "combi_rank": 100,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster003",
+      "label": "Cave Bat",
+      "name": "Cave Bat",
+      "zukan_index": -1,
+      "slug": "Cave_Bat",
+      "combi_rank": 100,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaBoss001_Small",
+      "label": "Demon Eye",
+      "name": "Demon Eye",
+      "zukan_index": -1,
+      "slug": "Demon_Eye",
+      "combi_rank": 100,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster002",
+      "label": "Enchanted Sword",
+      "name": "Enchanted Sword",
+      "zukan_index": -1,
+      "slug": "Enchanted_Sword",
+      "combi_rank": 100,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaBoss001",
+      "label": "Eye of Cthulhu",
+      "name": "Eye of Cthulhu",
+      "zukan_index": -1,
+      "slug": "Eye_of_Cthulhu",
+      "combi_rank": 100,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster001",
+      "label": "Green Slime",
+      "name": "Green Slime",
+      "zukan_index": -1,
+      "slug": "Green_Slime",
+      "combi_rank": 100,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster003_Purple",
+      "label": "Illuminant Bat",
+      "name": "Illuminant Bat",
+      "zukan_index": -1,
+      "slug": "Illuminant_Bat",
+      "combi_rank": 100,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster001_Pink",
+      "label": "Illuminant Slime",
+      "name": "Illuminant Slime",
+      "zukan_index": -1,
+      "slug": "Illuminant_Slime",
+      "combi_rank": 100,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster001_Purple",
+      "label": "Purple Slime",
+      "name": "Purple Slime",
+      "zukan_index": -1,
+      "slug": "Purple_Slime",
+      "combi_rank": 100,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster001_Rainbow",
+      "label": "Rainbow Slime",
+      "name": "Rainbow Slime",
+      "zukan_index": -1,
+      "slug": "Rainbow_Slime",
+      "combi_rank": 100,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SheepBall",
+      "label": "1 Lamball",
+      "name": "Lamball",
+      "zukan_index": 1,
+      "slug": "Lamball",
+      "combi_rank": 98,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PinkCat",
+      "label": "2 Cattiva",
+      "name": "Cattiva",
+      "zukan_index": 2,
+      "slug": "Cattiva",
+      "combi_rank": 89,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ChickenPal",
+      "label": "3 Chikipi",
+      "name": "Chikipi",
+      "zukan_index": 3,
+      "slug": "Chikipi",
+      "combi_rank": 99,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Carbunclo",
+      "label": "4 Lifmunk",
+      "name": "Lifmunk",
+      "zukan_index": 4,
+      "slug": "Lifmunk",
+      "combi_rank": 97,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BluePlatypus",
+      "label": "5 Fuack",
+      "name": "Fuack",
+      "zukan_index": 5,
+      "slug": "Fuack",
+      "combi_rank": 96,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BluePlatypus_Fire",
+      "label": "5B Fuack Ignis",
+      "name": "Fuack Ignis",
+      "zukan_index": 5,
+      "slug": "Fuack_Ignis",
+      "combi_rank": 74,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CuteFox",
+      "label": "6 Vixy",
+      "name": "Vixy",
+      "zukan_index": 6,
+      "slug": "Vixy",
+      "combi_rank": 99,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlyingManta",
+      "label": "7 Celaray",
+      "name": "Celaray",
+      "zukan_index": 7,
+      "slug": "Celaray",
+      "combi_rank": 88,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlyingManta_Thunder",
+      "label": "7B Celaray Lux",
+      "name": "Celaray Lux",
+      "zukan_index": 7,
+      "slug": "Celaray_Lux",
+      "combi_rank": 77,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WoolFox",
+      "label": "8 Cremis",
+      "name": "Cremis",
+      "zukan_index": 8,
+      "slug": "Cremis",
+      "combi_rank": 93,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "KendoFrog",
+      "label": "9 Croajiro",
+      "name": "Croajiro",
+      "zukan_index": 9,
+      "slug": "Croajiro",
+      "combi_rank": 84,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "KendoFrog_Dark",
+      "label": "9B Croajiro Noct",
+      "name": "Croajiro Noct",
+      "zukan_index": 9,
+      "slug": "Croajiro_Noct",
+      "combi_rank": 60,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LeafMomonga",
+      "label": "10 Herbil",
+      "name": "Herbil",
+      "zukan_index": 10,
+      "slug": "Herbil",
+      "combi_rank": 85,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Ganesha",
+      "label": "11 Teafant",
+      "name": "Teafant",
+      "zukan_index": 11,
+      "slug": "Teafant",
+      "combi_rank": 99,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PlantSlime",
+      "label": "12 Gumoss",
+      "name": "Gumoss",
+      "zukan_index": 12,
+      "slug": "Gumoss",
+      "combi_rank": 95,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SamuraiDog",
+      "label": "13 Pupperai",
+      "name": "Pupperai",
+      "zukan_index": 13,
+      "slug": "Pupperai",
+      "combi_rank": 94,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CloverFairy",
+      "label": "14 Clovee",
+      "name": "Clovee",
+      "zukan_index": 14,
+      "slug": "Clovee",
+      "combi_rank": 96,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Hedgehog",
+      "label": "15 Jolthog",
+      "name": "Jolthog",
+      "zukan_index": 15,
+      "slug": "Jolthog",
+      "combi_rank": 98,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Hedgehog_Ice",
+      "label": "15B Jolthog Cryst",
+      "name": "Jolthog Cryst",
+      "zukan_index": 15,
+      "slug": "Jolthog_Cryst",
+      "combi_rank": 92,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "NegativeKoala",
+      "label": "16 Depresso",
+      "name": "Depresso",
+      "zukan_index": 16,
+      "slug": "Depresso",
+      "combi_rank": 97,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Penguin",
+      "label": "17 Pengullet",
+      "name": "Pengullet",
+      "zukan_index": 17,
+      "slug": "Pengullet",
+      "combi_rank": 95,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Penguin_Electric",
+      "label": "17B Pengullet Lux",
+      "name": "Pengullet Lux",
+      "zukan_index": 17,
+      "slug": "Pengullet_Lux",
+      "combi_rank": 80,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CaptainPenguin",
+      "label": "18 Penking",
+      "name": "Penking",
+      "zukan_index": 18,
+      "slug": "Penking",
+      "combi_rank": 67,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CaptainPenguin_Black",
+      "label": "18B Penking Lux",
+      "name": "Penking Lux",
+      "zukan_index": 18,
+      "slug": "Penking_Lux",
+      "combi_rank": 59,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WizardOwl",
+      "label": "19 Hoocrates",
+      "name": "Hoocrates",
+      "zukan_index": 19,
+      "slug": "Hoocrates",
+      "combi_rank": 95,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Alpaca",
+      "label": "20 Melpaca",
+      "name": "Melpaca",
+      "zukan_index": 20
+    },
+    {
+      "code": "KingAlpaca",
+      "label": "21 Kingpaca",
+      "name": "Kingpaca",
+      "zukan_index": 21,
+      "slug": "Kingpaca",
+      "combi_rank": 71,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 90
+    },
+    {
+      "code": "KingAlpaca_Ice",
+      "label": "21B Kingpaca Cryst",
+      "name": "Kingpaca Cryst",
+      "zukan_index": 21,
+      "slug": "Kingpaca_Cryst",
+      "combi_rank": 49,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 90
+    },
+    {
+      "code": "DreamDemon",
+      "label": "22 Daedream",
+      "name": "Daedream",
+      "zukan_index": 22,
+      "slug": "Daedream",
+      "combi_rank": 94,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Monkey",
+      "label": "23 Tanzee",
+      "name": "Tanzee",
+      "zukan_index": 23,
+      "slug": "Tanzee",
+      "combi_rank": 94,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Monkey_Fire",
+      "label": "23B Tanzee Ignis",
+      "name": "Tanzee Ignis",
+      "zukan_index": 23,
+      "slug": "Tanzee_Ignis",
+      "combi_rank": 91,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "NightFox",
+      "label": "24 Nox",
+      "name": "Nox",
+      "zukan_index": 24,
+      "slug": "Nox",
+      "combi_rank": 94,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LavaGirl",
+      "label": "25 Flambelle",
+      "name": "Flambelle",
+      "zukan_index": 25,
+      "slug": "Flambelle",
+      "combi_rank": 87,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlameBambi",
+      "label": "26 Rooby",
+      "name": "Rooby",
+      "zukan_index": 26,
+      "slug": "Rooby",
+      "combi_rank": 93,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Bastet",
+      "label": "27 Mau",
+      "name": "Mau",
+      "zukan_index": 27,
+      "slug": "Mau",
+      "combi_rank": 98,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Bastet_Ice",
+      "label": "27B Mau Cryst",
+      "name": "Mau Cryst",
+      "zukan_index": 27,
+      "slug": "Mau_Cryst",
+      "combi_rank": 89,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Boar",
+      "label": "28 Rushoar",
+      "name": "Rushoar",
+      "zukan_index": 28,
+      "slug": "Rushoar",
+      "combi_rank": 93,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kitsunebi",
+      "label": "29 Foxparks",
+      "name": "Foxparks",
+      "zukan_index": 29,
+      "slug": "Foxparks",
+      "combi_rank": 96,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kitsunebi_Ice",
+      "label": "29B Foxparks Cryst",
+      "name": "Foxparks Cryst",
+      "zukan_index": 29,
+      "slug": "Foxparks_Cryst",
+      "combi_rank": 81,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "NegativeOctopus",
+      "label": "30 Killamari",
+      "name": "Killamari",
+      "zukan_index": 30,
+      "slug": "Killamari",
+      "combi_rank": 89,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "NegativeOctopus_Neutral",
+      "label": "30B Killamari Primo",
+      "name": "Killamari Primo",
+      "zukan_index": 30,
+      "slug": "Killamari_Primo",
+      "combi_rank": 82,
+      "elements": [
+        "Normal",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CuteMole",
+      "label": "31 Fuddler",
+      "name": "Fuddler",
+      "zukan_index": 31,
+      "slug": "Fuddler",
+      "combi_rank": 90,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Deer",
+      "label": "32 Eikthyrdeer",
+      "name": "Eikthyrdeer",
+      "zukan_index": 32,
+      "slug": "Eikthyrdeer",
+      "combi_rank": 87,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Deer_Ground",
+      "label": "32B Eikthyrdeer Terra",
+      "name": "Eikthyrdeer Terra",
+      "zukan_index": 32,
+      "slug": "Eikthyrdeer_Terra",
+      "combi_rank": 83,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Garm",
+      "label": "33 Direhowl",
+      "name": "Direhowl",
+      "zukan_index": 33,
+      "slug": "Direhowl",
+      "combi_rank": 86,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BerryGoat",
+      "label": "34 Caprity",
+      "name": "Caprity",
+      "zukan_index": 34,
+      "slug": "Caprity",
+      "combi_rank": 84,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BerryGoat_Dark",
+      "label": "34B Caprity Noct",
+      "name": "Caprity Noct",
+      "zukan_index": 34,
+      "slug": "Caprity_Noct",
+      "combi_rank": 62,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MopBaby",
+      "label": "35 Swee",
+      "name": "Swee",
+      "zukan_index": 35
+    },
+    {
+      "code": "MopKing",
+      "label": "36 Sweepa",
+      "name": "Sweepa",
+      "zukan_index": 36,
+      "slug": "Sweepa",
+      "combi_rank": 69,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "TentacleTurtle",
+      "label": "37 Turtacle",
+      "name": "Turtacle",
+      "zukan_index": 37,
+      "slug": "Turtacle",
+      "combi_rank": 78,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "TentacleTurtle_Ground",
+      "label": "37B Turtacle Terra",
+      "name": "Turtacle Terra",
+      "zukan_index": 37,
+      "slug": "Turtacle_Terra",
+      "combi_rank": 43,
+      "elements": [
+        "Water",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WindChimes",
+      "label": "38 Hangyu",
+      "name": "Hangyu",
+      "zukan_index": 38,
+      "slug": "Hangyu",
+      "combi_rank": 90,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WindChimes_Ice",
+      "label": "38B Hangyu Cryst",
+      "name": "Hangyu Cryst",
+      "zukan_index": 38,
+      "slug": "Hangyu_Cryst",
+      "combi_rank": 81,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SweetsSheep",
+      "label": "39 Woolipop",
+      "name": "Woolipop",
+      "zukan_index": 39,
+      "slug": "Woolipop",
+      "combi_rank": 91,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SweetsSheep_Ground",
+      "label": "39B Woolipop Terra",
+      "name": "Woolipop Terra",
+      "zukan_index": 39,
+      "slug": "Woolipop_Terra",
+      "combi_rank": 65,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CowPal",
+      "label": "40 Mozzarina",
+      "name": "Mozzarina",
+      "zukan_index": 40,
+      "slug": "Mozzarina",
+      "combi_rank": 90,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 20
+    },
+    {
+      "code": "BlueDragon",
+      "label": "41 Azurobe",
+      "name": "Azurobe",
+      "zukan_index": 41,
+      "slug": "Azurobe",
+      "combi_rank": 59,
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlueDragon_Ice",
+      "label": "41B Azurobe Cryst",
+      "name": "Azurobe Cryst",
+      "zukan_index": 41,
+      "slug": "Azurobe_Cryst",
+      "combi_rank": 39,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ElecCat",
+      "label": "42 Sparkit",
+      "name": "Sparkit",
+      "zukan_index": 42,
+      "slug": "Sparkit",
+      "combi_rank": 97,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kelpie",
+      "label": "43 Kelpsea",
+      "name": "Kelpsea",
+      "zukan_index": 43,
+      "slug": "Kelpsea",
+      "combi_rank": 91,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kelpie_Fire",
+      "label": "43B Kelpsea Ignis",
+      "name": "Kelpsea Ignis",
+      "zukan_index": 43,
+      "slug": "Kelpsea_Ignis",
+      "combi_rank": 80,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PinkRabbit",
+      "label": "44 Ribbuny",
+      "name": "Ribbuny",
+      "zukan_index": 44,
+      "slug": "Ribbuny",
+      "combi_rank": 92,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PinkRabbit_Grass",
+      "label": "44B Ribbuny Botan",
+      "name": "Ribbuny Botan",
+      "zukan_index": 44,
+      "slug": "Ribbuny_Botan",
+      "combi_rank": 79,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "JellyfishFairy",
+      "label": "45 Jelliette",
+      "name": "Jelliette",
+      "zukan_index": 45,
+      "slug": "Jelliette",
+      "combi_rank": 85,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "JellyfishGhost",
+      "label": "46 Jellroy",
+      "name": "Jellroy",
+      "zukan_index": 46,
+      "slug": "Jellroy",
+      "combi_rank": 83,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ClioneTwins",
+      "label": "47 Amione",
+      "name": "Amione",
+      "zukan_index": 47,
+      "slug": "Amione",
+      "combi_rank": 81,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "OctopusGirl",
+      "label": "48 Gloopie",
+      "name": "Gloopie",
+      "zukan_index": 48,
+      "slug": "Gloopie",
+      "combi_rank": 81,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "OctopusGirl_Neutral",
+      "label": "48B Gloopie Primo",
+      "name": "Gloopie Primo",
+      "zukan_index": 48,
+      "slug": "Gloopie_Primo",
+      "combi_rank": 52,
+      "elements": [
+        "Water",
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Eagle",
+      "label": "49 Galeclaw",
+      "name": "Galeclaw",
+      "zukan_index": 49,
+      "slug": "Galeclaw",
+      "combi_rank": 83,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GhostBlackCat",
+      "label": "50 Wispaw",
+      "name": "Wispaw",
+      "zukan_index": 50
+    },
+    {
+      "code": "HawkBird",
+      "label": "51 Nitewing",
+      "name": "Nitewing",
+      "zukan_index": 51,
+      "slug": "Nitewing",
+      "combi_rank": 82,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CatBat",
+      "label": "52 Tombat",
+      "name": "Tombat",
+      "zukan_index": 52
+    },
+    {
+      "code": "ColorfulBird",
+      "label": "53 Tocotoco",
+      "name": "Tocotoco",
+      "zukan_index": 53,
+      "slug": "Tocotoco",
+      "combi_rank": 88,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kirin",
+      "label": "54 Univolt",
+      "name": "Univolt",
+      "zukan_index": 54,
+      "slug": "Univolt",
+      "combi_rank": 73,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Kirin_Ice",
+      "label": "54B Univolt Cryst",
+      "name": "Univolt Cryst",
+      "zukan_index": 54,
+      "slug": "Univolt_Cryst",
+      "combi_rank": 17,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SharkKid",
+      "label": "55 Gobfin",
+      "name": "Gobfin",
+      "zukan_index": 55,
+      "slug": "Gobfin",
+      "combi_rank": 82,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SharkKid_Fire",
+      "label": "55B Gobfin Ignis",
+      "name": "Gobfin Ignis",
+      "zukan_index": 55,
+      "slug": "Gobfin_Ignis",
+      "combi_rank": 78,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Werewolf",
+      "label": "56 Loupmoon",
+      "name": "Loupmoon",
+      "zukan_index": 56,
+      "slug": "Loupmoon",
+      "combi_rank": 68,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Werewolf_Ice",
+      "label": "56B Loupmoon Cryst",
+      "name": "Loupmoon Cryst",
+      "zukan_index": 56,
+      "slug": "Loupmoon_Cryst",
+      "combi_rank": 41,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "DarkCrow",
+      "label": "57 Cawgnito",
+      "name": "Cawgnito",
+      "zukan_index": 57,
+      "slug": "Cawgnito",
+      "combi_rank": 76,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlameBuffalo",
+      "label": "58 Arsox",
+      "name": "Arsox",
+      "zukan_index": 58,
+      "slug": "Arsox",
+      "combi_rank": 75,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FluffyBird",
+      "label": "59 Muffly",
+      "name": "Muffly",
+      "zukan_index": 59,
+      "slug": "Muffly",
+      "combi_rank": 80,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LittleBriarRose",
+      "label": "60 Bristla",
+      "name": "Bristla",
+      "zukan_index": 60,
+      "slug": "Bristla",
+      "combi_rank": 87,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CuteButterfly",
+      "label": "61 Cinnamoth",
+      "name": "Cinnamoth",
+      "zukan_index": 61,
+      "slug": "Cinnamoth",
+      "combi_rank": 84,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ElecPomeranian",
+      "label": "62 Puffolt",
+      "name": "Puffolt",
+      "zukan_index": 62,
+      "slug": "Puffolt",
+      "combi_rank": 76,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FairyDragon",
+      "label": "63 Elphidran",
+      "name": "Elphidran",
+      "zukan_index": 63,
+      "slug": "Elphidran",
+      "combi_rank": 73,
+      "elements": [
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FairyDragon_Water",
+      "label": "63B Elphidran Aqua",
+      "name": "Elphidran Aqua",
+      "zukan_index": 63,
+      "slug": "Elphidran_Aqua",
+      "combi_rank": 53,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BirdDragon",
+      "label": "64 Vanwyrm",
+      "name": "Vanwyrm",
+      "zukan_index": 64
+    },
+    {
+      "code": "BirdDragon_Ice",
+      "label": "64B Vanwyrm Cryst",
+      "name": "Vanwyrm Cryst",
+      "zukan_index": 64
+    },
+    {
+      "code": "CatVampire",
+      "label": "65 Felbat",
+      "name": "Felbat",
+      "zukan_index": 65,
+      "slug": "Felbat",
+      "combi_rank": 50,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VioletFairy",
+      "label": "66 Vaelet",
+      "name": "Vaelet",
+      "zukan_index": 66
+    },
+    {
+      "code": "SoldierBee",
+      "label": "67 Beegarde",
+      "name": "Beegarde",
+      "zukan_index": 67,
+      "slug": "Beegarde",
+      "combi_rank": 76,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 10
+    },
+    {
+      "code": "QueenBee",
+      "label": "68 Elizabee",
+      "name": "Elizabee",
+      "zukan_index": 68,
+      "slug": "Elizabee",
+      "combi_rank": 57,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 10
+    },
+    {
+      "code": "PinkLizard",
+      "label": "69 Lovander",
+      "name": "Lovander",
+      "zukan_index": 69,
+      "slug": "Lovander",
+      "combi_rank": 67,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "NaughtyCat",
+      "label": "70 Grintale",
+      "name": "Grintale",
+      "zukan_index": 70,
+      "slug": "Grintale",
+      "combi_rank": 68,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PurpleSpider",
+      "label": "71 Tarantriss",
+      "name": "Tarantriss",
+      "zukan_index": 71,
+      "slug": "Tarantriss",
+      "combi_rank": 56,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceSeal",
+      "label": "72 Polapup",
+      "name": "Polapup",
+      "zukan_index": 72,
+      "slug": "Polapup",
+      "combi_rank": 53,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceSeal_Ground",
+      "label": "72B Polapup Terra",
+      "name": "Polapup Terra",
+      "zukan_index": 72,
+      "slug": "Polapup_Terra",
+      "combi_rank": 35,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LizardMan",
+      "label": "73 Leezpunk",
+      "name": "Leezpunk",
+      "zukan_index": 73,
+      "slug": "Leezpunk",
+      "combi_rank": 86,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LizardMan_Fire",
+      "label": "73B Leezpunk Ignis",
+      "name": "Leezpunk Ignis",
+      "zukan_index": 73,
+      "slug": "Leezpunk_Ignis",
+      "combi_rank": 85,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Gorilla",
+      "label": "74 Gorirat",
+      "name": "Gorirat",
+      "zukan_index": 74,
+      "slug": "Gorirat",
+      "combi_rank": 69,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Gorilla_Ground",
+      "label": "74B Gorirat Terra",
+      "name": "Gorirat Terra",
+      "zukan_index": 74,
+      "slug": "Gorirat_Terra",
+      "combi_rank": 60,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Serpent",
+      "label": "75 Surfent",
+      "name": "Surfent",
+      "zukan_index": 75,
+      "slug": "Surfent",
+      "combi_rank": 79,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Serpent_Ground",
+      "label": "75B Surfent Terra",
+      "name": "Surfent Terra",
+      "zukan_index": 75
+    },
+    {
+      "code": "RobinHood",
+      "label": "76 Robinquill",
+      "name": "Robinquill",
+      "zukan_index": 76,
+      "slug": "Robinquill",
+      "combi_rank": 73,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "RobinHood_Ground",
+      "label": "76B Robinquill Terra",
+      "name": "Robinquill Terra",
+      "zukan_index": 76,
+      "slug": "Robinquill_Terra",
+      "combi_rank": 66,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlowerRabbit",
+      "label": "77 Flopie",
+      "name": "Flopie",
+      "zukan_index": 77,
+      "slug": "Flopie",
+      "combi_rank": 86,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FoxMage",
+      "label": "78 Wixen",
+      "name": "Wixen",
+      "zukan_index": 78
+    },
+    {
+      "code": "FoxMage_Dark",
+      "label": "78B Wixen Noct",
+      "name": "Wixen Noct",
+      "zukan_index": 78,
+      "slug": "Wixen_Noct",
+      "combi_rank": 48,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CatMage",
+      "label": "79 Katress",
+      "name": "Katress",
+      "zukan_index": 79,
+      "slug": "Katress",
+      "combi_rank": 66,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CatMage_Fire",
+      "label": "79B Katress Ignis",
+      "name": "Katress Ignis",
+      "zukan_index": 79,
+      "slug": "Katress_Ignis",
+      "combi_rank": 58,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "HadesBird",
+      "label": "80 Helzephyr",
+      "name": "Helzephyr",
+      "zukan_index": 80,
+      "slug": "Helzephyr",
+      "combi_rank": 36,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "HadesBird_Electric",
+      "label": "80B Helzephyr Lux",
+      "name": "Helzephyr Lux",
+      "zukan_index": 80,
+      "slug": "Helzephyr_Lux",
+      "combi_rank": 31,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassMinotaur",
+      "label": "81 Elgrove",
+      "name": "Elgrove",
+      "zukan_index": 81,
+      "slug": "Elgrove",
+      "combi_rank": 65,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 60
+    },
+    {
+      "code": "GrassMinotaur_Ice",
+      "label": "81B Elgrove Cryst",
+      "name": "Elgrove Cryst",
+      "zukan_index": 81,
+      "slug": "Elgrove_Cryst",
+      "combi_rank": 14,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 60
+    },
+    {
+      "code": "Mutant",
+      "label": "82 Lunaris",
+      "name": "Lunaris",
+      "zukan_index": 82,
+      "slug": "Lunaris",
+      "combi_rank": 65,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FengyunDeeper",
+      "label": "83 Fenglope",
+      "name": "Fenglope",
+      "zukan_index": 83,
+      "slug": "Fenglope",
+      "combi_rank": 63,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FengyunDeeper_Electric",
+      "label": "83B Fenglope Lux",
+      "name": "Fenglope Lux",
+      "zukan_index": 83,
+      "slug": "Fenglope_Lux",
+      "combi_rank": 29,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlowerDinosaur",
+      "label": "84 Dinossom",
+      "name": "Dinossom",
+      "zukan_index": 84,
+      "slug": "Dinossom",
+      "combi_rank": 68,
+      "elements": [
+        "Leaf",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlowerDinosaur_Electric",
+      "label": "84B Dinossom Lux",
+      "name": "Dinossom Lux",
+      "zukan_index": 84,
+      "slug": "Dinossom_Lux",
+      "combi_rank": 61,
+      "elements": [
+        "Electricity",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Ronin",
+      "label": "85 Bushi",
+      "name": "Bushi",
+      "zukan_index": 85,
+      "slug": "Bushi",
+      "combi_rank": 50,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Ronin_Dark",
+      "label": "85B Bushi Noct",
+      "name": "Bushi Noct",
+      "zukan_index": 85,
+      "slug": "Bushi_Noct",
+      "combi_rank": 27,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceCrocodile",
+      "label": "86 Munchill",
+      "name": "Munchill",
+      "zukan_index": 86,
+      "slug": "Munchill",
+      "combi_rank": 69,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassMammoth",
+      "label": "87 Mammorest",
+      "name": "Mammorest",
+      "zukan_index": 87,
+      "slug": "Mammorest",
+      "combi_rank": 43,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassMammoth_Ice",
+      "label": "87B Mammorest Cryst",
+      "name": "Mammorest Cryst",
+      "zukan_index": 87,
+      "slug": "Mammorest_Cryst",
+      "combi_rank": 34,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "StuffedShark",
+      "label": "88 Finsider",
+      "name": "Finsider",
+      "zukan_index": 88,
+      "slug": "Finsider",
+      "combi_rank": 79,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "StuffedShark_Fire",
+      "label": "88B Finsider Ignis",
+      "name": "Finsider Ignis",
+      "zukan_index": 88,
+      "slug": "Finsider_Ignis",
+      "combi_rank": 72,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlowerDoll",
+      "label": "89 Petallia",
+      "name": "Petallia",
+      "zukan_index": 89
+    },
+    {
+      "code": "FlowerDoll_Fire",
+      "label": "89B Petallia Ignis",
+      "name": "Petallia Ignis",
+      "zukan_index": 89,
+      "slug": "Petallia_Ignis",
+      "combi_rank": 26,
+      "elements": [
+        "Leaf",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PandaGirl",
+      "label": "90 Leafan",
+      "name": "Leafan",
+      "zukan_index": 90,
+      "slug": "Leafan",
+      "combi_rank": 45,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "Baphomet",
+      "label": "91 Incineram",
+      "name": "Incineram",
+      "zukan_index": 91,
+      "slug": "Incineram",
+      "combi_rank": 47,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Baphomet_Dark",
+      "label": "91B Incineram Noct",
+      "name": "Incineram Noct",
+      "zukan_index": 91
+    },
+    {
+      "code": "RaijinDaughter",
+      "label": "92 Dazzi",
+      "name": "Dazzi",
+      "zukan_index": 92,
+      "slug": "Dazzi",
+      "combi_rank": 77,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 20
+    },
+    {
+      "code": "RaijinDaughter_Water",
+      "label": "92B Dazzi Noct",
+      "name": "Dazzi Noct",
+      "zukan_index": 92,
+      "slug": "Dazzi_Noct",
+      "combi_rank": 61,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "male_probability": 20
+    },
+    {
+      "code": "FireKirin",
+      "label": "93 Pyrin",
+      "name": "Pyrin",
+      "zukan_index": 93,
+      "slug": "Pyrin",
+      "combi_rank": 64,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FireKirin_Dark",
+      "label": "93B Pyrin Noct",
+      "name": "Pyrin Noct",
+      "zukan_index": 93,
+      "slug": "Pyrin_Noct",
+      "combi_rank": 60,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LazyDragon",
+      "label": "94 Relaxaurus",
+      "name": "Relaxaurus",
+      "zukan_index": 94
+    },
+    {
+      "code": "LazyDragon_Electric",
+      "label": "94B Relaxaurus Lux",
+      "name": "Relaxaurus Lux",
+      "zukan_index": 94,
+      "slug": "Relaxaurus_Lux",
+      "combi_rank": 24,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceFox",
+      "label": "95 Foxcicle",
+      "name": "Foxcicle",
+      "zukan_index": 95,
+      "slug": "Foxcicle",
+      "combi_rank": 63,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ThunderBird",
+      "label": "96 Beakon",
+      "name": "Beakon",
+      "zukan_index": 96,
+      "slug": "Beakon",
+      "combi_rank": 54,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ThunderBird_Ice",
+      "label": "96B Beakon Cryst",
+      "name": "Beakon Cryst",
+      "zukan_index": 96,
+      "slug": "Beakon_Cryst",
+      "combi_rank": 18,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GhostAnglerfish",
+      "label": "97 Ghangler",
+      "name": "Ghangler",
+      "zukan_index": 97,
+      "slug": "Ghangler",
+      "combi_rank": 28,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GhostAnglerfish_Fire",
+      "label": "97B Ghangler Ignis",
+      "name": "Ghangler Ignis",
+      "zukan_index": 97
+    },
+    {
+      "code": "ThunderDog",
+      "label": "98 Rayhound",
+      "name": "Rayhound",
+      "zukan_index": 98,
+      "slug": "Rayhound",
+      "combi_rank": 62,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ThunderDog_Ice",
+      "label": "98B Rayhound Cryst",
+      "name": "Rayhound Cryst",
+      "zukan_index": 98,
+      "slug": "Rayhound_Cryst",
+      "combi_rank": 51,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "DarkScorpion",
+      "label": "99 Menasting",
+      "name": "Menasting",
+      "zukan_index": 99
+    },
+    {
+      "code": "DarkScorpion_Ground",
+      "label": "99B Menasting Terra",
+      "name": "Menasting Terra",
+      "zukan_index": 99
+    },
+    {
+      "code": "CactusDoll",
+      "label": "100 Needoll",
+      "name": "Needoll",
+      "zukan_index": 100,
+      "slug": "Needoll",
+      "combi_rank": 78,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CactusDoll_Dark",
+      "label": "100B Needoll Noct",
+      "name": "Needoll Noct",
+      "zukan_index": 100,
+      "slug": "Needoll_Noct",
+      "combi_rank": 51,
+      "elements": [
+        "Dark",
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceDeer",
+      "label": "101 Reindrix",
+      "name": "Reindrix",
+      "zukan_index": 101,
+      "slug": "Reindrix",
+      "combi_rank": 62,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassPanda",
+      "label": "102 Mossanda",
+      "name": "Mossanda",
+      "zukan_index": 102,
+      "slug": "Mossanda",
+      "combi_rank": 66,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassPanda_Electric",
+      "label": "102B Mossanda Lux",
+      "name": "Mossanda Lux",
+      "zukan_index": 102,
+      "slug": "Mossanda_Lux",
+      "combi_rank": 46,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WeaselDragon",
+      "label": "103 Chillet",
+      "name": "Chillet",
+      "zukan_index": 103,
+      "slug": "Chillet",
+      "combi_rank": 75,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WeaselDragon_Fire",
+      "label": "103B Chillet Ignis",
+      "name": "Chillet Ignis",
+      "zukan_index": 103,
+      "slug": "Chillet_Ignis",
+      "combi_rank": 63,
+      "elements": [
+        "Fire",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "RedArmorBird",
+      "label": "104 Ragnahawk",
+      "name": "Ragnahawk",
+      "zukan_index": 104,
+      "slug": "Ragnahawk",
+      "combi_rank": 33,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VolcanoDragon",
+      "label": "105 Moldron",
+      "name": "Moldron",
+      "zukan_index": 105,
+      "slug": "Moldron",
+      "combi_rank": 24,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VolcanoDragon_Ice",
+      "label": "105B Moldron Cryst",
+      "name": "Moldron Cryst",
+      "zukan_index": 105,
+      "slug": "Moldron_Cryst",
+      "combi_rank": 12,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "TropicalOstrich",
+      "label": "106 Palumba",
+      "name": "Palumba",
+      "zukan_index": 106,
+      "slug": "Palumba",
+      "combi_rank": 40,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "DrillGame",
+      "label": "107 Digtoise",
+      "name": "Digtoise",
+      "zukan_index": 107,
+      "slug": "Digtoise",
+      "combi_rank": 50,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SakuraSaurus",
+      "label": "108 Broncherry",
+      "name": "Broncherry",
+      "zukan_index": 108,
+      "slug": "Broncherry",
+      "combi_rank": 44,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SakuraSaurus_Water",
+      "label": "108B Broncherry Aqua",
+      "name": "Broncherry Aqua",
+      "zukan_index": 108,
+      "slug": "Broncherry_Aqua",
+      "combi_rank": 34,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LazyCatfish",
+      "label": "109 Dumud",
+      "name": "Dumud",
+      "zukan_index": 109,
+      "slug": "Dumud",
+      "combi_rank": 74,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LazyCatfish_Gold",
+      "label": "109B Dumud Gild",
+      "name": "Dumud Gild",
+      "zukan_index": 109,
+      "slug": "Dumud_Gild",
+      "combi_rank": 52,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Plesiosaur",
+      "label": "110 Braloha",
+      "name": "Braloha",
+      "zukan_index": 110,
+      "slug": "Braloha",
+      "combi_rank": 33,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "AmaterasuWolf",
+      "label": "111 Kitsun",
+      "name": "Kitsun",
+      "zukan_index": 111,
+      "slug": "Kitsun",
+      "combi_rank": 54,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "AmaterasuWolf_Dark",
+      "label": "111B Kitsun Noct",
+      "name": "Kitsun Noct",
+      "zukan_index": 111,
+      "slug": "Kitsun_Noct",
+      "combi_rank": 25,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Manticore",
+      "label": "112 Blazehowl",
+      "name": "Blazehowl",
+      "zukan_index": 112,
+      "slug": "Blazehowl",
+      "combi_rank": 44,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Manticore_Dark",
+      "label": "112B Blazehowl Noct",
+      "name": "Blazehowl Noct",
+      "zukan_index": 112,
+      "slug": "Blazehowl_Noct",
+      "combi_rank": 41,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "HerculesBeetle",
+      "label": "113 Warsect",
+      "name": "Warsect",
+      "zukan_index": 113,
+      "slug": "Warsect",
+      "combi_rank": 41,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "male_probability": 85
+    },
+    {
+      "code": "HerculesBeetle_Ground",
+      "label": "113B Warsect Terra",
+      "name": "Warsect Terra",
+      "zukan_index": 113,
+      "slug": "Warsect_Terra",
+      "combi_rank": 20,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 85
+    },
+    {
+      "code": "SnowPeafowl",
+      "label": "114 Frostplume",
+      "name": "Frostplume",
+      "zukan_index": 114,
+      "slug": "Frostplume",
+      "combi_rank": 27,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "DarkFlameFox",
+      "label": "115 Majex",
+      "name": "Majex",
+      "zukan_index": 115,
+      "slug": "Majex",
+      "combi_rank": 32,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "WhiteMoth",
+      "label": "116 Sibelyx",
+      "name": "Sibelyx",
+      "zukan_index": 116,
+      "slug": "Sibelyx",
+      "combi_rank": 58,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteMoth_Neutral",
+      "label": "116B Sibelyx Primo",
+      "name": "Sibelyx Primo",
+      "zukan_index": 116,
+      "slug": "Sibelyx_Primo",
+      "combi_rank": 20,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GhostBeast",
+      "label": "117 Maraith",
+      "name": "Maraith",
+      "zukan_index": 117,
+      "slug": "Maraith",
+      "combi_rank": 55,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MushroomDragon",
+      "label": "118 Shroomer",
+      "name": "Shroomer",
+      "zukan_index": 118,
+      "slug": "Shroomer",
+      "combi_rank": 49,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 55
+    },
+    {
+      "code": "MushroomDragon_Dark",
+      "label": "118B Shroomer Noct",
+      "name": "Shroomer Noct",
+      "zukan_index": 118,
+      "slug": "Shroomer_Noct",
+      "combi_rank": 46,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceWitch",
+      "label": "119 Icelyn",
+      "name": "Icelyn",
+      "zukan_index": 119
+    },
+    {
+      "code": "MummyPal",
+      "label": "120 Gildra",
+      "name": "Gildra",
+      "zukan_index": 120,
+      "slug": "Gildra",
+      "combi_rank": 37,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Umihebi",
+      "label": "121 Jormuntide",
+      "name": "Jormuntide",
+      "zukan_index": 121,
+      "slug": "Jormuntide",
+      "combi_rank": 19,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Umihebi_Fire",
+      "label": "121B Jormuntide Ignis",
+      "name": "Jormuntide Ignis",
+      "zukan_index": 121,
+      "slug": "Jormuntide_Ignis",
+      "combi_rank": 5,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Suzaku",
+      "label": "122 Suzaku",
+      "name": "Suzaku",
+      "zukan_index": 122,
+      "slug": "Suzaku",
+      "combi_rank": 38,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Suzaku_Water",
+      "label": "122B Suzaku Aqua",
+      "name": "Suzaku Aqua",
+      "zukan_index": 122,
+      "slug": "Suzaku_Aqua",
+      "combi_rank": 23,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FeatherOstrich",
+      "label": "123 Dazemu",
+      "name": "Dazemu",
+      "zukan_index": 123,
+      "slug": "Dazemu",
+      "combi_rank": 71,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SkyDragon",
+      "label": "124 Quivern",
+      "name": "Quivern",
+      "zukan_index": 124,
+      "slug": "Quivern",
+      "combi_rank": 39,
+      "elements": [
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SkyDragon_Grass",
+      "label": "124B Quivern Botan",
+      "name": "Quivern Botan",
+      "zukan_index": 124,
+      "slug": "Quivern_Botan",
+      "combi_rank": 42,
+      "elements": [
+        "Dragon",
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LeafPrincess",
+      "label": "125 Lullu",
+      "name": "Lullu",
+      "zukan_index": 125,
+      "slug": "Lullu",
+      "combi_rank": 64,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "SmallArmadillo",
+      "label": "126 Kikit",
+      "name": "Kikit",
+      "zukan_index": 126,
+      "slug": "Kikit",
+      "combi_rank": 74,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GuardianDog",
+      "label": "127 Yakumo",
+      "name": "Yakumo",
+      "zukan_index": 127,
+      "slug": "Yakumo",
+      "combi_rank": 72,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SwordCutlassfish",
+      "label": "128 Skutlass",
+      "name": "Skutlass",
+      "zukan_index": 128,
+      "slug": "Skutlass",
+      "combi_rank": 45,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SwordCutlassfish_Fire",
+      "label": "128B Skutlass Ignis",
+      "name": "Skutlass Ignis",
+      "zukan_index": 128,
+      "slug": "Skutlass_Ignis",
+      "combi_rank": 51,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VolcanicMonster",
+      "label": "129 Reptyro",
+      "name": "Reptyro",
+      "zukan_index": 129,
+      "slug": "Reptyro",
+      "combi_rank": 34,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VolcanicMonster_Ice",
+      "label": "129B Reptyro Cryst",
+      "name": "Reptyro Cryst",
+      "zukan_index": 129,
+      "slug": "Reptyro_Cryst",
+      "combi_rank": 19,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "NightBlueHorse",
+      "label": "130 Starryon",
+      "name": "Starryon",
+      "zukan_index": 130
+    },
+    {
+      "code": "NightBlueHorse_Neutral",
+      "label": "130B Starryon Primo",
+      "name": "Starryon Primo",
+      "zukan_index": 130,
+      "slug": "Starryon_Primo",
+      "combi_rank": 13,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "RockBeast",
+      "label": "131 Pierdon",
+      "name": "Pierdon",
+      "zukan_index": 131,
+      "slug": "Pierdon",
+      "combi_rank": 35,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "RockBeast_Ice",
+      "label": "131B Pierdon Cryst",
+      "name": "Pierdon Cryst",
+      "zukan_index": 131,
+      "slug": "Pierdon_Cryst",
+      "combi_rank": 14,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteTiger",
+      "label": "132 Cryolinx",
+      "name": "Cryolinx",
+      "zukan_index": 132,
+      "slug": "Cryolinx",
+      "combi_rank": 33,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteTiger_Ground",
+      "label": "132B Cryolinx Terra",
+      "name": "Cryolinx Terra",
+      "zukan_index": 132,
+      "slug": "Cryolinx_Terra",
+      "combi_rank": 15,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SmallYeti",
+      "label": "133 Snugloo",
+      "name": "Snugloo",
+      "zukan_index": 133,
+      "slug": "Snugloo",
+      "combi_rank": 77,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Yeti",
+      "label": "134 Wumpo",
+      "name": "Wumpo",
+      "zukan_index": 134,
+      "slug": "Wumpo",
+      "combi_rank": 26,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Yeti_Grass",
+      "label": "134B Wumpo Botan",
+      "name": "Wumpo Botan",
+      "zukan_index": 134,
+      "slug": "Wumpo_Botan",
+      "combi_rank": 19,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CandleGhost",
+      "label": "135 Sootseer",
+      "name": "Sootseer",
+      "zukan_index": 135,
+      "slug": "Sootseer",
+      "combi_rank": 31,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "VenusFlytrap",
+      "label": "136 Carnibora",
+      "name": "Carnibora",
+      "zukan_index": 136,
+      "slug": "Carnibora",
+      "combi_rank": 55,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "KingBahamut",
+      "label": "137 Blazamut",
+      "name": "Blazamut",
+      "zukan_index": 137,
+      "slug": "Blazamut",
+      "combi_rank": 13,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "KingBahamut_Dragon",
+      "label": "137B Blazamut Ryu",
+      "name": "Blazamut Ryu",
+      "zukan_index": 137,
+      "slug": "Blazamut_Ryu",
+      "combi_rank": 3,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassGolem",
+      "label": "138 Dualith",
+      "name": "Dualith",
+      "zukan_index": 138,
+      "slug": "Dualith",
+      "combi_rank": 16,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GrassGolem_Dark",
+      "label": "138B Dualith Noct",
+      "name": "Dualith Noct",
+      "zukan_index": 138,
+      "slug": "Dualith_Noct",
+      "combi_rank": 7,
+      "elements": [
+        "Earth",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Anubis",
+      "label": "139 Anubis",
+      "name": "Anubis",
+      "zukan_index": 139,
+      "slug": "Anubis",
+      "combi_rank": 15,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Sekhmet",
+      "label": "140 Sekhmet",
+      "name": "Sekhmet",
+      "zukan_index": 140,
+      "slug": "Sekhmet",
+      "combi_rank": 28,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "ScorpionMan",
+      "label": "141 Prixter",
+      "name": "Prixter",
+      "zukan_index": 141,
+      "slug": "Prixter",
+      "combi_rank": 48,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ScorpionMan_Electric",
+      "label": "141B Prixter Lux",
+      "name": "Prixter Lux",
+      "zukan_index": 141,
+      "slug": "Prixter_Lux",
+      "combi_rank": 27,
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CubeTurtle",
+      "label": "142 Tetroise",
+      "name": "Tetroise",
+      "zukan_index": 142,
+      "slug": "Tetroise",
+      "combi_rank": 25,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "CubeTurtle_Neutral",
+      "label": "142B Tetroise Primo",
+      "name": "Tetroise Primo",
+      "zukan_index": 142,
+      "slug": "Tetroise_Primo",
+      "combi_rank": 6,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BadCatgirl",
+      "label": "143 Nyafia",
+      "name": "Nyafia",
+      "zukan_index": 143,
+      "slug": "Nyafia",
+      "combi_rank": 40,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "MimicDog",
+      "label": "144 Mimog",
+      "name": "Mimog",
+      "zukan_index": 144,
+      "slug": "Mimog",
+      "combi_rank": 56,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 80
+    },
+    {
+      "code": "DarkAlien",
+      "label": "145 Xenovader",
+      "name": "Xenovader",
+      "zukan_index": 145,
+      "slug": "Xenovader",
+      "combi_rank": 58,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteAlienDragon",
+      "label": "146 Xenogard",
+      "name": "Xenogard",
+      "zukan_index": 146,
+      "slug": "Xenogard",
+      "combi_rank": 31,
+      "elements": [
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlueberryFairy",
+      "label": "147 Prunelia",
+      "name": "Prunelia",
+      "zukan_index": 147,
+      "slug": "Prunelia",
+      "combi_rank": 44,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "GhostRabbit",
+      "label": "148 Nitemary",
+      "name": "Nitemary",
+      "zukan_index": 148,
+      "slug": "Nitemary",
+      "combi_rank": 39,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "GhostRabbit_Grass",
+      "label": "148B Nitemary Botan",
+      "name": "Nitemary Botan",
+      "zukan_index": 148,
+      "slug": "Nitemary_Botan",
+      "combi_rank": 42,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "BlackPuppy",
+      "label": "149 Smokie",
+      "name": "Smokie",
+      "zukan_index": 149,
+      "slug": "Smokie",
+      "combi_rank": 56,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlackPuppy_Ice",
+      "label": "149B Smokie Cryst",
+      "name": "Smokie Cryst",
+      "zukan_index": 149,
+      "slug": "Smokie_Cryst",
+      "combi_rank": 52,
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MysteryMask",
+      "label": "150 Omascul",
+      "name": "Omascul",
+      "zukan_index": 150,
+      "slug": "Omascul",
+      "combi_rank": 36,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceNarwhal",
+      "label": "151 Whalaska",
+      "name": "Whalaska",
+      "zukan_index": 151
+    },
+    {
+      "code": "IceNarwhal_Fire",
+      "label": "151B Whalaska Ignis",
+      "name": "Whalaska Ignis",
+      "zukan_index": 151,
+      "slug": "Whalaska_Ignis",
+      "combi_rank": 11,
+      "elements": [
+        "Ice",
+        "Fire"
+      ],
+      "male_probability": 42
+    },
+    {
+      "code": "GrassRabbitMan",
+      "label": "152 Verdash",
+      "name": "Verdash",
+      "zukan_index": 152
+    },
+    {
+      "code": "GrimGirl",
+      "label": "153 Splatterina",
+      "name": "Splatterina",
+      "zukan_index": 153,
+      "slug": "Splatterina",
+      "combi_rank": 25,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 38
+    },
+    {
+      "code": "GoldenHorse",
+      "label": "154 Gildane",
+      "name": "Gildane",
+      "zukan_index": 154,
+      "slug": "Gildane",
+      "combi_rank": 23,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SifuDog",
+      "label": "155 Dogen",
+      "name": "Dogen",
+      "zukan_index": 155,
+      "slug": "Dogen",
+      "combi_rank": 47,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SumoDog",
+      "label": "156 Bulldosu",
+      "name": "Bulldosu",
+      "zukan_index": 156,
+      "slug": "Bulldosu",
+      "combi_rank": 38,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteDeer",
+      "label": "157 Celesdir",
+      "name": "Celesdir",
+      "zukan_index": 157,
+      "slug": "Celesdir",
+      "combi_rank": 18,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WhiteDeer_Dark",
+      "label": "157B Celesdir Noct",
+      "name": "Celesdir Noct",
+      "zukan_index": 157,
+      "slug": "Celesdir_Noct",
+      "combi_rank": 8,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlackMetalDragon",
+      "label": "158 Astegon",
+      "name": "Astegon",
+      "zukan_index": 158,
+      "slug": "Astegon",
+      "combi_rank": 15,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WingGolem",
+      "label": "159 Knocklem",
+      "name": "Knocklem",
+      "zukan_index": 159,
+      "slug": "Knocklem",
+      "combi_rank": 8,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 70
+    },
+    {
+      "code": "WingGolem_Fire",
+      "label": "159B Knocklem Ignis",
+      "name": "Knocklem Ignis",
+      "zukan_index": 159,
+      "slug": "Knocklem_Ignis",
+      "combi_rank": 6,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 70
+    },
+    {
+      "code": "WhiteShieldDragon",
+      "label": "160 Silvegis",
+      "name": "Silvegis",
+      "zukan_index": 160,
+      "slug": "Silvegis",
+      "combi_rank": 18,
+      "elements": [
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlueThunderHorse",
+      "label": "161 Azurmane",
+      "name": "Azurmane",
+      "zukan_index": 161,
+      "slug": "Azurmane",
+      "combi_rank": 13,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LongCat",
+      "label": "162 Valentail",
+      "name": "Valentail",
+      "zukan_index": 162
+    },
+    {
+      "code": "ElecSnail",
+      "label": "163 Snock",
+      "name": "Snock",
+      "zukan_index": 163,
+      "slug": "Snock",
+      "combi_rank": 57,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ElecSnail_Ground",
+      "label": "163B Snock Lux",
+      "name": "Snock Lux",
+      "zukan_index": 163
+    },
+    {
+      "code": "DandelionGirl",
+      "label": "164 Souffline",
+      "name": "Souffline",
+      "zukan_index": 164,
+      "slug": "Souffline",
+      "combi_rank": 64,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "BrownRabbit",
+      "label": "165 Lapiron",
+      "name": "Lapiron",
+      "zukan_index": 165,
+      "slug": "Lapiron",
+      "combi_rank": 54,
+      "elements": [
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "HoodGhost",
+      "label": "166 Hoodle",
+      "name": "Hoodle",
+      "zukan_index": 166,
+      "slug": "Hoodle",
+      "combi_rank": 57,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ElecLizard",
+      "label": "167 Slowatt",
+      "name": "Slowatt",
+      "zukan_index": 167,
+      "slug": "Slowatt",
+      "combi_rank": 56,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "OniGhostGirl",
+      "label": "168 Bakemi",
+      "name": "Bakemi",
+      "zukan_index": 168,
+      "slug": "Bakemi",
+      "combi_rank": 49,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "KingSunfish",
+      "label": "169 Solmora",
+      "name": "Solmora",
+      "zukan_index": 169,
+      "slug": "Solmora",
+      "combi_rank": 44,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "KingSunfish_Thunder",
+      "label": "169B Solmora Lux",
+      "name": "Solmora Lux",
+      "zukan_index": 169,
+      "slug": "Solmora_Lux",
+      "combi_rank": 32,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SleeveRabbit",
+      "label": "170 Lapure",
+      "name": "Lapure",
+      "zukan_index": 170,
+      "slug": "Lapure",
+      "combi_rank": 26,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "GhostDragon",
+      "label": "171 Eidrolon",
+      "name": "Eidrolon",
+      "zukan_index": 171,
+      "slug": "Eidrolon",
+      "combi_rank": 9,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "GhostDragon_Fire",
+      "label": "171B Eidrolon Ignis",
+      "name": "Eidrolon Ignis",
+      "zukan_index": 171,
+      "slug": "Eidrolon_Ignis",
+      "combi_rank": 4,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ThunderFluffyBird",
+      "label": "172 Dynamoff",
+      "name": "Dynamoff",
+      "zukan_index": 172,
+      "slug": "Dynamoff",
+      "combi_rank": 45,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "RedFlowerBird",
+      "label": "173 Tropicaw",
+      "name": "Tropicaw",
+      "zukan_index": 173,
+      "slug": "Tropicaw",
+      "combi_rank": 43,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FoxExorcist",
+      "label": "174 Flaracle",
+      "name": "Flaracle",
+      "zukan_index": 174,
+      "slug": "Flaracle",
+      "combi_rank": 12,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LotusDragon",
+      "label": "175 Ophydia",
+      "name": "Ophydia",
+      "zukan_index": 175,
+      "slug": "Ophydia",
+      "combi_rank": 7,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ClownRabbit",
+      "label": "176 Dupin",
+      "name": "Dupin",
+      "zukan_index": 176,
+      "slug": "Dupin",
+      "combi_rank": 16,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ThiefBird",
+      "label": "177 Roujay",
+      "name": "Roujay",
+      "zukan_index": 177,
+      "slug": "Roujay",
+      "combi_rank": 17,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 60
+    },
+    {
+      "code": "SnakeGirl",
+      "label": "178 Venusa",
+      "name": "Venusa",
+      "zukan_index": 178,
+      "slug": "Venusa",
+      "combi_rank": 31,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 40
+    },
+    {
+      "code": "MushroomLady",
+      "label": "179 Mycora",
+      "name": "Mycora",
+      "zukan_index": 179,
+      "slug": "Mycora",
+      "combi_rank": 24,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "LanternButler",
+      "label": "180 Loomen",
+      "name": "Loomen",
+      "zukan_index": 180,
+      "slug": "Loomen",
+      "combi_rank": 28,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MoonChild",
+      "label": "181 Wistella",
+      "name": "Wistella",
+      "zukan_index": 181,
+      "slug": "Wistella",
+      "combi_rank": 38,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MonochromeQueen",
+      "label": "182 Solenne",
+      "name": "Solenne",
+      "zukan_index": 182,
+      "slug": "Solenne",
+      "combi_rank": 8,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "KabukiMan",
+      "label": "183 Renjishi",
+      "name": "Renjishi",
+      "zukan_index": 183
+    },
+    {
+      "code": "DomeArmorDragon",
+      "label": "184 Aegidron",
+      "name": "Aegidron",
+      "zukan_index": 184,
+      "slug": "Aegidron",
+      "combi_rank": 0,
+      "elements": [
+        "Dragon",
+        "Earth"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "ElecPanda",
+      "label": "185 Grizzbolt",
+      "name": "Grizzbolt",
+      "zukan_index": 185,
+      "slug": "Grizzbolt",
+      "combi_rank": 32,
+      "elements": [
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LilyQueen",
+      "label": "186 Lyleen",
+      "name": "Lyleen",
+      "zukan_index": 186,
+      "slug": "Lyleen",
+      "combi_rank": 7,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "LilyQueen_Dark",
+      "label": "186B Lyleen Noct",
+      "name": "Lyleen Noct",
+      "zukan_index": 186,
+      "slug": "Lyleen_Noct",
+      "combi_rank": 6,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 30
+    },
+    {
+      "code": "ThunderDragonMan",
+      "label": "187 Orserk",
+      "name": "Orserk",
+      "zukan_index": 187,
+      "slug": "Orserk",
+      "combi_rank": 3,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Horus",
+      "label": "188 Faleris",
+      "name": "Faleris",
+      "zukan_index": 188,
+      "slug": "Faleris",
+      "combi_rank": 16,
+      "elements": [
+        "Fire"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Horus_Water",
+      "label": "188B Faleris Aqua",
+      "name": "Faleris Aqua",
+      "zukan_index": 188,
+      "slug": "Faleris_Aqua",
+      "combi_rank": 14,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlackGriffon",
+      "label": "189 Shadowbeak",
+      "name": "Shadowbeak",
+      "zukan_index": 189,
+      "slug": "Shadowbeak",
+      "combi_rank": 17,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "MoonQueen",
+      "label": "190 Selyne",
+      "name": "Selyne",
+      "zukan_index": 190,
+      "slug": "Selyne",
+      "combi_rank": 11,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "male_probability": 20
+    },
+    {
+      "code": "SnowTigerBeastman",
+      "label": "191 Bastigor",
+      "name": "Bastigor",
+      "zukan_index": 191,
+      "slug": "Bastigor",
+      "combi_rank": 1,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 60
+    },
+    {
+      "code": "BlueSkyDragon",
+      "label": "192 Shaolong",
+      "name": "Shaolong",
+      "zukan_index": 192,
+      "slug": "Shaolong",
+      "combi_rank": 1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "Mothman",
+      "label": "193 Silvance",
+      "name": "Silvance",
+      "zukan_index": 193,
+      "slug": "Silvance",
+      "combi_rank": 2,
+      "elements": [
+        "Leaf"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "FlowerPrince",
+      "label": "194 Dandilord",
+      "name": "Dandilord",
+      "zukan_index": 194,
+      "slug": "Dandilord",
+      "combi_rank": 1,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "male_probability": 60
+    },
+    {
+      "code": "NightLady",
+      "label": "195 Bellanoir",
+      "name": "Bellanoir",
+      "zukan_index": 195,
+      "slug": "Bellanoir",
+      "combi_rank": 19,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 10
+    },
+    {
+      "code": "NightLady_Dark",
+      "label": "195B Bellanoir Libero",
+      "name": "Bellanoir Libero",
+      "zukan_index": 195,
+      "slug": "Bellanoir_Libero",
+      "combi_rank": 4,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 10
+    },
+    {
+      "code": "DarkMechaDragon",
+      "label": "196 Xenolord",
+      "name": "Xenolord",
+      "zukan_index": 196,
+      "slug": "Xenolord",
+      "combi_rank": 12,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "LegendDeer",
+      "label": "197 Hartalis",
+      "name": "Hartalis",
+      "zukan_index": 197,
+      "slug": "Hartalis",
+      "combi_rank": 2,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "SaintCentaur",
+      "label": "198 Paladius",
+      "name": "Paladius",
+      "zukan_index": 198,
+      "slug": "Paladius",
+      "combi_rank": 5,
+      "elements": [
+        "Normal"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "BlackCentaur",
+      "label": "199 Necromus",
+      "name": "Necromus",
+      "zukan_index": 199,
+      "slug": "Necromus",
+      "combi_rank": 6,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceHorse",
+      "label": "200 Frostallion",
+      "name": "Frostallion",
+      "zukan_index": 200,
+      "slug": "Frostallion",
+      "combi_rank": 4,
+      "elements": [
+        "Ice"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "IceHorse_Dark",
+      "label": "200B Frostallion Noct",
+      "name": "Frostallion Noct",
+      "zukan_index": 200,
+      "slug": "Frostallion_Noct",
+      "combi_rank": 3,
+      "elements": [
+        "Dark"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "PoseidonOrca",
+      "label": "201 Neptilius",
+      "name": "Neptilius",
+      "zukan_index": 201,
+      "slug": "Neptilius",
+      "combi_rank": 5,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "JetDragon",
+      "label": "202 Jetragon",
+      "name": "Jetragon",
+      "zukan_index": 202,
+      "slug": "Jetragon",
+      "combi_rank": 2,
+      "elements": [
+        "Dragon"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "KingWhale",
+      "label": "203 Panthalus",
+      "name": "Panthalus",
+      "zukan_index": 203,
+      "slug": "Panthalus",
+      "combi_rank": 0,
+      "elements": [
+        "Water"
+      ],
+      "male_probability": 50
+    },
+    {
+      "code": "WorldTreeDragon",
+      "label": "204 Astralym",
+      "name": "Astralym",
+      "zukan_index": 204,
+      "slug": "Astralym",
+      "combi_rank": null,
+      "elements": [],
+      "male_probability": 50
+    },
+    {
+      "code": "YakushimaMonster001_Red",
+      "label": "Red Slime",
+      "name": "Red Slime",
+      "zukan_index": null
+    }
+  ],
+  "combo_table": null,
+  "note": "Breed.html offline export is the calculator UI (option lists), not a full parent×parent combo matrix. CombiRank merged from pals.json when available."
+}

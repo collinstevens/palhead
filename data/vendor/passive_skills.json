@@ -1,0 +1,3730 @@
+{
+  "generated_at": "2026-07-16T22:43:34.798289+00:00",
+  "language": "en",
+  "count": 286,
+  "skills": [
+    {
+      "id": "Abnormal",
+      "name": "Abnormal",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Normal",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Neutral damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Aerial Dash +1",
+      "name": "Aerial Dash +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AirDash",
+          "value": "+1%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Aerial Dash +1",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Aerial Dash +2",
+      "name": "Aerial Dash +2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AirDash",
+          "value": "+2%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Aerial Dash +2",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Aerial Dash +3",
+      "name": "Aerial Dash +3",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AirDash",
+          "value": "+3%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Aerial Dash +3",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Aerial Dash +4",
+      "name": "Aerial Dash +4",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AirDash",
+          "value": "+4%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Aerial Dash +4",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Aggressive",
+      "name": "Aggressive",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up (S) Lv. 1",
+      "name": "Attack Up (S) Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +3% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up Lv. 1",
+      "name": "Attack Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +5% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Blood of the Dragon",
+      "name": "Blood of the Dragon",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dragon",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Dragon attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Botanical Barrier",
+      "name": "Botanical Barrier",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Leaf",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Grass damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Brave",
+      "name": "Brave",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capacitor",
+      "name": "Capacitor",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Electricity",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Lightning attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +1",
+      "name": "Capture Strength +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +2",
+      "name": "Capture Strength +2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +2% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +3",
+      "name": "Capture Strength +3",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +3% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +4",
+      "name": "Capture Strength +4",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +4% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +5",
+      "name": "Capture Strength +5",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +5% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Capture Strength +6",
+      "name": "Capture Strength +6",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CaptureLevel +6% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Cheery",
+      "name": "Cheery",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Dark",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Dark damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Cold Resistance Lv. 1",
+      "name": "Cold Resistance Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Coldblooded",
+      "name": "Coldblooded",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Ice",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Ice attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Conceited",
+      "name": "Conceited",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dainty Eater",
+      "name": "Dainty Eater",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "-10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Hunger decreases +10.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Enhancement (Large)",
+      "name": "Dark Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Enhancement (Medium)",
+      "name": "Dark Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Enhancement (Small)",
+      "name": "Dark Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Reduction Lv. 1",
+      "name": "Dark Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dark +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Defense Up Lv. 1",
+      "name": "Defense Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Enhancement (Large)",
+      "name": "Dragon Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Enhancement (Medium)",
+      "name": "Dragon Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Enhancement (Small)",
+      "name": "Dragon Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Reduction Lv. 1",
+      "name": "Dragon Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dragon +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragonkiller",
+      "name": "Dragonkiller",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Dragon",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Dragon damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Earth Damage Reduction Lv. 1",
+      "name": "Earth Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Earth +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Earthquake Resistant",
+      "name": "Earthquake Resistant",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Earth",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Earth damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Enhancement (Large)",
+      "name": "Electric Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Enhancement (Medium)",
+      "name": "Electric Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Enhancement (Small)",
+      "name": "Electric Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Reduction Lv. 1",
+      "name": "Electric Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Electricity +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Explosion Immunity",
+      "name": "Explosion Immunity",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defuser_ExplosiveSpore +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Extended Dodge Immunity",
+      "name": "Extended Dodge Immunity",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "AvoidDurationUp_EquipSkill +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fine Furs",
+      "name": "Fine Furs",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ShopSellPrice_Money_Increase",
+          "value": "+3%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ShopBuyPrice_Money_Increase",
+          "value": "-3%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Increases the value of items when sold by +3%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Enhancement (Large)",
+      "name": "Fire Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Enhancement (Medium)",
+      "name": "Fire Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Enhancement (Small)",
+      "name": "Fire Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Reduction Lv. 1",
+      "name": "Fire Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Fire +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fit as a Fiddle",
+      "name": "Fit as a Fiddle",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "PalSP_Increase",
+          "value": "+25%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Max stamina +25% *This effect is only valid for rideable pals.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fragrant Foliage",
+      "name": "Fragrant Foliage",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Leaf",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Grass attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Enhancement (Large)",
+      "name": "Grass Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Enhancement (Medium)",
+      "name": "Grass Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Enhancement (Small)",
+      "name": "Grass Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Reduction Lv. 1",
+      "name": "Grass Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Leaf +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ground Damage Enhancement (Large)",
+      "name": "Ground Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ground Damage Enhancement (Medium)",
+      "name": "Ground Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ground Damage Enhancement (Small)",
+      "name": "Ground Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Hard Skin",
+      "name": "Hard Skin",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Health Up Lv. 1",
+      "name": "Health Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Max Health +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 1",
+      "name": "Heat Resistance Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Heat +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 1 / Cold Resistance Lv. 1",
+      "name": "Heat Resistance Lv. 1 / Cold Resistance Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heated Body",
+      "name": "Heated Body",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Ice",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Ice damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Hooligan",
+      "name": "Hooligan",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Hydromaniac",
+      "name": "Hydromaniac",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Water",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Water attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Enhancement (Large)",
+      "name": "Ice Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Enhancement (Medium)",
+      "name": "Ice Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Enhancement (Small)",
+      "name": "Ice Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Reduction Lv. 1",
+      "name": "Ice Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Ice +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Impatient",
+      "name": "Impatient",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ActiveSkillCoolTime_Decrease",
+          "value": "+15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Active skill cooldown reduction 15%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Insomnia",
+      "name": "Insomnia",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Nocturnal",
+          "value": "+0%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Does not sleep and continues to work even at night.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Insulated Body",
+      "name": "Insulated Body",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Electricity",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Lightning damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Jump Count Increase +1",
+      "name": "Jump Count Increase +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "JumpCount_Increase",
+          "value": "+1%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Jump Count Increase +1",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Jump Count Increase +2",
+      "name": "Jump Count Increase +2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "JumpCount_Increase",
+          "value": "+2%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Jump Count Increase +2",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Jump Count Increase +3",
+      "name": "Jump Count Increase +3",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "JumpCount_Increase",
+          "value": "+3%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Jump Count Increase +3",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Jump Power Boost",
+      "name": "Jump Power Boost",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "JumpPower_Increase",
+          "value": "+25%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Jump Power Boost",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Yield Up Lv. 1",
+      "name": "Logging Yield Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+50%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Slightly increases the drop amount of Wood.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Yield Up Lv. 2",
+      "name": "Logging Yield Up Lv. 2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+80%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Increases the drop amount of Wood.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Masochist",
+      "name": "Masochist",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Max Carrying Capacity Lv. 1",
+      "name": "Max Carrying Capacity Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Carrying Capacity +50 (ToTrainer)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Max Carrying Capacity Lv. 2",
+      "name": "Max Carrying Capacity Lv. 2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Carrying Capacity +150 (ToTrainer)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mining Yield Up Lv. 1",
+      "name": "Mining Yield Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+50%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Slightly increases the drop amount of Stone and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mining Yield Up Lv. 2",
+      "name": "Mining Yield Up Lv. 2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+80%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Increases the drop amount of Stone and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Enhancement (Large)",
+      "name": "Neutral Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Enhancement (Medium)",
+      "name": "Neutral Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Enhancement (Small)",
+      "name": "Neutral Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Reduction Lv. 1",
+      "name": "Neutral Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Normal +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Nimble",
+      "name": "Nimble",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "MoveSpeed",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase to movement speed.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Otherworldly Cells",
+      "name": "Otherworldly Cells",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+10%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementResist_Fire",
+          "value": "+15%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Electricity",
+          "value": "+15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Attack +10% Fire damage reduction 15% Lightning damage reduction 15%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Attack Up Lv. 1",
+      "name": "Pal Attack Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +4% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dark Damage Enhancement Lv. 1",
+      "name": "Pal Dark Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Defense Up Lv. 1",
+      "name": "Pal Defense Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +5% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dragon Damage Enhancement Lv. 1",
+      "name": "Pal Dragon Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Electric Damage Enhancement Lv. 1",
+      "name": "Pal Electric Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal EXP Up Lv. 1",
+      "name": "Pal EXP Up Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "PalExp_Increase +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Fire Damage Enhancement Lv. 1",
+      "name": "Pal Fire Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Grass Damage Enhancement Lv. 1",
+      "name": "Pal Grass Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ground Damage Enhancement Lv. 1",
+      "name": "Pal Ground Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ice Damage Enhancement Lv. 1",
+      "name": "Pal Ice Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Neutral Damage Enhancement Lv. 1",
+      "name": "Pal Neutral Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Water Damage Enhancement Lv. 1",
+      "name": "Pal Water Damage Enhancement Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +6% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Positive Thinker",
+      "name": "Positive Thinker",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Sanity_Decrease",
+          "value": "-10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "SAN drops +10.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Power of Gaia",
+      "name": "Power of Gaia",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Earth",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Earth attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pyromaniac",
+      "name": "Pyromaniac",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Fire",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Fire attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sadist",
+      "name": "Sadist",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Serious",
+      "name": "Serious",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sharing is Caring",
+      "name": "Sharing is Caring",
+      "rank": 1,
+      "weight": 0,
+      "modifiers": [
+        {
+          "stat": "SelfDeathAddItemDrop",
+          "value": "+15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Your Dropped Items + 15%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sleek Stroke",
+      "name": "Sleek Stroke",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "SwimSpeed",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase movement speed on water.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Speedy Worker Lv. 1",
+      "name": "Speedy Worker Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Curve +1",
+      "name": "Sphere Curve +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +7% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Homing",
+      "name": "Sphere Homing",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +19% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Range +1",
+      "name": "Sphere Range +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +1% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Range +2",
+      "name": "Sphere Range +2",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +2% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Slider",
+      "name": "Sphere Slider",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +8% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sphere Weight +1",
+      "name": "Sphere Weight +1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "CurveType +16% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Spirit of Zen",
+      "name": "Spirit of Zen",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Normal",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Neutral attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Suntan Lover",
+      "name": "Suntan Lover",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Fire",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Fire damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Toxic Gas Immunity",
+      "name": "Toxic Gas Immunity",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "InvalidToxicGas +0% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Veil of Darkness",
+      "name": "Veil of Darkness",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dark",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% increase in Dark attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Enhancement (Large)",
+      "name": "Water Damage Enhancement (Large)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +3% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Enhancement (Medium)",
+      "name": "Water Damage Enhancement (Medium)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +2% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Enhancement (Small)",
+      "name": "Water Damage Enhancement (Small)",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +1% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Reduction Lv. 1",
+      "name": "Water Damage Reduction Lv. 1",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Water +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Waterproof",
+      "name": "Waterproof",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementResist_Water",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "10% decrease in incoming Water damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Work Slave",
+      "name": "Work Slave",
+      "rank": 1,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up (S) Lv. 2",
+      "name": "Attack Up (S) Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +6% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up Lv. 2",
+      "name": "Attack Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +10% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Cold Resistance Lv. 2",
+      "name": "Cold Resistance Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +2% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Reduction Lv. 2",
+      "name": "Dark Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dark +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Defense Up Lv. 2",
+      "name": "Defense Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Reduction Lv. 2",
+      "name": "Dragon Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dragon +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Earth Damage Reduction Lv. 2",
+      "name": "Earth Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Earth +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Reduction Lv. 2",
+      "name": "Electric Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Electricity +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Reduction Lv. 2",
+      "name": "Fire Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Fire +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Reduction Lv. 2",
+      "name": "Grass Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Leaf +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Health Up Lv. 2",
+      "name": "Health Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Max Health +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 2",
+      "name": "Heat Resistance Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Heat +2% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 2 / Cold Resistance Lv. 2",
+      "name": "Heat Resistance Lv. 2 / Cold Resistance Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +2% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heavyweight",
+      "name": "Heavyweight",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "KnockbackInvalid_ForPassiveSkill",
+          "value": "+0%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Defense +20% Immune to Knockback",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Reduction Lv. 2",
+      "name": "Ice Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Ice +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Musclehead",
+      "name": "Musclehead",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Reduction Lv. 2",
+      "name": "Neutral Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Normal +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Attack Up Lv. 2",
+      "name": "Pal Attack Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +8% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dark Damage Enhancement Lv. 2",
+      "name": "Pal Dark Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Defense Up Lv. 2",
+      "name": "Pal Defense Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +10% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dragon Damage Enhancement Lv. 2",
+      "name": "Pal Dragon Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Electric Damage Enhancement Lv. 2",
+      "name": "Pal Electric Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal EXP Up Lv. 2",
+      "name": "Pal EXP Up Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "PalExp_Increase +40% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Fire Damage Enhancement Lv. 2",
+      "name": "Pal Fire Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Grass Damage Enhancement Lv. 2",
+      "name": "Pal Grass Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ground Damage Enhancement Lv. 2",
+      "name": "Pal Ground Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ice Damage Enhancement Lv. 2",
+      "name": "Pal Ice Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Neutral Damage Enhancement Lv. 2",
+      "name": "Pal Neutral Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Water Damage Enhancement Lv. 2",
+      "name": "Pal Water Damage Enhancement Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Speedy Worker Lv. 2",
+      "name": "Speedy Worker Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Reduction Lv. 2",
+      "name": "Water Damage Reduction Lv. 2",
+      "rank": 2,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Water +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ace Swimmer",
+      "name": "Ace Swimmer",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "SwimSpeed",
+          "value": "+40%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "40% increase movement speed on water.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Artisan",
+      "name": "Artisan",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +50% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up (S) Lv. 3",
+      "name": "Attack Up (S) Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +9% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up Lv. 3",
+      "name": "Attack Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Brothers of the Eternal Pyre Soul Leader",
+      "name": "Brothers of the Eternal Pyre Soul Leader",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Burly Body",
+      "name": "Burly Body",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "LeanBackInvalid_ForPassiveSkill",
+          "value": "+0%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Defense +20% Immune to Flinch",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Celestial Emperor",
+      "name": "Celestial Emperor",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Normal",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Neutral attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Cold Resistance Lv. 3",
+      "name": "Cold Resistance Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +3% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Reduction Lv. 3",
+      "name": "Dark Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dark +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Defense Up Lv. 3",
+      "name": "Defense Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Diet Lover",
+      "name": "Diet Lover",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "-15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Hunger decreases +15.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Divine Dragon",
+      "name": "Divine Dragon",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dragon",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Dragon attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Reduction Lv. 3",
+      "name": "Dragon Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dragon +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Earth Damage Reduction Lv. 3",
+      "name": "Earth Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Earth +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Earth Emperor",
+      "name": "Earth Emperor",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Earth",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Earth attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Reduction Lv. 3",
+      "name": "Electric Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Electricity +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Farmhand",
+      "name": "Farmhand",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "WorkSuitabilityAddRank_MonsterFarm",
+          "value": "+1%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Farming's Work Suitability +1",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ferocious",
+      "name": "Ferocious",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Reduction Lv. 3",
+      "name": "Fire Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Fire +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Flame Emperor",
+      "name": "Flame Emperor",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Fire",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Fire attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Free Pal Alliance Founder",
+      "name": "Free Pal Alliance Founder",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Reduction Lv. 3",
+      "name": "Grass Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Leaf +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Healing Coach",
+      "name": "Healing Coach",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AutoHPRegeneRate",
+          "value": "+5%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "Player Auto Health Regeneration Rate +5%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Health Up Lv. 3",
+      "name": "Health Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Max Health +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 3",
+      "name": "Heat Resistance Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Heat +3% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heat Resistance Lv. 3 / Cold Resistance Lv. 3",
+      "name": "Heat Resistance Lv. 3 / Cold Resistance Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "TemperatureResist_Cold +3% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Reduction Lv. 3",
+      "name": "Ice Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Ice +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Emperor",
+      "name": "Ice Emperor",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Ice",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Ice attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Infinite Stamina",
+      "name": "Infinite Stamina",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "PalSP_Increase",
+          "value": "+50%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Max stamina +50% *This effect is only valid for rideable pals.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Jarl of Feybreak",
+      "name": "Jarl of Feybreak",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Leader of the Moonflowers",
+      "name": "Leader of the Moonflowers",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Foreman",
+      "name": "Logging Foreman",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Logging",
+          "value": "+25%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "25% increase in Player Logging Efficiency.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Yield Up Lv. 3",
+      "name": "Logging Yield Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+120%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Greatly increases the drop amount of Wood.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Yield Up Lv. 4",
+      "name": "Logging Yield Up Lv. 4",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+160%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Significantly increases the drop amount of Wood.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging/Mining Yield Up",
+      "name": "Logging/Mining Yield Up",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+160%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Significantly increases the drop amount of Wood, Stone, and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lord of Lightning",
+      "name": "Lord of Lightning",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Electricity",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Lightning attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lord of the Sea",
+      "name": "Lord of the Sea",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Water",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Water attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lord of the Underworld",
+      "name": "Lord of the Underworld",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dark",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Dark attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Max Carrying Capacity Lv. 3",
+      "name": "Max Carrying Capacity Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Carrying Capacity +200 (ToTrainer)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mine Foreman",
+      "name": "Mine Foreman",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Mining",
+          "value": "+25%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "25% increase in Player Mining Efficiency.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mining Yield Up Lv. 3",
+      "name": "Mining Yield Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+120%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Greatly increases the drop amount of Stone and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mining Yield Up Lv. 4",
+      "name": "Mining Yield Up Lv. 4",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+160%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Significantly increases the drop amount of Stone and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Motivational Leader",
+      "name": "Motivational Leader",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Work Speed",
+          "value": "+25%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "25% increase in Player Work Speed.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Reduction Lv. 3",
+      "name": "Neutral Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Normal +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Noble",
+      "name": "Noble",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ShopSellPrice_Money_Increase",
+          "value": "+5%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ShopBuyPrice_Money_Increase",
+          "value": "-5%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Increases the value of items when sold by +5%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Attack Up Lv. 3",
+      "name": "Pal Attack Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +12% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dark Damage Enhancement Lv. 3",
+      "name": "Pal Dark Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Defense Up Lv. 3",
+      "name": "Pal Defense Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +15% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dragon Damage Enhancement Lv. 3",
+      "name": "Pal Dragon Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Electric Damage Enhancement Lv. 3",
+      "name": "Pal Electric Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal EXP Up Lv. 3",
+      "name": "Pal EXP Up Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "PalExp_Increase +50% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Fire Damage Enhancement Lv. 3",
+      "name": "Pal Fire Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "PAL Genetic Research Unit Commander",
+      "name": "PAL Genetic Research Unit Commander",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Grass Damage Enhancement Lv. 3",
+      "name": "Pal Grass Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ground Damage Enhancement Lv. 3",
+      "name": "Pal Ground Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ice Damage Enhancement Lv. 3",
+      "name": "Pal Ice Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Neutral Damage Enhancement Lv. 3",
+      "name": "Pal Neutral Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Water Damage Enhancement Lv. 3",
+      "name": "Pal Water Damage Enhancement Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +18% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Philanthropist",
+      "name": "Philanthropist",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "BreedSpeed",
+          "value": "+100%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "When assigned to a Breeding Farm, breeding speed is increased by 100%.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "PIDF Commander",
+      "name": "PIDF Commander",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Rayne Syndicate Boss",
+      "name": "Rayne Syndicate Boss",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "MoveSpeed",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Attack +20% Movement Speed increases 10%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Reload Master",
+      "name": "Reload Master",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ReloadSpeedUp",
+          "value": "+4%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "Player Reload Speed +4%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Runner",
+      "name": "Runner",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "MoveSpeed",
+          "value": "+20%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "20% increase to movement speed.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Serenity",
+      "name": "Serenity",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ActiveSkillCoolTime_Decrease",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "+10%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Active skill cooldown reduction 30% Attack +10%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Service-Minded",
+      "name": "Service-Minded",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "SelfDeathAddItemDrop",
+          "value": "+50%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Your Dropped Items + 50%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Speedy Worker Lv. 3",
+      "name": "Speedy Worker Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Spirit Emperor",
+      "name": "Spirit Emperor",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Leaf",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Grass attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Stronghold Strategist",
+      "name": "Stronghold Strategist",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+10%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "10% increase in Player Defense.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Vanguard",
+      "name": "Vanguard",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+10%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "10% increase in Player Attack.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Reduction Lv. 3",
+      "name": "Water Damage Reduction Lv. 3",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Water +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Wellness Watcher",
+      "name": "Wellness Watcher",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "PlayerSP_DecreaseRate",
+          "value": "-5%",
+          "target": "ToTrainer"
+        }
+      ],
+      "description": "Player Stamina Consumption - 5.0%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Whopper",
+      "name": "Whopper",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Water",
+          "value": "+5%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Ice",
+          "value": "+5%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+5%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "5% increase to Water attack damage 5% increase to Ice attack damage 5% increase to defense.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Workaholic",
+      "name": "Workaholic",
+      "rank": 3,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Sanity_Decrease",
+          "value": "-15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "SAN drops +15.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up (S) Lv. 4",
+      "name": "Attack Up (S) Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +12% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Attack Up Lv. 4",
+      "name": "Attack Up Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +20% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Babysitter",
+      "name": "Babysitter",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "PalEggHatchingSpeed",
+          "value": "+30%",
+          "target": "ToBuildObject"
+        },
+        {
+          "stat": "BreedSpeed_InBaseCamp",
+          "value": "+30%",
+          "target": "ToBuildObject"
+        }
+      ],
+      "description": "While at a base, increases egg production speed by +30% and incubation speed by +30% for Pals assigned to a Breeding Farm.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Blood Is Fuel",
+      "name": "Blood Is Fuel",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "LifeSteal",
+          "value": "+1%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Absorbs a portion of the damage dealt to restore Health. Does not sleep at night and continues to work.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dark Damage Reduction Lv. 4",
+      "name": "Dark Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dark +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Defense Up Lv. 4",
+      "name": "Defense Up Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Demon God",
+      "name": "Demon God",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [],
+      "description": "Attack +30% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Diamond Body",
+      "name": "Diamond Body",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "LeanBackInvalid_ForPassiveSkill",
+          "value": "+0%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "KnockbackInvalid_ForPassiveSkill",
+          "value": "+0%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Defense +30% Immune to Flinch Immune to Knockback",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dragon Damage Reduction Lv. 4",
+      "name": "Dragon Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Dragon +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Electric Damage Reduction Lv. 4",
+      "name": "Electric Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Electricity +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Eternal Engine",
+      "name": "Eternal Engine",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "PalSP_Increase",
+          "value": "+75%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Max stamina +75% *This effect is only valid for rideable pals.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Eternal Flame",
+      "name": "Eternal Flame",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Fire",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Electricity",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase to Fire attack damage. 30% increase to Lightning attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Fire Damage Reduction Lv. 4",
+      "name": "Fire Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Fire +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Grass Damage Reduction Lv. 4",
+      "name": "Grass Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Leaf +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ground Damage Reduction Lv. 4",
+      "name": "Ground Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Earth +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Health Up Lv. 4",
+      "name": "Health Up Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Max Health +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heart of the Immovable King",
+      "name": "Heart of the Immovable King",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Sanity_Decrease",
+          "value": "-20%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "SAN drops +20.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heavily Armored",
+      "name": "Heavily Armored",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ExplosionResist",
+          "value": "+100%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Immune to Explosion Damage",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ice Damage Reduction Lv. 4",
+      "name": "Ice Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Ice +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Idiosyncratic",
+      "name": "Idiosyncratic",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AutoHPRegeneRate",
+          "value": "+50%",
+          "target": "ToSelfAndTrainer"
+        },
+        {
+          "stat": "ResistAdditionalEffect_Burn",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ResistAdditionalEffect_Poison",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+25%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Pal and Player Auto Health Regeneration Rate +50% Defense +25% Immune to Poison Damage Immune to Burn Damage",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Immortality",
+      "name": "Immortality",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "LifeSteal",
+          "value": "+5%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "AutoHPRegeneRate",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "+15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Life Steal +5% Pal Auto Health Regeneration Rate +100% Attack +15%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Invader",
+      "name": "Invader",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dark",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Dragon",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Dark attack damage. 30% increase in Dragon attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "King of the Waves",
+      "name": "King of the Waves",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "SwimSpeed",
+          "value": "+50%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "50% increase movement speed on water.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lavish Hospitality",
+      "name": "Lavish Hospitality",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "SelfDeathAddItemDrop",
+          "value": "+100%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Your Dropped Items + 100%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Legend",
+      "name": "Legend",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "MoveSpeed",
+          "value": "+20%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Attack +20% Defense +20% Movement Speed increases 20%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lightfooted",
+      "name": "Lightfooted",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "RideJumpCount_Increase",
+          "value": "+1%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Mounted Jump Count +1",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Logging Yield Up Lv. 5",
+      "name": "Logging Yield Up Lv. 5",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+200%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Massively increases the drop amount of Wood.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lucky",
+      "name": "Lucky",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +15% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Lunker",
+      "name": "Lunker",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Water",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Ice",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "20% increase to Water attack damage 20% increase to Ice attack damage 20% increase to defense.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mastery of Fasting",
+      "name": "Mastery of Fasting",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "-20%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Hunger decreases +20.0% slower.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Mining Yield Up Lv. 5",
+      "name": "Mining Yield Up Lv. 5",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "CollectItemDrop_NaturalObject",
+          "value": "+200%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Massively increases the drop amount of Stone and Ore.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Neutral Damage Reduction Lv. 4",
+      "name": "Neutral Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Normal +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Attack Up Lv. 4",
+      "name": "Pal Attack Up Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Attack +16% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dark Damage Enhancement Lv. 4",
+      "name": "Pal Dark Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dark +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Defense Up Lv. 4",
+      "name": "Pal Defense Up Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Defense +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Dragon Damage Enhancement Lv. 4",
+      "name": "Pal Dragon Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Dragon +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Electric Damage Enhancement Lv. 4",
+      "name": "Pal Electric Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Electricity +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Fire Damage Enhancement Lv. 4",
+      "name": "Pal Fire Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Fire +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Grass Damage Enhancement Lv. 4",
+      "name": "Pal Grass Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Leaf +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ground Damage Enhancement Lv. 4",
+      "name": "Pal Ground Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Earth +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Ice Damage Enhancement Lv. 4",
+      "name": "Pal Ice Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Ice +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Neutral Damage Enhancement Lv. 4",
+      "name": "Pal Neutral Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Normal +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Pal Water Damage Enhancement Lv. 4",
+      "name": "Pal Water Damage Enhancement Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementBoost_Water +20% (ToOtomo)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Ranch Master",
+      "name": "Ranch Master",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "WorkSuitabilityAddRank_MonsterFarm",
+          "value": "+2%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Farming's Work Suitability +2",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Remarkable Craftsmanship",
+      "name": "Remarkable Craftsmanship",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [],
+      "description": "Work Speed +75% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Savior",
+      "name": "Savior",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Normal",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Leaf",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Neutral attack damage. 30% increase in Grass attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Siren of the Void",
+      "name": "Siren of the Void",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ElementBoost_Dark",
+          "value": "+30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ElementBoost_Ice",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase in Dark attack damage. 30% increase in Ice attack damage.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Skymarcher",
+      "name": "Skymarcher",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "RideJumpCount_Increase",
+          "value": "+2%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Mounted Jump Count +2",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Speedy Worker Lv. 4",
+      "name": "Speedy Worker Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "Work Speed +25% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Swift",
+      "name": "Swift",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "MoveSpeed",
+          "value": "+30%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "30% increase to movement speed.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Tempest Fury",
+      "name": "Tempest Fury",
+      "rank": 4,
+      "weight": 0,
+      "modifiers": [
+        {
+          "stat": "ActiveSkillCoolTime_Decrease",
+          "value": "+0%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "+0%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Active skill cooldown reduction 0% Attack +0%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Vampiric",
+      "name": "Vampiric",
+      "rank": 4,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Nocturnal",
+          "value": "+0%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "LifeSteal",
+          "value": "+5%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Absorbs a portion of the damage dealt to restore Health. Does not sleep at night and continues to work.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Water Damage Reduction Lv. 4",
+      "name": "Water Damage Reduction Lv. 4",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [],
+      "description": "ElementResist_Water +35% (ToSelf)",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Demon’s Hand",
+      "name": "Demon’s Hand",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Work Speed",
+          "value": "+90%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Sanity_Decrease",
+          "value": "+15%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Work Speed +90 % SAN dreceases +15.0% faster World Tree harvestables won't vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dimensional Leap",
+      "name": "Dimensional Leap",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "MoveSpeed",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "+15%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Movement Speed +50 % Increases Hunger depletion rate by +15.0% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "God of Destruction",
+      "name": "God of Destruction",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+40%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Max Health",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Attack +40% Defense +20% Max Health -50% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Hermit Sage",
+      "name": "Hermit Sage",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Sanity_Decrease",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Work Speed",
+          "value": "-20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "SAN depletion rate - 50.0% Work Speed -20 % World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sanctified Meat Shield",
+      "name": "Sanctified Meat Shield",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "-30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Defense +50% Attack -30% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Twin-Edged Holy Blade",
+      "name": "Twin-Edged Holy Blade",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "-30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Attack +50% Defense -30% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "World Tree Seedbed",
+      "name": "World Tree Seedbed",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Max Health",
+          "value": "-20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Decrease Hunger depletion rate by +50.0% HP -20 % World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    }
+  ]
+}

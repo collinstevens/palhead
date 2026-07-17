@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-07-16T23:10:31.289200+00:00",
+  "language": "en",
+  "count": 19,
+  "incidents": [
+    {
+      "id": "IncidentSpawner_1",
+      "name": "IncidentSpawner /1",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_DarkArea_11",
+      "name": "IncidentSpawner_DarkIsland_DarkArea /11",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_RedArea_Desert_9",
+      "name": "IncidentSpawner_DarkIsland_RedArea_Desert /9",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_RedArea_Magma_8",
+      "name": "IncidentSpawner_DarkIsland_RedArea_Magma /8",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_RedArea_North_9",
+      "name": "IncidentSpawner_DarkIsland_RedArea_North /9",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_RedArea_South_9",
+      "name": "IncidentSpawner_DarkIsland_RedArea_South /9",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_DarkIsland_YellowArea_9",
+      "name": "IncidentSpawner_DarkIsland_YellowArea /9",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Desert_14",
+      "name": "IncidentSpawner_Desert /14",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Forest_18",
+      "name": "IncidentSpawner_Forest /18",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Forest_B_18",
+      "name": "IncidentSpawner_Forest_B /18",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Forest_Frost_5",
+      "name": "IncidentSpawner_Forest_Frost /5",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Sakurajima_14",
+      "name": "IncidentSpawner_Sakurajima /14",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Sakurajima_B_14",
+      "name": "IncidentSpawner_Sakurajima_B /14",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_SkyIsland_A_0",
+      "name": "IncidentSpawner_SkyIsland_A /0",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Snow_15",
+      "name": "IncidentSpawner_Snow /15",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_Volcano_15",
+      "name": "IncidentSpawner_Volcano /15",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_grass_20",
+      "name": "IncidentSpawner_grass /20",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_grass_B_18",
+      "name": "IncidentSpawner_grass_B /18",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    },
+    {
+      "id": "IncidentSpawner_grass_desert_9",
+      "name": "IncidentSpawner_grass_desert /9",
+      "pals": [],
+      "drops": [],
+      "source_url": "https://paldb.cc/en/Incidents",
+      "source_export": "data/raw/exports/en/Incidents.html",
+      "from_index": "Incidents.html"
+    }
+  ]
+}

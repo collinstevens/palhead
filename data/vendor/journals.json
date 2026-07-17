@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-07-17T02:45:05.742174+00:00",
+  "language": "en",
+  "count": 62,
+  "journals": [
+    {
+      "id": "Journals",
+      "slug": "Journals",
+      "name": "Journals",
+      "source_url": "https://paldb.cc/en/Journals",
+      "source_export": "data/raw/exports/en/Journals.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_XX",
+      "slug": "Castaways_Journal_-_Day_XX",
+      "name": "Castaway's Journal - Day XX",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_XX",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_XX.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_0",
+      "slug": "Castaways_Journal_-_Day_0",
+      "name": "Castaway's Journal - Day 0",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_0",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_0.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_1-1",
+      "slug": "Castaways_Journal_-_Day_1-1",
+      "name": "Castaway's Journal - Day 1-1",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_1-1",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_1-1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_1-2",
+      "slug": "Castaways_Journal_-_Day_1-2",
+      "name": "Castaway's Journal - Day 1-2",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_1-2",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_1-2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_Day_2",
+      "slug": "Castaways_Journal_Day_2",
+      "name": "Castaway's Journal Day 2",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_Day_2",
+      "source_export": "data/raw/exports/en/Castaways_Journal_Day_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_3",
+      "slug": "Castaways_Journal_-_Day_3",
+      "name": "Castaway's Journal - Day 3",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_3",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_5",
+      "slug": "Castaways_Journal_-_Day_5",
+      "name": "Castaway's Journal - Day 5",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_5",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_6",
+      "slug": "Castaways_Journal_-_Day_6",
+      "name": "Castaway's Journal - Day 6",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_6",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_6.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_8",
+      "slug": "Castaways_Journal_-_Day_8",
+      "name": "Castaway's Journal - Day 8",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_8",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_8.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_10",
+      "slug": "Castaways_Journal_-_Day_10",
+      "name": "Castaway's Journal - Day 10",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_10",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_10.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_11",
+      "slug": "Castaways_Journal_-_Day_11",
+      "name": "Castaway's Journal - Day 11",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_11",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_11.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_12-1",
+      "slug": "Castaways_Journal_-_Day_12-1",
+      "name": "Castaway's Journal - Day 12-1",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_12-1",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_12-1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_12-2",
+      "slug": "Castaways_Journal_-_Day_12-2",
+      "name": "Castaway's Journal - Day 12-2",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_12-2",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_12-2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_12-3",
+      "slug": "Castaways_Journal_-_Day_12-3",
+      "name": "Castaway's Journal - Day 12-3",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_12-3",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_12-3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_13",
+      "slug": "Castaways_Journal_-_Day_13",
+      "name": "Castaway's Journal - Day 13",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_13",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_13.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_15",
+      "slug": "Castaways_Journal_-_Day_15",
+      "name": "Castaway's Journal - Day 15",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_15",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_15.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_18",
+      "slug": "Castaways_Journal_-_Day_18",
+      "name": "Castaway's Journal - Day 18",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_18",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_18.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_22",
+      "slug": "Castaways_Journal_-_Day_22",
+      "name": "Castaway's Journal - Day 22",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_22",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_22.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_25",
+      "slug": "Castaways_Journal_-_Day_25",
+      "name": "Castaway's Journal - Day 25",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_25",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_25.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_29",
+      "slug": "Castaways_Journal_-_Day_29",
+      "name": "Castaway's Journal - Day 29",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_29",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_29.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_30",
+      "slug": "Castaways_Journal_-_Day_30",
+      "name": "Castaway's Journal - Day 30",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_30",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_30.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_32",
+      "slug": "Castaways_Journal_-_Day_32",
+      "name": "Castaway's Journal - Day 32",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_32",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_32.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Castaways_Journal_-_Day_38",
+      "slug": "Castaways_Journal_-_Day_38",
+      "name": "Castaway's Journal - Day 38",
+      "source_url": "https://paldb.cc/en/Castaways_Journal_-_Day_38",
+      "source_export": "data/raw/exports/en/Castaways_Journal_-_Day_38.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zoe_Raynes_Diary_-_1",
+      "slug": "Zoe_Raynes_Diary_-_1",
+      "name": "Zoe Rayne's Diary - 1",
+      "source_url": "https://paldb.cc/en/Zoe_Raynes_Diary_-_1",
+      "source_export": "data/raw/exports/en/Zoe_Raynes_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zoe_Raynes_Diary_-_2",
+      "slug": "Zoe_Raynes_Diary_-_2",
+      "name": "Zoe Rayne's Diary - 2",
+      "source_url": "https://paldb.cc/en/Zoe_Raynes_Diary_-_2",
+      "source_export": "data/raw/exports/en/Zoe_Raynes_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zoe_Raynes_Diary_-_3",
+      "slug": "Zoe_Raynes_Diary_-_3",
+      "name": "Zoe Rayne's Diary - 3",
+      "source_url": "https://paldb.cc/en/Zoe_Raynes_Diary_-_3",
+      "source_export": "data/raw/exports/en/Zoe_Raynes_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zoe_Raynes_Diary_-_4",
+      "slug": "Zoe_Raynes_Diary_-_4",
+      "name": "Zoe Rayne's Diary - 4",
+      "source_url": "https://paldb.cc/en/Zoe_Raynes_Diary_-_4",
+      "source_export": "data/raw/exports/en/Zoe_Raynes_Diary_-_4.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zoe_Raynes_Diary_-_5",
+      "slug": "Zoe_Raynes_Diary_-_5",
+      "name": "Zoe Rayne's Diary - 5",
+      "source_url": "https://paldb.cc/en/Zoe_Raynes_Diary_-_5",
+      "source_export": "data/raw/exports/en/Zoe_Raynes_Diary_-_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Lily_Everharts_Diary_-_1",
+      "slug": "Lily_Everharts_Diary_-_1",
+      "name": "Lily Everhart's Diary - 1",
+      "source_url": "https://paldb.cc/en/Lily_Everharts_Diary_-_1",
+      "source_export": "data/raw/exports/en/Lily_Everharts_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Lily_Everharts_Diary_-_2",
+      "slug": "Lily_Everharts_Diary_-_2",
+      "name": "Lily Everhart's Diary - 2",
+      "source_url": "https://paldb.cc/en/Lily_Everharts_Diary_-_2",
+      "source_export": "data/raw/exports/en/Lily_Everharts_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Lily_Everharts_Diary_-_3",
+      "slug": "Lily_Everharts_Diary_-_3",
+      "name": "Lily Everhart's Diary - 3",
+      "source_url": "https://paldb.cc/en/Lily_Everharts_Diary_-_3",
+      "source_export": "data/raw/exports/en/Lily_Everharts_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "A_letter_penned_in_crude_handwriting_",
+      "slug": "A_letter_penned_in_crude_handwriting_",
+      "name": "A letter penned in crude handwriting:",
+      "source_url": "https://paldb.cc/en/A_letter_penned_in_crude_handwriting_",
+      "source_export": "data/raw/exports/en/A_letter_penned_in_crude_handwriting_.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Marcus_Drydens_Diary_-_1",
+      "slug": "Marcus_Drydens_Diary_-_1",
+      "name": "Marcus Dryden's Diary - 1",
+      "source_url": "https://paldb.cc/en/Marcus_Drydens_Diary_-_1",
+      "source_export": "data/raw/exports/en/Marcus_Drydens_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Marcus_Drydens_Diary_-_2",
+      "slug": "Marcus_Drydens_Diary_-_2",
+      "name": "Marcus Dryden's Diary - 2",
+      "source_url": "https://paldb.cc/en/Marcus_Drydens_Diary_-_2",
+      "source_export": "data/raw/exports/en/Marcus_Drydens_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Marcus_Drydens_Diary_-_3",
+      "slug": "Marcus_Drydens_Diary_-_3",
+      "name": "Marcus Dryden's Diary - 3",
+      "source_url": "https://paldb.cc/en/Marcus_Drydens_Diary_-_3",
+      "source_export": "data/raw/exports/en/Marcus_Drydens_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Victor_Ashfords_Diary_-_1",
+      "slug": "Victor_Ashfords_Diary_-_1",
+      "name": "Victor Ashford's Diary - 1",
+      "source_url": "https://paldb.cc/en/Victor_Ashfords_Diary_-_1",
+      "source_export": "data/raw/exports/en/Victor_Ashfords_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Victor_Ashfords_Diary_-_2",
+      "slug": "Victor_Ashfords_Diary_-_2",
+      "name": "Victor Ashford's Diary - 2",
+      "source_url": "https://paldb.cc/en/Victor_Ashfords_Diary_-_2",
+      "source_export": "data/raw/exports/en/Victor_Ashfords_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Victor_Ashfords_Diary_-_3",
+      "slug": "Victor_Ashfords_Diary_-_3",
+      "name": "Victor Ashford's Diary - 3",
+      "source_url": "https://paldb.cc/en/Victor_Ashfords_Diary_-_3",
+      "source_export": "data/raw/exports/en/Victor_Ashfords_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Axel_Travers_Diary_-_1",
+      "slug": "Axel_Travers_Diary_-_1",
+      "name": "Axel Travers' Diary - 1",
+      "source_url": "https://paldb.cc/en/Axel_Travers_Diary_-_1",
+      "source_export": "data/raw/exports/en/Axel_Travers_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Saya_Kurosakis_Diary_-_1",
+      "slug": "Saya_Kurosakis_Diary_-_1",
+      "name": "Saya Kurosaki's Diary - 1",
+      "source_url": "https://paldb.cc/en/Saya_Kurosakis_Diary_-_1",
+      "source_export": "data/raw/exports/en/Saya_Kurosakis_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Saya_Kurosakis_Diary_-_2",
+      "slug": "Saya_Kurosakis_Diary_-_2",
+      "name": "Saya Kurosaki's Diary - 2",
+      "source_url": "https://paldb.cc/en/Saya_Kurosakis_Diary_-_2",
+      "source_export": "data/raw/exports/en/Saya_Kurosakis_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Saya_Kurosakis_Diary_-_3",
+      "slug": "Saya_Kurosakis_Diary_-_3",
+      "name": "Saya Kurosaki's Diary - 3",
+      "source_url": "https://paldb.cc/en/Saya_Kurosakis_Diary_-_3",
+      "source_export": "data/raw/exports/en/Saya_Kurosakis_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Saya_Kurosakis_Diary_-_4",
+      "slug": "Saya_Kurosakis_Diary_-_4",
+      "name": "Saya Kurosaki's Diary - 4",
+      "source_url": "https://paldb.cc/en/Saya_Kurosakis_Diary_-_4",
+      "source_export": "data/raw/exports/en/Saya_Kurosakis_Diary_-_4.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Saya_Kurosakis_Diary_-_5",
+      "slug": "Saya_Kurosakis_Diary_-_5",
+      "name": "Saya Kurosaki's Diary - 5",
+      "source_url": "https://paldb.cc/en/Saya_Kurosakis_Diary_-_5",
+      "source_export": "data/raw/exports/en/Saya_Kurosakis_Diary_-_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Bjorn_Seligsson’s_Diary_-_1",
+      "slug": "Bjorn_Seligsson’s_Diary_-_1",
+      "name": "Bjorn Seligsson’s Diary - 1",
+      "source_url": "https://paldb.cc/en/Bjorn_Seligsson’s_Diary_-_1",
+      "source_export": "data/raw/exports/en/Bjorn_Seligsson’s_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Bjorn_Seligssons_Diary_-_2",
+      "slug": "Bjorn_Seligssons_Diary_-_2",
+      "name": "Bjorn Seligsson's Diary - 2",
+      "source_url": "https://paldb.cc/en/Bjorn_Seligssons_Diary_-_2",
+      "source_export": "data/raw/exports/en/Bjorn_Seligssons_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Bjorn_Seligsson’s_Diary_-_3",
+      "slug": "Bjorn_Seligsson’s_Diary_-_3",
+      "name": "Bjorn Seligsson’s Diary - 3",
+      "source_url": "https://paldb.cc/en/Bjorn_Seligsson’s_Diary_-_3",
+      "source_export": "data/raw/exports/en/Bjorn_Seligsson’s_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Bjorn_Seligsson’s_Diary_-_4",
+      "slug": "Bjorn_Seligsson’s_Diary_-_4",
+      "name": "Bjorn Seligsson’s Diary - 4",
+      "source_url": "https://paldb.cc/en/Bjorn_Seligsson’s_Diary_-_4",
+      "source_export": "data/raw/exports/en/Bjorn_Seligsson’s_Diary_-_4.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Bjorn_Seligsson’s_Diary_-_5",
+      "slug": "Bjorn_Seligsson’s_Diary_-_5",
+      "name": "Bjorn Seligsson’s Diary - 5",
+      "source_url": "https://paldb.cc/en/Bjorn_Seligsson’s_Diary_-_5",
+      "source_export": "data/raw/exports/en/Bjorn_Seligsson’s_Diary_-_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_1",
+      "slug": "Auris_Diary_-_1",
+      "name": "Auri's Diary - 1",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_1",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_2",
+      "slug": "Auris_Diary_-_2",
+      "name": "Auri's Diary - 2",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_2",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_3",
+      "slug": "Auris_Diary_-_3",
+      "name": "Auri's Diary - 3",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_3",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_4",
+      "slug": "Auris_Diary_-_4",
+      "name": "Auri's Diary - 4",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_4",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_4.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_5",
+      "slug": "Auris_Diary_-_5",
+      "name": "Auri's Diary - 5",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_5",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Auris_Diary_-_6",
+      "slug": "Auris_Diary_-_6",
+      "name": "Auri's Diary - 6",
+      "source_url": "https://paldb.cc/en/Auris_Diary_-_6",
+      "source_export": "data/raw/exports/en/Auris_Diary_-_6.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zenaras_Diary_-_1",
+      "slug": "Zenaras_Diary_-_1",
+      "name": "Zenara's Diary - 1",
+      "source_url": "https://paldb.cc/en/Zenaras_Diary_-_1",
+      "source_export": "data/raw/exports/en/Zenaras_Diary_-_1.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zenaras_Diary_-_2",
+      "slug": "Zenaras_Diary_-_2",
+      "name": "Zenara's Diary - 2",
+      "source_url": "https://paldb.cc/en/Zenaras_Diary_-_2",
+      "source_export": "data/raw/exports/en/Zenaras_Diary_-_2.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zenaras_Diary_-_3",
+      "slug": "Zenaras_Diary_-_3",
+      "name": "Zenara's Diary - 3",
+      "source_url": "https://paldb.cc/en/Zenaras_Diary_-_3",
+      "source_export": "data/raw/exports/en/Zenaras_Diary_-_3.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zenaras_Diary_-_4",
+      "slug": "Zenaras_Diary_-_4",
+      "name": "Zenara's Diary - 4",
+      "source_url": "https://paldb.cc/en/Zenaras_Diary_-_4",
+      "source_export": "data/raw/exports/en/Zenaras_Diary_-_4.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Zenaras_Diary_-_5",
+      "slug": "Zenaras_Diary_-_5",
+      "name": "Zenara's Diary - 5",
+      "source_url": "https://paldb.cc/en/Zenaras_Diary_-_5",
+      "source_export": "data/raw/exports/en/Zenaras_Diary_-_5.html",
+      "from_index": "Journals.html"
+    },
+    {
+      "id": "Memory_Wiping_Medicine",
+      "slug": "Memory_Wiping_Medicine",
+      "name": "Memory_Wiping_Medicine",
+      "source_url": "https://paldb.cc/en/Memory_Wiping_Medicine",
+      "source_export": "data/raw/exports/en/Memory_Wiping_Medicine.html",
+      "from_index": "Journals.html"
+    }
+  ]
+}

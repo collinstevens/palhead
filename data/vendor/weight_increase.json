@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-07-16T23:17:15.899678+00:00",
+  "language": "en",
+  "count": 8,
+  "source_url": "https://paldb.cc/en/Weight_Increase",
+  "source_export": "data/raw/exports/en/Weight_Increase.html",
+  "weight_increases": [
+    {
+      "slug": "Cattiva",
+      "name": "Cattiva",
+      "levels": {
+        "lv1": 50,
+        "lv2": 60,
+        "lv3": 70,
+        "lv4": 80,
+        "lv5": 90
+      },
+      "source_url": "https://paldb.cc/en/Cattiva",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Lunaris",
+      "name": "Lunaris",
+      "levels": {
+        "lv1": 80,
+        "lv2": 90,
+        "lv3": 100,
+        "lv4": 110,
+        "lv5": 120
+      },
+      "source_url": "https://paldb.cc/en/Lunaris",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Broncherry",
+      "name": "Broncherry",
+      "levels": {
+        "lv1": 100,
+        "lv2": 110,
+        "lv3": 120,
+        "lv4": 130,
+        "lv5": 140
+      },
+      "source_url": "https://paldb.cc/en/Broncherry",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Broncherry_Aqua",
+      "name": "Broncherry Aqua",
+      "levels": {
+        "lv1": 100,
+        "lv2": 110,
+        "lv3": 120,
+        "lv4": 130,
+        "lv5": 140
+      },
+      "source_url": "https://paldb.cc/en/Broncherry_Aqua",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Kingpaca",
+      "name": "Kingpaca",
+      "levels": {
+        "lv1": 100,
+        "lv2": 110,
+        "lv3": 120,
+        "lv4": 130,
+        "lv5": 140
+      },
+      "source_url": "https://paldb.cc/en/Kingpaca",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Kingpaca_Cryst",
+      "name": "Kingpaca Cryst",
+      "levels": {
+        "lv1": 100,
+        "lv2": 110,
+        "lv3": 120,
+        "lv4": 130,
+        "lv5": 140
+      },
+      "source_url": "https://paldb.cc/en/Kingpaca_Cryst",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Wumpo",
+      "name": "Wumpo",
+      "levels": {
+        "lv1": 120,
+        "lv2": 130,
+        "lv3": 140,
+        "lv4": 150,
+        "lv5": 160
+      },
+      "source_url": "https://paldb.cc/en/Wumpo",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    },
+    {
+      "slug": "Wumpo_Botan",
+      "name": "Wumpo Botan",
+      "levels": {
+        "lv1": 120,
+        "lv2": 130,
+        "lv3": 140,
+        "lv4": 150,
+        "lv5": 160
+      },
+      "source_url": "https://paldb.cc/en/Wumpo_Botan",
+      "source_export": "data/raw/exports/en/Weight_Increase.html"
+    }
+  ]
+}

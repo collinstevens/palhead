@@ -8,8 +8,8 @@ Thumbs.db
 .env.*
 !.env.example
 
-data/vendor/*
-!data/vendor/.gitkeep
+# Game vendor is tracked so CI can build without sibling export repos.
+# Re-import locally with `npm run data:import`, then commit vendor when shipping data.
 data/style-vendor/*
 !data/style-vendor/.gitkeep
 data/normalized/*

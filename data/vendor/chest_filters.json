@@ -1,0 +1,6383 @@
+{
+  "generated_at": "2026-07-17T02:45:02.222155+00:00",
+  "language": "en",
+  "count": 1562,
+  "source_url": "https://paldb.cc/en/Chest_filters",
+  "source_export": "data/raw/exports/en/Chest_filters.html",
+  "categories": [
+    {
+      "category": "Weapons",
+      "count": 108,
+      "items": [
+        {
+          "slug": "Assault_Rifle",
+          "name": "Assault_Rifle"
+        },
+        {
+          "slug": "Stone_Axe",
+          "name": "Stone_Axe"
+        },
+        {
+          "slug": "Metal_Axe",
+          "name": "Metal_Axe"
+        },
+        {
+          "slug": "Refined_Metal_Axe",
+          "name": "Refined_Metal_Axe"
+        },
+        {
+          "slug": "Metal_Detector",
+          "name": "Metal_Detector"
+        },
+        {
+          "slug": "Wooden_Club",
+          "name": "Wooden_Club"
+        },
+        {
+          "slug": "Bat",
+          "name": "Bat"
+        },
+        {
+          "slug": "Meat_Cleaver",
+          "name": "Meat_Cleaver"
+        },
+        {
+          "slug": "Stun_Baton",
+          "name": "Stun_Baton"
+        },
+        {
+          "slug": "Crossbow",
+          "name": "Crossbow"
+        },
+        {
+          "slug": "Double-Barreled_Shotgun",
+          "name": "Double-Barreled_Shotgun"
+        },
+        {
+          "slug": "Handgun",
+          "name": "Handgun"
+        },
+        {
+          "slug": "Decal_Gun_1",
+          "name": "Decal_Gun_1"
+        },
+        {
+          "slug": "Decal_Gun_2",
+          "name": "Decal_Gun_2"
+        },
+        {
+          "slug": "Decal_Gun_3",
+          "name": "Decal_Gun_3"
+        },
+        {
+          "slug": "Decal_Gun_4",
+          "name": "Decal_Gun_4"
+        },
+        {
+          "slug": "Decal_Gun_5",
+          "name": "Decal_Gun_5"
+        },
+        {
+          "slug": "Homing_Sphere_Launcher",
+          "name": "Homing_Sphere_Launcher"
+        },
+        {
+          "slug": "Laser_Rifle",
+          "name": "Laser_Rifle"
+        },
+        {
+          "slug": "Rocket_Launcher",
+          "name": "Rocket_Launcher"
+        },
+        {
+          "slug": "Stone_Pickaxe",
+          "name": "Stone_Pickaxe"
+        },
+        {
+          "slug": "Metal_Pickaxe",
+          "name": "Metal_Pickaxe"
+        },
+        {
+          "slug": "Refined_Metal_Pickaxe",
+          "name": "Refined_Metal_Pickaxe"
+        },
+        {
+          "slug": "Pump-Action_Shotgun",
+          "name": "Pump-Action_Shotgun"
+        },
+        {
+          "slug": "Single-Shot_Rifle",
+          "name": "Single-Shot_Rifle"
+        },
+        {
+          "slug": "Scatter_Sphere_Launcher",
+          "name": "Scatter_Sphere_Launcher"
+        },
+        {
+          "slug": "Single-Shot_Sphere_Launcher",
+          "name": "Single-Shot_Sphere_Launcher"
+        },
+        {
+          "slug": "Sword",
+          "name": "Sword"
+        },
+        {
+          "slug": "Frag_Grenade",
+          "name": "Frag_Grenade"
+        },
+        {
+          "slug": "Incendiary_Grenade",
+          "name": "Incendiary_Grenade"
+        },
+        {
+          "slug": "Shock_Grenade",
+          "name": "Shock_Grenade"
+        },
+        {
+          "slug": "Ice_Grenade",
+          "name": "Ice_Grenade"
+        },
+        {
+          "slug": "Old_Bow",
+          "name": "Old_Bow"
+        },
+        {
+          "slug": "Poison_Bow",
+          "name": "Poison_Bow"
+        },
+        {
+          "slug": "Fire_Bow",
+          "name": "Fire_Bow"
+        },
+        {
+          "slug": "Poison_Arrow_Crossbow",
+          "name": "Poison_Arrow_Crossbow"
+        },
+        {
+          "slug": "Fire_Arrow_Crossbow",
+          "name": "Fire_Arrow_Crossbow"
+        },
+        {
+          "slug": "Three_Shot_Bow",
+          "name": "Three_Shot_Bow"
+        },
+        {
+          "slug": "Hand-Held_Torch",
+          "name": "Hand-Held_Torch"
+        },
+        {
+          "slug": "Makeshift_Handgun",
+          "name": "Makeshift_Handgun"
+        },
+        {
+          "slug": "Stone_Spear",
+          "name": "Stone_Spear"
+        },
+        {
+          "slug": "Metal_Spear",
+          "name": "Metal_Spear"
+        },
+        {
+          "slug": "Refined_Metal_Spear",
+          "name": "Refined_Metal_Spear"
+        },
+        {
+          "slug": "Elizabees_Staff",
+          "name": "Elizabees_Staff"
+        },
+        {
+          "slug": "Beegardes_Spear",
+          "name": "Beegardes_Spear"
+        },
+        {
+          "slug": "Lilys_Spear",
+          "name": "Lilys_Spear"
+        },
+        {
+          "slug": "Grappling_Gun",
+          "name": "Grappling_Gun"
+        },
+        {
+          "slug": "Mega_Grappling_Gun",
+          "name": "Mega_Grappling_Gun"
+        },
+        {
+          "slug": "Giga_Grappling_Gun",
+          "name": "Giga_Grappling_Gun"
+        },
+        {
+          "slug": "Hyper_Grappling_Gun",
+          "name": "Hyper_Grappling_Gun"
+        },
+        {
+          "slug": "Musket",
+          "name": "Musket"
+        },
+        {
+          "slug": "Gatling_Gun",
+          "name": "Gatling_Gun"
+        },
+        {
+          "slug": "Flamethrower",
+          "name": "Flamethrower"
+        },
+        {
+          "slug": "Grenade_Launcher",
+          "name": "Grenade_Launcher"
+        },
+        {
+          "slug": "Guided_Missile_Launcher",
+          "name": "Guided_Missile_Launcher"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher",
+          "name": "Multi_Guided_Missile_Launcher"
+        },
+        {
+          "slug": "Laser_Gatling_Gun",
+          "name": "Laser_Gatling_Gun"
+        },
+        {
+          "slug": "Frag_Grenade_Mk2",
+          "name": "Frag_Grenade_Mk2"
+        },
+        {
+          "slug": "Meteor_Launcher",
+          "name": "Meteor_Launcher"
+        },
+        {
+          "slug": "Dark_Grenade",
+          "name": "Dark_Grenade"
+        },
+        {
+          "slug": "Dragon_Grenade",
+          "name": "Dragon_Grenade"
+        },
+        {
+          "slug": "Ground_Grenade",
+          "name": "Ground_Grenade"
+        },
+        {
+          "slug": "Grass_Grenade",
+          "name": "Grass_Grenade"
+        },
+        {
+          "slug": "Water_Grenade",
+          "name": "Water_Grenade"
+        },
+        {
+          "slug": "Katana",
+          "name": "Katana"
+        },
+        {
+          "slug": "Beam_Sword",
+          "name": "Beam_Sword"
+        },
+        {
+          "slug": "Semi-Auto_Shotgun",
+          "name": "Semi-Auto_Shotgun"
+        },
+        {
+          "slug": "Plasma_Cannon",
+          "name": "Plasma_Cannon"
+        },
+        {
+          "slug": "Old_Revolver",
+          "name": "Old_Revolver"
+        },
+        {
+          "slug": "Pal_Metal_Pickaxe",
+          "name": "Pal_Metal_Pickaxe"
+        },
+        {
+          "slug": "Pal_Metal_Axe",
+          "name": "Pal_Metal_Axe"
+        },
+        {
+          "slug": "Makeshift_Assault_Rifle",
+          "name": "Makeshift_Assault_Rifle"
+        },
+        {
+          "slug": "Semi-Auto_Rifle",
+          "name": "Semi-Auto_Rifle"
+        },
+        {
+          "slug": "Makeshift_SMG",
+          "name": "Makeshift_SMG"
+        },
+        {
+          "slug": "SMG",
+          "name": "SMG"
+        },
+        {
+          "slug": "Makeshift_Shotgun",
+          "name": "Makeshift_Shotgun"
+        },
+        {
+          "slug": "Compound_Bow",
+          "name": "Compound_Bow"
+        },
+        {
+          "slug": "Advanced_Bow",
+          "name": "Advanced_Bow"
+        },
+        {
+          "slug": "Meowmere",
+          "name": "Meowmere"
+        },
+        {
+          "slug": "Charge_Rifle",
+          "name": "Charge_Rifle"
+        },
+        {
+          "slug": "Overheat_Rifle",
+          "name": "Overheat_Rifle"
+        },
+        {
+          "slug": "Energy_Shotgun",
+          "name": "Energy_Shotgun"
+        },
+        {
+          "slug": "Boost_Gun",
+          "name": "Boost_Gun"
+        },
+        {
+          "slug": "Megaboost_Gun",
+          "name": "Megaboost_Gun"
+        },
+        {
+          "slug": "Pal_Recovery_Grenade",
+          "name": "Pal_Recovery_Grenade"
+        },
+        {
+          "slug": "Terra_Blade",
+          "name": "Terra_Blade"
+        },
+        {
+          "slug": "Terraprisma",
+          "name": "Terraprisma"
+        },
+        {
+          "slug": "Vortex_Beater",
+          "name": "Vortex_Beater"
+        },
+        {
+          "slug": "Nightglow",
+          "name": "Nightglow"
+        },
+        {
+          "slug": "Excalibur",
+          "name": "Excalibur"
+        },
+        {
+          "slug": "Legendary_Meowmere",
+          "name": "Legendary_Meowmere"
+        },
+        {
+          "slug": "Ultra_Grappling_Gun",
+          "name": "Ultra_Grappling_Gun"
+        },
+        {
+          "slug": "Marksman_Revolver",
+          "name": "Marksman_Revolver"
+        },
+        {
+          "slug": "Core_Eject_Shotgun",
+          "name": "Core_Eject_Shotgun"
+        },
+        {
+          "slug": "Plasma_Multicutter",
+          "name": "Plasma_Multicutter"
+        },
+        {
+          "slug": "Mechanical_Bow",
+          "name": "Mechanical_Bow"
+        },
+        {
+          "slug": "Combat_SMG",
+          "name": "Combat_SMG"
+        },
+        {
+          "slug": "Prototype_Shotgun",
+          "name": "Prototype_Shotgun"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle",
+          "name": "Heavy_Assault_Rifle"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher",
+          "name": "Tactical_Grenade_Launcher"
+        },
+        {
+          "slug": "Laser_Sword",
+          "name": "Laser_Sword"
+        },
+        {
+          "slug": "Beam_Scatter",
+          "name": "Beam_Scatter"
+        },
+        {
+          "slug": "Drone_Launcher",
+          "name": "Drone_Launcher"
+        },
+        {
+          "slug": "Plasma_Rifle",
+          "name": "Plasma_Rifle"
+        },
+        {
+          "slug": "Beam_Launcher",
+          "name": "Beam_Launcher"
+        },
+        {
+          "slug": "Primitive_Sword",
+          "name": "Primitive_Sword"
+        },
+        {
+          "slug": "Metal_Bat",
+          "name": "Metal_Bat"
+        },
+        {
+          "slug": "Enhanced_Lilys_Spear",
+          "name": "Enhanced_Lilys_Spear"
+        }
+      ]
+    },
+    {
+      "category": "Armors",
+      "count": 106,
+      "items": [
+        {
+          "slug": "Cloth_Outfit",
+          "name": "Cloth_Outfit"
+        },
+        {
+          "slug": "Metal_Armor",
+          "name": "Metal_Armor"
+        },
+        {
+          "slug": "Metal_Helm",
+          "name": "Metal_Helm"
+        },
+        {
+          "slug": "Pelt_Armor",
+          "name": "Pelt_Armor"
+        },
+        {
+          "slug": "Feathered_Hair_Band",
+          "name": "Feathered_Hair_Band"
+        },
+        {
+          "slug": "Refined_Metal_Armor",
+          "name": "Refined_Metal_Armor"
+        },
+        {
+          "slug": "Refined_Metal_Helm",
+          "name": "Refined_Metal_Helm"
+        },
+        {
+          "slug": "Pal_Metal_Armor",
+          "name": "Pal_Metal_Armor"
+        },
+        {
+          "slug": "Pal_Metal_Helm",
+          "name": "Pal_Metal_Helm"
+        },
+        {
+          "slug": "Common_Shield",
+          "name": "Common_Shield"
+        },
+        {
+          "slug": "Mega_Shield",
+          "name": "Mega_Shield"
+        },
+        {
+          "slug": "Giga_Shield",
+          "name": "Giga_Shield"
+        },
+        {
+          "slug": "Hyper_Shield",
+          "name": "Hyper_Shield"
+        },
+        {
+          "slug": "Monarchs_Crown",
+          "name": "Monarchs_Crown"
+        },
+        {
+          "slug": "Golden_Crown",
+          "name": "Golden_Crown"
+        },
+        {
+          "slug": "Long-Eared_Headband",
+          "name": "Long-Eared_Headband"
+        },
+        {
+          "slug": "Witch_Hat",
+          "name": "Witch_Hat"
+        },
+        {
+          "slug": "Soft_Hat",
+          "name": "Soft_Hat"
+        },
+        {
+          "slug": "Helmet",
+          "name": "Helmet"
+        },
+        {
+          "slug": "Silk_Hat",
+          "name": "Silk_Hat"
+        },
+        {
+          "slug": "Tricorne",
+          "name": "Tricorne"
+        },
+        {
+          "slug": "Explorer_Cap",
+          "name": "Explorer_Cap"
+        },
+        {
+          "slug": "Graduation_Cap",
+          "name": "Graduation_Cap"
+        },
+        {
+          "slug": "Farming_Hat",
+          "name": "Farming_Hat"
+        },
+        {
+          "slug": "Bowler_Hat",
+          "name": "Bowler_Hat"
+        },
+        {
+          "slug": "Tocotoco_Cap",
+          "name": "Tocotoco_Cap"
+        },
+        {
+          "slug": "Grinning_Tocotoco_Cap",
+          "name": "Grinning_Tocotoco_Cap"
+        },
+        {
+          "slug": "Gumoss_Cap",
+          "name": "Gumoss_Cap"
+        },
+        {
+          "slug": "Penking_Cap",
+          "name": "Penking_Cap"
+        },
+        {
+          "slug": "Katress_Cap",
+          "name": "Katress_Cap"
+        },
+        {
+          "slug": "Tropical_Outfit",
+          "name": "Tropical_Outfit"
+        },
+        {
+          "slug": "Tundra_Outfit",
+          "name": "Tundra_Outfit"
+        },
+        {
+          "slug": "Heat_Resistant_Pelt_Armor",
+          "name": "Heat_Resistant_Pelt_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Pelt_Armor",
+          "name": "Cold_Resistant_Pelt_Armor"
+        },
+        {
+          "slug": "Heat_Resistant_Metal_Armor",
+          "name": "Heat_Resistant_Metal_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Metal_Armor",
+          "name": "Cold_Resistant_Metal_Armor"
+        },
+        {
+          "slug": "Heat_Resistant_Refined_Metal_Armor",
+          "name": "Heat_Resistant_Refined_Metal_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Refined_Metal_Armor",
+          "name": "Cold_Resistant_Refined_Metal_Armor"
+        },
+        {
+          "slug": "Heat_Resistant_Pal_Metal_Armor",
+          "name": "Heat_Resistant_Pal_Metal_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Pal_Metal_Armor",
+          "name": "Cold_Resistant_Pal_Metal_Armor"
+        },
+        {
+          "slug": "Lyleen_Accessory",
+          "name": "Lyleen_Accessory"
+        },
+        {
+          "slug": "Sibelyx_Hat",
+          "name": "Sibelyx_Hat"
+        },
+        {
+          "slug": "Leezpunk_Hood",
+          "name": "Leezpunk_Hood"
+        },
+        {
+          "slug": "Killamari_Cap",
+          "name": "Killamari_Cap"
+        },
+        {
+          "slug": "Cawgnito_Hat",
+          "name": "Cawgnito_Hat"
+        },
+        {
+          "slug": "Ribbuny_Headband",
+          "name": "Ribbuny_Headband"
+        },
+        {
+          "slug": "Lamball_Helm",
+          "name": "Lamball_Helm"
+        },
+        {
+          "slug": "Dumud_Helm",
+          "name": "Dumud_Helm"
+        },
+        {
+          "slug": "Swee_Cap",
+          "name": "Swee_Cap"
+        },
+        {
+          "slug": "Dazzi_Hat",
+          "name": "Dazzi_Hat"
+        },
+        {
+          "slug": "Cattiva_Hat",
+          "name": "Cattiva_Hat"
+        },
+        {
+          "slug": "Plasteel_Armor",
+          "name": "Plasteel_Armor"
+        },
+        {
+          "slug": "Plasteel_Helmet",
+          "name": "Plasteel_Helmet"
+        },
+        {
+          "slug": "Ultra_Shield",
+          "name": "Ultra_Shield"
+        },
+        {
+          "slug": "Witchs_Crown",
+          "name": "Witchs_Crown"
+        },
+        {
+          "slug": "Zoe_Hat",
+          "name": "Zoe_Hat"
+        },
+        {
+          "slug": "Axel_Hat",
+          "name": "Axel_Hat"
+        },
+        {
+          "slug": "Lily_Hat",
+          "name": "Lily_Hat"
+        },
+        {
+          "slug": "Victor_Hat",
+          "name": "Victor_Hat"
+        },
+        {
+          "slug": "Marcus_Hat",
+          "name": "Marcus_Hat"
+        },
+        {
+          "slug": "Horns_of_Supremacy",
+          "name": "Horns_of_Supremacy"
+        },
+        {
+          "slug": "Heat_Resistant_Plasteel_Armor",
+          "name": "Heat_Resistant_Plasteel_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Plasteel_Armor",
+          "name": "Cold_Resistant_Plasteel_Armor"
+        },
+        {
+          "slug": "Lightweight_Plasteel_Armor",
+          "name": "Lightweight_Plasteel_Armor"
+        },
+        {
+          "slug": "Saya_Hat",
+          "name": "Saya_Hat"
+        },
+        {
+          "slug": "Hexolite_Armor",
+          "name": "Hexolite_Armor"
+        },
+        {
+          "slug": "Xenolords_head",
+          "name": "Xenolords_head"
+        },
+        {
+          "slug": "Heat_Resistant_Hexolite_Armor",
+          "name": "Heat_Resistant_Hexolite_Armor"
+        },
+        {
+          "slug": "Cold_Resistant_Hexolite_Armor",
+          "name": "Cold_Resistant_Hexolite_Armor"
+        },
+        {
+          "slug": "Lightweight_Hexolite_Armor",
+          "name": "Lightweight_Hexolite_Armor"
+        },
+        {
+          "slug": "Hexolite_Helmet",
+          "name": "Hexolite_Helmet"
+        },
+        {
+          "slug": "Bjorn_Hat",
+          "name": "Bjorn_Hat"
+        },
+        {
+          "slug": "Advanced_Shield",
+          "name": "Advanced_Shield"
+        },
+        {
+          "slug": "Hallowed_Mask",
+          "name": "Hallowed_Mask"
+        },
+        {
+          "slug": "Hallowed_Headgear",
+          "name": "Hallowed_Headgear"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail",
+          "name": "Hallowed_Plate_Mail"
+        },
+        {
+          "slug": "Hallowed_Helmet",
+          "name": "Hallowed_Helmet"
+        },
+        {
+          "slug": "Eye_of_Cthulhu_Mask",
+          "name": "Eye_of_Cthulhu_Mask"
+        },
+        {
+          "slug": "Hallowed_Hood",
+          "name": "Hallowed_Hood"
+        },
+        {
+          "slug": "Moon_Lord_Mask",
+          "name": "Moon_Lord_Mask"
+        },
+        {
+          "slug": "Depresso_Helmet",
+          "name": "Depresso_Helmet"
+        },
+        {
+          "slug": "Depresso_Armor",
+          "name": "Depresso_Armor"
+        },
+        {
+          "slug": "V1_Armor",
+          "name": "V1_Armor"
+        },
+        {
+          "slug": "V2_Armor",
+          "name": "V2_Armor"
+        },
+        {
+          "slug": "Crown_of_Salvation",
+          "name": "Crown_of_Salvation"
+        },
+        {
+          "slug": "Ancient_Armor",
+          "name": "Ancient_Armor"
+        },
+        {
+          "slug": "Heat-Resistant_Ancient_Armor",
+          "name": "Heat-Resistant_Ancient_Armor"
+        },
+        {
+          "slug": "Cold-Resistant_Ancient_Armor",
+          "name": "Cold-Resistant_Ancient_Armor"
+        },
+        {
+          "slug": "Lightweight_Ancient_Armor",
+          "name": "Lightweight_Ancient_Armor"
+        },
+        {
+          "slug": "Ancient_Helm",
+          "name": "Ancient_Helm"
+        },
+        {
+          "slug": "Auri_Hat",
+          "name": "Auri_Hat"
+        },
+        {
+          "slug": "Herbil_Headband",
+          "name": "Herbil_Headband"
+        },
+        {
+          "slug": "Jelliette_Hat",
+          "name": "Jelliette_Hat"
+        },
+        {
+          "slug": "Turtacle_Cap",
+          "name": "Turtacle_Cap"
+        },
+        {
+          "slug": "Zenara_Hat",
+          "name": "Zenara_Hat"
+        },
+        {
+          "slug": "Kingpaca_Headband",
+          "name": "Kingpaca_Headband"
+        },
+        {
+          "slug": "Gloopie_Hat",
+          "name": "Gloopie_Hat"
+        },
+        {
+          "slug": "Croajiro_Cap",
+          "name": "Croajiro_Cap"
+        },
+        {
+          "slug": "Chikipi_Cap",
+          "name": "Chikipi_Cap"
+        },
+        {
+          "slug": "Dandilord_Hat",
+          "name": "Dandilord_Hat"
+        },
+        {
+          "slug": "Shroomer_Hat",
+          "name": "Shroomer_Hat"
+        },
+        {
+          "slug": "Ghangler_Accessory",
+          "name": "Ghangler_Accessory"
+        },
+        {
+          "slug": "Icelyn_Hat",
+          "name": "Icelyn_Hat"
+        },
+        {
+          "slug": "Splatterina_Hat",
+          "name": "Splatterina_Hat"
+        },
+        {
+          "slug": "Tarantriss_Hat",
+          "name": "Tarantriss_Hat"
+        },
+        {
+          "slug": "Ancient_Shield",
+          "name": "Ancient_Shield"
+        }
+      ]
+    },
+    {
+      "category": "Accessories",
+      "count": 87,
+      "items": [
+        {
+          "slug": "Corrosive_Mist_Mask",
+          "name": "Corrosive_Mist_Mask"
+        },
+        {
+          "slug": "Life_Pendant",
+          "name": "Life_Pendant"
+        },
+        {
+          "slug": "Defense_Pendant",
+          "name": "Defense_Pendant"
+        },
+        {
+          "slug": "Pendant_of_Diligence",
+          "name": "Pendant_of_Diligence"
+        },
+        {
+          "slug": "Heat_Resistant_Undershirt",
+          "name": "Heat_Resistant_Undershirt"
+        },
+        {
+          "slug": "Thermal_Undershirt",
+          "name": "Thermal_Undershirt"
+        },
+        {
+          "slug": "Ring_of_Neutral_Resistance",
+          "name": "Ring_of_Neutral_Resistance"
+        },
+        {
+          "slug": "Ring_of_Fire_Resistance",
+          "name": "Ring_of_Fire_Resistance"
+        },
+        {
+          "slug": "Ring_of_Water_Resistance",
+          "name": "Ring_of_Water_Resistance"
+        },
+        {
+          "slug": "Ring_of_Electric_Resistance",
+          "name": "Ring_of_Electric_Resistance"
+        },
+        {
+          "slug": "Ring_of_Grass_Resistance",
+          "name": "Ring_of_Grass_Resistance"
+        },
+        {
+          "slug": "Ring_of_Ground_Resistance",
+          "name": "Ring_of_Ground_Resistance"
+        },
+        {
+          "slug": "Ring_of_Dark_Resistance",
+          "name": "Ring_of_Dark_Resistance"
+        },
+        {
+          "slug": "Ring_of_Dragon_Resistance",
+          "name": "Ring_of_Dragon_Resistance"
+        },
+        {
+          "slug": "Ring_of_Mercy",
+          "name": "Ring_of_Mercy"
+        },
+        {
+          "slug": "Ability_Glasses",
+          "name": "Ability_Glasses"
+        },
+        {
+          "slug": "Multiclimate_Undershirt",
+          "name": "Multiclimate_Undershirt"
+        },
+        {
+          "slug": "Ring_of_Freight",
+          "name": "Ring_of_Freight"
+        },
+        {
+          "slug": "Anti-Gravity_Belt",
+          "name": "Anti-Gravity_Belt"
+        },
+        {
+          "slug": "Double_Jump_Boots",
+          "name": "Double_Jump_Boots"
+        },
+        {
+          "slug": "Triple_Jump_Boots",
+          "name": "Triple_Jump_Boots"
+        },
+        {
+          "slug": "Air_Dash_Boots",
+          "name": "Air_Dash_Boots"
+        },
+        {
+          "slug": "Double_Air_Dash_Boots",
+          "name": "Double_Air_Dash_Boots"
+        },
+        {
+          "slug": "Triple_Air_Dash_Boots",
+          "name": "Triple_Air_Dash_Boots"
+        },
+        {
+          "slug": "Heavy_Weight_Module",
+          "name": "Heavy_Weight_Module"
+        },
+        {
+          "slug": "Curve_Module",
+          "name": "Curve_Module"
+        },
+        {
+          "slug": "Sniper_Module",
+          "name": "Sniper_Module"
+        },
+        {
+          "slug": "Slider_Module",
+          "name": "Slider_Module"
+        },
+        {
+          "slug": "Sniper_Module_II",
+          "name": "Sniper_Module_II"
+        },
+        {
+          "slug": "Homing_Module",
+          "name": "Homing_Module"
+        },
+        {
+          "slug": "Neutral_Support_Whistle",
+          "name": "Neutral_Support_Whistle"
+        },
+        {
+          "slug": "Fire_Support_Whistle",
+          "name": "Fire_Support_Whistle"
+        },
+        {
+          "slug": "Water_Support_Whistle",
+          "name": "Water_Support_Whistle"
+        },
+        {
+          "slug": "Electric_Support_Whistle",
+          "name": "Electric_Support_Whistle"
+        },
+        {
+          "slug": "Grass_Support_Whistle",
+          "name": "Grass_Support_Whistle"
+        },
+        {
+          "slug": "Ice_Support_Whistle",
+          "name": "Ice_Support_Whistle"
+        },
+        {
+          "slug": "Ground_Support_Whistle",
+          "name": "Ground_Support_Whistle"
+        },
+        {
+          "slug": "Dark_Support_Whistle",
+          "name": "Dark_Support_Whistle"
+        },
+        {
+          "slug": "Dragon_Support_Whistle",
+          "name": "Dragon_Support_Whistle"
+        },
+        {
+          "slug": "Attack_Support_Whistle",
+          "name": "Attack_Support_Whistle"
+        },
+        {
+          "slug": "Defense_Support_Whistle",
+          "name": "Defense_Support_Whistle"
+        },
+        {
+          "slug": "Growth_Acceleration_Bell",
+          "name": "Growth_Acceleration_Bell"
+        },
+        {
+          "slug": "Attack_Pendant",
+          "name": "Attack_Pendant"
+        },
+        {
+          "slug": "Ring_of_Ice_Resistance",
+          "name": "Ring_of_Ice_Resistance"
+        },
+        {
+          "slug": "Dogen_Emblem",
+          "name": "Dogen_Emblem"
+        },
+        {
+          "slug": "Silvegis_Emblem",
+          "name": "Silvegis_Emblem"
+        },
+        {
+          "slug": "Wandering_Merchant_Charm",
+          "name": "Wandering_Merchant_Charm"
+        },
+        {
+          "slug": "Vanguard_Charm",
+          "name": "Vanguard_Charm"
+        },
+        {
+          "slug": "Explosion-Resistant_Undershirt",
+          "name": "Explosion-Resistant_Undershirt"
+        },
+        {
+          "slug": "Warsect_Terras_Belt",
+          "name": "Warsect_Terras_Belt"
+        },
+        {
+          "slug": "Islanders_Tool_Belt",
+          "name": "Islanders_Tool_Belt"
+        },
+        {
+          "slug": "Celestial_Emperors_Baton",
+          "name": "Celestial_Emperors_Baton"
+        },
+        {
+          "slug": "Flame_Emperors_Baton",
+          "name": "Flame_Emperors_Baton"
+        },
+        {
+          "slug": "Lord_of_the_Seas_Baton",
+          "name": "Lord_of_the_Seas_Baton"
+        },
+        {
+          "slug": "Lord_of_Lightnings_Baton",
+          "name": "Lord_of_Lightnings_Baton"
+        },
+        {
+          "slug": "Spirit_Emperors_Baton",
+          "name": "Spirit_Emperors_Baton"
+        },
+        {
+          "slug": "Ice_Emperors_Baton",
+          "name": "Ice_Emperors_Baton"
+        },
+        {
+          "slug": "Earth_Emperors_Baton",
+          "name": "Earth_Emperors_Baton"
+        },
+        {
+          "slug": "Lord_of_the_Underworlds_Baton",
+          "name": "Lord_of_the_Underworlds_Baton"
+        },
+        {
+          "slug": "Divine_Dragons_Baton",
+          "name": "Divine_Dragons_Baton"
+        },
+        {
+          "slug": "Pal_Tamers_Glasses",
+          "name": "Pal_Tamers_Glasses"
+        },
+        {
+          "slug": "Air_Walker_Mk_I",
+          "name": "Air_Walker_Mk_I"
+        },
+        {
+          "slug": "Air_Walker_Mk_II",
+          "name": "Air_Walker_Mk_II"
+        },
+        {
+          "slug": "Air_Walker_Mk_III",
+          "name": "Air_Walker_Mk_III"
+        },
+        {
+          "slug": "Air_Walker_EX",
+          "name": "Air_Walker_EX"
+        },
+        {
+          "slug": "Hartaliss_Talisman",
+          "name": "Hartaliss_Talisman"
+        },
+        {
+          "slug": "Blazamuts_Talisman",
+          "name": "Blazamuts_Talisman"
+        },
+        {
+          "slug": "Neptiliuss_Talisman",
+          "name": "Neptiliuss_Talisman"
+        },
+        {
+          "slug": "Orserks_Talisman",
+          "name": "Orserks_Talisman"
+        },
+        {
+          "slug": "Lyleens_Talisman",
+          "name": "Lyleens_Talisman"
+        },
+        {
+          "slug": "Frostallions_Talisman",
+          "name": "Frostallions_Talisman"
+        },
+        {
+          "slug": "Anubiss_Talisman",
+          "name": "Anubiss_Talisman"
+        },
+        {
+          "slug": "Lyleen_Nocts_Talisman",
+          "name": "Lyleen_Nocts_Talisman"
+        },
+        {
+          "slug": "Reptyro_Charm",
+          "name": "Reptyro_Charm"
+        },
+        {
+          "slug": "Wumpo_Charm",
+          "name": "Wumpo_Charm"
+        },
+        {
+          "slug": "Blazehowl_Ring",
+          "name": "Blazehowl_Ring"
+        },
+        {
+          "slug": "Faleris_Aqua_Ring",
+          "name": "Faleris_Aqua_Ring"
+        },
+        {
+          "slug": "Fenglope_Lux_Ring",
+          "name": "Fenglope_Lux_Ring"
+        },
+        {
+          "slug": "Menasting_Terra_Ring",
+          "name": "Menasting_Terra_Ring"
+        },
+        {
+          "slug": "Vaelet_Ring",
+          "name": "Vaelet_Ring"
+        },
+        {
+          "slug": "Katress_Ring",
+          "name": "Katress_Ring"
+        },
+        {
+          "slug": "Elphidran_Ring",
+          "name": "Elphidran_Ring"
+        },
+        {
+          "slug": "Cryolinx_Ring",
+          "name": "Cryolinx_Ring"
+        },
+        {
+          "slug": "Faleris_Ring",
+          "name": "Faleris_Ring"
+        },
+        {
+          "slug": "Ring_of_Trust",
+          "name": "Ring_of_Trust"
+        },
+        {
+          "slug": "Phantom_Ring",
+          "name": "Phantom_Ring"
+        },
+        {
+          "slug": "Jetragons_Talisman",
+          "name": "Jetragons_Talisman"
+        }
+      ]
+    },
+    {
+      "category": "Gliders",
+      "count": 5,
+      "items": [
+        {
+          "slug": "Normal_Parachute",
+          "name": "Normal_Parachute"
+        },
+        {
+          "slug": "Mega_Glider",
+          "name": "Mega_Glider"
+        },
+        {
+          "slug": "Giga_Glider",
+          "name": "Giga_Glider"
+        },
+        {
+          "slug": "Hyper_Glider",
+          "name": "Hyper_Glider"
+        },
+        {
+          "slug": "Wing_Pack",
+          "name": "Wing_Pack"
+        }
+      ]
+    },
+    {
+      "category": "Spheres",
+      "count": 10,
+      "items": [
+        {
+          "slug": "Pal_Sphere",
+          "name": "Pal_Sphere"
+        },
+        {
+          "slug": "Mega_Sphere",
+          "name": "Mega_Sphere"
+        },
+        {
+          "slug": "Giga_Sphere",
+          "name": "Giga_Sphere"
+        },
+        {
+          "slug": "Hyper_Sphere",
+          "name": "Hyper_Sphere"
+        },
+        {
+          "slug": "Ultra_Sphere",
+          "name": "Ultra_Sphere"
+        },
+        {
+          "slug": "Legendary_Sphere",
+          "name": "Legendary_Sphere"
+        },
+        {
+          "slug": "Ultimate_Sphere",
+          "name": "Ultimate_Sphere"
+        },
+        {
+          "slug": "Exotic_Sphere",
+          "name": "Exotic_Sphere"
+        },
+        {
+          "slug": "Sol_Sphere",
+          "name": "Sol_Sphere"
+        },
+        {
+          "slug": "Ancient_Sphere",
+          "name": "Ancient_Sphere"
+        }
+      ]
+    },
+    {
+      "category": "Ammo",
+      "count": 32,
+      "items": [
+        {
+          "slug": "Arrow",
+          "name": "Arrow"
+        },
+        {
+          "slug": "Poison_Arrow",
+          "name": "Poison_Arrow"
+        },
+        {
+          "slug": "Fire_Arrow",
+          "name": "Fire_Arrow"
+        },
+        {
+          "slug": "Rocket_Ammo",
+          "name": "Rocket_Ammo"
+        },
+        {
+          "slug": "Energy_Cartridge",
+          "name": "Energy_Cartridge"
+        },
+        {
+          "slug": "Decal_Ink",
+          "name": "Decal_Ink"
+        },
+        {
+          "slug": "Handgun_Ammo",
+          "name": "Handgun_Ammo"
+        },
+        {
+          "slug": "Rifle_Ammo",
+          "name": "Rifle_Ammo"
+        },
+        {
+          "slug": "Shotgun_Shell",
+          "name": "Shotgun_Shell"
+        },
+        {
+          "slug": "Coarse_Ammo",
+          "name": "Coarse_Ammo"
+        },
+        {
+          "slug": "Assault_Rifle_Ammo",
+          "name": "Assault_Rifle_Ammo"
+        },
+        {
+          "slug": "Flamethrower_Fuel",
+          "name": "Flamethrower_Fuel"
+        },
+        {
+          "slug": "Missile_Ammo",
+          "name": "Missile_Ammo"
+        },
+        {
+          "slug": "Grenade_Ammo",
+          "name": "Grenade_Ammo"
+        },
+        {
+          "slug": "Gatling_Gun_Ammo",
+          "name": "Gatling_Gun_Ammo"
+        },
+        {
+          "slug": "Meteorite_Ammo",
+          "name": "Meteorite_Ammo"
+        },
+        {
+          "slug": "Plasma_Cartridge",
+          "name": "Plasma_Cartridge"
+        },
+        {
+          "slug": "Laser_Gatling_Cartridge",
+          "name": "Laser_Gatling_Cartridge"
+        },
+        {
+          "slug": "Reinforced_Arrow",
+          "name": "Reinforced_Arrow"
+        },
+        {
+          "slug": "Advanced_Arrow",
+          "name": "Advanced_Arrow"
+        },
+        {
+          "slug": "Charge_Rifle_Ammo",
+          "name": "Charge_Rifle_Ammo"
+        },
+        {
+          "slug": "Overheat_Rifle_Ammo",
+          "name": "Overheat_Rifle_Ammo"
+        },
+        {
+          "slug": "Energy_Shotgun_Ammo",
+          "name": "Energy_Shotgun_Ammo"
+        },
+        {
+          "slug": "Boost_Gun_Ammo",
+          "name": "Boost_Gun_Ammo"
+        },
+        {
+          "slug": "Beam_Scatter_Ammo",
+          "name": "Beam_Scatter_Ammo"
+        },
+        {
+          "slug": "Plasma_Rifle_Ammo",
+          "name": "Plasma_Rifle_Ammo"
+        },
+        {
+          "slug": "Beam_Launcher_Ammo",
+          "name": "Beam_Launcher_Ammo"
+        },
+        {
+          "slug": "Mechanical_Bow_Ammo",
+          "name": "Mechanical_Bow_Ammo"
+        },
+        {
+          "slug": "Combat_SMG_Ammo",
+          "name": "Combat_SMG_Ammo"
+        },
+        {
+          "slug": "Prototype_Shotgun_Ammo",
+          "name": "Prototype_Shotgun_Ammo"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle_Ammo",
+          "name": "Heavy_Assault_Rifle_Ammo"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher_Ammo",
+          "name": "Tactical_Grenade_Launcher_Ammo"
+        }
+      ]
+    },
+    {
+      "category": "Ingredients",
+      "count": 33,
+      "items": [
+        {
+          "slug": "Red_Berries",
+          "name": "Red_Berries"
+        },
+        {
+          "slug": "Tomato",
+          "name": "Tomato"
+        },
+        {
+          "slug": "Wheat",
+          "name": "Wheat"
+        },
+        {
+          "slug": "Flour",
+          "name": "Flour"
+        },
+        {
+          "slug": "Lettuce",
+          "name": "Lettuce"
+        },
+        {
+          "slug": "Egg",
+          "name": "Egg"
+        },
+        {
+          "slug": "Milk",
+          "name": "Milk"
+        },
+        {
+          "slug": "Mushroom",
+          "name": "Mushroom"
+        },
+        {
+          "slug": "Honey",
+          "name": "Honey"
+        },
+        {
+          "slug": "Cotton_Candy",
+          "name": "Cotton_Candy"
+        },
+        {
+          "slug": "Chikipi_Poultry",
+          "name": "Chikipi_Poultry"
+        },
+        {
+          "slug": "Lamball_Mutton",
+          "name": "Lamball_Mutton"
+        },
+        {
+          "slug": "Raw_Kelpsea",
+          "name": "Raw_Kelpsea"
+        },
+        {
+          "slug": "Galeclaw_Poultry",
+          "name": "Galeclaw_Poultry"
+        },
+        {
+          "slug": "Rushoar_Pork",
+          "name": "Rushoar_Pork"
+        },
+        {
+          "slug": "Raw_Dumud",
+          "name": "Raw_Dumud"
+        },
+        {
+          "slug": "Eikthyrdeer_Venison",
+          "name": "Eikthyrdeer_Venison"
+        },
+        {
+          "slug": "Reindrix_Venison",
+          "name": "Reindrix_Venison"
+        },
+        {
+          "slug": "Caprity_Meat",
+          "name": "Caprity_Meat"
+        },
+        {
+          "slug": "Mozzarina_Meat",
+          "name": "Mozzarina_Meat"
+        },
+        {
+          "slug": "Broncherry_Meat",
+          "name": "Broncherry_Meat"
+        },
+        {
+          "slug": "Mammorest_Meat",
+          "name": "Mammorest_Meat"
+        },
+        {
+          "slug": "Cavern_Mushroom",
+          "name": "Cavern_Mushroom"
+        },
+        {
+          "slug": "Mysterious_Mushroom",
+          "name": "Mysterious_Mushroom"
+        },
+        {
+          "slug": "Potato",
+          "name": "Potato"
+        },
+        {
+          "slug": "Carrot",
+          "name": "Carrot"
+        },
+        {
+          "slug": "Onion",
+          "name": "Onion"
+        },
+        {
+          "slug": "Gloopie_Tentacle",
+          "name": "Gloopie_Tentacle"
+        },
+        {
+          "slug": "Jelliette_Bell_Flesh",
+          "name": "Jelliette_Bell_Flesh"
+        },
+        {
+          "slug": "Jellroy_Bell_Flesh",
+          "name": "Jellroy_Bell_Flesh"
+        },
+        {
+          "slug": "Munchill_Meat",
+          "name": "Munchill_Meat"
+        },
+        {
+          "slug": "Caramel_Cotton_Candy",
+          "name": "Caramel_Cotton_Candy"
+        },
+        {
+          "slug": "Skutlass_Sashimi",
+          "name": "Skutlass_Sashimi"
+        }
+      ]
+    },
+    {
+      "category": "Food",
+      "count": 60,
+      "items": [
+        {
+          "slug": "Baked_Berries",
+          "name": "Baked_Berries"
+        },
+        {
+          "slug": "Bread",
+          "name": "Bread"
+        },
+        {
+          "slug": "Hot_Milk",
+          "name": "Hot_Milk"
+        },
+        {
+          "slug": "Jam-Filled_Bun",
+          "name": "Jam-Filled_Bun"
+        },
+        {
+          "slug": "Salad",
+          "name": "Salad"
+        },
+        {
+          "slug": "Omelet",
+          "name": "Omelet"
+        },
+        {
+          "slug": "Pancake",
+          "name": "Pancake"
+        },
+        {
+          "slug": "Marinated_Mushrooms",
+          "name": "Marinated_Mushrooms"
+        },
+        {
+          "slug": "Mushroom_Soup",
+          "name": "Mushroom_Soup"
+        },
+        {
+          "slug": "Carbonara",
+          "name": "Carbonara"
+        },
+        {
+          "slug": "Pizza",
+          "name": "Pizza"
+        },
+        {
+          "slug": "Cake",
+          "name": "Cake"
+        },
+        {
+          "slug": "Fried_Egg",
+          "name": "Fried_Egg"
+        },
+        {
+          "slug": "Baked_Mushroom",
+          "name": "Baked_Mushroom"
+        },
+        {
+          "slug": "Grilled_Chikipi",
+          "name": "Grilled_Chikipi"
+        },
+        {
+          "slug": "Lamball_Kebab",
+          "name": "Lamball_Kebab"
+        },
+        {
+          "slug": "Grilled_Kelpsea",
+          "name": "Grilled_Kelpsea"
+        },
+        {
+          "slug": "Grilled_Galeclaw",
+          "name": "Grilled_Galeclaw"
+        },
+        {
+          "slug": "Roast_Rushoar",
+          "name": "Roast_Rushoar"
+        },
+        {
+          "slug": "Broiled_Dumud",
+          "name": "Broiled_Dumud"
+        },
+        {
+          "slug": "Roast_Eikthyrdeer",
+          "name": "Roast_Eikthyrdeer"
+        },
+        {
+          "slug": "Roast_Reindrix",
+          "name": "Roast_Reindrix"
+        },
+        {
+          "slug": "Herb_Roasted_Caprity",
+          "name": "Herb_Roasted_Caprity"
+        },
+        {
+          "slug": "Mozzarina_Steak",
+          "name": "Mozzarina_Steak"
+        },
+        {
+          "slug": "Broncherry_Rib_Roast",
+          "name": "Broncherry_Rib_Roast"
+        },
+        {
+          "slug": "Mammorest_Steak",
+          "name": "Mammorest_Steak"
+        },
+        {
+          "slug": "Herb_Roasted_Lamball",
+          "name": "Herb_Roasted_Lamball"
+        },
+        {
+          "slug": "Grilled_Lamball",
+          "name": "Grilled_Lamball"
+        },
+        {
+          "slug": "Stewed_Galeclaw",
+          "name": "Stewed_Galeclaw"
+        },
+        {
+          "slug": "Rushoar_Bacon_n_Eggs",
+          "name": "Rushoar_Bacon_n_Eggs"
+        },
+        {
+          "slug": "Reindrix_Stew",
+          "name": "Reindrix_Stew"
+        },
+        {
+          "slug": "Fried_Chikipi",
+          "name": "Fried_Chikipi"
+        },
+        {
+          "slug": "Rushoar_Hot_Dog",
+          "name": "Rushoar_Hot_Dog"
+        },
+        {
+          "slug": "Eikthyrdeer_Loco_Moco",
+          "name": "Eikthyrdeer_Loco_Moco"
+        },
+        {
+          "slug": "Eikthyrdeer_Stew",
+          "name": "Eikthyrdeer_Stew"
+        },
+        {
+          "slug": "Mozzarina_Hamburger",
+          "name": "Mozzarina_Hamburger"
+        },
+        {
+          "slug": "Mozzarina_Cheeseburger",
+          "name": "Mozzarina_Cheeseburger"
+        },
+        {
+          "slug": "Fried_Kelpsea",
+          "name": "Fried_Kelpsea"
+        },
+        {
+          "slug": "Dumud_Chowder",
+          "name": "Dumud_Chowder"
+        },
+        {
+          "slug": "Rushoar_Gyoza",
+          "name": "Rushoar_Gyoza"
+        },
+        {
+          "slug": "Stir-Fried_Vegetables",
+          "name": "Stir-Fried_Vegetables"
+        },
+        {
+          "slug": "French_Fries",
+          "name": "French_Fries"
+        },
+        {
+          "slug": "Broncherry_Fried_Noodles",
+          "name": "Broncherry_Fried_Noodles"
+        },
+        {
+          "slug": "Spring_Rolls",
+          "name": "Spring_Rolls"
+        },
+        {
+          "slug": "Gratin",
+          "name": "Gratin"
+        },
+        {
+          "slug": "Minestrone",
+          "name": "Minestrone"
+        },
+        {
+          "slug": "Mammorest_Curry",
+          "name": "Mammorest_Curry"
+        },
+        {
+          "slug": "Galeclaw_Nikujaga",
+          "name": "Galeclaw_Nikujaga"
+        },
+        {
+          "slug": "Mushroom_Quiche",
+          "name": "Mushroom_Quiche"
+        },
+        {
+          "slug": "Fried_Gloopie_Balls",
+          "name": "Fried_Gloopie_Balls"
+        },
+        {
+          "slug": "Jelliettes_Jiggly_Jelly",
+          "name": "Jelliettes_Jiggly_Jelly"
+        },
+        {
+          "slug": "Jellroys_Jolly_Jelly",
+          "name": "Jellroys_Jolly_Jelly"
+        },
+        {
+          "slug": "Munchill_Steak",
+          "name": "Munchill_Steak"
+        },
+        {
+          "slug": "Seafood_Salad",
+          "name": "Seafood_Salad"
+        },
+        {
+          "slug": "Salt-Grilled_Skutlass",
+          "name": "Salt-Grilled_Skutlass"
+        },
+        {
+          "slug": "Seafood_Pasta",
+          "name": "Seafood_Pasta"
+        },
+        {
+          "slug": "Mushroom_Cake",
+          "name": "Mushroom_Cake"
+        },
+        {
+          "slug": "Vegetable_Cake",
+          "name": "Vegetable_Cake"
+        },
+        {
+          "slug": "Extravagant_Vegetable_Cake",
+          "name": "Extravagant_Vegetable_Cake"
+        },
+        {
+          "slug": "Special_Cake",
+          "name": "Special_Cake"
+        }
+      ]
+    },
+    {
+      "category": "Wood",
+      "count": 5,
+      "items": [
+        {
+          "slug": "Fiber",
+          "name": "Fiber"
+        },
+        {
+          "slug": "Wood",
+          "name": "Wood"
+        },
+        {
+          "slug": "Hardwood",
+          "name": "Hardwood"
+        },
+        {
+          "slug": "Mythical_Wood",
+          "name": "Mythical_Wood"
+        },
+        {
+          "slug": "Ancient_Bark",
+          "name": "Ancient_Bark"
+        }
+      ]
+    },
+    {
+      "category": "Stone",
+      "count": 2,
+      "items": [
+        {
+          "slug": "Stone",
+          "name": "Stone"
+        },
+        {
+          "slug": "Meteorite_Fragment",
+          "name": "Meteorite_Fragment"
+        }
+      ]
+    },
+    {
+      "category": "Pal Materials",
+      "count": 55,
+      "items": [
+        {
+          "slug": "Leather",
+          "name": "Leather"
+        },
+        {
+          "slug": "Berry_Seeds",
+          "name": "Berry_Seeds"
+        },
+        {
+          "slug": "Tomato_Seeds",
+          "name": "Tomato_Seeds"
+        },
+        {
+          "slug": "Wheat_Seeds",
+          "name": "Wheat_Seeds"
+        },
+        {
+          "slug": "Wool",
+          "name": "Wool"
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "name": "Ancient_Civilization_Parts"
+        },
+        {
+          "slug": "Small_Pal_Soul",
+          "name": "Small_Pal_Soul"
+        },
+        {
+          "slug": "Medium_Pal_Soul",
+          "name": "Medium_Pal_Soul"
+        },
+        {
+          "slug": "Large_Pal_Soul",
+          "name": "Large_Pal_Soul"
+        },
+        {
+          "slug": "High_Quality_Pal_Oil",
+          "name": "High_Quality_Pal_Oil"
+        },
+        {
+          "slug": "Electric_Organ",
+          "name": "Electric_Organ"
+        },
+        {
+          "slug": "Venom_Gland",
+          "name": "Venom_Gland"
+        },
+        {
+          "slug": "Flame_Organ",
+          "name": "Flame_Organ"
+        },
+        {
+          "slug": "Ice_Organ",
+          "name": "Ice_Organ"
+        },
+        {
+          "slug": "Bone",
+          "name": "Bone"
+        },
+        {
+          "slug": "Horn",
+          "name": "Horn"
+        },
+        {
+          "slug": "Aquatic_Pal_Fluids",
+          "name": "Aquatic_Pal_Fluids"
+        },
+        {
+          "slug": "Tocotoco_Feather",
+          "name": "Tocotoco_Feather"
+        },
+        {
+          "slug": "Gumoss_Leaf",
+          "name": "Gumoss_Leaf"
+        },
+        {
+          "slug": "Penking_Plume",
+          "name": "Penking_Plume"
+        },
+        {
+          "slug": "Katress_Hair",
+          "name": "Katress_Hair"
+        },
+        {
+          "slug": "Precious_Dragon_Stone",
+          "name": "Precious_Dragon_Stone"
+        },
+        {
+          "slug": "Precious_Plume",
+          "name": "Precious_Plume"
+        },
+        {
+          "slug": "Precious_Entrails",
+          "name": "Precious_Entrails"
+        },
+        {
+          "slug": "Precious_Claw",
+          "name": "Precious_Claw"
+        },
+        {
+          "slug": "Precious_Pelt",
+          "name": "Precious_Pelt"
+        },
+        {
+          "slug": "Ancient_Civilization_Core",
+          "name": "Ancient_Civilization_Core"
+        },
+        {
+          "slug": "Ribbuny_Ribbon",
+          "name": "Ribbuny_Ribbon"
+        },
+        {
+          "slug": "Swee_Hair",
+          "name": "Swee_Hair"
+        },
+        {
+          "slug": "Killamari_Tentacle",
+          "name": "Killamari_Tentacle"
+        },
+        {
+          "slug": "Dazzi_Cloud",
+          "name": "Dazzi_Cloud"
+        },
+        {
+          "slug": "Leezpunk_Crest",
+          "name": "Leezpunk_Crest"
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant_Pal_Soul"
+        },
+        {
+          "slug": "Potato_Seeds",
+          "name": "Potato_Seeds"
+        },
+        {
+          "slug": "Carrot_Seeds",
+          "name": "Carrot_Seeds"
+        },
+        {
+          "slug": "Onion_Seeds",
+          "name": "Onion_Seeds"
+        },
+        {
+          "slug": "Ancient_Pal_Manuscript",
+          "name": "Ancient_Pal_Manuscript"
+        },
+        {
+          "slug": "Dark_Fragment",
+          "name": "Dark_Fragment"
+        },
+        {
+          "slug": "Lettuce_Seeds",
+          "name": "Lettuce_Seeds"
+        },
+        {
+          "slug": "Water_Radiant_Gem",
+          "name": "Water_Radiant_Gem"
+        },
+        {
+          "slug": "Electric_Radiant_Gem",
+          "name": "Electric_Radiant_Gem"
+        },
+        {
+          "slug": "Ground_Radiant_Gem",
+          "name": "Ground_Radiant_Gem"
+        },
+        {
+          "slug": "Grass_Radiant_Gem",
+          "name": "Grass_Radiant_Gem"
+        },
+        {
+          "slug": "Fire_Radiant_Gem",
+          "name": "Fire_Radiant_Gem"
+        },
+        {
+          "slug": "Ice_Radiant_Gem",
+          "name": "Ice_Radiant_Gem"
+        },
+        {
+          "slug": "Dragon_Radiant_Gem",
+          "name": "Dragon_Radiant_Gem"
+        },
+        {
+          "slug": "Dark_Radiant_Gem",
+          "name": "Dark_Radiant_Gem"
+        },
+        {
+          "slug": "Neutral_Radiant_Gem",
+          "name": "Neutral_Radiant_Gem"
+        },
+        {
+          "slug": "Decayed_Ancient_Relic",
+          "name": "Decayed_Ancient_Relic"
+        },
+        {
+          "slug": "Dormant_Ancient_Relic",
+          "name": "Dormant_Ancient_Relic"
+        },
+        {
+          "slug": "Gorgeous_Ancient_Relic",
+          "name": "Gorgeous_Ancient_Relic"
+        },
+        {
+          "slug": "Glowing_Ancient_Relic",
+          "name": "Glowing_Ancient_Relic"
+        },
+        {
+          "slug": "Glistening_Ancient_Relic",
+          "name": "Glistening_Ancient_Relic"
+        },
+        {
+          "slug": "Toxin_Filtering_Membrane",
+          "name": "Toxin_Filtering_Membrane"
+        },
+        {
+          "slug": "Explosion-Resistant_Fiber",
+          "name": "Explosion-Resistant_Fiber"
+        }
+      ]
+    },
+    {
+      "category": "Ores",
+      "count": 14,
+      "items": [
+        {
+          "slug": "Coal",
+          "name": "Coal"
+        },
+        {
+          "slug": "Ore",
+          "name": "Ore"
+        },
+        {
+          "slug": "Crude_Oil",
+          "name": "Crude_Oil"
+        },
+        {
+          "slug": "Sulfur",
+          "name": "Sulfur"
+        },
+        {
+          "slug": "Pure_Quartz",
+          "name": "Pure_Quartz"
+        },
+        {
+          "slug": "Chromite",
+          "name": "Chromite"
+        },
+        {
+          "slug": "Nightstar_Sand",
+          "name": "Nightstar_Sand"
+        },
+        {
+          "slug": "Hexolite_Quartz",
+          "name": "Hexolite_Quartz"
+        },
+        {
+          "slug": "Coralum_Ore",
+          "name": "Coralum_Ore"
+        },
+        {
+          "slug": "Paldium_Fragment",
+          "name": "Paldium_Fragment"
+        },
+        {
+          "slug": "Soralite",
+          "name": "Soralite"
+        },
+        {
+          "slug": "Paloxite",
+          "name": "Paloxite"
+        },
+        {
+          "slug": "Ancient_Lava",
+          "name": "Ancient_Lava"
+        },
+        {
+          "slug": "Ancient_Bone",
+          "name": "Ancient_Bone"
+        }
+      ]
+    },
+    {
+      "category": "Pal Eggs",
+      "count": 33,
+      "items": [
+        {
+          "slug": "Common_Egg",
+          "name": "Common_Egg"
+        },
+        {
+          "slug": "Large_Common_Egg",
+          "name": "Large_Common_Egg"
+        },
+        {
+          "slug": "Huge_Common_Egg",
+          "name": "Huge_Common_Egg"
+        },
+        {
+          "slug": "Scorching_Egg",
+          "name": "Scorching_Egg"
+        },
+        {
+          "slug": "Large_Scorching_Egg",
+          "name": "Large_Scorching_Egg"
+        },
+        {
+          "slug": "Huge_Scorching_Egg",
+          "name": "Huge_Scorching_Egg"
+        },
+        {
+          "slug": "Damp_Egg",
+          "name": "Damp_Egg"
+        },
+        {
+          "slug": "Large_Damp_Egg",
+          "name": "Large_Damp_Egg"
+        },
+        {
+          "slug": "Huge_Damp_Egg",
+          "name": "Huge_Damp_Egg"
+        },
+        {
+          "slug": "Verdant_Egg",
+          "name": "Verdant_Egg"
+        },
+        {
+          "slug": "Large_Verdant_Egg",
+          "name": "Large_Verdant_Egg"
+        },
+        {
+          "slug": "Huge_Verdant_Egg",
+          "name": "Huge_Verdant_Egg"
+        },
+        {
+          "slug": "Electric_Egg",
+          "name": "Electric_Egg"
+        },
+        {
+          "slug": "Large_Electric_Egg",
+          "name": "Large_Electric_Egg"
+        },
+        {
+          "slug": "Huge_Electric_Egg",
+          "name": "Huge_Electric_Egg"
+        },
+        {
+          "slug": "Frozen_Egg",
+          "name": "Frozen_Egg"
+        },
+        {
+          "slug": "Large_Frozen_Egg",
+          "name": "Large_Frozen_Egg"
+        },
+        {
+          "slug": "Huge_Frozen_Egg",
+          "name": "Huge_Frozen_Egg"
+        },
+        {
+          "slug": "Rocky_Egg",
+          "name": "Rocky_Egg"
+        },
+        {
+          "slug": "Large_Rocky_Egg",
+          "name": "Large_Rocky_Egg"
+        },
+        {
+          "slug": "Huge_Rocky_Egg",
+          "name": "Huge_Rocky_Egg"
+        },
+        {
+          "slug": "Dark_Egg",
+          "name": "Dark_Egg"
+        },
+        {
+          "slug": "Large_Dark_Egg",
+          "name": "Large_Dark_Egg"
+        },
+        {
+          "slug": "Huge_Dark_Egg",
+          "name": "Huge_Dark_Egg"
+        },
+        {
+          "slug": "Dragon_Egg",
+          "name": "Dragon_Egg"
+        },
+        {
+          "slug": "Large_Dragon_Egg",
+          "name": "Large_Dragon_Egg"
+        },
+        {
+          "slug": "Huge_Dragon_Egg",
+          "name": "Huge_Dragon_Egg"
+        },
+        {
+          "slug": "Ominous_Egg",
+          "name": "Ominous_Egg"
+        },
+        {
+          "slug": "Large_Ominous_Egg",
+          "name": "Large_Ominous_Egg"
+        },
+        {
+          "slug": "Huge_Ominous_Egg",
+          "name": "Huge_Ominous_Egg"
+        },
+        {
+          "slug": "Huge_Mutated_Egg",
+          "name": "Huge_Mutated_Egg"
+        },
+        {
+          "slug": "Mutated_Egg",
+          "name": "Mutated_Egg"
+        },
+        {
+          "slug": "Large_Mutated_Egg",
+          "name": "Large_Mutated_Egg"
+        }
+      ]
+    },
+    {
+      "category": "Production Goods",
+      "count": 16,
+      "items": [
+        {
+          "slug": "Cloth",
+          "name": "Cloth"
+        },
+        {
+          "slug": "High_Quality_Cloth",
+          "name": "High_Quality_Cloth"
+        },
+        {
+          "slug": "Gunpowder",
+          "name": "Gunpowder"
+        },
+        {
+          "slug": "Wooden_Board",
+          "name": "Wooden_Board"
+        },
+        {
+          "slug": "High_Quality_Wooden_Board",
+          "name": "High_Quality_Wooden_Board"
+        },
+        {
+          "slug": "Nail",
+          "name": "Nail"
+        },
+        {
+          "slug": "Circuit_Board",
+          "name": "Circuit_Board"
+        },
+        {
+          "slug": "Computer",
+          "name": "Computer"
+        },
+        {
+          "slug": "AI_Core",
+          "name": "AI_Core"
+        },
+        {
+          "slug": "Cryogenic_Coolant",
+          "name": "Cryogenic_Coolant"
+        },
+        {
+          "slug": "Bio_Battery",
+          "name": "Bio_Battery"
+        },
+        {
+          "slug": "Thermal_Core",
+          "name": "Thermal_Core"
+        },
+        {
+          "slug": "Corrosive_Solvent",
+          "name": "Corrosive_Solvent"
+        },
+        {
+          "slug": "Polymer",
+          "name": "Polymer"
+        },
+        {
+          "slug": "Cement",
+          "name": "Cement"
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "name": "Carbon_Fiber"
+        }
+      ]
+    },
+    {
+      "category": "Ingots",
+      "count": 10,
+      "items": [
+        {
+          "slug": "Charcoal",
+          "name": "Charcoal"
+        },
+        {
+          "slug": "Ingot",
+          "name": "Ingot"
+        },
+        {
+          "slug": "Refined_Ingot",
+          "name": "Refined_Ingot"
+        },
+        {
+          "slug": "Pal_Metal_Ingot",
+          "name": "Pal_Metal_Ingot"
+        },
+        {
+          "slug": "Plasteel",
+          "name": "Plasteel"
+        },
+        {
+          "slug": "Hexolite",
+          "name": "Hexolite"
+        },
+        {
+          "slug": "Hallowed_Bar",
+          "name": "Hallowed_Bar"
+        },
+        {
+          "slug": "Coralum_Ingot",
+          "name": "Coralum_Ingot"
+        },
+        {
+          "slug": "Soralite_Ingot",
+          "name": "Soralite_Ingot"
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "name": "Paloxite_Ingot"
+        }
+      ]
+    },
+    {
+      "category": "Other Materials",
+      "count": 10,
+      "items": [
+        {
+          "slug": "Gold_Coin",
+          "name": "Gold_Coin"
+        },
+        {
+          "slug": "Beautiful_Flower",
+          "name": "Beautiful_Flower"
+        },
+        {
+          "slug": "Ruby",
+          "name": "Ruby"
+        },
+        {
+          "slug": "Sapphire",
+          "name": "Sapphire"
+        },
+        {
+          "slug": "Emerald",
+          "name": "Emerald"
+        },
+        {
+          "slug": "Diamond",
+          "name": "Diamond"
+        },
+        {
+          "slug": "Dog_Coin",
+          "name": "Dog_Coin"
+        },
+        {
+          "slug": "Predator_Core",
+          "name": "Predator_Core"
+        },
+        {
+          "slug": "Successful_Bounty_Token",
+          "name": "Successful_Bounty_Token"
+        },
+        {
+          "slug": "Battle_Ticket",
+          "name": "Battle_Ticket"
+        }
+      ]
+    },
+    {
+      "category": "Schematics",
+      "count": 492,
+      "items": [
+        {
+          "slug": "Monarchs_Crown_Schematic_1",
+          "name": "Monarchs_Crown_Schematic_1"
+        },
+        {
+          "slug": "Golden_Crown_Schematic_1",
+          "name": "Golden_Crown_Schematic_1"
+        },
+        {
+          "slug": "Long-Eared_Headband_Schematic_1",
+          "name": "Long-Eared_Headband_Schematic_1"
+        },
+        {
+          "slug": "Witch_Hat_Schematic_1",
+          "name": "Witch_Hat_Schematic_1"
+        },
+        {
+          "slug": "Soft_Hat_Schematic_1",
+          "name": "Soft_Hat_Schematic_1"
+        },
+        {
+          "slug": "Helmet_Schematic_1",
+          "name": "Helmet_Schematic_1"
+        },
+        {
+          "slug": "Silk_Hat_Schematic_1",
+          "name": "Silk_Hat_Schematic_1"
+        },
+        {
+          "slug": "Tricorne_Schematic_1",
+          "name": "Tricorne_Schematic_1"
+        },
+        {
+          "slug": "Exploration_Cap_Schematic_1",
+          "name": "Exploration_Cap_Schematic_1"
+        },
+        {
+          "slug": "Graduation_Cap_Schematic_1",
+          "name": "Graduation_Cap_Schematic_1"
+        },
+        {
+          "slug": "Farming_Hat_Schematic_1",
+          "name": "Farming_Hat_Schematic_1"
+        },
+        {
+          "slug": "Bowler_Hat_Schematic_1",
+          "name": "Bowler_Hat_Schematic_1"
+        },
+        {
+          "slug": "Tocotoco_Cap_Schematic_1",
+          "name": "Tocotoco_Cap_Schematic_1"
+        },
+        {
+          "slug": "Grinning_Tocotoco_Cap_Schematic_1",
+          "name": "Grinning_Tocotoco_Cap_Schematic_1"
+        },
+        {
+          "slug": "Gumoss_Cap_Schematic_1",
+          "name": "Gumoss_Cap_Schematic_1"
+        },
+        {
+          "slug": "Penking_Cap_Schematic_1",
+          "name": "Penking_Cap_Schematic_1"
+        },
+        {
+          "slug": "Katress_Cap_Schematic_1",
+          "name": "Katress_Cap_Schematic_1"
+        },
+        {
+          "slug": "Old_Bow_Schematic_1",
+          "name": "Old_Bow_Schematic_1"
+        },
+        {
+          "slug": "Old_Bow_Schematic_2",
+          "name": "Old_Bow_Schematic_2"
+        },
+        {
+          "slug": "Old_Bow_Schematic_3",
+          "name": "Old_Bow_Schematic_3"
+        },
+        {
+          "slug": "Old_Bow_Schematic_4",
+          "name": "Old_Bow_Schematic_4"
+        },
+        {
+          "slug": "Crossbow_Schematic_1",
+          "name": "Crossbow_Schematic_1"
+        },
+        {
+          "slug": "Crossbow_Schematic_2",
+          "name": "Crossbow_Schematic_2"
+        },
+        {
+          "slug": "Crossbow_Schematic_3",
+          "name": "Crossbow_Schematic_3"
+        },
+        {
+          "slug": "Crossbow_Schematic_4",
+          "name": "Crossbow_Schematic_4"
+        },
+        {
+          "slug": "Assault_Rifle_Schematic_1",
+          "name": "Assault_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Assault_Rifle_Schematic_2",
+          "name": "Assault_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Assault_Rifle_Schematic_3",
+          "name": "Assault_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Assault_Rifle_Schematic_4",
+          "name": "Assault_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Pump-Action_Shotgun_Schematic_1",
+          "name": "Pump-Action_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Pump-Action_Shotgun_Schematic_2",
+          "name": "Pump-Action_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Pump-Action_Shotgun_Schematic_3",
+          "name": "Pump-Action_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Pump-Action_Shotgun_Schematic_4",
+          "name": "Pump-Action_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Handgun_Schematic_1",
+          "name": "Handgun_Schematic_1"
+        },
+        {
+          "slug": "Handgun_Schematic_2",
+          "name": "Handgun_Schematic_2"
+        },
+        {
+          "slug": "Handgun_Schematic_3",
+          "name": "Handgun_Schematic_3"
+        },
+        {
+          "slug": "Handgun_Schematic_4",
+          "name": "Handgun_Schematic_4"
+        },
+        {
+          "slug": "Rocket_Launcher_Schematic_1",
+          "name": "Rocket_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Rocket_Launcher_Schematic_2",
+          "name": "Rocket_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Rocket_Launcher_Schematic_3",
+          "name": "Rocket_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Rocket_Launcher_Schematic_4",
+          "name": "Rocket_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Musket_Schematic_1",
+          "name": "Musket_Schematic_1"
+        },
+        {
+          "slug": "Musket_Schematic_2",
+          "name": "Musket_Schematic_2"
+        },
+        {
+          "slug": "Musket_Schematic_3",
+          "name": "Musket_Schematic_3"
+        },
+        {
+          "slug": "Musket_Schematic_4",
+          "name": "Musket_Schematic_4"
+        },
+        {
+          "slug": "Double-Barreled_Shotgun_Schematic_1",
+          "name": "Double-Barreled_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Double-Barreled_Shotgun_Schematic_2",
+          "name": "Double-Barreled_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Double-Barreled_Shotgun_Schematic_3",
+          "name": "Double-Barreled_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Double-Barreled_Shotgun_Schematic_4",
+          "name": "Double-Barreled_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Single-Shot_Rifle_Schematic_1",
+          "name": "Single-Shot_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Single-Shot_Rifle_Schematic_2",
+          "name": "Single-Shot_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Single-Shot_Rifle_Schematic_3",
+          "name": "Single-Shot_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Single-Shot_Rifle_Schematic_4",
+          "name": "Single-Shot_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Feathered_Hair_Band_Schematic_1",
+          "name": "Feathered_Hair_Band_Schematic_1"
+        },
+        {
+          "slug": "Feathered_Hair_Band_Schematic_2",
+          "name": "Feathered_Hair_Band_Schematic_2"
+        },
+        {
+          "slug": "Feathered_Hair_Band_Schematic_3",
+          "name": "Feathered_Hair_Band_Schematic_3"
+        },
+        {
+          "slug": "Feathered_Hair_Band_Schematic_4",
+          "name": "Feathered_Hair_Band_Schematic_4"
+        },
+        {
+          "slug": "Metal_Helm_Schematic_1",
+          "name": "Metal_Helm_Schematic_1"
+        },
+        {
+          "slug": "Metal_Helm_Schematic_2",
+          "name": "Metal_Helm_Schematic_2"
+        },
+        {
+          "slug": "Metal_Helm_Schematic_3",
+          "name": "Metal_Helm_Schematic_3"
+        },
+        {
+          "slug": "Metal_Helm_Schematic_4",
+          "name": "Metal_Helm_Schematic_4"
+        },
+        {
+          "slug": "Refined_Metal_Helm_Schematic_1",
+          "name": "Refined_Metal_Helm_Schematic_1"
+        },
+        {
+          "slug": "Refined_Metal_Helm_Schematic_2",
+          "name": "Refined_Metal_Helm_Schematic_2"
+        },
+        {
+          "slug": "Refined_Metal_Helm_Schematic_3",
+          "name": "Refined_Metal_Helm_Schematic_3"
+        },
+        {
+          "slug": "Refined_Metal_Helm_Schematic_4",
+          "name": "Refined_Metal_Helm_Schematic_4"
+        },
+        {
+          "slug": "Pal_Metal_Helm_Schematic_1",
+          "name": "Pal_Metal_Helm_Schematic_1"
+        },
+        {
+          "slug": "Pal_Metal_Helm_Schematic_2",
+          "name": "Pal_Metal_Helm_Schematic_2"
+        },
+        {
+          "slug": "Pal_Metal_Helm_Schematic_3",
+          "name": "Pal_Metal_Helm_Schematic_3"
+        },
+        {
+          "slug": "Pal_Metal_Helm_Schematic_4",
+          "name": "Pal_Metal_Helm_Schematic_4"
+        },
+        {
+          "slug": "Cloth_Outfit_Schematic_1",
+          "name": "Cloth_Outfit_Schematic_1"
+        },
+        {
+          "slug": "Cloth_Outfit_Schematic_2",
+          "name": "Cloth_Outfit_Schematic_2"
+        },
+        {
+          "slug": "Cloth_Outfit_Schematic_3",
+          "name": "Cloth_Outfit_Schematic_3"
+        },
+        {
+          "slug": "Cloth_Outfit_Schematic_4",
+          "name": "Cloth_Outfit_Schematic_4"
+        },
+        {
+          "slug": "Pelt_Armor_Schematic_1",
+          "name": "Pelt_Armor_Schematic_1"
+        },
+        {
+          "slug": "Pelt_Armor_Schematic_2",
+          "name": "Pelt_Armor_Schematic_2"
+        },
+        {
+          "slug": "Pelt_Armor_Schematic_3",
+          "name": "Pelt_Armor_Schematic_3"
+        },
+        {
+          "slug": "Pelt_Armor_Schematic_4",
+          "name": "Pelt_Armor_Schematic_4"
+        },
+        {
+          "slug": "Metal_Armor_Schematic_1",
+          "name": "Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Metal_Armor_Schematic_2",
+          "name": "Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Metal_Armor_Schematic_3",
+          "name": "Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Metal_Armor_Schematic_4",
+          "name": "Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Refined_Metal_Armor_Schematic_1",
+          "name": "Refined_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Refined_Metal_Armor_Schematic_2",
+          "name": "Refined_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Refined_Metal_Armor_Schematic_3",
+          "name": "Refined_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Refined_Metal_Armor_Schematic_4",
+          "name": "Refined_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Pal_Metal_Armor_Schematic_1",
+          "name": "Pal_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Pal_Metal_Armor_Schematic_2",
+          "name": "Pal_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Pal_Metal_Armor_Schematic_3",
+          "name": "Pal_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Pal_Metal_Armor_Schematic_4",
+          "name": "Pal_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Tropical_Outfit_Schematic_1",
+          "name": "Tropical_Outfit_Schematic_1"
+        },
+        {
+          "slug": "Tropical_Outfit_Schematic_2",
+          "name": "Tropical_Outfit_Schematic_2"
+        },
+        {
+          "slug": "Tropical_Outfit_Schematic_3",
+          "name": "Tropical_Outfit_Schematic_3"
+        },
+        {
+          "slug": "Tropical_Outfit_Schematic_4",
+          "name": "Tropical_Outfit_Schematic_4"
+        },
+        {
+          "slug": "Tundra_Outfit_Schematic_1",
+          "name": "Tundra_Outfit_Schematic_1"
+        },
+        {
+          "slug": "Tundra_Outfit_Schematic_2",
+          "name": "Tundra_Outfit_Schematic_2"
+        },
+        {
+          "slug": "Tundra_Outfit_Schematic_3",
+          "name": "Tundra_Outfit_Schematic_3"
+        },
+        {
+          "slug": "Tundra_Outfit_Schematic_4",
+          "name": "Tundra_Outfit_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Pelt_Armor_Schematic_1",
+          "name": "Heat_Resistant_Pelt_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Pelt_Armor_Schematic_2",
+          "name": "Heat_Resistant_Pelt_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Pelt_Armor_Schematic_3",
+          "name": "Heat_Resistant_Pelt_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Pelt_Armor_Schematic_4",
+          "name": "Heat_Resistant_Pelt_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Pelt_Armor_Schematic_1",
+          "name": "Cold_Resistant_Pelt_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Pelt_Armor_Schematic_2",
+          "name": "Cold_Resistant_Pelt_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Pelt_Armor_Schematic_3",
+          "name": "Cold_Resistant_Pelt_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Pelt_Armor_Schematic_4",
+          "name": "Cold_Resistant_Pelt_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Metal_Armor_Schematic_1",
+          "name": "Heat_Resistant_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Metal_Armor_Schematic_2",
+          "name": "Heat_Resistant_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Metal_Armor_Schematic_3",
+          "name": "Heat_Resistant_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Metal_Armor_Schematic_4",
+          "name": "Heat_Resistant_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Metal_Armor_Schematic_1",
+          "name": "Cold_Resistant_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Metal_Armor_Schematic_2",
+          "name": "Cold_Resistant_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Metal_Armor_Schematic_3",
+          "name": "Cold_Resistant_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Metal_Armor_Schematic_4",
+          "name": "Cold_Resistant_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Refined_Metal_Armor_Schematic_1",
+          "name": "Heat_Resistant_Refined_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Refined_Metal_Armor_Schematic_2",
+          "name": "Heat_Resistant_Refined_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Refined_Metal_Armor_Schematic_3",
+          "name": "Heat_Resistant_Refined_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Refined_Metal_Armor_Schematic_4",
+          "name": "Heat_Resistant_Refined_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Refined_Metal_Armor_Schematic_1",
+          "name": "Cold_Resistant_Refined_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Refined_Metal_Armor_Schematic_2",
+          "name": "Cold_Resistant_Refined_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Refined_Metal_Armor_Schematic_3",
+          "name": "Cold_Resistant_Refined_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Refined_Metal_Armor_Schematic_4",
+          "name": "Cold_Resistant_Refined_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Pal_Metal_Armor_Schematic_1",
+          "name": "Heat_Resistant_Pal_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Pal_Metal_Armor_Schematic_2",
+          "name": "Heat_Resistant_Pal_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Pal_Metal_Armor_Schematic_3",
+          "name": "Heat_Resistant_Pal_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Pal_Metal_Armor_Schematic_4",
+          "name": "Heat_Resistant_Pal_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Pal_Metal_Armor_Schematic_1",
+          "name": "Cold_Resistant_Pal_Metal_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Pal_Metal_Armor_Schematic_2",
+          "name": "Cold_Resistant_Pal_Metal_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Pal_Metal_Armor_Schematic_3",
+          "name": "Cold_Resistant_Pal_Metal_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Pal_Metal_Armor_Schematic_4",
+          "name": "Cold_Resistant_Pal_Metal_Armor_Schematic_4"
+        },
+        {
+          "slug": "Bellanoirs_Slab_Fragment",
+          "name": "Bellanoirs_Slab_Fragment"
+        },
+        {
+          "slug": "Bellanoir_Liberos_Slab_Fragment",
+          "name": "Bellanoir_Liberos_Slab_Fragment"
+        },
+        {
+          "slug": "Blazamut_Ryu_Slab_Fragment",
+          "name": "Blazamut_Ryu_Slab_Fragment"
+        },
+        {
+          "slug": "Makeshift_Handgun_Schematic_1",
+          "name": "Makeshift_Handgun_Schematic_1"
+        },
+        {
+          "slug": "Makeshift_Handgun_Schematic_2",
+          "name": "Makeshift_Handgun_Schematic_2"
+        },
+        {
+          "slug": "Makeshift_Handgun_Schematic_3",
+          "name": "Makeshift_Handgun_Schematic_3"
+        },
+        {
+          "slug": "Makeshift_Handgun_Schematic_4",
+          "name": "Makeshift_Handgun_Schematic_4"
+        },
+        {
+          "slug": "Laser_Rifle_Schematic_1",
+          "name": "Laser_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Laser_Rifle_Schematic_2",
+          "name": "Laser_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Laser_Rifle_Schematic_3",
+          "name": "Laser_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Laser_Rifle_Schematic_4",
+          "name": "Laser_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Flamethrower_Schematic_1",
+          "name": "Flamethrower_Schematic_1"
+        },
+        {
+          "slug": "Flamethrower_Schematic_2",
+          "name": "Flamethrower_Schematic_2"
+        },
+        {
+          "slug": "Flamethrower_Schematic_3",
+          "name": "Flamethrower_Schematic_3"
+        },
+        {
+          "slug": "Flamethrower_Schematic_4",
+          "name": "Flamethrower_Schematic_4"
+        },
+        {
+          "slug": "Grenade_Launcher_Schematic_1",
+          "name": "Grenade_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Grenade_Launcher_Schematic_2",
+          "name": "Grenade_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Grenade_Launcher_Schematic_3",
+          "name": "Grenade_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Grenade_Launcher_Schematic_4",
+          "name": "Grenade_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Guided_Missile_Launcher_Schematic_1",
+          "name": "Guided_Missile_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Guided_Missile_Launcher_Schematic_2",
+          "name": "Guided_Missile_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Guided_Missile_Launcher_Schematic_3",
+          "name": "Guided_Missile_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Guided_Missile_Launcher_Schematic_4",
+          "name": "Guided_Missile_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher_Schematic_1",
+          "name": "Multi_Guided_Missile_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher_Schematic_2",
+          "name": "Multi_Guided_Missile_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher_Schematic_3",
+          "name": "Multi_Guided_Missile_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher_Schematic_4",
+          "name": "Multi_Guided_Missile_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Gatling_Gun_Schematic_1",
+          "name": "Gatling_Gun_Schematic_1"
+        },
+        {
+          "slug": "Gatling_Gun_Schematic_2",
+          "name": "Gatling_Gun_Schematic_2"
+        },
+        {
+          "slug": "Gatling_Gun_Schematic_3",
+          "name": "Gatling_Gun_Schematic_3"
+        },
+        {
+          "slug": "Gatling_Gun_Schematic_4",
+          "name": "Gatling_Gun_Schematic_4"
+        },
+        {
+          "slug": "Plasteel_Armor_Schematic_1",
+          "name": "Plasteel_Armor_Schematic_1"
+        },
+        {
+          "slug": "Plasteel_Armor_Schematic_2",
+          "name": "Plasteel_Armor_Schematic_2"
+        },
+        {
+          "slug": "Plasteel_Armor_Schematic_3",
+          "name": "Plasteel_Armor_Schematic_3"
+        },
+        {
+          "slug": "Plasteel_Armor_Schematic_4",
+          "name": "Plasteel_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Plasteel_Armor_Schematic_1",
+          "name": "Heat_Resistant_Plasteel_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Plasteel_Armor_Schematic_2",
+          "name": "Heat_Resistant_Plasteel_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Plasteel_Armor_Schematic_3",
+          "name": "Heat_Resistant_Plasteel_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Plasteel_Armor_Schematic_4",
+          "name": "Heat_Resistant_Plasteel_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Plasteel_Armor_Schematic_1",
+          "name": "Cold_Resistant_Plasteel_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Plasteel_Armor_Schematic_2",
+          "name": "Cold_Resistant_Plasteel_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Plasteel_Armor_Schematic_3",
+          "name": "Cold_Resistant_Plasteel_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Plasteel_Armor_Schematic_4",
+          "name": "Cold_Resistant_Plasteel_Armor_Schematic_4"
+        },
+        {
+          "slug": "Lightweight_Plasteel_Armor_Schematic_1",
+          "name": "Lightweight_Plasteel_Armor_Schematic_1"
+        },
+        {
+          "slug": "Lightweight_Plasteel_Armor_Schematic_2",
+          "name": "Lightweight_Plasteel_Armor_Schematic_2"
+        },
+        {
+          "slug": "Lightweight_Plasteel_Armor_Schematic_3",
+          "name": "Lightweight_Plasteel_Armor_Schematic_3"
+        },
+        {
+          "slug": "Lightweight_Plasteel_Armor_Schematic_4",
+          "name": "Lightweight_Plasteel_Armor_Schematic_4"
+        },
+        {
+          "slug": "Plasteel_Helmet_Schematic_1",
+          "name": "Plasteel_Helmet_Schematic_1"
+        },
+        {
+          "slug": "Plasteel_Helmet_Schematic_2",
+          "name": "Plasteel_Helmet_Schematic_2"
+        },
+        {
+          "slug": "Plasteel_Helmet_Schematic_3",
+          "name": "Plasteel_Helmet_Schematic_3"
+        },
+        {
+          "slug": "Plasteel_Helmet_Schematic_4",
+          "name": "Plasteel_Helmet_Schematic_4"
+        },
+        {
+          "slug": "Leezpunk_Hood_Schematic_1",
+          "name": "Leezpunk_Hood_Schematic_1"
+        },
+        {
+          "slug": "Killamari_Cap_Schematic_1",
+          "name": "Killamari_Cap_Schematic_1"
+        },
+        {
+          "slug": "Ribbuny_Headband_Schematic_1",
+          "name": "Ribbuny_Headband_Schematic_1"
+        },
+        {
+          "slug": "Swee_Cap_Schematic_1",
+          "name": "Swee_Cap_Schematic_1"
+        },
+        {
+          "slug": "Dazzi_Hat_Schematic_1",
+          "name": "Dazzi_Hat_Schematic_1"
+        },
+        {
+          "slug": "Multi_Guided_Missile_Launcher_Schematic",
+          "name": "Multi_Guided_Missile_Launcher_Schematic"
+        },
+        {
+          "slug": "Xenolord_Slab_Fragment",
+          "name": "Xenolord_Slab_Fragment"
+        },
+        {
+          "slug": "Poison_Arrow_Crossbow_Schematic_1",
+          "name": "Poison_Arrow_Crossbow_Schematic_1"
+        },
+        {
+          "slug": "Poison_Arrow_Crossbow_Schematic_2",
+          "name": "Poison_Arrow_Crossbow_Schematic_2"
+        },
+        {
+          "slug": "Poison_Arrow_Crossbow_Schematic_3",
+          "name": "Poison_Arrow_Crossbow_Schematic_3"
+        },
+        {
+          "slug": "Poison_Arrow_Crossbow_Schematic_4",
+          "name": "Poison_Arrow_Crossbow_Schematic_4"
+        },
+        {
+          "slug": "Fire_Arrow_Crossbow_Schematic_1",
+          "name": "Fire_Arrow_Crossbow_Schematic_1"
+        },
+        {
+          "slug": "Fire_Arrow_Crossbow_Schematic_2",
+          "name": "Fire_Arrow_Crossbow_Schematic_2"
+        },
+        {
+          "slug": "Fire_Arrow_Crossbow_Schematic_3",
+          "name": "Fire_Arrow_Crossbow_Schematic_3"
+        },
+        {
+          "slug": "Fire_Arrow_Crossbow_Schematic_4",
+          "name": "Fire_Arrow_Crossbow_Schematic_4"
+        },
+        {
+          "slug": "Hexolite_Helmet_Schematic_1",
+          "name": "Hexolite_Helmet_Schematic_1"
+        },
+        {
+          "slug": "Hexolite_Helmet_Schematic_2",
+          "name": "Hexolite_Helmet_Schematic_2"
+        },
+        {
+          "slug": "Hexolite_Helmet_Schematic_3",
+          "name": "Hexolite_Helmet_Schematic_3"
+        },
+        {
+          "slug": "Hexolite_Helmet_Schematic_4",
+          "name": "Hexolite_Helmet_Schematic_4"
+        },
+        {
+          "slug": "Hexolite_Armor_Schematic_1",
+          "name": "Hexolite_Armor_Schematic_1"
+        },
+        {
+          "slug": "Hexolite_Armor_Schematic_2",
+          "name": "Hexolite_Armor_Schematic_2"
+        },
+        {
+          "slug": "Hexolite_Armor_Schematic_3",
+          "name": "Hexolite_Armor_Schematic_3"
+        },
+        {
+          "slug": "Hexolite_Armor_Schematic_4",
+          "name": "Hexolite_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat_Resistant_Hexolite_Armor_Schematic_1",
+          "name": "Heat_Resistant_Hexolite_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat_Resistant_Hexolite_Armor_Schematic_2",
+          "name": "Heat_Resistant_Hexolite_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat_Resistant_Hexolite_Armor_Schematic_3",
+          "name": "Heat_Resistant_Hexolite_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat_Resistant_Hexolite_Armor_Schematic_4",
+          "name": "Heat_Resistant_Hexolite_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold_Resistant_Hexolite_Armor_Schematic_1",
+          "name": "Cold_Resistant_Hexolite_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold_Resistant_Hexolite_Armor_Schematic_2",
+          "name": "Cold_Resistant_Hexolite_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold_Resistant_Hexolite_Armor_Schematic_3",
+          "name": "Cold_Resistant_Hexolite_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold_Resistant_Hexolite_Armor_Schematic_4",
+          "name": "Cold_Resistant_Hexolite_Armor_Schematic_4"
+        },
+        {
+          "slug": "Lightweight_Hexolite_Armor_Schematic_1",
+          "name": "Lightweight_Hexolite_Armor_Schematic_1"
+        },
+        {
+          "slug": "Lightweight_Hexolite_Armor_Schematic_2",
+          "name": "Lightweight_Hexolite_Armor_Schematic_2"
+        },
+        {
+          "slug": "Lightweight_Hexolite_Armor_Schematic_3",
+          "name": "Lightweight_Hexolite_Armor_Schematic_3"
+        },
+        {
+          "slug": "Lightweight_Hexolite_Armor_Schematic_4",
+          "name": "Lightweight_Hexolite_Armor_Schematic_4"
+        },
+        {
+          "slug": "Laser_Gatling_Gun_Schematic_1",
+          "name": "Laser_Gatling_Gun_Schematic_1"
+        },
+        {
+          "slug": "Laser_Gatling_Gun_Schematic_2",
+          "name": "Laser_Gatling_Gun_Schematic_2"
+        },
+        {
+          "slug": "Laser_Gatling_Gun_Schematic_3",
+          "name": "Laser_Gatling_Gun_Schematic_3"
+        },
+        {
+          "slug": "Laser_Gatling_Gun_Schematic_4",
+          "name": "Laser_Gatling_Gun_Schematic_4"
+        },
+        {
+          "slug": "Plasma_Cannon_Schematic_1",
+          "name": "Plasma_Cannon_Schematic_1"
+        },
+        {
+          "slug": "Plasma_Cannon_Schematic_2",
+          "name": "Plasma_Cannon_Schematic_2"
+        },
+        {
+          "slug": "Plasma_Cannon_Schematic_3",
+          "name": "Plasma_Cannon_Schematic_3"
+        },
+        {
+          "slug": "Plasma_Cannon_Schematic_4",
+          "name": "Plasma_Cannon_Schematic_4"
+        },
+        {
+          "slug": "Semi-Auto_Shotgun_Schematic_1",
+          "name": "Semi-Auto_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Semi-Auto_Shotgun_Schematic_2",
+          "name": "Semi-Auto_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Semi-Auto_Shotgun_Schematic_3",
+          "name": "Semi-Auto_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Semi-Auto_Shotgun_Schematic_4",
+          "name": "Semi-Auto_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Old_Revolver_Schematic_1",
+          "name": "Old_Revolver_Schematic_1"
+        },
+        {
+          "slug": "Old_Revolver_Schematic_2",
+          "name": "Old_Revolver_Schematic_2"
+        },
+        {
+          "slug": "Old_Revolver_Schematic_3",
+          "name": "Old_Revolver_Schematic_3"
+        },
+        {
+          "slug": "Old_Revolver_Schematic_4",
+          "name": "Old_Revolver_Schematic_4"
+        },
+        {
+          "slug": "Makeshift_Assault_Rifle_Schematic_1",
+          "name": "Makeshift_Assault_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Makeshift_Assault_Rifle_Schematic_2",
+          "name": "Makeshift_Assault_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Makeshift_Assault_Rifle_Schematic_3",
+          "name": "Makeshift_Assault_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Makeshift_Assault_Rifle_Schematic_4",
+          "name": "Makeshift_Assault_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Semi-Auto_Rifle_Schematic_1",
+          "name": "Semi-Auto_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Semi-Auto_Rifle_Schematic_2",
+          "name": "Semi-Auto_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Semi-Auto_Rifle_Schematic_3",
+          "name": "Semi-Auto_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Semi-Auto_Rifle_Schematic_4",
+          "name": "Semi-Auto_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Makeshift_SMG_Schematic_1",
+          "name": "Makeshift_SMG_Schematic_1"
+        },
+        {
+          "slug": "Makeshift_SMG_Schematic_2",
+          "name": "Makeshift_SMG_Schematic_2"
+        },
+        {
+          "slug": "Makeshift_SMG_Schematic_3",
+          "name": "Makeshift_SMG_Schematic_3"
+        },
+        {
+          "slug": "Makeshift_SMG_Schematic_4",
+          "name": "Makeshift_SMG_Schematic_4"
+        },
+        {
+          "slug": "SMG_Schematic_1",
+          "name": "SMG_Schematic_1"
+        },
+        {
+          "slug": "SMG_Schematic_2",
+          "name": "SMG_Schematic_2"
+        },
+        {
+          "slug": "SMG_Schematic_3",
+          "name": "SMG_Schematic_3"
+        },
+        {
+          "slug": "SMG_Schematic_4",
+          "name": "SMG_Schematic_4"
+        },
+        {
+          "slug": "Makeshift_Shotgun_Schematic_1",
+          "name": "Makeshift_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Makeshift_Shotgun_Schematic_2",
+          "name": "Makeshift_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Makeshift_Shotgun_Schematic_3",
+          "name": "Makeshift_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Makeshift_Shotgun_Schematic_4",
+          "name": "Makeshift_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Advanced_Bow_Schematic_1",
+          "name": "Advanced_Bow_Schematic_1"
+        },
+        {
+          "slug": "Advanced_Bow_Schematic_2",
+          "name": "Advanced_Bow_Schematic_2"
+        },
+        {
+          "slug": "Advanced_Bow_Schematic_3",
+          "name": "Advanced_Bow_Schematic_3"
+        },
+        {
+          "slug": "Advanced_Bow_Schematic_4",
+          "name": "Advanced_Bow_Schematic_4"
+        },
+        {
+          "slug": "Compound_Bow_Schematic_1",
+          "name": "Compound_Bow_Schematic_1"
+        },
+        {
+          "slug": "Compound_Bow_Schematic_2",
+          "name": "Compound_Bow_Schematic_2"
+        },
+        {
+          "slug": "Compound_Bow_Schematic_3",
+          "name": "Compound_Bow_Schematic_3"
+        },
+        {
+          "slug": "Compound_Bow_Schematic_4",
+          "name": "Compound_Bow_Schematic_4"
+        },
+        {
+          "slug": "Rayne_Syndicate_Flag_Schematic",
+          "name": "Rayne_Syndicate_Flag_Schematic"
+        },
+        {
+          "slug": "Overheat_Rifle_Schematic_1",
+          "name": "Overheat_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Overheat_Rifle_Schematic_2",
+          "name": "Overheat_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Overheat_Rifle_Schematic_3",
+          "name": "Overheat_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Overheat_Rifle_Schematic_4",
+          "name": "Overheat_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Charge_Rifle_Schematic_1",
+          "name": "Charge_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Charge_Rifle_Schematic_2",
+          "name": "Charge_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Charge_Rifle_Schematic_3",
+          "name": "Charge_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Charge_Rifle_Schematic_4",
+          "name": "Charge_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Energy_Shotgun_Schematic_1",
+          "name": "Energy_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Energy_Shotgun_Schematic_2",
+          "name": "Energy_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Energy_Shotgun_Schematic_3",
+          "name": "Energy_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Energy_Shotgun_Schematic_4",
+          "name": "Energy_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Lyleen_Statue_Schematic",
+          "name": "Lyleen_Statue_Schematic"
+        },
+        {
+          "slug": "Free_Pal_Alliance_Flag_Schematic",
+          "name": "Free_Pal_Alliance_Flag_Schematic"
+        },
+        {
+          "slug": "Free_Pal_Alliance_Banner_Schematic",
+          "name": "Free_Pal_Alliance_Banner_Schematic"
+        },
+        {
+          "slug": "Wire_Fence_Schematic",
+          "name": "Wire_Fence_Schematic"
+        },
+        {
+          "slug": "Wooden_Barricade_Schematic",
+          "name": "Wooden_Barricade_Schematic"
+        },
+        {
+          "slug": "Majestic_Wall_Torch_Schematic",
+          "name": "Majestic_Wall_Torch_Schematic"
+        },
+        {
+          "slug": "Ceremonial_Candlestick_Schematic",
+          "name": "Ceremonial_Candlestick_Schematic"
+        },
+        {
+          "slug": "Majestic_Candlestick_Schematic",
+          "name": "Majestic_Candlestick_Schematic"
+        },
+        {
+          "slug": "Paper_Lantern_Schematic",
+          "name": "Paper_Lantern_Schematic"
+        },
+        {
+          "slug": "Red_Wooden_Lantern_Schematic",
+          "name": "Red_Wooden_Lantern_Schematic"
+        },
+        {
+          "slug": "Yakumo_Statue_Schematic",
+          "name": "Yakumo_Statue_Schematic"
+        },
+        {
+          "slug": "Laboratory_Desk_Schematic",
+          "name": "Laboratory_Desk_Schematic"
+        },
+        {
+          "slug": "Laboratory_Chair_Schematic",
+          "name": "Laboratory_Chair_Schematic"
+        },
+        {
+          "slug": "Excalibur_Schematic",
+          "name": "Excalibur_Schematic"
+        },
+        {
+          "slug": "Excalibur_Schematic_1",
+          "name": "Excalibur_Schematic_1"
+        },
+        {
+          "slug": "Excalibur_Schematic_2",
+          "name": "Excalibur_Schematic_2"
+        },
+        {
+          "slug": "Excalibur_Schematic_3",
+          "name": "Excalibur_Schematic_3"
+        },
+        {
+          "slug": "Excalibur_Schematic_4",
+          "name": "Excalibur_Schematic_4"
+        },
+        {
+          "slug": "Terraprisma_Schematic",
+          "name": "Terraprisma_Schematic"
+        },
+        {
+          "slug": "Terraprisma_Schematic_1",
+          "name": "Terraprisma_Schematic_1"
+        },
+        {
+          "slug": "Terraprisma_Schematic_2",
+          "name": "Terraprisma_Schematic_2"
+        },
+        {
+          "slug": "Terraprisma_Schematic_3",
+          "name": "Terraprisma_Schematic_3"
+        },
+        {
+          "slug": "Terraprisma_Schematic_4",
+          "name": "Terraprisma_Schematic_4"
+        },
+        {
+          "slug": "Vortex_Beater_Schematic",
+          "name": "Vortex_Beater_Schematic"
+        },
+        {
+          "slug": "Vortex_Beater_Schematic_1",
+          "name": "Vortex_Beater_Schematic_1"
+        },
+        {
+          "slug": "Vortex_Beater_Schematic_2",
+          "name": "Vortex_Beater_Schematic_2"
+        },
+        {
+          "slug": "Vortex_Beater_Schematic_3",
+          "name": "Vortex_Beater_Schematic_3"
+        },
+        {
+          "slug": "Vortex_Beater_Schematic_4",
+          "name": "Vortex_Beater_Schematic_4"
+        },
+        {
+          "slug": "Nightglow_Schematic",
+          "name": "Nightglow_Schematic"
+        },
+        {
+          "slug": "Nightglow_Schematic_1",
+          "name": "Nightglow_Schematic_1"
+        },
+        {
+          "slug": "Nightglow_Schematic_2",
+          "name": "Nightglow_Schematic_2"
+        },
+        {
+          "slug": "Nightglow_Schematic_3",
+          "name": "Nightglow_Schematic_3"
+        },
+        {
+          "slug": "Nightglow_Schematic_4",
+          "name": "Nightglow_Schematic_4"
+        },
+        {
+          "slug": "Terra_Blade_Schematic",
+          "name": "Terra_Blade_Schematic"
+        },
+        {
+          "slug": "Terra_Blade_Schematic_1",
+          "name": "Terra_Blade_Schematic_1"
+        },
+        {
+          "slug": "Terra_Blade_Schematic_2",
+          "name": "Terra_Blade_Schematic_2"
+        },
+        {
+          "slug": "Terra_Blade_Schematic_3",
+          "name": "Terra_Blade_Schematic_3"
+        },
+        {
+          "slug": "Terra_Blade_Schematic_4",
+          "name": "Terra_Blade_Schematic_4"
+        },
+        {
+          "slug": "Hallowed_Mask_Schematic",
+          "name": "Hallowed_Mask_Schematic"
+        },
+        {
+          "slug": "Hallowed_Mask_Schematic_1",
+          "name": "Hallowed_Mask_Schematic_1"
+        },
+        {
+          "slug": "Hallowed_Mask_Schematic_2",
+          "name": "Hallowed_Mask_Schematic_2"
+        },
+        {
+          "slug": "Hallowed_Mask_Schematic_3",
+          "name": "Hallowed_Mask_Schematic_3"
+        },
+        {
+          "slug": "Hallowed_Mask_Schematic_4",
+          "name": "Hallowed_Mask_Schematic_4"
+        },
+        {
+          "slug": "Hallowed_Headgear_Schematic",
+          "name": "Hallowed_Headgear_Schematic"
+        },
+        {
+          "slug": "Hallowed_Headgear_Schematic_1",
+          "name": "Hallowed_Headgear_Schematic_1"
+        },
+        {
+          "slug": "Hallowed_Headgear_Schematic_2",
+          "name": "Hallowed_Headgear_Schematic_2"
+        },
+        {
+          "slug": "Hallowed_Headgear_Schematic_3",
+          "name": "Hallowed_Headgear_Schematic_3"
+        },
+        {
+          "slug": "Hallowed_Headgear_Schematic_4",
+          "name": "Hallowed_Headgear_Schematic_4"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail_Schematic",
+          "name": "Hallowed_Plate_Mail_Schematic"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail_Schematic_1",
+          "name": "Hallowed_Plate_Mail_Schematic_1"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail_Schematic_2",
+          "name": "Hallowed_Plate_Mail_Schematic_2"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail_Schematic_3",
+          "name": "Hallowed_Plate_Mail_Schematic_3"
+        },
+        {
+          "slug": "Hallowed_Plate_Mail_Schematic_4",
+          "name": "Hallowed_Plate_Mail_Schematic_4"
+        },
+        {
+          "slug": "Hallowed_Helmet_Schematic",
+          "name": "Hallowed_Helmet_Schematic"
+        },
+        {
+          "slug": "Hallowed_Helmet_Schematic_1",
+          "name": "Hallowed_Helmet_Schematic_1"
+        },
+        {
+          "slug": "Hallowed_Helmet_Schematic_2",
+          "name": "Hallowed_Helmet_Schematic_2"
+        },
+        {
+          "slug": "Hallowed_Helmet_Schematic_3",
+          "name": "Hallowed_Helmet_Schematic_3"
+        },
+        {
+          "slug": "Hallowed_Helmet_Schematic_4",
+          "name": "Hallowed_Helmet_Schematic_4"
+        },
+        {
+          "slug": "Hallowed_Hood_Schematic",
+          "name": "Hallowed_Hood_Schematic"
+        },
+        {
+          "slug": "Hallowed_Hood_Schematic_1",
+          "name": "Hallowed_Hood_Schematic_1"
+        },
+        {
+          "slug": "Hallowed_Hood_Schematic_2",
+          "name": "Hallowed_Hood_Schematic_2"
+        },
+        {
+          "slug": "Hallowed_Hood_Schematic_3",
+          "name": "Hallowed_Hood_Schematic_3"
+        },
+        {
+          "slug": "Hallowed_Hood_Schematic_4",
+          "name": "Hallowed_Hood_Schematic_4"
+        },
+        {
+          "slug": "Celestial_Sigil_Schematic",
+          "name": "Celestial_Sigil_Schematic"
+        },
+        {
+          "slug": "Meteor_Launcher_Schematic_4",
+          "name": "Meteor_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Moon_Lord_Statue_Schematic",
+          "name": "Moon_Lord_Statue_Schematic"
+        },
+        {
+          "slug": "Hartalis_Slab_Fragment",
+          "name": "Hartalis_Slab_Fragment"
+        },
+        {
+          "slug": "Marksman_Revolver_Schematic_4",
+          "name": "Marksman_Revolver_Schematic_4"
+        },
+        {
+          "slug": "Core_Eject_Shotgun_Schematic_4",
+          "name": "Core_Eject_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "V1_Armor_Schematic_4",
+          "name": "V1_Armor_Schematic_4"
+        },
+        {
+          "slug": "V2_Armor_Schematic_4",
+          "name": "V2_Armor_Schematic_4"
+        },
+        {
+          "slug": "Mechanical_Bow_Schematic_1",
+          "name": "Mechanical_Bow_Schematic_1"
+        },
+        {
+          "slug": "Mechanical_Bow_Schematic_2",
+          "name": "Mechanical_Bow_Schematic_2"
+        },
+        {
+          "slug": "Mechanical_Bow_Schematic_3",
+          "name": "Mechanical_Bow_Schematic_3"
+        },
+        {
+          "slug": "Mechanical_Bow_Schematic_4",
+          "name": "Mechanical_Bow_Schematic_4"
+        },
+        {
+          "slug": "Combat_SMG_Schematic_1",
+          "name": "Combat_SMG_Schematic_1"
+        },
+        {
+          "slug": "Combat_SMG_Schematic_2",
+          "name": "Combat_SMG_Schematic_2"
+        },
+        {
+          "slug": "Combat_SMG_Schematic_3",
+          "name": "Combat_SMG_Schematic_3"
+        },
+        {
+          "slug": "Combat_SMG_Schematic_4",
+          "name": "Combat_SMG_Schematic_4"
+        },
+        {
+          "slug": "Prototype_Shotgun_Schematic_1",
+          "name": "Prototype_Shotgun_Schematic_1"
+        },
+        {
+          "slug": "Prototype_Shotgun_Schematic_2",
+          "name": "Prototype_Shotgun_Schematic_2"
+        },
+        {
+          "slug": "Prototype_Shotgun_Schematic_3",
+          "name": "Prototype_Shotgun_Schematic_3"
+        },
+        {
+          "slug": "Prototype_Shotgun_Schematic_4",
+          "name": "Prototype_Shotgun_Schematic_4"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle_Schematic_1",
+          "name": "Heavy_Assault_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle_Schematic_2",
+          "name": "Heavy_Assault_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle_Schematic_3",
+          "name": "Heavy_Assault_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Heavy_Assault_Rifle_Schematic_4",
+          "name": "Heavy_Assault_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher_Schematic_1",
+          "name": "Tactical_Grenade_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher_Schematic_2",
+          "name": "Tactical_Grenade_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher_Schematic_3",
+          "name": "Tactical_Grenade_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Tactical_Grenade_Launcher_Schematic_4",
+          "name": "Tactical_Grenade_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Laser_Sword_Schematic_1",
+          "name": "Laser_Sword_Schematic_1"
+        },
+        {
+          "slug": "Laser_Sword_Schematic_2",
+          "name": "Laser_Sword_Schematic_2"
+        },
+        {
+          "slug": "Laser_Sword_Schematic_3",
+          "name": "Laser_Sword_Schematic_3"
+        },
+        {
+          "slug": "Laser_Sword_Schematic_4",
+          "name": "Laser_Sword_Schematic_4"
+        },
+        {
+          "slug": "Beam_Scatter_Schematic_1",
+          "name": "Beam_Scatter_Schematic_1"
+        },
+        {
+          "slug": "Beam_Scatter_Schematic_2",
+          "name": "Beam_Scatter_Schematic_2"
+        },
+        {
+          "slug": "Beam_Scatter_Schematic_3",
+          "name": "Beam_Scatter_Schematic_3"
+        },
+        {
+          "slug": "Beam_Scatter_Schematic_4",
+          "name": "Beam_Scatter_Schematic_4"
+        },
+        {
+          "slug": "Drone_Launcher_Schematic_1",
+          "name": "Drone_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Drone_Launcher_Schematic_2",
+          "name": "Drone_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Drone_Launcher_Schematic_3",
+          "name": "Drone_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Drone_Launcher_Schematic_4",
+          "name": "Drone_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Plasma_Rifle_Schematic_1",
+          "name": "Plasma_Rifle_Schematic_1"
+        },
+        {
+          "slug": "Plasma_Rifle_Schematic_2",
+          "name": "Plasma_Rifle_Schematic_2"
+        },
+        {
+          "slug": "Plasma_Rifle_Schematic_3",
+          "name": "Plasma_Rifle_Schematic_3"
+        },
+        {
+          "slug": "Plasma_Rifle_Schematic_4",
+          "name": "Plasma_Rifle_Schematic_4"
+        },
+        {
+          "slug": "Beam_Launcher_Schematic_1",
+          "name": "Beam_Launcher_Schematic_1"
+        },
+        {
+          "slug": "Beam_Launcher_Schematic_2",
+          "name": "Beam_Launcher_Schematic_2"
+        },
+        {
+          "slug": "Beam_Launcher_Schematic_3",
+          "name": "Beam_Launcher_Schematic_3"
+        },
+        {
+          "slug": "Beam_Launcher_Schematic_4",
+          "name": "Beam_Launcher_Schematic_4"
+        },
+        {
+          "slug": "Sword_Schematic_1",
+          "name": "Sword_Schematic_1"
+        },
+        {
+          "slug": "Sword_Schematic_2",
+          "name": "Sword_Schematic_2"
+        },
+        {
+          "slug": "Sword_Schematic_3",
+          "name": "Sword_Schematic_3"
+        },
+        {
+          "slug": "Sword_Schematic_4",
+          "name": "Sword_Schematic_4"
+        },
+        {
+          "slug": "Katana_Schematic_1",
+          "name": "Katana_Schematic_1"
+        },
+        {
+          "slug": "Katana_Schematic_2",
+          "name": "Katana_Schematic_2"
+        },
+        {
+          "slug": "Katana_Schematic_3",
+          "name": "Katana_Schematic_3"
+        },
+        {
+          "slug": "Katana_Schematic_4",
+          "name": "Katana_Schematic_4"
+        },
+        {
+          "slug": "Beam_Sword_Schematic_1",
+          "name": "Beam_Sword_Schematic_1"
+        },
+        {
+          "slug": "Beam_Sword_Schematic_2",
+          "name": "Beam_Sword_Schematic_2"
+        },
+        {
+          "slug": "Beam_Sword_Schematic_3",
+          "name": "Beam_Sword_Schematic_3"
+        },
+        {
+          "slug": "Beam_Sword_Schematic_4",
+          "name": "Beam_Sword_Schematic_4"
+        },
+        {
+          "slug": "Lilys_Spear_Schematic_4",
+          "name": "Lilys_Spear_Schematic_4"
+        },
+        {
+          "slug": "Ancient_Helm_Schematic_1",
+          "name": "Ancient_Helm_Schematic_1"
+        },
+        {
+          "slug": "Ancient_Helm_Schematic_2",
+          "name": "Ancient_Helm_Schematic_2"
+        },
+        {
+          "slug": "Ancient_Helm_Schematic_3",
+          "name": "Ancient_Helm_Schematic_3"
+        },
+        {
+          "slug": "Ancient_Helm_Schematic_4",
+          "name": "Ancient_Helm_Schematic_4"
+        },
+        {
+          "slug": "Ancient_Armor_Schematic_1",
+          "name": "Ancient_Armor_Schematic_1"
+        },
+        {
+          "slug": "Ancient_Armor_Schematic_2",
+          "name": "Ancient_Armor_Schematic_2"
+        },
+        {
+          "slug": "Ancient_Armor_Schematic_3",
+          "name": "Ancient_Armor_Schematic_3"
+        },
+        {
+          "slug": "Ancient_Armor_Schematic_4",
+          "name": "Ancient_Armor_Schematic_4"
+        },
+        {
+          "slug": "Heat-Resistant_Ancient_Armor_Schematic_1",
+          "name": "Heat-Resistant_Ancient_Armor_Schematic_1"
+        },
+        {
+          "slug": "Heat-Resistant_Ancient_Armor_Schematic_2",
+          "name": "Heat-Resistant_Ancient_Armor_Schematic_2"
+        },
+        {
+          "slug": "Heat-Resistant_Ancient_Armor_Schematic_3",
+          "name": "Heat-Resistant_Ancient_Armor_Schematic_3"
+        },
+        {
+          "slug": "Heat-Resistant_Ancient_Armor_Schematic_4",
+          "name": "Heat-Resistant_Ancient_Armor_Schematic_4"
+        },
+        {
+          "slug": "Cold-Resistant_Ancient_Armor_Schematic_1",
+          "name": "Cold-Resistant_Ancient_Armor_Schematic_1"
+        },
+        {
+          "slug": "Cold-Resistant_Ancient_Armor_Schematic_2",
+          "name": "Cold-Resistant_Ancient_Armor_Schematic_2"
+        },
+        {
+          "slug": "Cold-Resistant_Ancient_Armor_Schematic_3",
+          "name": "Cold-Resistant_Ancient_Armor_Schematic_3"
+        },
+        {
+          "slug": "Cold-Resistant_Ancient_Armor_Schematic_4",
+          "name": "Cold-Resistant_Ancient_Armor_Schematic_4"
+        },
+        {
+          "slug": "Lightweight_Ancient_Armor_Schematic_1",
+          "name": "Lightweight_Ancient_Armor_Schematic_1"
+        },
+        {
+          "slug": "Lightweight_Ancient_Armor_Schematic_2",
+          "name": "Lightweight_Ancient_Armor_Schematic_2"
+        },
+        {
+          "slug": "Lightweight_Ancient_Armor_Schematic_3",
+          "name": "Lightweight_Ancient_Armor_Schematic_3"
+        },
+        {
+          "slug": "Lightweight_Ancient_Armor_Schematic_4",
+          "name": "Lightweight_Ancient_Armor_Schematic_4"
+        },
+        {
+          "slug": "Life_Pendant_Schematic",
+          "name": "Life_Pendant_Schematic"
+        },
+        {
+          "slug": "Attack_Pendant_Schematic",
+          "name": "Attack_Pendant_Schematic"
+        },
+        {
+          "slug": "Defense_Pendant_Schematic",
+          "name": "Defense_Pendant_Schematic"
+        },
+        {
+          "slug": "Pendant_of_Diligence_Schematic",
+          "name": "Pendant_of_Diligence_Schematic"
+        },
+        {
+          "slug": "Heat-Resistant_Undershirt_Schematic",
+          "name": "Heat-Resistant_Undershirt_Schematic"
+        },
+        {
+          "slug": "Thermal_Undershirt_Schematic",
+          "name": "Thermal_Undershirt_Schematic"
+        },
+        {
+          "slug": "Ring_of_Neutral_Resistance_Schematic",
+          "name": "Ring_of_Neutral_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Fire_Resistance_Schematic",
+          "name": "Ring_of_Fire_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Water_Resistance_Schematic",
+          "name": "Ring_of_Water_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Electric_Resistance_Schematic",
+          "name": "Ring_of_Electric_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Grass_Resistance_Schematic",
+          "name": "Ring_of_Grass_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Ice_Resistance_Schematic",
+          "name": "Ring_of_Ice_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Ground_Resistance_Schematic",
+          "name": "Ring_of_Ground_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Dark_Resistance_Schematic",
+          "name": "Ring_of_Dark_Resistance_Schematic"
+        },
+        {
+          "slug": "Ring_of_Dragon_Resistance_Schematic",
+          "name": "Ring_of_Dragon_Resistance_Schematic"
+        },
+        {
+          "slug": "Multiclimate_Undershirt_Schematic",
+          "name": "Multiclimate_Undershirt_Schematic"
+        },
+        {
+          "slug": "Ring_of_Freight_Schematic",
+          "name": "Ring_of_Freight_Schematic"
+        },
+        {
+          "slug": "Neutral_Support_Whistle_Schematic",
+          "name": "Neutral_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Fire_Support_Whistle_Schematic",
+          "name": "Fire_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Water_Support_Whistle_Schematic",
+          "name": "Water_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Electric_Support_Whistle_Schematic",
+          "name": "Electric_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Grass_Support_Whistle_Schematic",
+          "name": "Grass_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Ice_Support_Whistle_Schematic",
+          "name": "Ice_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Ground_Support_Whistle_Schematic",
+          "name": "Ground_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Dark_Support_Whistle_Schematic",
+          "name": "Dark_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Dragon_Support_Whistle_Schematic",
+          "name": "Dragon_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Attack_Support_Whistle_Schematic",
+          "name": "Attack_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Defense_Support_Whistle_Schematic",
+          "name": "Defense_Support_Whistle_Schematic"
+        },
+        {
+          "slug": "Growth_Acceleration_Bell_Schematic",
+          "name": "Growth_Acceleration_Bell_Schematic"
+        },
+        {
+          "slug": "Dogen_Emblem_Schematic",
+          "name": "Dogen_Emblem_Schematic"
+        },
+        {
+          "slug": "Silvegis_Emblem_Schematic",
+          "name": "Silvegis_Emblem_Schematic"
+        },
+        {
+          "slug": "Wandering_Merchant_Charm_Schematic",
+          "name": "Wandering_Merchant_Charm_Schematic"
+        },
+        {
+          "slug": "Vanguard_Charm_Schematic",
+          "name": "Vanguard_Charm_Schematic"
+        },
+        {
+          "slug": "Warsect_Terras_Belt_Schematic",
+          "name": "Warsect_Terras_Belt_Schematic"
+        },
+        {
+          "slug": "Islanders_Tool_Belt_Schematic",
+          "name": "Islanders_Tool_Belt_Schematic"
+        },
+        {
+          "slug": "Celestial_Emperors_Baton_Schematic",
+          "name": "Celestial_Emperors_Baton_Schematic"
+        },
+        {
+          "slug": "Flame_Emperors_Baton_Schematic",
+          "name": "Flame_Emperors_Baton_Schematic"
+        },
+        {
+          "slug": "Lord_of_the_Seas_Baton_Schematic",
+          "name": "Lord_of_the_Seas_Baton_Schematic"
+        },
+        {
+          "slug": "Lord_of_Lightnings_Baton_Schematic",
+          "name": "Lord_of_Lightnings_Baton_Schematic"
+        },
+        {
+          "slug": "Spirit_Emperors_Baton_Schematic",
+          "name": "Spirit_Emperors_Baton_Schematic"
+        },
+        {
+          "slug": "Ice_Emperors_Baton_Schematic",
+          "name": "Ice_Emperors_Baton_Schematic"
+        },
+        {
+          "slug": "Earth_Emperors_Baton_Schematic",
+          "name": "Earth_Emperors_Baton_Schematic"
+        },
+        {
+          "slug": "Lord_of_the_Underworlds_Baton_Schematic",
+          "name": "Lord_of_the_Underworlds_Baton_Schematic"
+        },
+        {
+          "slug": "Divine_Dragons_Baton_Schematic",
+          "name": "Divine_Dragons_Baton_Schematic"
+        },
+        {
+          "slug": "Pal_Tamers_Glasses_Schematic",
+          "name": "Pal_Tamers_Glasses_Schematic"
+        },
+        {
+          "slug": "Air_Walker_Mk_I_Schematic",
+          "name": "Air_Walker_Mk_I_Schematic"
+        },
+        {
+          "slug": "Air_Walker_Mk_II_Schematic",
+          "name": "Air_Walker_Mk_II_Schematic"
+        },
+        {
+          "slug": "Air_Walker_Mk_III_Schematic",
+          "name": "Air_Walker_Mk_III_Schematic"
+        },
+        {
+          "slug": "Air_Walker_EX_Schematic",
+          "name": "Air_Walker_EX_Schematic"
+        },
+        {
+          "slug": "Hartaliss_Talisman_Schematic",
+          "name": "Hartaliss_Talisman_Schematic"
+        },
+        {
+          "slug": "Blazamuts_Talisman_Schematic",
+          "name": "Blazamuts_Talisman_Schematic"
+        },
+        {
+          "slug": "Neptiliuss_Talisman_Schematic",
+          "name": "Neptiliuss_Talisman_Schematic"
+        },
+        {
+          "slug": "Orserks_Talisman_Schematic",
+          "name": "Orserks_Talisman_Schematic"
+        },
+        {
+          "slug": "Lyleens_Talisman_Schematic",
+          "name": "Lyleens_Talisman_Schematic"
+        },
+        {
+          "slug": "Frostallions_Talisman_Schematic",
+          "name": "Frostallions_Talisman_Schematic"
+        },
+        {
+          "slug": "Anubiss_Talisman_Schematic",
+          "name": "Anubiss_Talisman_Schematic"
+        },
+        {
+          "slug": "Lyleen_Nocts_Talisman_Schematic",
+          "name": "Lyleen_Nocts_Talisman_Schematic"
+        },
+        {
+          "slug": "Reptyro_Charm_Schematic",
+          "name": "Reptyro_Charm_Schematic"
+        },
+        {
+          "slug": "Wumpo_Charm_Schematic",
+          "name": "Wumpo_Charm_Schematic"
+        },
+        {
+          "slug": "Blazehowl_Ring_Schematic",
+          "name": "Blazehowl_Ring_Schematic"
+        },
+        {
+          "slug": "Faleris_Aqua_Ring_Schematic",
+          "name": "Faleris_Aqua_Ring_Schematic"
+        },
+        {
+          "slug": "Fenglope_Lux_Ring_Schematic",
+          "name": "Fenglope_Lux_Ring_Schematic"
+        },
+        {
+          "slug": "Menasting_Terra_Ring_Schematic",
+          "name": "Menasting_Terra_Ring_Schematic"
+        },
+        {
+          "slug": "Vaelet_Ring_Schematic",
+          "name": "Vaelet_Ring_Schematic"
+        },
+        {
+          "slug": "Katress_Ring_Schematic",
+          "name": "Katress_Ring_Schematic"
+        },
+        {
+          "slug": "Elphidran_Ring_Schematic",
+          "name": "Elphidran_Ring_Schematic"
+        },
+        {
+          "slug": "Cryolinx_Ring_Schematic",
+          "name": "Cryolinx_Ring_Schematic"
+        },
+        {
+          "slug": "Faleris_Ring_Schematic",
+          "name": "Faleris_Ring_Schematic"
+        },
+        {
+          "slug": "Metal_Bat_Schematic_1",
+          "name": "Metal_Bat_Schematic_1"
+        },
+        {
+          "slug": "Metal_Bat_Schematic_2",
+          "name": "Metal_Bat_Schematic_2"
+        },
+        {
+          "slug": "Metal_Bat_Schematic_3",
+          "name": "Metal_Bat_Schematic_3"
+        },
+        {
+          "slug": "Metal_Bat_Schematic_4",
+          "name": "Metal_Bat_Schematic_4"
+        },
+        {
+          "slug": "Enhanced_Lilys_Spear_Schematic_4",
+          "name": "Enhanced_Lilys_Spear_Schematic_4"
+        },
+        {
+          "slug": "Ring_of_Trust_Schematic",
+          "name": "Ring_of_Trust_Schematic"
+        },
+        {
+          "slug": "Phantom_Ring_Schematic",
+          "name": "Phantom_Ring_Schematic"
+        },
+        {
+          "slug": "Jetragons_Talisman_Schematic",
+          "name": "Jetragons_Talisman_Schematic"
+        }
+      ]
+    },
+    {
+      "category": "Skill Fruits",
+      "count": 93,
+      "items": [
+        {
+          "slug": "Skill_Fruit__Power_Shot",
+          "name": "Skill_Fruit__Power_Shot"
+        },
+        {
+          "slug": "Skill_Fruit__Power_Bomb",
+          "name": "Skill_Fruit__Power_Bomb"
+        },
+        {
+          "slug": "Skill_Fruit__Pal_Blast",
+          "name": "Skill_Fruit__Pal_Blast"
+        },
+        {
+          "slug": "Skill_Fruit__Air_Cannon",
+          "name": "Skill_Fruit__Air_Cannon"
+        },
+        {
+          "slug": "Skill_Fruit__Implode",
+          "name": "Skill_Fruit__Implode"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Wind_Cutter",
+          "name": "Grass_Skill_Fruit__Wind_Cutter"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Grass_Tornado",
+          "name": "Grass_Skill_Fruit__Grass_Tornado"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Solar_Blast",
+          "name": "Grass_Skill_Fruit__Solar_Blast"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Seed_Machine_Gun",
+          "name": "Grass_Skill_Fruit__Seed_Machine_Gun"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Spine_Vine",
+          "name": "Grass_Skill_Fruit__Spine_Vine"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Seed_Mine",
+          "name": "Grass_Skill_Fruit__Seed_Mine"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Aqua_Gun",
+          "name": "Water_Skill_Fruit__Aqua_Gun"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Aqua_Burst",
+          "name": "Water_Skill_Fruit__Aqua_Burst"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Hydro_Laser",
+          "name": "Water_Skill_Fruit__Hydro_Laser"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Hydro_Jet",
+          "name": "Water_Skill_Fruit__Hydro_Jet"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Bubble_Blast",
+          "name": "Water_Skill_Fruit__Bubble_Blast"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Acid_Rain",
+          "name": "Water_Skill_Fruit__Acid_Rain"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Ignis_Blast",
+          "name": "Fire_Skill_Fruit__Ignis_Blast"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Ignis_Breath",
+          "name": "Fire_Skill_Fruit__Ignis_Breath"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Fire_Ball",
+          "name": "Fire_Skill_Fruit__Fire_Ball"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Flare_Arrow",
+          "name": "Fire_Skill_Fruit__Flare_Arrow"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Spirit_Fire",
+          "name": "Fire_Skill_Fruit__Spirit_Fire"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Ignis_Rage",
+          "name": "Fire_Skill_Fruit__Ignis_Rage"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Flare_Storm",
+          "name": "Fire_Skill_Fruit__Flare_Storm"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Shockwave",
+          "name": "Electric_Skill_Fruit__Shockwave"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Lightning_Bolt",
+          "name": "Electric_Skill_Fruit__Lightning_Bolt"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Lightning_Streak",
+          "name": "Electric_Skill_Fruit__Lightning_Streak"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Plasma_Funnel",
+          "name": "Electric_Skill_Fruit__Plasma_Funnel"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Spark_Blast",
+          "name": "Electric_Skill_Fruit__Spark_Blast"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Lock-on_Laser",
+          "name": "Electric_Skill_Fruit__Lock-on_Laser"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Electric_Ball",
+          "name": "Electric_Skill_Fruit__Electric_Ball"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Tri-Lightning",
+          "name": "Electric_Skill_Fruit__Tri-Lightning"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Lightning_Strike",
+          "name": "Electric_Skill_Fruit__Lightning_Strike"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Stone_Cannon",
+          "name": "Ground_Skill_Fruit__Stone_Cannon"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Sand_Tornado",
+          "name": "Ground_Skill_Fruit__Sand_Tornado"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Rock_Lance",
+          "name": "Ground_Skill_Fruit__Rock_Lance"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Bog_Blast",
+          "name": "Ground_Skill_Fruit__Bog_Blast"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Stone_Blast",
+          "name": "Ground_Skill_Fruit__Stone_Blast"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Ice_Missile",
+          "name": "Ice_Skill_Fruit__Ice_Missile"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Iceberg",
+          "name": "Ice_Skill_Fruit__Iceberg"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Blizzard_Spike",
+          "name": "Ice_Skill_Fruit__Blizzard_Spike"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Icicle_Cutter",
+          "name": "Ice_Skill_Fruit__Icicle_Cutter"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Crystal_Breath",
+          "name": "Ice_Skill_Fruit__Crystal_Breath"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Shadow_Burst",
+          "name": "Dark_Skill_Fruit__Shadow_Burst"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Nightmare_Ball",
+          "name": "Dark_Skill_Fruit__Nightmare_Ball"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Psycho_Gravity",
+          "name": "Dark_Skill_Fruit__Psycho_Gravity"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Poison_Blast",
+          "name": "Dark_Skill_Fruit__Poison_Blast"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Spirit_Flame",
+          "name": "Dark_Skill_Fruit__Spirit_Flame"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Dark_Laser",
+          "name": "Dark_Skill_Fruit__Dark_Laser"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Dragon_Breath",
+          "name": "Dragon_Skill_Fruit__Dragon_Breath"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Dragon_Cannon",
+          "name": "Dragon_Skill_Fruit__Dragon_Cannon"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Dragon_Burst",
+          "name": "Dragon_Skill_Fruit__Dragon_Burst"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Dragon_Meteor",
+          "name": "Dragon_Skill_Fruit__Dragon_Meteor"
+        },
+        {
+          "slug": "Skill_Fruit__Air_Blade",
+          "name": "Skill_Fruit__Air_Blade"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Circle_Vine",
+          "name": "Grass_Skill_Fruit__Circle_Vine"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Multicutter",
+          "name": "Grass_Skill_Fruit__Multicutter"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Splash",
+          "name": "Water_Skill_Fruit__Splash"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Curtain_Splash",
+          "name": "Water_Skill_Fruit__Curtain_Splash"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Flame_Wall",
+          "name": "Fire_Skill_Fruit__Flame_Wall"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Volcanic_Rain",
+          "name": "Fire_Skill_Fruit__Volcanic_Rain"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__TriSpark",
+          "name": "Electric_Skill_Fruit__TriSpark"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Thunder_Rain",
+          "name": "Electric_Skill_Fruit__Thunder_Rain"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Thunderstorm",
+          "name": "Electric_Skill_Fruit__Thunderstorm"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Rockburst",
+          "name": "Ground_Skill_Fruit__Rockburst"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Sand_Twister",
+          "name": "Ground_Skill_Fruit__Sand_Twister"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Icicle_Line",
+          "name": "Ice_Skill_Fruit__Icicle_Line"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Diamond_Rain",
+          "name": "Ice_Skill_Fruit__Diamond_Rain"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Dark_Cannon",
+          "name": "Dark_Skill_Fruit__Dark_Cannon"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Dark_Arrow",
+          "name": "Dark_Skill_Fruit__Dark_Arrow"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Umbral_Surge",
+          "name": "Dark_Skill_Fruit__Umbral_Surge"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Apocalypse",
+          "name": "Dark_Skill_Fruit__Apocalypse"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Beam_Slicer",
+          "name": "Dragon_Skill_Fruit__Beam_Slicer"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Comet",
+          "name": "Dragon_Skill_Fruit__Comet"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Blast_Cannon",
+          "name": "Dragon_Skill_Fruit__Blast_Cannon"
+        },
+        {
+          "slug": "Skill_Fruit__Holy_Burst",
+          "name": "Skill_Fruit__Holy_Burst"
+        },
+        {
+          "slug": "Fire_Skill_Fruit__Flame_Funnel",
+          "name": "Fire_Skill_Fruit__Flame_Funnel"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Freeze_Wall",
+          "name": "Ice_Skill_Fruit__Freeze_Wall"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Reflect_Leaf",
+          "name": "Grass_Skill_Fruit__Reflect_Leaf"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Torrential_Blast",
+          "name": "Water_Skill_Fruit__Torrential_Blast"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Hydro_Slicer",
+          "name": "Water_Skill_Fruit__Hydro_Slicer"
+        },
+        {
+          "slug": "Ground_Skill_Fruit__Rocky_Impact",
+          "name": "Ground_Skill_Fruit__Rocky_Impact"
+        },
+        {
+          "slug": "Electric_Skill_Fruit__Thunder_Spear",
+          "name": "Electric_Skill_Fruit__Thunder_Spear"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Dark_Shot",
+          "name": "Dark_Skill_Fruit__Dark_Shot"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Dark_Whisp",
+          "name": "Dark_Skill_Fruit__Dark_Whisp"
+        },
+        {
+          "slug": "Dragon_Skill_Fruit__Charge_Cannon",
+          "name": "Dragon_Skill_Fruit__Charge_Cannon"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Icicle_Bullet",
+          "name": "Ice_Skill_Fruit__Icicle_Bullet"
+        },
+        {
+          "slug": "Thunder_Skill_Fruit__All_Range_Thunder",
+          "name": "Thunder_Skill_Fruit__All_Range_Thunder"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Aqua_Surge",
+          "name": "Water_Skill_Fruit__Aqua_Surge"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Crosswind",
+          "name": "Grass_Skill_Fruit__Crosswind"
+        },
+        {
+          "slug": "Ice_Skill_Fruit__Absolute_Frost",
+          "name": "Ice_Skill_Fruit__Absolute_Frost"
+        },
+        {
+          "slug": "Grass_Skill_Fruit__Wind_Blast",
+          "name": "Grass_Skill_Fruit__Wind_Blast"
+        },
+        {
+          "slug": "Dark_Skill_Fruit__Poison_Shower",
+          "name": "Dark_Skill_Fruit__Poison_Shower"
+        },
+        {
+          "slug": "Water_Skill_Fruit__Geyser_Gush",
+          "name": "Water_Skill_Fruit__Geyser_Gush"
+        }
+      ]
+    },
+    {
+      "category": "Enhancement Items",
+      "count": 40,
+      "items": [
+        {
+          "slug": "Advanced_Technical_Manual",
+          "name": "Advanced_Technical_Manual"
+        },
+        {
+          "slug": "Innovative_Technical_Manual",
+          "name": "Innovative_Technical_Manual"
+        },
+        {
+          "slug": "Futuristic_Technical_Manual",
+          "name": "Futuristic_Technical_Manual"
+        },
+        {
+          "slug": "Ancient_Technical_Manual",
+          "name": "Ancient_Technical_Manual"
+        },
+        {
+          "slug": "Vital_Remedy",
+          "name": "Vital_Remedy"
+        },
+        {
+          "slug": "Stamina_Remedy",
+          "name": "Stamina_Remedy"
+        },
+        {
+          "slug": "Might_Remedy",
+          "name": "Might_Remedy"
+        },
+        {
+          "slug": "Speed_Remedy",
+          "name": "Speed_Remedy"
+        },
+        {
+          "slug": "Burden_Remedy",
+          "name": "Burden_Remedy"
+        },
+        {
+          "slug": "Vital_Elixir",
+          "name": "Vital_Elixir"
+        },
+        {
+          "slug": "Stamina_Elixir",
+          "name": "Stamina_Elixir"
+        },
+        {
+          "slug": "Might_Elixir",
+          "name": "Might_Elixir"
+        },
+        {
+          "slug": "Speed_Elixir",
+          "name": "Speed_Elixir"
+        },
+        {
+          "slug": "Burden_Elixir",
+          "name": "Burden_Elixir"
+        },
+        {
+          "slug": "Training_Crystal",
+          "name": "Training_Crystal"
+        },
+        {
+          "slug": "Life_Fruit",
+          "name": "Life_Fruit"
+        },
+        {
+          "slug": "Power_Fruit",
+          "name": "Power_Fruit"
+        },
+        {
+          "slug": "Stout_Fruit",
+          "name": "Stout_Fruit"
+        },
+        {
+          "slug": "Ripe_Starfruit",
+          "name": "Ripe_Starfruit"
+        },
+        {
+          "slug": "Applied_Kindling_Handbook_I",
+          "name": "Applied_Kindling_Handbook_I"
+        },
+        {
+          "slug": "Applied_Watering_Handbook_I",
+          "name": "Applied_Watering_Handbook_I"
+        },
+        {
+          "slug": "Applied_Planting_Handbook_I",
+          "name": "Applied_Planting_Handbook_I"
+        },
+        {
+          "slug": "Applied_Generating_Electricity_Handbook_I",
+          "name": "Applied_Generating_Electricity_Handbook_I"
+        },
+        {
+          "slug": "Applied_Handiwork_Handbook_I",
+          "name": "Applied_Handiwork_Handbook_I"
+        },
+        {
+          "slug": "Applied_Gathering_Handbook_I",
+          "name": "Applied_Gathering_Handbook_I"
+        },
+        {
+          "slug": "Applied_Lumbering_Handbook_I",
+          "name": "Applied_Lumbering_Handbook_I"
+        },
+        {
+          "slug": "Applied_Mining_Handbook_I",
+          "name": "Applied_Mining_Handbook_I"
+        },
+        {
+          "slug": "Applied_Medicine_Production_Handbook_I",
+          "name": "Applied_Medicine_Production_Handbook_I"
+        },
+        {
+          "slug": "Applied_Cooling_Handbook_I",
+          "name": "Applied_Cooling_Handbook_I"
+        },
+        {
+          "slug": "Applied_Transporting_Handbook_I",
+          "name": "Applied_Transporting_Handbook_I"
+        },
+        {
+          "slug": "Applied_Ranching_Handbook_I",
+          "name": "Applied_Ranching_Handbook_I"
+        },
+        {
+          "slug": "Water_Awakening_Crystal",
+          "name": "Water_Awakening_Crystal"
+        },
+        {
+          "slug": "Electric_Awakening_Crystal",
+          "name": "Electric_Awakening_Crystal"
+        },
+        {
+          "slug": "Ground_Awakening_Crystal",
+          "name": "Ground_Awakening_Crystal"
+        },
+        {
+          "slug": "Grass_Awakening_Crystal",
+          "name": "Grass_Awakening_Crystal"
+        },
+        {
+          "slug": "Fire_Awakening_Crystal",
+          "name": "Fire_Awakening_Crystal"
+        },
+        {
+          "slug": "Ice_Awakening_Crystal",
+          "name": "Ice_Awakening_Crystal"
+        },
+        {
+          "slug": "Dragon_Awakening_Crystal",
+          "name": "Dragon_Awakening_Crystal"
+        },
+        {
+          "slug": "Dark_Awakening_Crystal",
+          "name": "Dark_Awakening_Crystal"
+        },
+        {
+          "slug": "Neutral_Awakening_Crystal",
+          "name": "Neutral_Awakening_Crystal"
+        }
+      ]
+    },
+    {
+      "category": "Other Consumables",
+      "count": 56,
+      "items": [
+        {
+          "slug": "Low_Grade_Medical_Supplies",
+          "name": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "slug": "Medical_Supplies",
+          "name": "Medical_Supplies"
+        },
+        {
+          "slug": "High_Grade_Medical_Supplies",
+          "name": "High_Grade_Medical_Supplies"
+        },
+        {
+          "slug": "Mind_Control_Meds",
+          "name": "Mind_Control_Meds"
+        },
+        {
+          "slug": "Suspicious_Juice",
+          "name": "Suspicious_Juice"
+        },
+        {
+          "slug": "Strange_Juice",
+          "name": "Strange_Juice"
+        },
+        {
+          "slug": "Memory_Wiping_Medicine",
+          "name": "Memory_Wiping_Medicine"
+        },
+        {
+          "slug": "Copper_Key",
+          "name": "Copper_Key"
+        },
+        {
+          "slug": "Silver_Key",
+          "name": "Silver_Key"
+        },
+        {
+          "slug": "Gold_Key",
+          "name": "Gold_Key"
+        },
+        {
+          "slug": "Bellanoirs_Slab",
+          "name": "Bellanoirs_Slab"
+        },
+        {
+          "slug": "Bellanoir_Liberos_Slab",
+          "name": "Bellanoir_Liberos_Slab"
+        },
+        {
+          "slug": "Low_Quality_Recovery_Meds",
+          "name": "Low_Quality_Recovery_Meds"
+        },
+        {
+          "slug": "Recovery_Meds",
+          "name": "Recovery_Meds"
+        },
+        {
+          "slug": "High_Quality_Recovery_Meds",
+          "name": "High_Quality_Recovery_Meds"
+        },
+        {
+          "slug": "Homeward_Thundercloud",
+          "name": "Homeward_Thundercloud"
+        },
+        {
+          "slug": "Blazamut_Ryu_Slab",
+          "name": "Blazamut_Ryu_Slab"
+        },
+        {
+          "slug": "Mysterious_Mushroom_Juice",
+          "name": "Mysterious_Mushroom_Juice"
+        },
+        {
+          "slug": "Xenolord_Slab",
+          "name": "Xenolord_Slab"
+        },
+        {
+          "slug": "Revival_Potion",
+          "name": "Revival_Potion"
+        },
+        {
+          "slug": "Advanced_Recovery_Meds",
+          "name": "Advanced_Recovery_Meds"
+        },
+        {
+          "slug": "Celestial_Sigil",
+          "name": "Celestial_Sigil"
+        },
+        {
+          "slug": "Powerful_Fishing_Magnet",
+          "name": "Powerful_Fishing_Magnet"
+        },
+        {
+          "slug": "Pal_Reverser",
+          "name": "Pal_Reverser"
+        },
+        {
+          "slug": "Treasure_Map",
+          "name": "Treasure_Map"
+        },
+        {
+          "slug": "Simple_Bait",
+          "name": "Simple_Bait"
+        },
+        {
+          "slug": "High_Quality_Bait",
+          "name": "High_Quality_Bait"
+        },
+        {
+          "slug": "Deluxe_Bait",
+          "name": "Deluxe_Bait"
+        },
+        {
+          "slug": "Alluring_Bait",
+          "name": "Alluring_Bait"
+        },
+        {
+          "slug": "Kinship_Peach",
+          "name": "Kinship_Peach"
+        },
+        {
+          "slug": "Nutrient_Tonic",
+          "name": "Nutrient_Tonic"
+        },
+        {
+          "slug": "Little_Kinship_Peach",
+          "name": "Little_Kinship_Peach"
+        },
+        {
+          "slug": "Hartalis_Slab",
+          "name": "Hartalis_Slab"
+        },
+        {
+          "slug": "Disposable_Implant__Double-Edged_Holy_Sword",
+          "name": "Disposable_Implant__Double-Edged_Holy_Sword"
+        },
+        {
+          "slug": "Disposable_Implant__Sacred_Flesh",
+          "name": "Disposable_Implant__Sacred_Flesh"
+        },
+        {
+          "slug": "Disposable_Implant__Demonic_Grasp",
+          "name": "Disposable_Implant__Demonic_Grasp"
+        },
+        {
+          "slug": "Disposable_Implant__World_Trees_Bounty",
+          "name": "Disposable_Implant__World_Trees_Bounty"
+        },
+        {
+          "slug": "Disposable_Implant__Hermit",
+          "name": "Disposable_Implant__Hermit"
+        },
+        {
+          "slug": "Disposable_Implant__Dimensional_Leap",
+          "name": "Disposable_Implant__Dimensional_Leap"
+        },
+        {
+          "slug": "Disposable_Implant__God_of_Destruction",
+          "name": "Disposable_Implant__God_of_Destruction"
+        },
+        {
+          "slug": "Disposable_Implant__Remarkable_Craftsmanship",
+          "name": "Disposable_Implant__Remarkable_Craftsmanship"
+        },
+        {
+          "slug": "Disposable_Implant__Diamond_Body",
+          "name": "Disposable_Implant__Diamond_Body"
+        },
+        {
+          "slug": "Disposable_Implant__Demon_God",
+          "name": "Disposable_Implant__Demon_God"
+        },
+        {
+          "slug": "Disposable_Implant__Mastery_of_Fasting",
+          "name": "Disposable_Implant__Mastery_of_Fasting"
+        },
+        {
+          "slug": "Disposable_Implant__Heart_of_the_Immovable_King",
+          "name": "Disposable_Implant__Heart_of_the_Immovable_King"
+        },
+        {
+          "slug": "Disposable_Implant__Swift",
+          "name": "Disposable_Implant__Swift"
+        },
+        {
+          "slug": "Disposable_Implant__Eternal_Engine",
+          "name": "Disposable_Implant__Eternal_Engine"
+        },
+        {
+          "slug": "Disposable_Implant__Vampiric",
+          "name": "Disposable_Implant__Vampiric"
+        },
+        {
+          "slug": "Disposable_Implant__King_of_the_Waves",
+          "name": "Disposable_Implant__King_of_the_Waves"
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "name": "World_Tree_Holy_Water"
+        },
+        {
+          "slug": "Wing_Cell",
+          "name": "Wing_Cell"
+        },
+        {
+          "slug": "Disposable_Implant__Babysitter",
+          "name": "Disposable_Implant__Babysitter"
+        },
+        {
+          "slug": "Disposable_Implant__Idiosyncratic",
+          "name": "Disposable_Implant__Idiosyncratic"
+        },
+        {
+          "slug": "Disposable_Implant__Immortality",
+          "name": "Disposable_Implant__Immortality"
+        },
+        {
+          "slug": "Disposable_Implant__Heavily_Armored",
+          "name": "Disposable_Implant__Heavily_Armored"
+        },
+        {
+          "slug": "Disposable_Implant__Skymarcher",
+          "name": "Disposable_Implant__Skymarcher"
+        }
+      ]
+    },
+    {
+      "category": "Key Items",
+      "count": 295,
+      "items": [
+        {
+          "slug": "Lifmunk_Effigy",
+          "name": "Lifmunk_Effigy"
+        },
+        {
+          "slug": "Lifmunks_Submachine_Gun",
+          "name": "Lifmunks_Submachine_Gun"
+        },
+        {
+          "slug": "Direhowls_Saddled_Harness",
+          "name": "Direhowls_Saddled_Harness"
+        },
+        {
+          "slug": "Jormuntide_Ignis_Saddle",
+          "name": "Jormuntide_Ignis_Saddle"
+        },
+        {
+          "slug": "Eikthyrdeer_Terra_Saddle",
+          "name": "Eikthyrdeer_Terra_Saddle"
+        },
+        {
+          "slug": "Jolthog_Crysts_Gloves",
+          "name": "Jolthog_Crysts_Gloves"
+        },
+        {
+          "slug": "Dinossom_Lux_Saddle",
+          "name": "Dinossom_Lux_Saddle"
+        },
+        {
+          "slug": "Mammorest_Cryst_Saddle",
+          "name": "Mammorest_Cryst_Saddle"
+        },
+        {
+          "slug": "Relaxaurus_Luxs_Missile_Launcher",
+          "name": "Relaxaurus_Luxs_Missile_Launcher"
+        },
+        {
+          "slug": "Pyrin_Noct_Saddle",
+          "name": "Pyrin_Noct_Saddle"
+        },
+        {
+          "slug": "Broncherry_Aqua_Saddle",
+          "name": "Broncherry_Aqua_Saddle"
+        },
+        {
+          "slug": "Elphidran_Aqua_Saddle",
+          "name": "Elphidran_Aqua_Saddle"
+        },
+        {
+          "slug": "Blazehowl_Noct_Saddle",
+          "name": "Blazehowl_Noct_Saddle"
+        },
+        {
+          "slug": "Suzaku_Aqua_Saddle",
+          "name": "Suzaku_Aqua_Saddle"
+        },
+        {
+          "slug": "Surfent_Terra_Saddle",
+          "name": "Surfent_Terra_Saddle"
+        },
+        {
+          "slug": "Reptyro_Cryst_Saddle",
+          "name": "Reptyro_Cryst_Saddle"
+        },
+        {
+          "slug": "Frostallion_Noct_Saddle",
+          "name": "Frostallion_Noct_Saddle"
+        },
+        {
+          "slug": "Mossanda_Luxs_Grenade_Launcher",
+          "name": "Mossanda_Luxs_Grenade_Launcher"
+        },
+        {
+          "slug": "Wumpo_Botan_Saddle",
+          "name": "Wumpo_Botan_Saddle"
+        },
+        {
+          "slug": "Kingpaca_Cryst_Saddle",
+          "name": "Kingpaca_Cryst_Saddle"
+        },
+        {
+          "slug": "Vanwyrm_Cryst_Saddle",
+          "name": "Vanwyrm_Cryst_Saddle"
+        },
+        {
+          "slug": "Hangyu_Crysts_Glove",
+          "name": "Hangyu_Crysts_Glove"
+        },
+        {
+          "slug": "Jormuntide_Saddle",
+          "name": "Jormuntide_Saddle"
+        },
+        {
+          "slug": "Eikthyrdeer_Saddle",
+          "name": "Eikthyrdeer_Saddle"
+        },
+        {
+          "slug": "Jolthogs_Gloves",
+          "name": "Jolthogs_Gloves"
+        },
+        {
+          "slug": "Foxparks_Harness",
+          "name": "Foxparks_Harness"
+        },
+        {
+          "slug": "Rushoar_Saddle",
+          "name": "Rushoar_Saddle"
+        },
+        {
+          "slug": "Tanzees_Assault_Rifle",
+          "name": "Tanzees_Assault_Rifle"
+        },
+        {
+          "slug": "Pengullet_Rocket_Launcher",
+          "name": "Pengullet_Rocket_Launcher"
+        },
+        {
+          "slug": "Melpaca_Saddle",
+          "name": "Melpaca_Saddle"
+        },
+        {
+          "slug": "Dinossom_Saddle",
+          "name": "Dinossom_Saddle"
+        },
+        {
+          "slug": "Mammorest_Saddle",
+          "name": "Mammorest_Saddle"
+        },
+        {
+          "slug": "Univolt_Saddle",
+          "name": "Univolt_Saddle"
+        },
+        {
+          "slug": "Grizzbolts_Minigun",
+          "name": "Grizzbolts_Minigun"
+        },
+        {
+          "slug": "Relaxaurus_Missile_Launcher",
+          "name": "Relaxaurus_Missile_Launcher"
+        },
+        {
+          "slug": "Pyrin_Saddle",
+          "name": "Pyrin_Saddle"
+        },
+        {
+          "slug": "Broncherry_Saddle",
+          "name": "Broncherry_Saddle"
+        },
+        {
+          "slug": "Arsox_Saddle",
+          "name": "Arsox_Saddle"
+        },
+        {
+          "slug": "Azurobe_Saddle",
+          "name": "Azurobe_Saddle"
+        },
+        {
+          "slug": "Elphidran_Saddle",
+          "name": "Elphidran_Saddle"
+        },
+        {
+          "slug": "Fenglope_Saddle",
+          "name": "Fenglope_Saddle"
+        },
+        {
+          "slug": "Tocotocos_Gloves",
+          "name": "Tocotocos_Gloves"
+        },
+        {
+          "slug": "Galeclaws_Gloves",
+          "name": "Galeclaws_Gloves"
+        },
+        {
+          "slug": "Killamaris_Gloves",
+          "name": "Killamaris_Gloves"
+        },
+        {
+          "slug": "Celarays_Gloves",
+          "name": "Celarays_Gloves"
+        },
+        {
+          "slug": "Maraith_Saddle",
+          "name": "Maraith_Saddle"
+        },
+        {
+          "slug": "Flopies_Necklace",
+          "name": "Flopies_Necklace"
+        },
+        {
+          "slug": "Blazehowl_Saddle",
+          "name": "Blazehowl_Saddle"
+        },
+        {
+          "slug": "Suzaku_Saddle",
+          "name": "Suzaku_Saddle"
+        },
+        {
+          "slug": "Surfent_Saddle",
+          "name": "Surfent_Saddle"
+        },
+        {
+          "slug": "Dazzis_Necklace",
+          "name": "Dazzis_Necklace"
+        },
+        {
+          "slug": "Reptyro_Saddle",
+          "name": "Reptyro_Saddle"
+        },
+        {
+          "slug": "Kitsun_Saddle",
+          "name": "Kitsun_Saddle"
+        },
+        {
+          "slug": "Daedreams_Necklace",
+          "name": "Daedreams_Necklace"
+        },
+        {
+          "slug": "Frostallion_Saddle",
+          "name": "Frostallion_Saddle"
+        },
+        {
+          "slug": "Faleris_Saddle",
+          "name": "Faleris_Saddle"
+        },
+        {
+          "slug": "Blazamut_Saddle",
+          "name": "Blazamut_Saddle"
+        },
+        {
+          "slug": "Reindrix_Saddle",
+          "name": "Reindrix_Saddle"
+        },
+        {
+          "slug": "Shadowbeak_Saddle",
+          "name": "Shadowbeak_Saddle"
+        },
+        {
+          "slug": "Yakumo_Saddle",
+          "name": "Yakumo_Saddle"
+        },
+        {
+          "slug": "Astegon_Saddle",
+          "name": "Astegon_Saddle"
+        },
+        {
+          "slug": "Quivern_Saddle",
+          "name": "Quivern_Saddle"
+        },
+        {
+          "slug": "Rayhound_Saddle",
+          "name": "Rayhound_Saddle"
+        },
+        {
+          "slug": "Mossandas_Grenade_Launcher",
+          "name": "Mossandas_Grenade_Launcher"
+        },
+        {
+          "slug": "Wumpo_Saddle",
+          "name": "Wumpo_Saddle"
+        },
+        {
+          "slug": "Nitewing_Saddle",
+          "name": "Nitewing_Saddle"
+        },
+        {
+          "slug": "Jetragons_Missile_Launcher",
+          "name": "Jetragons_Missile_Launcher"
+        },
+        {
+          "slug": "Helzephyr_Saddle",
+          "name": "Helzephyr_Saddle"
+        },
+        {
+          "slug": "Kingpaca_Saddle",
+          "name": "Kingpaca_Saddle"
+        },
+        {
+          "slug": "Paladius_Saddle",
+          "name": "Paladius_Saddle"
+        },
+        {
+          "slug": "Beakon_Saddle",
+          "name": "Beakon_Saddle"
+        },
+        {
+          "slug": "Ragnahawk_Saddle",
+          "name": "Ragnahawk_Saddle"
+        },
+        {
+          "slug": "Necromus_Saddle",
+          "name": "Necromus_Saddle"
+        },
+        {
+          "slug": "Sweepa_Saddle",
+          "name": "Sweepa_Saddle"
+        },
+        {
+          "slug": "Gildane_Saddle",
+          "name": "Gildane_Saddle"
+        },
+        {
+          "slug": "Nyafias_Shotgun",
+          "name": "Nyafias_Shotgun"
+        },
+        {
+          "slug": "Grintale_Saddle",
+          "name": "Grintale_Saddle"
+        },
+        {
+          "slug": "Dazemu_Saddle",
+          "name": "Dazemu_Saddle"
+        },
+        {
+          "slug": "Digtoises_Headband",
+          "name": "Digtoises_Headband"
+        },
+        {
+          "slug": "Vanwyrm_Saddle",
+          "name": "Vanwyrm_Saddle"
+        },
+        {
+          "slug": "Chillet_Saddle",
+          "name": "Chillet_Saddle"
+        },
+        {
+          "slug": "Hangyus_Gloves",
+          "name": "Hangyus_Gloves"
+        },
+        {
+          "slug": "Hip_Lantern",
+          "name": "Hip_Lantern"
+        },
+        {
+          "slug": "Small_Feed_Bag",
+          "name": "Small_Feed_Bag"
+        },
+        {
+          "slug": "Average_Feed_Bag",
+          "name": "Average_Feed_Bag"
+        },
+        {
+          "slug": "Large_Feed_Bag",
+          "name": "Large_Feed_Bag"
+        },
+        {
+          "slug": "Huge_Feed_Bag",
+          "name": "Huge_Feed_Bag"
+        },
+        {
+          "slug": "Giant_Feed_Bag",
+          "name": "Giant_Feed_Bag"
+        },
+        {
+          "slug": "Blazamut_Ryu_Saddle",
+          "name": "Blazamut_Ryu_Saddle"
+        },
+        {
+          "slug": "Helzephyr_Lux_Saddle",
+          "name": "Helzephyr_Lux_Saddle"
+        },
+        {
+          "slug": "Quivern_Botan_Saddle",
+          "name": "Quivern_Botan_Saddle"
+        },
+        {
+          "slug": "Chillet_Ignis_Saddle",
+          "name": "Chillet_Ignis_Saddle"
+        },
+        {
+          "slug": "Mysterious_Accessory_Box",
+          "name": "Mysterious_Accessory_Box"
+        },
+        {
+          "slug": "Mystic_Accessory_Box",
+          "name": "Mystic_Accessory_Box"
+        },
+        {
+          "slug": "Shroomer_Saddle",
+          "name": "Shroomer_Saddle"
+        },
+        {
+          "slug": "Shroomer_Noct_Saddle",
+          "name": "Shroomer_Noct_Saddle"
+        },
+        {
+          "slug": "Selyne_Saddle",
+          "name": "Selyne_Saddle"
+        },
+        {
+          "slug": "Lockpicking_Tool_v1",
+          "name": "Lockpicking_Tool_v1"
+        },
+        {
+          "slug": "Xenogard_Saddle",
+          "name": "Xenogard_Saddle"
+        },
+        {
+          "slug": "Lockpicking_Tool_v2",
+          "name": "Lockpicking_Tool_v2"
+        },
+        {
+          "slug": "Lockpicking_Tool_v3",
+          "name": "Lockpicking_Tool_v3"
+        },
+        {
+          "slug": "Small_Pouch",
+          "name": "Small_Pouch"
+        },
+        {
+          "slug": "Medium_Pouch",
+          "name": "Medium_Pouch"
+        },
+        {
+          "slug": "Large_Pouch",
+          "name": "Large_Pouch"
+        },
+        {
+          "slug": "Giant_Pouch",
+          "name": "Giant_Pouch"
+        },
+        {
+          "slug": "Chillet_Bounty_Token",
+          "name": "Chillet_Bounty_Token"
+        },
+        {
+          "slug": "Sweepa_Bounty_Token",
+          "name": "Sweepa_Bounty_Token"
+        },
+        {
+          "slug": "Gumoss_Bounty_Token",
+          "name": "Gumoss_Bounty_Token"
+        },
+        {
+          "slug": "Dumud_Bounty_Token",
+          "name": "Dumud_Bounty_Token"
+        },
+        {
+          "slug": "Penking_Bounty_Token",
+          "name": "Penking_Bounty_Token"
+        },
+        {
+          "slug": "Azurobe_Bounty_Token",
+          "name": "Azurobe_Bounty_Token"
+        },
+        {
+          "slug": "Grintale_Bounty_Token",
+          "name": "Grintale_Bounty_Token"
+        },
+        {
+          "slug": "Nitewing_Bounty_Token",
+          "name": "Nitewing_Bounty_Token"
+        },
+        {
+          "slug": "Quivern_Bounty_Token",
+          "name": "Quivern_Bounty_Token"
+        },
+        {
+          "slug": "Felbat_Bounty_Token",
+          "name": "Felbat_Bounty_Token"
+        },
+        {
+          "slug": "Kingpaca_Bounty_Token",
+          "name": "Kingpaca_Bounty_Token"
+        },
+        {
+          "slug": "Broncherry_Bounty_Token",
+          "name": "Broncherry_Bounty_Token"
+        },
+        {
+          "slug": "Katress_Bounty_Token",
+          "name": "Katress_Bounty_Token"
+        },
+        {
+          "slug": "Bushi_Bounty_Token",
+          "name": "Bushi_Bounty_Token"
+        },
+        {
+          "slug": "Fenglope_Bounty_Token",
+          "name": "Fenglope_Bounty_Token"
+        },
+        {
+          "slug": "Petallia_Bounty_Token",
+          "name": "Petallia_Bounty_Token"
+        },
+        {
+          "slug": "Beakon_Bounty_Token",
+          "name": "Beakon_Bounty_Token"
+        },
+        {
+          "slug": "Warsect_Bounty_Token",
+          "name": "Warsect_Bounty_Token"
+        },
+        {
+          "slug": "Broncherry_Aqua_Bounty_Token",
+          "name": "Broncherry_Aqua_Bounty_Token"
+        },
+        {
+          "slug": "Elphidran_Bounty_Token",
+          "name": "Elphidran_Bounty_Token"
+        },
+        {
+          "slug": "Relaxaurus_Bounty_Token",
+          "name": "Relaxaurus_Bounty_Token"
+        },
+        {
+          "slug": "Univolt_Bounty_Token",
+          "name": "Univolt_Bounty_Token"
+        },
+        {
+          "slug": "Elizabee_Bounty_Token",
+          "name": "Elizabee_Bounty_Token"
+        },
+        {
+          "slug": "Mossanda_Lux_Bounty_Token",
+          "name": "Mossanda_Lux_Bounty_Token"
+        },
+        {
+          "slug": "Lunaris_Bounty_Token",
+          "name": "Lunaris_Bounty_Token"
+        },
+        {
+          "slug": "Verdash_Bounty_Token",
+          "name": "Verdash_Bounty_Token"
+        },
+        {
+          "slug": "Wumpo_Botan_Bounty_Token",
+          "name": "Wumpo_Botan_Bounty_Token"
+        },
+        {
+          "slug": "Mammorest_Bounty_Token",
+          "name": "Mammorest_Bounty_Token"
+        },
+        {
+          "slug": "Vaelet_Bounty_Token",
+          "name": "Vaelet_Bounty_Token"
+        },
+        {
+          "slug": "Sibelyx_Bounty_Token",
+          "name": "Sibelyx_Bounty_Token"
+        },
+        {
+          "slug": "Menasting_Bounty_Token",
+          "name": "Menasting_Bounty_Token"
+        },
+        {
+          "slug": "Suzaku_Bounty_Token",
+          "name": "Suzaku_Bounty_Token"
+        },
+        {
+          "slug": "Jormuntide_Bounty_Token",
+          "name": "Jormuntide_Bounty_Token"
+        },
+        {
+          "slug": "Ice_Kingpaca_Bounty_Token",
+          "name": "Ice_Kingpaca_Bounty_Token"
+        },
+        {
+          "slug": "Dinossom_Lux_Bounty_Token",
+          "name": "Dinossom_Lux_Bounty_Token"
+        },
+        {
+          "slug": "Anubis_Bounty_Token",
+          "name": "Anubis_Bounty_Token"
+        },
+        {
+          "slug": "Astegon_Bounty_Token",
+          "name": "Astegon_Bounty_Token"
+        },
+        {
+          "slug": "Blazamut_Bounty_Token",
+          "name": "Blazamut_Bounty_Token"
+        },
+        {
+          "slug": "Lyleen_Noct_Bounty_Token",
+          "name": "Lyleen_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Menasting_Terra_Bounty_Token",
+          "name": "Menasting_Terra_Bounty_Token"
+        },
+        {
+          "slug": "Knocklem_Bounty_Token",
+          "name": "Knocklem_Bounty_Token"
+        },
+        {
+          "slug": "Splatterina_Bounty_Token",
+          "name": "Splatterina_Bounty_Token"
+        },
+        {
+          "slug": "Azurmane_Bounty_Token",
+          "name": "Azurmane_Bounty_Token"
+        },
+        {
+          "slug": "Kitsun_Noct_Bounty_Token",
+          "name": "Kitsun_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Fenglope_Lux_Bounty_Token",
+          "name": "Fenglope_Lux_Bounty_Token"
+        },
+        {
+          "slug": "Celesdir_Bounty_Token",
+          "name": "Celesdir_Bounty_Token"
+        },
+        {
+          "slug": "Silvegis_Bounty_Token",
+          "name": "Silvegis_Bounty_Token"
+        },
+        {
+          "slug": "Faleris_Aqua_Bounty_Token",
+          "name": "Faleris_Aqua_Bounty_Token"
+        },
+        {
+          "slug": "Jetragon_Bounty_Token",
+          "name": "Jetragon_Bounty_Token"
+        },
+        {
+          "slug": "Frostallion_Bounty_Token",
+          "name": "Frostallion_Bounty_Token"
+        },
+        {
+          "slug": "Twin_Knights_Bounty_Token",
+          "name": "Twin_Knights_Bounty_Token"
+        },
+        {
+          "slug": "Xenolord_Saddle",
+          "name": "Xenolord_Saddle"
+        },
+        {
+          "slug": "Starryon_Saddle",
+          "name": "Starryon_Saddle"
+        },
+        {
+          "slug": "Silvegis_Saddle",
+          "name": "Silvegis_Saddle"
+        },
+        {
+          "slug": "Celesdir_Saddle",
+          "name": "Celesdir_Saddle"
+        },
+        {
+          "slug": "Tarantriss_Saddle",
+          "name": "Tarantriss_Saddle"
+        },
+        {
+          "slug": "Azurmane_Saddle",
+          "name": "Azurmane_Saddle"
+        },
+        {
+          "slug": "Bastigors_Hammer",
+          "name": "Bastigors_Hammer"
+        },
+        {
+          "slug": "Kitsun_Noct_Saddle",
+          "name": "Kitsun_Noct_Saddle"
+        },
+        {
+          "slug": "Fenglope_Lux_Saddle",
+          "name": "Fenglope_Lux_Saddle"
+        },
+        {
+          "slug": "Faleris_Aqua_Saddle",
+          "name": "Faleris_Aqua_Saddle"
+        },
+        {
+          "slug": "Smokies_Harness",
+          "name": "Smokies_Harness"
+        },
+        {
+          "slug": "Foxparks_Crysts_Harness",
+          "name": "Foxparks_Crysts_Harness"
+        },
+        {
+          "slug": "Dazzi_Nocts_Necklace",
+          "name": "Dazzi_Nocts_Necklace"
+        },
+        {
+          "slug": "Smokie_Bounty_Token",
+          "name": "Smokie_Bounty_Token"
+        },
+        {
+          "slug": "Nitemary_Bounty_Token",
+          "name": "Nitemary_Bounty_Token"
+        },
+        {
+          "slug": "Starryon_Bounty_Token",
+          "name": "Starryon_Bounty_Token"
+        },
+        {
+          "slug": "Prunelia_Bounty_Token",
+          "name": "Prunelia_Bounty_Token"
+        },
+        {
+          "slug": "Nyafia_Bounty_Token",
+          "name": "Nyafia_Bounty_Token"
+        },
+        {
+          "slug": "Gildane_Bounty_Token",
+          "name": "Gildane_Bounty_Token"
+        },
+        {
+          "slug": "Omascul_Bounty_Token",
+          "name": "Omascul_Bounty_Token"
+        },
+        {
+          "slug": "Tarantris_Bounty_Token",
+          "name": "Tarantris_Bounty_Token"
+        },
+        {
+          "slug": "Frostallion_Noct_Bounty_Token",
+          "name": "Frostallion_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Foxparks_Cryst_Bounty_Token",
+          "name": "Foxparks_Cryst_Bounty_Token"
+        },
+        {
+          "slug": "Dazzi_Noct_Bounty_Token",
+          "name": "Dazzi_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Cryolinx_Terra_Bounty_Token",
+          "name": "Cryolinx_Terra_Bounty_Token"
+        },
+        {
+          "slug": "Caprity_Noct_Bounty_Token",
+          "name": "Caprity_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Loupmoon_Cryst_Bounty_Token",
+          "name": "Loupmoon_Cryst_Bounty_Token"
+        },
+        {
+          "slug": "Ribbuny_Botan_Bounty_Token",
+          "name": "Ribbuny_Botan_Bounty_Token"
+        },
+        {
+          "slug": "Warsect_Terra_Bounty_Token",
+          "name": "Warsect_Terra_Bounty_Token"
+        },
+        {
+          "slug": "Implant__Serenity",
+          "name": "Implant__Serenity"
+        },
+        {
+          "slug": "Implant__Infinite_Stamina",
+          "name": "Implant__Infinite_Stamina"
+        },
+        {
+          "slug": "Implant__Runner",
+          "name": "Implant__Runner"
+        },
+        {
+          "slug": "Implant__Burly_Body",
+          "name": "Implant__Burly_Body"
+        },
+        {
+          "slug": "Implant__Artisan",
+          "name": "Implant__Artisan"
+        },
+        {
+          "slug": "Implant__Musclehead",
+          "name": "Implant__Musclehead"
+        },
+        {
+          "slug": "Enhanced_Hip_Lantern",
+          "name": "Enhanced_Hip_Lantern"
+        },
+        {
+          "slug": "Whalaska_Saddle",
+          "name": "Whalaska_Saddle"
+        },
+        {
+          "slug": "Ghangler_Saddle",
+          "name": "Ghangler_Saddle"
+        },
+        {
+          "slug": "Herbils_Harness",
+          "name": "Herbils_Harness"
+        },
+        {
+          "slug": "Polapup_Saddle",
+          "name": "Polapup_Saddle"
+        },
+        {
+          "slug": "Braloha_Saddle",
+          "name": "Braloha_Saddle"
+        },
+        {
+          "slug": "Palumba_Saddle",
+          "name": "Palumba_Saddle"
+        },
+        {
+          "slug": "Neptilius_Saddle",
+          "name": "Neptilius_Saddle"
+        },
+        {
+          "slug": "Killamari_Primos_Gloves",
+          "name": "Killamari_Primos_Gloves"
+        },
+        {
+          "slug": "Pengullet_Luxs_Rocket_Launcher",
+          "name": "Pengullet_Luxs_Rocket_Launcher"
+        },
+        {
+          "slug": "Celaray_Luxs_Gloves",
+          "name": "Celaray_Luxs_Gloves"
+        },
+        {
+          "slug": "Azurobe_Cryst_Saddle",
+          "name": "Azurobe_Cryst_Saddle"
+        },
+        {
+          "slug": "Ghangler_Ignis_Saddle",
+          "name": "Ghangler_Ignis_Saddle"
+        },
+        {
+          "slug": "Whalaska_Ignis_Saddle",
+          "name": "Whalaska_Ignis_Saddle"
+        },
+        {
+          "slug": "Whalaska_Bounty_Token",
+          "name": "Whalaska_Bounty_Token"
+        },
+        {
+          "slug": "Whalaska_Ignis_Bounty_Token",
+          "name": "Whalaska_Ignis_Bounty_Token"
+        },
+        {
+          "slug": "Neptilius_Bounty_Token",
+          "name": "Neptilius_Bounty_Token"
+        },
+        {
+          "slug": "Dualith_Saddle",
+          "name": "Dualith_Saddle"
+        },
+        {
+          "slug": "Dualith_Noct_Saddle",
+          "name": "Dualith_Noct_Saddle"
+        },
+        {
+          "slug": "Solmora_Saddle",
+          "name": "Solmora_Saddle"
+        },
+        {
+          "slug": "Solmora_Lux_Saddle",
+          "name": "Solmora_Lux_Saddle"
+        },
+        {
+          "slug": "Implant__Vanguard",
+          "name": "Implant__Vanguard"
+        },
+        {
+          "slug": "Implant__Stronghold_Strategist",
+          "name": "Implant__Stronghold_Strategist"
+        },
+        {
+          "slug": "Implant__Motivational_Leader",
+          "name": "Implant__Motivational_Leader"
+        },
+        {
+          "slug": "Implant__Noble",
+          "name": "Implant__Noble"
+        },
+        {
+          "slug": "Implant__Ace_Swimmer",
+          "name": "Implant__Ace_Swimmer"
+        },
+        {
+          "slug": "Tanzee_Igniss_Assault_Rifle",
+          "name": "Tanzee_Igniss_Assault_Rifle"
+        },
+        {
+          "slug": "Hartalis_Saddle",
+          "name": "Hartalis_Saddle"
+        },
+        {
+          "slug": "Starryon_Primo_Saddle",
+          "name": "Starryon_Primo_Saddle"
+        },
+        {
+          "slug": "Aquatic_Construction_Kit",
+          "name": "Aquatic_Construction_Kit"
+        },
+        {
+          "slug": "Modified_Pals_Contaminated_Core",
+          "name": "Modified_Pals_Contaminated_Core"
+        },
+        {
+          "slug": "Extra_Weapon_Holster",
+          "name": "Extra_Weapon_Holster"
+        },
+        {
+          "slug": "Lamball_Effigy",
+          "name": "Lamball_Effigy"
+        },
+        {
+          "slug": "Pengullet_Effigy",
+          "name": "Pengullet_Effigy"
+        },
+        {
+          "slug": "Munchill_Effigy",
+          "name": "Munchill_Effigy"
+        },
+        {
+          "slug": "Rooby_Effigy",
+          "name": "Rooby_Effigy"
+        },
+        {
+          "slug": "Herbil_Effigy",
+          "name": "Herbil_Effigy"
+        },
+        {
+          "slug": "Tanzee_Effigy",
+          "name": "Tanzee_Effigy"
+        },
+        {
+          "slug": "Depresso_Effigy",
+          "name": "Depresso_Effigy"
+        },
+        {
+          "slug": "Cattiva_Effigy",
+          "name": "Cattiva_Effigy"
+        },
+        {
+          "slug": "Lunaris_Effigy",
+          "name": "Lunaris_Effigy"
+        },
+        {
+          "slug": "Relaxaurus_Effigy",
+          "name": "Relaxaurus_Effigy"
+        },
+        {
+          "slug": "Yakumo_Effigy",
+          "name": "Yakumo_Effigy"
+        },
+        {
+          "slug": "Eidrolon_Saddle",
+          "name": "Eidrolon_Saddle"
+        },
+        {
+          "slug": "Eidrolon_Ignis_Saddle",
+          "name": "Eidrolon_Ignis_Saddle"
+        },
+        {
+          "slug": "Dynamoff_Saddle",
+          "name": "Dynamoff_Saddle"
+        },
+        {
+          "slug": "Beakon_Cryst_Saddle",
+          "name": "Beakon_Cryst_Saddle"
+        },
+        {
+          "slug": "Celesdir_Noct_Saddle",
+          "name": "Celesdir_Noct_Saddle"
+        },
+        {
+          "slug": "Key_Sphere_of_Envy",
+          "name": "Key_Sphere_of_Envy"
+        },
+        {
+          "slug": "Key_Sphere_of_Pride",
+          "name": "Key_Sphere_of_Pride"
+        },
+        {
+          "slug": "Key_Sphere_of_Greed",
+          "name": "Key_Sphere_of_Greed"
+        },
+        {
+          "slug": "Key_Sphere_of_Sloth",
+          "name": "Key_Sphere_of_Sloth"
+        },
+        {
+          "slug": "Key_Sphere_of_Gluttony",
+          "name": "Key_Sphere_of_Gluttony"
+        },
+        {
+          "slug": "Key_Sphere_of_Lust",
+          "name": "Key_Sphere_of_Lust"
+        },
+        {
+          "slug": "Key_Sphere_of_Wrath",
+          "name": "Key_Sphere_of_Wrath"
+        },
+        {
+          "slug": "Key_Sphere_of_Original_Sin",
+          "name": "Key_Sphere_of_Original_Sin"
+        },
+        {
+          "slug": "Mimog_Effigy",
+          "name": "Mimog_Effigy"
+        },
+        {
+          "slug": "Extra_Weapon_Holster_2",
+          "name": "Extra_Weapon_Holster_2"
+        },
+        {
+          "slug": "Tetroise_Saddle",
+          "name": "Tetroise_Saddle"
+        },
+        {
+          "slug": "Tetroise_Primo_Saddle",
+          "name": "Tetroise_Primo_Saddle"
+        },
+        {
+          "slug": "Moldron_Saddle",
+          "name": "Moldron_Saddle"
+        },
+        {
+          "slug": "Moldron_Cryst_Saddle",
+          "name": "Moldron_Cryst_Saddle"
+        },
+        {
+          "slug": "Univolt_Cryst_Saddle",
+          "name": "Univolt_Cryst_Saddle"
+        },
+        {
+          "slug": "Rayhound_Cryst_Saddle",
+          "name": "Rayhound_Cryst_Saddle"
+        },
+        {
+          "slug": "Aegidron_Saddle",
+          "name": "Aegidron_Saddle"
+        },
+        {
+          "slug": "Bulldosu_Saddle",
+          "name": "Bulldosu_Saddle"
+        },
+        {
+          "slug": "Polapup_Terra_Saddle",
+          "name": "Polapup_Terra_Saddle"
+        },
+        {
+          "slug": "Roujay_Saddle",
+          "name": "Roujay_Saddle"
+        },
+        {
+          "slug": "Shaolong_Saddle",
+          "name": "Shaolong_Saddle"
+        },
+        {
+          "slug": "Ophydia_Saddle",
+          "name": "Ophydia_Saddle"
+        },
+        {
+          "slug": "Pyrin_Bounty_Token",
+          "name": "Pyrin_Bounty_Token"
+        },
+        {
+          "slug": "Tetroise_Bounty_Token",
+          "name": "Tetroise_Bounty_Token"
+        },
+        {
+          "slug": "Reptyro_Bounty_Token",
+          "name": "Reptyro_Bounty_Token"
+        },
+        {
+          "slug": "Renjishi_Bounty_Token",
+          "name": "Renjishi_Bounty_Token"
+        },
+        {
+          "slug": "Moldron_Cryst_Bounty_Token",
+          "name": "Moldron_Cryst_Bounty_Token"
+        },
+        {
+          "slug": "Dualith_Bounty_Token",
+          "name": "Dualith_Bounty_Token"
+        },
+        {
+          "slug": "Shroomly_Bounty_Token",
+          "name": "Shroomly_Bounty_Token"
+        },
+        {
+          "slug": "Celesdir_Noct_Bounty_Token",
+          "name": "Celesdir_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Kuprok_Cryst_Bounty_Token",
+          "name": "Kuprok_Cryst_Bounty_Token"
+        },
+        {
+          "slug": "Ophydia_Bounty_Token",
+          "name": "Ophydia_Bounty_Token"
+        },
+        {
+          "slug": "Flaracle_Bounty_Token",
+          "name": "Flaracle_Bounty_Token"
+        },
+        {
+          "slug": "Dynamoff_Bounty_Token",
+          "name": "Dynamoff_Bounty_Token"
+        },
+        {
+          "slug": "Slowatt_Bounty_Token",
+          "name": "Slowatt_Bounty_Token"
+        },
+        {
+          "slug": "Snock_Bounty_Token",
+          "name": "Snock_Bounty_Token"
+        },
+        {
+          "slug": "Eidrolon_Bounty_Token",
+          "name": "Eidrolon_Bounty_Token"
+        },
+        {
+          "slug": "Lyleen_Bounty_Token",
+          "name": "Lyleen_Bounty_Token"
+        },
+        {
+          "slug": "Grizzbolt_Bounty_Token",
+          "name": "Grizzbolt_Bounty_Token"
+        },
+        {
+          "slug": "Dualith_Noct_Bounty_Token",
+          "name": "Dualith_Noct_Bounty_Token"
+        },
+        {
+          "slug": "Blazehowl_Bounty_Token",
+          "name": "Blazehowl_Bounty_Token"
+        },
+        {
+          "slug": "Arsox_Bounty_Token",
+          "name": "Arsox_Bounty_Token"
+        },
+        {
+          "slug": "Foxicle_Bounty_Token",
+          "name": "Foxicle_Bounty_Token"
+        },
+        {
+          "slug": "Wixen_Bounty_Token",
+          "name": "Wixen_Bounty_Token"
+        },
+        {
+          "slug": "Tetroise_Primo_Bounty_Token",
+          "name": "Tetroise_Primo_Bounty_Token"
+        },
+        {
+          "slug": "Wistella_Bounty_Token",
+          "name": "Wistella_Bounty_Token"
+        },
+        {
+          "slug": "Prixter_Lux_Bounty_Token",
+          "name": "Prixter_Lux_Bounty_Token"
+        },
+        {
+          "slug": "Kuprok_Bounty_Token",
+          "name": "Kuprok_Bounty_Token"
+        },
+        {
+          "slug": "Moldron_Bounty_Token",
+          "name": "Moldron_Bounty_Token"
+        },
+        {
+          "slug": "Needoll_Bounty_Token",
+          "name": "Needoll_Bounty_Token"
+        },
+        {
+          "slug": "Aegidron_Bounty_Token",
+          "name": "Aegidron_Bounty_Token"
+        },
+        {
+          "slug": "Implant__Wellness_Watcher",
+          "name": "Implant__Wellness_Watcher"
+        },
+        {
+          "slug": "Implant__Healing_Coach",
+          "name": "Implant__Healing_Coach"
+        },
+        {
+          "slug": "Implant__Reload_Master",
+          "name": "Implant__Reload_Master"
+        },
+        {
+          "slug": "privacy",
+          "name": "privacy"
+        },
+        {
+          "slug": "version",
+          "name": "version"
+        }
+      ]
+    }
+  ]
+}

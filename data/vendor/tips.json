@@ -1,0 +1,491 @@
+{
+  "generated_at": "2026-07-17T02:45:07.768147+00:00",
+  "language": "en",
+  "count": 41,
+  "source_url": "https://paldb.cc/en/Tips",
+  "source_export": "data/raw/exports/en/Tips.html",
+  "tips": [
+    {
+      "id": "Game_Objective",
+      "slug": "Game_Objective",
+      "name": "Game Objective",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Game_Objective",
+      "source_export": "data/raw/exports/en/Game_Objective.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "What_should_I_do_first_",
+      "slug": "What_should_I_do_first_",
+      "name": "What should I do first?",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/What_should_I_do_first_",
+      "source_export": "data/raw/exports/en/What_should_I_do_first_.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "HUD",
+      "slug": "HUD",
+      "name": "HUD",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/HUD",
+      "source_export": "data/raw/exports/en/HUD.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Getting_Items",
+      "slug": "Getting_Items",
+      "name": "Getting Items",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/Getting_Items",
+      "source_export": "data/raw/exports/en/Getting_Items.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Building",
+      "slug": "Building",
+      "name": "Building",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Building",
+      "source_export": "data/raw/exports/en/Building.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Crafting",
+      "slug": "Crafting",
+      "name": "Crafting",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Crafting",
+      "source_export": "data/raw/exports/en/Crafting.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Technology",
+      "slug": "Technology",
+      "name": "Technology",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/Technology",
+      "source_export": "data/raw/exports/en/Technology.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Ancient_Technology",
+      "slug": "Ancient_Technology",
+      "name": "Ancient Technology",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Ancient_Technology",
+      "source_export": "data/raw/exports/en/Ancient_Technology.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Level_Up",
+      "slug": "Level_Up",
+      "name": "Level Up",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/Level_Up",
+      "source_export": "data/raw/exports/en/Level_Up.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Player_Status_Enhancement",
+      "slug": "Player_Status_Enhancement",
+      "name": "Player Status Enhancement",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Player_Status_Enhancement",
+      "source_export": "data/raw/exports/en/Player_Status_Enhancement.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Base",
+      "slug": "Base",
+      "name": "Base",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Base",
+      "source_export": "data/raw/exports/en/Base.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Palbox",
+      "slug": "Palbox",
+      "name": "Palbox",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Palbox",
+      "source_export": "data/raw/exports/en/Palbox.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Capturing_Pals",
+      "slug": "Capturing_Pals",
+      "name": "Capturing Pals",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Capturing_Pals",
+      "source_export": "data/raw/exports/en/Capturing_Pals.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pals_in_Party",
+      "slug": "Pals_in_Party",
+      "name": "Pals in Party",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pals_in_Party",
+      "source_export": "data/raw/exports/en/Pals_in_Party.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Hunger",
+      "slug": "Hunger",
+      "name": "Hunger",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Hunger",
+      "source_export": "data/raw/exports/en/Hunger.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Sanity",
+      "slug": "Sanity",
+      "name": "Sanity",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Sanity",
+      "source_export": "data/raw/exports/en/Sanity.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Partner_Skills",
+      "slug": "Partner_Skills",
+      "name": "Partner Skills",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/Partner_Skills",
+      "source_export": "data/raw/exports/en/Partner_Skills.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Palpedia",
+      "slug": "Palpedia",
+      "name": "Palpedia",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Palpedia",
+      "source_export": "data/raw/exports/en/Palpedia.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Palpedia_Bonus",
+      "slug": "Palpedia_Bonus",
+      "name": "Palpedia Bonus",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Palpedia_Bonus",
+      "source_export": "data/raw/exports/en/Palpedia_Bonus.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Guild",
+      "slug": "Guild",
+      "name": "Guild",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Guild",
+      "source_export": "data/raw/exports/en/Guild.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Map",
+      "slug": "Map",
+      "name": "Map",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Map",
+      "source_export": "data/raw/exports/en/Map.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Great_Eagle_Statue",
+      "slug": "Great_Eagle_Statue",
+      "name": "Great Eagle Statue",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Great_Eagle_Statue",
+      "source_export": "data/raw/exports/en/Great_Eagle_Statue.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Radial_Menu",
+      "slug": "Radial_Menu",
+      "name": "Radial Menu",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Radial_Menu",
+      "source_export": "data/raw/exports/en/Radial_Menu.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "About_Nighttime",
+      "slug": "About_Nighttime",
+      "name": "About Nighttime",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/About_Nighttime",
+      "source_export": "data/raw/exports/en/About_Nighttime.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Tower_Bosses",
+      "slug": "Tower_Bosses",
+      "name": "Tower Bosses",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Tower_Bosses",
+      "source_export": "data/raw/exports/en/Tower_Bosses.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Crime",
+      "slug": "Crime",
+      "name": "Crime",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Crime",
+      "source_export": "data/raw/exports/en/Crime.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Equipment_Durability",
+      "slug": "Equipment_Durability",
+      "name": "Equipment Durability",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Equipment_Durability",
+      "source_export": "data/raw/exports/en/Equipment_Durability.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Item_Rot",
+      "slug": "Item_Rot",
+      "name": "Item Rot",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Item_Rot",
+      "source_export": "data/raw/exports/en/Item_Rot.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Elements",
+      "slug": "Elements",
+      "name": "Elements",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Elements",
+      "source_export": "data/raw/exports/en/Elements.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Status_Effects",
+      "slug": "Status_Effects",
+      "name": "Status Effects",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Status_Effects",
+      "source_export": "data/raw/exports/en/Status_Effects.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Eggs",
+      "slug": "Pal_Eggs",
+      "name": "Pal Eggs",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Eggs",
+      "source_export": "data/raw/exports/en/Pal_Eggs.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Breeding_Farm",
+      "slug": "Pal_Breeding_Farm",
+      "name": "Pal Breeding Farm",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Breeding_Farm",
+      "source_export": "data/raw/exports/en/Pal_Breeding_Farm.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Rank_&_Essence_Condensers",
+      "slug": "Pal_Rank_&_Essence_Condensers",
+      "name": "Pal Rank & Essence Condensers",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Rank_&_Essence_Condensers",
+      "source_export": "data/raw/exports/en/Pal_Rank_&_Essence_Condensers.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Effigies",
+      "slug": "Pal_Effigies",
+      "name": "Pal Effigies",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Effigies",
+      "source_export": "data/raw/exports/en/Pal_Effigies.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Souls",
+      "slug": "Pal_Souls",
+      "name": "Pal Souls",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Souls",
+      "source_export": "data/raw/exports/en/Pal_Souls.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Pal_Subspecies",
+      "slug": "Pal_Subspecies",
+      "name": "Pal Subspecies",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Subspecies",
+      "source_export": "data/raw/exports/en/Pal_Subspecies.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Lucky_Pals",
+      "slug": "Lucky_Pals",
+      "name": "Lucky Pals",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Lucky_Pals",
+      "source_export": "data/raw/exports/en/Lucky_Pals.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Death",
+      "slug": "Death",
+      "name": "Death",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Death",
+      "source_export": "data/raw/exports/en/Death.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "The_Arena",
+      "slug": "The_Arena",
+      "name": "The Arena",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/The_Arena",
+      "source_export": "data/raw/exports/en/The_Arena.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "Global_Palbox",
+      "slug": "Global_Palbox",
+      "name": "Global Palbox",
+      "paragraphs": [],
+      "bullets": [
+        "Work Suitability Kindling"
+      ],
+      "source_url": "https://paldb.cc/en/Global_Palbox",
+      "source_export": "data/raw/exports/en/Global_Palbox.html",
+      "from_index": "Tips.html"
+    },
+    {
+      "id": "If_Stuck_in_Terrain",
+      "slug": "If_Stuck_in_Terrain",
+      "name": "If Stuck in Terrain",
+      "paragraphs": [],
+      "bullets": [],
+      "source_url": "https://paldb.cc/en/If_Stuck_in_Terrain",
+      "source_export": "data/raw/exports/en/If_Stuck_in_Terrain.html",
+      "from_index": "Tips.html"
+    }
+  ]
+}

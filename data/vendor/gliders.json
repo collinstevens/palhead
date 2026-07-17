@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-07-16T23:10:30.255612+00:00",
+  "language": "en",
+  "count": 7,
+  "gliders": [
+    {
+      "id": "Glider_Old",
+      "slug": "Normal_Parachute",
+      "name": "Normal Parachute",
+      "category": "Glider",
+      "rarity": "Common",
+      "description": "A glider for soaring through the air. Cheaply made, it isn't very fast.",
+      "recipe_materials": [
+        {
+          "slug": "Wood",
+          "quantity": 10
+        },
+        {
+          "slug": "Cloth",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Normal_Parachute",
+      "source_export": "data/raw/exports/en/Normal_Parachute.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "Glider_Old",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "Glider_Old",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 1,
+      "weight": 10,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "Glider_Old",
+      "sneak_attack_rate": 1,
+      "sort_id": 3000,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1m20s"
+        },
+        {
+          "level": 2,
+          "time": "50s"
+        },
+        {
+          "level": 3,
+          "time": "29s"
+        },
+        {
+          "level": 4,
+          "time": "17s"
+        },
+        {
+          "level": 5,
+          "time": "10s"
+        },
+        {
+          "level": 6,
+          "time": "6s"
+        },
+        {
+          "level": 7,
+          "time": "4s"
+        },
+        {
+          "level": 8,
+          "time": "3s"
+        },
+        {
+          "level": 9,
+          "time": "2s"
+        },
+        {
+          "level": 10,
+          "time": "0.74s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Mega_Glider",
+      "slug": "Mega_Glider",
+      "name": "Mega Glider",
+      "category": "Glider",
+      "rarity": "Common",
+      "description": "A glider for soaring through the air. A mass produced commercial model, it’s decently fast.",
+      "recipe_materials": [
+        {
+          "slug": "Wooden_Board",
+          "quantity": 5
+        },
+        {
+          "slug": "Bone",
+          "quantity": 10
+        },
+        {
+          "slug": "Cloth",
+          "quantity": 20
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Mega_Glider",
+      "source_export": "data/raw/exports/en/Mega_Glider.html",
+      "from_index": "Glider.html",
+      "export_thin": true
+    },
+    {
+      "id": "Glider_Super",
+      "slug": "Giga_Glider",
+      "name": "Giga Glider",
+      "category": "Glider",
+      "rarity": "Uncommon",
+      "description": "A glider for soaring through the air. With its capabilities improved, it can soar at high speeds.",
+      "recipe_materials": [
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 20
+        },
+        {
+          "slug": "Hardwood",
+          "quantity": 100
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 15
+        },
+        {
+          "slug": "High_Quality_Cloth",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Giga_Glider",
+      "source_export": "data/raw/exports/en/Giga_Glider.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "Glider_Super",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "Glider_Super",
+      "rarity_label": "Uncommon",
+      "rank": 3,
+      "max_stack_count": 1,
+      "weight": 20,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "Glider_Super",
+      "sneak_attack_rate": 1,
+      "sort_id": 3002,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "16m40s"
+        },
+        {
+          "level": 2,
+          "time": "10m25s"
+        },
+        {
+          "level": 3,
+          "time": "5m57s"
+        },
+        {
+          "level": 4,
+          "time": "3m28s"
+        },
+        {
+          "level": 5,
+          "time": "2m5s"
+        },
+        {
+          "level": 6,
+          "time": "1m13s"
+        },
+        {
+          "level": 7,
+          "time": "46s"
+        },
+        {
+          "level": 8,
+          "time": "27s"
+        },
+        {
+          "level": 9,
+          "time": "16s"
+        },
+        {
+          "level": 10,
+          "time": "10s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Glider_Tera",
+      "slug": "Hyper_Glider",
+      "name": "Hyper Glider",
+      "category": "Glider",
+      "rarity": "Epic",
+      "description": "A glider for soaring through the air. Its performance has been further improved, with increased speed and lift.",
+      "recipe_materials": [
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 40
+        },
+        {
+          "slug": "High_Quality_Wooden_Board",
+          "quantity": 20
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 25
+        },
+        {
+          "slug": "High_Quality_Cloth",
+          "quantity": 20
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Hyper_Glider",
+      "source_export": "data/raw/exports/en/Hyper_Glider.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "Glider_Tera",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "Glider_Legendary",
+      "rarity_label": "Epic",
+      "rank": 4,
+      "max_stack_count": 1,
+      "weight": 25,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "Glider_Tera",
+      "sneak_attack_rate": 1,
+      "sort_id": 3003,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "50m0s"
+        },
+        {
+          "level": 2,
+          "time": "31m15s"
+        },
+        {
+          "level": 3,
+          "time": "17m51s"
+        },
+        {
+          "level": 4,
+          "time": "10m25s"
+        },
+        {
+          "level": 5,
+          "time": "6m15s"
+        },
+        {
+          "level": 6,
+          "time": "3m40s"
+        },
+        {
+          "level": 7,
+          "time": "2m16s"
+        },
+        {
+          "level": 8,
+          "time": "1m18s"
+        },
+        {
+          "level": 9,
+          "time": "47s"
+        },
+        {
+          "level": 10,
+          "time": "28s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "WingGlider",
+      "slug": "Wing_Pack",
+      "name": "Wing Pack",
+      "category": "Glider",
+      "rarity": "Legendary",
+      "description": "A portable glider that enables flight. Consumes Wing Cell to propel the user through the skies.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 30
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "quantity": 6
+        },
+        {
+          "slug": "AI_Core",
+          "quantity": 20
+        },
+        {
+          "slug": "Thermal_Core",
+          "quantity": 20
+        },
+        {
+          "slug": "Ancient_Civilization_Core",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Wing_Pack",
+      "source_export": "data/raw/exports/en/Wing_Pack.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "WingGlider",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "WingGlider",
+      "rarity_label": "Legendary",
+      "rank": 10,
+      "max_stack_count": 1,
+      "weight": 25,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "WingGlider",
+      "sneak_attack_rate": 1,
+      "sort_id": 3004,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "16h40m0s"
+        },
+        {
+          "level": 2,
+          "time": "10h25m0s"
+        },
+        {
+          "level": 3,
+          "time": "5h57m8s"
+        },
+        {
+          "level": 4,
+          "time": "3h28m20s"
+        },
+        {
+          "level": 5,
+          "time": "2h5m0s"
+        },
+        {
+          "level": 6,
+          "time": "1h13m31s"
+        },
+        {
+          "level": 7,
+          "time": "45m27s"
+        },
+        {
+          "level": 8,
+          "time": "26m18s"
+        },
+        {
+          "level": 9,
+          "time": "15m37s"
+        },
+        {
+          "level": 10,
+          "time": "9m15s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Glider_Legendary",
+      "slug": "Glider_Legendary",
+      "name": "Glider_Legendary",
+      "category": "Glider",
+      "rarity": "Rare",
+      "description": "",
+      "recipe_materials": [
+        {
+          "slug": "Glider",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Glider_Legendary",
+      "source_export": "data/raw/exports/en/Glider_Legendary.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "Glider_Legendary",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "Glider_Legendary",
+      "rarity_label": "Rare",
+      "rank": 4,
+      "max_stack_count": 1,
+      "weight": 25,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "Glider_Legendary",
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "PV_Glider_Manta",
+      "slug": "PV_Glider_Manta",
+      "name": "PV_Glider_Manta",
+      "category": "Glider",
+      "rarity": "Common",
+      "description": "",
+      "recipe_materials": [
+        {
+          "slug": "Glider",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/PV_Glider_Manta",
+      "source_export": "data/raw/exports/en/PV_Glider_Manta.html",
+      "from_index": "Glider.html",
+      "export_thin": false,
+      "code": "PV_Glider_Manta",
+      "type_a": "Glider",
+      "type_b": "Glider",
+      "icon_name": "Glider_Old",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 1,
+      "weight": 15,
+      "item_static_class": "CommonArmor",
+      "item_actor_class": "PV_Glider_Manta",
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "craft_times": [],
+      "workstations": []
+    }
+  ]
+}

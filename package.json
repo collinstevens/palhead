@@ -9,6 +9,7 @@
     "data:normalize": "node scripts/data-normalize.js",
     "download-icons": "node scripts/download-icons.js",
     "build": "node scripts/data-import.js && node scripts/style-import.js && node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
+    "build:ci": "node scripts/data-import.js && node scripts/style-import.js && node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
     "build:html": "node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
     "build:static": "node build.js && node scripts/prepare-dist.js",
     "login": "wrangler login",

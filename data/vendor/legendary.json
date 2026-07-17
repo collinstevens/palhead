@@ -1,0 +1,1003 @@
+{
+  "generated_at": "2026-07-16T23:19:26.786602+00:00",
+  "language": "en",
+  "count": 142,
+  "source_url": "https://paldb.cc/en/Legendary",
+  "source_export": "data/raw/exports/en/Legendary.html",
+  "legendary_items": [
+    {
+      "slug": "Witchs_Crown",
+      "name": "Witch's Crown",
+      "source_url": "https://paldb.cc/en/Witchs_Crown",
+      "source_export": "data/raw/exports/en/Witchs_Crown.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Twilight_Siren_(Ultra)_Bellanoir_Libero",
+      "name": "Twilight Siren (Ultra) Bellanoir Libero",
+      "source_url": "https://paldb.cc/en/Twilight_Siren_(Ultra)_Bellanoir_Libero",
+      "source_export": "data/raw/exports/en/Twilight_Siren_(Ultra)_Bellanoir_Libero.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Horns_of_Supremacy",
+      "name": "Horns of Supremacy",
+      "source_url": "https://paldb.cc/en/Horns_of_Supremacy",
+      "source_export": "data/raw/exports/en/Horns_of_Supremacy.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Incarnation_of_the_Eternal_Flame_(Ultra)_Blazamut_Ryu",
+      "name": "Incarnation of the Eternal Flame (Ultra) Blazamut Ryu",
+      "source_url": "https://paldb.cc/en/Incarnation_of_the_Eternal_Flame_(Ultra)_Blazamut_Ryu",
+      "source_export": "data/raw/exports/en/Incarnation_of_the_Eternal_Flame_(Ultra)_Blazamut_Ryu.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hexolite_Helmet_Schematic_4",
+      "name": "Hexolite Helmet Schematic 4",
+      "source_url": "https://paldb.cc/en/Hexolite_Helmet_Schematic_4",
+      "source_export": "data/raw/exports/en/Hexolite_Helmet_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Dark_Knight_of_Legend_Necromus",
+      "name": "Dark Knight of Legend Necromus",
+      "source_url": "https://paldb.cc/en/Dark_Knight_of_Legend_Necromus",
+      "source_export": "data/raw/exports/en/Dark_Knight_of_Legend_Necromus.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Refined_Metal_Armor_Schematic_4",
+      "name": "Heat Resistant Refined Metal Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Refined_Metal_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Refined_Metal_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Draconic_Monarch_of_Steel_Astegon",
+      "name": "Draconic Monarch of Steel Astegon",
+      "source_url": "https://paldb.cc/en/Draconic_Monarch_of_Steel_Astegon",
+      "source_export": "data/raw/exports/en/Draconic_Monarch_of_Steel_Astegon.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Semi-Auto_Rifle_Schematic_4",
+      "name": "Semi-Auto Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Semi-Auto_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Semi-Auto_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Lady_of_the_Lake_Azurobe",
+      "name": "Lady of the Lake Azurobe",
+      "source_url": "https://paldb.cc/en/Lady_of_the_Lake_Azurobe",
+      "source_export": "data/raw/exports/en/Lady_of_the_Lake_Azurobe.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Feathered_Hair_Band_Schematic_4",
+      "name": "Feathered Hair Band Schematic 4",
+      "source_url": "https://paldb.cc/en/Feathered_Hair_Band_Schematic_4",
+      "source_export": "data/raw/exports/en/Feathered_Hair_Band_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Pioneer_of_the_Frozen_Sea_Penking",
+      "name": "Pioneer of the Frozen Sea Penking",
+      "source_url": "https://paldb.cc/en/Pioneer_of_the_Frozen_Sea_Penking",
+      "source_export": "data/raw/exports/en/Pioneer_of_the_Frozen_Sea_Penking.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Refined_Metal_Armor_Schematic_4",
+      "name": "Cold Resistant Refined Metal Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Refined_Metal_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Refined_Metal_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Unstoppable_Stinger_Menasting",
+      "name": "Unstoppable Stinger Menasting",
+      "source_url": "https://paldb.cc/en/Unstoppable_Stinger_Menasting",
+      "source_export": "data/raw/exports/en/Unstoppable_Stinger_Menasting.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Makeshift_Handgun_Schematic_4",
+      "name": "Makeshift Handgun Schematic 4",
+      "source_url": "https://paldb.cc/en/Makeshift_Handgun_Schematic_4",
+      "source_export": "data/raw/exports/en/Makeshift_Handgun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Drifting_Cloud_Fenglope",
+      "name": "Drifting Cloud Fenglope",
+      "source_url": "https://paldb.cc/en/Drifting_Cloud_Fenglope",
+      "source_export": "data/raw/exports/en/Drifting_Cloud_Fenglope.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Single-Shot_Rifle_Schematic_4",
+      "name": "Single-Shot Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Single-Shot_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Single-Shot_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Gale_of_the_Forest_Verdash",
+      "name": "Gale of the Forest Verdash",
+      "source_url": "https://paldb.cc/en/Gale_of_the_Forest_Verdash",
+      "source_export": "data/raw/exports/en/Gale_of_the_Forest_Verdash.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Laser_Gatling_Gun_Schematic_4",
+      "name": "Laser Gatling Gun Schematic 4",
+      "source_url": "https://paldb.cc/en/Laser_Gatling_Gun_Schematic_4",
+      "source_export": "data/raw/exports/en/Laser_Gatling_Gun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Unyielding_Colossus_Warsect",
+      "name": "Unyielding Colossus Warsect",
+      "source_url": "https://paldb.cc/en/Unyielding_Colossus_Warsect",
+      "source_export": "data/raw/exports/en/Unyielding_Colossus_Warsect.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Plasma_Cannon_Schematic_4",
+      "name": "Plasma Cannon Schematic 4",
+      "source_url": "https://paldb.cc/en/Plasma_Cannon_Schematic_4",
+      "source_export": "data/raw/exports/en/Plasma_Cannon_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Legendary_Steed_of_Ice_Frostallion",
+      "name": "Legendary Steed of Ice Frostallion",
+      "source_url": "https://paldb.cc/en/Legendary_Steed_of_Ice_Frostallion",
+      "source_export": "data/raw/exports/en/Legendary_Steed_of_Ice_Frostallion.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Overheat_Rifle_Schematic_4",
+      "name": "Overheat Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Overheat_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Overheat_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Legendary_Steed_of_Darkness_Frostallion_Noct",
+      "name": "Legendary Steed of Darkness Frostallion Noct",
+      "source_url": "https://paldb.cc/en/Legendary_Steed_of_Darkness_Frostallion_Noct",
+      "source_export": "data/raw/exports/en/Legendary_Steed_of_Darkness_Frostallion_Noct.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Rocket_Launcher_Schematic_4",
+      "name": "Rocket Launcher Schematic 4",
+      "source_url": "https://paldb.cc/en/Rocket_Launcher_Schematic_4",
+      "source_export": "data/raw/exports/en/Rocket_Launcher_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Legendary_Celestial_Dragon_Jetragon",
+      "name": "Legendary Celestial Dragon Jetragon",
+      "source_url": "https://paldb.cc/en/Legendary_Celestial_Dragon_Jetragon",
+      "source_export": "data/raw/exports/en/Legendary_Celestial_Dragon_Jetragon.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Metal_Armor_Schematic_4",
+      "name": "Metal Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Metal_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Metal_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Supreme_Fluff_Commander_Kingpaca",
+      "name": "Supreme Fluff Commander Kingpaca",
+      "source_url": "https://paldb.cc/en/Supreme_Fluff_Commander_Kingpaca",
+      "source_export": "data/raw/exports/en/Supreme_Fluff_Commander_Kingpaca.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Assault_Rifle_Schematic_4",
+      "name": "Assault Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Assault_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Assault_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cursed_Tyrant_Blazamut",
+      "name": "Cursed Tyrant Blazamut",
+      "source_url": "https://paldb.cc/en/Cursed_Tyrant_Blazamut",
+      "source_export": "data/raw/exports/en/Cursed_Tyrant_Blazamut.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Laser_Rifle_Schematic_4",
+      "name": "Laser Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Laser_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Laser_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Empress_of_the_Abyss_Lyleen_Noct",
+      "name": "Empress of the Abyss Lyleen Noct",
+      "source_url": "https://paldb.cc/en/Empress_of_the_Abyss_Lyleen_Noct",
+      "source_export": "data/raw/exports/en/Empress_of_the_Abyss_Lyleen_Noct.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Musket_Schematic_4",
+      "name": "Musket Schematic 4",
+      "source_url": "https://paldb.cc/en/Musket_Schematic_4",
+      "source_export": "data/raw/exports/en/Musket_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Crimson_Goliath_Blazehowl",
+      "name": "Crimson Goliath Blazehowl",
+      "source_url": "https://paldb.cc/en/Crimson_Goliath_Blazehowl",
+      "source_export": "data/raw/exports/en/Crimson_Goliath_Blazehowl.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Double-Barreled_Shotgun_Schematic_4",
+      "name": "Double-Barreled Shotgun Schematic 4",
+      "source_url": "https://paldb.cc/en/Double-Barreled_Shotgun_Schematic_4",
+      "source_export": "data/raw/exports/en/Double-Barreled_Shotgun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Empress_of_the_Hive_Elizabee",
+      "name": "Empress of the Hive Elizabee",
+      "source_url": "https://paldb.cc/en/Empress_of_the_Hive_Elizabee",
+      "source_export": "data/raw/exports/en/Empress_of_the_Hive_Elizabee.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Metal_Helm_Schematic_4",
+      "name": "Metal Helm Schematic 4",
+      "source_url": "https://paldb.cc/en/Metal_Helm_Schematic_4",
+      "source_export": "data/raw/exports/en/Metal_Helm_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Vagrant_Warrior_Bushi",
+      "name": "Vagrant Warrior Bushi",
+      "source_url": "https://paldb.cc/en/Vagrant_Warrior_Bushi",
+      "source_export": "data/raw/exports/en/Vagrant_Warrior_Bushi.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Lightweight_Hexolite_Armor_Schematic_4",
+      "name": "Lightweight Hexolite Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Lightweight_Hexolite_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Lightweight_Hexolite_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Holy_Knight_of_Legend_Paladius",
+      "name": "Holy Knight of Legend Paladius",
+      "source_url": "https://paldb.cc/en/Holy_Knight_of_Legend_Paladius",
+      "source_export": "data/raw/exports/en/Holy_Knight_of_Legend_Paladius.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Pump-Action_Shotgun_Schematic_4",
+      "name": "Pump-Action Shotgun Schematic 4",
+      "source_url": "https://paldb.cc/en/Pump-Action_Shotgun_Schematic_4",
+      "source_export": "data/raw/exports/en/Pump-Action_Shotgun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Ruler_of_the_Crimson_Dawn_Suzaku",
+      "name": "Ruler of the Crimson Dawn Suzaku",
+      "source_url": "https://paldb.cc/en/Ruler_of_the_Crimson_Dawn_Suzaku",
+      "source_export": "data/raw/exports/en/Ruler_of_the_Crimson_Dawn_Suzaku.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "SMG_Schematic_4",
+      "name": "SMG Schematic 4",
+      "source_url": "https://paldb.cc/en/SMG_Schematic_4",
+      "source_export": "data/raw/exports/en/SMG_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Wings_of_Thunderbolt_Beakon",
+      "name": "Wings of Thunderbolt Beakon",
+      "source_url": "https://paldb.cc/en/Wings_of_Thunderbolt_Beakon",
+      "source_export": "data/raw/exports/en/Wings_of_Thunderbolt_Beakon.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Handgun_Schematic_4",
+      "name": "Handgun Schematic 4",
+      "source_url": "https://paldb.cc/en/Handgun_Schematic_4",
+      "source_export": "data/raw/exports/en/Handgun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Voice_of_the_Violets_Vaelet",
+      "name": "Voice of the Violets Vaelet",
+      "source_url": "https://paldb.cc/en/Voice_of_the_Violets_Vaelet",
+      "source_export": "data/raw/exports/en/Voice_of_the_Violets_Vaelet.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cloth_Outfit_Schematic_4",
+      "name": "Cloth Outfit Schematic 4",
+      "source_url": "https://paldb.cc/en/Cloth_Outfit_Schematic_4",
+      "source_export": "data/raw/exports/en/Cloth_Outfit_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Dancer_on_the_Steppe_Chillet",
+      "name": "Dancer on the Steppe Chillet",
+      "source_url": "https://paldb.cc/en/Dancer_on_the_Steppe_Chillet",
+      "source_export": "data/raw/exports/en/Dancer_on_the_Steppe_Chillet.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Energy_Shotgun_Schematic_4",
+      "name": "Energy Shotgun Schematic 4",
+      "source_url": "https://paldb.cc/en/Energy_Shotgun_Schematic_4",
+      "source_export": "data/raw/exports/en/Energy_Shotgun_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Blue_Lightning_Steed_Azurmane",
+      "name": "Blue Lightning Steed Azurmane",
+      "source_url": "https://paldb.cc/en/Blue_Lightning_Steed_Azurmane",
+      "source_export": "data/raw/exports/en/Blue_Lightning_Steed_Azurmane.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Charge_Rifle_Schematic_4",
+      "name": "Charge Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Charge_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Charge_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Legend_of_the_Seas_Neptilius",
+      "name": "Legend of the Seas Neptilius",
+      "source_url": "https://paldb.cc/en/Legend_of_the_Seas_Neptilius",
+      "source_export": "data/raw/exports/en/Legend_of_the_Seas_Neptilius.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Xenolords_head",
+      "name": "Xenolord's head",
+      "source_url": "https://paldb.cc/en/Xenolords_head",
+      "source_export": "data/raw/exports/en/Xenolords_head.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Invader_from_Space_(Ultra)_Xenolord",
+      "name": "Invader from Space (Ultra) Xenolord",
+      "source_url": "https://paldb.cc/en/Invader_from_Space_(Ultra)_Xenolord",
+      "source_export": "data/raw/exports/en/Invader_from_Space_(Ultra)_Xenolord.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Eye_of_Cthulhu_Mask",
+      "name": "Eye of Cthulhu Mask",
+      "source_url": "https://paldb.cc/en/Eye_of_Cthulhu_Mask",
+      "source_export": "data/raw/exports/en/Eye_of_Cthulhu_Mask.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Eye_of_Cthulhu",
+      "name": "Eye of Cthulhu",
+      "source_url": "https://paldb.cc/en/Eye_of_Cthulhu",
+      "source_export": "data/raw/exports/en/Eye_of_Cthulhu.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Legendary_Meowmere",
+      "name": "Legendary Meowmere",
+      "source_url": "https://paldb.cc/en/Legendary_Meowmere",
+      "source_export": "data/raw/exports/en/Legendary_Meowmere.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Moon_Lord",
+      "name": "Moon Lord",
+      "source_url": "https://paldb.cc/en/Moon_Lord",
+      "source_export": "data/raw/exports/en/Moon_Lord.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Moon_Lord_Mask",
+      "name": "Moon Lord Mask",
+      "source_url": "https://paldb.cc/en/Moon_Lord_Mask",
+      "source_export": "data/raw/exports/en/Moon_Lord_Mask.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Terra_Blade_Schematic_4",
+      "name": "Terra Blade Schematic 4",
+      "source_url": "https://paldb.cc/en/Terra_Blade_Schematic_4",
+      "source_export": "data/raw/exports/en/Terra_Blade_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "[Master]_Moon_Lord",
+      "name": "[Master] Moon Lord",
+      "source_url": "https://paldb.cc/en/[Master]_Moon_Lord",
+      "source_export": "data/raw/exports/en/[Master]_Moon_Lord.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Vortex_Beater_Schematic_4",
+      "name": "Vortex Beater Schematic 4",
+      "source_url": "https://paldb.cc/en/Vortex_Beater_Schematic_4",
+      "source_export": "data/raw/exports/en/Vortex_Beater_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Nightglow_Schematic_4",
+      "name": "Nightglow Schematic 4",
+      "source_url": "https://paldb.cc/en/Nightglow_Schematic_4",
+      "source_export": "data/raw/exports/en/Nightglow_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Terraprisma_Schematic_4",
+      "name": "Terraprisma Schematic 4",
+      "source_url": "https://paldb.cc/en/Terraprisma_Schematic_4",
+      "source_export": "data/raw/exports/en/Terraprisma_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Crown_of_Salvation",
+      "name": "Crown of Salvation",
+      "source_url": "https://paldb.cc/en/Crown_of_Salvation",
+      "source_export": "data/raw/exports/en/Crown_of_Salvation.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "King_of_Salvation_(Ultra)_Hartalis",
+      "name": "King of Salvation (Ultra) Hartalis",
+      "source_url": "https://paldb.cc/en/King_of_Salvation_(Ultra)_Hartalis",
+      "source_export": "data/raw/exports/en/King_of_Salvation_(Ultra)_Hartalis.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Beam_Scatter_Schematic_4",
+      "name": "Beam Scatter Schematic 4",
+      "source_url": "https://paldb.cc/en/Beam_Scatter_Schematic_4",
+      "source_export": "data/raw/exports/en/Beam_Scatter_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Rayne_Syndicate_Boss_Zoe_&amp;_Grizzbolt",
+      "name": "Rayne Syndicate Boss Zoe & Grizzbolt",
+      "source_url": "https://paldb.cc/en/Rayne_Syndicate_Boss_Zoe_&amp;_Grizzbolt",
+      "source_export": "data/raw/exports/en/Rayne_Syndicate_Boss_Zoe_&amp;_Grizzbolt.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Drone_Launcher_Schematic_4",
+      "name": "Drone Launcher Schematic 4",
+      "source_url": "https://paldb.cc/en/Drone_Launcher_Schematic_4",
+      "source_export": "data/raw/exports/en/Drone_Launcher_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Free_Pal_Alliance_Founder_Lily_&amp;_Lyleen",
+      "name": "Free Pal Alliance Founder Lily & Lyleen",
+      "source_url": "https://paldb.cc/en/Free_Pal_Alliance_Founder_Lily_&amp;_Lyleen",
+      "source_export": "data/raw/exports/en/Free_Pal_Alliance_Founder_Lily_&amp;_Lyleen.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat-Resistant_Ancient_Armor_Schematic_4",
+      "name": "Heat-Resistant Ancient Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Heat-Resistant_Ancient_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Heat-Resistant_Ancient_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "PIDF_Commander_Marcus_&amp;_Faleris",
+      "name": "PIDF Commander Marcus & Faleris",
+      "source_url": "https://paldb.cc/en/PIDF_Commander_Marcus_&amp;_Faleris",
+      "source_export": "data/raw/exports/en/PIDF_Commander_Marcus_&amp;_Faleris.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold-Resistant_Ancient_Armor_Schematic_4",
+      "name": "Cold-Resistant Ancient Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Cold-Resistant_Ancient_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Cold-Resistant_Ancient_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&amp;_Orserk",
+      "name": "Brothers of the Eternal Pyre Soul Leader Axel & Orserk",
+      "source_url": "https://paldb.cc/en/Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&amp;_Orserk",
+      "source_export": "data/raw/exports/en/Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&amp;_Orserk.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "PAL_Genetic_Research_Unit_Commander_Victor_&amp;_Shadowbeak",
+      "name": "PAL Genetic Research Unit Commander Victor & Shadowbeak",
+      "source_url": "https://paldb.cc/en/PAL_Genetic_Research_Unit_Commander_Victor_&amp;_Shadowbeak",
+      "source_export": "data/raw/exports/en/PAL_Genetic_Research_Unit_Commander_Victor_&amp;_Shadowbeak.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Plasma_Rifle_Schematic_4",
+      "name": "Plasma Rifle Schematic 4",
+      "source_url": "https://paldb.cc/en/Plasma_Rifle_Schematic_4",
+      "source_export": "data/raw/exports/en/Plasma_Rifle_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Leader_of_the_Moonflowers_Saya_&amp;_Selyne",
+      "name": "Leader of the Moonflowers Saya & Selyne",
+      "source_url": "https://paldb.cc/en/Leader_of_the_Moonflowers_Saya_&amp;_Selyne",
+      "source_export": "data/raw/exports/en/Leader_of_the_Moonflowers_Saya_&amp;_Selyne.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Lightweight_Ancient_Armor_Schematic_4",
+      "name": "Lightweight Ancient Armor Schematic 4",
+      "source_url": "https://paldb.cc/en/Lightweight_Ancient_Armor_Schematic_4",
+      "source_export": "data/raw/exports/en/Lightweight_Ancient_Armor_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Jarl_of_Feybreak__Bjorn_&amp;_Bastigor",
+      "name": "Jarl of Feybreak Bjorn & Bastigor",
+      "source_url": "https://paldb.cc/en/Jarl_of_Feybreak__Bjorn_&amp;_Bastigor",
+      "source_export": "data/raw/exports/en/Jarl_of_Feybreak__Bjorn_&amp;_Bastigor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Beam_Launcher_Schematic_4",
+      "name": "Beam Launcher Schematic 4",
+      "source_url": "https://paldb.cc/en/Beam_Launcher_Schematic_4",
+      "source_export": "data/raw/exports/en/Beam_Launcher_Schematic_4.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "High_Keeper_of_the_Azure_Covenant_Auri_&amp;_Shaolong",
+      "name": "High Keeper of the Azure Covenant Auri & Shaolong",
+      "source_url": "https://paldb.cc/en/High_Keeper_of_the_Azure_Covenant_Auri_&amp;_Shaolong",
+      "source_export": "data/raw/exports/en/High_Keeper_of_the_Azure_Covenant_Auri_&amp;_Shaolong.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Old_Bow",
+      "name": "Old Bow",
+      "source_url": "https://paldb.cc/en/Old_Bow",
+      "source_export": "data/raw/exports/en/Old_Bow.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Crossbow",
+      "name": "Crossbow",
+      "source_url": "https://paldb.cc/en/Crossbow",
+      "source_export": "data/raw/exports/en/Crossbow.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Flamethrower",
+      "name": "Flamethrower",
+      "source_url": "https://paldb.cc/en/Flamethrower",
+      "source_export": "data/raw/exports/en/Flamethrower.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Grenade_Launcher",
+      "name": "Grenade Launcher",
+      "source_url": "https://paldb.cc/en/Grenade_Launcher",
+      "source_export": "data/raw/exports/en/Grenade_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Guided_Missile_Launcher",
+      "name": "Guided Missile Launcher",
+      "source_url": "https://paldb.cc/en/Guided_Missile_Launcher",
+      "source_export": "data/raw/exports/en/Guided_Missile_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Multi_Guided_Missile_Launcher",
+      "name": "Multi Guided Missile Launcher",
+      "source_url": "https://paldb.cc/en/Multi_Guided_Missile_Launcher",
+      "source_export": "data/raw/exports/en/Multi_Guided_Missile_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Gatling_Gun",
+      "name": "Gatling Gun",
+      "source_url": "https://paldb.cc/en/Gatling_Gun",
+      "source_export": "data/raw/exports/en/Gatling_Gun.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Semi-Auto_Shotgun",
+      "name": "Semi-Auto Shotgun",
+      "source_url": "https://paldb.cc/en/Semi-Auto_Shotgun",
+      "source_export": "data/raw/exports/en/Semi-Auto_Shotgun.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Old_Revolver",
+      "name": "Old Revolver",
+      "source_url": "https://paldb.cc/en/Old_Revolver",
+      "source_export": "data/raw/exports/en/Old_Revolver.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Makeshift_Assault_Rifle",
+      "name": "Makeshift Assault Rifle",
+      "source_url": "https://paldb.cc/en/Makeshift_Assault_Rifle",
+      "source_export": "data/raw/exports/en/Makeshift_Assault_Rifle.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Makeshift_SMG",
+      "name": "Makeshift SMG",
+      "source_url": "https://paldb.cc/en/Makeshift_SMG",
+      "source_export": "data/raw/exports/en/Makeshift_SMG.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Makeshift_Shotgun",
+      "name": "Makeshift Shotgun",
+      "source_url": "https://paldb.cc/en/Makeshift_Shotgun",
+      "source_export": "data/raw/exports/en/Makeshift_Shotgun.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Advanced_Bow",
+      "name": "Advanced Bow",
+      "source_url": "https://paldb.cc/en/Advanced_Bow",
+      "source_export": "data/raw/exports/en/Advanced_Bow.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Compound_Bow",
+      "name": "Compound Bow",
+      "source_url": "https://paldb.cc/en/Compound_Bow",
+      "source_export": "data/raw/exports/en/Compound_Bow.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Advanced_Fishing_Rod_(Depresso)",
+      "name": "Advanced Fishing Rod (Depresso)",
+      "source_url": "https://paldb.cc/en/Advanced_Fishing_Rod_(Depresso)",
+      "source_export": "data/raw/exports/en/Advanced_Fishing_Rod_(Depresso).html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Excalibur",
+      "name": "Excalibur",
+      "source_url": "https://paldb.cc/en/Excalibur",
+      "source_export": "data/raw/exports/en/Excalibur.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Mechanical_Bow",
+      "name": "Mechanical Bow",
+      "source_url": "https://paldb.cc/en/Mechanical_Bow",
+      "source_export": "data/raw/exports/en/Mechanical_Bow.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Combat_SMG",
+      "name": "Combat SMG",
+      "source_url": "https://paldb.cc/en/Combat_SMG",
+      "source_export": "data/raw/exports/en/Combat_SMG.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Prototype_Shotgun",
+      "name": "Prototype Shotgun",
+      "source_url": "https://paldb.cc/en/Prototype_Shotgun",
+      "source_export": "data/raw/exports/en/Prototype_Shotgun.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heavy_Assault_Rifle",
+      "name": "Heavy Assault Rifle",
+      "source_url": "https://paldb.cc/en/Heavy_Assault_Rifle",
+      "source_export": "data/raw/exports/en/Heavy_Assault_Rifle.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Tactical_Grenade_Launcher",
+      "name": "Tactical Grenade Launcher",
+      "source_url": "https://paldb.cc/en/Tactical_Grenade_Launcher",
+      "source_export": "data/raw/exports/en/Tactical_Grenade_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Laser_Sword",
+      "name": "Laser Sword",
+      "source_url": "https://paldb.cc/en/Laser_Sword",
+      "source_export": "data/raw/exports/en/Laser_Sword.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Beam_Scatter",
+      "name": "Beam Scatter",
+      "source_url": "https://paldb.cc/en/Beam_Scatter",
+      "source_export": "data/raw/exports/en/Beam_Scatter.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Drone_Launcher",
+      "name": "Drone Launcher",
+      "source_url": "https://paldb.cc/en/Drone_Launcher",
+      "source_export": "data/raw/exports/en/Drone_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Plasma_Rifle",
+      "name": "Plasma Rifle",
+      "source_url": "https://paldb.cc/en/Plasma_Rifle",
+      "source_export": "data/raw/exports/en/Plasma_Rifle.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Beam_Launcher",
+      "name": "Beam Launcher",
+      "source_url": "https://paldb.cc/en/Beam_Launcher",
+      "source_export": "data/raw/exports/en/Beam_Launcher.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Sword",
+      "name": "Sword",
+      "source_url": "https://paldb.cc/en/Sword",
+      "source_export": "data/raw/exports/en/Sword.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Katana",
+      "name": "Katana",
+      "source_url": "https://paldb.cc/en/Katana",
+      "source_export": "data/raw/exports/en/Katana.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Beam_Sword",
+      "name": "Beam Sword",
+      "source_url": "https://paldb.cc/en/Beam_Sword",
+      "source_export": "data/raw/exports/en/Beam_Sword.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Metal_Bat",
+      "name": "Metal Bat",
+      "source_url": "https://paldb.cc/en/Metal_Bat",
+      "source_export": "data/raw/exports/en/Metal_Bat.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Pelt_Armor",
+      "name": "Pelt Armor",
+      "source_url": "https://paldb.cc/en/Pelt_Armor",
+      "source_export": "data/raw/exports/en/Pelt_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Refined_Metal_Armor",
+      "name": "Refined Metal Armor",
+      "source_url": "https://paldb.cc/en/Refined_Metal_Armor",
+      "source_export": "data/raw/exports/en/Refined_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Pal_Metal_Armor",
+      "name": "Pal Metal Armor",
+      "source_url": "https://paldb.cc/en/Pal_Metal_Armor",
+      "source_export": "data/raw/exports/en/Pal_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Refined_Metal_Helm",
+      "name": "Refined Metal Helm",
+      "source_url": "https://paldb.cc/en/Refined_Metal_Helm",
+      "source_export": "data/raw/exports/en/Refined_Metal_Helm.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Pal_Metal_Helm",
+      "name": "Pal Metal Helm",
+      "source_url": "https://paldb.cc/en/Pal_Metal_Helm",
+      "source_export": "data/raw/exports/en/Pal_Metal_Helm.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Tropical_Outfit",
+      "name": "Tropical Outfit",
+      "source_url": "https://paldb.cc/en/Tropical_Outfit",
+      "source_export": "data/raw/exports/en/Tropical_Outfit.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Tundra_Outfit",
+      "name": "Tundra Outfit",
+      "source_url": "https://paldb.cc/en/Tundra_Outfit",
+      "source_export": "data/raw/exports/en/Tundra_Outfit.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Pelt_Armor",
+      "name": "Heat Resistant Pelt Armor",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Pelt_Armor",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Pelt_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Pelt_Armor",
+      "name": "Cold Resistant Pelt Armor",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Pelt_Armor",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Pelt_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Metal_Armor",
+      "name": "Heat Resistant Metal Armor",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Metal_Armor",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Metal_Armor",
+      "name": "Cold Resistant Metal Armor",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Metal_Armor",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Pal_Metal_Armor",
+      "name": "Heat Resistant Pal Metal Armor",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Pal_Metal_Armor",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Pal_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Pal_Metal_Armor",
+      "name": "Cold Resistant Pal Metal Armor",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Pal_Metal_Armor",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Pal_Metal_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Plasteel_Armor",
+      "name": "Plasteel Armor",
+      "source_url": "https://paldb.cc/en/Plasteel_Armor",
+      "source_export": "data/raw/exports/en/Plasteel_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Plasteel_Armor",
+      "name": "Heat Resistant Plasteel Armor",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Plasteel_Armor",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Plasteel_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Plasteel_Armor",
+      "name": "Cold Resistant Plasteel Armor",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Plasteel_Armor",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Plasteel_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Lightweight_Plasteel_Armor",
+      "name": "Lightweight Plasteel Armor",
+      "source_url": "https://paldb.cc/en/Lightweight_Plasteel_Armor",
+      "source_export": "data/raw/exports/en/Lightweight_Plasteel_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Plasteel_Helmet",
+      "name": "Plasteel Helmet",
+      "source_url": "https://paldb.cc/en/Plasteel_Helmet",
+      "source_export": "data/raw/exports/en/Plasteel_Helmet.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hexolite_Armor",
+      "name": "Hexolite Armor",
+      "source_url": "https://paldb.cc/en/Hexolite_Armor",
+      "source_export": "data/raw/exports/en/Hexolite_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat_Resistant_Hexolite_Armor",
+      "name": "Heat Resistant Hexolite Armor",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Hexolite_Armor",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Hexolite_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold_Resistant_Hexolite_Armor",
+      "name": "Cold Resistant Hexolite Armor",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Hexolite_Armor",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Hexolite_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hallowed_Mask",
+      "name": "Hallowed Mask",
+      "source_url": "https://paldb.cc/en/Hallowed_Mask",
+      "source_export": "data/raw/exports/en/Hallowed_Mask.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hallowed_Headgear",
+      "name": "Hallowed Headgear",
+      "source_url": "https://paldb.cc/en/Hallowed_Headgear",
+      "source_export": "data/raw/exports/en/Hallowed_Headgear.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hallowed_Plate_Mail",
+      "name": "Hallowed Plate Mail",
+      "source_url": "https://paldb.cc/en/Hallowed_Plate_Mail",
+      "source_export": "data/raw/exports/en/Hallowed_Plate_Mail.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hallowed_Helmet",
+      "name": "Hallowed Helmet",
+      "source_url": "https://paldb.cc/en/Hallowed_Helmet",
+      "source_export": "data/raw/exports/en/Hallowed_Helmet.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Hallowed_Hood",
+      "name": "Hallowed Hood",
+      "source_url": "https://paldb.cc/en/Hallowed_Hood",
+      "source_export": "data/raw/exports/en/Hallowed_Hood.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Ancient_Helm",
+      "name": "Ancient Helm",
+      "source_url": "https://paldb.cc/en/Ancient_Helm",
+      "source_export": "data/raw/exports/en/Ancient_Helm.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Ancient_Armor",
+      "name": "Ancient Armor",
+      "source_url": "https://paldb.cc/en/Ancient_Armor",
+      "source_export": "data/raw/exports/en/Ancient_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Heat-Resistant_Ancient_Armor",
+      "name": "Heat-Resistant Ancient Armor",
+      "source_url": "https://paldb.cc/en/Heat-Resistant_Ancient_Armor",
+      "source_export": "data/raw/exports/en/Heat-Resistant_Ancient_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Cold-Resistant_Ancient_Armor",
+      "name": "Cold-Resistant Ancient Armor",
+      "source_url": "https://paldb.cc/en/Cold-Resistant_Ancient_Armor",
+      "source_export": "data/raw/exports/en/Cold-Resistant_Ancient_Armor.html",
+      "from_index": "Legendary.html"
+    },
+    {
+      "slug": "Lightweight_Ancient_Armor",
+      "name": "Lightweight Ancient Armor",
+      "source_url": "https://paldb.cc/en/Lightweight_Ancient_Armor",
+      "source_export": "data/raw/exports/en/Lightweight_Ancient_Armor.html",
+      "from_index": "Legendary.html"
+    }
+  ]
+}

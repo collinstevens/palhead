@@ -38,6 +38,7 @@ Style vendor is **not** fed into normalize as game entities. Agents and UI work 
 | `npm run style:import` | Latest **wowhead** sample publish → `data/style-vendor/` |
 | `npm run data:normalize` | Vendor → `data/normalized/` |
 | `npm run build` | **both imports** + normalize + SSG |
+| `npm run build:ci` | Same as build; in CI, reuses committed `data/vendor/` and skips missing style source |
 | `npm run build:html` | normalize + SSG (reuse current vendors) |
 | `npm run build:static` | SSG only |
 
@@ -62,7 +63,24 @@ Style vendor is **not** fed into normalize as game entities. Agents and UI work 
 
 ## Git
 
-`data/vendor/`, `data/style-vendor/`, and `data/normalized/` contents are gitignored (dirs kept via `.gitkeep`).
+| Path | Tracked? | Notes |
+|------|----------|--------|
+| `data/vendor/` | **Yes** | Pinned game snapshot for CI / reproducible deploys |
+| `data/style-vendor/` | No (gitignored) | UX reference only; not required for SSG |
+| `data/normalized/` | No (gitignored) | Built in CI and locally from vendor |
+
+After refreshing game data locally (`npm run data:import`), **commit `data/vendor/`** so production CI deploys the new snapshot.
+
+## CI deploy
+
+Push to `master` (or `main`) runs `.github/workflows/deploy.yml`: `npm run build:ci` → Cloudflare Pages (`--branch master`).
+
+Required GitHub repo secrets:
+
+| Secret | Purpose |
+|--------|---------|
+| `CLOUDFLARE_API_TOKEN` | API token with **Cloudflare Pages — Edit** (and Account read) |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account id (see `npx wrangler whoami`) |
 
 ## Normalized game outputs
 

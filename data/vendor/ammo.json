@@ -1,0 +1,3003 @@
+{
+  "generated_at": "2026-07-16T22:55:35.697952+00:00",
+  "language": "en",
+  "count": 38,
+  "ammo": [
+    {
+      "id": "SFArrow",
+      "slug": "Advanced_Arrow",
+      "name": "Advanced Arrow",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Enhanced arrows for shooting with Advanced Bow . Can be crafted at Primitive Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Plasteel",
+          "quantity": 2
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 5
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Advanced_Arrow",
+      "source_export": "data/raw/exports/en/Advanced_Arrow.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SFArrow",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SFArrow",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 19,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Arrow",
+      "slug": "Arrow",
+      "name": "Arrow",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Arrow s for use with bows. Can be crafted at Primitive Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Wood",
+          "quantity": 2
+        },
+        {
+          "slug": "Stone",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Arrow",
+      "source_export": "data/raw/exports/en/Arrow.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "Arrow",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "Arrow",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 15,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "20s"
+        },
+        {
+          "level": 2,
+          "time": "13s"
+        },
+        {
+          "level": 3,
+          "time": "8s"
+        },
+        {
+          "level": 4,
+          "time": "5s"
+        },
+        {
+          "level": 5,
+          "time": "3s"
+        },
+        {
+          "level": 6,
+          "time": "2s"
+        },
+        {
+          "level": 7,
+          "time": "0.91s"
+        },
+        {
+          "level": 8,
+          "time": "0.53s"
+        },
+        {
+          "level": 9,
+          "time": "0.31s"
+        },
+        {
+          "level": 10,
+          "time": "0.19s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "AssaultRifleBullet",
+      "slug": "Assault_Rifle_Ammo",
+      "name": "Assault Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Assault Rifle and similar weapons. Can be crafted at Weapon Assembly Line .",
+      "recipe_materials": [
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Assault_Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Assault_Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "AssaultRifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "AssaultRifleBullet",
+      "rarity_label": "Common",
+      "rank": 3,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 26,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "BeamLauncherBullet",
+      "slug": "Beam_Launcher_Ammo",
+      "name": "Beam Launcher Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Beam Launcher . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "quantity": 6
+        },
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Beam_Launcher_Ammo",
+      "source_export": "data/raw/exports/en/Beam_Launcher_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "BeamLauncherBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "BeamLauncherBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 43,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h40m0s"
+        },
+        {
+          "level": 2,
+          "time": "1h2m30s"
+        },
+        {
+          "level": 3,
+          "time": "35m42s"
+        },
+        {
+          "level": 4,
+          "time": "20m50s"
+        },
+        {
+          "level": 5,
+          "time": "12m30s"
+        },
+        {
+          "level": 6,
+          "time": "7m21s"
+        },
+        {
+          "level": 7,
+          "time": "4m32s"
+        },
+        {
+          "level": 8,
+          "time": "2m37s"
+        },
+        {
+          "level": 9,
+          "time": "1m33s"
+        },
+        {
+          "level": 10,
+          "time": "56s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "WidePenetrateShotgunBullet",
+      "slug": "Beam_Scatter_Ammo",
+      "name": "Beam Scatter Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Beam Scatter . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Beam_Scatter_Ammo",
+      "source_export": "data/raw/exports/en/Beam_Scatter_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "WidePenetrateShotgunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "WidePenetrateShotgunBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 41,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h40m0s"
+        },
+        {
+          "level": 2,
+          "time": "1h2m30s"
+        },
+        {
+          "level": 3,
+          "time": "35m42s"
+        },
+        {
+          "level": 4,
+          "time": "20m50s"
+        },
+        {
+          "level": 5,
+          "time": "12m30s"
+        },
+        {
+          "level": 6,
+          "time": "7m21s"
+        },
+        {
+          "level": 7,
+          "time": "4m32s"
+        },
+        {
+          "level": 8,
+          "time": "2m37s"
+        },
+        {
+          "level": 9,
+          "time": "1m33s"
+        },
+        {
+          "level": 10,
+          "time": "56s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "PalDopingShotBullet",
+      "slug": "Boost_Gun_Ammo",
+      "name": "Boost Gun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Boost Gun and similar weapons. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Electric_Organ",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Boost_Gun_Ammo",
+      "source_export": "data/raw/exports/en/Boost_Gun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "PalDopingShotBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "PalDopingShotBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 40,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "ChargeLaserRifleBullet",
+      "slug": "Charge_Rifle_Ammo",
+      "name": "Charge Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Charge Rifle and similar weapons. Can be crafted at Advanced Weapon Assembly Line .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Thermal_Core",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Charge_Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Charge_Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "ChargeLaserRifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "ChargeLaserRifleBullet",
+      "rarity_label": "Common",
+      "rank": 5,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 37,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "RoughBullet",
+      "slug": "Coarse_Ammo",
+      "name": "Coarse Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Musket , Makeshift Handgun , and similar weapons. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Coarse_Ammo",
+      "source_export": "data/raw/exports/en/Coarse_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "RoughBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "RoughBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 20,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SkySubmachineGunBullet",
+      "slug": "Combat_SMG_Ammo",
+      "name": "Combat SMG Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Combat SMG . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 6
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Combat_SMG_Ammo",
+      "source_export": "data/raw/exports/en/Combat_SMG_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SkySubmachineGunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SkySubmachineGunBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 45,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h23m20s"
+        },
+        {
+          "level": 2,
+          "time": "52m5s"
+        },
+        {
+          "level": 3,
+          "time": "29m45s"
+        },
+        {
+          "level": 4,
+          "time": "17m21s"
+        },
+        {
+          "level": 5,
+          "time": "10m25s"
+        },
+        {
+          "level": 6,
+          "time": "6m7s"
+        },
+        {
+          "level": 7,
+          "time": "3m47s"
+        },
+        {
+          "level": 8,
+          "time": "2m11s"
+        },
+        {
+          "level": 9,
+          "time": "1m18s"
+        },
+        {
+          "level": 10,
+          "time": "47s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "InkBullet",
+      "slug": "Decal_Ink",
+      "name": "Decal Ink",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for Decal Guns. Uses ink to paint a picture of a Pal. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Aquatic_Pal_Fluids",
+          "quantity": 1
+        },
+        {
+          "slug": "High_Quality_Pal_Oil",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Decal_Ink",
+      "source_export": "data/raw/exports/en/Decal_Ink.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "InkBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "InkBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.05,
+      "sneak_attack_rate": 1,
+      "sort_id": 28,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10s"
+        },
+        {
+          "level": 2,
+          "time": "7s"
+        },
+        {
+          "level": 3,
+          "time": "4s"
+        },
+        {
+          "level": 4,
+          "time": "3s"
+        },
+        {
+          "level": 5,
+          "time": "2s"
+        },
+        {
+          "level": 6,
+          "time": "0.74s"
+        },
+        {
+          "level": 7,
+          "time": "0.45s"
+        },
+        {
+          "level": 8,
+          "time": "0.26s"
+        },
+        {
+          "level": 9,
+          "time": "0.16s"
+        },
+        {
+          "level": 10,
+          "time": "0.09s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "LaserBullet",
+      "slug": "Energy_Cartridge",
+      "name": "Energy Cartridge",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Laser Rifle and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Energy_Cartridge",
+      "source_export": "data/raw/exports/en/Energy_Cartridge.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "LaserBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "LaserBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 34,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "EnergyShotgunBullet",
+      "slug": "Energy_Shotgun_Ammo",
+      "name": "Energy Shotgun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Energy Shotgun and similar weapons. Can be crafted at Advanced Weapon Assembly Line .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Hexolite",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Energy_Shotgun_Ammo",
+      "source_export": "data/raw/exports/en/Energy_Shotgun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "EnergyShotgunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "EnergyShotgunBullet",
+      "rarity_label": "Common",
+      "rank": 5,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 39,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Arrow_Fire",
+      "slug": "Fire_Arrow",
+      "name": "Fire Arrow",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Fire Arrow s for use with bows. Deals Fire damage on contact. Can be crafted at Primitive Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Wood",
+          "quantity": 2
+        },
+        {
+          "slug": "Stone",
+          "quantity": 2
+        },
+        {
+          "slug": "Flame_Organ",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Fire_Arrow",
+      "source_export": "data/raw/exports/en/Fire_Arrow.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "Arrow_Fire",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "Arrow_Fire",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 17,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1m20s"
+        },
+        {
+          "level": 2,
+          "time": "50s"
+        },
+        {
+          "level": 3,
+          "time": "29s"
+        },
+        {
+          "level": 4,
+          "time": "17s"
+        },
+        {
+          "level": 5,
+          "time": "10s"
+        },
+        {
+          "level": 6,
+          "time": "6s"
+        },
+        {
+          "level": 7,
+          "time": "4s"
+        },
+        {
+          "level": 8,
+          "time": "3s"
+        },
+        {
+          "level": 9,
+          "time": "2s"
+        },
+        {
+          "level": 10,
+          "time": "0.74s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "FlamethrowerBullet",
+      "slug": "Flamethrower_Fuel",
+      "name": "Flamethrower Fuel",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Flamethrower and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Crude_Oil",
+          "quantity": 2
+        },
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Flamethrower_Fuel",
+      "source_export": "data/raw/exports/en/Flamethrower_Fuel.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "FlamethrowerBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "FlamethrowerBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 29,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "33m20s"
+        },
+        {
+          "level": 2,
+          "time": "20m50s"
+        },
+        {
+          "level": 3,
+          "time": "11m54s"
+        },
+        {
+          "level": 4,
+          "time": "6m56s"
+        },
+        {
+          "level": 5,
+          "time": "4m10s"
+        },
+        {
+          "level": 6,
+          "time": "2m27s"
+        },
+        {
+          "level": 7,
+          "time": "1m30s"
+        },
+        {
+          "level": 8,
+          "time": "53s"
+        },
+        {
+          "level": 9,
+          "time": "32s"
+        },
+        {
+          "level": 10,
+          "time": "19s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Gatling_Gun_Ammo",
+      "slug": "Gatling_Gun_Ammo",
+      "name": "Gatling Gun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Gatling Gun and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Gatling_Gun_Ammo",
+      "source_export": "data/raw/exports/en/Gatling_Gun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": true
+    },
+    {
+      "id": "GrenadeBullet",
+      "slug": "Grenade_Ammo",
+      "name": "Grenade Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Grenade Launcher and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Fiber",
+          "quantity": 20
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Grenade_Ammo",
+      "source_export": "data/raw/exports/en/Grenade_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "GrenadeBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "GrenadeBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "sneak_attack_rate": 1,
+      "sort_id": 31,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "33m20s"
+        },
+        {
+          "level": 2,
+          "time": "20m50s"
+        },
+        {
+          "level": 3,
+          "time": "11m54s"
+        },
+        {
+          "level": 4,
+          "time": "6m56s"
+        },
+        {
+          "level": 5,
+          "time": "4m10s"
+        },
+        {
+          "level": 6,
+          "time": "2m27s"
+        },
+        {
+          "level": 7,
+          "time": "1m30s"
+        },
+        {
+          "level": 8,
+          "time": "53s"
+        },
+        {
+          "level": 9,
+          "time": "32s"
+        },
+        {
+          "level": 10,
+          "time": "19s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "HandgunBullet",
+      "slug": "Handgun_Ammo",
+      "name": "Handgun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Handgun and similar weapons. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Handgun_Ammo",
+      "source_export": "data/raw/exports/en/Handgun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "HandgunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "HandgunBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 21,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SkyAssaultRifleBullet",
+      "slug": "Heavy_Assault_Rifle_Ammo",
+      "name": "Heavy Assault Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Heavy Assault Rifle . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Heavy_Assault_Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Heavy_Assault_Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SkyAssaultRifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SkyAssaultRifleBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 47,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h23m20s"
+        },
+        {
+          "level": 2,
+          "time": "52m5s"
+        },
+        {
+          "level": 3,
+          "time": "29m45s"
+        },
+        {
+          "level": 4,
+          "time": "17m21s"
+        },
+        {
+          "level": 5,
+          "time": "10m25s"
+        },
+        {
+          "level": 6,
+          "time": "6m7s"
+        },
+        {
+          "level": 7,
+          "time": "3m47s"
+        },
+        {
+          "level": 8,
+          "time": "2m11s"
+        },
+        {
+          "level": 9,
+          "time": "1m18s"
+        },
+        {
+          "level": 10,
+          "time": "47s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "LargeBullet",
+      "slug": "LargeBullet",
+      "name": "LargeBullet",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "en Text",
+      "recipe_materials": [
+        {
+          "slug": "Ammo",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/LargeBullet",
+      "source_export": "data/raw/exports/en/LargeBullet.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "LargeBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "LargeBullet",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "LaserGatlingBullet",
+      "slug": "Laser_Gatling_Cartridge",
+      "name": "Laser Gatling Cartridge",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Laser Gatling Gun and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Plasteel",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Laser_Gatling_Cartridge",
+      "source_export": "data/raw/exports/en/Laser_Gatling_Cartridge.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "LaserGatlingBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "LaserGatlingBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 36,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "MachingunBullet",
+      "slug": "Machine_Gun_Ammo",
+      "name": "Machine Gun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for and other similar weapons.",
+      "recipe_materials": [
+        {
+          "slug": "Ammo",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Machine_Gun_Ammo",
+      "source_export": "data/raw/exports/en/Machine_Gun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "MachingunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "MachingunBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 25,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "MagnumBullet",
+      "slug": "Magnum_Ammo",
+      "name": "Magnum Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for and other similar weapons.",
+      "recipe_materials": [
+        {
+          "slug": "Ammo",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Magnum_Ammo",
+      "source_export": "data/raw/exports/en/Magnum_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "MagnumBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "MagnumBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 22,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "SkyBowArrow",
+      "slug": "Mechanical_Bow_Ammo",
+      "name": "Mechanical Bow Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Enhanced arrows for shooting with Mechanical Bow . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Mechanical_Bow_Ammo",
+      "source_export": "data/raw/exports/en/Mechanical_Bow_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SkyBowArrow",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SkyBowArrow",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 44,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h23m20s"
+        },
+        {
+          "level": 2,
+          "time": "52m5s"
+        },
+        {
+          "level": 3,
+          "time": "29m45s"
+        },
+        {
+          "level": 4,
+          "time": "17m21s"
+        },
+        {
+          "level": 5,
+          "time": "10m25s"
+        },
+        {
+          "level": 6,
+          "time": "6m7s"
+        },
+        {
+          "level": 7,
+          "time": "3m47s"
+        },
+        {
+          "level": 8,
+          "time": "2m11s"
+        },
+        {
+          "level": 9,
+          "time": "1m18s"
+        },
+        {
+          "level": 10,
+          "time": "47s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "MeteorBullet",
+      "slug": "Meteorite_Ammo",
+      "name": "Meteorite Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Meteor Launcher and similar weapons. Can be crafted at Weapon Assembly Line .",
+      "recipe_materials": [
+        {
+          "slug": "Meteorite_Fragment",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Meteorite_Ammo",
+      "source_export": "data/raw/exports/en/Meteorite_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "MeteorBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "MeteorBullet",
+      "rarity_label": "Common",
+      "rank": 3,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "sneak_attack_rate": 1,
+      "sort_id": 33,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "MissileBullet",
+      "slug": "Missile_Ammo",
+      "name": "Missile Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Guided Missile Launcher and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Crude_Oil",
+          "quantity": 1
+        },
+        {
+          "slug": "Computer",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Missile_Ammo",
+      "source_export": "data/raw/exports/en/Missile_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "MissileBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "MissileBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "sneak_attack_rate": 1,
+      "sort_id": 30,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "OverheatRifleBullet",
+      "slug": "Overheat_Rifle_Ammo",
+      "name": "Overheat Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Overheat Rifle and similar weapons. Can be crafted at Advanced Weapon Assembly Line .",
+      "recipe_materials": [
+        {
+          "slug": "Thermal_Core",
+          "quantity": 1
+        },
+        {
+          "slug": "Hexolite",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Overheat_Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Overheat_Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "OverheatRifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "OverheatRifleBullet",
+      "rarity_label": "Common",
+      "rank": 5,
+      "max_stack_count": 9999,
+      "weight": 0.01,
+      "sneak_attack_rate": 1,
+      "sort_id": 38,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "EnergyLauncherBullet",
+      "slug": "Plasma_Cartridge",
+      "name": "Plasma Cartridge",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Plasma Cannon and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Thermal_Core",
+          "quantity": 1
+        },
+        {
+          "slug": "Hexolite",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Plasma_Cartridge",
+      "source_export": "data/raw/exports/en/Plasma_Cartridge.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "EnergyLauncherBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "EnergyLauncherBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.5,
+      "sneak_attack_rate": 1,
+      "sort_id": 35,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h6m40s"
+        },
+        {
+          "level": 2,
+          "time": "41m40s"
+        },
+        {
+          "level": 3,
+          "time": "23m48s"
+        },
+        {
+          "level": 4,
+          "time": "13m53s"
+        },
+        {
+          "level": 5,
+          "time": "8m20s"
+        },
+        {
+          "level": 6,
+          "time": "4m54s"
+        },
+        {
+          "level": 7,
+          "time": "3m1s"
+        },
+        {
+          "level": 8,
+          "time": "1m45s"
+        },
+        {
+          "level": 9,
+          "time": "1m2s"
+        },
+        {
+          "level": 10,
+          "time": "38s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "ElectricArcAssaultRifleBullet",
+      "slug": "Plasma_Rifle_Ammo",
+      "name": "Plasma Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Plasma Rifle . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Bio_Battery",
+          "quantity": 1
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Plasma_Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Plasma_Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "ElectricArcAssaultRifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "ElectricArcAssaultRifleBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 42,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h40m0s"
+        },
+        {
+          "level": 2,
+          "time": "1h2m30s"
+        },
+        {
+          "level": 3,
+          "time": "35m42s"
+        },
+        {
+          "level": 4,
+          "time": "20m50s"
+        },
+        {
+          "level": 5,
+          "time": "12m30s"
+        },
+        {
+          "level": 6,
+          "time": "7m21s"
+        },
+        {
+          "level": 7,
+          "time": "4m32s"
+        },
+        {
+          "level": 8,
+          "time": "2m37s"
+        },
+        {
+          "level": 9,
+          "time": "1m33s"
+        },
+        {
+          "level": 10,
+          "time": "56s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Arrow_Poison",
+      "slug": "Poison_Arrow",
+      "name": "Poison Arrow",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Poison Arrow s for use with bows. Afflicts target with Poison on contact. Can be crafted at Primitive Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Wood",
+          "quantity": 2
+        },
+        {
+          "slug": "Stone",
+          "quantity": 2
+        },
+        {
+          "slug": "Venom_Gland",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Poison_Arrow",
+      "source_export": "data/raw/exports/en/Poison_Arrow.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "Arrow_Poison",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "Arrow_Poison",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 16,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1m20s"
+        },
+        {
+          "level": 2,
+          "time": "50s"
+        },
+        {
+          "level": 3,
+          "time": "29s"
+        },
+        {
+          "level": 4,
+          "time": "17s"
+        },
+        {
+          "level": 5,
+          "time": "10s"
+        },
+        {
+          "level": 6,
+          "time": "6s"
+        },
+        {
+          "level": 7,
+          "time": "4s"
+        },
+        {
+          "level": 8,
+          "time": "3s"
+        },
+        {
+          "level": 9,
+          "time": "2s"
+        },
+        {
+          "level": 10,
+          "time": "0.74s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SkyShotgunBullet",
+      "slug": "Prototype_Shotgun_Ammo",
+      "name": "Prototype Shotgun Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Prototype Shotgun . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 4
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 8
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Prototype_Shotgun_Ammo",
+      "source_export": "data/raw/exports/en/Prototype_Shotgun_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SkyShotgunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SkyShotgunBullet",
+      "rarity_label": "Common",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 46,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h23m20s"
+        },
+        {
+          "level": 2,
+          "time": "52m5s"
+        },
+        {
+          "level": 3,
+          "time": "29m45s"
+        },
+        {
+          "level": 4,
+          "time": "17m21s"
+        },
+        {
+          "level": 5,
+          "time": "10m25s"
+        },
+        {
+          "level": 6,
+          "time": "6m7s"
+        },
+        {
+          "level": 7,
+          "time": "3m47s"
+        },
+        {
+          "level": 8,
+          "time": "2m11s"
+        },
+        {
+          "level": 9,
+          "time": "1m18s"
+        },
+        {
+          "level": 10,
+          "time": "47s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Reinforced_Arrow",
+      "slug": "Reinforced_Arrow",
+      "name": "Reinforced Arrow",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Enhanced arrows for shooting with Compound Bow . Can be crafted at Primitive Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Reinforced_Arrow",
+      "source_export": "data/raw/exports/en/Reinforced_Arrow.html",
+      "from_index": "Ammo.html",
+      "export_thin": true
+    },
+    {
+      "id": "RifleBullet",
+      "slug": "Rifle_Ammo",
+      "name": "Rifle Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Single-Shot Rifle and similar weapons. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Rifle_Ammo",
+      "source_export": "data/raw/exports/en/Rifle_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "RifleBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "RifleBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 23,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "13m20s"
+        },
+        {
+          "level": 2,
+          "time": "8m20s"
+        },
+        {
+          "level": 3,
+          "time": "4m45s"
+        },
+        {
+          "level": 4,
+          "time": "2m46s"
+        },
+        {
+          "level": 5,
+          "time": "1m40s"
+        },
+        {
+          "level": 6,
+          "time": "59s"
+        },
+        {
+          "level": 7,
+          "time": "37s"
+        },
+        {
+          "level": 8,
+          "time": "22s"
+        },
+        {
+          "level": 9,
+          "time": "13s"
+        },
+        {
+          "level": 10,
+          "time": "8s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "ExplosiveBullet",
+      "slug": "Rocket_Ammo",
+      "name": "Rocket Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Rocket Launcher and similar weapons. Can be crafted at Weapon Assembly Line II .",
+      "recipe_materials": [
+        {
+          "slug": "Hexolite",
+          "quantity": 3
+        },
+        {
+          "slug": "Thermal_Core",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Rocket_Ammo",
+      "source_export": "data/raw/exports/en/Rocket_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "ExplosiveBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "ExplosiveBullet",
+      "rarity_label": "Common",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.5,
+      "sneak_attack_rate": 1,
+      "sort_id": 27,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "16m40s"
+        },
+        {
+          "level": 2,
+          "time": "10m25s"
+        },
+        {
+          "level": 3,
+          "time": "5m57s"
+        },
+        {
+          "level": 4,
+          "time": "3m28s"
+        },
+        {
+          "level": 5,
+          "time": "2m5s"
+        },
+        {
+          "level": 6,
+          "time": "1m13s"
+        },
+        {
+          "level": 7,
+          "time": "46s"
+        },
+        {
+          "level": 8,
+          "time": "27s"
+        },
+        {
+          "level": 9,
+          "time": "16s"
+        },
+        {
+          "level": 10,
+          "time": "10s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "ShotgunBullet",
+      "slug": "Shotgun_Shell",
+      "name": "Shotgun Shell",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for shotgun and similar weapons. Can be crafted at Weapon Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Shotgun_Shell",
+      "source_export": "data/raw/exports/en/Shotgun_Shell.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "ShotgunBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "ShotgunBullet",
+      "rarity_label": "Common",
+      "rank": 2,
+      "max_stack_count": 9999,
+      "weight": 0.025,
+      "sneak_attack_rate": 1,
+      "sort_id": 24,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "16m40s"
+        },
+        {
+          "level": 2,
+          "time": "10m25s"
+        },
+        {
+          "level": 3,
+          "time": "5m57s"
+        },
+        {
+          "level": 4,
+          "time": "3m28s"
+        },
+        {
+          "level": 5,
+          "time": "2m5s"
+        },
+        {
+          "level": 6,
+          "time": "1m13s"
+        },
+        {
+          "level": 7,
+          "time": "46s"
+        },
+        {
+          "level": 8,
+          "time": "27s"
+        },
+        {
+          "level": 9,
+          "time": "16s"
+        },
+        {
+          "level": 10,
+          "time": "10s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Weapon_Workbench",
+          "name": "Weapon Workbench"
+        },
+        {
+          "slug": "High_Quality_Workbench",
+          "name": "High Quality Workbench"
+        },
+        {
+          "slug": "Production_Assembly_Line",
+          "name": "Production Assembly Line"
+        },
+        {
+          "slug": "Production_Assembly_Line_II",
+          "name": "Production Assembly Line II"
+        },
+        {
+          "slug": "Weapon_Assembly_Line",
+          "name": "Weapon Assembly Line"
+        },
+        {
+          "slug": "Weapon_Assembly_Line_II",
+          "name": "Weapon Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Weapon_Assembly_Line",
+          "name": "Advanced Weapon Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SmallBullet",
+      "slug": "SmallBullet",
+      "name": "SmallBullet",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "en Text",
+      "recipe_materials": [
+        {
+          "slug": "Ammo",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/SmallBullet",
+      "source_export": "data/raw/exports/en/SmallBullet.html",
+      "from_index": "Ammo.html",
+      "export_thin": false,
+      "code": "SmallBullet",
+      "type_a": "Ammo",
+      "type_b": "ConsumeBullet",
+      "icon_name": "SmallBullet",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "sneak_attack_rate": 1,
+      "sort_id": 9999,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "Sunreach_Rapid-Fire_Ammo",
+      "slug": "Sunreach_Rapid-Fire_Ammo",
+      "name": "Sunreach Rapid-Fire Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "[WIP] Description not finalized. Ammo for the Combat SMG , Heavy Assault Rifle , and similar weapons.",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Sunreach_Rapid-Fire_Ammo",
+      "source_export": "data/raw/exports/en/Sunreach_Rapid-Fire_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": true
+    },
+    {
+      "id": "Sunreach_Single-Shot_Ammo",
+      "slug": "Sunreach_Single-Shot_Ammo",
+      "name": "Sunreach Single-Shot Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "[WIP] Description not finalized. Ammo for the Prototype Shotgun , Tactical Grenade Launcher , and similar weapons.",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Sunreach_Single-Shot_Ammo",
+      "source_export": "data/raw/exports/en/Sunreach_Single-Shot_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": true
+    },
+    {
+      "id": "Tactical_Grenade_Launcher_Ammo",
+      "slug": "Tactical_Grenade_Launcher_Ammo",
+      "name": "Tactical Grenade Launcher Ammo",
+      "category": "Ammo",
+      "rarity": "Common",
+      "description": "Ammo for the Tactical Grenade Launcher . Can be crafted at Ancient Workbench .",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 4
+        },
+        {
+          "slug": "Gunpowder",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Tactical_Grenade_Launcher_Ammo",
+      "source_export": "data/raw/exports/en/Tactical_Grenade_Launcher_Ammo.html",
+      "from_index": "Ammo.html",
+      "export_thin": true
+    }
+  ]
+}

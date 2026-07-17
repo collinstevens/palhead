@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-07-16T23:01:54.991163+00:00",
+  "language": "en",
+  "count": 1,
+  "san": {
+    "id": "SAN",
+    "slug": "SAN",
+    "name": "SAN",
+    "source_url": "https://paldb.cc/en/SAN",
+    "source_export": "data/raw/exports/en/SAN.html",
+    "thresholds": [
+      {
+        "san": 65,
+        "status": "Slacking off"
+      },
+      {
+        "san": 85,
+        "status": "Resting"
+      },
+      {
+        "san": 60,
+        "status": "Idling"
+      },
+      {
+        "san": 50,
+        "status": "Overeating"
+      },
+      {
+        "san": 50,
+        "status": "Destroying Feed Box"
+      },
+      {
+        "san": 0,
+        "status": "Rioting"
+      },
+      {
+        "san": 40,
+        "status": "Sick"
+      }
+    ],
+    "sicknesses": [
+      {
+        "name": "Sick",
+        "effects": "Work Speed -5",
+        "treatment": "Low Grade Medical Supplies"
+      },
+      {
+        "name": "Sprain",
+        "effects": "Movement Speed -5",
+        "treatment": "Low Grade Medical Supplies"
+      },
+      {
+        "name": "Overfull",
+        "effects": "Hunger depletion amount 50",
+        "treatment": "Low Grade Medical Supplies"
+      },
+      {
+        "name": "Ulcer",
+        "effects": "Work Speed -10 Movement Speed -5",
+        "treatment": "Medical Supplies"
+      },
+      {
+        "name": "Fracture",
+        "effects": "Work Speed -5 Movement Speed -10",
+        "treatment": "Medical Supplies"
+      },
+      {
+        "name": "Weakened",
+        "effects": "Work Speed -10 Movement Speed -20",
+        "treatment": "High Grade Medical Supplies"
+      },
+      {
+        "name": "Depressed",
+        "effects": "Work Speed -20 Movement Speed -10",
+        "treatment": "High Grade Medical Supplies"
+      }
+    ],
+    "raw_text_excerpt": "SAN /7 Search: name SAN: 65 Slacking off... SAN: 85 Resting... SAN: 60 Idling... SAN: 50 Overeating! SAN: 50 Destroying Feed Box! SAN: 0 Rioting! SAN: 40 Sick... Sick... /7 Search: name Sick Work Speed -5 Low Grade Medical Supplies Sprain Movement Speed -5 Low Grade Medical Supplies Overfull Hunger depletion amount 50 Low Grade Medical Supplies Ulcer Work Speed -10 Movement Speed -5 Medical Supplies Fracture Work Speed -5 Movement Speed -10 Medical Supplies Weakened Work Speed -10 Movement Speed -20 High Grade Medical Supplies Depressed Work Speed -20 Movement Speed -10 High Grade Medical Supplies Sites poedb.tw tlidb.com diablo4.cc --> poe2db.tw paldb.cc About Site Privacy About US Version v1.0.0 2026/7/10 Community This site is fan-made and not affiliated with Pocketpair in any way."
+  }
+}

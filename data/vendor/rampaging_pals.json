@@ -1,0 +1,1420 @@
+{
+  "generated_at": "2026-07-17T02:45:06.649697+00:00",
+  "language": "en",
+  "count": 45,
+  "rampaging_pals": [
+    {
+      "id": "Rampaging_Blazehowl_Noct",
+      "slug": "Rampaging_Blazehowl_Noct",
+      "name": "Rampaging Blazehowl Noct",
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Blazehowl_Noct.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Blazehowl_Noct",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Manticore_Dark",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Bushi_Noct",
+      "slug": "Rampaging_Bushi_Noct",
+      "name": "Rampaging Bushi Noct",
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Bushi_Noct.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Bushi_Noct",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Ronin_Dark",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Cryolinx_Terra",
+      "slug": "Rampaging_Cryolinx_Terra",
+      "name": "Rampaging Cryolinx Terra",
+      "elements": [
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Cryolinx_Terra.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Cryolinx_Terra",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_WhiteTiger_Ground",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Dazemu",
+      "slug": "Rampaging_Dazemu",
+      "name": "Rampaging Dazemu",
+      "elements": [
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Dazemu.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Dazemu",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_FeatherOstrich",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Digtoise",
+      "slug": "Rampaging_Digtoise",
+      "name": "Rampaging Digtoise",
+      "elements": [
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Digtoise.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Digtoise",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_DrillGame",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Dinossom",
+      "slug": "Rampaging_Dinossom",
+      "name": "Rampaging Dinossom",
+      "elements": [
+        "Grass",
+        "Dragon"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Dinossom.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Dinossom",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_FlowerDinosaur",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Direhowl",
+      "slug": "Rampaging_Direhowl",
+      "name": "Rampaging Direhowl",
+      "elements": [
+        "Neutral"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Direhowl.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Direhowl",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Garm",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Dogen",
+      "slug": "Rampaging_Dogen",
+      "name": "Rampaging Dogen",
+      "elements": [
+        "Neutral"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Dogen.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Dogen",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_SifuDog",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Elgrove_Cryst",
+      "slug": "Rampaging_Elgrove_Cryst",
+      "name": "Rampaging Elgrove Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Ice_Organ",
+          "name": "Ice Organ",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Elgrove_Cryst.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Elgrove_Cryst",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GrassMinotaur_Ice",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Elphidran",
+      "slug": "Rampaging_Elphidran",
+      "name": "Rampaging Elphidran",
+      "elements": [
+        "Dragon"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "3–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "3–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Elphidran.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Elphidran",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_FairyDragon",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Faleris_Aqua",
+      "slug": "Rampaging_Faleris_Aqua",
+      "name": "Rampaging Faleris Aqua",
+      "elements": [
+        "Water"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Faleris_Aqua.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Faleris_Aqua",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Horus_Water",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Gildane",
+      "slug": "Rampaging_Gildane",
+      "name": "Rampaging Gildane",
+      "elements": [
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Gildane.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Gildane",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GoldenHorse",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Gildra",
+      "slug": "Rampaging_Gildra",
+      "name": "Rampaging Gildra",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Gildra.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Gildra",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_MummyPal",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Gorirat",
+      "slug": "Rampaging_Gorirat",
+      "name": "Rampaging Gorirat",
+      "elements": [
+        "Neutral"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Gorirat.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Gorirat",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Gorilla",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Helzephyr_Lux",
+      "slug": "Rampaging_Helzephyr_Lux",
+      "name": "Rampaging Helzephyr Lux",
+      "elements": [
+        "Dark",
+        "Electric"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Helzephyr_Lux.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Helzephyr_Lux",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_HadesBird_Electric",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Incineram_Noct",
+      "slug": "Rampaging_Incineram_Noct",
+      "name": "Rampaging Incineram Noct",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Incineram_Noct.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Incineram_Noct",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Baphomet_Dark",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Jormuntide_Ignis",
+      "slug": "Rampaging_Jormuntide_Ignis",
+      "name": "Rampaging Jormuntide Ignis",
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Jormuntide_Ignis.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Jormuntide_Ignis",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Umihebi_Fire",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Kitsun",
+      "slug": "Rampaging_Kitsun",
+      "name": "Rampaging Kitsun",
+      "elements": [
+        "Fire"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Kitsun.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Kitsun",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_AmaterasuWolf",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Leafan",
+      "slug": "Rampaging_Leafan",
+      "name": "Rampaging Leafan",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Leafan.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Leafan",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_PandaGirl",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Loupmoon_Cryst",
+      "slug": "Rampaging_Loupmoon_Cryst",
+      "name": "Rampaging Loupmoon Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Loupmoon_Cryst.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Loupmoon_Cryst",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Werewolf_Ice",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Lovander",
+      "slug": "Rampaging_Lovander",
+      "name": "Rampaging Lovander",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Lovander.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Lovander",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_PinkLizard",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Mammorest_Cryst",
+      "slug": "Rampaging_Mammorest_Cryst",
+      "name": "Rampaging Mammorest Cryst",
+      "elements": [
+        "Ice",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Mammorest_Meat",
+          "name": "Mammorest Meat",
+          "quantity": "2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Mammorest_Cryst.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Mammorest_Cryst",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GrassMammoth_Ice",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Maraith",
+      "slug": "Rampaging_Maraith",
+      "name": "Rampaging Maraith",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Maraith.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Maraith",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GhostBeast",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Menasting",
+      "slug": "Rampaging_Menasting",
+      "name": "Rampaging Menasting",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Menasting.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Menasting",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_DarkScorpion",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Moldron",
+      "slug": "Rampaging_Moldron",
+      "name": "Rampaging Moldron",
+      "elements": [
+        "Fire",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Moldron.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Moldron",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_VolcanoDragon",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Mossanda",
+      "slug": "Rampaging_Mossanda",
+      "name": "Rampaging Mossanda",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Mossanda.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Mossanda",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GrassPanda",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Omascul",
+      "slug": "Rampaging_Omascul",
+      "name": "Rampaging Omascul",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Omascul.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Omascul",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_MysteryMask",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Prixter",
+      "slug": "Rampaging_Prixter",
+      "name": "Rampaging Prixter",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Prixter.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Prixter",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_ScorpionMan",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Ragnahawk",
+      "slug": "Rampaging_Ragnahawk",
+      "name": "Rampaging Ragnahawk",
+      "elements": [
+        "Fire"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Ragnahawk.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Ragnahawk",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_RedArmorBird",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Rayhound",
+      "slug": "Rampaging_Rayhound",
+      "name": "Rampaging Rayhound",
+      "elements": [
+        "Electric"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Rayhound.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Rayhound",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_ThunderDog",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Relaxaurus",
+      "slug": "Rampaging_Relaxaurus",
+      "name": "Rampaging Relaxaurus",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Relaxaurus.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Relaxaurus",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_LazyDragon",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Reptyro_Cryst",
+      "slug": "Rampaging_Reptyro_Cryst",
+      "name": "Rampaging Reptyro Cryst",
+      "elements": [
+        "Ice",
+        "Ground"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Reptyro_Cryst.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Reptyro_Cryst",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_VolcanicMonster_Ice",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Shroomer",
+      "slug": "Rampaging_Shroomer",
+      "name": "Rampaging Shroomer",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "3–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "3–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Shroomer.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Shroomer",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_MushroomDragon",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Silvegis",
+      "slug": "Rampaging_Silvegis",
+      "name": "Rampaging Silvegis",
+      "elements": [
+        "Dragon"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Chromite",
+          "name": "Chromite",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Silvegis.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Silvegis",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_WhiteShieldDragon_Quest",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Solenne",
+      "slug": "Rampaging_Solenne",
+      "name": "Rampaging Solenne",
+      "elements": [
+        "Dark",
+        "Neutral"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Solenne.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Solenne",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_MonochromeQueen",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Sootseer",
+      "slug": "Rampaging_Sootseer",
+      "name": "Rampaging Sootseer",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Sootseer.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Sootseer",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_CandleGhost",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Splatterina",
+      "slug": "Rampaging_Splatterina",
+      "name": "Rampaging Splatterina",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "3–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "3–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Splatterina.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Splatterina",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_GrimGirl",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Starryon",
+      "slug": "Rampaging_Starryon",
+      "name": "Rampaging Starryon",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Starryon.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Starryon",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_NightBlueHorse",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Suzaku",
+      "slug": "Rampaging_Suzaku",
+      "name": "Rampaging Suzaku",
+      "elements": [
+        "Fire"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Suzaku.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Suzaku",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Suzaku",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Tarantriss",
+      "slug": "Rampaging_Tarantriss",
+      "name": "Rampaging Tarantriss",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1–2",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1–2",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Tarantriss.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Tarantriss",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_PurpleSpider",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Tropicaw",
+      "slug": "Rampaging_Tropicaw",
+      "name": "Rampaging Tropicaw",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Tropicaw.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Tropicaw",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_RedFlowerBird",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Vanwyrm",
+      "slug": "Rampaging_Vanwyrm",
+      "name": "Rampaging Vanwyrm",
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "1",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "1",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Vanwyrm.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Vanwyrm",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_BirdDragon",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Venusa",
+      "slug": "Rampaging_Venusa",
+      "name": "Rampaging Venusa",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–3",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–3",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Venusa.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Venusa",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_SnakeGirl",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Wumpo",
+      "slug": "Rampaging_Wumpo",
+      "name": "Rampaging Wumpo",
+      "elements": [
+        "Ice"
+      ],
+      "drops": [
+        {
+          "slug": "Predator_Core",
+          "name": "Predator Core",
+          "quantity": "2–4",
+          "rate": 100.0
+        },
+        {
+          "slug": "Giant_Pal_Soul",
+          "name": "Giant Pal Soul",
+          "quantity": "2–4",
+          "rate": 100.0
+        }
+      ],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rampaging_Wumpo.html",
+      "source_url": "https://paldb.cc/en/Rampaging_Wumpo",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_Yeti",
+      "is_pal": true
+    },
+    {
+      "id": "Rampaging_Flopie",
+      "slug": "Rampaging_Flopie",
+      "name": "Rampaging_Flopie",
+      "elements": [],
+      "drops": [],
+      "level": null,
+      "hp": null,
+      "badges": [],
+      "location": null,
+      "source_url": "https://paldb.cc/en/Rampaging_Flopie",
+      "source_export": "data/raw/exports/en/Rampaging_Flopie.html",
+      "from_index": "Rampaging.html",
+      "code": "PREDATOR_FlowerRabbit_Quest",
+      "is_pal": true
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "generated_at": "2026-07-17T02:45:03.616519+00:00",
+  "language": "en",
+  "count": 9,
+  "source_url": "https://paldb.cc/en/Awakening",
+  "source_export": "data/raw/exports/en/Awakening.html",
+  "paragraphs": [
+    "Awakening lets you strengthen your Pals even further.",
+    "In the newly opened mystical area, the World Tree, gather Radiant Gems hidden in its depths and use them on your favorite Pals to awaken their hidden true power.",
+    "Aim for even greater heights, make your Pals the strongest!"
+  ],
+  "bullets": [
+    "Work Suitability Kindling"
+  ],
+  "awakening_crystals": [
+    {
+      "id": "PalAwakening_Dark",
+      "slug": "Dark_Awakening_Crystal",
+      "name": "Dark_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Dark_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Dark_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Dark",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Dark",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4188,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Dark_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Dragon",
+      "slug": "Dragon_Awakening_Crystal",
+      "name": "Dragon_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Dragon_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Dragon_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Dragon",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Dragon",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4187,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Dragon_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Electric",
+      "slug": "Electric_Awakening_Crystal",
+      "name": "Electric_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Electric_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Electric_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Electric",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Electric",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4182,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Electric_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Fire",
+      "slug": "Fire_Awakening_Crystal",
+      "name": "Fire_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Fire_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Fire_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Fire",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Fire",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4185,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Fire_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Grass",
+      "slug": "Grass_Awakening_Crystal",
+      "name": "Grass_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Grass_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Grass_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Grass",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Grass",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4184,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Grass_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Ground",
+      "slug": "Ground_Awakening_Crystal",
+      "name": "Ground_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Ground_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Ground_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Ground",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Ground",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4183,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Ground_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "PalAwakening_Ice",
+      "slug": "Ice_Awakening_Crystal",
+      "name": "Ice_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Ice_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Ice_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Ice",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Ice",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4186,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Ice_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    },
+    {
+      "id": "Neutral_Awakening_Crystal",
+      "slug": "Neutral_Awakening_Crystal",
+      "name": "Neutral_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Neutral_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Neutral_Awakening_Crystal.html",
+      "export_thin": true
+    },
+    {
+      "id": "PalAwakening_Water",
+      "slug": "Water_Awakening_Crystal",
+      "name": "Water_Awakening_Crystal",
+      "source_url": "https://paldb.cc/en/Water_Awakening_Crystal",
+      "source_export": "data/raw/exports/en/Water_Awakening_Crystal.html",
+      "export_thin": false,
+      "code": "PalAwakening_Water",
+      "type_a": "Consume",
+      "type_b": "ConsumePalAwakening",
+      "icon_name": "PalAwakening_Water",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonConsume",
+      "sort_id": 4181,
+      "rarity": "Epic",
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "10m0s"
+        },
+        {
+          "level": 2,
+          "time": "6m15s"
+        },
+        {
+          "level": 3,
+          "time": "3m34s"
+        },
+        {
+          "level": 4,
+          "time": "2m5s"
+        },
+        {
+          "level": 5,
+          "time": "1m15s"
+        },
+        {
+          "level": 6,
+          "time": "45s"
+        },
+        {
+          "level": 7,
+          "time": "28s"
+        },
+        {
+          "level": 8,
+          "time": "16s"
+        },
+        {
+          "level": 9,
+          "time": "10s"
+        },
+        {
+          "level": 10,
+          "time": "6s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ],
+      "recipe_materials": [
+        {
+          "slug": "Water_Radiant_Gem",
+          "quantity": 50
+        },
+        {
+          "slug": "World_Tree_Holy_Water",
+          "quantity": 10
+        },
+        {
+          "slug": "Consumable",
+          "quantity": 120000
+        }
+      ]
+    }
+  ]
+}

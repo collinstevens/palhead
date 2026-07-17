@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-16T23:17:15.923209+00:00",
+  "language": "en",
+  "count": 2,
+  "source_url": "https://paldb.cc/en/Capture_Rate",
+  "source_export": "data/raw/exports/en/Capture_Rate.html",
+  "target_multipliers": [
+    {
+      "target": "Pal",
+      "multiplier": 1.0,
+      "label": "Pal x 1"
+    },
+    {
+      "target": "Alpha Pal",
+      "multiplier": 0.7,
+      "label": "Alpha Pal x 0.7"
+    }
+  ],
+  "spheres_mentioned": [],
+  "note": "Capture_Rate.html is primarily an interactive calculator in the offline export; structured fields available are target multipliers (e.g. Pal x1, Alpha x0.7) rather than a full rate matrix."
+}

@@ -1,0 +1,487 @@
+{
+  "generated_at": "2026-07-16T22:55:30.084937+00:00",
+  "language": "en",
+  "count": 6,
+  "sphere_modules": [
+    {
+      "id": "SphereModule_Curve",
+      "slug": "Curve_Module",
+      "name": "Curve Module",
+      "category": "Sphere Module",
+      "rarity": "Uncommon",
+      "description": "Equipping it causes the sphere to spin with a curved trajectory. It becomes easier to catch Pals off guard, and increases capture power. Sphere Curve +1",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 30
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 30
+        },
+        {
+          "slug": "Stone",
+          "quantity": 50
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Curve_Module",
+      "source_export": "data/raw/exports/en/Curve_Module.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": false,
+      "code": "SphereModule_Curve",
+      "type_a": "CaptureItemModifier",
+      "type_b": "CaptureItemModifier",
+      "icon_name": "SphereModule_Curve",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 1,
+      "weight": 1,
+      "item_static_class": "CommonArmor",
+      "sneak_attack_rate": 1,
+      "passive_skill_1": "SphereModule_Curve",
+      "passive_skill_2": "CaptureLevel_Up_2",
+      "sort_id": 12001,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "15m0s"
+        },
+        {
+          "level": 2,
+          "time": "9m22s"
+        },
+        {
+          "level": 3,
+          "time": "5m21s"
+        },
+        {
+          "level": 4,
+          "time": "3m7s"
+        },
+        {
+          "level": 5,
+          "time": "1m52s"
+        },
+        {
+          "level": 6,
+          "time": "1m6s"
+        },
+        {
+          "level": 7,
+          "time": "41s"
+        },
+        {
+          "level": 8,
+          "time": "24s"
+        },
+        {
+          "level": 9,
+          "time": "15s"
+        },
+        {
+          "level": 10,
+          "time": "9s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Workbench",
+          "name": "Sphere Workbench"
+        },
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SphereModule_Heavy",
+      "slug": "Heavy_Weight_Module",
+      "name": "Heavy Weight Module",
+      "category": "Sphere Module",
+      "rarity": "Uncommon",
+      "description": "Equipping it makes the sphere heavier, reducing its range but increasing its capture power. Sphere Weight +1",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 10
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 10
+        },
+        {
+          "slug": "Stone",
+          "quantity": 20
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Heavy_Weight_Module",
+      "source_export": "data/raw/exports/en/Heavy_Weight_Module.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": false,
+      "code": "SphereModule_Heavy",
+      "type_a": "CaptureItemModifier",
+      "type_b": "CaptureItemModifier",
+      "icon_name": "SphereModule_Heavy",
+      "rarity_label": "Uncommon",
+      "rank": 1,
+      "max_stack_count": 1,
+      "weight": 1,
+      "item_static_class": "CommonArmor",
+      "sneak_attack_rate": 1,
+      "passive_skill_1": "SphereModule_Heavy",
+      "passive_skill_2": "CaptureLevel_Up_1",
+      "sort_id": 12000,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "60s"
+        },
+        {
+          "level": 2,
+          "time": "38s"
+        },
+        {
+          "level": 3,
+          "time": "22s"
+        },
+        {
+          "level": 4,
+          "time": "13s"
+        },
+        {
+          "level": 5,
+          "time": "8s"
+        },
+        {
+          "level": 6,
+          "time": "5s"
+        },
+        {
+          "level": 7,
+          "time": "3s"
+        },
+        {
+          "level": 8,
+          "time": "2s"
+        },
+        {
+          "level": 9,
+          "time": "0.94s"
+        },
+        {
+          "level": 10,
+          "time": "0.56s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Workbench",
+          "name": "Sphere Workbench"
+        },
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SphereModule_Homing",
+      "slug": "Homing_Module",
+      "name": "Homing Module",
+      "category": "Sphere Module",
+      "rarity": "Legendary",
+      "description": "Equipping it makes the sphere home in on Pals, further increasing capture power. Sphere Homing",
+      "recipe_materials": [
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 50
+        },
+        {
+          "slug": "AI_Core",
+          "quantity": 3
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "quantity": 40
+        },
+        {
+          "slug": "Dark_Fragment",
+          "quantity": 50
+        },
+        {
+          "slug": "Ancient_Civilization_Core",
+          "quantity": 5
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Homing_Module",
+      "source_export": "data/raw/exports/en/Homing_Module.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": false,
+      "code": "SphereModule_Homing",
+      "type_a": "CaptureItemModifier",
+      "type_b": "CaptureItemModifier",
+      "icon_name": "SphereModule_Homing",
+      "rarity_label": "Legendary",
+      "rank": 10,
+      "max_stack_count": 1,
+      "weight": 1,
+      "item_static_class": "CommonArmor",
+      "sneak_attack_rate": 1,
+      "passive_skill_1": "SphereModule_Homing",
+      "passive_skill_2": "CaptureLevel_Up_3",
+      "sort_id": 12005,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "2d7h33m20s"
+        },
+        {
+          "level": 2,
+          "time": "1d10h43m20s"
+        },
+        {
+          "level": 3,
+          "time": "19h50m28s"
+        },
+        {
+          "level": 4,
+          "time": "11h34m26s"
+        },
+        {
+          "level": 5,
+          "time": "6h56m40s"
+        },
+        {
+          "level": 6,
+          "time": "4h5m5s"
+        },
+        {
+          "level": 7,
+          "time": "2h31m30s"
+        },
+        {
+          "level": 8,
+          "time": "1h27m43s"
+        },
+        {
+          "level": 9,
+          "time": "52m5s"
+        },
+        {
+          "level": 10,
+          "time": "30m51s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "SphereModule_Curve2",
+      "slug": "Slider_Module",
+      "name": "Slider Module",
+      "category": "Sphere Module",
+      "rarity": "Rare",
+      "description": "Equipping it adds a slider spin to the sphere. The sphere curves at a sharp angle, making it easier to catch Pals off guard and increasing capture power. Sphere Slider",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 100
+        },
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 30
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 15
+        },
+        {
+          "slug": "Corrosive_Solvent",
+          "quantity": 8
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Slider_Module",
+      "source_export": "data/raw/exports/en/Slider_Module.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": false,
+      "code": "SphereModule_Curve2",
+      "type_a": "CaptureItemModifier",
+      "type_b": "CaptureItemModifier",
+      "icon_name": "SphereModule_Curve2",
+      "rarity_label": "Rare",
+      "rank": 1,
+      "max_stack_count": 1,
+      "weight": 1,
+      "item_static_class": "CommonArmor",
+      "sneak_attack_rate": 1,
+      "passive_skill_1": "SphereModule_Curve2",
+      "passive_skill_2": "CaptureLevel_Up_3",
+      "sort_id": 12003,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "3h20m0s"
+        },
+        {
+          "level": 2,
+          "time": "2h5m0s"
+        },
+        {
+          "level": 3,
+          "time": "1h11m25s"
+        },
+        {
+          "level": 4,
+          "time": "41m40s"
+        },
+        {
+          "level": 5,
+          "time": "25m0s"
+        },
+        {
+          "level": 6,
+          "time": "14m42s"
+        },
+        {
+          "level": 7,
+          "time": "9m5s"
+        },
+        {
+          "level": 8,
+          "time": "5m15s"
+        },
+        {
+          "level": 9,
+          "time": "3m7s"
+        },
+        {
+          "level": 10,
+          "time": "1m51s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Workbench",
+          "name": "Sphere Workbench"
+        },
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Sniper_Module",
+      "slug": "Sniper_Module",
+      "name": "Sniper Module",
+      "category": "Sphere Module",
+      "rarity": "Rare",
+      "description": "Equipping it increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power. Sphere Range +1",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 50
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 50
+        },
+        {
+          "slug": "Cement",
+          "quantity": 30
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "quantity": 8
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Sniper_Module",
+      "source_export": "data/raw/exports/en/Sniper_Module.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": true
+    },
+    {
+      "id": "Sniper_Module_II",
+      "slug": "Sniper_Module_II",
+      "name": "Sniper Module II",
+      "category": "Sphere Module",
+      "rarity": "Epic",
+      "description": "Equipping it significantly increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power. Sphere Range +2",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 200
+        },
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 30
+        },
+        {
+          "slug": "Carbon_Fiber",
+          "quantity": 30
+        },
+        {
+          "slug": "Ancient_Civilization_Parts",
+          "quantity": 20
+        },
+        {
+          "slug": "Ancient_Civilization_Core",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Sniper_Module_II",
+      "source_export": "data/raw/exports/en/Sniper_Module_II.html",
+      "from_index": "Sphere_Module.html",
+      "export_thin": true
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "generated_at": "2026-07-16T22:55:29.963752+00:00",
+  "language": "en",
+  "count": 11,
+  "spheres": [
+    {
+      "id": "PalSphere_Ancient_2",
+      "slug": "Ancient_Sphere",
+      "name": "Ancient Sphere",
+      "category": "Sphere",
+      "rarity": "Legendary",
+      "description": "A tool that captures Pals when thrown. An ultimate Sphere created as the pinnacle of an ancient civilization, imbued with the power of the World Tree.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 30
+        },
+        {
+          "slug": "Paloxite_Ingot",
+          "quantity": 6
+        },
+        {
+          "slug": "Mythical_Wood",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Ancient_Sphere",
+      "source_export": "data/raw/exports/en/Ancient_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Ancient_2",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Ancient_2",
+      "rarity_label": "Legendary",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere_Ancient_2",
+      "sneak_attack_rate": 100,
+      "sort_id": 10,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "5h33m20s"
+        },
+        {
+          "level": 2,
+          "time": "3h28m20s"
+        },
+        {
+          "level": 3,
+          "time": "1h59m2s"
+        },
+        {
+          "level": 4,
+          "time": "1h9m26s"
+        },
+        {
+          "level": 5,
+          "time": "41m40s"
+        },
+        {
+          "level": 6,
+          "time": "24m30s"
+        },
+        {
+          "level": 7,
+          "time": "15m9s"
+        },
+        {
+          "level": 8,
+          "time": "8m46s"
+        },
+        {
+          "level": 9,
+          "time": "5m12s"
+        },
+        {
+          "level": 10,
+          "time": "3m5s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "PalSphere_Exotic",
+      "slug": "Exotic_Sphere",
+      "name": "Exotic Sphere",
+      "category": "Sphere",
+      "rarity": "Epic",
+      "description": "An item that captures Pals when thrown. Boasting incredible performance, it can capture Pals that fall outside regular standards.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 15
+        },
+        {
+          "slug": "Plasteel",
+          "quantity": 1
+        },
+        {
+          "slug": "Hardwood",
+          "quantity": 10
+        },
+        {
+          "slug": "Hexolite",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Exotic_Sphere",
+      "source_export": "data/raw/exports/en/Exotic_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Exotic",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Exotic",
+      "rarity_label": "Epic",
+      "rank": 7,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere_Exotic",
+      "sneak_attack_rate": 100,
+      "sort_id": 8,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "1h40m0s"
+        },
+        {
+          "level": 2,
+          "time": "1h2m30s"
+        },
+        {
+          "level": 3,
+          "time": "35m42s"
+        },
+        {
+          "level": 4,
+          "time": "20m50s"
+        },
+        {
+          "level": 5,
+          "time": "12m30s"
+        },
+        {
+          "level": 6,
+          "time": "7m21s"
+        },
+        {
+          "level": 7,
+          "time": "4m32s"
+        },
+        {
+          "level": 8,
+          "time": "2m37s"
+        },
+        {
+          "level": 9,
+          "time": "1m33s"
+        },
+        {
+          "level": 10,
+          "time": "56s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "PalSphere_Giga",
+      "slug": "Giga_Sphere",
+      "name": "Giga Sphere",
+      "category": "Sphere",
+      "rarity": "Uncommon",
+      "description": "An item that captures Pals when thrown. Able to capture moderately powerful Pals.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 2
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Wood",
+          "quantity": 5
+        },
+        {
+          "slug": "Stone",
+          "quantity": 5
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Giga_Sphere",
+      "source_export": "data/raw/exports/en/Giga_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Giga",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Giga",
+      "rarity_label": "Uncommon",
+      "rank": 3,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphereGiga",
+      "sneak_attack_rate": 100,
+      "sort_id": 3,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "50s"
+        },
+        {
+          "level": 2,
+          "time": "32s"
+        },
+        {
+          "level": 3,
+          "time": "18s"
+        },
+        {
+          "level": 4,
+          "time": "11s"
+        },
+        {
+          "level": 5,
+          "time": "7s"
+        },
+        {
+          "level": 6,
+          "time": "4s"
+        },
+        {
+          "level": 7,
+          "time": "3s"
+        },
+        {
+          "level": 8,
+          "time": "2s"
+        },
+        {
+          "level": 9,
+          "time": "0.78s"
+        },
+        {
+          "level": 10,
+          "time": "0.46s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Workbench",
+          "name": "Sphere Workbench"
+        },
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        },
+        {
+          "slug": "PalSphere_Giga",
+          "name": "PalSphere_Giga"
+        }
+      ]
+    },
+    {
+      "id": "PalSphere_Tera",
+      "slug": "Hyper_Sphere",
+      "name": "Hyper Sphere",
+      "category": "Sphere",
+      "rarity": "Uncommon",
+      "description": "An item that captures Pals when thrown. Enhanced capabilities allow it to capture even more powerful Pals.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Wood",
+          "quantity": 8
+        },
+        {
+          "slug": "Stone",
+          "quantity": 8
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Hyper_Sphere",
+      "source_export": "data/raw/exports/en/Hyper_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Tera",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Tera",
+      "rarity_label": "Uncommon",
+      "rank": 4,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphereTera",
+      "sneak_attack_rate": 100,
+      "sort_id": 4,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "2m0s"
+        },
+        {
+          "level": 2,
+          "time": "1m15s"
+        },
+        {
+          "level": 3,
+          "time": "43s"
+        },
+        {
+          "level": 4,
+          "time": "25s"
+        },
+        {
+          "level": 5,
+          "time": "15s"
+        },
+        {
+          "level": 6,
+          "time": "9s"
+        },
+        {
+          "level": 7,
+          "time": "6s"
+        },
+        {
+          "level": 8,
+          "time": "4s"
+        },
+        {
+          "level": 9,
+          "time": "2s"
+        },
+        {
+          "level": 10,
+          "time": "2s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "PalSphere_Legend",
+      "slug": "Legendary_Sphere",
+      "name": "Legendary Sphere",
+      "category": "Sphere",
+      "rarity": "Rare",
+      "description": "An item that captures Pals when thrown. Very few Pals can escape its perfected design.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 5
+        },
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Hardwood",
+          "quantity": 3
+        },
+        {
+          "slug": "Stone",
+          "quantity": 20
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Legendary_Sphere",
+      "source_export": "data/raw/exports/en/Legendary_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Legend",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Legend",
+      "rarity_label": "Rare",
+      "rank": 6,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere_Legend",
+      "sneak_attack_rate": 100,
+      "sort_id": 6,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "16m40s"
+        },
+        {
+          "level": 2,
+          "time": "10m25s"
+        },
+        {
+          "level": 3,
+          "time": "5m57s"
+        },
+        {
+          "level": 4,
+          "time": "3m28s"
+        },
+        {
+          "level": 5,
+          "time": "2m5s"
+        },
+        {
+          "level": 6,
+          "time": "1m13s"
+        },
+        {
+          "level": 7,
+          "time": "46s"
+        },
+        {
+          "level": 8,
+          "time": "27s"
+        },
+        {
+          "level": 9,
+          "time": "16s"
+        },
+        {
+          "level": 10,
+          "time": "10s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Mega_Sphere",
+      "slug": "Mega_Sphere",
+      "name": "Mega Sphere",
+      "category": "Sphere",
+      "rarity": "Common",
+      "description": "An item that captures Pals when thrown. Its capabilities have been improved, allowing it to catch a wider range of Pals.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 1
+        },
+        {
+          "slug": "Ingot",
+          "quantity": 1
+        },
+        {
+          "slug": "Wood",
+          "quantity": 3
+        },
+        {
+          "slug": "Stone",
+          "quantity": 3
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Mega_Sphere",
+      "source_export": "data/raw/exports/en/Mega_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": true
+    },
+    {
+      "id": "PalSphere",
+      "slug": "Pal_Sphere",
+      "name": "Pal Sphere",
+      "category": "Sphere",
+      "rarity": "Common",
+      "description": "An item that captures Pals when thrown. This basic model is only effective on low level Pals.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Pal_Sphere",
+      "source_export": "data/raw/exports/en/Pal_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "CapturePrism",
+      "rarity_label": "Common",
+      "rank": 1,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere",
+      "sneak_attack_rate": 100,
+      "sort_id": 1,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "6s"
+        },
+        {
+          "level": 2,
+          "time": "4s"
+        },
+        {
+          "level": 3,
+          "time": "3s"
+        },
+        {
+          "level": 4,
+          "time": "2s"
+        },
+        {
+          "level": 5,
+          "time": "0.75s"
+        },
+        {
+          "level": 6,
+          "time": "0.44s"
+        },
+        {
+          "level": 7,
+          "time": "0.27s"
+        },
+        {
+          "level": 8,
+          "time": "0.16s"
+        },
+        {
+          "level": 9,
+          "time": "0.09s"
+        },
+        {
+          "level": 10,
+          "time": "0.06s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Sphere_Workbench",
+          "name": "Sphere Workbench"
+        },
+        {
+          "slug": "Sphere_Assembly_Line",
+          "name": "Sphere Assembly Line"
+        },
+        {
+          "slug": "Sphere_Assembly_Line_II",
+          "name": "Sphere Assembly Line II"
+        },
+        {
+          "slug": "Advanced_Sphere_Assembly_Line",
+          "name": "Advanced Sphere Assembly Line"
+        },
+        {
+          "slug": "Primitive_Workbench",
+          "name": "Primitive Workbench"
+        },
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        },
+        {
+          "slug": "Weapons_Dealer",
+          "name": "Weapons Dealer"
+        },
+        {
+          "slug": "PalSphere",
+          "name": "PalSphere"
+        },
+        {
+          "slug": "PalSphere_Random",
+          "name": "PalSphere_Random"
+        }
+      ]
+    },
+    {
+      "id": "PalSphere_Robbery",
+      "slug": "Radar_Sphere",
+      "name": "Radar Sphere",
+      "category": "Sphere",
+      "rarity": "Uncommon",
+      "description": "A sphere that captures Pals when thrown. Though it has a low chance of success, it can forcibly capture another person’s Pal.",
+      "recipe_materials": [
+        {
+          "slug": "Sphere",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Radar_Sphere",
+      "source_export": "data/raw/exports/en/Radar_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Robbery",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Robbery",
+      "rarity_label": "Uncommon",
+      "rank": 3,
+      "max_stack_count": 9999,
+      "weight": 1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere_Robbery",
+      "sneak_attack_rate": 100,
+      "sort_id": 9999,
+      "craft_times": [],
+      "workstations": []
+    },
+    {
+      "id": "PalSphere_Ancient_1",
+      "slug": "Sol_Sphere",
+      "name": "Sol Sphere",
+      "category": "Sphere",
+      "rarity": "Epic",
+      "description": "An item that captures Pals when thrown. A high-grade Sphere from an ancient civilization that secured coexistence with Pals.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 30
+        },
+        {
+          "slug": "Soralite_Ingot",
+          "quantity": 2
+        },
+        {
+          "slug": "Hardwood",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Sol_Sphere",
+      "source_export": "data/raw/exports/en/Sol_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": false,
+      "code": "PalSphere_Ancient_1",
+      "type_a": "SpecialWeapon",
+      "type_b": "SPWeaponCaptureBall",
+      "icon_name": "PalSphere_Ancient_1",
+      "rarity_label": "Epic",
+      "rank": 10,
+      "max_stack_count": 9999,
+      "weight": 0.1,
+      "item_static_class": "CommonWeapon",
+      "item_actor_class": "PalSphere_Ancient_1",
+      "sneak_attack_rate": 100,
+      "sort_id": 9,
+      "craft_times": [
+        {
+          "level": 1,
+          "time": "3h20m0s"
+        },
+        {
+          "level": 2,
+          "time": "2h5m0s"
+        },
+        {
+          "level": 3,
+          "time": "1h11m25s"
+        },
+        {
+          "level": 4,
+          "time": "41m40s"
+        },
+        {
+          "level": 5,
+          "time": "25m0s"
+        },
+        {
+          "level": 6,
+          "time": "14m42s"
+        },
+        {
+          "level": 7,
+          "time": "9m5s"
+        },
+        {
+          "level": 8,
+          "time": "5m15s"
+        },
+        {
+          "level": 9,
+          "time": "3m7s"
+        },
+        {
+          "level": 10,
+          "time": "1m51s"
+        }
+      ],
+      "workstations": [
+        {
+          "slug": "Ancient_Workbench",
+          "name": "Ancient Workbench"
+        }
+      ]
+    },
+    {
+      "id": "Ultimate_Sphere",
+      "slug": "Ultimate_Sphere",
+      "name": "Ultimate Sphere",
+      "category": "Sphere",
+      "rarity": "Epic",
+      "description": "An item that captures Pals when thrown. Almost no Pals can escape its flawless design.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 10
+        },
+        {
+          "slug": "Pal_Metal_Ingot",
+          "quantity": 5
+        },
+        {
+          "slug": "Hardwood",
+          "quantity": 10
+        },
+        {
+          "slug": "Plasteel",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Ultimate_Sphere",
+      "source_export": "data/raw/exports/en/Ultimate_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": true
+    },
+    {
+      "id": "Ultra_Sphere",
+      "slug": "Ultra_Sphere",
+      "name": "Ultra Sphere",
+      "category": "Sphere",
+      "rarity": "Rare",
+      "description": "An item that captures Pals when thrown. Not many Pals can escape its highly efficient design.",
+      "recipe_materials": [
+        {
+          "slug": "Paldium_Fragment",
+          "quantity": 5
+        },
+        {
+          "slug": "Refined_Ingot",
+          "quantity": 3
+        },
+        {
+          "slug": "Wood",
+          "quantity": 10
+        },
+        {
+          "slug": "Stone",
+          "quantity": 10
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Ultra_Sphere",
+      "source_export": "data/raw/exports/en/Ultra_Sphere.html",
+      "from_index": "Sphere.html",
+      "export_thin": true
+    }
+  ]
+}

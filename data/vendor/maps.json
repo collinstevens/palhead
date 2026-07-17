@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-07-16T23:10:30.427671+00:00",
+  "language": "en",
+  "count": 2,
+  "maps": [
+    {
+      "id": "Palpagos_Islands",
+      "slug": "Palpagos_Islands",
+      "name": "Palpagos Islands",
+      "layer_counts": [
+        {
+          "name": "Lifmunk Effigy",
+          "count": 140
+        },
+        {
+          "name": "Lamball Effigy",
+          "count": 30
+        },
+        {
+          "name": "Pengullet Effigy",
+          "count": 30
+        },
+        {
+          "name": "Munchill Effigy",
+          "count": 30
+        },
+        {
+          "name": "Rooby Effigy",
+          "count": 30
+        },
+        {
+          "name": "Herbil Effigy",
+          "count": 30
+        },
+        {
+          "name": "Tanzee Effigy",
+          "count": 30
+        },
+        {
+          "name": "Depresso Effigy",
+          "count": 30
+        },
+        {
+          "name": "Lunaris Effigy",
+          "count": 4
+        },
+        {
+          "name": "Relaxaurus Effigy",
+          "count": 4
+        },
+        {
+          "name": "Yakumo Effigy",
+          "count": 2
+        },
+        {
+          "name": "Ancient Ruin",
+          "count": 106
+        },
+        {
+          "name": "Journals",
+          "count": 55
+        },
+        {
+          "name": "Sakura Egg",
+          "count": 36
+        },
+        {
+          "name": "Desert Egg",
+          "count": 122
+        },
+        {
+          "name": "Volcano Egg",
+          "count": 310
+        },
+        {
+          "name": "Frozen Egg",
+          "count": 271
+        },
+        {
+          "name": "Grass Egg",
+          "count": 441
+        },
+        {
+          "name": "Feybreak Egg",
+          "count": 567
+        },
+        {
+          "name": "Sunreach Egg",
+          "count": 39
+        },
+        {
+          "name": "Anti-Air Turret",
+          "count": 11
+        },
+        {
+          "name": "Enemy Camp",
+          "count": 44
+        },
+        {
+          "name": "Tower",
+          "count": 8
+        },
+        {
+          "name": "Incident",
+          "count": 88
+        },
+        {
+          "name": "Alpha Pal",
+          "count": 83
+        },
+        {
+          "name": "Cave Entrance",
+          "count": 15
+        },
+        {
+          "name": "Fishing Spot",
+          "count": 529
+        },
+        {
+          "name": "Salvage Rank1",
+          "count": 776
+        },
+        {
+          "name": "Salvage Rank2",
+          "count": 1987
+        },
+        {
+          "name": "Region",
+          "count": 80
+        },
+        {
+          "name": "Home",
+          "count": 12
+        },
+        {
+          "name": "Watchtower",
+          "count": 20
+        },
+        {
+          "name": "Fast Travel",
+          "count": 137
+        },
+        {
+          "name": "Treasure Map",
+          "count": 42
+        },
+        {
+          "name": "Dungeon",
+          "count": 170
+        },
+        {
+          "name": "Heat Source",
+          "count": 20
+        },
+        {
+          "name": "Respawn",
+          "count": 8
+        },
+        {
+          "name": "Ancient Bone",
+          "count": 10
+        },
+        {
+          "name": "Chromite",
+          "count": 257
+        },
+        {
+          "name": "Coal",
+          "count": 520
+        },
+        {
+          "name": "Coal Cluster",
+          "count": 33
+        },
+        {
+          "name": "Ore",
+          "count": 1463
+        },
+        {
+          "name": "Ore Cluster",
+          "count": 31
+        },
+        {
+          "name": "Ancient Lava",
+          "count": 10
+        },
+        {
+          "name": "Pure Quartz",
+          "count": 523
+        },
+        {
+          "name": "Pure Quartz Cluster",
+          "count": 11
+        },
+        {
+          "name": "Hexolite Quartz",
+          "count": 349
+        },
+        {
+          "name": "Soralite",
+          "count": 208
+        },
+        {
+          "name": "Sulfur",
+          "count": 280
+        },
+        {
+          "name": "Sulfur Cluster",
+          "count": 8
+        },
+        {
+          "name": "Ancient Bark",
+          "count": 10
+        },
+        {
+          "name": "Wandering Merchant",
+          "count": 8
+        },
+        {
+          "name": "Black Marketeer",
+          "count": 19
+        },
+        {
+          "name": "NPC",
+          "count": 164
+        },
+        {
+          "name": "Arrogant Pal Critic",
+          "count": 9
+        },
+        {
+          "name": "Oilrig Treasure Goal",
+          "count": 9
+        },
+        {
+          "name": "Oilrig Treasure",
+          "count": 47
+        },
+        {
+          "name": "Skyland Warp Altar",
+          "count": 20
+        },
+        {
+          "name": "City",
+          "count": 73
+        },
+        {
+          "name": "Unknown",
+          "count": 22
+        },
+        {
+          "name": "Kinship Peach",
+          "count": 22
+        },
+        {
+          "name": "Fruit Tree",
+          "count": 31
+        },
+        {
+          "name": "Beautiful Flower",
+          "count": 27
+        },
+        {
+          "name": "Crude Oil",
+          "count": 185
+        },
+        {
+          "name": "Nightstar Sand",
+          "count": 271
+        },
+        {
+          "name": "Treasure Element",
+          "count": 109
+        },
+        {
+          "name": "Treasure",
+          "count": 1350
+        },
+        {
+          "name": "Supply",
+          "count": 480
+        },
+        {
+          "name": "Junk",
+          "count": 646
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Palpagos_Islands",
+      "source_export": "data/raw/exports/en/Palpagos_Islands.html",
+      "from_index": "Palpagos_Islands.html"
+    },
+    {
+      "id": "The_World_Tree",
+      "slug": "The_World_Tree",
+      "name": "The World Tree",
+      "layer_counts": [
+        {
+          "name": "Lifmunk Effigy",
+          "count": 15
+        },
+        {
+          "name": "Cattiva Effigy",
+          "count": 30
+        },
+        {
+          "name": "Yakumo Effigy",
+          "count": 2
+        },
+        {
+          "name": "Journals",
+          "count": 9
+        },
+        {
+          "name": "World Tree Egg",
+          "count": 30
+        },
+        {
+          "name": "Anti-Air Turret",
+          "count": 11
+        },
+        {
+          "name": "Enemy Camp",
+          "count": 44
+        },
+        {
+          "name": "Tower",
+          "count": 4
+        },
+        {
+          "name": "Incident",
+          "count": 9
+        },
+        {
+          "name": "Alpha Pal",
+          "count": 7
+        },
+        {
+          "name": "Fishing Spot",
+          "count": 77
+        },
+        {
+          "name": "Watchtower",
+          "count": 2
+        },
+        {
+          "name": "Fast Travel",
+          "count": 15
+        },
+        {
+          "name": "Paloxite",
+          "count": 80
+        },
+        {
+          "name": "NPC",
+          "count": 1
+        },
+        {
+          "name": "Memo Planner",
+          "count": 61
+        },
+        {
+          "name": "Fruit Tree",
+          "count": 12
+        },
+        {
+          "name": "Junk",
+          "count": 24
+        }
+      ],
+      "source_url": "https://paldb.cc/en/The_World_Tree",
+      "source_export": "data/raw/exports/en/The_World_Tree.html",
+      "from_index": "The_World_Tree.html"
+    }
+  ]
+}

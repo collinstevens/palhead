@@ -1,0 +1,634 @@
+{
+  "generated_at": "2026-07-16T22:43:47.408803+00:00",
+  "language": "en",
+  "count": 14,
+  "source_url": "https://paldb.cc/en/Elements",
+  "source_export": "data/raw/exports/en/Elements.html",
+  "note": "Elements.html export is mostly navigation shell; this table is derived from pals.json + active_skills.json element fields.",
+  "elements": [
+    {
+      "id": "Dark",
+      "name": "Dark",
+      "pal_count": 138,
+      "active_skill_count": 54,
+      "example_pals": [
+        "Leader_of_the_Moonflowers_Saya_&_Selyne",
+        "PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+        "Adorable_Phantom_Thief_Wispaw",
+        "Aerial_Marauder_Vanwyrm",
+        "BOSS_NAME_DarkMutant_DarkMutant"
+      ],
+      "example_skills": [
+        "Apocalypse",
+        "Astral_Ray",
+        "Black_Quilled_Ballet",
+        "Daring_Shadowstorm",
+        "Dark_Arrow"
+      ]
+    },
+    {
+      "id": "Water",
+      "name": "Water",
+      "pal_count": 94,
+      "active_skill_count": 40,
+      "example_pals": [
+        "Adorable_Watering_Can_Teafant",
+        "Ate_Too_Much_Pengullet",
+        "Beast_of_the_Tides_Elphidran_Aqua",
+        "Blazing_Determined_Draw_Skutlass_Ignis",
+        "Blue_Slime"
+      ],
+      "example_skills": [
+        "Acid_Rain",
+        "Aqua_Blade",
+        "Aqua_Burst",
+        "Aqua_Gun",
+        "Aqua_Surge"
+      ]
+    },
+    {
+      "id": "Leaf",
+      "name": "Leaf",
+      "pal_count": 95,
+      "active_skill_count": 34,
+      "example_pals": [
+        "Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+        "Ancient_Bloombringer_Braloha",
+        "Archer_of_the_Forest_Robinquill",
+        "Archer_of_the_Sands_Robinquill_Terra",
+        "BOSS_NAME_GrassDragon_GrassDragon"
+      ],
+      "example_skills": [
+        "Bee_Quiet",
+        "Botanical_Smash",
+        "Bountiful_Protection",
+        "Bull_Rush",
+        "Circle_Vine"
+      ]
+    },
+    {
+      "id": "Fire",
+      "name": "Fire",
+      "pal_count": 90,
+      "active_skill_count": 33,
+      "example_pals": [
+        "PIDF_Commander_Marcus_&_Faleris",
+        "PIDF_Officer_Marcus_&_Faleris",
+        "Aerial_Marauder_Vanwyrm",
+        "BOSS_NAME_WaterLizard_WaterLizard",
+        "Blazing_Brute_Arsox"
+      ],
+      "example_skills": [
+        "Blazing_Horn",
+        "Brawn_Impact",
+        "Daring_Flames",
+        "Double_Fang_(Fire)",
+        "Fierce_Fang_(Fire)"
+      ]
+    },
+    {
+      "id": "Normal",
+      "name": "Normal",
+      "pal_count": 76,
+      "active_skill_count": 39,
+      "example_pals": [
+        "Leader_of_the_Moonflowers_Saya_&_Selyne",
+        "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+        "Beast_of_Salvation_Celesdir",
+        "Big_Floof_Lamball",
+        "Boom_or_Bust_Tocotoco"
+      ],
+      "example_skills": [
+        "Air_Blade",
+        "Air_Cannon",
+        "Antler_Uppercut",
+        "Cat_Press",
+        "Chicken_Rush"
+      ]
+    },
+    {
+      "id": "Ice",
+      "name": "Ice",
+      "pal_count": 77,
+      "active_skill_count": 35,
+      "example_pals": [
+        "Jarl_of_Feybreak__Bjorn_&_Bastigor",
+        "Alpine_Dwarf_Snugloo",
+        "Ate_Too_Much_Pengullet",
+        "Azure_Fluff_Commander_Kingpaca_Cryst",
+        "BlueWoolRabbit"
+      ],
+      "example_skills": [
+        "Absolute_Frost",
+        "Blizzard_Claw",
+        "Blizzard_Spike",
+        "Chaotic_Spray",
+        "Crystal_Breath"
+      ]
+    },
+    {
+      "id": "Earth",
+      "name": "Earth",
+      "pal_count": 79,
+      "active_skill_count": 32,
+      "example_pals": [
+        "Ancient_Bloombringer_Braloha",
+        "Archer_of_the_Sands_Robinquill_Terra",
+        "ArmorWoodlouse",
+        "Armored_to_the_Teeth_Kikit",
+        "Bad_Boy_Prixter"
+      ],
+      "example_skills": [
+        "Bog_Blast",
+        "Crash_Dash",
+        "Cube_Press",
+        "Double_Fang_(Ground)",
+        "Earth_Dash"
+      ]
+    },
+    {
+      "id": "Dragon",
+      "name": "Dragon",
+      "pal_count": 58,
+      "active_skill_count": 23,
+      "example_pals": [
+        "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+        "BOSS_NAME_BeardedDragon_BeardedDragon",
+        "BeardedDragon",
+        "Beast_of_the_Tides_Elphidran_Aqua",
+        "Cherry_Blossom_Dancer_Chillet_Ignis"
+      ],
+      "example_skills": [
+        "Aegis_Charge",
+        "Azure_Dracoflare",
+        "Beam_Comet",
+        "Beam_Slash",
+        "Beam_Slicer"
+      ]
+    },
+    {
+      "id": "Electricity",
+      "name": "Electricity",
+      "pal_count": 51,
+      "active_skill_count": 29,
+      "example_pals": [
+        "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+        "Rayne_Syndicate_Officer_Zoe_&_Grizzbolt",
+        "BOSS_NAME_ElecLion_Boltmane",
+        "Blue_Lightning_Steed_Azurmane",
+        "Boltmane"
+      ],
+      "example_skills": [
+        "All_Range_Thunder",
+        "Beckon_Lightning",
+        "Blast_Punch",
+        "Bolt_Blink",
+        "Double_Fang_(Electric)"
+      ]
+    },
+    {
+      "id": "Neutral",
+      "name": "Neutral",
+      "pal_count": 0,
+      "active_skill_count": 14,
+      "example_pals": [],
+      "example_skills": [
+        "Gale_Claw",
+        "Human_Rolling",
+        "Intimidate",
+        "Megaton_Implode",
+        "Punch"
+      ]
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "pal_count": 0,
+      "active_skill_count": 9,
+      "example_pals": [],
+      "example_skills": [
+        "Unique_WorldTreeDragon_PaldiumRain",
+        "Unique_YakushimaBoss001_Green_2_PhantasmalBolt",
+        "Unique_YakushimaBoss001_Green_PhantasmalDeathray",
+        "Unique_YakushimaBoss002_2_PhantasmalEye",
+        "Unique_YakushimaBoss002_2_PhantasmalSphere"
+      ]
+    },
+    {
+      "id": "Electric",
+      "name": "Electric",
+      "pal_count": 0,
+      "active_skill_count": 8,
+      "example_pals": [],
+      "example_skills": [
+        "BlueThunderHorse_PartnerSkill",
+        "Cross_Lightning",
+        "Funnel_RaijinDaughter",
+        "Lightning_Smash",
+        "Lightning_Streak"
+      ]
+    },
+    {
+      "id": "Grass",
+      "name": "Grass",
+      "pal_count": 0,
+      "active_skill_count": 7,
+      "example_pals": [],
+      "example_skills": [
+        "GrassGolem_PartnerSkill",
+        "HealingTree",
+        "Unique_LegendDeer_BarrierRelease_Grass",
+        "Unique_LilyQueen_LilyHealing_Boss",
+        "Wind_Barrier"
+      ]
+    },
+    {
+      "id": "Ground",
+      "name": "Ground",
+      "pal_count": 0,
+      "active_skill_count": 1,
+      "example_pals": [],
+      "example_skills": [
+        "Sumo_Stomp"
+      ]
+    }
+  ],
+  "pal_element_combos": [
+    {
+      "elements": [
+        "Dark"
+      ],
+      "count": 78
+    },
+    {
+      "elements": [
+        "Leaf"
+      ],
+      "count": 61
+    },
+    {
+      "elements": [
+        "Normal"
+      ],
+      "count": 61
+    },
+    {
+      "elements": [
+        "Ice"
+      ],
+      "count": 51
+    },
+    {
+      "elements": [
+        "Fire"
+      ],
+      "count": 48
+    },
+    {
+      "elements": [
+        "Earth"
+      ],
+      "count": 39
+    },
+    {
+      "elements": [
+        "Water"
+      ],
+      "count": 36
+    },
+    {
+      "elements": [
+        "Electricity"
+      ],
+      "count": 30
+    },
+    {
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "count": 10
+    },
+    {
+      "elements": [
+        "Dragon"
+      ],
+      "count": 10
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "count": 9
+    },
+    {
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "count": 9
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "count": 8
+    },
+    {
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "count": 8
+    },
+    {
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "count": 8
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "count": 7
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "count": 6
+    },
+    {
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "count": 6
+    },
+    {
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "count": 6
+    },
+    {
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "count": 5
+    },
+    {
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "count": 5
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "count": 5
+    },
+    {
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "count": 5
+    },
+    {
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "count": 4
+    },
+    {
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "count": 3
+    },
+    {
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "count": 3
+    },
+    {
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "count": 3
+    },
+    {
+      "elements": [
+        "Dark",
+        "Leaf"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Fire",
+        "Dragon"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Normal",
+        "Water"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Leaf"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Water",
+        "Normal"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Water",
+        "Earth"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Dragon"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Electricity",
+        "Dragon"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Earth"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Leaf",
+        "Fire"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "count": 2
+    },
+    {
+      "elements": [
+        "Dragon",
+        "Ice"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Water",
+        "Leaf"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Normal",
+        "Leaf"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Ice",
+        "Dark"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Normal",
+        "Fire"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Earth",
+        "Dark"
+      ],
+      "count": 1
+    },
+    {
+      "elements": [
+        "Ice",
+        "Fire"
+      ],
+      "count": 1
+    }
+  ]
+}

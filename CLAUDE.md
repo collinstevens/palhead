@@ -25,9 +25,10 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 | `scripts/data-normalize.js` | Normalize **game** vendor → `data/normalized/` |
 | `scripts/download-icons.js` | Local pal/item/structure icons from paldb CDN |
 | `scripts/prepare-dist.js` | Ensure `dist/icons` after build |
-| `data/vendor/` | Pinned paldb game snapshot (gitignored contents) |
-| `data/style-vendor/` | Pinned wowhead style sample (gitignored contents) |
-| `data/normalized/` | pals, skills, items, relations, search-index, site-meta |
+| `data/vendor/` | Pinned paldb game snapshot (**tracked** for CI) |
+| `data/style-vendor/` | Pinned wowhead style sample (gitignored; UX only) |
+| `data/normalized/` | Built from vendor (gitignored) |
+| `.github/workflows/deploy.yml` | Deploy to Cloudflare Pages on push to master/main |
 | `data/README.md` | Dual-import pipeline notes |
 | `docs/STYLE-NOTES.md` | Chrome, density, tokens, page patterns |
 | `docs/ICONS.md` | Icon download + layout |
@@ -88,6 +89,7 @@ npm run style:import     # latest wowhead sample → data/style-vendor/ (UX)
 npm run data:normalize   # write data/normalized/ from game vendor only
 npm run download-icons   # local icons from paldb CDN (see docs/ICONS.md)
 npm run build            # both imports + normalize + SSG + dist/
+npm run build:ci         # CI build (reuses committed vendor if no local publish)
 npm run build:html       # normalize + SSG (reuse current vendors)
 npm run build:static     # SSG only (reuse normalized)
 npm run login
@@ -95,6 +97,20 @@ npm run whoami
 npm run deploy           # full build + pages deploy
 npm run preview          # local static server on dist/
 ```
+
+### Production CI
+
+Push to **`master`** or **`main`** runs GitHub Actions → `npm run build:ci` → `wrangler pages deploy dist --branch master`.
+
+Repo secrets (Settings → Secrets and variables → Actions):
+
+| Secret | Value |
+|--------|--------|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare API token with Pages Edit |
+| `CLOUDFLARE_ACCOUNT_ID` | From `npx wrangler whoami` |
+
+After `npm run data:import`, commit updated `data/vendor/` so CI ships the new game snapshot.
+
 
 ### Game import resolution (`data:import`)
 

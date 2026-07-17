@@ -1,0 +1,455 @@
+{
+  "generated_at": "2026-07-16T23:10:30.773204+00:00",
+  "language": "en",
+  "count": 56,
+  "arena_rewards": [
+    {
+      "item": "Marksman Revolver Schematic 4 1",
+      "price": "Battle Ticket 1300",
+      "item_slug": "Marksman_Revolver_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Core Eject Shotgun Schematic 4 1",
+      "price": "Battle Ticket 1300",
+      "item_slug": "Core_Eject_Shotgun_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "V1 Armor Schematic 4 1",
+      "price": "Battle Ticket 1000",
+      "item_slug": "V1_Armor_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "V2 Armor Schematic 4 1",
+      "price": "Battle Ticket 1000",
+      "item_slug": "V2_Armor_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Energy Shotgun Schematic 4 1",
+      "price": "Battle Ticket 1500",
+      "item_slug": "Energy_Shotgun_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Charge Rifle Schematic 4 1",
+      "price": "Battle Ticket 1500",
+      "item_slug": "Charge_Rifle_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Overheat Rifle Schematic 4 1",
+      "price": "Battle Ticket 1500",
+      "item_slug": "Overheat_Rifle_Schematic_4",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Energy Shotgun Schematic 3 1",
+      "price": "Battle Ticket 600",
+      "item_slug": "Energy_Shotgun_Schematic_3",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Charge Rifle Schematic 3 1",
+      "price": "Battle Ticket 600",
+      "item_slug": "Charge_Rifle_Schematic_3",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Overheat Rifle Schematic 3 1",
+      "price": "Battle Ticket 600",
+      "item_slug": "Overheat_Rifle_Schematic_3",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Kingpaca Headband 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Kingpaca_Headband",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Tarantriss Hat 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Tarantriss_Hat",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ghangler Accessory 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Ghangler_Accessory",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Icelyn Hat 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Icelyn_Hat",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Shroomer Hat 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Shroomer_Hat",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Splatterina Hat 1",
+      "price": "Battle Ticket 80",
+      "item_slug": "Splatterina_Hat",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dandilord Hat 1",
+      "price": "Battle Ticket 100",
+      "item_slug": "Dandilord_Hat",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Serenity 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Serenity",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Infinite Stamina 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Infinite_Stamina",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Runner 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Runner",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Ace Swimmer 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Ace_Swimmer",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Noble 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Noble",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Healing Coach 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Healing_Coach",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Implant: Reload Master 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Implant__Reload_Master",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Pal Reverser 1",
+      "price": "Battle Ticket 35",
+      "item_slug": "Pal_Reverser",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Training Crystal 1",
+      "price": "Battle Ticket 50",
+      "item_slug": "Training_Crystal",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Life Fruit 1",
+      "price": "Battle Ticket 100",
+      "item_slug": "Life_Fruit",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Power Fruit 1",
+      "price": "Battle Ticket 100",
+      "item_slug": "Power_Fruit",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Stout Fruit 1",
+      "price": "Battle Ticket 100",
+      "item_slug": "Stout_Fruit",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Skill Fruit: Holy Burst 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Skill_Fruit__Holy_Burst",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Skill Fruit: Implode 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Skill_Fruit__Implode",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Skill Fruit: Air Blade 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Skill_Fruit__Air_Blade",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dark Skill Fruit: Dark Whisp 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Dark_Skill_Fruit__Dark_Whisp",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dark Skill Fruit: Apocalypse 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Dark_Skill_Fruit__Apocalypse",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dark Skill Fruit: Poison Shower 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Dark_Skill_Fruit__Poison_Shower",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dragon Skill Fruit: Dragon Meteor 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Dragon_Skill_Fruit__Dragon_Meteor",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dragon Skill Fruit: Charge Cannon 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Dragon_Skill_Fruit__Charge_Cannon",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Dragon Skill Fruit: Beam Slicer 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Dragon_Skill_Fruit__Beam_Slicer",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ice Skill Fruit: Absolute Frost 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Ice_Skill_Fruit__Absolute_Frost",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ice Skill Fruit: Icicle Bullet 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Ice_Skill_Fruit__Icicle_Bullet",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ice Skill Fruit: Freeze Wall 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Ice_Skill_Fruit__Freeze_Wall",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Fire Skill Fruit: Fire Ball 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Fire_Skill_Fruit__Fire_Ball",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Fire Skill Fruit: Volcanic Rain 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Fire_Skill_Fruit__Volcanic_Rain",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Fire Skill Fruit: Flame Funnel 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Fire_Skill_Fruit__Flame_Funnel",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Water Skill Fruit: Geyser Gush 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Water_Skill_Fruit__Geyser_Gush",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Water Skill Fruit: Aqua Surge 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Water_Skill_Fruit__Aqua_Surge",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Water Skill Fruit: Hydro Slicer 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Water_Skill_Fruit__Hydro_Slicer",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Electric Skill Fruit: Thunderstorm 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Electric_Skill_Fruit__Thunderstorm",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Thunder Skill Fruit: All Range Thunder 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Thunder_Skill_Fruit__All_Range_Thunder",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Electric Skill Fruit: Thunder Rain 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Electric_Skill_Fruit__Thunder_Rain",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ground Skill Fruit: Rocky Impact 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Ground_Skill_Fruit__Rocky_Impact",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ground Skill Fruit: Sand Twister 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Ground_Skill_Fruit__Sand_Twister",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Ground Skill Fruit: Rockburst 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Ground_Skill_Fruit__Rockburst",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Grass Skill Fruit: Wind Blast 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Grass_Skill_Fruit__Wind_Blast",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Grass Skill Fruit: Crosswind 1",
+      "price": "Battle Ticket 45",
+      "item_slug": "Grass_Skill_Fruit__Crosswind",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    },
+    {
+      "item": "Grass Skill Fruit: Reflect Leaf 1",
+      "price": "Battle Ticket 30",
+      "item_slug": "Grass_Skill_Fruit__Reflect_Leaf",
+      "source_url": "https://paldb.cc/en/Arena",
+      "source_export": "data/raw/exports/en/Arena.html",
+      "from_index": "Arena.html"
+    }
+  ]
+}

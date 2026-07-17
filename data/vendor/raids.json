@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-07-16T23:10:27.789227+00:00",
+  "language": "en",
+  "count": 7,
+  "raids": [
+    {
+      "id": "Bellanoir",
+      "slug": "Bellanoir",
+      "name": "Bellanoir",
+      "level": "30",
+      "hp": "294,000",
+      "damage_deal": "x1",
+      "damage_reduction": "0%",
+      "comment": "no phase 2",
+      "source_url": "https://paldb.cc/en/Bellanoir",
+      "source_export": "data/raw/exports/en/Bellanoir.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Bellanoir_Libero",
+      "slug": "Bellanoir_Libero",
+      "name": "Bellanoir Libero",
+      "level": "50",
+      "hp": "450,000",
+      "damage_deal": "x2",
+      "damage_reduction": "60%",
+      "comment": "1/3hp heal at phase 2 and swaps element to ice",
+      "source_url": "https://paldb.cc/en/Bellanoir_Libero",
+      "source_export": "data/raw/exports/en/Bellanoir_Libero.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Ultra_Bellanoir_Libero",
+      "slug": "Ultra_Bellanoir_Libero",
+      "name": "Ultra Bellanoir Libero",
+      "level": "50",
+      "hp": "900,000",
+      "damage_deal": "x3",
+      "damage_reduction": "75%",
+      "comment": "1/3hp heal at phase 2 and swaps element to ice",
+      "source_url": "https://paldb.cc/en/Ultra_Bellanoir_Libero",
+      "source_export": "data/raw/exports/en/Ultra_Bellanoir_Libero.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Blazamut_Ryu",
+      "slug": "Blazamut_Ryu",
+      "name": "Blazamut Ryu",
+      "level": "55",
+      "hp": "512,600",
+      "damage_deal": "x2",
+      "damage_reduction": "60%",
+      "comment": "1/3hp heal at phase 2 and swaps element to electric",
+      "source_url": "https://paldb.cc/en/Blazamut_Ryu",
+      "source_export": "data/raw/exports/en/Blazamut_Ryu.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Ultra_Blazamut_Ryu",
+      "slug": "Ultra_Blazamut_Ryu",
+      "name": "Ultra Blazamut Ryu",
+      "level": "55",
+      "hp": "1,025,360",
+      "damage_deal": "x3.2",
+      "damage_reduction": "70%",
+      "comment": "1/3hp heal at phase 2 and swaps element to electric",
+      "source_url": "https://paldb.cc/en/Ultra_Blazamut_Ryu",
+      "source_export": "data/raw/exports/en/Ultra_Blazamut_Ryu.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Xenolord",
+      "slug": "Xenolord",
+      "name": "Xenolord",
+      "level": "60",
+      "hp": "1,316,000",
+      "damage_deal": "x5",
+      "damage_reduction": "65%",
+      "comment": "twice during the fight summons a bunch of adds that have jumping attacks",
+      "source_url": "https://paldb.cc/en/Xenolord",
+      "source_export": "data/raw/exports/en/Xenolord.html",
+      "from_index": "Raid.html"
+    },
+    {
+      "id": "Ultra_Xenolord",
+      "slug": "Ultra_Xenolord",
+      "name": "Ultra Xenolord",
+      "level": "60",
+      "hp": "1,974,000",
+      "damage_deal": "x13",
+      "damage_reduction": "76%",
+      "comment": "twice during the fight summons a bunch of adds that have jumping attacks, also gets fire attacks, more dark moves and holy burst",
+      "source_url": "https://paldb.cc/en/Ultra_Xenolord",
+      "source_export": "data/raw/exports/en/Ultra_Xenolord.html",
+      "from_index": "Raid.html"
+    }
+  ]
+}

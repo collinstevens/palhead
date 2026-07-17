@@ -1,0 +1,351 @@
+{
+  "targets": {
+    "pal_index": {
+      "path": "data/distilled/pal_index.json",
+      "count": 592,
+      "finished_at": "2026-07-16T22:30:44.288447+00:00"
+    },
+    "pals": {
+      "path": "data/distilled/pals.json",
+      "count": 592,
+      "finished_at": "2026-07-16T22:30:44.299347+00:00"
+    },
+    "partner_skills": {
+      "path": "data/distilled/partner_skills.json",
+      "count": 289,
+      "finished_at": "2026-07-17T02:45:01.569513+00:00"
+    },
+    "passive_skills": {
+      "path": "data/distilled/passive_skills.json",
+      "count": 286,
+      "finished_at": "2026-07-16T22:43:35.210283+00:00"
+    },
+    "active_skills": {
+      "path": "data/distilled/active_skills.json",
+      "count": 374,
+      "finished_at": "2026-07-16T22:44:20.559151+00:00"
+    },
+    "work_suitabilities": {
+      "path": "data/distilled/work_suitabilities.json",
+      "count": 12,
+      "finished_at": "2026-07-17T02:45:01.365607+00:00"
+    },
+    "skill_fruits": {
+      "path": "data/distilled/skill_fruits.json",
+      "count": 98,
+      "finished_at": "2026-07-17T02:44:47.694812+00:00"
+    },
+    "elements": {
+      "path": "data/distilled/elements.json",
+      "count": 14,
+      "finished_at": "2026-07-16T22:43:47.411051+00:00"
+    },
+    "materials": {
+      "path": "data/distilled/materials.json",
+      "count": 189,
+      "finished_at": "2026-07-16T22:55:20.885630+00:00"
+    },
+    "weapons": {
+      "path": "data/distilled/weapons.json",
+      "count": 131,
+      "finished_at": "2026-07-16T22:55:25.068716+00:00"
+    },
+    "armor": {
+      "path": "data/distilled/armor.json",
+      "count": 109,
+      "finished_at": "2026-07-16T22:55:27.902297+00:00"
+    },
+    "accessories": {
+      "path": "data/distilled/accessories.json",
+      "count": 87,
+      "finished_at": "2026-07-16T22:55:29.716040+00:00"
+    },
+    "spheres": {
+      "path": "data/distilled/spheres.json",
+      "count": 11,
+      "finished_at": "2026-07-16T22:55:29.964864+00:00"
+    },
+    "sphere_modules": {
+      "path": "data/distilled/sphere_modules.json",
+      "count": 6,
+      "finished_at": "2026-07-16T22:55:30.085896+00:00"
+    },
+    "consumables": {
+      "path": "data/distilled/consumables.json",
+      "count": 230,
+      "finished_at": "2026-07-16T22:55:34.974122+00:00"
+    },
+    "ammo": {
+      "path": "data/distilled/ammo.json",
+      "count": 38,
+      "finished_at": "2026-07-16T22:55:35.699499+00:00"
+    },
+    "ingredients": {
+      "path": "data/distilled/ingredients.json",
+      "count": 124,
+      "finished_at": "2026-07-16T22:55:38.121573+00:00"
+    },
+    "key_items": {
+      "path": "data/distilled/key_items.json",
+      "count": 329,
+      "finished_at": "2026-07-16T22:55:44.254264+00:00"
+    },
+    "schematics": {
+      "path": "data/distilled/schematics.json",
+      "count": 593,
+      "finished_at": "2026-07-17T02:45:01.107080+00:00"
+    },
+    "saddles": {
+      "path": "data/distilled/saddles.json",
+      "count": 122,
+      "finished_at": "2026-07-17T02:44:49.601600+00:00"
+    },
+    "recipes": {
+      "path": "data/distilled/recipes.json",
+      "count": 1759,
+      "finished_at": "2026-07-16T22:55:59.763757+00:00"
+    },
+    "technologies": {
+      "path": "data/distilled/technologies.json",
+      "count": 588,
+      "finished_at": "2026-07-16T22:54:52.624762+00:00"
+    },
+    "structures": {
+      "path": "data/distilled/structures.json",
+      "count": 551,
+      "finished_at": "2026-07-16T23:01:44.472970+00:00"
+    },
+    "work_stations": {
+      "path": "data/distilled/work_stations.json",
+      "count": 330,
+      "finished_at": "2026-07-17T02:45:01.414570+00:00"
+    },
+    "san": {
+      "path": "data/distilled/san.json",
+      "count": 1,
+      "finished_at": "2026-07-16T23:01:54.991798+00:00"
+    },
+    "work_priority": {
+      "path": "data/distilled/work_priority.json",
+      "count": 0,
+      "finished_at": "2026-07-16T23:01:44.574094+00:00",
+      "export_thin": true
+    },
+    "alpha_pals": {
+      "path": "data/distilled/alpha_pals.json",
+      "count": 316,
+      "finished_at": "2026-07-17T02:45:06.930161+00:00"
+    },
+    "rampaging_pals": {
+      "path": "data/distilled/rampaging_pals.json",
+      "count": 45,
+      "finished_at": "2026-07-17T02:45:06.651309+00:00"
+    },
+    "tower_bosses": {
+      "path": "data/distilled/tower_bosses.json",
+      "count": 13,
+      "finished_at": "2026-07-17T02:45:06.957798+00:00"
+    },
+    "raids": {
+      "path": "data/distilled/raids.json",
+      "count": 7,
+      "finished_at": "2026-07-16T23:10:27.789938+00:00"
+    },
+    "dungeons": {
+      "path": "data/distilled/dungeons.json",
+      "count": 14,
+      "finished_at": "2026-07-16T23:10:27.830134+00:00"
+    },
+    "eggs": {
+      "path": "data/distilled/eggs.json",
+      "count": 27,
+      "finished_at": "2026-07-17T02:45:15.797139+00:00"
+    },
+    "bounties": {
+      "path": "data/distilled/bounties.json",
+      "count": 36,
+      "finished_at": "2026-07-16T23:10:28.078349+00:00"
+    },
+    "bounty_tokens": {
+      "path": "data/distilled/bounty_tokens.json",
+      "count": 100,
+      "finished_at": "2026-07-17T02:45:05.450768+00:00"
+    },
+    "merchants": {
+      "path": "data/distilled/merchants.json",
+      "count": 43,
+      "finished_at": "2026-07-17T02:45:05.666261+00:00"
+    },
+    "humans": {
+      "path": "data/distilled/humans.json",
+      "count": 866,
+      "finished_at": "2026-07-16T23:10:30.063911+00:00"
+    },
+    "mounts": {
+      "path": "data/distilled/mounts.json",
+      "count": 118,
+      "finished_at": "2026-07-16T23:10:30.100910+00:00"
+    },
+    "gliders": {
+      "path": "data/distilled/gliders.json",
+      "count": 7,
+      "finished_at": "2026-07-16T23:10:30.256382+00:00"
+    },
+    "maps": {
+      "path": "data/distilled/maps.json",
+      "count": 2,
+      "finished_at": "2026-07-16T23:10:30.428392+00:00"
+    },
+    "map_pois": {
+      "path": "data/distilled/map_pois.json",
+      "count": 87,
+      "finished_at": "2026-07-16T23:10:30.436345+00:00"
+    },
+    "fishing": {
+      "path": "data/distilled/fishing.json",
+      "count": 18,
+      "finished_at": "2026-07-16T23:10:30.710435+00:00"
+    },
+    "arena": {
+      "path": "data/distilled/arena.json",
+      "count": 56,
+      "finished_at": "2026-07-16T23:10:30.774125+00:00"
+    },
+    "enemy_camps": {
+      "path": "data/distilled/enemy_camps.json",
+      "count": 37,
+      "finished_at": "2026-07-16T23:10:31.113050+00:00"
+    },
+    "journals": {
+      "path": "data/distilled/journals.json",
+      "count": 62,
+      "finished_at": "2026-07-17T02:45:05.743209+00:00"
+    },
+    "caged_pals": {
+      "path": "data/distilled/caged_pals.json",
+      "count": 139,
+      "finished_at": "2026-07-16T23:10:31.217636+00:00"
+    },
+    "incidents": {
+      "path": "data/distilled/incidents.json",
+      "count": 19,
+      "finished_at": "2026-07-16T23:10:31.290036+00:00"
+    },
+    "ancient_ruins": {
+      "path": "data/distilled/ancient_ruins.json",
+      "count": 108,
+      "finished_at": "2026-07-16T23:10:31.344851+00:00"
+    },
+    "treasure_boxes": {
+      "path": "data/distilled/treasure_boxes.json",
+      "count": 500,
+      "finished_at": "2026-07-16T23:10:35.140689+00:00"
+    },
+    "pal_stats": {
+      "path": "data/distilled/pal_stats.json",
+      "count": 288,
+      "finished_at": "2026-07-16T23:17:15.672622+00:00"
+    },
+    "breeding": {
+      "path": "data/distilled/breeding.json",
+      "count": 299,
+      "finished_at": "2026-07-16T23:17:15.721376+00:00"
+    },
+    "drops": {
+      "path": "data/distilled/drops.json",
+      "count": 12640,
+      "finished_at": "2026-07-17T02:45:07.113600+00:00"
+    },
+    "party_buffs": {
+      "path": "data/distilled/party_buffs.json",
+      "count": 0,
+      "finished_at": "2026-07-16T23:17:15.852519+00:00"
+    },
+    "element_swap": {
+      "path": "data/distilled/element_swap.json",
+      "count": 13,
+      "finished_at": "2026-07-16T23:17:15.879399+00:00"
+    },
+    "weight_increase": {
+      "path": "data/distilled/weight_increase.json",
+      "count": 8,
+      "finished_at": "2026-07-16T23:17:15.900296+00:00"
+    },
+    "capture_rates": {
+      "path": "data/distilled/capture_rates.json",
+      "count": 2,
+      "finished_at": "2026-07-16T23:17:15.923851+00:00"
+    },
+    "versions": {
+      "path": "data/distilled/versions.json",
+      "count": 22,
+      "finished_at": "2026-07-16T23:19:43.597591+00:00"
+    },
+    "patch_notes": {
+      "path": "data/distilled/patch_notes.json",
+      "count": 16,
+      "finished_at": "2026-07-16T23:19:43.724228+00:00"
+    },
+    "tips": {
+      "path": "data/distilled/tips.json",
+      "count": 41,
+      "finished_at": "2026-07-17T02:45:07.769124+00:00"
+    },
+    "base_guide": {
+      "path": "data/distilled/base_guide.json",
+      "count": 35,
+      "finished_at": "2026-07-16T23:19:26.712137+00:00"
+    },
+    "missions": {
+      "path": "data/distilled/missions.json",
+      "count": 107,
+      "finished_at": "2026-07-16T23:19:26.750822+00:00"
+    },
+    "legendary": {
+      "path": "data/distilled/legendary.json",
+      "count": 142,
+      "finished_at": "2026-07-16T23:19:26.787564+00:00"
+    },
+    "chest_filters": {
+      "path": "data/distilled/chest_filters.json",
+      "count": 1562,
+      "finished_at": "2026-07-17T02:45:02.224263+00:00"
+    },
+    "character_spawn_items": {
+      "path": "data/distilled/character_spawn_items.json",
+      "count": 60,
+      "finished_at": "2026-07-17T02:45:03.068476+00:00"
+    },
+    "boss_entities": {
+      "path": "data/distilled/boss_entities.json",
+      "count": 21,
+      "finished_at": "2026-07-17T02:45:03.477674+00:00"
+    },
+    "world_tree_passives": {
+      "path": "data/distilled/world_tree_passives.json",
+      "count": 7,
+      "finished_at": "2026-07-16T23:19:28.185207+00:00"
+    },
+    "mutations": {
+      "path": "data/distilled/mutations.json",
+      "count": 5,
+      "finished_at": "2026-07-16T23:19:28.222488+00:00"
+    },
+    "awakening": {
+      "path": "data/distilled/awakening.json",
+      "count": 9,
+      "finished_at": "2026-07-17T02:45:03.617152+00:00"
+    },
+    "pal_effigy": {
+      "path": "data/distilled/pal_effigy.json",
+      "count": 13,
+      "finished_at": "2026-07-17T02:45:03.987509+00:00"
+    },
+    "disposable_implants": {
+      "path": "data/distilled/disposable_implants.json",
+      "count": 28,
+      "finished_at": "2026-07-17T02:45:01.964836+00:00"
+    }
+  },
+  "updated_at": "2026-07-17T02:45:15.803591+00:00"
+}

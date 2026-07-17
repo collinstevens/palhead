@@ -110,15 +110,30 @@ function resolveSource() {
 }
 
 const { source, how } = resolveSource();
+const allowMissing =
+  process.env.ALLOW_MISSING_STYLE === "1" ||
+  process.env.ALLOW_MISSING_STYLE === "true" ||
+  process.env.CI === "true";
 
 if (!source || !fs.existsSync(source)) {
+  if (allowMissing) {
+    console.warn(
+      "Wowhead style source not found — skipping (style is UX reference only, not required for SSG)."
+    );
+    console.warn(
+      "Set WOWHEAD_STYLE_DIR or place a publish bundle under:\n  " +
+        DEFAULT_PUBLISH_ROOT
+    );
+    process.exit(0);
+  }
   fail(
     "Wowhead style source not found.\n" +
       "Expected a publish bundle under:\n  " +
       DEFAULT_PUBLISH_ROOT +
       "\nor distilled sample data at:\n  " +
       DEFAULT_DISTILLED +
-      "\nSet WOWHEAD_STYLE_DIR or pass a path. This is UX/style reference only — not Palworld game data."
+      "\nSet WOWHEAD_STYLE_DIR or pass a path. This is UX/style reference only — not Palworld game data.\n" +
+      "In CI, style import is skipped automatically (ALLOW_MISSING_STYLE / CI)."
   );
 }
 

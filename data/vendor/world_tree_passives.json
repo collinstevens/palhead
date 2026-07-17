@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-07-16T23:19:28.184265+00:00",
+  "language": "en",
+  "count": 7,
+  "source_url": "https://paldb.cc/en/World_Tree_Passive_Skills",
+  "source_export": "data/raw/exports/en/World_Tree_Passive_Skills.html",
+  "paragraphs": [
+    "A new category, World Tree Passive Skills, has also been added. These are incredibly powerful passive skills, but they come with a cost…",
+    "World Tree Passive Skills can be passed on to offspring through breeding. Don't work with Yakumo 's Birds of a Feather .",
+    "\"Disposable Implant\" usable at the Pal Surgery Table . It is consumed on use, but can grant more powerful passive skills."
+  ],
+  "world_tree_passives": [
+    {
+      "id": "Demon’s Hand",
+      "name": "Demon’s Hand",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Work Speed",
+          "value": "+90%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Sanity_Decrease",
+          "value": "+15%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Work Speed +90 % SAN dreceases +15.0% faster World Tree harvestables won't vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Dimensional Leap",
+      "name": "Dimensional Leap",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "MoveSpeed",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "+15%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Movement Speed +50 % Increases Hunger depletion rate by +15.0% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "God of Destruction",
+      "name": "God of Destruction",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+40%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Max Health",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Attack +40% Defense +20% Max Health -50% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Hermit Sage",
+      "name": "Hermit Sage",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Sanity_Decrease",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Work Speed",
+          "value": "-20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "SAN depletion rate - 50.0% Work Speed -20 % World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Sanctified Meat Shield",
+      "name": "Sanctified Meat Shield",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Defense",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "-30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Defense +50% Attack -30% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Twin-Edged Holy Blade",
+      "name": "Twin-Edged Holy Blade",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "Attack",
+          "value": "+50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "-30%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Attack +50% Defense -30% World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "World Tree Seedbed",
+      "name": "World Tree Seedbed",
+      "rank": 5,
+      "weight": 5,
+      "modifiers": [
+        {
+          "stat": "FullStomatch_Decrease",
+          "value": "-50%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Max Health",
+          "value": "-20%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "WorldTreeDecayImmunity",
+          "value": "+0%",
+          "target": "ToSelfAndTrainer"
+        }
+      ],
+      "description": "Decrease Hunger depletion rate by +50.0% HP -20 % World Tree resources will not vanish when approached.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    }
+  ]
+}

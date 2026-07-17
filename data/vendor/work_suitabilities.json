@@ -1,0 +1,3711 @@
+{
+  "generated_at": "2026-07-17T02:45:01.364217+00:00",
+  "language": "en",
+  "count": 12,
+  "work_suitabilities": [
+    {
+      "id": "EmitFlame",
+      "slug": "Kindling",
+      "name": "Kindling",
+      "code": "EmitFlame",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Kindling",
+      "source_export": "data/raw/exports/en/Kindling.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 80
+        },
+        {
+          "level": 3,
+          "power": 140
+        },
+        {
+          "level": 4,
+          "power": 240
+        },
+        {
+          "level": 5,
+          "power": 400
+        },
+        {
+          "level": 6,
+          "power": 680
+        },
+        {
+          "level": 7,
+          "power": 1100
+        },
+        {
+          "level": 8,
+          "power": 1900
+        },
+        {
+          "level": 9,
+          "power": 3200
+        },
+        {
+          "level": 10,
+          "power": 5400
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Renjishi",
+          "name": "Renjishi",
+          "level": 8
+        },
+        {
+          "slug": "Jormuntide_Ignis",
+          "name": "Jormuntide Ignis",
+          "level": 7
+        },
+        {
+          "slug": "Flaracle",
+          "name": "Flaracle",
+          "level": 7
+        },
+        {
+          "slug": "Dupin",
+          "name": "Dupin",
+          "level": 7
+        },
+        {
+          "slug": "Blazamut",
+          "name": "Blazamut",
+          "level": 6
+        },
+        {
+          "slug": "Blazamut_Ryu",
+          "name": "Blazamut Ryu",
+          "level": 6
+        },
+        {
+          "slug": "Eidrolon_Ignis",
+          "name": "Eidrolon Ignis",
+          "level": 6
+        },
+        {
+          "slug": "Faleris",
+          "name": "Faleris",
+          "level": 6
+        },
+        {
+          "slug": "Ghangler_Ignis",
+          "name": "Ghangler Ignis",
+          "level": 5
+        },
+        {
+          "slug": "Moldron",
+          "name": "Moldron",
+          "level": 5
+        },
+        {
+          "slug": "Blazehowl",
+          "name": "Blazehowl",
+          "level": 5
+        },
+        {
+          "slug": "Blazehowl_Noct",
+          "name": "Blazehowl Noct",
+          "level": 5
+        },
+        {
+          "slug": "Suzaku",
+          "name": "Suzaku",
+          "level": 5
+        },
+        {
+          "slug": "Reptyro",
+          "name": "Reptyro",
+          "level": 5
+        },
+        {
+          "slug": "Whalaska_Ignis",
+          "name": "Whalaska Ignis",
+          "level": 5
+        },
+        {
+          "slug": "Knocklem_Ignis",
+          "name": "Knocklem Ignis",
+          "level": 5
+        },
+        {
+          "slug": "Wixen_Noct",
+          "name": "Wixen Noct",
+          "level": 4
+        },
+        {
+          "slug": "Petallia_Ignis",
+          "name": "Petallia Ignis",
+          "level": 4
+        },
+        {
+          "slug": "Pyrin",
+          "name": "Pyrin",
+          "level": 4
+        },
+        {
+          "slug": "Pyrin_Noct",
+          "name": "Pyrin Noct",
+          "level": 4
+        },
+        {
+          "slug": "Chillet_Ignis",
+          "name": "Chillet Ignis",
+          "level": 4
+        },
+        {
+          "slug": "Ragnahawk",
+          "name": "Ragnahawk",
+          "level": 4
+        },
+        {
+          "slug": "Kitsun_Noct",
+          "name": "Kitsun Noct",
+          "level": 4
+        },
+        {
+          "slug": "Majex",
+          "name": "Majex",
+          "level": 4
+        },
+        {
+          "slug": "Loomen",
+          "name": "Loomen",
+          "level": 4
+        },
+        {
+          "slug": "Arsox",
+          "name": "Arsox",
+          "level": 3
+        },
+        {
+          "slug": "Wixen",
+          "name": "Wixen",
+          "level": 3
+        },
+        {
+          "slug": "Katress_Ignis",
+          "name": "Katress Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Incineram",
+          "name": "Incineram",
+          "level": 3
+        },
+        {
+          "slug": "Kitsun",
+          "name": "Kitsun",
+          "level": 3
+        },
+        {
+          "slug": "Skutlass_Ignis",
+          "name": "Skutlass Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Sootseer",
+          "name": "Sootseer",
+          "level": 3
+        },
+        {
+          "slug": "Fuack_Ignis",
+          "name": "Fuack Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Gobfin_Ignis",
+          "name": "Gobfin Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Vanwyrm",
+          "name": "Vanwyrm",
+          "level": 2
+        },
+        {
+          "slug": "Leezpunk_Ignis",
+          "name": "Leezpunk Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Bushi",
+          "name": "Bushi",
+          "level": 2
+        },
+        {
+          "slug": "Bushi_Noct",
+          "name": "Bushi Noct",
+          "level": 2
+        },
+        {
+          "slug": "Finsider_Ignis",
+          "name": "Finsider Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Tanzee_Ignis",
+          "name": "Tanzee Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Flambelle",
+          "name": "Flambelle",
+          "level": 1
+        },
+        {
+          "slug": "Rooby",
+          "name": "Rooby",
+          "level": 1
+        },
+        {
+          "slug": "Foxparks",
+          "name": "Foxparks",
+          "level": 1
+        },
+        {
+          "slug": "Kelpsea_Ignis",
+          "name": "Kelpsea Ignis",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Watering",
+      "slug": "Watering",
+      "name": "Watering",
+      "code": "Watering",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Watering",
+      "source_export": "data/raw/exports/en/Watering.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 70
+        },
+        {
+          "level": 3,
+          "power": 100
+        },
+        {
+          "level": 4,
+          "power": 140
+        },
+        {
+          "level": 5,
+          "power": 190
+        },
+        {
+          "level": 6,
+          "power": 260
+        },
+        {
+          "level": 7,
+          "power": 370
+        },
+        {
+          "level": 8,
+          "power": 510
+        },
+        {
+          "level": 9,
+          "power": 720
+        },
+        {
+          "level": 10,
+          "power": 1000
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Shaolong",
+          "name": "Shaolong",
+          "level": 8
+        },
+        {
+          "slug": "Jormuntide",
+          "name": "Jormuntide",
+          "level": 7
+        },
+        {
+          "slug": "Neptilius",
+          "name": "Neptilius",
+          "level": 7
+        },
+        {
+          "slug": "Suzaku_Aqua",
+          "name": "Suzaku Aqua",
+          "level": 6
+        },
+        {
+          "slug": "Faleris_Aqua",
+          "name": "Faleris Aqua",
+          "level": 6
+        },
+        {
+          "slug": "Ghangler",
+          "name": "Ghangler",
+          "level": 5
+        },
+        {
+          "slug": "Ghangler_Ignis",
+          "name": "Ghangler Ignis",
+          "level": 5
+        },
+        {
+          "slug": "Broncherry_Aqua",
+          "name": "Broncherry Aqua",
+          "level": 5
+        },
+        {
+          "slug": "Whalaska",
+          "name": "Whalaska",
+          "level": 5
+        },
+        {
+          "slug": "Ophydia",
+          "name": "Ophydia",
+          "level": 5
+        },
+        {
+          "slug": "Azurobe",
+          "name": "Azurobe",
+          "level": 4
+        },
+        {
+          "slug": "Elphidran_Aqua",
+          "name": "Elphidran Aqua",
+          "level": 4
+        },
+        {
+          "slug": "Skutlass",
+          "name": "Skutlass",
+          "level": 4
+        },
+        {
+          "slug": "Solmora",
+          "name": "Solmora",
+          "level": 4
+        },
+        {
+          "slug": "Solmora_Lux",
+          "name": "Solmora Lux",
+          "level": 4
+        },
+        {
+          "slug": "Polapup",
+          "name": "Polapup",
+          "level": 3
+        },
+        {
+          "slug": "Surfent",
+          "name": "Surfent",
+          "level": 3
+        },
+        {
+          "slug": "Relaxaurus",
+          "name": "Relaxaurus",
+          "level": 3
+        },
+        {
+          "slug": "Fuack_Ignis",
+          "name": "Fuack Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Penking",
+          "name": "Penking",
+          "level": 2
+        },
+        {
+          "slug": "Penking_Lux",
+          "name": "Penking Lux",
+          "level": 2
+        },
+        {
+          "slug": "Turtacle",
+          "name": "Turtacle",
+          "level": 2
+        },
+        {
+          "slug": "Turtacle_Terra",
+          "name": "Turtacle Terra",
+          "level": 2
+        },
+        {
+          "slug": "Jelliette",
+          "name": "Jelliette",
+          "level": 2
+        },
+        {
+          "slug": "Jellroy",
+          "name": "Jellroy",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie",
+          "name": "Gloopie",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie_Primo",
+          "name": "Gloopie Primo",
+          "level": 2
+        },
+        {
+          "slug": "Gobfin",
+          "name": "Gobfin",
+          "level": 2
+        },
+        {
+          "slug": "Munchill",
+          "name": "Munchill",
+          "level": 2
+        },
+        {
+          "slug": "Finsider",
+          "name": "Finsider",
+          "level": 2
+        },
+        {
+          "slug": "Finsider_Ignis",
+          "name": "Finsider Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Dumud",
+          "name": "Dumud",
+          "level": 2
+        },
+        {
+          "slug": "Dumud_Gild",
+          "name": "Dumud Gild",
+          "level": 2
+        },
+        {
+          "slug": "Skutlass_Ignis",
+          "name": "Skutlass Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Fuack",
+          "name": "Fuack",
+          "level": 1
+        },
+        {
+          "slug": "Celaray",
+          "name": "Celaray",
+          "level": 1
+        },
+        {
+          "slug": "Celaray_Lux",
+          "name": "Celaray Lux",
+          "level": 1
+        },
+        {
+          "slug": "Croajiro",
+          "name": "Croajiro",
+          "level": 1
+        },
+        {
+          "slug": "Croajiro_Noct",
+          "name": "Croajiro Noct",
+          "level": 1
+        },
+        {
+          "slug": "Teafant",
+          "name": "Teafant",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet",
+          "name": "Pengullet",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet_Lux",
+          "name": "Pengullet Lux",
+          "level": 1
+        },
+        {
+          "slug": "Killamari",
+          "name": "Killamari",
+          "level": 1
+        },
+        {
+          "slug": "Killamari_Primo",
+          "name": "Killamari Primo",
+          "level": 1
+        },
+        {
+          "slug": "Kelpsea",
+          "name": "Kelpsea",
+          "level": 1
+        },
+        {
+          "slug": "Amione",
+          "name": "Amione",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Seeding",
+      "slug": "Planting",
+      "name": "Planting",
+      "code": "Seeding",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Planting",
+      "source_export": "data/raw/exports/en/Planting.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 70
+        },
+        {
+          "level": 3,
+          "power": 100
+        },
+        {
+          "level": 4,
+          "power": 140
+        },
+        {
+          "level": 5,
+          "power": 190
+        },
+        {
+          "level": 6,
+          "power": 260
+        },
+        {
+          "level": 7,
+          "power": 370
+        },
+        {
+          "level": 8,
+          "power": 510
+        },
+        {
+          "level": 9,
+          "power": 720
+        },
+        {
+          "level": 10,
+          "power": 1000
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Dandilord",
+          "name": "Dandilord",
+          "level": 8
+        },
+        {
+          "slug": "Ophydia",
+          "name": "Ophydia",
+          "level": 7
+        },
+        {
+          "slug": "Lyleen",
+          "name": "Lyleen",
+          "level": 7
+        },
+        {
+          "slug": "Carnibora",
+          "name": "Carnibora",
+          "level": 6
+        },
+        {
+          "slug": "Mycora",
+          "name": "Mycora",
+          "level": 6
+        },
+        {
+          "slug": "Silvance",
+          "name": "Silvance",
+          "level": 6
+        },
+        {
+          "slug": "Broncherry",
+          "name": "Broncherry",
+          "level": 5
+        },
+        {
+          "slug": "Braloha",
+          "name": "Braloha",
+          "level": 5
+        },
+        {
+          "slug": "Quivern_Botan",
+          "name": "Quivern Botan",
+          "level": 5
+        },
+        {
+          "slug": "Tropicaw",
+          "name": "Tropicaw",
+          "level": 5
+        },
+        {
+          "slug": "Elizabee",
+          "name": "Elizabee",
+          "level": 4
+        },
+        {
+          "slug": "Mammorest",
+          "name": "Mammorest",
+          "level": 4
+        },
+        {
+          "slug": "Petallia",
+          "name": "Petallia",
+          "level": 4
+        },
+        {
+          "slug": "Palumba",
+          "name": "Palumba",
+          "level": 4
+        },
+        {
+          "slug": "Verdash",
+          "name": "Verdash",
+          "level": 4
+        },
+        {
+          "slug": "Vaelet",
+          "name": "Vaelet",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove",
+          "name": "Elgrove",
+          "level": 3
+        },
+        {
+          "slug": "Dinossom",
+          "name": "Dinossom",
+          "level": 3
+        },
+        {
+          "slug": "Leafan",
+          "name": "Leafan",
+          "level": 3
+        },
+        {
+          "slug": "Needoll",
+          "name": "Needoll",
+          "level": 3
+        },
+        {
+          "slug": "Needoll_Noct",
+          "name": "Needoll Noct",
+          "level": 3
+        },
+        {
+          "slug": "Mossanda",
+          "name": "Mossanda",
+          "level": 3
+        },
+        {
+          "slug": "Warsect",
+          "name": "Warsect",
+          "level": 3
+        },
+        {
+          "slug": "Shroomer",
+          "name": "Shroomer",
+          "level": 3
+        },
+        {
+          "slug": "Shroomer_Noct",
+          "name": "Shroomer Noct",
+          "level": 3
+        },
+        {
+          "slug": "Lullu",
+          "name": "Lullu",
+          "level": 3
+        },
+        {
+          "slug": "Wumpo_Botan",
+          "name": "Wumpo Botan",
+          "level": 3
+        },
+        {
+          "slug": "Dualith",
+          "name": "Dualith",
+          "level": 3
+        },
+        {
+          "slug": "Dualith_Noct",
+          "name": "Dualith Noct",
+          "level": 3
+        },
+        {
+          "slug": "Prunelia",
+          "name": "Prunelia",
+          "level": 3
+        },
+        {
+          "slug": "Nitemary_Botan",
+          "name": "Nitemary Botan",
+          "level": 3
+        },
+        {
+          "slug": "Caprity",
+          "name": "Caprity",
+          "level": 2
+        },
+        {
+          "slug": "Caprity_Noct",
+          "name": "Caprity Noct",
+          "level": 2
+        },
+        {
+          "slug": "Ribbuny_Botan",
+          "name": "Ribbuny Botan",
+          "level": 2
+        },
+        {
+          "slug": "Bristla",
+          "name": "Bristla",
+          "level": 2
+        },
+        {
+          "slug": "Cinnamoth",
+          "name": "Cinnamoth",
+          "level": 2
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill",
+          "name": "Robinquill",
+          "level": 2
+        },
+        {
+          "slug": "Flopie",
+          "name": "Flopie",
+          "level": 2
+        },
+        {
+          "slug": "Souffline",
+          "name": "Souffline",
+          "level": 2
+        },
+        {
+          "slug": "Lifmunk",
+          "name": "Lifmunk",
+          "level": 1
+        },
+        {
+          "slug": "Herbil",
+          "name": "Herbil",
+          "level": 1
+        },
+        {
+          "slug": "Gumoss",
+          "name": "Gumoss",
+          "level": 1
+        },
+        {
+          "slug": "Clovee",
+          "name": "Clovee",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee",
+          "name": "Tanzee",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Generating_Electricity",
+      "slug": "Generating_Electricity",
+      "name": "Generating_Electricity",
+      "code": null,
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Generating_Electricity",
+      "source_export": "data/raw/exports/en/Generating_Electricity.html",
+      "level_power": [],
+      "pals_by_level": [],
+      "buildings": []
+    },
+    {
+      "id": "Handcraft",
+      "slug": "Handiwork",
+      "name": "Handiwork",
+      "code": "Handcraft",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Handiwork",
+      "source_export": "data/raw/exports/en/Handiwork.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 80
+        },
+        {
+          "level": 3,
+          "power": 140
+        },
+        {
+          "level": 4,
+          "power": 240
+        },
+        {
+          "level": 5,
+          "power": 400
+        },
+        {
+          "level": 6,
+          "power": 680
+        },
+        {
+          "level": 7,
+          "power": 1100
+        },
+        {
+          "level": 8,
+          "power": 1900
+        },
+        {
+          "level": 9,
+          "power": 3200
+        },
+        {
+          "level": 10,
+          "power": 5400
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Solenne",
+          "name": "Solenne",
+          "level": 8
+        },
+        {
+          "slug": "Selyne",
+          "name": "Selyne",
+          "level": 7
+        },
+        {
+          "slug": "Anubis",
+          "name": "Anubis",
+          "level": 6
+        },
+        {
+          "slug": "Sekhmet",
+          "name": "Sekhmet",
+          "level": 6
+        },
+        {
+          "slug": "Splatterina",
+          "name": "Splatterina",
+          "level": 6
+        },
+        {
+          "slug": "Lapure",
+          "name": "Lapure",
+          "level": 6
+        },
+        {
+          "slug": "Flaracle",
+          "name": "Flaracle",
+          "level": 6
+        },
+        {
+          "slug": "Venusa",
+          "name": "Venusa",
+          "level": 6
+        },
+        {
+          "slug": "Wistella",
+          "name": "Wistella",
+          "level": 6
+        },
+        {
+          "slug": "Renjishi",
+          "name": "Renjishi",
+          "level": 6
+        },
+        {
+          "slug": "Silvance",
+          "name": "Silvance",
+          "level": 6
+        },
+        {
+          "slug": "Dandilord",
+          "name": "Dandilord",
+          "level": 6
+        },
+        {
+          "slug": "Bellanoir_Libero",
+          "name": "Bellanoir Libero",
+          "level": 6
+        },
+        {
+          "slug": "Majex",
+          "name": "Majex",
+          "level": 5
+        },
+        {
+          "slug": "Icelyn",
+          "name": "Icelyn",
+          "level": 5
+        },
+        {
+          "slug": "Gildra",
+          "name": "Gildra",
+          "level": 5
+        },
+        {
+          "slug": "Verdash",
+          "name": "Verdash",
+          "level": 5
+        },
+        {
+          "slug": "Dupin",
+          "name": "Dupin",
+          "level": 5
+        },
+        {
+          "slug": "Lyleen",
+          "name": "Lyleen",
+          "level": 5
+        },
+        {
+          "slug": "Lyleen_Noct",
+          "name": "Lyleen Noct",
+          "level": 5
+        },
+        {
+          "slug": "Bellanoir",
+          "name": "Bellanoir",
+          "level": 5
+        },
+        {
+          "slug": "Loupmoon_Cryst",
+          "name": "Loupmoon Cryst",
+          "level": 4
+        },
+        {
+          "slug": "Elizabee",
+          "name": "Elizabee",
+          "level": 4
+        },
+        {
+          "slug": "Wixen_Noct",
+          "name": "Wixen Noct",
+          "level": 4
+        },
+        {
+          "slug": "Lunaris",
+          "name": "Lunaris",
+          "level": 4
+        },
+        {
+          "slug": "Carnibora",
+          "name": "Carnibora",
+          "level": 4
+        },
+        {
+          "slug": "Nyafia",
+          "name": "Nyafia",
+          "level": 4
+        },
+        {
+          "slug": "Nitemary",
+          "name": "Nitemary",
+          "level": 4
+        },
+        {
+          "slug": "Nitemary_Botan",
+          "name": "Nitemary Botan",
+          "level": 4
+        },
+        {
+          "slug": "Dogen",
+          "name": "Dogen",
+          "level": 4
+        },
+        {
+          "slug": "Mycora",
+          "name": "Mycora",
+          "level": 4
+        },
+        {
+          "slug": "Loomen",
+          "name": "Loomen",
+          "level": 4
+        },
+        {
+          "slug": "Grizzbolt",
+          "name": "Grizzbolt",
+          "level": 4
+        },
+        {
+          "slug": "Hangyu_Cryst",
+          "name": "Hangyu Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Vaelet",
+          "name": "Vaelet",
+          "level": 3
+        },
+        {
+          "slug": "Lovander",
+          "name": "Lovander",
+          "level": 3
+        },
+        {
+          "slug": "Tarantriss",
+          "name": "Tarantriss",
+          "level": 3
+        },
+        {
+          "slug": "Robinquill",
+          "name": "Robinquill",
+          "level": 3
+        },
+        {
+          "slug": "Robinquill_Terra",
+          "name": "Robinquill Terra",
+          "level": 3
+        },
+        {
+          "slug": "Wixen",
+          "name": "Wixen",
+          "level": 3
+        },
+        {
+          "slug": "Katress",
+          "name": "Katress",
+          "level": 3
+        },
+        {
+          "slug": "Katress_Ignis",
+          "name": "Katress Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Petallia",
+          "name": "Petallia",
+          "level": 3
+        },
+        {
+          "slug": "Petallia_Ignis",
+          "name": "Petallia Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Leafan",
+          "name": "Leafan",
+          "level": 3
+        },
+        {
+          "slug": "Incineram_Noct",
+          "name": "Incineram Noct",
+          "level": 3
+        },
+        {
+          "slug": "Mossanda_Lux",
+          "name": "Mossanda Lux",
+          "level": 3
+        },
+        {
+          "slug": "Warsect",
+          "name": "Warsect",
+          "level": 3
+        },
+        {
+          "slug": "Shroomer_Noct",
+          "name": "Shroomer Noct",
+          "level": 3
+        },
+        {
+          "slug": "Lullu",
+          "name": "Lullu",
+          "level": 3
+        },
+        {
+          "slug": "Cryolinx",
+          "name": "Cryolinx",
+          "level": 3
+        },
+        {
+          "slug": "Wumpo",
+          "name": "Wumpo",
+          "level": 3
+        },
+        {
+          "slug": "Wumpo_Botan",
+          "name": "Wumpo Botan",
+          "level": 3
+        },
+        {
+          "slug": "Sootseer",
+          "name": "Sootseer",
+          "level": 3
+        },
+        {
+          "slug": "Astegon",
+          "name": "Astegon",
+          "level": 3
+        },
+        {
+          "slug": "Lapiron",
+          "name": "Lapiron",
+          "level": 3
+        },
+        {
+          "slug": "Bakemi",
+          "name": "Bakemi",
+          "level": 3
+        },
+        {
+          "slug": "Orserk",
+          "name": "Orserk",
+          "level": 3
+        },
+        {
+          "slug": "Croajiro_Noct",
+          "name": "Croajiro Noct",
+          "level": 2
+        },
+        {
+          "slug": "Penking",
+          "name": "Penking",
+          "level": 2
+        },
+        {
+          "slug": "Penking_Lux",
+          "name": "Penking Lux",
+          "level": 2
+        },
+        {
+          "slug": "Ribbuny_Botan",
+          "name": "Ribbuny Botan",
+          "level": 2
+        },
+        {
+          "slug": "Amione",
+          "name": "Amione",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie",
+          "name": "Gloopie",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie_Primo",
+          "name": "Gloopie Primo",
+          "level": 2
+        },
+        {
+          "slug": "Wispaw",
+          "name": "Wispaw",
+          "level": 2
+        },
+        {
+          "slug": "Gobfin",
+          "name": "Gobfin",
+          "level": 2
+        },
+        {
+          "slug": "Gobfin_Ignis",
+          "name": "Gobfin Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Loupmoon",
+          "name": "Loupmoon",
+          "level": 2
+        },
+        {
+          "slug": "Bristla",
+          "name": "Bristla",
+          "level": 2
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 2
+        },
+        {
+          "slug": "Leezpunk",
+          "name": "Leezpunk",
+          "level": 2
+        },
+        {
+          "slug": "Leezpunk_Ignis",
+          "name": "Leezpunk Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Gorirat",
+          "name": "Gorirat",
+          "level": 2
+        },
+        {
+          "slug": "Gorirat_Terra",
+          "name": "Gorirat Terra",
+          "level": 2
+        },
+        {
+          "slug": "Flopie",
+          "name": "Flopie",
+          "level": 2
+        },
+        {
+          "slug": "Bushi",
+          "name": "Bushi",
+          "level": 2
+        },
+        {
+          "slug": "Bushi_Noct",
+          "name": "Bushi Noct",
+          "level": 2
+        },
+        {
+          "slug": "Incineram",
+          "name": "Incineram",
+          "level": 2
+        },
+        {
+          "slug": "Dazzi",
+          "name": "Dazzi",
+          "level": 2
+        },
+        {
+          "slug": "Mossanda",
+          "name": "Mossanda",
+          "level": 2
+        },
+        {
+          "slug": "Warsect_Terra",
+          "name": "Warsect Terra",
+          "level": 2
+        },
+        {
+          "slug": "Shroomer",
+          "name": "Shroomer",
+          "level": 2
+        },
+        {
+          "slug": "Quivern",
+          "name": "Quivern",
+          "level": 2
+        },
+        {
+          "slug": "Quivern_Botan",
+          "name": "Quivern Botan",
+          "level": 2
+        },
+        {
+          "slug": "Cryolinx_Terra",
+          "name": "Cryolinx Terra",
+          "level": 2
+        },
+        {
+          "slug": "Snugloo",
+          "name": "Snugloo",
+          "level": 2
+        },
+        {
+          "slug": "Lamball",
+          "name": "Lamball",
+          "level": 1
+        },
+        {
+          "slug": "Cattiva",
+          "name": "Cattiva",
+          "level": 1
+        },
+        {
+          "slug": "Lifmunk",
+          "name": "Lifmunk",
+          "level": 1
+        },
+        {
+          "slug": "Fuack",
+          "name": "Fuack",
+          "level": 1
+        },
+        {
+          "slug": "Fuack_Ignis",
+          "name": "Fuack Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Croajiro",
+          "name": "Croajiro",
+          "level": 1
+        },
+        {
+          "slug": "Depresso",
+          "name": "Depresso",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet",
+          "name": "Pengullet",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet_Lux",
+          "name": "Pengullet Lux",
+          "level": 1
+        },
+        {
+          "slug": "Daedream",
+          "name": "Daedream",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee",
+          "name": "Tanzee",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee_Ignis",
+          "name": "Tanzee Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Flambelle",
+          "name": "Flambelle",
+          "level": 1
+        },
+        {
+          "slug": "Fuddler",
+          "name": "Fuddler",
+          "level": 1
+        },
+        {
+          "slug": "Hangyu",
+          "name": "Hangyu",
+          "level": 1
+        },
+        {
+          "slug": "Sparkit",
+          "name": "Sparkit",
+          "level": 1
+        },
+        {
+          "slug": "Ribbuny",
+          "name": "Ribbuny",
+          "level": 1
+        },
+        {
+          "slug": "Jelliette",
+          "name": "Jelliette",
+          "level": 1
+        },
+        {
+          "slug": "Jellroy",
+          "name": "Jellroy",
+          "level": 1
+        },
+        {
+          "slug": "Dazzi_Noct",
+          "name": "Dazzi Noct",
+          "level": 1
+        },
+        {
+          "slug": "Prunelia",
+          "name": "Prunelia",
+          "level": 1
+        },
+        {
+          "slug": "Hoodle",
+          "name": "Hoodle",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Gathering",
+      "slug": "Gathering",
+      "name": "Gathering",
+      "code": null,
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Gathering",
+      "source_export": "data/raw/exports/en/Gathering.html",
+      "level_power": [],
+      "pals_by_level": [],
+      "buildings": []
+    },
+    {
+      "id": "Deforest",
+      "slug": "Lumbering",
+      "name": "Lumbering",
+      "code": "Deforest",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Lumbering",
+      "source_export": "data/raw/exports/en/Lumbering.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": "50 (DamageRate x0.05)"
+        },
+        {
+          "level": 2,
+          "power": "70 (DamageRate x0.1)"
+        },
+        {
+          "level": 3,
+          "power": "100 (DamageRate x0.18)"
+        },
+        {
+          "level": 4,
+          "power": "140 (DamageRate x0.26)"
+        },
+        {
+          "level": 5,
+          "power": "190 (DamageRate x0.38)"
+        },
+        {
+          "level": 6,
+          "power": "260 (DamageRate x0.5)"
+        },
+        {
+          "level": 7,
+          "power": "370 (DamageRate x0.6)"
+        },
+        {
+          "level": 8,
+          "power": "510 (DamageRate x0.7)"
+        },
+        {
+          "level": 9,
+          "power": "720 (DamageRate x0.85)"
+        },
+        {
+          "level": 10,
+          "power": "1000 (DamageRate x1)"
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Celesdir_Noct",
+          "name": "Celesdir Noct",
+          "level": 8
+        },
+        {
+          "slug": "Celesdir",
+          "name": "Celesdir",
+          "level": 7
+        },
+        {
+          "slug": "Hartalis",
+          "name": "Hartalis",
+          "level": 7
+        },
+        {
+          "slug": "Cryolinx_Terra",
+          "name": "Cryolinx Terra",
+          "level": 6
+        },
+        {
+          "slug": "Silvegis",
+          "name": "Silvegis",
+          "level": 6
+        },
+        {
+          "slug": "Bastigor",
+          "name": "Bastigor",
+          "level": 6
+        },
+        {
+          "slug": "Paladius",
+          "name": "Paladius",
+          "level": 6
+        },
+        {
+          "slug": "Necromus",
+          "name": "Necromus",
+          "level": 6
+        },
+        {
+          "slug": "Bushi_Noct",
+          "name": "Bushi Noct",
+          "level": 5
+        },
+        {
+          "slug": "Mammorest_Cryst",
+          "name": "Mammorest Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Wumpo",
+          "name": "Wumpo",
+          "level": 5
+        },
+        {
+          "slug": "Wumpo_Botan",
+          "name": "Wumpo Botan",
+          "level": 5
+        },
+        {
+          "slug": "Dualith",
+          "name": "Dualith",
+          "level": 5
+        },
+        {
+          "slug": "Dualith_Noct",
+          "name": "Dualith Noct",
+          "level": 5
+        },
+        {
+          "slug": "Fenglope_Lux",
+          "name": "Fenglope Lux",
+          "level": 4
+        },
+        {
+          "slug": "Dinossom_Lux",
+          "name": "Dinossom Lux",
+          "level": 4
+        },
+        {
+          "slug": "Mammorest",
+          "name": "Mammorest",
+          "level": 4
+        },
+        {
+          "slug": "Mossanda",
+          "name": "Mossanda",
+          "level": 4
+        },
+        {
+          "slug": "Mossanda_Lux",
+          "name": "Mossanda Lux",
+          "level": 4
+        },
+        {
+          "slug": "Warsect",
+          "name": "Warsect",
+          "level": 4
+        },
+        {
+          "slug": "Skutlass",
+          "name": "Skutlass",
+          "level": 4
+        },
+        {
+          "slug": "Cryolinx",
+          "name": "Cryolinx",
+          "level": 4
+        },
+        {
+          "slug": "Prixter",
+          "name": "Prixter",
+          "level": 4
+        },
+        {
+          "slug": "Prixter_Lux",
+          "name": "Prixter Lux",
+          "level": 4
+        },
+        {
+          "slug": "Univolt_Cryst",
+          "name": "Univolt Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Elphidran",
+          "name": "Elphidran",
+          "level": 3
+        },
+        {
+          "slug": "Elphidran_Aqua",
+          "name": "Elphidran Aqua",
+          "level": 3
+        },
+        {
+          "slug": "Elizabee",
+          "name": "Elizabee",
+          "level": 3
+        },
+        {
+          "slug": "Gorirat",
+          "name": "Gorirat",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove",
+          "name": "Elgrove",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove_Cryst",
+          "name": "Elgrove Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Fenglope",
+          "name": "Fenglope",
+          "level": 3
+        },
+        {
+          "slug": "Dinossom",
+          "name": "Dinossom",
+          "level": 3
+        },
+        {
+          "slug": "Bushi",
+          "name": "Bushi",
+          "level": 3
+        },
+        {
+          "slug": "Pyrin_Noct",
+          "name": "Pyrin Noct",
+          "level": 3
+        },
+        {
+          "slug": "Menasting",
+          "name": "Menasting",
+          "level": 3
+        },
+        {
+          "slug": "Menasting_Terra",
+          "name": "Menasting Terra",
+          "level": 3
+        },
+        {
+          "slug": "Reindrix",
+          "name": "Reindrix",
+          "level": 3
+        },
+        {
+          "slug": "Blazehowl",
+          "name": "Blazehowl",
+          "level": 3
+        },
+        {
+          "slug": "Blazehowl_Noct",
+          "name": "Blazehowl Noct",
+          "level": 3
+        },
+        {
+          "slug": "Skutlass_Ignis",
+          "name": "Skutlass Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Xenovader",
+          "name": "Xenovader",
+          "level": 3
+        },
+        {
+          "slug": "Verdash",
+          "name": "Verdash",
+          "level": 3
+        },
+        {
+          "slug": "Splatterina",
+          "name": "Splatterina",
+          "level": 3
+        },
+        {
+          "slug": "Dogen",
+          "name": "Dogen",
+          "level": 3
+        },
+        {
+          "slug": "Grizzbolt",
+          "name": "Grizzbolt",
+          "level": 3
+        },
+        {
+          "slug": "Eikthyrdeer",
+          "name": "Eikthyrdeer",
+          "level": 2
+        },
+        {
+          "slug": "Eikthyrdeer_Terra",
+          "name": "Eikthyrdeer Terra",
+          "level": 2
+        },
+        {
+          "slug": "Cawgnito",
+          "name": "Cawgnito",
+          "level": 2
+        },
+        {
+          "slug": "Arsox",
+          "name": "Arsox",
+          "level": 2
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill",
+          "name": "Robinquill",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill_Terra",
+          "name": "Robinquill Terra",
+          "level": 2
+        },
+        {
+          "slug": "Pyrin",
+          "name": "Pyrin",
+          "level": 2
+        },
+        {
+          "slug": "Shroomer",
+          "name": "Shroomer",
+          "level": 2
+        },
+        {
+          "slug": "Shroomer_Noct",
+          "name": "Shroomer Noct",
+          "level": 2
+        },
+        {
+          "slug": "Nyafia",
+          "name": "Nyafia",
+          "level": 2
+        },
+        {
+          "slug": "Lifmunk",
+          "name": "Lifmunk",
+          "level": 1
+        },
+        {
+          "slug": "Pupperai",
+          "name": "Pupperai",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee",
+          "name": "Tanzee",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee_Ignis",
+          "name": "Tanzee Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Wispaw",
+          "name": "Wispaw",
+          "level": 1
+        },
+        {
+          "slug": "Univolt",
+          "name": "Univolt",
+          "level": 1
+        },
+        {
+          "slug": "Enchanted_Sword",
+          "name": "Enchanted Sword",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Mining",
+      "slug": "Mining",
+      "name": "Mining",
+      "code": "Mining",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Mining",
+      "source_export": "data/raw/exports/en/Mining.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": "50 (DamageRate x0.07)"
+        },
+        {
+          "level": 2,
+          "power": "70 (DamageRate x0.12)"
+        },
+        {
+          "level": 3,
+          "power": "100 (DamageRate x0.23)"
+        },
+        {
+          "level": 4,
+          "power": "140 (DamageRate x0.31)"
+        },
+        {
+          "level": 5,
+          "power": "190 (DamageRate x0.43)"
+        },
+        {
+          "level": 6,
+          "power": "260 (DamageRate x0.55)"
+        },
+        {
+          "level": 7,
+          "power": "370 (DamageRate x0.65)"
+        },
+        {
+          "level": 8,
+          "power": "510 (DamageRate x0.75)"
+        },
+        {
+          "level": 9,
+          "power": "720 (DamageRate x0.9)"
+        },
+        {
+          "level": 10,
+          "power": "1000 (DamageRate x1.1)"
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Aegidron",
+          "name": "Aegidron",
+          "level": 8
+        },
+        {
+          "slug": "Blazamut",
+          "name": "Blazamut",
+          "level": 7
+        },
+        {
+          "slug": "Blazamut_Ryu",
+          "name": "Blazamut Ryu",
+          "level": 7
+        },
+        {
+          "slug": "Astegon",
+          "name": "Astegon",
+          "level": 7
+        },
+        {
+          "slug": "Knocklem",
+          "name": "Knocklem",
+          "level": 7
+        },
+        {
+          "slug": "Knocklem_Ignis",
+          "name": "Knocklem Ignis",
+          "level": 7
+        },
+        {
+          "slug": "Menasting_Terra",
+          "name": "Menasting Terra",
+          "level": 6
+        },
+        {
+          "slug": "Dualith",
+          "name": "Dualith",
+          "level": 6
+        },
+        {
+          "slug": "Dualith_Noct",
+          "name": "Dualith Noct",
+          "level": 6
+        },
+        {
+          "slug": "Anubis",
+          "name": "Anubis",
+          "level": 6
+        },
+        {
+          "slug": "Tetroise_Primo",
+          "name": "Tetroise Primo",
+          "level": 6
+        },
+        {
+          "slug": "Paladius",
+          "name": "Paladius",
+          "level": 6
+        },
+        {
+          "slug": "Necromus",
+          "name": "Necromus",
+          "level": 6
+        },
+        {
+          "slug": "Menasting",
+          "name": "Menasting",
+          "level": 5
+        },
+        {
+          "slug": "Moldron",
+          "name": "Moldron",
+          "level": 5
+        },
+        {
+          "slug": "Moldron_Cryst",
+          "name": "Moldron Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Palumba",
+          "name": "Palumba",
+          "level": 5
+        },
+        {
+          "slug": "Warsect_Terra",
+          "name": "Warsect Terra",
+          "level": 5
+        },
+        {
+          "slug": "Reptyro",
+          "name": "Reptyro",
+          "level": 5
+        },
+        {
+          "slug": "Reptyro_Cryst",
+          "name": "Reptyro Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Pierdon",
+          "name": "Pierdon",
+          "level": 5
+        },
+        {
+          "slug": "Pierdon_Cryst",
+          "name": "Pierdon Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Cryolinx_Terra",
+          "name": "Cryolinx Terra",
+          "level": 5
+        },
+        {
+          "slug": "Bastigor",
+          "name": "Bastigor",
+          "level": 5
+        },
+        {
+          "slug": "Polapup_Terra",
+          "name": "Polapup Terra",
+          "level": 4
+        },
+        {
+          "slug": "Mammorest",
+          "name": "Mammorest",
+          "level": 4
+        },
+        {
+          "slug": "Mammorest_Cryst",
+          "name": "Mammorest Cryst",
+          "level": 4
+        },
+        {
+          "slug": "Incineram_Noct",
+          "name": "Incineram Noct",
+          "level": 4
+        },
+        {
+          "slug": "Digtoise",
+          "name": "Digtoise",
+          "level": 4
+        },
+        {
+          "slug": "Maraith",
+          "name": "Maraith",
+          "level": 4
+        },
+        {
+          "slug": "Quivern",
+          "name": "Quivern",
+          "level": 4
+        },
+        {
+          "slug": "Tetroise",
+          "name": "Tetroise",
+          "level": 4
+        },
+        {
+          "slug": "Xenogard",
+          "name": "Xenogard",
+          "level": 4
+        },
+        {
+          "slug": "Bulldosu",
+          "name": "Bulldosu",
+          "level": 4
+        },
+        {
+          "slug": "Penking",
+          "name": "Penking",
+          "level": 3
+        },
+        {
+          "slug": "Penking_Lux",
+          "name": "Penking Lux",
+          "level": 3
+        },
+        {
+          "slug": "Turtacle_Terra",
+          "name": "Turtacle Terra",
+          "level": 3
+        },
+        {
+          "slug": "Tombat",
+          "name": "Tombat",
+          "level": 3
+        },
+        {
+          "slug": "Gorirat_Terra",
+          "name": "Gorirat Terra",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove_Cryst",
+          "name": "Elgrove Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Incineram",
+          "name": "Incineram",
+          "level": 3
+        },
+        {
+          "slug": "Braloha",
+          "name": "Braloha",
+          "level": 3
+        },
+        {
+          "slug": "Quivern_Botan",
+          "name": "Quivern Botan",
+          "level": 3
+        },
+        {
+          "slug": "Snugloo",
+          "name": "Snugloo",
+          "level": 3
+        },
+        {
+          "slug": "Sootseer",
+          "name": "Sootseer",
+          "level": 3
+        },
+        {
+          "slug": "Sekhmet",
+          "name": "Sekhmet",
+          "level": 3
+        },
+        {
+          "slug": "Lovander",
+          "name": "Lovander",
+          "level": 2
+        },
+        {
+          "slug": "Elgrove",
+          "name": "Elgrove",
+          "level": 2
+        },
+        {
+          "slug": "Dumud",
+          "name": "Dumud",
+          "level": 2
+        },
+        {
+          "slug": "Dumud_Gild",
+          "name": "Dumud Gild",
+          "level": 2
+        },
+        {
+          "slug": "Lapiron",
+          "name": "Lapiron",
+          "level": 2
+        },
+        {
+          "slug": "Cattiva",
+          "name": "Cattiva",
+          "level": 1
+        },
+        {
+          "slug": "Depresso",
+          "name": "Depresso",
+          "level": 1
+        },
+        {
+          "slug": "Rushoar",
+          "name": "Rushoar",
+          "level": 1
+        },
+        {
+          "slug": "Fuddler",
+          "name": "Fuddler",
+          "level": 1
+        },
+        {
+          "slug": "Turtacle",
+          "name": "Turtacle",
+          "level": 1
+        },
+        {
+          "slug": "Kikit",
+          "name": "Kikit",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "ProductMedicine",
+      "slug": "Medicine_Production",
+      "name": "Medicine_Production",
+      "code": "ProductMedicine",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Medicine_Production",
+      "source_export": "data/raw/exports/en/Medicine_Production.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 80
+        },
+        {
+          "level": 3,
+          "power": 140
+        },
+        {
+          "level": 4,
+          "power": 240
+        },
+        {
+          "level": 5,
+          "power": 400
+        },
+        {
+          "level": 6,
+          "power": 680
+        },
+        {
+          "level": 7,
+          "power": 1100
+        },
+        {
+          "level": 8,
+          "power": 1900
+        },
+        {
+          "level": 9,
+          "power": 3200
+        },
+        {
+          "level": 10,
+          "power": 5400
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Silvance",
+          "name": "Silvance",
+          "level": 8
+        },
+        {
+          "slug": "Lyleen_Noct",
+          "name": "Lyleen Noct",
+          "level": 7
+        },
+        {
+          "slug": "Bellanoir_Libero",
+          "name": "Bellanoir Libero",
+          "level": 7
+        },
+        {
+          "slug": "Mycora",
+          "name": "Mycora",
+          "level": 6
+        },
+        {
+          "slug": "Wistella",
+          "name": "Wistella",
+          "level": 6
+        },
+        {
+          "slug": "Selyne",
+          "name": "Selyne",
+          "level": 6
+        },
+        {
+          "slug": "Dandilord",
+          "name": "Dandilord",
+          "level": 6
+        },
+        {
+          "slug": "Splatterina",
+          "name": "Splatterina",
+          "level": 5
+        },
+        {
+          "slug": "Venusa",
+          "name": "Venusa",
+          "level": 5
+        },
+        {
+          "slug": "Lyleen",
+          "name": "Lyleen",
+          "level": 5
+        },
+        {
+          "slug": "Bellanoir",
+          "name": "Bellanoir",
+          "level": 5
+        },
+        {
+          "slug": "Elizabee",
+          "name": "Elizabee",
+          "level": 4
+        },
+        {
+          "slug": "Petallia",
+          "name": "Petallia",
+          "level": 4
+        },
+        {
+          "slug": "Petallia_Ignis",
+          "name": "Petallia Ignis",
+          "level": 4
+        },
+        {
+          "slug": "Icelyn",
+          "name": "Icelyn",
+          "level": 4
+        },
+        {
+          "slug": "Gildra",
+          "name": "Gildra",
+          "level": 4
+        },
+        {
+          "slug": "Bakemi",
+          "name": "Bakemi",
+          "level": 4
+        },
+        {
+          "slug": "Dupin",
+          "name": "Dupin",
+          "level": 4
+        },
+        {
+          "slug": "Loomen",
+          "name": "Loomen",
+          "level": 4
+        },
+        {
+          "slug": "Felbat",
+          "name": "Felbat",
+          "level": 3
+        },
+        {
+          "slug": "Vaelet",
+          "name": "Vaelet",
+          "level": 3
+        },
+        {
+          "slug": "Lovander",
+          "name": "Lovander",
+          "level": 3
+        },
+        {
+          "slug": "Katress",
+          "name": "Katress",
+          "level": 3
+        },
+        {
+          "slug": "Katress_Ignis",
+          "name": "Katress Ignis",
+          "level": 3
+        },
+        {
+          "slug": "Majex",
+          "name": "Majex",
+          "level": 3
+        },
+        {
+          "slug": "Sibelyx",
+          "name": "Sibelyx",
+          "level": 3
+        },
+        {
+          "slug": "Sibelyx_Primo",
+          "name": "Sibelyx Primo",
+          "level": 3
+        },
+        {
+          "slug": "Lullu",
+          "name": "Lullu",
+          "level": 3
+        },
+        {
+          "slug": "Prunelia",
+          "name": "Prunelia",
+          "level": 3
+        },
+        {
+          "slug": "Bristla",
+          "name": "Bristla",
+          "level": 2
+        },
+        {
+          "slug": "Cinnamoth",
+          "name": "Cinnamoth",
+          "level": 2
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 2
+        },
+        {
+          "slug": "Tarantriss",
+          "name": "Tarantriss",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill_Terra",
+          "name": "Robinquill Terra",
+          "level": 2
+        },
+        {
+          "slug": "Prixter",
+          "name": "Prixter",
+          "level": 2
+        },
+        {
+          "slug": "Prixter_Lux",
+          "name": "Prixter Lux",
+          "level": 2
+        },
+        {
+          "slug": "Dogen",
+          "name": "Dogen",
+          "level": 2
+        },
+        {
+          "slug": "Lifmunk",
+          "name": "Lifmunk",
+          "level": 1
+        },
+        {
+          "slug": "Jellroy",
+          "name": "Jellroy",
+          "level": 1
+        },
+        {
+          "slug": "Wispaw",
+          "name": "Wispaw",
+          "level": 1
+        },
+        {
+          "slug": "Robinquill",
+          "name": "Robinquill",
+          "level": 1
+        },
+        {
+          "slug": "Flopie",
+          "name": "Flopie",
+          "level": 1
+        },
+        {
+          "slug": "Dazzi_Noct",
+          "name": "Dazzi Noct",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Cool",
+      "slug": "Cooling",
+      "name": "Cooling",
+      "code": "Cool",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Cooling",
+      "source_export": "data/raw/exports/en/Cooling.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 50
+        },
+        {
+          "level": 2,
+          "power": 80
+        },
+        {
+          "level": 3,
+          "power": 140
+        },
+        {
+          "level": 4,
+          "power": 240
+        },
+        {
+          "level": 5,
+          "power": 400
+        },
+        {
+          "level": 6,
+          "power": 680
+        },
+        {
+          "level": 7,
+          "power": 1100
+        },
+        {
+          "level": 8,
+          "power": 1900
+        },
+        {
+          "level": 9,
+          "power": 3200
+        },
+        {
+          "level": 10,
+          "power": 5400
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Bastigor",
+          "name": "Bastigor",
+          "level": 8
+        },
+        {
+          "slug": "Frostallion",
+          "name": "Frostallion",
+          "level": 7
+        },
+        {
+          "slug": "Univolt_Cryst",
+          "name": "Univolt Cryst",
+          "level": 6
+        },
+        {
+          "slug": "Pierdon_Cryst",
+          "name": "Pierdon Cryst",
+          "level": 6
+        },
+        {
+          "slug": "Whalaska",
+          "name": "Whalaska",
+          "level": 6
+        },
+        {
+          "slug": "Whalaska_Ignis",
+          "name": "Whalaska Ignis",
+          "level": 6
+        },
+        {
+          "slug": "Elgrove_Cryst",
+          "name": "Elgrove Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Mammorest_Cryst",
+          "name": "Mammorest Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Beakon_Cryst",
+          "name": "Beakon Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Moldron_Cryst",
+          "name": "Moldron Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Icelyn",
+          "name": "Icelyn",
+          "level": 5
+        },
+        {
+          "slug": "Reptyro_Cryst",
+          "name": "Reptyro Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Wumpo",
+          "name": "Wumpo",
+          "level": 5
+        },
+        {
+          "slug": "Kingpaca_Cryst",
+          "name": "Kingpaca Cryst",
+          "level": 4
+        },
+        {
+          "slug": "Azurobe_Cryst",
+          "name": "Azurobe Cryst",
+          "level": 4
+        },
+        {
+          "slug": "Loupmoon_Cryst",
+          "name": "Loupmoon Cryst",
+          "level": 4
+        },
+        {
+          "slug": "Polapup",
+          "name": "Polapup",
+          "level": 4
+        },
+        {
+          "slug": "Polapup_Terra",
+          "name": "Polapup Terra",
+          "level": 4
+        },
+        {
+          "slug": "Foxcicle",
+          "name": "Foxcicle",
+          "level": 4
+        },
+        {
+          "slug": "Frostplume",
+          "name": "Frostplume",
+          "level": 4
+        },
+        {
+          "slug": "Cryolinx",
+          "name": "Cryolinx",
+          "level": 4
+        },
+        {
+          "slug": "Sweepa",
+          "name": "Sweepa",
+          "level": 3
+        },
+        {
+          "slug": "Munchill",
+          "name": "Munchill",
+          "level": 3
+        },
+        {
+          "slug": "Rayhound_Cryst",
+          "name": "Rayhound Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Reindrix",
+          "name": "Reindrix",
+          "level": 3
+        },
+        {
+          "slug": "Sibelyx",
+          "name": "Sibelyx",
+          "level": 3
+        },
+        {
+          "slug": "Snugloo",
+          "name": "Snugloo",
+          "level": 3
+        },
+        {
+          "slug": "Penking",
+          "name": "Penking",
+          "level": 2
+        },
+        {
+          "slug": "Foxparks_Cryst",
+          "name": "Foxparks Cryst",
+          "level": 2
+        },
+        {
+          "slug": "Hangyu_Cryst",
+          "name": "Hangyu Cryst",
+          "level": 2
+        },
+        {
+          "slug": "Muffly",
+          "name": "Muffly",
+          "level": 2
+        },
+        {
+          "slug": "Vanwyrm_Cryst",
+          "name": "Vanwyrm Cryst",
+          "level": 2
+        },
+        {
+          "slug": "Chillet",
+          "name": "Chillet",
+          "level": 2
+        },
+        {
+          "slug": "Smokie_Cryst",
+          "name": "Smokie Cryst",
+          "level": 2
+        },
+        {
+          "slug": "Jolthog_Cryst",
+          "name": "Jolthog Cryst",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet",
+          "name": "Pengullet",
+          "level": 1
+        },
+        {
+          "slug": "Mau_Cryst",
+          "name": "Mau Cryst",
+          "level": 1
+        },
+        {
+          "slug": "Swee",
+          "name": "Swee",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "Transport",
+      "slug": "Transporting",
+      "name": "Transporting",
+      "code": "Transport",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Transporting",
+      "source_export": "data/raw/exports/en/Transporting.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": "2 Pieces"
+        },
+        {
+          "level": 2,
+          "power": "5 Pieces"
+        },
+        {
+          "level": 3,
+          "power": "10 Pieces"
+        },
+        {
+          "level": 4,
+          "power": "20 Pieces"
+        },
+        {
+          "level": 5,
+          "power": "40 Pieces"
+        },
+        {
+          "level": 6,
+          "power": "70 Pieces"
+        },
+        {
+          "level": 7,
+          "power": "120 Pieces"
+        },
+        {
+          "level": 8,
+          "power": "200 Pieces"
+        },
+        {
+          "level": 9,
+          "power": "320 Pieces"
+        },
+        {
+          "level": 10,
+          "power": "500 Pieces"
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Knocklem",
+          "name": "Knocklem",
+          "level": 7
+        },
+        {
+          "slug": "Knocklem_Ignis",
+          "name": "Knocklem Ignis",
+          "level": 7
+        },
+        {
+          "slug": "Wumpo",
+          "name": "Wumpo",
+          "level": 6
+        },
+        {
+          "slug": "Wumpo_Botan",
+          "name": "Wumpo Botan",
+          "level": 6
+        },
+        {
+          "slug": "Dualith",
+          "name": "Dualith",
+          "level": 6
+        },
+        {
+          "slug": "Dualith_Noct",
+          "name": "Dualith Noct",
+          "level": 6
+        },
+        {
+          "slug": "Eidrolon",
+          "name": "Eidrolon",
+          "level": 6
+        },
+        {
+          "slug": "Eidrolon_Ignis",
+          "name": "Eidrolon Ignis",
+          "level": 6
+        },
+        {
+          "slug": "Helzephyr_Lux",
+          "name": "Helzephyr Lux",
+          "level": 5
+        },
+        {
+          "slug": "Beakon",
+          "name": "Beakon",
+          "level": 5
+        },
+        {
+          "slug": "Beakon_Cryst",
+          "name": "Beakon Cryst",
+          "level": 5
+        },
+        {
+          "slug": "Ragnahawk",
+          "name": "Ragnahawk",
+          "level": 5
+        },
+        {
+          "slug": "Warsect",
+          "name": "Warsect",
+          "level": 5
+        },
+        {
+          "slug": "Warsect_Terra",
+          "name": "Warsect Terra",
+          "level": 5
+        },
+        {
+          "slug": "Quivern",
+          "name": "Quivern",
+          "level": 5
+        },
+        {
+          "slug": "Roujay",
+          "name": "Roujay",
+          "level": 5
+        },
+        {
+          "slug": "Renjishi",
+          "name": "Renjishi",
+          "level": 5
+        },
+        {
+          "slug": "Grizzbolt",
+          "name": "Grizzbolt",
+          "level": 5
+        },
+        {
+          "slug": "Faleris_Aqua",
+          "name": "Faleris Aqua",
+          "level": 5
+        },
+        {
+          "slug": "Helzephyr",
+          "name": "Helzephyr",
+          "level": 4
+        },
+        {
+          "slug": "Mossanda",
+          "name": "Mossanda",
+          "level": 4
+        },
+        {
+          "slug": "Mossanda_Lux",
+          "name": "Mossanda Lux",
+          "level": 4
+        },
+        {
+          "slug": "Quivern_Botan",
+          "name": "Quivern Botan",
+          "level": 4
+        },
+        {
+          "slug": "Cryolinx",
+          "name": "Cryolinx",
+          "level": 4
+        },
+        {
+          "slug": "Cryolinx_Terra",
+          "name": "Cryolinx Terra",
+          "level": 4
+        },
+        {
+          "slug": "Anubis",
+          "name": "Anubis",
+          "level": 4
+        },
+        {
+          "slug": "Orserk",
+          "name": "Orserk",
+          "level": 4
+        },
+        {
+          "slug": "Bellanoir",
+          "name": "Bellanoir",
+          "level": 4
+        },
+        {
+          "slug": "Bellanoir_Libero",
+          "name": "Bellanoir Libero",
+          "level": 4
+        },
+        {
+          "slug": "Eye_of_Cthulhu",
+          "name": "Eye of Cthulhu",
+          "level": 4
+        },
+        {
+          "slug": "Penking",
+          "name": "Penking",
+          "level": 3
+        },
+        {
+          "slug": "Penking_Lux",
+          "name": "Penking Lux",
+          "level": 3
+        },
+        {
+          "slug": "Hangyu_Cryst",
+          "name": "Hangyu Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Vanwyrm",
+          "name": "Vanwyrm",
+          "level": 3
+        },
+        {
+          "slug": "Vanwyrm_Cryst",
+          "name": "Vanwyrm Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Gorirat",
+          "name": "Gorirat",
+          "level": 3
+        },
+        {
+          "slug": "Gorirat_Terra",
+          "name": "Gorirat Terra",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove",
+          "name": "Elgrove",
+          "level": 3
+        },
+        {
+          "slug": "Elgrove_Cryst",
+          "name": "Elgrove Cryst",
+          "level": 3
+        },
+        {
+          "slug": "Incineram_Noct",
+          "name": "Incineram Noct",
+          "level": 3
+        },
+        {
+          "slug": "Relaxaurus",
+          "name": "Relaxaurus",
+          "level": 3
+        },
+        {
+          "slug": "Relaxaurus_Lux",
+          "name": "Relaxaurus Lux",
+          "level": 3
+        },
+        {
+          "slug": "Nyafia",
+          "name": "Nyafia",
+          "level": 3
+        },
+        {
+          "slug": "Verdash",
+          "name": "Verdash",
+          "level": 3
+        },
+        {
+          "slug": "Dogen",
+          "name": "Dogen",
+          "level": 3
+        },
+        {
+          "slug": "Bulldosu",
+          "name": "Bulldosu",
+          "level": 3
+        },
+        {
+          "slug": "Dynamoff",
+          "name": "Dynamoff",
+          "level": 3
+        },
+        {
+          "slug": "Faleris",
+          "name": "Faleris",
+          "level": 3
+        },
+        {
+          "slug": "Selyne",
+          "name": "Selyne",
+          "level": 3
+        },
+        {
+          "slug": "Dandilord",
+          "name": "Dandilord",
+          "level": 3
+        },
+        {
+          "slug": "Killamari",
+          "name": "Killamari",
+          "level": 2
+        },
+        {
+          "slug": "Killamari_Primo",
+          "name": "Killamari Primo",
+          "level": 2
+        },
+        {
+          "slug": "Hangyu",
+          "name": "Hangyu",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie",
+          "name": "Gloopie",
+          "level": 2
+        },
+        {
+          "slug": "Gloopie_Primo",
+          "name": "Gloopie Primo",
+          "level": 2
+        },
+        {
+          "slug": "Tombat",
+          "name": "Tombat",
+          "level": 2
+        },
+        {
+          "slug": "Vaelet",
+          "name": "Vaelet",
+          "level": 2
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 2
+        },
+        {
+          "slug": "Lovander",
+          "name": "Lovander",
+          "level": 2
+        },
+        {
+          "slug": "Tarantriss",
+          "name": "Tarantriss",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill",
+          "name": "Robinquill",
+          "level": 2
+        },
+        {
+          "slug": "Robinquill_Terra",
+          "name": "Robinquill Terra",
+          "level": 2
+        },
+        {
+          "slug": "Wixen",
+          "name": "Wixen",
+          "level": 2
+        },
+        {
+          "slug": "Wixen_Noct",
+          "name": "Wixen Noct",
+          "level": 2
+        },
+        {
+          "slug": "Katress",
+          "name": "Katress",
+          "level": 2
+        },
+        {
+          "slug": "Katress_Ignis",
+          "name": "Katress Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Lunaris",
+          "name": "Lunaris",
+          "level": 2
+        },
+        {
+          "slug": "Bushi",
+          "name": "Bushi",
+          "level": 2
+        },
+        {
+          "slug": "Bushi_Noct",
+          "name": "Bushi Noct",
+          "level": 2
+        },
+        {
+          "slug": "Petallia",
+          "name": "Petallia",
+          "level": 2
+        },
+        {
+          "slug": "Petallia_Ignis",
+          "name": "Petallia Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Leafan",
+          "name": "Leafan",
+          "level": 2
+        },
+        {
+          "slug": "Incineram",
+          "name": "Incineram",
+          "level": 2
+        },
+        {
+          "slug": "Dazzi",
+          "name": "Dazzi",
+          "level": 2
+        },
+        {
+          "slug": "Dazzi_Noct",
+          "name": "Dazzi Noct",
+          "level": 2
+        },
+        {
+          "slug": "Ghangler",
+          "name": "Ghangler",
+          "level": 2
+        },
+        {
+          "slug": "Ghangler_Ignis",
+          "name": "Ghangler Ignis",
+          "level": 2
+        },
+        {
+          "slug": "Majex",
+          "name": "Majex",
+          "level": 2
+        },
+        {
+          "slug": "Icelyn",
+          "name": "Icelyn",
+          "level": 2
+        },
+        {
+          "slug": "Gildra",
+          "name": "Gildra",
+          "level": 2
+        },
+        {
+          "slug": "Snugloo",
+          "name": "Snugloo",
+          "level": 2
+        },
+        {
+          "slug": "Carnibora",
+          "name": "Carnibora",
+          "level": 2
+        },
+        {
+          "slug": "Sekhmet",
+          "name": "Sekhmet",
+          "level": 2
+        },
+        {
+          "slug": "Mimog",
+          "name": "Mimog",
+          "level": 2
+        },
+        {
+          "slug": "Xenovader",
+          "name": "Xenovader",
+          "level": 2
+        },
+        {
+          "slug": "Nitemary",
+          "name": "Nitemary",
+          "level": 2
+        },
+        {
+          "slug": "Nitemary_Botan",
+          "name": "Nitemary Botan",
+          "level": 2
+        },
+        {
+          "slug": "Splatterina",
+          "name": "Splatterina",
+          "level": 2
+        },
+        {
+          "slug": "Souffline",
+          "name": "Souffline",
+          "level": 2
+        },
+        {
+          "slug": "Bakemi",
+          "name": "Bakemi",
+          "level": 2
+        },
+        {
+          "slug": "Flaracle",
+          "name": "Flaracle",
+          "level": 2
+        },
+        {
+          "slug": "Dupin",
+          "name": "Dupin",
+          "level": 2
+        },
+        {
+          "slug": "Venusa",
+          "name": "Venusa",
+          "level": 2
+        },
+        {
+          "slug": "Solenne",
+          "name": "Solenne",
+          "level": 2
+        },
+        {
+          "slug": "Silvance",
+          "name": "Silvance",
+          "level": 2
+        },
+        {
+          "slug": "Lamball",
+          "name": "Lamball",
+          "level": 1
+        },
+        {
+          "slug": "Cattiva",
+          "name": "Cattiva",
+          "level": 1
+        },
+        {
+          "slug": "Fuack",
+          "name": "Fuack",
+          "level": 1
+        },
+        {
+          "slug": "Fuack_Ignis",
+          "name": "Fuack Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Celaray",
+          "name": "Celaray",
+          "level": 1
+        },
+        {
+          "slug": "Celaray_Lux",
+          "name": "Celaray Lux",
+          "level": 1
+        },
+        {
+          "slug": "Croajiro",
+          "name": "Croajiro",
+          "level": 1
+        },
+        {
+          "slug": "Croajiro_Noct",
+          "name": "Croajiro Noct",
+          "level": 1
+        },
+        {
+          "slug": "Herbil",
+          "name": "Herbil",
+          "level": 1
+        },
+        {
+          "slug": "Pupperai",
+          "name": "Pupperai",
+          "level": 1
+        },
+        {
+          "slug": "Depresso",
+          "name": "Depresso",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet",
+          "name": "Pengullet",
+          "level": 1
+        },
+        {
+          "slug": "Pengullet_Lux",
+          "name": "Pengullet Lux",
+          "level": 1
+        },
+        {
+          "slug": "Daedream",
+          "name": "Daedream",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee",
+          "name": "Tanzee",
+          "level": 1
+        },
+        {
+          "slug": "Tanzee_Ignis",
+          "name": "Tanzee Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Flambelle",
+          "name": "Flambelle",
+          "level": 1
+        },
+        {
+          "slug": "Fuddler",
+          "name": "Fuddler",
+          "level": 1
+        },
+        {
+          "slug": "Turtacle",
+          "name": "Turtacle",
+          "level": 1
+        },
+        {
+          "slug": "Turtacle_Terra",
+          "name": "Turtacle Terra",
+          "level": 1
+        },
+        {
+          "slug": "Sparkit",
+          "name": "Sparkit",
+          "level": 1
+        },
+        {
+          "slug": "Ribbuny",
+          "name": "Ribbuny",
+          "level": 1
+        },
+        {
+          "slug": "Ribbuny_Botan",
+          "name": "Ribbuny Botan",
+          "level": 1
+        },
+        {
+          "slug": "Jelliette",
+          "name": "Jelliette",
+          "level": 1
+        },
+        {
+          "slug": "Jellroy",
+          "name": "Jellroy",
+          "level": 1
+        },
+        {
+          "slug": "Amione",
+          "name": "Amione",
+          "level": 1
+        },
+        {
+          "slug": "Wispaw",
+          "name": "Wispaw",
+          "level": 1
+        },
+        {
+          "slug": "Gobfin",
+          "name": "Gobfin",
+          "level": 1
+        },
+        {
+          "slug": "Gobfin_Ignis",
+          "name": "Gobfin Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Muffly",
+          "name": "Muffly",
+          "level": 1
+        },
+        {
+          "slug": "Bristla",
+          "name": "Bristla",
+          "level": 1
+        },
+        {
+          "slug": "Puffolt",
+          "name": "Puffolt",
+          "level": 1
+        },
+        {
+          "slug": "Leezpunk",
+          "name": "Leezpunk",
+          "level": 1
+        },
+        {
+          "slug": "Leezpunk_Ignis",
+          "name": "Leezpunk Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Flopie",
+          "name": "Flopie",
+          "level": 1
+        },
+        {
+          "slug": "Munchill",
+          "name": "Munchill",
+          "level": 1
+        },
+        {
+          "slug": "Finsider",
+          "name": "Finsider",
+          "level": 1
+        },
+        {
+          "slug": "Finsider_Ignis",
+          "name": "Finsider Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Needoll",
+          "name": "Needoll",
+          "level": 1
+        },
+        {
+          "slug": "Needoll_Noct",
+          "name": "Needoll Noct",
+          "level": 1
+        },
+        {
+          "slug": "Dumud",
+          "name": "Dumud",
+          "level": 1
+        },
+        {
+          "slug": "Dumud_Gild",
+          "name": "Dumud Gild",
+          "level": 1
+        },
+        {
+          "slug": "Prunelia",
+          "name": "Prunelia",
+          "level": 1
+        },
+        {
+          "slug": "Lapiron",
+          "name": "Lapiron",
+          "level": 1
+        },
+        {
+          "slug": "Hoodle",
+          "name": "Hoodle",
+          "level": 1
+        },
+        {
+          "slug": "Wistella",
+          "name": "Wistella",
+          "level": 1
+        },
+        {
+          "slug": "Green_Slime",
+          "name": "Green Slime",
+          "level": 1
+        },
+        {
+          "slug": "Blue_Slime",
+          "name": "Blue Slime",
+          "level": 1
+        },
+        {
+          "slug": "Red_Slime",
+          "name": "Red Slime",
+          "level": 1
+        },
+        {
+          "slug": "Purple_Slime",
+          "name": "Purple Slime",
+          "level": 1
+        },
+        {
+          "slug": "Illuminant_Slime",
+          "name": "Illuminant Slime",
+          "level": 1
+        },
+        {
+          "slug": "Rainbow_Slime",
+          "name": "Rainbow Slime",
+          "level": 1
+        },
+        {
+          "slug": "Demon_Eye",
+          "name": "Demon Eye",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    },
+    {
+      "id": "MonsterFarm",
+      "slug": "Farming",
+      "name": "Farming",
+      "code": "MonsterFarm",
+      "type": "Work Suitability",
+      "source_url": "https://paldb.cc/en/Farming",
+      "source_export": "data/raw/exports/en/Farming.html",
+      "level_power": [
+        {
+          "level": 1,
+          "power": 12
+        },
+        {
+          "level": 2,
+          "power": 14
+        },
+        {
+          "level": 3,
+          "power": 16
+        },
+        {
+          "level": 4,
+          "power": 18
+        },
+        {
+          "level": 5,
+          "power": 20
+        },
+        {
+          "level": 6,
+          "power": 22
+        },
+        {
+          "level": 7,
+          "power": 24
+        },
+        {
+          "level": 8,
+          "power": 26
+        },
+        {
+          "level": 9,
+          "power": 28
+        },
+        {
+          "level": 10,
+          "power": 30
+        }
+      ],
+      "pals_by_level": [
+        {
+          "slug": "Dumud_Gild",
+          "name": "Dumud Gild",
+          "level": 4
+        },
+        {
+          "slug": "Sibelyx_Primo",
+          "name": "Sibelyx Primo",
+          "level": 4
+        },
+        {
+          "slug": "Beegarde",
+          "name": "Beegarde",
+          "level": 3
+        },
+        {
+          "slug": "Foxcicle",
+          "name": "Foxcicle",
+          "level": 3
+        },
+        {
+          "slug": "Sibelyx",
+          "name": "Sibelyx",
+          "level": 3
+        },
+        {
+          "slug": "Shroomer",
+          "name": "Shroomer",
+          "level": 3
+        },
+        {
+          "slug": "Cremis",
+          "name": "Cremis",
+          "level": 2
+        },
+        {
+          "slug": "Melpaca",
+          "name": "Melpaca",
+          "level": 2
+        },
+        {
+          "slug": "Mozzarina",
+          "name": "Mozzarina",
+          "level": 2
+        },
+        {
+          "slug": "Vaelet",
+          "name": "Vaelet",
+          "level": 2
+        },
+        {
+          "slug": "Surfent",
+          "name": "Surfent",
+          "level": 2
+        },
+        {
+          "slug": "Sootseer",
+          "name": "Sootseer",
+          "level": 2
+        },
+        {
+          "slug": "Lamball",
+          "name": "Lamball",
+          "level": 1
+        },
+        {
+          "slug": "Chikipi",
+          "name": "Chikipi",
+          "level": 1
+        },
+        {
+          "slug": "Vixy",
+          "name": "Vixy",
+          "level": 1
+        },
+        {
+          "slug": "Depresso",
+          "name": "Depresso",
+          "level": 1
+        },
+        {
+          "slug": "Flambelle",
+          "name": "Flambelle",
+          "level": 1
+        },
+        {
+          "slug": "Rooby",
+          "name": "Rooby",
+          "level": 1
+        },
+        {
+          "slug": "Mau",
+          "name": "Mau",
+          "level": 1
+        },
+        {
+          "slug": "Mau_Cryst",
+          "name": "Mau Cryst",
+          "level": 1
+        },
+        {
+          "slug": "Caprity",
+          "name": "Caprity",
+          "level": 1
+        },
+        {
+          "slug": "Caprity_Noct",
+          "name": "Caprity Noct",
+          "level": 1
+        },
+        {
+          "slug": "Woolipop",
+          "name": "Woolipop",
+          "level": 1
+        },
+        {
+          "slug": "Woolipop_Terra",
+          "name": "Woolipop Terra",
+          "level": 1
+        },
+        {
+          "slug": "Sparkit",
+          "name": "Sparkit",
+          "level": 1
+        },
+        {
+          "slug": "Kelpsea",
+          "name": "Kelpsea",
+          "level": 1
+        },
+        {
+          "slug": "Kelpsea_Ignis",
+          "name": "Kelpsea Ignis",
+          "level": 1
+        },
+        {
+          "slug": "Cawgnito",
+          "name": "Cawgnito",
+          "level": 1
+        },
+        {
+          "slug": "Dumud",
+          "name": "Dumud",
+          "level": 1
+        }
+      ],
+      "buildings": []
+    }
+  ],
+  "san": {
+    "id": "SAN",
+    "slug": "SAN",
+    "name": "SAN",
+    "source_url": "https://paldb.cc/en/SAN",
+    "source_export": "data/raw/exports/en/SAN.html",
+    "thresholds": [
+      {
+        "san": 65,
+        "status": "Slacking off... SAN"
+      },
+      {
+        "san": 60,
+        "status": "Idling... SAN"
+      },
+      {
+        "san": 50,
+        "status": "Destroying Feed Box! SAN"
+      },
+      {
+        "san": 40,
+        "status": "Sick... Sick"
+      }
+    ]
+  }
+}

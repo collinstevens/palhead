@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-07-17T02:56:50.009419+00:00",
+  "tool_version": "0.1.0",
+  "table_count": 70,
+  "tables": [
+    {
+      "file": "accessories.json",
+      "count": 87,
+      "bytes": 203313,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:29.713047+00:00"
+    },
+    {
+      "file": "active_skills.json",
+      "count": 374,
+      "bytes": 299502,
+      "known": true,
+      "generated_at": "2026-07-16T22:44:20.555721+00:00"
+    },
+    {
+      "file": "alpha_pals.json",
+      "count": 316,
+      "bytes": 335980,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:06.925555+00:00"
+    },
+    {
+      "file": "ammo.json",
+      "count": 38,
+      "bytes": 73829,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:35.697952+00:00"
+    },
+    {
+      "file": "ancient_ruins.json",
+      "count": 108,
+      "bytes": 38088,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:31.343770+00:00"
+    },
+    {
+      "file": "arena.json",
+      "count": 56,
+      "bytes": 16169,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.773204+00:00"
+    },
+    {
+      "file": "armor.json",
+      "count": 109,
+      "bytes": 224428,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:27.898823+00:00"
+    },
+    {
+      "file": "awakening.json",
+      "count": 9,
+      "bytes": 15687,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:03.616519+00:00"
+    },
+    {
+      "file": "base_guide.json",
+      "count": 35,
+      "bytes": 22388,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:26.710723+00:00"
+    },
+    {
+      "file": "boss_entities.json",
+      "count": 21,
+      "bytes": 24580,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:03.476859+00:00"
+    },
+    {
+      "file": "bounties.json",
+      "count": 36,
+      "bytes": 12159,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:28.077399+00:00"
+    },
+    {
+      "file": "bounty_tokens.json",
+      "count": 100,
+      "bytes": 84091,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:05.449030+00:00"
+    },
+    {
+      "file": "breeding.json",
+      "count": 299,
+      "bytes": 77811,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.719672+00:00"
+    },
+    {
+      "file": "caged_pals.json",
+      "count": 139,
+      "bytes": 42343,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:31.216347+00:00"
+    },
+    {
+      "file": "capture_rates.json",
+      "count": 2,
+      "bytes": 669,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.923209+00:00"
+    },
+    {
+      "file": "character_spawn_items.json",
+      "count": 60,
+      "bytes": 23988,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:03.067340+00:00"
+    },
+    {
+      "file": "chest_filters.json",
+      "count": 1562,
+      "bytes": 174331,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:02.222155+00:00"
+    },
+    {
+      "file": "consumables.json",
+      "count": 230,
+      "bytes": 326995,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:34.969747+00:00"
+    },
+    {
+      "file": "disposable_implants.json",
+      "count": 28,
+      "bytes": 27469,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:01.963883+00:00"
+    },
+    {
+      "file": "drops.json",
+      "count": 12640,
+      "bytes": 8059220,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:07.040367+00:00"
+    },
+    {
+      "file": "dungeons.json",
+      "count": 14,
+      "bytes": 4523,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:27.829385+00:00"
+    },
+    {
+      "file": "eggs.json",
+      "count": 27,
+      "bytes": 142674,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:15.795540+00:00"
+    },
+    {
+      "file": "element_swap.json",
+      "count": 13,
+      "bytes": 4768,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.878779+00:00"
+    },
+    {
+      "file": "elements.json",
+      "count": 14,
+      "bytes": 12099,
+      "known": true,
+      "generated_at": "2026-07-16T22:43:47.408803+00:00"
+    },
+    {
+      "file": "enemy_camps.json",
+      "count": 37,
+      "bytes": 268745,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:31.109089+00:00"
+    },
+    {
+      "file": "fishing.json",
+      "count": 18,
+      "bytes": 228769,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.707635+00:00"
+    },
+    {
+      "file": "gliders.json",
+      "count": 7,
+      "bytes": 11864,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.255612+00:00"
+    },
+    {
+      "file": "humans.json",
+      "count": 866,
+      "bytes": 420124,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.059982+00:00"
+    },
+    {
+      "file": "incidents.json",
+      "count": 19,
+      "bytes": 5951,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:31.289200+00:00"
+    },
+    {
+      "file": "ingredients.json",
+      "count": 124,
+      "bytes": 201735,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:38.117751+00:00"
+    },
+    {
+      "file": "journals.json",
+      "count": 62,
+      "bytes": 20099,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:05.742174+00:00"
+    },
+    {
+      "file": "key_items.json",
+      "count": 329,
+      "bytes": 511112,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:44.249330+00:00"
+    },
+    {
+      "file": "legendary.json",
+      "count": 142,
+      "bytes": 40718,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:26.786602+00:00"
+    },
+    {
+      "file": "map_pois.json",
+      "count": 87,
+      "bytes": 24175,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.435549+00:00"
+    },
+    {
+      "file": "maps.json",
+      "count": 2,
+      "bytes": 7730,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.427671+00:00"
+    },
+    {
+      "file": "materials.json",
+      "count": 189,
+      "bytes": 351478,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:20.880935+00:00"
+    },
+    {
+      "file": "merchants.json",
+      "count": 43,
+      "bytes": 126286,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:05.664301+00:00"
+    },
+    {
+      "file": "missions.json",
+      "count": 107,
+      "bytes": 75459,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:26.749522+00:00"
+    },
+    {
+      "file": "mounts.json",
+      "count": 118,
+      "bytes": 50685,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:30.099049+00:00"
+    },
+    {
+      "file": "mutations.json",
+      "count": 5,
+      "bytes": 5755,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:28.221692+00:00"
+    },
+    {
+      "file": "pal_effigy.json",
+      "count": 13,
+      "bytes": 8701,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:03.986921+00:00"
+    },
+    {
+      "file": "pal_index.json",
+      "count": 592,
+      "bytes": 151452,
+      "known": true,
+      "generated_at": "2026-07-16T22:30:44.286482+00:00"
+    },
+    {
+      "file": "pal_stats.json",
+      "count": 288,
+      "bytes": 939679,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.664847+00:00"
+    },
+    {
+      "file": "pals.json",
+      "count": 592,
+      "bytes": 1142334,
+      "known": true,
+      "generated_at": "2026-07-16T22:30:44.288455+00:00"
+    },
+    {
+      "file": "partner_skills.json",
+      "count": 289,
+      "bytes": 269638,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:01.566701+00:00"
+    },
+    {
+      "file": "party_buffs.json",
+      "count": 0,
+      "bytes": 392,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.852055+00:00"
+    },
+    {
+      "file": "passive_skills.json",
+      "count": 286,
+      "bytes": 117621,
+      "known": true,
+      "generated_at": "2026-07-16T22:43:34.798289+00:00"
+    },
+    {
+      "file": "patch_notes.json",
+      "count": 16,
+      "bytes": 9167,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:43.722865+00:00"
+    },
+    {
+      "file": "raids.json",
+      "count": 7,
+      "bytes": 3339,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:27.789227+00:00"
+    },
+    {
+      "file": "rampaging_pals.json",
+      "count": 45,
+      "bytes": 37791,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:06.649697+00:00"
+    },
+    {
+      "file": "recipes.json",
+      "count": 1759,
+      "bytes": 2489726,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:59.737973+00:00"
+    },
+    {
+      "file": "saddles.json",
+      "count": 122,
+      "bytes": 235941,
+      "known": true,
+      "generated_at": "2026-07-17T02:44:49.598849+00:00"
+    },
+    {
+      "file": "san.json",
+      "count": 1,
+      "bytes": 2663,
+      "known": true,
+      "generated_at": "2026-07-16T23:01:54.991163+00:00"
+    },
+    {
+      "file": "schematics.json",
+      "count": 593,
+      "bytes": 1109765,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:01.098377+00:00"
+    },
+    {
+      "file": "skill_fruits.json",
+      "count": 98,
+      "bytes": 66645,
+      "known": true,
+      "generated_at": "2026-07-17T02:44:47.693828+00:00"
+    },
+    {
+      "file": "sphere_modules.json",
+      "count": 6,
+      "bytes": 12582,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:30.084937+00:00"
+    },
+    {
+      "file": "spheres.json",
+      "count": 11,
+      "bytes": 20411,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:29.963752+00:00"
+    },
+    {
+      "file": "structures.json",
+      "count": 551,
+      "bytes": 794993,
+      "known": true,
+      "generated_at": "2026-07-16T23:01:44.464869+00:00"
+    },
+    {
+      "file": "technologies.json",
+      "count": 588,
+      "bytes": 193622,
+      "known": true,
+      "generated_at": "2026-07-16T22:54:52.622410+00:00"
+    },
+    {
+      "file": "tips.json",
+      "count": 41,
+      "bytes": 14396,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:07.768147+00:00"
+    },
+    {
+      "file": "tower_bosses.json",
+      "count": 13,
+      "bytes": 7878,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:06.957092+00:00"
+    },
+    {
+      "file": "treasure_boxes.json",
+      "count": 500,
+      "bytes": 1676412,
+      "known": true,
+      "generated_at": "2026-07-16T23:10:35.125226+00:00"
+    },
+    {
+      "file": "validation.json",
+      "count": null,
+      "bytes": 9221,
+      "known": false,
+      "generated_at": "2026-07-17T02:56:49.326849+00:00"
+    },
+    {
+      "file": "versions.json",
+      "count": 22,
+      "bytes": 56503,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:43.596215+00:00"
+    },
+    {
+      "file": "weapons.json",
+      "count": 131,
+      "bytes": 287399,
+      "known": true,
+      "generated_at": "2026-07-16T22:55:24.692871+00:00"
+    },
+    {
+      "file": "weight_increase.json",
+      "count": 8,
+      "bytes": 2854,
+      "known": true,
+      "generated_at": "2026-07-16T23:17:15.899678+00:00"
+    },
+    {
+      "file": "work_priority.json",
+      "count": 0,
+      "bytes": 765,
+      "known": true,
+      "generated_at": "2026-07-16T23:01:44.573538+00:00"
+    },
+    {
+      "file": "work_stations.json",
+      "count": 330,
+      "bytes": 281047,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:01.411637+00:00"
+    },
+    {
+      "file": "work_suitabilities.json",
+      "count": 12,
+      "bytes": 80467,
+      "known": true,
+      "generated_at": "2026-07-17T02:45:01.364217+00:00"
+    },
+    {
+      "file": "world_tree_passives.json",
+      "count": 7,
+      "bytes": 6167,
+      "known": true,
+      "generated_at": "2026-07-16T23:19:28.184265+00:00"
+    }
+  ],
+  "validation_status": "pass",
+  "validation_summary": {
+    "tables_checked": 69,
+    "tables_expected": 69,
+    "errors": 0,
+    "warnings": 4,
+    "infos": 1
+  },
+  "publish_tag": "20260717",
+  "source": "C:/projects/collinstevens/paldb-cc-exports/data/distilled"
+}

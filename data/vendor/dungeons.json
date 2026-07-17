@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-07-16T23:10:27.829385+00:00",
+  "language": "en",
+  "count": 14,
+  "dungeons": [
+    {
+      "id": "Hillside_Cavern",
+      "slug": "Hillside_Cavern",
+      "name": "Hillside Cavern",
+      "level": "6",
+      "source_url": "https://paldb.cc/en/Hillside_Cavern",
+      "source_export": "data/raw/exports/en/Hillside_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Ravine_Grotto",
+      "slug": "Ravine_Grotto",
+      "name": "Ravine Grotto",
+      "level": "14",
+      "source_url": "https://paldb.cc/en/Ravine_Grotto",
+      "source_export": "data/raw/exports/en/Ravine_Grotto.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Mountain_Stream_Grotto",
+      "slug": "Mountain_Stream_Grotto",
+      "name": "Mountain Stream Grotto",
+      "level": "22",
+      "source_url": "https://paldb.cc/en/Mountain_Stream_Grotto",
+      "source_export": "data/raw/exports/en/Mountain_Stream_Grotto.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Mountain_Stream_Grotto",
+      "slug": "Mountain_Stream_Grotto",
+      "name": "Mountain Stream Grotto",
+      "level": "22",
+      "source_url": "https://paldb.cc/en/Mountain_Stream_Grotto",
+      "source_export": "data/raw/exports/en/Mountain_Stream_Grotto.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Cavern_of_the_Dunes",
+      "slug": "Cavern_of_the_Dunes",
+      "name": "Cavern of the Dunes",
+      "level": "33",
+      "source_url": "https://paldb.cc/en/Cavern_of_the_Dunes",
+      "source_export": "data/raw/exports/en/Cavern_of_the_Dunes.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Volcanic_Cavern",
+      "slug": "Volcanic_Cavern",
+      "name": "Volcanic Cavern",
+      "level": "32",
+      "source_url": "https://paldb.cc/en/Volcanic_Cavern",
+      "source_export": "data/raw/exports/en/Volcanic_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Astral_Mountains_Cavern",
+      "slug": "Astral_Mountains_Cavern",
+      "name": "Astral Mountains Cavern",
+      "level": "39",
+      "source_url": "https://paldb.cc/en/Astral_Mountains_Cavern",
+      "source_export": "data/raw/exports/en/Astral_Mountains_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Isolated_Island_Cavern",
+      "slug": "Isolated_Island_Cavern",
+      "name": "Isolated Island Cavern",
+      "level": "6",
+      "source_url": "https://paldb.cc/en/Isolated_Island_Cavern",
+      "source_export": "data/raw/exports/en/Isolated_Island_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Isolated_Island_Cavern",
+      "slug": "Isolated_Island_Cavern",
+      "name": "Isolated Island Cavern",
+      "level": "6",
+      "source_url": "https://paldb.cc/en/Isolated_Island_Cavern",
+      "source_export": "data/raw/exports/en/Isolated_Island_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Isolated_Island_Cavern",
+      "slug": "Isolated_Island_Cavern",
+      "name": "Isolated Island Cavern",
+      "level": "6",
+      "source_url": "https://paldb.cc/en/Isolated_Island_Cavern",
+      "source_export": "data/raw/exports/en/Isolated_Island_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Cherry_Blossom_Cave",
+      "slug": "Cherry_Blossom_Cave",
+      "name": "Cherry Blossom Cave",
+      "level": "40",
+      "source_url": "https://paldb.cc/en/Cherry_Blossom_Cave",
+      "source_export": "data/raw/exports/en/Cherry_Blossom_Cave.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Feybreak_Cavern",
+      "slug": "Feybreak_Cavern",
+      "name": "Feybreak Cavern",
+      "level": "50",
+      "source_url": "https://paldb.cc/en/Feybreak_Cavern",
+      "source_export": "data/raw/exports/en/Feybreak_Cavern.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "___",
+      "slug": "___",
+      "name": "???",
+      "level": "45",
+      "source_url": "https://paldb.cc/en/___",
+      "source_export": "data/raw/exports/en/___.html",
+      "from_index": "Dungeons.html"
+    },
+    {
+      "id": "Sunreach_Skies",
+      "slug": "Sunreach_Skies",
+      "name": "Sunreach Skies",
+      "level": "63",
+      "source_url": "https://paldb.cc/en/Sunreach_Skies",
+      "source_export": "data/raw/exports/en/Sunreach_Skies.html",
+      "from_index": "Dungeons.html"
+    }
+  ]
+}

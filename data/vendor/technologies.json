@@ -1,0 +1,5887 @@
+{
+  "generated_at": "2026-07-16T22:54:52.622410+00:00",
+  "language": "en",
+  "count": 588,
+  "technologies": [
+    {
+      "id": "HandTorch",
+      "slug": "HandTorch",
+      "name": "Hand-Held Torch",
+      "category": "Items",
+      "player_level": 1,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Workbench",
+      "slug": "Workbench",
+      "name": "Primitive Workbench",
+      "category": "Structures",
+      "player_level": 1,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Axe_Grade_01",
+      "slug": "Product_Axe_Grade_01",
+      "name": "Stone Axe",
+      "category": "Items",
+      "player_level": 1,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_01",
+      "slug": "Product_Pickaxe_Grade_01",
+      "name": "Stone Pickaxe",
+      "category": "Items",
+      "player_level": 1,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Bat",
+      "slug": "Battle_MeleeWeapon_Bat",
+      "name": "Wooden Club",
+      "category": "Items",
+      "player_level": 1,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Cooking_Grade_01",
+      "slug": "Product_Cooking_Grade_01",
+      "name": "Campfire",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkinChange",
+      "slug": "SkinChange",
+      "name": "Pal Dressing Facility",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_01",
+      "slug": "Special_PalSphere_Grade_01",
+      "name": "Pal Sphere",
+      "category": "Items",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PALBOX",
+      "slug": "PALBOX",
+      "name": "Palbox",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "RepairBench",
+      "slug": "RepairBench",
+      "name": "Repair Bench",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_01",
+      "slug": "Infra_ItemChest_Grade_01",
+      "name": "Wooden Chest",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Wooden_houseset",
+      "slug": "Wooden_houseset",
+      "name": "Wooden Structure Set",
+      "category": "Structures",
+      "player_level": 2,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Arrow",
+      "slug": "Arrow",
+      "name": "Arrow",
+      "category": "Items",
+      "player_level": 3,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GlobalPalStorage",
+      "slug": "GlobalPalStorage",
+      "name": "Global Palbox",
+      "category": "Structures",
+      "player_level": 3,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow1",
+      "slug": "Battle_RangeWeapon_Bow1",
+      "name": "Old Bow",
+      "category": "Items",
+      "player_level": 3,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_PlayerBed_Grade_01",
+      "slug": "Infra_PlayerBed_Grade_01",
+      "name": "Shoddy Bed",
+      "category": "Structures",
+      "player_level": 3,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spear",
+      "slug": "Spear",
+      "name": "Stone Spear",
+      "category": "Items",
+      "player_level": 3,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_PalBed_Grade_01",
+      "slug": "Infra_PalBed_Grade_01",
+      "name": "Straw Pal Bed",
+      "category": "Structures",
+      "player_level": 3,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Cloth",
+      "slug": "Battle_Cloth",
+      "name": "Cloth",
+      "category": "Items",
+      "player_level": 4,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth",
+      "slug": "Battle_Armor_Grade_01_Cloth",
+      "name": "Cloth Outfit",
+      "category": "Items",
+      "player_level": 4,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_01",
+      "slug": "Shield_01",
+      "name": "Common Shield",
+      "category": "Items",
+      "player_level": 4,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalFoodBox",
+      "slug": "PalFoodBox",
+      "name": "Feed Box",
+      "category": "Structures",
+      "player_level": 4,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_Berries",
+      "slug": "Product_Farm_Berries",
+      "name": "Berry Plantation",
+      "category": "Structures",
+      "player_level": 5,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Glider_Grade_01",
+      "slug": "Battle_Glider_Grade_01",
+      "name": "Normal Parachute",
+      "category": "Items",
+      "player_level": 5,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MonsterFarm",
+      "slug": "MonsterFarm",
+      "name": "Ranch",
+      "category": "Structures",
+      "player_level": 5,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_1",
+      "slug": "FurnitureSet_1",
+      "name": "Wooden Living Room Furniture Set",
+      "category": "Structures",
+      "player_level": 5,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_2",
+      "slug": "FurnitureSet_2",
+      "name": "Wooden Tavern Cabinet Furniture Set",
+      "category": "Structures",
+      "player_level": 5,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_3",
+      "slug": "FurnitureSet_3",
+      "name": "Wooden Tavern Furniture Set",
+      "category": "Structures",
+      "player_level": 5,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Arrow_Fire",
+      "slug": "Arrow_Fire",
+      "name": "Fire Arrow",
+      "category": "Items",
+      "player_level": 6,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Kitsunebi",
+      "slug": "SkillUnlock_Kitsunebi",
+      "name": "Foxparks' Harness",
+      "category": "Items",
+      "player_level": 6,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_9",
+      "slug": "FurnitureSet_9",
+      "name": "Houseplant Set",
+      "category": "Structures",
+      "player_level": 6,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Torch",
+      "slug": "Torch",
+      "name": "Mounted Torch",
+      "category": "Structures",
+      "player_level": 6,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_WorkBench_SkillUnlock",
+      "slug": "Product_WorkBench_SkillUnlock",
+      "name": "Pal Gear Workbench",
+      "category": "Structures",
+      "player_level": 6,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Boar",
+      "slug": "SkillUnlock_Boar",
+      "name": "Rushoar Saddle",
+      "category": "Items",
+      "player_level": 6,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Signboard",
+      "slug": "Signboard",
+      "name": "Sign",
+      "category": "Structures",
+      "player_level": 6,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WallSignboard",
+      "slug": "WallSignboard",
+      "name": "Wall-Mounted Sign",
+      "category": "Structures",
+      "player_level": 6,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampBattleDirector",
+      "slug": "BaseCampBattleDirector",
+      "name": "Alarm Bell",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Bat2",
+      "slug": "Battle_MeleeWeapon_Bat2",
+      "name": "Bat",
+      "category": "Items",
+      "player_level": 7,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_StationDeforest",
+      "slug": "Product_StationDeforest",
+      "name": "Logging Site",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Alpaca",
+      "slug": "SkillUnlock_Alpaca",
+      "name": "Melpaca Saddle",
+      "category": "Items",
+      "player_level": 7,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampWorkHard",
+      "slug": "BaseCampWorkHard",
+      "name": "Monitoring Stand",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DefenseWait",
+      "slug": "DefenseWait",
+      "name": "Sandbag",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_StonePit",
+      "slug": "Product_StonePit",
+      "name": "Stone Pit",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_4",
+      "slug": "FurnitureSet_4",
+      "name": "Wall-Mounted Houseplant Set",
+      "category": "Structures",
+      "player_level": 7,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Crusher",
+      "slug": "Crusher",
+      "name": "Crusher",
+      "category": "Structures",
+      "player_level": 8,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_28",
+      "slug": "FurnitureSet_28",
+      "name": "Fireplace Set",
+      "category": "Structures",
+      "player_level": 8,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_Noose",
+      "slug": "Trap_Noose",
+      "name": "Hanging Trap",
+      "category": "Structures",
+      "player_level": 8,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Arrow_Poison",
+      "slug": "Arrow_Poison",
+      "name": "Poison Arrow",
+      "category": "Items",
+      "player_level": 8,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DefenseWall_Wood",
+      "slug": "DefenseWall_Wood",
+      "name": "Wooden Defensive Wall",
+      "category": "Structures",
+      "player_level": 8,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Wood_Gate",
+      "slug": "Wood_Gate",
+      "name": "Wooden Gate",
+      "category": "Structures",
+      "player_level": 8,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_17",
+      "slug": "FurnitureSet_17",
+      "name": "Carpet Set",
+      "category": "Structures",
+      "player_level": 9,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Garm",
+      "slug": "SkillUnlock_Garm",
+      "name": "Direhowl's Saddled Harness",
+      "category": "Items",
+      "player_level": 9,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spa",
+      "slug": "Spa",
+      "name": "Hot Spring",
+      "category": "Structures",
+      "player_level": 9,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AutoMealPouch_Tier1",
+      "slug": "AutoMealPouch_Tier1",
+      "name": "Small Feed Bag",
+      "category": "Items",
+      "player_level": 9,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BuildableGoddessStatue",
+      "slug": "BuildableGoddessStatue",
+      "name": "Statue of Power",
+      "category": "Structures",
+      "player_level": 9,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth_Heat",
+      "slug": "Battle_Armor_Grade_01_Cloth_Heat",
+      "name": "Tropical Outfit",
+      "category": "Items",
+      "player_level": 9,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth_Cold",
+      "slug": "Battle_Armor_Grade_01_Cloth_Cold",
+      "name": "Tundra Outfit",
+      "category": "Items",
+      "player_level": 9,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_21",
+      "slug": "FurnitureSet_21",
+      "name": "Antique Storage Set",
+      "category": "Structures",
+      "player_level": 10,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_LegHold",
+      "slug": "Trap_LegHold",
+      "name": "Bear Trap (Small)",
+      "category": "Structures",
+      "player_level": 10,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_HatchingPalEgg",
+      "slug": "Special_HatchingPalEgg",
+      "name": "Egg Incubator",
+      "category": "Structures",
+      "player_level": 10,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Helm_Grade_02_Fur",
+      "slug": "Battle_Helm_Grade_02_Fur",
+      "name": "Feathered Hair Band",
+      "category": "Items",
+      "player_level": 10,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Wooden_ladder",
+      "slug": "Wooden_ladder",
+      "name": "Ladder",
+      "category": "Structures",
+      "player_level": 10,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_MachineParts",
+      "slug": "Infra_MachineParts",
+      "name": "Nail",
+      "category": "Items",
+      "player_level": 10,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Ingot_Grade_01_Copper",
+      "slug": "Product_Ingot_Grade_01_Copper",
+      "name": "Primitive Furnace",
+      "category": "Structures",
+      "player_level": 10,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow3",
+      "slug": "Battle_RangeWeapon_Bow3",
+      "name": "Three Shot Bow",
+      "category": "Items",
+      "player_level": 10,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_19",
+      "slug": "FurnitureSet_19",
+      "name": "Antique Chair Set",
+      "category": "Structures",
+      "player_level": 11,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WeaselDragon",
+      "slug": "SkillUnlock_WeaselDragon",
+      "name": "Chillet Saddle",
+      "category": "Items",
+      "player_level": 11,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_01",
+      "slug": "Product_Factory_Hard_Grade_01",
+      "name": "High Quality Workbench",
+      "category": "Structures",
+      "player_level": 11,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Carbunclo",
+      "slug": "SkillUnlock_Carbunclo",
+      "name": "Lifmunk's Submachine Gun",
+      "category": "Items",
+      "player_level": 11,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Axe_Grade_02",
+      "slug": "Product_Axe_Grade_02",
+      "name": "Metal Axe",
+      "category": "Items",
+      "player_level": 11,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_02",
+      "slug": "Product_Pickaxe_Grade_02",
+      "name": "Metal Pickaxe",
+      "category": "Items",
+      "player_level": 11,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "HunterFlagSet",
+      "slug": "HunterFlagSet",
+      "name": "Rayne Syndicate Flag Set",
+      "category": "Structures",
+      "player_level": 11,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Deer",
+      "slug": "SkillUnlock_Deer",
+      "name": "Eikthyrdeer Saddle",
+      "category": "Items",
+      "player_level": 12,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Green",
+      "slug": "FurnitureTree_Green",
+      "name": "Faux Greenery Set",
+      "category": "Structures",
+      "player_level": 12,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrapplingGun",
+      "slug": "GrapplingGun",
+      "name": "Grappling Gun",
+      "category": "Items",
+      "player_level": 12,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MeatCutterKnife",
+      "slug": "MeatCutterKnife",
+      "name": "Meat Cleaver",
+      "category": "Items",
+      "player_level": 12,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Medicine_Grade_01",
+      "slug": "Product_Medicine_Grade_01",
+      "name": "Medieval Medicine Workbench",
+      "category": "Structures",
+      "player_level": 12,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur",
+      "slug": "Battle_Armor_Grade_02_Fur",
+      "name": "Pelt Armor",
+      "category": "Items",
+      "player_level": 12,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Monkey",
+      "slug": "SkillUnlock_Monkey",
+      "name": "Tanzee's Assault Rifle",
+      "category": "Items",
+      "player_level": 12,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "TableCircular",
+      "slug": "TableCircular",
+      "name": "Tidy Table Set",
+      "category": "Structures",
+      "player_level": 12,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_22",
+      "slug": "FurnitureSet_22",
+      "name": "Antique Storage Cabinet Set",
+      "category": "Structures",
+      "player_level": 13,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CoolerBox",
+      "slug": "CoolerBox",
+      "name": "Cooler Box",
+      "category": "Structures",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_BowGun",
+      "slug": "Battle_RangeWeapon_BowGun",
+      "name": "Crossbow",
+      "category": "Items",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_02",
+      "slug": "Infra_ItemChest_Grade_02",
+      "name": "Metal Chest",
+      "category": "Structures",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spear_2",
+      "slug": "Spear_2",
+      "name": "Metal Spear",
+      "category": "Items",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Monkey_Fire",
+      "slug": "SkillUnlock_Monkey_Fire",
+      "name": "Tanzee Ignis's Assault Rifle",
+      "category": "Items",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DamagedScarecrow",
+      "slug": "DamagedScarecrow",
+      "name": "Training Dummy",
+      "category": "Structures",
+      "player_level": 13,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_24",
+      "slug": "FurnitureSet_24",
+      "name": "Antique Desk Set",
+      "category": "Structures",
+      "player_level": 14,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AutoMealPouch_Tier2",
+      "slug": "AutoMealPouch_Tier2",
+      "name": "Average Feed Bag",
+      "category": "Items",
+      "player_level": 14,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Red",
+      "slug": "FurnitureTree_Red",
+      "name": "Faux Crimson Foliage Set",
+      "category": "Structures",
+      "player_level": 14,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_02",
+      "slug": "Special_PalSphere_Grade_02",
+      "name": "Mega Sphere",
+      "category": "Items",
+      "player_level": 14,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalRankUp",
+      "slug": "Special_PalRankUp",
+      "name": "Pal Essence Condenser",
+      "category": "Structures",
+      "player_level": 14,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_01",
+      "slug": "Special_SphereFactory_Black_Grade_01",
+      "name": "Sphere Workbench",
+      "category": "Structures",
+      "player_level": 14,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Kirin",
+      "slug": "SkillUnlock_Kirin",
+      "name": "Univolt Saddle",
+      "category": "Items",
+      "player_level": 14,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WallTorch",
+      "slug": "WallTorch",
+      "name": "Wall Torch",
+      "category": "Structures",
+      "player_level": 14,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FlameBuffalo",
+      "slug": "SkillUnlock_FlameBuffalo",
+      "name": "Arsox Saddle",
+      "category": "Items",
+      "player_level": 15,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingSet1",
+      "slug": "FishingSet1",
+      "name": "Beginner Fishing Set",
+      "category": "Items",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Lantern",
+      "slug": "Lantern",
+      "name": "Hip Lantern",
+      "category": "Items",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FlourMill",
+      "slug": "FlourMill",
+      "name": "Mill",
+      "category": "Structures",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_HawkBird",
+      "slug": "SkillUnlock_HawkBird",
+      "name": "Nitewing Saddle",
+      "category": "Items",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DisplayCharacter",
+      "slug": "DisplayCharacter",
+      "name": "Viewing Cage",
+      "category": "Structures",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_wheat",
+      "slug": "Product_Farm_wheat",
+      "name": "Wheat Plantation",
+      "category": "Structures",
+      "player_level": 15,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Processed_Wood",
+      "slug": "Processed_Wood",
+      "name": "Wooden Board",
+      "category": "Items",
+      "player_level": 15,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_20",
+      "slug": "FurnitureSet_20",
+      "name": "Antique Bath Set",
+      "category": "Structures",
+      "player_level": 16,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_16",
+      "slug": "FurnitureSet_16",
+      "name": "Antique Mirror Set",
+      "category": "Structures",
+      "player_level": 16,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Yellow",
+      "slug": "FurnitureTree_Yellow",
+      "name": "Faux Golden Foliage Set",
+      "category": "Structures",
+      "player_level": 16,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur_Heat",
+      "slug": "Battle_Armor_Grade_02_Fur_Heat",
+      "name": "Heat Resistant Pelt Armor",
+      "category": "Items",
+      "player_level": 16,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Unlock_Picking_Tier1",
+      "slug": "Unlock_Picking_Tier1",
+      "name": "Lockpicking Tool v1",
+      "category": "Items",
+      "player_level": 16,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_02",
+      "slug": "Shield_02",
+      "name": "Mega Shield",
+      "category": "Items",
+      "player_level": 16,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Serpent",
+      "slug": "SkillUnlock_Serpent",
+      "name": "Surfent Saddle",
+      "category": "Items",
+      "player_level": 16,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Cooking_Grade_02",
+      "slug": "Product_Cooking_Grade_02",
+      "name": "Cooking Pot",
+      "category": "Structures",
+      "player_level": 17,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Heater",
+      "slug": "Heater",
+      "name": "Heater",
+      "category": "Structures",
+      "player_level": 17,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrapplingGun2",
+      "slug": "GrapplingGun2",
+      "name": "Mega Grappling Gun",
+      "category": "Items",
+      "player_level": 17,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_30",
+      "slug": "FurnitureSet_30",
+      "name": "Metal Shelf Set",
+      "category": "Structures",
+      "player_level": 17,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Penguin",
+      "slug": "SkillUnlock_Penguin",
+      "name": "Pengullet Rocket Launcher",
+      "category": "Items",
+      "player_level": 17,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_15",
+      "slug": "FurnitureSet_15",
+      "name": "Piano Furniture Set",
+      "category": "Structures",
+      "player_level": 17,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BronzeSword",
+      "slug": "BronzeSword",
+      "name": "Primitive Sword",
+      "category": "Items",
+      "player_level": 17,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Headstone",
+      "slug": "Headstone",
+      "name": "Tombstone",
+      "category": "Structures",
+      "player_level": 17,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_32",
+      "slug": "FurnitureSet_32",
+      "name": "Antique High Quality Furniture Set",
+      "category": "Structures",
+      "player_level": 18,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_25",
+      "slug": "FurnitureSet_25",
+      "name": "Bathroom Set",
+      "category": "Structures",
+      "player_level": 18,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur_Cold",
+      "slug": "Battle_Armor_Grade_02_Fur_Cold",
+      "name": "Cold Resistant Pelt Armor",
+      "category": "Items",
+      "player_level": 18,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cooler",
+      "slug": "Cooler",
+      "name": "Cooler",
+      "category": "Structures",
+      "player_level": 18,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Glider_Grade_02",
+      "slug": "Battle_Glider_Grade_02",
+      "name": "Mega Glider",
+      "category": "Items",
+      "player_level": 18,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Penguin_Electric",
+      "slug": "SkillUnlock_Penguin_Electric",
+      "name": "Pengullet Lux's Rocket Launcher",
+      "category": "Items",
+      "player_level": 18,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_Nonkilling",
+      "slug": "Accessory_Nonkilling",
+      "name": "Ring of Mercy",
+      "category": "Items",
+      "player_level": 18,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ColorfulBird",
+      "slug": "SkillUnlock_ColorfulBird",
+      "name": "Tocotoco's Gloves",
+      "category": "Items",
+      "player_level": 18,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BreedFarm",
+      "slug": "BreedFarm",
+      "name": "Breeding Farm",
+      "category": "Structures",
+      "player_level": 19,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cement",
+      "slug": "Cement",
+      "name": "Cement",
+      "category": "Items",
+      "player_level": 19,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DefenseWall",
+      "slug": "DefenseWall",
+      "name": "Defensive Wall",
+      "category": "Structures",
+      "player_level": 19,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_NaughtyCat",
+      "slug": "SkillUnlock_NaughtyCat",
+      "name": "Grintale Saddle",
+      "category": "Items",
+      "player_level": 19,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Heavy",
+      "slug": "SphereModule_Heavy",
+      "name": "Heavy Weight Module",
+      "category": "Items",
+      "player_level": 19,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Lab",
+      "slug": "Lab",
+      "name": "Pal Labor Research Lab",
+      "category": "Structures",
+      "player_level": 19,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Stone_Gate",
+      "slug": "Stone_Gate",
+      "name": "Stone Gate",
+      "category": "Structures",
+      "player_level": 19,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Stone_houseset",
+      "slug": "Stone_houseset",
+      "name": "Stone Structure Set",
+      "category": "Structures",
+      "player_level": 19,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_18",
+      "slug": "FurnitureSet_18",
+      "name": "Antique Couch Set",
+      "category": "Structures",
+      "player_level": 20,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DimensionPalStorage",
+      "slug": "DimensionPalStorage",
+      "name": "Dimensional Pal Storage",
+      "category": "Structures",
+      "player_level": 20,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FairyDragon",
+      "slug": "SkillUnlock_FairyDragon",
+      "name": "Elphidran Saddle",
+      "category": "Items",
+      "player_level": 20,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BelieverFlagSet",
+      "slug": "BelieverFlagSet",
+      "name": "Free Pal Alliance Flag Set",
+      "category": "Structures",
+      "player_level": 20,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_03",
+      "slug": "Special_PalSphere_Grade_03",
+      "name": "Giga Sphere",
+      "category": "Items",
+      "player_level": 20,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ToolBoxV1",
+      "slug": "ToolBoxV1",
+      "name": "Large Toolbox",
+      "category": "Structures",
+      "player_level": 20,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_MopKing",
+      "slug": "SkillUnlock_MopKing",
+      "name": "Sweepa Saddle",
+      "category": "Items",
+      "player_level": 20,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_PurpleSpider",
+      "slug": "SkillUnlock_PurpleSpider",
+      "name": "Tarantriss Saddle",
+      "category": "Items",
+      "player_level": 20,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_01",
+      "slug": "Product_WeaponFactory_Dirty_Grade_01",
+      "name": "Weapon Workbench",
+      "category": "Structures",
+      "player_level": 20,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "TableDresser01_Stone",
+      "slug": "TableDresser01_Stone",
+      "name": "Antique Dresser",
+      "category": "Structures",
+      "player_level": 21,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_LegHold_Big",
+      "slug": "Trap_LegHold_Big",
+      "name": "Bear Trap (Large)",
+      "category": "Structures",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "RoughBullet",
+      "slug": "RoughBullet",
+      "name": "Coarse Ammo",
+      "category": "Items",
+      "player_level": 21,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Deer_Ground",
+      "slug": "SkillUnlock_Deer_Ground",
+      "name": "Eikthyrdeer Terra Saddle",
+      "category": "Items",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OlympicCauldron",
+      "slug": "OlympicCauldron",
+      "name": "Flame Cauldron",
+      "category": "Structures",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_GunPowder_Grade_02",
+      "slug": "Battle_GunPowder_Grade_02",
+      "name": "Gunpowder",
+      "category": "Items",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Musket",
+      "slug": "Musket",
+      "name": "Musket",
+      "category": "Items",
+      "player_level": 21,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_tomato",
+      "slug": "Product_Farm_tomato",
+      "name": "Tomato Plantation",
+      "category": "Structures",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BirdDragon",
+      "slug": "SkillUnlock_BirdDragon",
+      "name": "Vanwyrm Saddle",
+      "category": "Items",
+      "player_level": 21,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_23",
+      "slug": "FurnitureSet_23",
+      "name": "Clock Set",
+      "category": "Structures",
+      "player_level": 22,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ItemBooth",
+      "slug": "ItemBooth",
+      "name": "Flea Market (Items)",
+      "category": "Structures",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalBooth",
+      "slug": "PalBooth",
+      "name": "Flea Market (Pals)",
+      "category": "Structures",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingBait_2",
+      "slug": "FishingBait_2",
+      "name": "High Quality Bait",
+      "category": "Items",
+      "player_level": 22,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Homeward",
+      "slug": "Homeward",
+      "name": "Homeward Thundercloud",
+      "category": "Items",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_13",
+      "slug": "FurnitureSet_13",
+      "name": "Metal Chair and Desk Set",
+      "category": "Structures",
+      "player_level": 22,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Expedition",
+      "slug": "Expedition",
+      "name": "Pal Expedition Station",
+      "category": "Structures",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElecBaton",
+      "slug": "ElecBaton",
+      "name": "Stun Baton",
+      "category": "Items",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BirdDragon_Ice",
+      "slug": "SkillUnlock_BirdDragon_Ice",
+      "name": "Vanwyrm Cryst Saddle",
+      "category": "Items",
+      "player_level": 22,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Curve",
+      "slug": "SphereModule_Curve",
+      "name": "Curve Module",
+      "category": "Items",
+      "player_level": 23,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Bamboo",
+      "slug": "FurnitureTree_Bamboo",
+      "name": "Faux Bamboo Set",
+      "category": "Structures",
+      "player_level": 23,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingAlpaca",
+      "slug": "SkillUnlock_KingAlpaca",
+      "name": "Kingpaca Saddle",
+      "category": "Items",
+      "player_level": 23,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AutoMealPouch_Tier3",
+      "slug": "AutoMealPouch_Tier3",
+      "name": "Large Feed Bag",
+      "category": "Items",
+      "player_level": 23,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper",
+      "slug": "Battle_Armor_Grade_03_Copper",
+      "name": "Metal Armor",
+      "category": "Items",
+      "player_level": 23,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Helm_Grade_03_Copper",
+      "slug": "Battle_Helm_Grade_03_Copper",
+      "name": "Metal Helm",
+      "category": "Items",
+      "player_level": 23,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_6",
+      "slug": "FurnitureSet_6",
+      "name": "Storage Container Set",
+      "category": "Structures",
+      "player_level": 23,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Fountain",
+      "slug": "Fountain",
+      "name": "Water Fountain",
+      "category": "Structures",
+      "player_level": 23,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlueDragon",
+      "slug": "SkillUnlock_BlueDragon",
+      "name": "Azurobe Saddle",
+      "category": "Items",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Clinic",
+      "slug": "Clinic",
+      "name": "Clinic",
+      "category": "Structures",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FlowerDinosaur",
+      "slug": "SkillUnlock_FlowerDinosaur",
+      "name": "Dinossom Saddle",
+      "category": "Items",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FlowerBed",
+      "slug": "FlowerBed",
+      "name": "Flower Bed",
+      "category": "Structures",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_PalBed_Grade_02",
+      "slug": "Infra_PalBed_Grade_02",
+      "name": "Fluffy Pal Bed",
+      "category": "Structures",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Kitsunebi_Ice",
+      "slug": "SkillUnlock_Kitsunebi_Ice",
+      "name": "Foxparks Cryst's Harness",
+      "category": "Items",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MakeshiftHandgun",
+      "slug": "MakeshiftHandgun",
+      "name": "Makeshift Handgun",
+      "category": "Items",
+      "player_level": 24,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalMedicineBox",
+      "slug": "PalMedicineBox",
+      "name": "Medicine Rack",
+      "category": "Structures",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_CopperPit",
+      "slug": "Product_CopperPit",
+      "name": "Ore Mining Site",
+      "category": "Structures",
+      "player_level": 24,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalDopingShot",
+      "slug": "PalDopingShot",
+      "name": "Boost Gun",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalDopingShotBullet",
+      "slug": "PalDopingShotBullet",
+      "name": "Boost Gun Ammo",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade",
+      "slug": "FragGrenade",
+      "name": "Frag Grenade",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper_Heat",
+      "slug": "Battle_Armor_Grade_03_Copper_Heat",
+      "name": "Heat Resistant Metal Armor",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_HadesBird",
+      "slug": "SkillUnlock_HadesBird",
+      "name": "Helzephyr Saddle",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_Lettuce",
+      "slug": "Product_Farm_Lettuce",
+      "name": "Lettuce Plantation",
+      "category": "Structures",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Unlock_Picking_Tier2",
+      "slug": "Unlock_Picking_Tier2",
+      "name": "Lockpicking Tool v2",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Silo",
+      "slug": "Silo",
+      "name": "Silo",
+      "category": "Structures",
+      "player_level": 25,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Serpent_Ground",
+      "slug": "SkillUnlock_Serpent_Ground",
+      "name": "Surfent Terra Saddle",
+      "category": "Items",
+      "player_level": 25,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_29",
+      "slug": "FurnitureSet_29",
+      "name": "Antique Lamp Set",
+      "category": "Structures",
+      "player_level": 26,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FengyunDeeper",
+      "slug": "SkillUnlock_FengyunDeeper",
+      "name": "Fenglope Saddle",
+      "category": "Items",
+      "player_level": 26,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ManualElectricGenerator",
+      "slug": "ManualElectricGenerator",
+      "name": "Human-Powered Generator",
+      "category": "Structures",
+      "player_level": 26,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Lamp",
+      "slug": "Lamp",
+      "name": "Lamp",
+      "category": "Structures",
+      "player_level": 26,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MakeshiftSubmachineGun",
+      "slug": "MakeshiftSubmachineGun",
+      "name": "Makeshift SMG",
+      "category": "Items",
+      "player_level": 26,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Defense_BowGun",
+      "slug": "Battle_Defense_BowGun",
+      "name": "Mounted Crossbow",
+      "category": "Structures",
+      "player_level": 26,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceSeal",
+      "slug": "SkillUnlock_IceSeal",
+      "name": "Polapup Saddle",
+      "category": "Items",
+      "player_level": 26,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_ElectricGenerator_Grade_01",
+      "slug": "Infra_ElectricGenerator_Grade_01",
+      "name": "Power Generator",
+      "category": "Structures",
+      "player_level": 26,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_SphereLauncher_Once",
+      "slug": "Battle_RangeWeapon_SphereLauncher_Once",
+      "name": "Single-Shot Sphere Launcher",
+      "category": "Items",
+      "player_level": 26,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlueDragon_Ice",
+      "slug": "SkillUnlock_BlueDragon_Ice",
+      "name": "Azurobe Cryst Saddle",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CeilingLamp",
+      "slug": "CeilingLamp",
+      "name": "Ceiling Lamp",
+      "category": "Structures",
+      "player_level": 27,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper_Cold",
+      "slug": "Battle_Armor_Grade_03_Copper_Cold",
+      "name": "Cold Resistant Metal Armor",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "UnlockEquipmentSlot_Weapon_01",
+      "slug": "UnlockEquipmentSlot_Weapon_01",
+      "name": "Extra Weapon Holster",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Tropical",
+      "slug": "FurnitureTree_Tropical",
+      "name": "Faux Tropical Greenery Set",
+      "category": "Structures",
+      "player_level": 27,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_04",
+      "slug": "Special_PalSphere_Grade_04",
+      "name": "Hyper Sphere",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Elec",
+      "slug": "FragGrenade_Elec",
+      "name": "Shock Grenade",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AdditionalInventory_001",
+      "slug": "AdditionalInventory_001",
+      "name": "Small Pouch",
+      "category": "Items",
+      "player_level": 27,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_02",
+      "slug": "Special_SphereFactory_Black_Grade_02",
+      "name": "Sphere Assembly Line",
+      "category": "Structures",
+      "player_level": 27,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_JumpPower_Increase",
+      "slug": "Accessory_JumpPower_Increase",
+      "name": "Anti-Gravity Belt",
+      "category": "Items",
+      "player_level": 28,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FireCultFlagSet",
+      "slug": "FireCultFlagSet",
+      "name": "Brothers of the Eternal Pyre Flag Set",
+      "category": "Structures",
+      "player_level": 28,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FeatherOstrich",
+      "slug": "SkillUnlock_FeatherOstrich",
+      "name": "Dazemu Saddle",
+      "category": "Items",
+      "player_level": 28,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_PlayerBed_Grade_02",
+      "slug": "Infra_PlayerBed_Grade_02",
+      "name": "Fine Bed",
+      "category": "Structures",
+      "player_level": 28,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_HandGun",
+      "slug": "Battle_RangeWeapon_HandGun",
+      "name": "Handgun",
+      "category": "Items",
+      "player_level": 28,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "HandgunBullet",
+      "slug": "HandgunBullet",
+      "name": "Handgun Ammo",
+      "category": "Items",
+      "player_level": 28,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampWorkHard02",
+      "slug": "BaseCampWorkHard02",
+      "name": "High Quality Monitoring Stand",
+      "category": "Structures",
+      "player_level": 28,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassMammoth",
+      "slug": "SkillUnlock_GrassMammoth",
+      "name": "Mammorest Saddle",
+      "category": "Items",
+      "player_level": 28,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Stump",
+      "slug": "Stump",
+      "name": "Stump and Axe",
+      "category": "Structures",
+      "player_level": 28,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ThunderBird",
+      "slug": "SkillUnlock_ThunderBird",
+      "name": "Beakon Saddle",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Lantern_High",
+      "slug": "Lantern_High",
+      "name": "Enhanced Hip Lantern",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_03",
+      "slug": "Shield_03",
+      "name": "Giga Shield",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Ice",
+      "slug": "FragGrenade_Ice",
+      "name": "Ice Grenade",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingRod_02_1",
+      "slug": "FishingRod_02_1",
+      "name": "Intermediate Fishing Rod (Cattiva)",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_Potato",
+      "slug": "Product_Farm_Potato",
+      "name": "Potato Plantation",
+      "category": "Structures",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_02",
+      "slug": "Product_Factory_Hard_Grade_02",
+      "name": "Production Assembly Line",
+      "category": "Structures",
+      "player_level": 29,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FireKirin",
+      "slug": "SkillUnlock_FireKirin",
+      "name": "Pyrin Saddle",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Sword",
+      "slug": "Battle_MeleeWeapon_Sword",
+      "name": "Sword",
+      "category": "Items",
+      "player_level": 29,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Metal_Gate",
+      "slug": "Metal_Gate",
+      "name": "Iron Gate",
+      "category": "Structures",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MakeshiftShotgun",
+      "slug": "MakeshiftShotgun",
+      "name": "Makeshift Shotgun",
+      "category": "Items",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "YakushimaBlade",
+      "slug": "YakushimaBlade",
+      "name": "Meowmere",
+      "category": "Items",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DefenseWall_Metal",
+      "slug": "DefenseWall_Metal",
+      "name": "Metal Defensive Wall",
+      "category": "Structures",
+      "player_level": 30,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Metal_houseset",
+      "slug": "Metal_houseset",
+      "name": "Metal Structure Set",
+      "category": "Structures",
+      "player_level": 30,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_MineAttack",
+      "slug": "Trap_MineAttack",
+      "name": "Mine",
+      "category": "Structures",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cake02",
+      "slug": "Cake02",
+      "name": "Mushroom Cake",
+      "category": "Items",
+      "player_level": 30,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MiningTool",
+      "slug": "MiningTool",
+      "name": "Pickaxe and Helmet",
+      "category": "Structures",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ThunderDog",
+      "slug": "SkillUnlock_ThunderDog",
+      "name": "Rayhound Saddle",
+      "category": "Items",
+      "player_level": 30,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Bio_Coolant",
+      "slug": "Bio_Coolant",
+      "name": "Cryogenic Coolant",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingPond1",
+      "slug": "FishingPond1",
+      "name": "Fishing Pond",
+      "category": "Structures",
+      "player_level": 31,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GhostAnglerfish",
+      "slug": "SkillUnlock_GhostAnglerfish",
+      "name": "Ghangler Saddle",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrapplingGun3",
+      "slug": "GrapplingGun3",
+      "name": "Giga Grappling Gun",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spa2",
+      "slug": "Spa2",
+      "name": "High Quality Hot Spring",
+      "category": "Structures",
+      "player_level": 31,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Fire",
+      "slug": "FragGrenade_Fire",
+      "name": "Incendiary Grenade",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MakeshiftAssaultRifle",
+      "slug": "MakeshiftAssaultRifle",
+      "name": "Makeshift Assault Rifle",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceDeer",
+      "slug": "SkillUnlock_IceDeer",
+      "name": "Reindrix Saddle",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Sniper",
+      "slug": "SphereModule_Sniper",
+      "name": "Sniper Module",
+      "category": "Items",
+      "player_level": 31,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_Carrot",
+      "slug": "Product_Farm_Carrot",
+      "name": "Carrot Plantation",
+      "category": "Structures",
+      "player_level": 32,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FairyDragon_Water",
+      "slug": "SkillUnlock_FairyDragon_Water",
+      "name": "Elphidran Aqua Saddle",
+      "category": "Items",
+      "player_level": 32,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassPanda",
+      "slug": "SkillUnlock_GrassPanda",
+      "name": "Mossanda's Grenade Launcher",
+      "category": "Items",
+      "player_level": 32,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalHealingGrenade",
+      "slug": "PalHealingGrenade",
+      "name": "Pal Recovery Grenade",
+      "category": "Items",
+      "player_level": 32,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampWorkerExtraStation",
+      "slug": "BaseCampWorkerExtraStation",
+      "name": "Palbox Control Device",
+      "category": "Structures",
+      "player_level": 32,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Thunderdog_Ice",
+      "slug": "SkillUnlock_Thunderdog_Ice",
+      "name": "Rayhound Cryst Saddle",
+      "category": "Items",
+      "player_level": 32,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OctaviaSet01",
+      "slug": "OctaviaSet01",
+      "name": "ULTRAKILL Collab Set 1",
+      "category": "Items",
+      "player_level": 32,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_02",
+      "slug": "Product_WeaponFactory_Dirty_Grade_02",
+      "name": "Weapon Assembly Line",
+      "category": "Structures",
+      "player_level": 32,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cauldron",
+      "slug": "Cauldron",
+      "name": "Witch Cauldron",
+      "category": "Structures",
+      "player_level": 32,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Manticore",
+      "slug": "SkillUnlock_Manticore",
+      "name": "Blazehowl Saddle",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SakuraSaurus",
+      "slug": "SkillUnlock_SakuraSaurus",
+      "name": "Broncherry Saddle",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_MineElecShock",
+      "slug": "Trap_MineElecShock",
+      "name": "Electric Mine",
+      "category": "Structures",
+      "player_level": 33,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_OldRevolver",
+      "slug": "Battle_RangeWeapon_OldRevolver",
+      "name": "Old Revolver",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Polymer",
+      "slug": "Polymer",
+      "name": "Polymer",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_RedArmorBird",
+      "slug": "SkillUnlock_RedArmorBird",
+      "name": "Ragnahawk Saddle",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Snowman",
+      "slug": "Snowman",
+      "name": "Snowman",
+      "category": "Structures",
+      "player_level": 33,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Altar",
+      "slug": "Altar",
+      "name": "Summoning Altar",
+      "category": "Structures",
+      "player_level": 33,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Water",
+      "slug": "FragGrenade_Water",
+      "name": "Water Grenade",
+      "category": "Items",
+      "player_level": 33,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_TalentChecker",
+      "slug": "Accessory_TalentChecker",
+      "name": "Ability Glasses",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FlowerDinosaur_Electric",
+      "slug": "SkillUnlock_FlowerDinosaur_Electric",
+      "name": "Dinossom Lux Saddle",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Ingot_Grade_02_Iron",
+      "slug": "Product_Ingot_Grade_02_Iron",
+      "name": "Improved Furnace",
+      "category": "Structures",
+      "player_level": 34,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_5",
+      "slug": "FurnitureSet_5",
+      "name": "Metal Barrel Set",
+      "category": "Structures",
+      "player_level": 34,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassPanda_Electric",
+      "slug": "SkillUnlock_GrassPanda_Electric",
+      "name": "Mossanda Lux's Grenade Launcher",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FireKirin_Dark",
+      "slug": "SkillUnlock_FireKirin_Dark",
+      "name": "Pyrin Noct Saddle",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Axe_Grade_03",
+      "slug": "Product_Axe_Grade_03",
+      "name": "Refined Metal Axe",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_03",
+      "slug": "Product_Pickaxe_Grade_03",
+      "name": "Refined Metal Pickaxe",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spear_3",
+      "slug": "Spear_3",
+      "name": "Refined Metal Spear",
+      "category": "Items",
+      "player_level": 34,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_AirDash1",
+      "slug": "Accessory_AirDash1",
+      "name": "Air Dash Boots",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Manticore_Dark",
+      "slug": "SkillUnlock_Manticore_Dark",
+      "name": "Blazehowl Noct Saddle",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CarbonFiber",
+      "slug": "CarbonFiber",
+      "name": "Carbon Fiber",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_ElectronicCircuit",
+      "slug": "Infra_ElectronicCircuit",
+      "name": "Circuit Board",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Leaf",
+      "slug": "FragGrenade_Leaf",
+      "name": "Grass Grenade",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_14",
+      "slug": "FurnitureSet_14",
+      "name": "Ironwood Table Set",
+      "category": "Structures",
+      "player_level": 35,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_TropicalOstrich",
+      "slug": "SkillUnlock_TropicalOstrich",
+      "name": "Palumba Saddle",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_03",
+      "slug": "Special_SphereFactory_Black_Grade_03",
+      "name": "Sphere Assembly Line II",
+      "category": "Structures",
+      "player_level": 35,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_05",
+      "slug": "Special_PalSphere_Grade_05",
+      "name": "Ultra Sphere",
+      "category": "Items",
+      "player_level": 35,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Plesiosaur",
+      "slug": "SkillUnlock_Plesiosaur",
+      "name": "Braloha Saddle",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_ElectricHatchingPalEgg",
+      "slug": "Special_ElectricHatchingPalEgg",
+      "name": "Electric Egg Incubator",
+      "category": "Structures",
+      "player_level": 36,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cloth2",
+      "slug": "Cloth2",
+      "name": "High Quality Cloth",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AutoMealPouch_Tier4",
+      "slug": "AutoMealPouch_Tier4",
+      "name": "Huge Feed Bag",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MedicalPalBed_04",
+      "slug": "MedicalPalBed_04",
+      "name": "Large Pal Bed",
+      "category": "Structures",
+      "player_level": 36,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_VolcanoDragon",
+      "slug": "SkillUnlock_VolcanoDragon",
+      "name": "Moldron Saddle",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Farm_Onion",
+      "slug": "Product_Farm_Onion",
+      "name": "Onion Plantation",
+      "category": "Structures",
+      "player_level": 36,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "RifleBullet",
+      "slug": "RifleBullet",
+      "name": "Rifle Ammo",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_Rifle",
+      "slug": "Battle_RangeWeapon_Rifle",
+      "name": "Single-Shot Rifle",
+      "category": "Items",
+      "player_level": 36,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "EnergyStorage_Electric",
+      "slug": "EnergyStorage_Electric",
+      "name": "Accumulator",
+      "category": "Structures",
+      "player_level": 37,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_CoalPit",
+      "slug": "Product_CoalPit",
+      "name": "Coal Mine",
+      "category": "Structures",
+      "player_level": 37,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Corrosive_Solvent",
+      "slug": "Corrosive_Solvent",
+      "name": "Corrosive Solvent",
+      "category": "Items",
+      "player_level": 37,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Desert",
+      "slug": "FurnitureTree_Desert",
+      "name": "Faux Desert Greenery Set",
+      "category": "Structures",
+      "player_level": 37,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GhostBeast",
+      "slug": "SkillUnlock_GhostBeast",
+      "name": "Maraith Saddle",
+      "category": "Items",
+      "player_level": 37,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_31",
+      "slug": "FurnitureSet_31",
+      "name": "Outdoor Furniture Set",
+      "category": "Structures",
+      "player_level": 37,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron",
+      "slug": "Battle_Armor_Grade_03_Iron",
+      "name": "Refined Metal Armor",
+      "category": "Items",
+      "player_level": 37,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Helm_Grade_04_Iron",
+      "slug": "Battle_Helm_Grade_04_Iron",
+      "name": "Refined Metal Helm",
+      "category": "Items",
+      "player_level": 37,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_SubmachineGun",
+      "slug": "Battle_RangeWeapon_SubmachineGun",
+      "name": "SMG",
+      "category": "Items",
+      "player_level": 37,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingBait_3",
+      "slug": "FishingBait_3",
+      "name": "Deluxe Bait",
+      "category": "Items",
+      "player_level": 38,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Ground",
+      "slug": "FragGrenade_Ground",
+      "name": "Ground Grenade",
+      "category": "Items",
+      "player_level": 38,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Trap_MineFreeze",
+      "slug": "Trap_MineFreeze",
+      "name": "Ice Mine",
+      "category": "Structures",
+      "player_level": 38,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_7",
+      "slug": "FurnitureSet_7",
+      "name": "Leather Chair Set",
+      "category": "Structures",
+      "player_level": 38,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Launcher_Meteor",
+      "slug": "Launcher_Meteor",
+      "name": "Meteor Launcher",
+      "category": "Items",
+      "player_level": 38,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OperatingTable",
+      "slug": "OperatingTable",
+      "name": "Pal Surgery Table",
+      "category": "Structures",
+      "player_level": 38,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SkyDragon",
+      "slug": "SkillUnlock_SkyDragon",
+      "name": "Quivern Saddle",
+      "category": "Items",
+      "player_level": 38,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Refrigerator",
+      "slug": "Refrigerator",
+      "name": "Refrigerator",
+      "category": "Structures",
+      "player_level": 38,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_SphereLauncher",
+      "slug": "Battle_RangeWeapon_SphereLauncher",
+      "name": "Scatter Sphere Launcher",
+      "category": "Items",
+      "player_level": 38,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlackMetalDragon",
+      "slug": "SkillUnlock_BlackMetalDragon",
+      "name": "Astegon Saddle",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_ShotGun",
+      "slug": "Battle_RangeWeapon_ShotGun",
+      "name": "Double-Barreled Shotgun",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_CopperPit_2",
+      "slug": "Product_CopperPit_2",
+      "name": "Ore Mining Site II",
+      "category": "Structures",
+      "player_level": 39,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PoliceFlagSet",
+      "slug": "PoliceFlagSet",
+      "name": "PIDF Flag Set",
+      "category": "Structures",
+      "player_level": 39,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_03",
+      "slug": "Infra_ItemChest_Grade_03",
+      "name": "Refined Metal Chest",
+      "category": "Structures",
+      "player_level": 39,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ShotGunBullet",
+      "slug": "ShotGunBullet",
+      "name": "Shotgun Shell",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_MushroomDragon_Dark",
+      "slug": "SkillUnlock_MushroomDragon_Dark",
+      "name": "Shroomer Noct Saddle",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_MushroomDragon",
+      "slug": "SkillUnlock_MushroomDragon",
+      "name": "Shroomer Saddle",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Curve2",
+      "slug": "SphereModule_Curve2",
+      "name": "Slider Module",
+      "category": "Items",
+      "player_level": 39,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WeaselDragon_Fire",
+      "slug": "SkillUnlock_WeaselDragon_Fire",
+      "name": "Chillet Ignis Saddle",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Dark",
+      "slug": "FragGrenade_Dark",
+      "name": "Dark Grenade",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_JumpCount_Increase1",
+      "slug": "Accessory_JumpCount_Increase1",
+      "name": "Double Jump Boots",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Glider_Grade_03",
+      "slug": "Battle_Glider_Grade_03",
+      "name": "Giga Glider",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ElecPanda",
+      "slug": "SkillUnlock_ElecPanda",
+      "name": "Grizzbolt's Minigun",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron_Heat",
+      "slug": "Battle_Armor_Grade_03_Iron_Heat",
+      "name": "Heat Resistant Refined Metal Armor",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Umihebi",
+      "slug": "SkillUnlock_Umihebi",
+      "name": "Jormuntide Saddle",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Bat3",
+      "slug": "Bat3",
+      "name": "Metal Bat",
+      "category": "Items",
+      "player_level": 40,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Defense_MachineGun",
+      "slug": "Battle_Defense_MachineGun",
+      "name": "Mounted Machine Gun",
+      "category": "Structures",
+      "player_level": 40,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SanityDecrease1",
+      "slug": "SanityDecrease1",
+      "name": "Alpha Wave Generator",
+      "category": "Structures",
+      "player_level": 41,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron_Cold",
+      "slug": "Battle_Armor_Grade_03_Iron_Cold",
+      "name": "Cold Resistant Refined Metal Armor",
+      "category": "Items",
+      "player_level": 41,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElectricHeater",
+      "slug": "ElectricHeater",
+      "name": "Electric Heater",
+      "category": "Structures",
+      "player_level": 41,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Cooking_Grade_03",
+      "slug": "Product_Cooking_Grade_03",
+      "name": "Electric Kitchen",
+      "category": "Structures",
+      "player_level": 41,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GuildChest",
+      "slug": "GuildChest",
+      "name": "Guild Chest",
+      "category": "Structures",
+      "player_level": 41,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassMammoth_Ice",
+      "slug": "SkillUnlock_GrassMammoth_Ice",
+      "name": "Mammorest Cryst Saddle",
+      "category": "Items",
+      "player_level": 41,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_SemiAutoRifle",
+      "slug": "Battle_RangeWeapon_SemiAutoRifle",
+      "name": "Semi-Auto Rifle",
+      "category": "Items",
+      "player_level": 41,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WhiteAlienDragon",
+      "slug": "SkillUnlock_WhiteAlienDragon",
+      "name": "Xenogard Saddle",
+      "category": "Items",
+      "player_level": 41,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GuardianDog",
+      "slug": "SkillUnlock_GuardianDog",
+      "name": "Yakumo Saddle",
+      "category": "Items",
+      "player_level": 41,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_CompoundBow",
+      "slug": "Battle_RangeWeapon_CompoundBow",
+      "name": "Compound Bow",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Dragon",
+      "slug": "FragGrenade_Dragon",
+      "name": "Dragon Grenade",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElectricCooler",
+      "slug": "ElectricCooler",
+      "name": "Electric Cooler",
+      "category": "Structures",
+      "player_level": 42,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GhostAnglerfish_Fire",
+      "slug": "SkillUnlock_GhostAnglerfish_Fire",
+      "name": "Ghangler Ignis Saddle",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_03",
+      "slug": "Product_Factory_Hard_Grade_03",
+      "name": "Production Assembly Line II",
+      "category": "Structures",
+      "player_level": 42,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ReinforcedArrow",
+      "slug": "ReinforcedArrow",
+      "name": "Reinforced Arrow",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_VolcanicMonster",
+      "slug": "SkillUnlock_VolcanicMonster",
+      "name": "Reptyro Saddle",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceNarwhal",
+      "slug": "SkillUnlock_IceNarwhal",
+      "name": "Whalaska Saddle",
+      "category": "Items",
+      "player_level": 42,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Medicine_Grade_02",
+      "slug": "Product_Medicine_Grade_02",
+      "name": "Electric Medicine Workbench",
+      "category": "Structures",
+      "player_level": 43,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "HighGrade_Processed_Wood",
+      "slug": "HighGrade_Processed_Wood",
+      "name": "High Quality Wooden Board",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_04",
+      "slug": "Shield_04",
+      "name": "Hyper Shield",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_StationDeforest2",
+      "slug": "Product_StationDeforest2",
+      "name": "Logging Site II",
+      "category": "Structures",
+      "player_level": 43,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AdditionalInventory_002",
+      "slug": "AdditionalInventory_002",
+      "name": "Medium Pouch",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_ShotGun_Multi",
+      "slug": "Battle_RangeWeapon_ShotGun_Multi",
+      "name": "Pump-Action Shotgun",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_VolcanicMonster_Ice",
+      "slug": "SkillUnlock_VolcanicMonster_Ice",
+      "name": "Reptyro Cryst Saddle",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Suzaku",
+      "slug": "SkillUnlock_Suzaku",
+      "name": "Suzaku Saddle",
+      "category": "Items",
+      "player_level": 43,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Bio_Battery",
+      "slug": "Bio_Battery",
+      "name": "Bio Battery",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SakuraSaurus_Water",
+      "slug": "SkillUnlock_SakuraSaurus_Water",
+      "name": "Broncherry Aqua Saddle",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_Ingot_Grade_03_Steal",
+      "slug": "Product_Ingot_Grade_03_Steal",
+      "name": "Electric Furnace",
+      "category": "Structures",
+      "player_level": 44,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Katana",
+      "slug": "Katana",
+      "name": "Katana",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_06",
+      "slug": "Special_PalSphere_Grade_06",
+      "name": "Legendary Sphere",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Axe_Steal",
+      "slug": "Battle_MeleeWeapon_Axe_Steal",
+      "name": "Pal Metal Axe",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Pickaxe_Steal",
+      "slug": "Battle_MeleeWeapon_Pickaxe_Steal",
+      "name": "Pal Metal Pickaxe",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Suzaku_Water",
+      "slug": "SkillUnlock_Suzaku_Water",
+      "name": "Suzaku Aqua Saddle",
+      "category": "Items",
+      "player_level": 44,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingRod_03_1",
+      "slug": "FishingRod_03_1",
+      "name": "Advanced Fishing Rod (Pengullet)",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_AssaultRifle",
+      "slug": "Battle_RangeWeapon_AssaultRifle",
+      "name": "Assault Rifle",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AssaultRifleBullet",
+      "slug": "AssaultRifleBullet",
+      "name": "Assault Rifle Ammo",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DecalGunSet",
+      "slug": "DecalGunSet",
+      "name": "Decal Gun Set",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CompositeDesk",
+      "slug": "CompositeDesk",
+      "name": "Drafting Table",
+      "category": "Structures",
+      "player_level": 45,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Glass_houseset",
+      "slug": "Glass_houseset",
+      "name": "Glass Structure Set",
+      "category": "Structures",
+      "player_level": 45,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SkyDragon_Grass",
+      "slug": "SkillUnlock_SkyDragon_Grass",
+      "name": "Quivern Botan Saddle",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_LazyDragon",
+      "slug": "SkillUnlock_LazyDragon",
+      "name": "Relaxaurus' Missile Launcher",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Yeti",
+      "slug": "SkillUnlock_Yeti",
+      "name": "Wumpo Saddle",
+      "category": "Items",
+      "player_level": 45,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_26",
+      "slug": "FurnitureSet_26",
+      "name": "Amusement Furniture Set",
+      "category": "Structures",
+      "player_level": 46,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WorkSpeedIncrease1",
+      "slug": "WorkSpeedIncrease1",
+      "name": "Beta Wave Generator",
+      "category": "Structures",
+      "player_level": 46,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingBahamut",
+      "slug": "SkillUnlock_KingBahamut",
+      "name": "Blazamut Saddle",
+      "category": "Items",
+      "player_level": 46,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingAlpaca_Ice",
+      "slug": "SkillUnlock_KingAlpaca_Ice",
+      "name": "Kingpaca Cryst Saddle",
+      "category": "Items",
+      "player_level": 46,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LargeLamp",
+      "slug": "LargeLamp",
+      "name": "Large Mounted Lamp",
+      "category": "Structures",
+      "player_level": 46,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal",
+      "slug": "Battle_Armor_Grade_04_Steal",
+      "name": "Pal Metal Armor",
+      "category": "Items",
+      "player_level": 46,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Helm_Grade_05_Steal",
+      "slug": "Battle_Helm_Grade_05_Steal",
+      "name": "Pal Metal Helm",
+      "category": "Items",
+      "player_level": 46,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_27",
+      "slug": "FurnitureSet_27",
+      "name": "Street Lamp Set",
+      "category": "Structures",
+      "player_level": 46,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_SulfurPit",
+      "slug": "Product_SulfurPit",
+      "name": "Sulfur Mine",
+      "category": "Structures",
+      "player_level": 46,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_8",
+      "slug": "FurnitureSet_8",
+      "name": "Emergency Exit Sign Set",
+      "category": "Structures",
+      "player_level": 47,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AutoMealPouch_Tier5",
+      "slug": "AutoMealPouch_Tier5",
+      "name": "Giant Feed Bag",
+      "category": "Items",
+      "player_level": 47,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_HadesBird_Electric",
+      "slug": "SkillUnlock_HadesBird_Electric",
+      "name": "Helzephyr Lux Saddle",
+      "category": "Items",
+      "player_level": 47,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LargeCeilingLamp",
+      "slug": "LargeCeilingLamp",
+      "name": "Large Ceiling Lamp",
+      "category": "Structures",
+      "player_level": 47,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_SemiAutoShotgun",
+      "slug": "Battle_RangeWeapon_SemiAutoShotgun",
+      "name": "Semi-Auto Shotgun",
+      "category": "Items",
+      "player_level": 47,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlackGriffon",
+      "slug": "SkillUnlock_BlackGriffon",
+      "name": "Shadowbeak Saddle",
+      "category": "Items",
+      "player_level": 47,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cake03",
+      "slug": "Cake03",
+      "name": "Vegetable Cake",
+      "category": "Items",
+      "player_level": 47,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_03",
+      "slug": "Product_WeaponFactory_Dirty_Grade_03",
+      "name": "Weapon Assembly Line II",
+      "category": "Structures",
+      "player_level": 47,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassGolem",
+      "slug": "SkillUnlock_GrassGolem",
+      "name": "Dualith Saddle",
+      "category": "Items",
+      "player_level": 48,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "TransmissionTower",
+      "slug": "TransmissionTower",
+      "name": "Electric Pylon",
+      "category": "Structures",
+      "player_level": 48,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal_Heat",
+      "slug": "Battle_Armor_Grade_04_Steal_Heat",
+      "name": "Heat Resistant Pal Metal Armor",
+      "category": "Items",
+      "player_level": 48,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MultiHatchingPalEgg",
+      "slug": "MultiHatchingPalEgg",
+      "name": "Large Incubator",
+      "category": "Structures",
+      "player_level": 48,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_LazyDragon_Electric",
+      "slug": "SkillUnlock_LazyDragon_Electric",
+      "name": "Relaxaurus Lux's Missile Launcher",
+      "category": "Items",
+      "player_level": 48,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Sniper2",
+      "slug": "SphereModule_Sniper2",
+      "name": "Sniper Module II",
+      "category": "Items",
+      "player_level": 48,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_CubeTurtle",
+      "slug": "SkillUnlock_CubeTurtle",
+      "name": "Tetroise Saddle",
+      "category": "Items",
+      "player_level": 48,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_11",
+      "slug": "FurnitureSet_11",
+      "name": "Traffic Control Set",
+      "category": "Structures",
+      "player_level": 48,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_10",
+      "slug": "FurnitureSet_10",
+      "name": "Barricade Set",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Snow",
+      "slug": "FurnitureTree_Snow",
+      "name": "Faux Snowy Greenery Set",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrapplingGun4",
+      "slug": "GrapplingGun4",
+      "name": "Hyper Grappling Gun",
+      "category": "Items",
+      "player_level": 49,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampItemDispenser",
+      "slug": "BaseCampItemDispenser",
+      "name": "Item Retrieval Machine",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "JapaneseStyle_houseset",
+      "slug": "JapaneseStyle_houseset",
+      "name": "Japanese-Style Structure Set",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "HugeKitchen",
+      "slug": "HugeKitchen",
+      "name": "Large-Scale Stone Oven",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_12",
+      "slug": "FurnitureSet_12",
+      "name": "Road Sign Set",
+      "category": "Structures",
+      "player_level": 49,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal_Cold",
+      "slug": "Battle_Armor_Grade_04_Steal_Cold",
+      "name": "Cold Resistant Pal Metal Armor",
+      "category": "Items",
+      "player_level": 50,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Computer",
+      "slug": "Computer",
+      "name": "Computer",
+      "category": "Items",
+      "player_level": 50,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OilPump",
+      "slug": "OilPump",
+      "name": "Crude Oil Extractor",
+      "category": "Structures",
+      "player_level": 50,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElectricGenerator_Large",
+      "slug": "ElectricGenerator_Large",
+      "name": "Large Power Generator",
+      "category": "Structures",
+      "player_level": 50,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Defense_Missile",
+      "slug": "Battle_Defense_Missile",
+      "name": "Mounted Missile Launcher",
+      "category": "Structures",
+      "player_level": 50,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ScientistFlagSet",
+      "slug": "ScientistFlagSet",
+      "name": "PAL Genetic Research Unit Flag Set",
+      "category": "Structures",
+      "player_level": 50,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Plastic",
+      "slug": "Plastic",
+      "name": "Plasteel",
+      "category": "Items",
+      "player_level": 50,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CoolerPalFoodBox",
+      "slug": "CoolerPalFoodBox",
+      "name": "Cold Food Box",
+      "category": "Structures",
+      "player_level": 51,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LaserBullet",
+      "slug": "LaserBullet",
+      "name": "Energy Cartridge",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OilPump02",
+      "slug": "OilPump02",
+      "name": "High-Pressure Crude Oil Extractor",
+      "category": "Structures",
+      "player_level": 51,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_LaserRifle",
+      "slug": "Battle_RangeWeapon_LaserRifle",
+      "name": "Laser Rifle",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic",
+      "slug": "Battle_Armor_Grade_05_Plastic",
+      "name": "Plasteel Armor",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Helm_Grade_06_Plastic",
+      "slug": "Battle_Helm_Grade_06_Plastic",
+      "name": "Plasteel Helmet",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Special_PalSphere_Grade_07",
+      "slug": "Special_PalSphere_Grade_07",
+      "name": "Ultimate Sphere",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Yeti_Grass",
+      "slug": "SkillUnlock_Yeti_Grass",
+      "name": "Wumpo Botan Saddle",
+      "category": "Items",
+      "player_level": 51,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingBait_3_A",
+      "slug": "FishingBait_3_A",
+      "name": "Alluring Bait",
+      "category": "Items",
+      "player_level": 52,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_FlameThrower",
+      "slug": "Battle_RangeWeapon_FlameThrower",
+      "name": "Flamethrower",
+      "category": "Items",
+      "player_level": 52,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FlamethrowerBullet",
+      "slug": "FlamethrowerBullet",
+      "name": "Flamethrower Fuel",
+      "category": "Items",
+      "player_level": 52,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Glider_Grade_04",
+      "slug": "Battle_Glider_Grade_04",
+      "name": "Hyper Glider",
+      "category": "Items",
+      "player_level": 52,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BadCatgirl",
+      "slug": "SkillUnlock_BadCatgirl",
+      "name": "Nyafia's Shotgun",
+      "category": "Items",
+      "player_level": 52,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Product_QuartzPit",
+      "slug": "Product_QuartzPit",
+      "name": "Pure Quartz Quarry",
+      "category": "Structures",
+      "player_level": 52,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SumoDog",
+      "slug": "SkillUnlock_SumoDog",
+      "name": "Bulldosu Saddle",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FragGrenade_Super",
+      "slug": "FragGrenade_Super",
+      "name": "Frag Grenade Mk2",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrenadeBullet",
+      "slug": "GrenadeBullet",
+      "name": "Grenade Ammo",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_GrenadeLauncher",
+      "slug": "Battle_RangeWeapon_GrenadeLauncher",
+      "name": "Grenade Launcher",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Heat",
+      "slug": "Battle_Armor_Grade_05_Plastic_Heat",
+      "name": "Heat Resistant Plasteel Armor",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AdditionalInventory_003",
+      "slug": "AdditionalInventory_003",
+      "name": "Large Pouch",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Unlock_Picking_Tier3",
+      "slug": "Unlock_Picking_Tier3",
+      "name": "Lockpicking Tool v3",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_MoonQueen",
+      "slug": "SkillUnlock_MoonQueen",
+      "name": "Selyne Saddle",
+      "category": "Items",
+      "player_level": 53,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WhiteDeer",
+      "slug": "SkillUnlock_WhiteDeer",
+      "name": "Celesdir Saddle",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Cold",
+      "slug": "Battle_Armor_Grade_05_Plastic_Cold",
+      "name": "Cold Resistant Plasteel Armor",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "UnlockEquipmentSlot_Weapon_02",
+      "slug": "UnlockEquipmentSlot_Weapon_02",
+      "name": "Extra Weapon Holster 2",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_GatlingGun",
+      "slug": "Battle_RangeWeapon_GatlingGun",
+      "name": "Gatling Gun",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GatlingBullet",
+      "slug": "GatlingBullet",
+      "name": "Gatling Gun Ammo",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GoldenHorse",
+      "slug": "SkillUnlock_GoldenHorse",
+      "name": "Gildane Saddle",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LaserMiningTool",
+      "slug": "LaserMiningTool",
+      "name": "Plasma Multicutter",
+      "category": "Items",
+      "player_level": 54,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "IceCrusher",
+      "slug": "IceCrusher",
+      "name": "Refrigerated Crusher",
+      "category": "Structures",
+      "player_level": 54,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingBahamut_Dragon",
+      "slug": "SkillUnlock_KingBahamut_Dragon",
+      "name": "Blazamut Ryu Saddle",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_HomingSphereLauncher",
+      "slug": "Battle_RangeWeapon_HomingSphereLauncher",
+      "name": "Homing Sphere Launcher",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureSet_Japanese",
+      "slug": "FurnitureSet_Japanese",
+      "name": "Japanese-Style Furniture Set",
+      "category": "Structures",
+      "player_level": 55,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Weight",
+      "slug": "Battle_Armor_Grade_05_Plastic_Weight",
+      "name": "Lightweight Plasteel Armor",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spear_ForestBoss",
+      "slug": "Spear_ForestBoss",
+      "name": "Lily's Spear",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "NinjaFlagSet",
+      "slug": "NinjaFlagSet",
+      "name": "Moonflower Flag Set",
+      "category": "Structures",
+      "player_level": 55,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceSeal_Ground",
+      "slug": "SkillUnlock_IceSeal_Ground",
+      "name": "Polapup Terra Saddle",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_05",
+      "slug": "Shield_05",
+      "name": "Ultra Shield",
+      "category": "Items",
+      "player_level": 55,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FurnitureTree_Cherry",
+      "slug": "FurnitureTree_Cherry",
+      "name": "Faux Cherry Blossoms Set",
+      "category": "Structures",
+      "player_level": 56,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_GuidedMissileLauncher",
+      "slug": "Battle_RangeWeapon_GuidedMissileLauncher",
+      "name": "Guided Missile Launcher",
+      "category": "Items",
+      "player_level": 56,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MissileBullet",
+      "slug": "MissileBullet",
+      "name": "Missile Ammo",
+      "category": "Items",
+      "player_level": 56,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DismantlingConveyor",
+      "slug": "DismantlingConveyor",
+      "name": "Pal Disassembly Conveyor",
+      "category": "Structures",
+      "player_level": 56,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MedicalPalBed_05",
+      "slug": "MedicalPalBed_05",
+      "name": "Pal Pod",
+      "category": "Structures",
+      "player_level": 56,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OctaviaSet02",
+      "slug": "OctaviaSet02",
+      "name": "ULTRAKILL Collab Set 2",
+      "category": "Items",
+      "player_level": 56,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFArrow",
+      "slug": "SFArrow",
+      "name": "Advanced Arrow",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFBow",
+      "slug": "SFBow",
+      "name": "Advanced Bow",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BeamSword",
+      "slug": "BeamSword",
+      "name": "Beam Sword",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_FengyunDeeper_Electric",
+      "slug": "SkillUnlock_FengyunDeeper_Electric",
+      "name": "Fenglope Lux Saddle",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AdditionalInventory_004",
+      "slug": "AdditionalInventory_004",
+      "name": "Giant Pouch",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_AmaterasuWolf",
+      "slug": "SkillUnlock_AmaterasuWolf",
+      "name": "Kitsun Saddle",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_NightBlueHorse",
+      "slug": "SkillUnlock_NightBlueHorse",
+      "name": "Starryon Saddle",
+      "category": "Items",
+      "player_level": 57,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereFactory_Black_04",
+      "slug": "SphereFactory_Black_04",
+      "name": "Advanced Sphere Assembly Line",
+      "category": "Structures",
+      "player_level": 58,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlueThunderHorse",
+      "slug": "SkillUnlock_BlueThunderHorse",
+      "name": "Azurmane Saddle",
+      "category": "Items",
+      "player_level": 58,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalSphere_Exotic",
+      "slug": "PalSphere_Exotic",
+      "name": "Exotic Sphere",
+      "category": "Items",
+      "player_level": 58,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BlastFurnace4",
+      "slug": "BlastFurnace4",
+      "name": "Gigantic Furnace",
+      "category": "Structures",
+      "player_level": 58,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "StainlessSteel",
+      "slug": "StainlessSteel",
+      "name": "Hexolite",
+      "category": "Items",
+      "player_level": 58,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MultiElectricHatchingPalEgg",
+      "slug": "MultiElectricHatchingPalEgg",
+      "name": "Large-Scale Electric Egg Incubator",
+      "category": "Structures",
+      "player_level": 58,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MetalDetector",
+      "slug": "MetalDetector",
+      "name": "Metal Detector",
+      "category": "Items",
+      "player_level": 58,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlackPuppy",
+      "slug": "SkillUnlock_BlackPuppy",
+      "name": "Smokie's Harness",
+      "category": "Items",
+      "player_level": 58,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ItemChest_04",
+      "slug": "ItemChest_04",
+      "name": "Advanced Chest",
+      "category": "Structures",
+      "player_level": 59,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFArmor",
+      "slug": "SFArmor",
+      "name": "Hexolite Armor",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Umihebi_Fire",
+      "slug": "SkillUnlock_Umihebi_Fire",
+      "name": "Jormuntide Ignis Saddle",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_AmaterasuWolf_Dark",
+      "slug": "SkillUnlock_AmaterasuWolf_Dark",
+      "name": "Kitsun Noct Saddle",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LaserGatlingBullet",
+      "slug": "LaserGatlingBullet",
+      "name": "Laser Gatling Cartridge",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LaserGatlingGun",
+      "slug": "LaserGatlingGun",
+      "name": "Laser Gatling Gun",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Thermal_Core",
+      "slug": "Thermal_Core",
+      "name": "Thermal Core",
+      "category": "Items",
+      "player_level": 59,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_SF",
+      "slug": "Shield_SF",
+      "name": "Advanced Shield",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cake04",
+      "slug": "Cake04",
+      "name": "Extravagant Vegetable Cake",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Horus_Water",
+      "slug": "SkillUnlock_Horus_Water",
+      "name": "Faleris Aqua Saddle",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Horus",
+      "slug": "SkillUnlock_Horus",
+      "name": "Faleris Saddle",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DarkIslandFlagSet",
+      "slug": "DarkIslandFlagSet",
+      "name": "Feybreak Flag Set",
+      "category": "Structures",
+      "player_level": 60,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFHelmet",
+      "slug": "SFHelmet",
+      "name": "Hexolite Helmet",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WhiteShieldDragon",
+      "slug": "SkillUnlock_WhiteShieldDragon",
+      "name": "Silvegis Saddle",
+      "category": "Items",
+      "player_level": 60,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MedicineFacility_03",
+      "slug": "MedicineFacility_03",
+      "name": "Advanced Medicine Workbench",
+      "category": "Structures",
+      "player_level": 61,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Potion_Extreme",
+      "slug": "Potion_Extreme",
+      "name": "Advanced Recovery Meds",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_AirDash2",
+      "slug": "Accessory_AirDash2",
+      "name": "Double Air Dash Boots",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlackCentaur",
+      "slug": "SkillUnlock_BlackCentaur",
+      "name": "Necromus Saddle",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SaintCentaur",
+      "slug": "SkillUnlock_SaintCentaur",
+      "name": "Paladius Saddle",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "EnergyRocketLauncher",
+      "slug": "EnergyRocketLauncher",
+      "name": "Plasma Cannon",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "EnergyLauncherBullet",
+      "slug": "EnergyLauncherBullet",
+      "name": "Plasma Cartridge",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalRevive",
+      "slug": "PalRevive",
+      "name": "Revival Potion",
+      "category": "Items",
+      "player_level": 61,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Factory_Hard_04",
+      "slug": "Factory_Hard_04",
+      "name": "Advanced Workshop",
+      "category": "Structures",
+      "player_level": 62,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ManganeseIngot",
+      "slug": "ManganeseIngot",
+      "name": "Coralum Ingot",
+      "category": "Items",
+      "player_level": 62,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceHorse_Dark",
+      "slug": "SkillUnlock_IceHorse_Dark",
+      "name": "Frostallion Noct Saddle",
+      "category": "Items",
+      "player_level": 62,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceHorse",
+      "slug": "SkillUnlock_IceHorse",
+      "name": "Frostallion Saddle",
+      "category": "Items",
+      "player_level": 62,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SF_houseset",
+      "slug": "SF_houseset",
+      "name": "Futuristic Structure Set",
+      "category": "Structures",
+      "player_level": 62,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "CrystalPit",
+      "slug": "CrystalPit",
+      "name": "Hexolite Quartz Mine",
+      "category": "Structures",
+      "player_level": 62,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Salvage_TreasureBoxKey02",
+      "slug": "Salvage_TreasureBoxKey02",
+      "name": "Powerful Fishing Magnet",
+      "category": "Items",
+      "player_level": 62,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WeaponFactory_Dirty_04",
+      "slug": "WeaponFactory_Dirty_04",
+      "name": "Advanced Weapon Assembly Line",
+      "category": "Structures",
+      "player_level": 63,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "EnergyShotgun",
+      "slug": "EnergyShotgun",
+      "name": "Energy Shotgun",
+      "category": "Items",
+      "player_level": 63,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "EnergyShotgunBullet",
+      "slug": "EnergyShotgunBullet",
+      "name": "Energy Shotgun Ammo",
+      "category": "Items",
+      "player_level": 63,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFArmorHeat",
+      "slug": "SFArmorHeat",
+      "name": "Heat Resistant Hexolite Armor",
+      "category": "Items",
+      "player_level": 63,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalDopingShot_2",
+      "slug": "PalDopingShot_2",
+      "name": "Megaboost Gun",
+      "category": "Items",
+      "player_level": 63,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GrapplingGun5",
+      "slug": "GrapplingGun5",
+      "name": "Ultra Grappling Gun",
+      "category": "Items",
+      "player_level": 63,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFArmorCold",
+      "slug": "SFArmorCold",
+      "name": "Cold Resistant Hexolite Armor",
+      "category": "Items",
+      "player_level": 64,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "IceHorseStatue",
+      "slug": "IceHorseStatue",
+      "name": "Frostallion Statue",
+      "category": "Structures",
+      "player_level": 64,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spa3",
+      "slug": "Spa3",
+      "name": "Japanese-Style Hot Spring",
+      "category": "Structures",
+      "player_level": 64,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_PoseidonOrca",
+      "slug": "SkillUnlock_PoseidonOrca",
+      "name": "Neptilius Saddle",
+      "category": "Items",
+      "player_level": 64,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OverheatRifle",
+      "slug": "OverheatRifle",
+      "name": "Overheat Rifle",
+      "category": "Items",
+      "player_level": 64,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "OverheatRifleBullet",
+      "slug": "OverheatRifleBullet",
+      "name": "Overheat Rifle Ammo",
+      "category": "Items",
+      "player_level": 64,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_Kirin_Ice",
+      "slug": "SkillUnlock_Kirin_Ice",
+      "name": "Univolt Cryst Saddle",
+      "category": "Items",
+      "player_level": 64,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ChargeLaserRifle",
+      "slug": "ChargeLaserRifle",
+      "name": "Charge Rifle",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ChargeLaserRifleBullet",
+      "slug": "ChargeLaserRifleBullet",
+      "name": "Charge Rifle Ammo",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SFArmorWeight",
+      "slug": "SFArmorWeight",
+      "name": "Lightweight Hexolite Armor",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "LauncherBullet",
+      "slug": "LauncherBullet",
+      "name": "Rocket Ammo",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Battle_RangeWeapon_RocketLauncher",
+      "slug": "Battle_RangeWeapon_RocketLauncher",
+      "name": "Rocket Launcher",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingSunfish",
+      "slug": "SkillUnlock_KingSunfish",
+      "name": "Solmora Saddle",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_AirDash3",
+      "slug": "Accessory_AirDash3",
+      "name": "Triple Air Dash Boots",
+      "category": "Items",
+      "player_level": 65,
+      "tech_points": "6",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientBlastFurnace",
+      "slug": "AncientBlastFurnace",
+      "name": "Ancient Furnace",
+      "category": "Structures",
+      "player_level": 66,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WaterBuildKit",
+      "slug": "WaterBuildKit",
+      "name": "Aquatic Construction Kit",
+      "category": "Items",
+      "player_level": 66,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ThunderFluffyBird",
+      "slug": "SkillUnlock_ThunderFluffyBird",
+      "name": "Dynamoff Saddle",
+      "category": "Items",
+      "player_level": 66,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_KingSunfish_Thunder",
+      "slug": "SkillUnlock_KingSunfish_Thunder",
+      "name": "Solmora Lux Saddle",
+      "category": "Items",
+      "player_level": 66,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyislandIngot",
+      "slug": "SkyislandIngot",
+      "name": "Soralite Ingot",
+      "category": "Items",
+      "player_level": 66,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_DarkMechaDragon",
+      "slug": "SkillUnlock_DarkMechaDragon",
+      "name": "Xenolord Saddle",
+      "category": "Items",
+      "player_level": 66,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AIcore",
+      "slug": "AIcore",
+      "name": "AI Core",
+      "category": "Items",
+      "player_level": 67,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Ancient_Houseset",
+      "slug": "Ancient_Houseset",
+      "name": "Ancient Structure Set",
+      "category": "Structures",
+      "player_level": 67,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientWorkBench",
+      "slug": "AncientWorkBench",
+      "name": "Ancient Workbench",
+      "category": "Structures",
+      "player_level": 67,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyBow",
+      "slug": "SkyBow",
+      "name": "Mechanical Bow",
+      "category": "Items",
+      "player_level": 67,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyBowArrow",
+      "slug": "SkyBowArrow",
+      "name": "Mechanical Bow Ammo",
+      "category": "Items",
+      "player_level": 67,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalSphere_Ancient_1",
+      "slug": "PalSphere_Ancient_1",
+      "name": "Sol Sphere",
+      "category": "Items",
+      "player_level": 67,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientArmor",
+      "slug": "AncientArmor",
+      "name": "Ancient Armor",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientHelmet",
+      "slug": "AncientHelmet",
+      "name": "Ancient Helm",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkySubmachineGun",
+      "slug": "SkySubmachineGun",
+      "name": "Combat SMG",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkySubmachineGunBullet",
+      "slug": "SkySubmachineGunBullet",
+      "name": "Combat SMG Ammo",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GhostDragon",
+      "slug": "SkillUnlock_GhostDragon",
+      "name": "Eidrolon Saddle",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Spear_ForestBoss2",
+      "slug": "Spear_ForestBoss2",
+      "name": "Enhanced Lily's Spear",
+      "category": "Items",
+      "player_level": 68,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GrassGolem_Dark",
+      "slug": "SkillUnlock_GrassGolem_Dark",
+      "name": "Dualith Noct Saddle",
+      "category": "Items",
+      "player_level": 69,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SphereModule_Homing",
+      "slug": "SphereModule_Homing",
+      "name": "Homing Module",
+      "category": "Items",
+      "player_level": 69,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "FishingPond2",
+      "slug": "FishingPond2",
+      "name": "Large Fishing Pond",
+      "category": "Structures",
+      "player_level": 69,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyShotgun",
+      "slug": "SkyShotgun",
+      "name": "Prototype Shotgun",
+      "category": "Items",
+      "player_level": 69,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyShotgunBullet",
+      "slug": "SkyShotgunBullet",
+      "name": "Prototype Shotgun Ammo",
+      "category": "Items",
+      "player_level": 69,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientCookingStove",
+      "slug": "AncientCookingStove",
+      "name": "Ancient Kitchen",
+      "category": "Structures",
+      "player_level": 70,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_LegendDeer",
+      "slug": "SkillUnlock_LegendDeer",
+      "name": "Hartalis Saddle",
+      "category": "Items",
+      "player_level": 70,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyAssaultRifle",
+      "slug": "SkyAssaultRifle",
+      "name": "Heavy Assault Rifle",
+      "category": "Items",
+      "player_level": 70,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyAssaultRifleBullet",
+      "slug": "SkyAssaultRifleBullet",
+      "name": "Heavy Assault Rifle Ammo",
+      "category": "Items",
+      "player_level": 70,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_VolcanoDragon_Ice",
+      "slug": "SkillUnlock_VolcanoDragon_Ice",
+      "name": "Moldron Cryst Saddle",
+      "category": "Items",
+      "player_level": 70,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_JumpCount_Increase2",
+      "slug": "Accessory_JumpCount_Increase2",
+      "name": "Triple Jump Boots",
+      "category": "Items",
+      "player_level": 70,
+      "tech_points": "6",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BaseCampWorkHard03",
+      "slug": "BaseCampWorkHard03",
+      "name": "Ancient Monitoring Stand",
+      "category": "Structures",
+      "player_level": 71,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Shield_07",
+      "slug": "Shield_07",
+      "name": "Ancient Shield",
+      "category": "Items",
+      "player_level": 71,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyIslandFlagSet",
+      "slug": "SkyIslandFlagSet",
+      "name": "Azure Covenant Flag Set",
+      "category": "Structures",
+      "player_level": 71,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ThunderBird_Ice",
+      "slug": "SkillUnlock_ThunderBird_Ice",
+      "name": "Beakon Cryst Saddle",
+      "category": "Items",
+      "player_level": 71,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Farm_SkillFruits",
+      "slug": "Farm_SkillFruits",
+      "name": "Skillfruit Orchard",
+      "category": "Structures",
+      "player_level": 71,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_IceNarwhal_Fire",
+      "slug": "SkillUnlock_IceNarwhal_Fire",
+      "name": "Whalaska Ignis Saddle",
+      "category": "Items",
+      "player_level": 71,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_LotusDragon",
+      "slug": "SkillUnlock_LotusDragon",
+      "name": "Ophydia Saddle",
+      "category": "Items",
+      "player_level": 72,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_ThiefBird",
+      "slug": "SkillUnlock_ThiefBird",
+      "name": "Roujay Saddle",
+      "category": "Items",
+      "player_level": 72,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyIslandOrePit",
+      "slug": "SkyIslandOrePit",
+      "name": "Soralite Quarry",
+      "category": "Structures",
+      "player_level": 72,
+      "tech_points": "7",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyGrenadeLauncher",
+      "slug": "SkyGrenadeLauncher",
+      "name": "Tactical Grenade Launcher",
+      "category": "Items",
+      "player_level": 72,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyGrenadeLauncherBullet",
+      "slug": "SkyGrenadeLauncherBullet",
+      "name": "Tactical Grenade Launcher Ammo",
+      "category": "Items",
+      "player_level": 72,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Ancient_Clinic",
+      "slug": "Ancient_Clinic",
+      "name": "Ancient Clinic",
+      "category": "Structures",
+      "player_level": 73,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Ancient_MedicalPalBed",
+      "slug": "Ancient_MedicalPalBed",
+      "name": "Ancient Pal Bed",
+      "category": "Structures",
+      "player_level": 73,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_SnowTigerBeastman",
+      "slug": "SkillUnlock_SnowTigerBeastman",
+      "name": "Bastigor's Hammer",
+      "category": "Items",
+      "player_level": 73,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Factory_Money",
+      "slug": "Factory_Money",
+      "name": "Gold Coin Assembly Line",
+      "category": "Structures",
+      "player_level": 73,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkyBeamSword",
+      "slug": "SkyBeamSword",
+      "name": "Laser Sword",
+      "category": "Items",
+      "player_level": 73,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientRelicRecycler",
+      "slug": "AncientRelicRecycler",
+      "name": "Ancient Relic Recycler",
+      "category": "Structures",
+      "player_level": 74,
+      "tech_points": "3",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "PalSphere_Ancient_2",
+      "slug": "PalSphere_Ancient_2",
+      "name": "Ancient Sphere",
+      "category": "Items",
+      "player_level": 74,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WorldTreeIngot",
+      "slug": "WorldTreeIngot",
+      "name": "Paloxite Ingot",
+      "category": "Items",
+      "player_level": 74,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Cake05",
+      "slug": "Cake05",
+      "name": "Special Cake",
+      "category": "Items",
+      "player_level": 74,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientElectricGenerator",
+      "slug": "AncientElectricGenerator",
+      "name": "Ancient Power Generator",
+      "category": "Structures",
+      "player_level": 75,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WidePenetrateShotgun",
+      "slug": "WidePenetrateShotgun",
+      "name": "Beam Scatter",
+      "category": "Items",
+      "player_level": 75,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WidePenetrateShotgunBullet",
+      "slug": "WidePenetrateShotgunBullet",
+      "name": "Beam Scatter Ammo",
+      "category": "Items",
+      "player_level": 75,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientArmorHeat",
+      "slug": "AncientArmorHeat",
+      "name": "Heat-Resistant Ancient Armor",
+      "category": "Items",
+      "player_level": 75,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_CubeTurtle_Neutral",
+      "slug": "SkillUnlock_CubeTurtle_Neutral",
+      "name": "Tetroise Primo Saddle",
+      "category": "Items",
+      "player_level": 75,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "MultiElectricHatchingPalEggWithBreed",
+      "slug": "MultiElectricHatchingPalEggWithBreed",
+      "name": "Ancient Hatchery",
+      "category": "Structures",
+      "player_level": 76,
+      "tech_points": "8",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Ancient_Spa",
+      "slug": "Ancient_Spa",
+      "name": "Ancient Hot Spring",
+      "category": "Structures",
+      "player_level": 76,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "GasMask",
+      "slug": "GasMask",
+      "name": "Corrosive Mist Mask",
+      "category": "Items",
+      "player_level": 76,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_GhostDragon_Fire",
+      "slug": "SkillUnlock_GhostDragon_Fire",
+      "name": "Eidrolon Ignis Saddle",
+      "category": "Items",
+      "player_level": 76,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Accessory_ExplosionResist",
+      "slug": "Accessory_ExplosionResist",
+      "name": "Explosion-Resistant Undershirt",
+      "category": "Items",
+      "player_level": 76,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientArmorCold",
+      "slug": "AncientArmorCold",
+      "name": "Cold-Resistant Ancient Armor",
+      "category": "Items",
+      "player_level": 77,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "DroneLauncher",
+      "slug": "DroneLauncher",
+      "name": "Drone Launcher",
+      "category": "Items",
+      "player_level": 77,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_BlueSkyDragon",
+      "slug": "SkillUnlock_BlueSkyDragon",
+      "name": "Shaolong Saddle",
+      "category": "Items",
+      "player_level": 77,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_NightBlueHorse_Neutral",
+      "slug": "SkillUnlock_NightBlueHorse_Neutral",
+      "name": "Starryon Primo Saddle",
+      "category": "Items",
+      "player_level": 77,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientFarmBlock",
+      "slug": "AncientFarmBlock",
+      "name": "Ancient Farm",
+      "category": "Structures",
+      "player_level": 78,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientMultiProduct",
+      "slug": "AncientMultiProduct",
+      "name": "Ancient Material Synthesizer",
+      "category": "Structures",
+      "player_level": 78,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_WhiteDeer_Dark",
+      "slug": "SkillUnlock_WhiteDeer_Dark",
+      "name": "Celesdir Noct Saddle",
+      "category": "Items",
+      "player_level": 78,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElectricArcAssaultRifle",
+      "slug": "ElectricArcAssaultRifle",
+      "name": "Plasma Rifle",
+      "category": "Items",
+      "player_level": 78,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "ElectricArcAssaultRifleBullet",
+      "slug": "ElectricArcAssaultRifleBullet",
+      "name": "Plasma Rifle Ammo",
+      "category": "Items",
+      "player_level": 78,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_DomeArmorDragon",
+      "slug": "SkillUnlock_DomeArmorDragon",
+      "name": "Aegidron Saddle",
+      "category": "Items",
+      "player_level": 79,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "JetDragonStatue",
+      "slug": "JetDragonStatue",
+      "name": "Jetragon Statue",
+      "category": "Structures",
+      "player_level": 79,
+      "tech_points": "1",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "SkillUnlock_JetDragon",
+      "slug": "SkillUnlock_JetDragon",
+      "name": "Jetragon's Missile Launcher",
+      "category": "Items",
+      "player_level": 79,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "AncientArmorWeight",
+      "slug": "AncientArmorWeight",
+      "name": "Lightweight Ancient Armor",
+      "category": "Items",
+      "player_level": 79,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "Supplement",
+      "slug": "Supplement",
+      "name": "Nutrient Tonic",
+      "category": "Items",
+      "player_level": 79,
+      "tech_points": "4",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BeamLauncher",
+      "slug": "BeamLauncher",
+      "name": "Beam Launcher",
+      "category": "Items",
+      "player_level": 80,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "BeamLauncherBullet",
+      "slug": "BeamLauncherBullet",
+      "name": "Beam Launcher Ammo",
+      "category": "Items",
+      "player_level": 80,
+      "tech_points": "2",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WingGlider_Fuel",
+      "slug": "WingGlider_Fuel",
+      "name": "Wing Cell",
+      "category": "Items",
+      "player_level": 80,
+      "tech_points": "5",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    },
+    {
+      "id": "WingGlider",
+      "slug": "WingGlider",
+      "name": "Wing Pack",
+      "category": "Items",
+      "player_level": 80,
+      "tech_points": "9",
+      "source_url": "https://paldb.cc/en/Technologies",
+      "source_export": "data/raw/exports/en/Technologies.html"
+    }
+  ]
+}

@@ -1,0 +1,6087 @@
+{
+  "generated_at": "2026-07-16T22:30:44.286482+00:00",
+  "language": "en",
+  "count": 592,
+  "pals": [
+    {
+      "slug": "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+      "name": "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+      "number": -2,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_%26_Orserk",
+      "code": "GYM_ThunderDragonMan"
+    },
+    {
+      "slug": "Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+      "name": "Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+      "number": -2,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Free_Pal_Alliance_Founder_Lily_%26_Lyleen",
+      "code": "GYM_LilyQueen"
+    },
+    {
+      "slug": "Jarl_of_Feybreak__Bjorn_&_Bastigor",
+      "name": "Jarl_of_Feybreak__Bjorn_&_Bastigor",
+      "number": -2,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Jarl_of_Feybreak__Bjorn_%26_Bastigor",
+      "code": "GYM_SnowTigerBeastman"
+    },
+    {
+      "slug": "Leader_of_the_Moonflowers_Saya_&_Selyne",
+      "name": "Leader_of_the_Moonflowers_Saya_&_Selyne",
+      "number": -2,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Leader_of_the_Moonflowers_Saya_%26_Selyne",
+      "code": "GYM_MoonQueen"
+    },
+    {
+      "slug": "PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+      "name": "PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+      "number": -2,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/PAL_Genetic_Research_Unit_Commander_Victor_%26_Shadowbeak",
+      "code": "GYM_BlackGriffon"
+    },
+    {
+      "slug": "PIDF_Commander_Marcus_&_Faleris",
+      "name": "PIDF_Commander_Marcus_&_Faleris",
+      "number": -2,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/PIDF_Commander_Marcus_%26_Faleris",
+      "code": "GYM_Horus"
+    },
+    {
+      "slug": "PIDF_Officer_Marcus_&_Faleris",
+      "name": "PIDF_Officer_Marcus_&_Faleris",
+      "number": -2,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/PIDF_Officer_Marcus_%26_Faleris",
+      "code": "GYM_Horus"
+    },
+    {
+      "slug": "Rayne_Syndicate_Officer_Zoe_&_Grizzbolt",
+      "name": "Rayne_Syndicate_Officer_Zoe_&_Grizzbolt",
+      "number": -2,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Rayne_Syndicate_Officer_Zoe_%26_Grizzbolt",
+      "code": "GYM_ElecPanda"
+    },
+    {
+      "slug": "Adorable_Phantom_Thief_Wispaw",
+      "name": "Adorable_Phantom_Thief_Wispaw",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Adorable_Phantom_Thief_Wispaw",
+      "code": "BOSS_GhostBlackCat"
+    },
+    {
+      "slug": "Adorable_Watering_Can_Teafant",
+      "name": "Adorable_Watering_Can_Teafant",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Adorable_Watering_Can_Teafant",
+      "code": "BOSS_Ganesha"
+    },
+    {
+      "slug": "Aerial_Marauder_Vanwyrm",
+      "name": "Aerial_Marauder_Vanwyrm",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Aerial_Marauder_Vanwyrm",
+      "code": "BOSS_BirdDragon"
+    },
+    {
+      "slug": "Alpine_Dwarf_Snugloo",
+      "name": "Alpine_Dwarf_Snugloo",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Alpine_Dwarf_Snugloo",
+      "code": "BOSS_SmallYeti"
+    },
+    {
+      "slug": "Ancient_Bloombringer_Braloha",
+      "name": "Ancient_Bloombringer_Braloha",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Ancient_Bloombringer_Braloha",
+      "code": "BOSS_Plesiosaur"
+    },
+    {
+      "slug": "Archer_of_the_Forest_Robinquill",
+      "name": "Archer_of_the_Forest_Robinquill",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Archer_of_the_Forest_Robinquill",
+      "code": "BOSS_RobinHood"
+    },
+    {
+      "slug": "Archer_of_the_Sands_Robinquill_Terra",
+      "name": "Archer_of_the_Sands_Robinquill_Terra",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Archer_of_the_Sands_Robinquill_Terra",
+      "code": "BOSS_RobinHood_Ground"
+    },
+    {
+      "slug": "ArmorWoodlouse",
+      "name": "ArmorWoodlouse",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/ArmorWoodlouse",
+      "code": "ArmorWoodlouse"
+    },
+    {
+      "slug": "Armored_to_the_Teeth_Kikit",
+      "name": "Armored_to_the_Teeth_Kikit",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Armored_to_the_Teeth_Kikit",
+      "code": "BOSS_SmallArmadillo"
+    },
+    {
+      "slug": "Ate_Too_Much_Pengullet",
+      "name": "Ate_Too_Much_Pengullet",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Ate_Too_Much_Pengullet",
+      "code": "BOSS_Penguin"
+    },
+    {
+      "slug": "Azure_Fluff_Commander_Kingpaca_Cryst",
+      "name": "Azure_Fluff_Commander_Kingpaca_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Azure_Fluff_Commander_Kingpaca_Cryst",
+      "code": "BOSS_KingAlpaca_Ice"
+    },
+    {
+      "slug": "BOSS_NAME_BeardedDragon_BeardedDragon",
+      "name": "BOSS_NAME_BeardedDragon_BeardedDragon",
+      "number": -1,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_BeardedDragon_BeardedDragon",
+      "code": "BOSS_BeardedDragon"
+    },
+    {
+      "slug": "BOSS_NAME_DarkMutant_DarkMutant",
+      "name": "BOSS_NAME_DarkMutant_DarkMutant",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_DarkMutant_DarkMutant",
+      "code": "BOSS_DarkMutant"
+    },
+    {
+      "slug": "BOSS_NAME_ElecLion_Boltmane",
+      "name": "BOSS_NAME_ElecLion_Boltmane",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_ElecLion_Boltmane",
+      "code": "BOSS_ElecLion"
+    },
+    {
+      "slug": "BOSS_NAME_GrassDragon_GrassDragon",
+      "name": "BOSS_NAME_GrassDragon_GrassDragon",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_GrassDragon_GrassDragon",
+      "code": "BOSS_GrassDragon"
+    },
+    {
+      "slug": "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "name": "BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_PinkKangaroo_PinkKangaroo",
+      "code": "BOSS_PinkKangaroo"
+    },
+    {
+      "slug": "BOSS_NAME_WaterLizard_WaterLizard",
+      "name": "BOSS_NAME_WaterLizard_WaterLizard",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/BOSS_NAME_WaterLizard_WaterLizard",
+      "code": "BOSS_WaterLizard"
+    },
+    {
+      "slug": "Bad_Boy_Prixter",
+      "name": "Bad_Boy_Prixter",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Bad_Boy_Prixter",
+      "code": "BOSS_ScorpionMan"
+    },
+    {
+      "slug": "Bangin_Yokozuna_Bulldosu",
+      "name": "Bangin_Yokozuna_Bulldosu",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Bangin_Yokozuna_Bulldosu",
+      "code": "BOSS_SumoDog"
+    },
+    {
+      "slug": "BeardedDragon",
+      "name": "BeardedDragon",
+      "number": -1,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/BeardedDragon",
+      "code": "BeardedDragon"
+    },
+    {
+      "slug": "Beast_of_Chaos_Celesdir_Noct",
+      "name": "Beast_of_Chaos_Celesdir_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Beast_of_Chaos_Celesdir_Noct",
+      "code": "BOSS_WhiteDeer_Dark"
+    },
+    {
+      "slug": "Beast_of_Salvation_Celesdir",
+      "name": "Beast_of_Salvation_Celesdir",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Beast_of_Salvation_Celesdir",
+      "code": "BOSS_WhiteDeer"
+    },
+    {
+      "slug": "Beast_of_the_Tides_Elphidran_Aqua",
+      "name": "Beast_of_the_Tides_Elphidran_Aqua",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Beast_of_the_Tides_Elphidran_Aqua",
+      "code": "BOSS_FairyDragon_Water"
+    },
+    {
+      "slug": "Bewitching_Lurker_Dandilord",
+      "name": "Bewitching_Lurker_Dandilord",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Bewitching_Lurker_Dandilord",
+      "code": "BOSS_FlowerPrince"
+    },
+    {
+      "slug": "Big_Floof_Lamball",
+      "name": "Big_Floof_Lamball",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Big_Floof_Lamball",
+      "code": "BOSS_SheepBall"
+    },
+    {
+      "slug": "Binding_Spines_Needoll_Noct",
+      "name": "Binding_Spines_Needoll_Noct",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Binding_Spines_Needoll_Noct",
+      "code": "BOSS_CactusDoll_Dark"
+    },
+    {
+      "slug": "Blazing_Brute_Arsox",
+      "name": "Blazing_Brute_Arsox",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazing_Brute_Arsox",
+      "code": "BOSS_FlameBuffalo"
+    },
+    {
+      "slug": "Blazing_Determined_Draw_Skutlass_Ignis",
+      "name": "Blazing_Determined_Draw_Skutlass_Ignis",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazing_Determined_Draw_Skutlass_Ignis",
+      "code": "BOSS_SwordCutlassfish_Fire"
+    },
+    {
+      "slug": "Blazing_Suit_of_Armor_Knocklem_Ignis",
+      "name": "Blazing_Suit_of_Armor_Knocklem_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazing_Suit_of_Armor_Knocklem_Ignis",
+      "code": "BOSS_WingGolem_Fire"
+    },
+    {
+      "slug": "Blightstar_Calamity_Zenara_&_Astralym",
+      "name": "Blightstar_Calamity_Zenara_&_Astralym",
+      "number": -1,
+      "elements": [],
+      "page": "https://paldb.cc/en/Blightstar_Calamity_Zenara_%26_Astralym",
+      "code": "GYM_WorldTreeDragon_2"
+    },
+    {
+      "slug": "Blooming_Crooner_Tropicaw",
+      "name": "Blooming_Crooner_Tropicaw",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Blooming_Crooner_Tropicaw",
+      "code": "BOSS_RedFlowerBird"
+    },
+    {
+      "slug": "BlueWoolRabbit",
+      "name": "BlueWoolRabbit",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/BlueWoolRabbit",
+      "code": "BlueWoolRabbit"
+    },
+    {
+      "slug": "Blue_Lightning_Steed_Azurmane",
+      "name": "Blue_Lightning_Steed_Azurmane",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Blue_Lightning_Steed_Azurmane",
+      "code": "BOSS_BlueThunderHorse"
+    },
+    {
+      "slug": "Blue_Slime",
+      "name": "Blue_Slime",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Blue_Slime",
+      "code": "YakushimaMonster001_Blue"
+    },
+    {
+      "slug": "Blustery_Blizzard_Fiend_Univolt_Cryst",
+      "name": "Blustery_Blizzard_Fiend_Univolt_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Blustery_Blizzard_Fiend_Univolt_Cryst",
+      "code": "BOSS_Kirin_Ice"
+    },
+    {
+      "slug": "Boltmane",
+      "name": "Boltmane",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Boltmane",
+      "code": "ElecLion"
+    },
+    {
+      "slug": "Boom_or_Bust_Tocotoco",
+      "name": "Boom_or_Bust_Tocotoco",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Boom_or_Bust_Tocotoco",
+      "code": "BOSS_ColorfulBird"
+    },
+    {
+      "slug": "Born_of_the_Storm_Dazzi",
+      "name": "Born_of_the_Storm_Dazzi",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Born_of_the_Storm_Dazzi",
+      "code": "BOSS_RaijinDaughter"
+    },
+    {
+      "slug": "Born_of_the_Thunderclouds_Dazzi_Noct",
+      "name": "Born_of_the_Thunderclouds_Dazzi_Noct",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Born_of_the_Thunderclouds_Dazzi_Noct",
+      "code": "BOSS_RaijinDaughter_Water"
+    },
+    {
+      "slug": "Brilliant_Steps_Dazemu",
+      "name": "Brilliant_Steps_Dazemu",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Brilliant_Steps_Dazemu",
+      "code": "BOSS_FeatherOstrich"
+    },
+    {
+      "slug": "Bringer_of_Luck_Hangyu",
+      "name": "Bringer_of_Luck_Hangyu",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Bringer_of_Luck_Hangyu",
+      "code": "BOSS_WindChimes"
+    },
+    {
+      "slug": "Buoyant_Baron_Solmora",
+      "name": "Buoyant_Baron_Solmora",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Buoyant_Baron_Solmora",
+      "code": "BOSS_KingSunfish"
+    },
+    {
+      "slug": "Buoyant_Brigadier_Solmora_Lux",
+      "name": "Buoyant_Brigadier_Solmora_Lux",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Buoyant_Brigadier_Solmora_Lux",
+      "code": "BOSS_KingSunfish_Thunder"
+    },
+    {
+      "slug": "Butterfly_Promenade_Cinnamoth",
+      "name": "Butterfly_Promenade_Cinnamoth",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Butterfly_Promenade_Cinnamoth",
+      "code": "BOSS_CuteButterfly"
+    },
+    {
+      "slug": "Buzzy_Bundle_Dynamoff",
+      "name": "Buzzy_Bundle_Dynamoff",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Buzzy_Bundle_Dynamoff",
+      "code": "BOSS_ThunderFluffyBird"
+    },
+    {
+      "slug": "Captain_of_the_Guard_Beegarde",
+      "name": "Captain_of_the_Guard_Beegarde",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Captain_of_the_Guard_Beegarde",
+      "code": "BOSS_SoldierBee"
+    },
+    {
+      "slug": "Cave_Bat",
+      "name": "Cave_Bat",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Cave_Bat",
+      "code": "YakushimaMonster003"
+    },
+    {
+      "slug": "Cherry_Blossom_Dancer_Chillet_Ignis",
+      "name": "Cherry_Blossom_Dancer_Chillet_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Cherry_Blossom_Dancer_Chillet_Ignis",
+      "code": "BOSS_WeaselDragon_Fire"
+    },
+    {
+      "slug": "Chief_of_the_Herd_Rooby",
+      "name": "Chief_of_the_Herd_Rooby",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Chief_of_the_Herd_Rooby",
+      "code": "BOSS_FlameBambi"
+    },
+    {
+      "slug": "Child_of_Molten_Depths_Kelpsea_Ignis",
+      "name": "Child_of_Molten_Depths_Kelpsea_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Child_of_Molten_Depths_Kelpsea_Ignis",
+      "code": "BOSS_Kelpie_Fire"
+    },
+    {
+      "slug": "Child_of_the_Deep_Kelpsea",
+      "name": "Child_of_the_Deep_Kelpsea",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Child_of_the_Deep_Kelpsea",
+      "code": "BOSS_Kelpie"
+    },
+    {
+      "slug": "Child_of_the_Molten_Depths_Kelpsea_Ignis",
+      "name": "Child_of_the_Molten_Depths_Kelpsea_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Child_of_the_Molten_Depths_Kelpsea_Ignis",
+      "code": "BOSS_Kelpie_Fire"
+    },
+    {
+      "slug": "Chilly_Little_Hero_Smokie_Cryst",
+      "name": "Chilly_Little_Hero_Smokie_Cryst",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Chilly_Little_Hero_Smokie_Cryst",
+      "code": "BOSS_BlackPuppy_Ice"
+    },
+    {
+      "slug": "Claws_of_Ice_Foxcicle",
+      "name": "Claws_of_Ice_Foxcicle",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Claws_of_Ice_Foxcicle",
+      "code": "BOSS_IceFox"
+    },
+    {
+      "slug": "Claws_of_Lightning_Grizzbolt",
+      "name": "Claws_of_Lightning_Grizzbolt",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Claws_of_Lightning_Grizzbolt",
+      "code": "BOSS_ElecPanda"
+    },
+    {
+      "slug": "Coward_of_the_Steppe_Lifmunk",
+      "name": "Coward_of_the_Steppe_Lifmunk",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Coward_of_the_Steppe_Lifmunk",
+      "code": "BOSS_Carbunclo"
+    },
+    {
+      "slug": "Creeping_Mushroom_Shroomer",
+      "name": "Creeping_Mushroom_Shroomer",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Creeping_Mushroom_Shroomer",
+      "code": "BOSS_MushroomDragon"
+    },
+    {
+      "slug": "Crescent_of_the_Darkest_Night_Selyne",
+      "name": "Crescent_of_the_Darkest_Night_Selyne",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Crescent_of_the_Darkest_Night_Selyne",
+      "code": "BOSS_MoonQueen"
+    },
+    {
+      "slug": "Crimson_Butcher_Splatterina",
+      "name": "Crimson_Butcher_Splatterina",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Crimson_Butcher_Splatterina",
+      "code": "BOSS_GrimGirl"
+    },
+    {
+      "slug": "Crimson_Goliath_Blazehowl",
+      "name": "Crimson_Goliath_Blazehowl",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Crimson_Goliath_Blazehowl",
+      "code": "BOSS_Manticore"
+    },
+    {
+      "slug": "Curious_Floof_Swee",
+      "name": "Curious_Floof_Swee",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Curious_Floof_Swee",
+      "code": "BOSS_MopBaby"
+    },
+    {
+      "slug": "Cursed_Tyrant_Blazamut",
+      "name": "Cursed_Tyrant_Blazamut",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Cursed_Tyrant_Blazamut",
+      "code": "BOSS_KingBahamut"
+    },
+    {
+      "slug": "CuteOrca",
+      "name": "CuteOrca",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/CuteOrca",
+      "code": "CuteOrca"
+    },
+    {
+      "slug": "Cute_as_a_Button_Mycora",
+      "name": "Cute_as_a_Button_Mycora",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Cute_as_a_Button_Mycora",
+      "code": "BOSS_MushroomLady"
+    },
+    {
+      "slug": "Cutthroat_Sun_Snuffer_Sekhmet",
+      "name": "Cutthroat_Sun_Snuffer_Sekhmet",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Cutthroat_Sun_Snuffer_Sekhmet",
+      "code": "BOSS_Sekhmet"
+    },
+    {
+      "slug": "Dancer_on_the_Steppe_Chillet",
+      "name": "Dancer_on_the_Steppe_Chillet",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Dancer_on_the_Steppe_Chillet",
+      "code": "BOSS_WeaselDragon"
+    },
+    {
+      "slug": "Dangerous_Mushroom_Shroomer_Noct",
+      "name": "Dangerous_Mushroom_Shroomer_Noct",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dangerous_Mushroom_Shroomer_Noct",
+      "code": "BOSS_MushroomDragon_Dark"
+    },
+    {
+      "slug": "DarkMutant",
+      "name": "DarkMutant",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/DarkMutant",
+      "code": "DarkMutant"
+    },
+    {
+      "slug": "Dark_Knight_of_Legend_Necromus",
+      "name": "Dark_Knight_of_Legend_Necromus",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dark_Knight_of_Legend_Necromus",
+      "code": "BOSS_BlackCentaur"
+    },
+    {
+      "slug": "Darling_Furball_Cremis",
+      "name": "Darling_Furball_Cremis",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Darling_Furball_Cremis",
+      "code": "BOSS_WoolFox"
+    },
+    {
+      "slug": "Demon_Eye",
+      "name": "Demon_Eye",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Demon_Eye",
+      "code": "YakushimaBoss001_Small"
+    },
+    {
+      "slug": "Devoid_of_Emotion_Killamari_Primo",
+      "name": "Devoid_of_Emotion_Killamari_Primo",
+      "number": -1,
+      "elements": [
+        "Normal",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Devoid_of_Emotion_Killamari_Primo",
+      "code": "BOSS_NegativeOctopus_Neutral"
+    },
+    {
+      "slug": "Dexterous_Primate_Tanzee",
+      "name": "Dexterous_Primate_Tanzee",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Dexterous_Primate_Tanzee",
+      "code": "BOSS_Monkey"
+    },
+    {
+      "slug": "Dont_Touch!_Jolthog",
+      "name": "Dont_Touch!_Jolthog",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Dont_Touch%21_Jolthog",
+      "code": "BOSS_Hedgehog"
+    },
+    {
+      "slug": "Draconic_Monarch_of_Steel_Astegon",
+      "name": "Draconic_Monarch_of_Steel_Astegon",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Draconic_Monarch_of_Steel_Astegon",
+      "code": "BOSS_BlackMetalDragon"
+    },
+    {
+      "slug": "Dragostrophe",
+      "name": "Dragostrophe",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Dragostrophe",
+      "code": "BlackFurDragon"
+    },
+    {
+      "slug": "Dream_Eater_Daedream",
+      "name": "Dream_Eater_Daedream",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dream_Eater_Daedream",
+      "code": "BOSS_DreamDemon"
+    },
+    {
+      "slug": "Drifting_Cloud_Fenglope",
+      "name": "Drifting_Cloud_Fenglope",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Drifting_Cloud_Fenglope",
+      "code": "BOSS_FengyunDeeper"
+    },
+    {
+      "slug": "Drifting_Thundercloud_Fenglope_Lux",
+      "name": "Drifting_Thundercloud_Fenglope_Lux",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Drifting_Thundercloud_Fenglope_Lux",
+      "code": "BOSS_FengyunDeeper_Electric"
+    },
+    {
+      "slug": "Drilling_Machine_Digtoise",
+      "name": "Drilling_Machine_Digtoise",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Drilling_Machine_Digtoise",
+      "code": "BOSS_DrillGame"
+    },
+    {
+      "slug": "Dubiously_Lucky_Clovee",
+      "name": "Dubiously_Lucky_Clovee",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Dubiously_Lucky_Clovee",
+      "code": "BOSS_CloverFairy"
+    },
+    {
+      "slug": "Dusken_Aristocrat_Nox",
+      "name": "Dusken_Aristocrat_Nox",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dusken_Aristocrat_Nox",
+      "code": "BOSS_NightFox"
+    },
+    {
+      "slug": "Eclipsed_Siren_Bellanoir",
+      "name": "Eclipsed_Siren_Bellanoir",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Eclipsed_Siren_Bellanoir",
+      "code": "RAID_NightLady"
+    },
+    {
+      "slug": "ElecSnail_Fire",
+      "name": "ElecSnail_Fire",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/ElecSnail_Fire",
+      "code": "ElecSnail_Fire"
+    },
+    {
+      "slug": "Electro-Charged_Zoomies_Rayhound",
+      "name": "Electro-Charged_Zoomies_Rayhound",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Electro-Charged_Zoomies_Rayhound",
+      "code": "BOSS_ThunderDog"
+    },
+    {
+      "slug": "Emotionless_Killamari",
+      "name": "Emotionless_Killamari",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Emotionless_Killamari",
+      "code": "BOSS_NegativeOctopus"
+    },
+    {
+      "slug": "Emperor_of_the_Sea_Jormuntide",
+      "name": "Emperor_of_the_Sea_Jormuntide",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Emperor_of_the_Sea_Jormuntide",
+      "code": "BOSS_Umihebi"
+    },
+    {
+      "slug": "Empress_of_Lilies_Lyleen",
+      "name": "Empress_of_Lilies_Lyleen",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Empress_of_Lilies_Lyleen",
+      "code": "BOSS_LilyQueen"
+    },
+    {
+      "slug": "Empress_of_the_Abyss_Lyleen_Noct",
+      "name": "Empress_of_the_Abyss_Lyleen_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Empress_of_the_Abyss_Lyleen_Noct",
+      "code": "BOSS_LilyQueen_Dark"
+    },
+    {
+      "slug": "Empress_of_the_Hive_Elizabee",
+      "name": "Empress_of_the_Hive_Elizabee",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Empress_of_the_Hive_Elizabee",
+      "code": "BOSS_QueenBee"
+    },
+    {
+      "slug": "Enchanted_Sword",
+      "name": "Enchanted_Sword",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Enchanted_Sword",
+      "code": "YakushimaMonster002"
+    },
+    {
+      "slug": "Enraptured_by_Moonlight_Loupmoon",
+      "name": "Enraptured_by_Moonlight_Loupmoon",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Enraptured_by_Moonlight_Loupmoon",
+      "code": "BOSS_Werewolf"
+    },
+    {
+      "slug": "Enraptured_by_the_Frozen_Moonlight_Loupmoon_Cryst",
+      "name": "Enraptured_by_the_Frozen_Moonlight_Loupmoon_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Enraptured_by_the_Frozen_Moonlight_Loupmoon_Cryst",
+      "code": "BOSS_Werewolf_Ice"
+    },
+    {
+      "slug": "Evergreen_Flyer_Quivern_Botan",
+      "name": "Evergreen_Flyer_Quivern_Botan",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Evergreen_Flyer_Quivern_Botan",
+      "code": "BOSS_SkyDragon_Grass"
+    },
+    {
+      "slug": "Everyday_Trickster_Gloopie_Primo",
+      "name": "Everyday_Trickster_Gloopie_Primo",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Everyday_Trickster_Gloopie_Primo",
+      "code": "BOSS_OctopusGirl_Neutral"
+    },
+    {
+      "slug": "Extraterrestrial_Lunaris",
+      "name": "Extraterrestrial_Lunaris",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Extraterrestrial_Lunaris",
+      "code": "BOSS_Mutant"
+    },
+    {
+      "slug": "Eye_of_Cthulhu",
+      "name": "Eye_of_Cthulhu",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Eye_of_Cthulhu",
+      "code": "YakushimaBoss001"
+    },
+    {
+      "slug": "Eyes_from_the_Abyss_Finsider",
+      "name": "Eyes_from_the_Abyss_Finsider",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Eyes_from_the_Abyss_Finsider",
+      "code": "BOSS_StuffedShark"
+    },
+    {
+      "slug": "Eyes_from_the_Flames_Finsider_Ignis",
+      "name": "Eyes_from_the_Flames_Finsider_Ignis",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Eyes_from_the_Flames_Finsider_Ignis",
+      "code": "BOSS_StuffedShark_Fire"
+    },
+    {
+      "slug": "Fire-Licked_Feline_Katress_Ignis",
+      "name": "Fire-Licked_Feline_Katress_Ignis",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Fire-Licked_Feline_Katress_Ignis",
+      "code": "BOSS_CatMage_Fire"
+    },
+    {
+      "slug": "Fire-Licked_Furball_Wixen",
+      "name": "Fire-Licked_Furball_Wixen",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Fire-Licked_Furball_Wixen",
+      "code": "BOSS_FoxMage"
+    },
+    {
+      "slug": "Fire_Licked_Furball_Wixen",
+      "name": "Fire_Licked_Furball_Wixen",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Fire_Licked_Furball_Wixen",
+      "code": "BOSS_FoxMage"
+    },
+    {
+      "slug": "Flame_Aficionado_Tanzee_Ignis",
+      "name": "Flame_Aficionado_Tanzee_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Flame_Aficionado_Tanzee_Ignis",
+      "code": "BOSS_Monkey_Fire"
+    },
+    {
+      "slug": "Flickering_Flame_Sootseer",
+      "name": "Flickering_Flame_Sootseer",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Flickering_Flame_Sootseer",
+      "code": "BOSS_CandleGhost"
+    },
+    {
+      "slug": "Flickering_Shadow_Majex",
+      "name": "Flickering_Shadow_Majex",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Flickering_Shadow_Majex",
+      "code": "BOSS_DarkFlameFox"
+    },
+    {
+      "slug": "Freakily_Cute_Bakemi",
+      "name": "Freakily_Cute_Bakemi",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Freakily_Cute_Bakemi",
+      "code": "BOSS_OniGhostGirl"
+    },
+    {
+      "slug": "Frigid_Voyager_Moldron_Cryst",
+      "name": "Frigid_Voyager_Moldron_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Frigid_Voyager_Moldron_Cryst",
+      "code": "BOSS_VolcanoDragon_Ice"
+    },
+    {
+      "slug": "Frost-Fringed_Zoomies_Rayhound_Cryst",
+      "name": "Frost-Fringed_Zoomies_Rayhound_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frost-Fringed_Zoomies_Rayhound_Cryst",
+      "code": "BOSS_ThunderDog_Ice"
+    },
+    {
+      "slug": "Frostbound_Fox_Foxcicle",
+      "name": "Frostbound_Fox_Foxcicle",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frostbound_Fox_Foxcicle",
+      "code": "BOSS_IceFox"
+    },
+    {
+      "slug": "Frosthorn_Beast_Reindrix",
+      "name": "Frosthorn_Beast_Reindrix",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frosthorn_Beast_Reindrix",
+      "code": "BOSS_IceDeer"
+    },
+    {
+      "slug": "FrozenBear",
+      "name": "FrozenBear",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/FrozenBear",
+      "code": "FrozenBear"
+    },
+    {
+      "slug": "Frozen_King_Mammorest_Cryst",
+      "name": "Frozen_King_Mammorest_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Frozen_King_Mammorest_Cryst",
+      "code": "BOSS_GrassMammoth_Ice"
+    },
+    {
+      "slug": "Frozen_Minotaur_Elgrove_Cryst",
+      "name": "Frozen_Minotaur_Elgrove_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frozen_Minotaur_Elgrove_Cryst",
+      "code": "BOSS_GrassMinotaur_Ice"
+    },
+    {
+      "slug": "Gentle_Ice_Lance_Whalaska",
+      "name": "Gentle_Ice_Lance_Whalaska",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Gentle_Ice_Lance_Whalaska",
+      "code": "BOSS_IceNarwhal"
+    },
+    {
+      "slug": "Giant_Cotton_Candy_Woolipop",
+      "name": "Giant_Cotton_Candy_Woolipop",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Giant_Cotton_Candy_Woolipop",
+      "code": "BOSS_SweetsSheep"
+    },
+    {
+      "slug": "Gilded_Lady_Sibelyx_Primo",
+      "name": "Gilded_Lady_Sibelyx_Primo",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Gilded_Lady_Sibelyx_Primo",
+      "code": "BOSS_WhiteMoth_Neutral"
+    },
+    {
+      "slug": "Glacial_Harbinger_Hangyu_Cryst",
+      "name": "Glacial_Harbinger_Hangyu_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Glacial_Harbinger_Hangyu_Cryst",
+      "code": "BOSS_WindChimes_Ice"
+    },
+    {
+      "slug": "Gloom-Shrouded_Bloodsucker_Felbat",
+      "name": "Gloom-Shrouded_Bloodsucker_Felbat",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Gloom-Shrouded_Bloodsucker_Felbat",
+      "code": "BOSS_CatVampire"
+    },
+    {
+      "slug": "Gluttonous_Dragon_Relaxaurus",
+      "name": "Gluttonous_Dragon_Relaxaurus",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Gluttonous_Dragon_Relaxaurus",
+      "code": "BOSS_LazyDragon"
+    },
+    {
+      "slug": "Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+      "name": "Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Gluttonous_Thunder_Dragon_Relaxaurus_Lux",
+      "code": "BOSS_LazyDragon_Electric"
+    },
+    {
+      "slug": "Gold-Armored_Warrior_Warsect_Terra",
+      "name": "Gold-Armored_Warrior_Warsect_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gold-Armored_Warrior_Warsect_Terra",
+      "code": "BOSS_HerculesBeetle_Ground"
+    },
+    {
+      "slug": "Gold-Piercing_Spear_Menasting_Terra",
+      "name": "Gold-Piercing_Spear_Menasting_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gold-Piercing_Spear_Menasting_Terra",
+      "code": "BOSS_DarkScorpion_Ground"
+    },
+    {
+      "slug": "Golden_Antlers_Eikthyrdeer_Terra",
+      "name": "Golden_Antlers_Eikthyrdeer_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Golden_Antlers_Eikthyrdeer_Terra",
+      "code": "BOSS_Deer_Ground"
+    },
+    {
+      "slug": "Golden_Blade_of_Duat_Gildra",
+      "name": "Golden_Blade_of_Duat_Gildra",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Golden_Blade_of_Duat_Gildra",
+      "code": "BOSS_MummyPal"
+    },
+    {
+      "slug": "Golden_Fortress_Turtacle_Terra",
+      "name": "Golden_Fortress_Turtacle_Terra",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Golden_Fortress_Turtacle_Terra",
+      "code": "BOSS_TentacleTurtle_Ground"
+    },
+    {
+      "slug": "Grade_A_Beef_Mozzarina",
+      "name": "Grade_A_Beef_Mozzarina",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Grade_A_Beef_Mozzarina",
+      "code": "BOSS_CowPal"
+    },
+    {
+      "slug": "GrassDragon",
+      "name": "GrassDragon",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/GrassDragon",
+      "code": "GrassDragon"
+    },
+    {
+      "slug": "Green_Slime",
+      "name": "Green_Slime",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Green_Slime",
+      "code": "YakushimaMonster001"
+    },
+    {
+      "slug": "Guardian_Beast_of_Twilight_Gildane",
+      "name": "Guardian_Beast_of_Twilight_Gildane",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Guardian_Beast_of_Twilight_Gildane",
+      "code": "BOSS_GoldenHorse"
+    },
+    {
+      "slug": "Guardian_Commander_Beegarde",
+      "name": "Guardian_Commander_Beegarde",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Guardian_Commander_Beegarde",
+      "code": "BOSS_SoldierBee"
+    },
+    {
+      "slug": "Guardian_Dragon_of_Ironclad_Silvegis",
+      "name": "Guardian_Dragon_of_Ironclad_Silvegis",
+      "number": -1,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Guardian_Dragon_of_Ironclad_Silvegis",
+      "code": "BOSS_WhiteShieldDragon"
+    },
+    {
+      "slug": "Guardian_of_Blossoming_Gardens_Dinossom",
+      "name": "Guardian_of_Blossoming_Gardens_Dinossom",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_Blossoming_Gardens_Dinossom",
+      "code": "BOSS_FlowerDinosaur"
+    },
+    {
+      "slug": "Guardian_of_Lightning_Dinossom_Lux",
+      "name": "Guardian_of_Lightning_Dinossom_Lux",
+      "number": -1,
+      "elements": [
+        "Electricity",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_Lightning_Dinossom_Lux",
+      "code": "BOSS_FlowerDinosaur_Electric"
+    },
+    {
+      "slug": "Guardian_of_Luminous_Trails_Aegidron",
+      "name": "Guardian_of_Luminous_Trails_Aegidron",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_Luminous_Trails_Aegidron",
+      "code": "BOSS_DomeArmorDragon"
+    },
+    {
+      "slug": "Guardian_of_the_Azure_Flame_Kitsun",
+      "name": "Guardian_of_the_Azure_Flame_Kitsun",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Azure_Flame_Kitsun",
+      "code": "BOSS_AmaterasuWolf"
+    },
+    {
+      "slug": "Guardian_of_the_Dark_Flame_Kitsun_Noct",
+      "name": "Guardian_of_the_Dark_Flame_Kitsun_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Dark_Flame_Kitsun_Noct",
+      "code": "BOSS_AmaterasuWolf_Dark"
+    },
+    {
+      "slug": "Guardian_of_the_Dark_Sun_Anubis",
+      "name": "Guardian_of_the_Dark_Sun_Anubis",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Dark_Sun_Anubis",
+      "code": "Boss_Anubis"
+    },
+    {
+      "slug": "Guardian_of_the_Forest_Dragostrophe",
+      "name": "Guardian_of_the_Forest_Dragostrophe",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Forest_Dragostrophe",
+      "code": "BOSS_BlackFurDragon"
+    },
+    {
+      "slug": "Guardian_of_the_Grassy_Fields_Wumpo_Botan",
+      "name": "Guardian_of_the_Grassy_Fields_Wumpo_Botan",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Grassy_Fields_Wumpo_Botan",
+      "code": "BOSS_Yeti_Grass"
+    },
+    {
+      "slug": "Guardian_of_the_Snowy_Fields_Wumpo",
+      "name": "Guardian_of_the_Snowy_Fields_Wumpo",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Guardian_of_the_Snowy_Fields_Wumpo",
+      "code": "BOSS_Yeti"
+    },
+    {
+      "slug": "Had_One_Too_Many_Pengullet_Lux",
+      "name": "Had_One_Too_Many_Pengullet_Lux",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Had_One_Too_Many_Pengullet_Lux",
+      "code": "BOSS_Penguin_Electric"
+    },
+    {
+      "slug": "Harakiri_Master_Croajiro",
+      "name": "Harakiri_Master_Croajiro",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Harakiri_Master_Croajiro",
+      "code": "BOSS_KendoFrog"
+    },
+    {
+      "slug": "Hardcore_Heartbreaker_Leafan",
+      "name": "Hardcore_Heartbreaker_Leafan",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Hardcore_Heartbreaker_Leafan",
+      "code": "BOSS_PandaGirl"
+    },
+    {
+      "slug": "Heart-Melting_Smile_Ribbuny",
+      "name": "Heart-Melting_Smile_Ribbuny",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Heart-Melting_Smile_Ribbuny",
+      "code": "BOSS_PinkRabbit"
+    },
+    {
+      "slug": "High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong",
+      "name": "High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/High_Keeper_of_the_Azure_Covenant_Auri_%26_Shaolong",
+      "code": "GYM_BlueSkyDragon"
+    },
+    {
+      "slug": "Highly_Modified_Bastigor",
+      "name": "Highly_Modified_Bastigor",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Bastigor",
+      "code": "BOSS_SnowTigerBeastman_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Faleris",
+      "name": "Highly_Modified_Faleris",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Faleris",
+      "code": "BOSS_Horus_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Grizzbolt",
+      "name": "Highly_Modified_Grizzbolt",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Grizzbolt",
+      "code": "BOSS_ElecPanda_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Lyleen",
+      "name": "Highly_Modified_Lyleen",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Lyleen",
+      "code": "BOSS_LilyQueen_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Orserk",
+      "name": "Highly_Modified_Orserk",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Orserk",
+      "code": "BOSS_ThunderDragonMan_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Selyne",
+      "name": "Highly_Modified_Selyne",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Selyne",
+      "code": "BOSS_MoonQueen_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Shadowbeak",
+      "name": "Highly_Modified_Shadowbeak",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Shadowbeak",
+      "code": "BOSS_BlackGriffon_BossRush"
+    },
+    {
+      "slug": "Highly_Modified_Shaolong",
+      "name": "Highly_Modified_Shaolong",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Highly_Modified_Shaolong",
+      "code": "BOSS_BlueSkyDragon_BossRush"
+    },
+    {
+      "slug": "Holy_Knight_of_Legend_Paladius",
+      "name": "Holy_Knight_of_Legend_Paladius",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Holy_Knight_of_Legend_Paladius",
+      "code": "BOSS_SaintCentaur"
+    },
+    {
+      "slug": "Hundred-Faced_Apostle_Omascul",
+      "name": "Hundred-Faced_Apostle_Omascul",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Hundred-Faced_Apostle_Omascul",
+      "code": "BOSS_MysteryMask"
+    },
+    {
+      "slug": "Hunter_of_the_Steppe_Direhowl",
+      "name": "Hunter_of_the_Steppe_Direhowl",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Hunter_of_the_Steppe_Direhowl",
+      "code": "BOSS_Garm"
+    },
+    {
+      "slug": "Hyena_of_the_Darkest_Night_Incineram_Noct",
+      "name": "Hyena_of_the_Darkest_Night_Incineram_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Hyena_of_the_Darkest_Night_Incineram_Noct",
+      "code": "BOSS_Baphomet_Dark"
+    },
+    {
+      "slug": "Hyena_of_the_Wild_Incineram",
+      "name": "Hyena_of_the_Wild_Incineram",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Hyena_of_the_Wild_Incineram",
+      "code": "BOSS_Baphomet"
+    },
+    {
+      "slug": "Ice-Breaking_Juggernaut_Reptyro_Cryst",
+      "name": "Ice-Breaking_Juggernaut_Reptyro_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Ice-Breaking_Juggernaut_Reptyro_Cryst",
+      "code": "BOSS_VolcanicMonster_Ice"
+    },
+    {
+      "slug": "IceVeilDragon",
+      "name": "IceVeilDragon",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/IceVeilDragon",
+      "code": "IceVeilDragon"
+    },
+    {
+      "slug": "Icy_Blossom_Voyager_Foxparks_Cryst",
+      "name": "Icy_Blossom_Voyager_Foxparks_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Icy_Blossom_Voyager_Foxparks_Cryst",
+      "code": "BOSS_Kitsunebi_Ice"
+    },
+    {
+      "slug": "Illuminant_Bat",
+      "name": "Illuminant_Bat",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Illuminant_Bat",
+      "code": "YakushimaMonster003_Purple"
+    },
+    {
+      "slug": "Illuminant_Slime",
+      "name": "Illuminant_Slime",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Illuminant_Slime",
+      "code": "YakushimaMonster001_Pink"
+    },
+    {
+      "slug": "Illusionist_Cottontail_Dupin",
+      "name": "Illusionist_Cottontail_Dupin",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Illusionist_Cottontail_Dupin",
+      "code": "BOSS_ClownRabbit"
+    },
+    {
+      "slug": "Immortal_Shade_Silvance",
+      "name": "Immortal_Shade_Silvance",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Immortal_Shade_Silvance",
+      "code": "BOSS_Mothman"
+    },
+    {
+      "slug": "Incarnation_of_the_Eternal_Flame_(Ultra)_Blazamut_Ryu",
+      "name": "Incarnation_of_the_Eternal_Flame_(Ultra)_Blazamut_Ryu",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Incarnation_of_the_Eternal_Flame_%28Ultra%29_Blazamut_Ryu",
+      "code": "RAID_KingBahamut_Dragon_2"
+    },
+    {
+      "slug": "Incarnation_of_the_Eternal_Flame_Blazamut_Ryu",
+      "name": "Incarnation_of_the_Eternal_Flame_Blazamut_Ryu",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Incarnation_of_the_Eternal_Flame_Blazamut_Ryu",
+      "code": "RAID_KingBahamut_Dragon"
+    },
+    {
+      "slug": "Inheritor_of_the_Storm_Mossanda_Lux",
+      "name": "Inheritor_of_the_Storm_Mossanda_Lux",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Inheritor_of_the_Storm_Mossanda_Lux",
+      "code": "BOSS_GrassPanda_Electric"
+    },
+    {
+      "slug": "Interloper_from_Outer_Space_Xenovader",
+      "name": "Interloper_from_Outer_Space_Xenovader",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Interloper_from_Outer_Space_Xenovader",
+      "code": "BOSS_DarkAlien"
+    },
+    {
+      "slug": "Invader_from_Space_(Ultra)_Xenolord",
+      "name": "Invader_from_Space_(Ultra)_Xenolord",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Invader_from_Space_%28Ultra%29_Xenolord",
+      "code": "RAID_DarkMechaDragon_2"
+    },
+    {
+      "slug": "Invader_from_Space_Xenolord",
+      "name": "Invader_from_Space_Xenolord",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Invader_from_Space_Xenolord",
+      "code": "BOSS_DarkMechaDragon"
+    },
+    {
+      "slug": "Jet-Black_Little_Hero_Smokie",
+      "name": "Jet-Black_Little_Hero_Smokie",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Jet-Black_Little_Hero_Smokie",
+      "code": "BOSS_BlackPuppy"
+    },
+    {
+      "slug": "Jungle_Punk_Gorirat",
+      "name": "Jungle_Punk_Gorirat",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Jungle_Punk_Gorirat",
+      "code": "BOSS_Gorilla"
+    },
+    {
+      "slug": "King-Sized_Confection_Woolipop_Terra",
+      "name": "King-Sized_Confection_Woolipop_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/King-Sized_Confection_Woolipop_Terra",
+      "code": "BOSS_SweetsSheep_Ground"
+    },
+    {
+      "slug": "KingCrab",
+      "name": "KingCrab",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/KingCrab",
+      "code": "KingCrab"
+    },
+    {
+      "slug": "King_of_Frostfang_Bastigor",
+      "name": "King_of_Frostfang_Bastigor",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/King_of_Frostfang_Bastigor",
+      "code": "BOSS_SnowTigerBeastman"
+    },
+    {
+      "slug": "King_of_Salvation_(Ultra)_Hartalis",
+      "name": "King_of_Salvation_(Ultra)_Hartalis",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/King_of_Salvation_%28Ultra%29_Hartalis",
+      "code": "RAID_LegendDeer_2"
+    },
+    {
+      "slug": "King_of_Salvation_Hartalis",
+      "name": "King_of_Salvation_Hartalis",
+      "number": -1,
+      "elements": [
+        "Normal",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/King_of_Salvation_Hartalis",
+      "code": "BOSS_LegendDeer"
+    },
+    {
+      "slug": "King_of_the_Floof_Sweepa",
+      "name": "King_of_the_Floof_Sweepa",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/King_of_the_Floof_Sweepa",
+      "code": "BOSS_MopKing"
+    },
+    {
+      "slug": "King_of_the_Forest_Mammorest",
+      "name": "King_of_the_Forest_Mammorest",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/King_of_the_Forest_Mammorest",
+      "code": "BOSS_GrassMammoth"
+    },
+    {
+      "slug": "King_of_the_Tundra_Mammorest_Cryst",
+      "name": "King_of_the_Tundra_Mammorest_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/King_of_the_Tundra_Mammorest_Cryst",
+      "code": "BOSS_GrassMammoth_Ice"
+    },
+    {
+      "slug": "Lady_of_the_Ashen_Wastes_Petallia_Ignis",
+      "name": "Lady_of_the_Ashen_Wastes_Petallia_Ignis",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Lady_of_the_Ashen_Wastes_Petallia_Ignis",
+      "code": "BOSS_FlowerDoll_Fire"
+    },
+    {
+      "slug": "Lady_of_the_Flower_Garden_Petallia",
+      "name": "Lady_of_the_Flower_Garden_Petallia",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Lady_of_the_Flower_Garden_Petallia",
+      "code": "BOSS_FlowerDoll"
+    },
+    {
+      "slug": "Lady_of_the_Frozen_Lake_Azurobe_Cryst",
+      "name": "Lady_of_the_Frozen_Lake_Azurobe_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Lady_of_the_Frozen_Lake_Azurobe_Cryst",
+      "code": "BOSS_BlueDragon_Ice"
+    },
+    {
+      "slug": "Lady_of_the_Lake_Azurobe",
+      "name": "Lady_of_the_Lake_Azurobe",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Lady_of_the_Lake_Azurobe",
+      "code": "BOSS_BlueDragon"
+    },
+    {
+      "slug": "Lava-Devouring_Juggernaut_Reptyro",
+      "name": "Lava-Devouring_Juggernaut_Reptyro",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Lava-Devouring_Juggernaut_Reptyro",
+      "code": "BOSS_VolcanicMonster"
+    },
+    {
+      "slug": "LeafBird",
+      "name": "LeafBird",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/LeafBird",
+      "code": "LeafBird"
+    },
+    {
+      "slug": "Legend_of_the_Seas_Neptilius",
+      "name": "Legend_of_the_Seas_Neptilius",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Legend_of_the_Seas_Neptilius",
+      "code": "BOSS_PoseidonOrca"
+    },
+    {
+      "slug": "Legendary_Celestial_Dragon_Jetragon",
+      "name": "Legendary_Celestial_Dragon_Jetragon",
+      "number": -1,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Legendary_Celestial_Dragon_Jetragon",
+      "code": "BOSS_JetDragon"
+    },
+    {
+      "slug": "Legendary_Ocean_King_Panthalus",
+      "name": "Legendary_Ocean_King_Panthalus",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Legendary_Ocean_King_Panthalus",
+      "code": "BOSS_KingWhale"
+    },
+    {
+      "slug": "Legendary_Steed_of_Darkness_Frostallion_Noct",
+      "name": "Legendary_Steed_of_Darkness_Frostallion_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Legendary_Steed_of_Darkness_Frostallion_Noct",
+      "code": "BOSS_IceHorse_Dark"
+    },
+    {
+      "slug": "Legendary_Steed_of_Ice_Frostallion",
+      "name": "Legendary_Steed_of_Ice_Frostallion",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Legendary_Steed_of_Ice_Frostallion",
+      "code": "BOSS_IceHorse"
+    },
+    {
+      "slug": "Lily_Empress_Lyleen",
+      "name": "Lily_Empress_Lyleen",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Lily_Empress_Lyleen",
+      "code": "BOSS_LilyQueen"
+    },
+    {
+      "slug": "Livewire_Tabby_Sparkit",
+      "name": "Livewire_Tabby_Sparkit",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Livewire_Tabby_Sparkit",
+      "code": "BOSS_ElecCat"
+    },
+    {
+      "slug": "Longing_in_the_Deep_Ghangler_Ignis",
+      "name": "Longing_in_the_Deep_Ghangler_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Longing_in_the_Deep_Ghangler_Ignis",
+      "code": "BOSS_GhostAnglerfish_Fire"
+    },
+    {
+      "slug": "Mantle_of_the_Night_Sky_Wistella",
+      "name": "Mantle_of_the_Night_Sky_Wistella",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Mantle_of_the_Night_Sky_Wistella",
+      "code": "BOSS_MoonChild"
+    },
+    {
+      "slug": "Marauder_of_Frozen_Skies_Vanwyrm_Cryst",
+      "name": "Marauder_of_Frozen_Skies_Vanwyrm_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Marauder_of_Frozen_Skies_Vanwyrm_Cryst",
+      "code": "BOSS_BirdDragon_Ice"
+    },
+    {
+      "slug": "Marshmallow_Body_Grintale",
+      "name": "Marshmallow_Body_Grintale",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Marshmallow_Body_Grintale",
+      "code": "BOSS_NaughtyCat"
+    },
+    {
+      "slug": "Midnight_Blue_Mane_Starryon",
+      "name": "Midnight_Blue_Mane_Starryon",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Midnight_Blue_Mane_Starryon",
+      "code": "BOSS_NightBlueHorse"
+    },
+    {
+      "slug": "Mini_Fortress_Turtacle",
+      "name": "Mini_Fortress_Turtacle",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Mini_Fortress_Turtacle",
+      "code": "BOSS_TentacleTurtle"
+    },
+    {
+      "slug": "Miraculously_Close_Amione",
+      "name": "Miraculously_Close_Amione",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Miraculously_Close_Amione",
+      "code": "BOSS_ClioneTwins"
+    },
+    {
+      "slug": "Molten_Daughter_Flambelle",
+      "name": "Molten_Daughter_Flambelle",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Molten_Daughter_Flambelle",
+      "code": "BOSS_LavaGirl"
+    },
+    {
+      "slug": "Monkey_Ice",
+      "name": "Monkey_Ice",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Monkey_Ice",
+      "code": "Monkey_Ice"
+    },
+    {
+      "slug": "Natural_Born_Killer_Croajiro_Noct",
+      "name": "Natural_Born_Killer_Croajiro_Noct",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Natural_Born_Killer_Croajiro_Noct",
+      "code": "BOSS_KendoFrog_Dark"
+    },
+    {
+      "slug": "Night_Shade_Hunter_Nyafia",
+      "name": "Night_Shade_Hunter_Nyafia",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Night_Shade_Hunter_Nyafia",
+      "code": "BOSS_BadCatgirl"
+    },
+    {
+      "slug": "Nighttime_Prince_Nox",
+      "name": "Nighttime_Prince_Nox",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Nighttime_Prince_Nox",
+      "code": "BOSS_NightFox"
+    },
+    {
+      "slug": "No_Dance,_No_Life_Palumba",
+      "name": "No_Dance,_No_Life_Palumba",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/No_Dance%2C_No_Life_Palumba",
+      "code": "BOSS_TropicalOstrich"
+    },
+    {
+      "slug": "Noble_Glimmer_Mau",
+      "name": "Noble_Glimmer_Mau",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Noble_Glimmer_Mau",
+      "code": "BOSS_Bastet"
+    },
+    {
+      "slug": "Nullstar_Calamity_Zenara_&_Astralym",
+      "name": "Nullstar_Calamity_Zenara_&_Astralym",
+      "number": -1,
+      "elements": [],
+      "page": "https://paldb.cc/en/Nullstar_Calamity_Zenara_%26_Astralym",
+      "code": "GYM_WorldTreeDragon"
+    },
+    {
+      "slug": "Open-Minded_Glutton_Carnibora",
+      "name": "Open-Minded_Glutton_Carnibora",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Open-Minded_Glutton_Carnibora",
+      "code": "BOSS_VenusFlytrap"
+    },
+    {
+      "slug": "PIDF_Rider",
+      "name": "PIDF_Rider",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/PIDF_Rider",
+      "code": "POLICE_ThunderDog"
+    },
+    {
+      "slug": "Pal_on_the_Prowl_Lovander",
+      "name": "Pal_on_the_Prowl_Lovander",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Pal_on_the_Prowl_Lovander",
+      "code": "BOSS_PinkLizard"
+    },
+    {
+      "slug": "Pallid_Lady_Sibelyx",
+      "name": "Pallid_Lady_Sibelyx",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Pallid_Lady_Sibelyx",
+      "code": "BOSS_WhiteMoth"
+    },
+    {
+      "slug": "Percussive_Maintenance_Herbil",
+      "name": "Percussive_Maintenance_Herbil",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Percussive_Maintenance_Herbil",
+      "code": "BOSS_LeafMomonga"
+    },
+    {
+      "slug": "Perpetual_Procrastinator_Dumud",
+      "name": "Perpetual_Procrastinator_Dumud",
+      "number": -1,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Perpetual_Procrastinator_Dumud",
+      "code": "BOSS_LazyCatfish"
+    },
+    {
+      "slug": "Phantasmal_Feline_Katress",
+      "name": "Phantasmal_Feline_Katress",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Phantasmal_Feline_Katress",
+      "code": "BOSS_CatMage"
+    },
+    {
+      "slug": "Phantasmal_Furball_Wixen_Noct",
+      "name": "Phantasmal_Furball_Wixen_Noct",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Phantasmal_Furball_Wixen_Noct",
+      "code": "BOSS_FoxMage_Dark"
+    },
+    {
+      "slug": "Piece_of_Cake_Dumud_Gild",
+      "name": "Piece_of_Cake_Dumud_Gild",
+      "number": -1,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Piece_of_Cake_Dumud_Gild",
+      "code": "BOSS_LazyCatfish_Gold"
+    },
+    {
+      "slug": "PinkKangaroo",
+      "name": "PinkKangaroo",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/PinkKangaroo",
+      "code": "PinkKangaroo"
+    },
+    {
+      "slug": "Pioneer_of_the_Black_Penking_Lux",
+      "name": "Pioneer_of_the_Black_Penking_Lux",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Pioneer_of_the_Black_Penking_Lux",
+      "code": "BOSS_CaptainPenguin_Black"
+    },
+    {
+      "slug": "Pioneer_of_the_Frozen_Sea_Penking",
+      "name": "Pioneer_of_the_Frozen_Sea_Penking",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Pioneer_of_the_Frozen_Sea_Penking",
+      "code": "BOSS_CaptainPenguin"
+    },
+    {
+      "slug": "Pitch_Black_Pilferer_Roujay",
+      "name": "Pitch_Black_Pilferer_Roujay",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Pitch_Black_Pilferer_Roujay",
+      "code": "BOSS_ThiefBird"
+    },
+    {
+      "slug": "Planet-Devouring_Dragon_Xenogard",
+      "name": "Planet-Devouring_Dragon_Xenogard",
+      "number": -1,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Planet-Devouring_Dragon_Xenogard",
+      "code": "BOSS_WhiteAlienDragon"
+    },
+    {
+      "slug": "Plays_Both_Sides_Valentail",
+      "name": "Plays_Both_Sides_Valentail",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Plays_Both_Sides_Valentail",
+      "code": "BOSS_LongCat"
+    },
+    {
+      "slug": "Plump_&_Juicy_Chikipi",
+      "name": "Plump_&_Juicy_Chikipi",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Plump_%26_Juicy_Chikipi",
+      "code": "BOSS_ChickenPal"
+    },
+    {
+      "slug": "Pompous_Shanks_Melpaca",
+      "name": "Pompous_Shanks_Melpaca",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Pompous_Shanks_Melpaca",
+      "code": "BOSS_Alpaca"
+    },
+    {
+      "slug": "Predator_of_Snowy_Peaks_Cryolinx",
+      "name": "Predator_of_Snowy_Peaks_Cryolinx",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Predator_of_Snowy_Peaks_Cryolinx",
+      "code": "BOSS_WhiteTiger"
+    },
+    {
+      "slug": "Predator_of_the_Earth_Cryolinx_Terra",
+      "name": "Predator_of_the_Earth_Cryolinx_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Predator_of_the_Earth_Cryolinx_Terra",
+      "code": "BOSS_WhiteTiger_Ground"
+    },
+    {
+      "slug": "Prickly_Welcome_Needoll",
+      "name": "Prickly_Welcome_Needoll",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Prickly_Welcome_Needoll",
+      "code": "BOSS_CactusDoll"
+    },
+    {
+      "slug": "Primal_Source_of_Hay_Fever_Lullu",
+      "name": "Primal_Source_of_Hay_Fever_Lullu",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Primal_Source_of_Hay_Fever_Lullu",
+      "code": "BOSS_LeafPrincess"
+    },
+    {
+      "slug": "Prime_Beef_Mozzarina",
+      "name": "Prime_Beef_Mozzarina",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Prime_Beef_Mozzarina",
+      "code": "BOSS_CowPal"
+    },
+    {
+      "slug": "Pristine_Fisticuffs_Lapure",
+      "name": "Pristine_Fisticuffs_Lapure",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Pristine_Fisticuffs_Lapure",
+      "code": "BOSS_SleeveRabbit"
+    },
+    {
+      "slug": "Proud_Courier_Galeclaw",
+      "name": "Proud_Courier_Galeclaw",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Proud_Courier_Galeclaw",
+      "code": "BOSS_Eagle"
+    },
+    {
+      "slug": "Pure_Bloom_Dragon_Ophydia",
+      "name": "Pure_Bloom_Dragon_Ophydia",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Pure_Bloom_Dragon_Ophydia",
+      "code": "BOSS_LotusDragon"
+    },
+    {
+      "slug": "Purple_Slime",
+      "name": "Purple_Slime",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Purple_Slime",
+      "code": "YakushimaMonster001_Purple"
+    },
+    {
+      "slug": "Purveyor_of_Wisdom_Hoocrates",
+      "name": "Purveyor_of_Wisdom_Hoocrates",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Purveyor_of_Wisdom_Hoocrates",
+      "code": "BOSS_WizardOwl"
+    },
+    {
+      "slug": "Rainbow_Slime",
+      "name": "Rainbow_Slime",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Rainbow_Slime",
+      "code": "YakushimaMonster001_Rainbow"
+    },
+    {
+      "slug": "Revealer_of_Paths_Foxparks",
+      "name": "Revealer_of_Paths_Foxparks",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Revealer_of_Paths_Foxparks",
+      "code": "BOSS_Kitsunebi"
+    },
+    {
+      "slug": "Revealer_of_Truths_Loomen",
+      "name": "Revealer_of_Truths_Loomen",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Revealer_of_Truths_Loomen",
+      "code": "BOSS_LanternButler"
+    },
+    {
+      "slug": "Roaring_Thunder_Orserk",
+      "name": "Roaring_Thunder_Orserk",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Roaring_Thunder_Orserk",
+      "code": "BOSS_ThunderDragonMan"
+    },
+    {
+      "slug": "RockCheetah",
+      "name": "RockCheetah",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/RockCheetah",
+      "code": "RockCheetah"
+    },
+    {
+      "slug": "Rowdy_Wave_Ripper_Fuack",
+      "name": "Rowdy_Wave_Ripper_Fuack",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Rowdy_Wave_Ripper_Fuack",
+      "code": "BOSS_BluePlatypus"
+    },
+    {
+      "slug": "Ruler_of_the_Cobalt_Dusk_Suzaku_Aqua",
+      "name": "Ruler_of_the_Cobalt_Dusk_Suzaku_Aqua",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Ruler_of_the_Cobalt_Dusk_Suzaku_Aqua",
+      "code": "BOSS_Suzaku_Water"
+    },
+    {
+      "slug": "Ruler_of_the_Crimson_Dawn_Suzaku",
+      "name": "Ruler_of_the_Crimson_Dawn_Suzaku",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Ruler_of_the_Crimson_Dawn_Suzaku",
+      "code": "BOSS_Suzaku"
+    },
+    {
+      "slug": "Runaway_Wave_Rider_Fuack_Ignis",
+      "name": "Runaway_Wave_Rider_Fuack_Ignis",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Runaway_Wave_Rider_Fuack_Ignis",
+      "code": "BOSS_BluePlatypus_Fire"
+    },
+    {
+      "slug": "Salon_Shunner_Venusa",
+      "name": "Salon_Shunner_Venusa",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Salon_Shunner_Venusa",
+      "code": "BOSS_SnakeGirl"
+    },
+    {
+      "slug": "Samurai_of_Darkness_Bushi_Noct",
+      "name": "Samurai_of_Darkness_Bushi_Noct",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Samurai_of_Darkness_Bushi_Noct",
+      "code": "BOSS_Ronin_Dark"
+    },
+    {
+      "slug": "Sandsea_Monolith_Tetroise",
+      "name": "Sandsea_Monolith_Tetroise",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Sandsea_Monolith_Tetroise",
+      "code": "BOSS_CubeTurtle"
+    },
+    {
+      "slug": "Sandsea_Wardenstone_Tetroise_Primo",
+      "name": "Sandsea_Wardenstone_Tetroise_Primo",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Sandsea_Wardenstone_Tetroise_Primo",
+      "code": "BOSS_CubeTurtle_Neutral"
+    },
+    {
+      "slug": "Scorched_Wanderer_Moldron",
+      "name": "Scorched_Wanderer_Moldron",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Scorched_Wanderer_Moldron",
+      "code": "BOSS_VolcanoDragon"
+    },
+    {
+      "slug": "Scorching_Ovation_Renjishi",
+      "name": "Scorching_Ovation_Renjishi",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Scorching_Ovation_Renjishi",
+      "code": "BOSS_KabukiMan"
+    },
+    {
+      "slug": "Sea_Thug_Gobfin",
+      "name": "Sea_Thug_Gobfin",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Sea_Thug_Gobfin",
+      "code": "BOSS_SharkKid"
+    },
+    {
+      "slug": "Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+      "name": "Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Self-Proclaimed_Fashionista_Leezpunk_Ignis",
+      "code": "BOSS_LizardMan_Fire"
+    },
+    {
+      "slug": "Self-Proclaimed_Genius_Leezpunk",
+      "name": "Self-Proclaimed_Genius_Leezpunk",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Self-Proclaimed_Genius_Leezpunk",
+      "code": "BOSS_LizardMan"
+    },
+    {
+      "slug": "Self-Serving_Seer_Flaracle",
+      "name": "Self-Serving_Seer_Flaracle",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Self-Serving_Seer_Flaracle",
+      "code": "BOSS_FoxExorcist"
+    },
+    {
+      "slug": "Sentinel_of_Dawn_Faleris",
+      "name": "Sentinel_of_Dawn_Faleris",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Sentinel_of_Dawn_Faleris",
+      "code": "BOSS_Horus"
+    },
+    {
+      "slug": "Sentinel_of_the_Tides_Faleris_Aqua",
+      "name": "Sentinel_of_the_Tides_Faleris_Aqua",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Sentinel_of_the_Tides_Faleris_Aqua",
+      "code": "BOSS_Horus_Water"
+    },
+    {
+      "slug": "Serene_Glimmer_Mau_Cryst",
+      "name": "Serene_Glimmer_Mau_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Serene_Glimmer_Mau_Cryst",
+      "code": "BOSS_Bastet_Ice"
+    },
+    {
+      "slug": "Several_Sleepless_Nights_Later_Depresso",
+      "name": "Several_Sleepless_Nights_Later_Depresso",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Several_Sleepless_Nights_Later_Depresso",
+      "code": "BOSS_NegativeKoala"
+    },
+    {
+      "slug": "Shade_Drifter_Jellroy",
+      "name": "Shade_Drifter_Jellroy",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Shade_Drifter_Jellroy",
+      "code": "BOSS_JellyfishGhost"
+    },
+    {
+      "slug": "Shadow-Cloaked_Schemer_Cawgnito",
+      "name": "Shadow-Cloaked_Schemer_Cawgnito",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Shadow-Cloaked_Schemer_Cawgnito",
+      "code": "BOSS_DarkCrow"
+    },
+    {
+      "slug": "Shockingly_Laid-Back_Slowatt",
+      "name": "Shockingly_Laid-Back_Slowatt",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Shockingly_Laid-Back_Slowatt",
+      "code": "BOSS_ElecLizard"
+    },
+    {
+      "slug": "Shuffling_Glacier_Pierdon_Cryst",
+      "name": "Shuffling_Glacier_Pierdon_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Shuffling_Glacier_Pierdon_Cryst",
+      "code": "BOSS_RockBeast_Ice"
+    },
+    {
+      "slug": "Silvermane_Starryon_Primo",
+      "name": "Silvermane_Starryon_Primo",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Silvermane_Starryon_Primo",
+      "code": "BOSS_NightBlueHorse_Neutral"
+    },
+    {
+      "slug": "Sky-Swimming_Fish_Celaray_Lux",
+      "name": "Sky-Swimming_Fish_Celaray_Lux",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Sky-Swimming_Fish_Celaray_Lux",
+      "code": "BOSS_FlyingManta_Thunder"
+    },
+    {
+      "slug": "Sluggish_Blue_Bolt_Snock",
+      "name": "Sluggish_Blue_Bolt_Snock",
+      "number": -1,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Sluggish_Blue_Bolt_Snock",
+      "code": "BOSS_ElecSnail"
+    },
+    {
+      "slug": "Sluggish_Dazzling_Flash_Snock_Lux",
+      "name": "Sluggish_Dazzling_Flash_Snock_Lux",
+      "number": -1,
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Sluggish_Dazzling_Flash_Snock_Lux",
+      "code": "BOSS_ElecSnail_Ground"
+    },
+    {
+      "slug": "SnakeQueen",
+      "name": "SnakeQueen",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/SnakeQueen",
+      "code": "SnakeQueen"
+    },
+    {
+      "slug": "Snowlaced_Feather_Mantle_Frostplume",
+      "name": "Snowlaced_Feather_Mantle_Frostplume",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Snowlaced_Feather_Mantle_Frostplume",
+      "code": "BOSS_SnowPeafowl"
+    },
+    {
+      "slug": "Soaring_Skyfish_Celaray",
+      "name": "Soaring_Skyfish_Celaray",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Soaring_Skyfish_Celaray",
+      "code": "BOSS_FlyingManta"
+    },
+    {
+      "slug": "Soul_of_the_Dark_Rabbit_Nitemary",
+      "name": "Soul_of_the_Dark_Rabbit_Nitemary",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Soul_of_the_Dark_Rabbit_Nitemary",
+      "code": "BOSS_GhostRabbit"
+    },
+    {
+      "slug": "Soul_of_the_Green_Rabbit_Nitemary_Botan",
+      "name": "Soul_of_the_Green_Rabbit_Nitemary_Botan",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Soul_of_the_Green_Rabbit_Nitemary_Botan",
+      "code": "BOSS_GhostRabbit_Grass"
+    },
+    {
+      "slug": "Sparkling_Smile_Ribbuny_Botan",
+      "name": "Sparkling_Smile_Ribbuny_Botan",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Sparkling_Smile_Ribbuny_Botan",
+      "code": "BOSS_PinkRabbit_Grass"
+    },
+    {
+      "slug": "Splashy_Determined_Draw_Skutlass",
+      "name": "Splashy_Determined_Draw_Skutlass",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Splashy_Determined_Draw_Skutlass",
+      "code": "BOSS_SwordCutlassfish"
+    },
+    {
+      "slug": "Star_of_the_Dunes_Polapup_Terra",
+      "name": "Star_of_the_Dunes_Polapup_Terra",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Star_of_the_Dunes_Polapup_Terra",
+      "code": "BOSS_IceSeal_Ground"
+    },
+    {
+      "slug": "Star_of_the_Flower_Beds_Flopie",
+      "name": "Star_of_the_Flower_Beds_Flopie",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Star_of_the_Flower_Beds_Flopie",
+      "code": "BOSS_FlowerRabbit"
+    },
+    {
+      "slug": "Star_of_the_Steppe_Vixy",
+      "name": "Star_of_the_Steppe_Vixy",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Star_of_the_Steppe_Vixy",
+      "code": "BOSS_CuteFox"
+    },
+    {
+      "slug": "State_of_Enlightenment_Dogen",
+      "name": "State_of_Enlightenment_Dogen",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/State_of_Enlightenment_Dogen",
+      "code": "BOSS_SifuDog"
+    },
+    {
+      "slug": "Steed_of_Darkness_Pyrin_Noct",
+      "name": "Steed_of_Darkness_Pyrin_Noct",
+      "number": -1,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Steed_of_Darkness_Pyrin_Noct",
+      "code": "BOSS_FireKirin_Dark"
+    },
+    {
+      "slug": "Steed_of_Flames_Pyrin",
+      "name": "Steed_of_Flames_Pyrin",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Steed_of_Flames_Pyrin",
+      "code": "BOSS_FireKirin"
+    },
+    {
+      "slug": "Suddenly_Transformed_Gumoss",
+      "name": "Suddenly_Transformed_Gumoss",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Suddenly_Transformed_Gumoss",
+      "code": "BOSS_PlantSlime"
+    },
+    {
+      "slug": "Supreme_Fluff_Commander_Kingpaca",
+      "name": "Supreme_Fluff_Commander_Kingpaca",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Supreme_Fluff_Commander_Kingpaca",
+      "code": "BOSS_KingAlpaca"
+    },
+    {
+      "slug": "Tainted_Farm_Caprity_Noct",
+      "name": "Tainted_Farm_Caprity_Noct",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Tainted_Farm_Caprity_Noct",
+      "code": "BOSS_BerryGoat_Dark"
+    },
+    {
+      "slug": "The_Deserts_Wrath_Surfent_Terra",
+      "name": "The_Deserts_Wrath_Surfent_Terra",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/The_Deserts_Wrath_Surfent_Terra",
+      "code": "BOSS_Serpent_Ground"
+    },
+    {
+      "slug": "The_Oceans_Wrath_Surfent",
+      "name": "The_Oceans_Wrath_Surfent",
+      "number": -1,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/The_Oceans_Wrath_Surfent",
+      "code": "BOSS_Serpent"
+    },
+    {
+      "slug": "Thorny_Rose_Bristla",
+      "name": "Thorny_Rose_Bristla",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Thorny_Rose_Bristla",
+      "code": "BOSS_LittleBriarRose"
+    },
+    {
+      "slug": "Totally_Toasty_Muffly",
+      "name": "Totally_Toasty_Muffly",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Totally_Toasty_Muffly",
+      "code": "BOSS_FluffyBird"
+    },
+    {
+      "slug": "Treasure_Trove_Mimog",
+      "name": "Treasure_Trove_Mimog",
+      "number": -1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Treasure_Trove_Mimog",
+      "code": "BOSS_MimicDog"
+    },
+    {
+      "slug": "Trickster_Tombat",
+      "name": "Trickster_Tombat",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Trickster_Tombat",
+      "code": "BOSS_CatBat"
+    },
+    {
+      "slug": "Trickster_of_the_Sea_Gloopie",
+      "name": "Trickster_of_the_Sea_Gloopie",
+      "number": -1,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Trickster_of_the_Sea_Gloopie",
+      "code": "BOSS_OctopusGirl"
+    },
+    {
+      "slug": "True_Eye_of_Cthulhu",
+      "name": "True_Eye_of_Cthulhu",
+      "number": -1,
+      "elements": [],
+      "page": "https://paldb.cc/en/True_Eye_of_Cthulhu",
+      "code": "RAID_YakushimaBoss001_Green"
+    },
+    {
+      "slug": "Twilight_Siren_(Ultra)_Bellanoir_Libero",
+      "name": "Twilight_Siren_(Ultra)_Bellanoir_Libero",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Twilight_Siren_%28Ultra%29_Bellanoir_Libero",
+      "code": "RAID_NightLady_Dark_2"
+    },
+    {
+      "slug": "Unknown_Life_Form_Shadowbeak",
+      "name": "Unknown_Life_Form_Shadowbeak",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Unknown_Life_Form_Shadowbeak",
+      "code": "BOSS_BlackGriffon"
+    },
+    {
+      "slug": "Unstoppable_Stinger_Menasting",
+      "name": "Unstoppable_Stinger_Menasting",
+      "number": -1,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Unstoppable_Stinger_Menasting",
+      "code": "BOSS_DarkScorpion"
+    },
+    {
+      "slug": "Unyielding_Colossus_Warsect",
+      "name": "Unyielding_Colossus_Warsect",
+      "number": -1,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Unyielding_Colossus_Warsect",
+      "code": "BOSS_HerculesBeetle"
+    },
+    {
+      "slug": "Vagrant_Warrior_Bushi",
+      "name": "Vagrant_Warrior_Bushi",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Vagrant_Warrior_Bushi",
+      "code": "BOSS_Ronin"
+    },
+    {
+      "slug": "Voice_of_the_Violets_Vaelet",
+      "name": "Voice_of_the_Violets_Vaelet",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Voice_of_the_Violets_Vaelet",
+      "code": "BOSS_VioletFairy"
+    },
+    {
+      "slug": "Volcanic_Emperor_Jormuntide_Ignis",
+      "name": "Volcanic_Emperor_Jormuntide_Ignis",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Volcanic_Emperor_Jormuntide_Ignis",
+      "code": "BOSS_Umihebi_Fire"
+    },
+    {
+      "slug": "Volcano_Thug_Gobfin_Ignis",
+      "name": "Volcano_Thug_Gobfin_Ignis",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Volcano_Thug_Gobfin_Ignis",
+      "code": "BOSS_SharkKid_Fire"
+    },
+    {
+      "slug": "Walking_Farm_Caprity",
+      "name": "Walking_Farm_Caprity",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Walking_Farm_Caprity",
+      "code": "BOSS_BerryGoat"
+    },
+    {
+      "slug": "Walking_Refrigerator_Munchill",
+      "name": "Walking_Refrigerator_Munchill",
+      "number": -1,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Walking_Refrigerator_Munchill",
+      "code": "BOSS_IceCrocodile"
+    },
+    {
+      "slug": "Wanderer_of_the_Forest_Mossanda",
+      "name": "Wanderer_of_the_Forest_Mossanda",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Wanderer_of_the_Forest_Mossanda",
+      "code": "BOSS_GrassPanda"
+    },
+    {
+      "slug": "Watch_Your_Feet!_Jolthog_Cryst",
+      "name": "Watch_Your_Feet!_Jolthog_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Watch_Your_Feet%21_Jolthog_Cryst",
+      "code": "BOSS_Hedgehog_Ice"
+    },
+    {
+      "slug": "WaterLizard",
+      "name": "WaterLizard",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/WaterLizard",
+      "code": "WaterLizard"
+    },
+    {
+      "slug": "Water_God_Shaolong",
+      "name": "Water_God_Shaolong",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Water_God_Shaolong",
+      "code": "BOSS_BlueSkyDragon"
+    },
+    {
+      "slug": "Waves_of_Summer_Broncherry_Aqua",
+      "name": "Waves_of_Summer_Broncherry_Aqua",
+      "number": -1,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Waves_of_Summer_Broncherry_Aqua",
+      "code": "BOSS_SakuraSaurus_Water"
+    },
+    {
+      "slug": "Windborne_Seedling_Souffline",
+      "name": "Windborne_Seedling_Souffline",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Windborne_Seedling_Souffline",
+      "code": "BOSS_DandelionGirl"
+    },
+    {
+      "slug": "Winds_of_Spring_Broncherry",
+      "name": "Winds_of_Spring_Broncherry",
+      "number": -1,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Winds_of_Spring_Broncherry",
+      "code": "BOSS_SakuraSaurus"
+    },
+    {
+      "slug": "Wings_of_Distrust_Eidrolon_Ignis",
+      "name": "Wings_of_Distrust_Eidrolon_Ignis",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Wings_of_Distrust_Eidrolon_Ignis",
+      "code": "BOSS_GhostDragon_Fire"
+    },
+    {
+      "slug": "Wings_of_Freedom_Eidrolon",
+      "name": "Wings_of_Freedom_Eidrolon",
+      "number": -1,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Wings_of_Freedom_Eidrolon",
+      "code": "BOSS_GhostDragon"
+    },
+    {
+      "slug": "Wings_of_Frost_Beakon_Cryst",
+      "name": "Wings_of_Frost_Beakon_Cryst",
+      "number": -1,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Wings_of_Frost_Beakon_Cryst",
+      "code": "BOSS_ThunderBird_Ice"
+    },
+    {
+      "slug": "Wings_of_Inferno_Ragnahawk",
+      "name": "Wings_of_Inferno_Ragnahawk",
+      "number": -1,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Wings_of_Inferno_Ragnahawk",
+      "code": "BOSS_RedArmorBird"
+    },
+    {
+      "slug": "Wings_of_The_Underworld_Helzephyr",
+      "name": "Wings_of_The_Underworld_Helzephyr",
+      "number": -1,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Wings_of_The_Underworld_Helzephyr",
+      "code": "BOSS_HadesBird"
+    },
+    {
+      "slug": "Woodland_Ruffian_Rushoar",
+      "name": "Woodland_Ruffian_Rushoar",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Woodland_Ruffian_Rushoar",
+      "code": "BOSS_Boar"
+    },
+    {
+      "slug": "Zealous_Alpha_Pupperai",
+      "name": "Zealous_Alpha_Pupperai",
+      "number": -1,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Zealous_Alpha_Pupperai",
+      "code": "BOSS_SamuraiDog"
+    },
+    {
+      "slug": "[Master]_Moon_Lord",
+      "name": "[Master]_Moon_Lord",
+      "number": -1,
+      "elements": [],
+      "page": "https://paldb.cc/en/%5BMaster%5D_Moon_Lord",
+      "code": "RAID_YakushimaBoss002_2"
+    },
+    {
+      "slug": "_Astralym",
+      "name": "_Astralym",
+      "number": -1,
+      "elements": [],
+      "page": "https://paldb.cc/en/_Astralym",
+      "code": "BOSS_WorldTreeDragon"
+    },
+    {
+      "slug": "_Unidentified_Pal",
+      "name": "_Unidentified_Pal",
+      "number": -1,
+      "elements": [
+        "Normal",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/_Unidentified_Pal",
+      "code": "BOSS_StrawHatCat"
+    },
+    {
+      "slug": "Lamball",
+      "name": "Lamball",
+      "number": 1,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Lamball",
+      "code": "SheepBall"
+    },
+    {
+      "slug": "Cattiva",
+      "name": "Cattiva",
+      "number": 2,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Cattiva",
+      "code": "PinkCat"
+    },
+    {
+      "slug": "Chikipi",
+      "name": "Chikipi",
+      "number": 3,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Chikipi",
+      "code": "ChickenPal"
+    },
+    {
+      "slug": "Lifmunk",
+      "name": "Lifmunk",
+      "number": 4,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Lifmunk",
+      "code": "Carbunclo"
+    },
+    {
+      "slug": "Fuack",
+      "name": "Fuack",
+      "number": 5,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Fuack",
+      "code": "BluePlatypus"
+    },
+    {
+      "slug": "Fuack_Ignis",
+      "name": "Fuack_Ignis",
+      "number": 5,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Fuack_Ignis",
+      "code": "BluePlatypus_Fire"
+    },
+    {
+      "slug": "Vixy",
+      "name": "Vixy",
+      "number": 6,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Vixy",
+      "code": "CuteFox"
+    },
+    {
+      "slug": "Celaray",
+      "name": "Celaray",
+      "number": 7,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Celaray",
+      "code": "FlyingManta"
+    },
+    {
+      "slug": "Celaray_Lux",
+      "name": "Celaray_Lux",
+      "number": 7,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Celaray_Lux",
+      "code": "FlyingManta_Thunder"
+    },
+    {
+      "slug": "Cremis",
+      "name": "Cremis",
+      "number": 8,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Cremis",
+      "code": "WoolFox"
+    },
+    {
+      "slug": "Croajiro",
+      "name": "Croajiro",
+      "number": 9,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Croajiro",
+      "code": "KendoFrog"
+    },
+    {
+      "slug": "Croajiro_Noct",
+      "name": "Croajiro_Noct",
+      "number": 9,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Croajiro_Noct",
+      "code": "KendoFrog_Dark"
+    },
+    {
+      "slug": "Herbil",
+      "name": "Herbil",
+      "number": 10,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Herbil",
+      "code": "LeafMomonga"
+    },
+    {
+      "slug": "Teafant",
+      "name": "Teafant",
+      "number": 11,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Teafant",
+      "code": "Ganesha"
+    },
+    {
+      "slug": "Gumoss",
+      "name": "Gumoss",
+      "number": 12,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gumoss",
+      "code": "PlantSlime"
+    },
+    {
+      "slug": "Pupperai",
+      "name": "Pupperai",
+      "number": 13,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Pupperai",
+      "code": "SamuraiDog"
+    },
+    {
+      "slug": "Clovee",
+      "name": "Clovee",
+      "number": 14,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Clovee",
+      "code": "CloverFairy"
+    },
+    {
+      "slug": "Jolthog",
+      "name": "Jolthog",
+      "number": 15,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Jolthog",
+      "code": "Hedgehog"
+    },
+    {
+      "slug": "Jolthog_Cryst",
+      "name": "Jolthog_Cryst",
+      "number": 15,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Jolthog_Cryst",
+      "code": "Hedgehog_Ice"
+    },
+    {
+      "slug": "Depresso",
+      "name": "Depresso",
+      "number": 16,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Depresso",
+      "code": "NegativeKoala"
+    },
+    {
+      "slug": "Pengullet",
+      "name": "Pengullet",
+      "number": 17,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Pengullet",
+      "code": "Penguin"
+    },
+    {
+      "slug": "Pengullet_Lux",
+      "name": "Pengullet_Lux",
+      "number": 17,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Pengullet_Lux",
+      "code": "Penguin_Electric"
+    },
+    {
+      "slug": "Penking",
+      "name": "Penking",
+      "number": 18,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Penking",
+      "code": "CaptainPenguin"
+    },
+    {
+      "slug": "Penking_Lux",
+      "name": "Penking_Lux",
+      "number": 18,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Penking_Lux",
+      "code": "CaptainPenguin_Black"
+    },
+    {
+      "slug": "Hoocrates",
+      "name": "Hoocrates",
+      "number": 19,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Hoocrates",
+      "code": "WizardOwl"
+    },
+    {
+      "slug": "Kingpaca",
+      "name": "Kingpaca",
+      "number": 21,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Kingpaca",
+      "code": "KingAlpaca"
+    },
+    {
+      "slug": "Kingpaca_Cryst",
+      "name": "Kingpaca_Cryst",
+      "number": 21,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Kingpaca_Cryst",
+      "code": "KingAlpaca_Ice"
+    },
+    {
+      "slug": "Daedream",
+      "name": "Daedream",
+      "number": 22,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Daedream",
+      "code": "DreamDemon"
+    },
+    {
+      "slug": "Tanzee",
+      "name": "Tanzee",
+      "number": 23,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Tanzee",
+      "code": "Monkey"
+    },
+    {
+      "slug": "Tanzee_Ignis",
+      "name": "Tanzee_Ignis",
+      "number": 23,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Tanzee_Ignis",
+      "code": "Monkey_Fire"
+    },
+    {
+      "slug": "Nox",
+      "name": "Nox",
+      "number": 24,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Nox",
+      "code": "NightFox"
+    },
+    {
+      "slug": "Flambelle",
+      "name": "Flambelle",
+      "number": 25,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Flambelle",
+      "code": "LavaGirl"
+    },
+    {
+      "slug": "Rooby",
+      "name": "Rooby",
+      "number": 26,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Rooby",
+      "code": "FlameBambi"
+    },
+    {
+      "slug": "Mau",
+      "name": "Mau",
+      "number": 27,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Mau",
+      "code": "Bastet"
+    },
+    {
+      "slug": "Mau_Cryst",
+      "name": "Mau_Cryst",
+      "number": 27,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Mau_Cryst",
+      "code": "Bastet_Ice"
+    },
+    {
+      "slug": "Rushoar",
+      "name": "Rushoar",
+      "number": 28,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Rushoar",
+      "code": "Boar"
+    },
+    {
+      "slug": "Foxparks",
+      "name": "Foxparks",
+      "number": 29,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Foxparks",
+      "code": "Kitsunebi"
+    },
+    {
+      "slug": "Foxparks_Cryst",
+      "name": "Foxparks_Cryst",
+      "number": 29,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Foxparks_Cryst",
+      "code": "Kitsunebi_Ice"
+    },
+    {
+      "slug": "Killamari",
+      "name": "Killamari",
+      "number": 30,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Killamari",
+      "code": "NegativeOctopus"
+    },
+    {
+      "slug": "Killamari_Primo",
+      "name": "Killamari_Primo",
+      "number": 30,
+      "elements": [
+        "Normal",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Killamari_Primo",
+      "code": "NegativeOctopus_Neutral"
+    },
+    {
+      "slug": "Fuddler",
+      "name": "Fuddler",
+      "number": 31,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Fuddler",
+      "code": "CuteMole"
+    },
+    {
+      "slug": "Eikthyrdeer",
+      "name": "Eikthyrdeer",
+      "number": 32,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Eikthyrdeer",
+      "code": "Deer"
+    },
+    {
+      "slug": "Eikthyrdeer_Terra",
+      "name": "Eikthyrdeer_Terra",
+      "number": 32,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Eikthyrdeer_Terra",
+      "code": "Deer_Ground"
+    },
+    {
+      "slug": "Direhowl",
+      "name": "Direhowl",
+      "number": 33,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Direhowl",
+      "code": "Garm"
+    },
+    {
+      "slug": "Caprity",
+      "name": "Caprity",
+      "number": 34,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Caprity",
+      "code": "BerryGoat"
+    },
+    {
+      "slug": "Caprity_Noct",
+      "name": "Caprity_Noct",
+      "number": 34,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Caprity_Noct",
+      "code": "BerryGoat_Dark"
+    },
+    {
+      "slug": "Sweepa",
+      "name": "Sweepa",
+      "number": 36,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Sweepa",
+      "code": "MopKing"
+    },
+    {
+      "slug": "Turtacle",
+      "name": "Turtacle",
+      "number": 37,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Turtacle",
+      "code": "TentacleTurtle"
+    },
+    {
+      "slug": "Turtacle_Terra",
+      "name": "Turtacle_Terra",
+      "number": 37,
+      "elements": [
+        "Water",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Turtacle_Terra",
+      "code": "TentacleTurtle_Ground"
+    },
+    {
+      "slug": "Hangyu",
+      "name": "Hangyu",
+      "number": 38,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Hangyu",
+      "code": "WindChimes"
+    },
+    {
+      "slug": "Hangyu_Cryst",
+      "name": "Hangyu_Cryst",
+      "number": 38,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Hangyu_Cryst",
+      "code": "WindChimes_Ice"
+    },
+    {
+      "slug": "Woolipop",
+      "name": "Woolipop",
+      "number": 39,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Woolipop",
+      "code": "SweetsSheep"
+    },
+    {
+      "slug": "Woolipop_Terra",
+      "name": "Woolipop_Terra",
+      "number": 39,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Woolipop_Terra",
+      "code": "SweetsSheep_Ground"
+    },
+    {
+      "slug": "Mozzarina",
+      "name": "Mozzarina",
+      "number": 40,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Mozzarina",
+      "code": "CowPal"
+    },
+    {
+      "slug": "Azurobe",
+      "name": "Azurobe",
+      "number": 41,
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Azurobe",
+      "code": "BlueDragon"
+    },
+    {
+      "slug": "Azurobe_Cryst",
+      "name": "Azurobe_Cryst",
+      "number": 41,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Azurobe_Cryst",
+      "code": "BlueDragon_Ice"
+    },
+    {
+      "slug": "Sparkit",
+      "name": "Sparkit",
+      "number": 42,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Sparkit",
+      "code": "ElecCat"
+    },
+    {
+      "slug": "Kelpsea",
+      "name": "Kelpsea",
+      "number": 43,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Kelpsea",
+      "code": "Kelpie"
+    },
+    {
+      "slug": "Kelpsea_Ignis",
+      "name": "Kelpsea_Ignis",
+      "number": 43,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Kelpsea_Ignis",
+      "code": "Kelpie_Fire"
+    },
+    {
+      "slug": "Ribbuny",
+      "name": "Ribbuny",
+      "number": 44,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Ribbuny",
+      "code": "PinkRabbit"
+    },
+    {
+      "slug": "Ribbuny_Botan",
+      "name": "Ribbuny_Botan",
+      "number": 44,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Ribbuny_Botan",
+      "code": "PinkRabbit_Grass"
+    },
+    {
+      "slug": "Jelliette",
+      "name": "Jelliette",
+      "number": 45,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Jelliette",
+      "code": "JellyfishFairy"
+    },
+    {
+      "slug": "Jellroy",
+      "name": "Jellroy",
+      "number": 46,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Jellroy",
+      "code": "JellyfishGhost"
+    },
+    {
+      "slug": "Amione",
+      "name": "Amione",
+      "number": 47,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Amione",
+      "code": "ClioneTwins"
+    },
+    {
+      "slug": "Gloopie",
+      "name": "Gloopie",
+      "number": 48,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Gloopie",
+      "code": "OctopusGirl"
+    },
+    {
+      "slug": "Gloopie_Primo",
+      "name": "Gloopie_Primo",
+      "number": 48,
+      "elements": [
+        "Water",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Gloopie_Primo",
+      "code": "OctopusGirl_Neutral"
+    },
+    {
+      "slug": "Galeclaw",
+      "name": "Galeclaw",
+      "number": 49,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Galeclaw",
+      "code": "Eagle"
+    },
+    {
+      "slug": "Nitewing",
+      "name": "Nitewing",
+      "number": 51,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Nitewing",
+      "code": "HawkBird"
+    },
+    {
+      "slug": "Tocotoco",
+      "name": "Tocotoco",
+      "number": 53,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Tocotoco",
+      "code": "ColorfulBird"
+    },
+    {
+      "slug": "Univolt",
+      "name": "Univolt",
+      "number": 54,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Univolt",
+      "code": "Kirin"
+    },
+    {
+      "slug": "Univolt_Cryst",
+      "name": "Univolt_Cryst",
+      "number": 54,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Univolt_Cryst",
+      "code": "Kirin_Ice"
+    },
+    {
+      "slug": "Gobfin",
+      "name": "Gobfin",
+      "number": 55,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Gobfin",
+      "code": "SharkKid"
+    },
+    {
+      "slug": "Gobfin_Ignis",
+      "name": "Gobfin_Ignis",
+      "number": 55,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Gobfin_Ignis",
+      "code": "SharkKid_Fire"
+    },
+    {
+      "slug": "Loupmoon",
+      "name": "Loupmoon",
+      "number": 56,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Loupmoon",
+      "code": "Werewolf"
+    },
+    {
+      "slug": "Loupmoon_Cryst",
+      "name": "Loupmoon_Cryst",
+      "number": 56,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Loupmoon_Cryst",
+      "code": "Werewolf_Ice"
+    },
+    {
+      "slug": "Cawgnito",
+      "name": "Cawgnito",
+      "number": 57,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Cawgnito",
+      "code": "DarkCrow"
+    },
+    {
+      "slug": "Arsox",
+      "name": "Arsox",
+      "number": 58,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Arsox",
+      "code": "FlameBuffalo"
+    },
+    {
+      "slug": "Muffly",
+      "name": "Muffly",
+      "number": 59,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Muffly",
+      "code": "FluffyBird"
+    },
+    {
+      "slug": "Bristla",
+      "name": "Bristla",
+      "number": 60,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Bristla",
+      "code": "LittleBriarRose"
+    },
+    {
+      "slug": "Cinnamoth",
+      "name": "Cinnamoth",
+      "number": 61,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Cinnamoth",
+      "code": "CuteButterfly"
+    },
+    {
+      "slug": "Puffolt",
+      "name": "Puffolt",
+      "number": 62,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Puffolt",
+      "code": "ElecPomeranian"
+    },
+    {
+      "slug": "Elphidran",
+      "name": "Elphidran",
+      "number": 63,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Elphidran",
+      "code": "FairyDragon"
+    },
+    {
+      "slug": "Elphidran_Aqua",
+      "name": "Elphidran_Aqua",
+      "number": 63,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Elphidran_Aqua",
+      "code": "FairyDragon_Water"
+    },
+    {
+      "slug": "Felbat",
+      "name": "Felbat",
+      "number": 65,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Felbat",
+      "code": "CatVampire"
+    },
+    {
+      "slug": "Beegarde",
+      "name": "Beegarde",
+      "number": 67,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Beegarde",
+      "code": "SoldierBee"
+    },
+    {
+      "slug": "Elizabee",
+      "name": "Elizabee",
+      "number": 68,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Elizabee",
+      "code": "QueenBee"
+    },
+    {
+      "slug": "Lovander",
+      "name": "Lovander",
+      "number": 69,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Lovander",
+      "code": "PinkLizard"
+    },
+    {
+      "slug": "Grintale",
+      "name": "Grintale",
+      "number": 70,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Grintale",
+      "code": "NaughtyCat"
+    },
+    {
+      "slug": "Tarantriss",
+      "name": "Tarantriss",
+      "number": 71,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Tarantriss",
+      "code": "PurpleSpider"
+    },
+    {
+      "slug": "Polapup",
+      "name": "Polapup",
+      "number": 72,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Polapup",
+      "code": "IceSeal"
+    },
+    {
+      "slug": "Polapup_Terra",
+      "name": "Polapup_Terra",
+      "number": 72,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Polapup_Terra",
+      "code": "IceSeal_Ground"
+    },
+    {
+      "slug": "Leezpunk",
+      "name": "Leezpunk",
+      "number": 73,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Leezpunk",
+      "code": "LizardMan"
+    },
+    {
+      "slug": "Leezpunk_Ignis",
+      "name": "Leezpunk_Ignis",
+      "number": 73,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Leezpunk_Ignis",
+      "code": "LizardMan_Fire"
+    },
+    {
+      "slug": "Gorirat",
+      "name": "Gorirat",
+      "number": 74,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Gorirat",
+      "code": "Gorilla"
+    },
+    {
+      "slug": "Gorirat_Terra",
+      "name": "Gorirat_Terra",
+      "number": 74,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gorirat_Terra",
+      "code": "Gorilla_Ground"
+    },
+    {
+      "slug": "Surfent",
+      "name": "Surfent",
+      "number": 75,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Surfent",
+      "code": "Serpent"
+    },
+    {
+      "slug": "Robinquill",
+      "name": "Robinquill",
+      "number": 76,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Robinquill",
+      "code": "RobinHood"
+    },
+    {
+      "slug": "Robinquill_Terra",
+      "name": "Robinquill_Terra",
+      "number": 76,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Robinquill_Terra",
+      "code": "RobinHood_Ground"
+    },
+    {
+      "slug": "Flopie",
+      "name": "Flopie",
+      "number": 77,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Flopie",
+      "code": "FlowerRabbit"
+    },
+    {
+      "slug": "Wixen_Noct",
+      "name": "Wixen_Noct",
+      "number": 78,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Wixen_Noct",
+      "code": "FoxMage_Dark"
+    },
+    {
+      "slug": "Katress",
+      "name": "Katress",
+      "number": 79,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Katress",
+      "code": "CatMage"
+    },
+    {
+      "slug": "Katress_Ignis",
+      "name": "Katress_Ignis",
+      "number": 79,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Katress_Ignis",
+      "code": "CatMage_Fire"
+    },
+    {
+      "slug": "Helzephyr",
+      "name": "Helzephyr",
+      "number": 80,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Helzephyr",
+      "code": "HadesBird"
+    },
+    {
+      "slug": "Helzephyr_Lux",
+      "name": "Helzephyr_Lux",
+      "number": 80,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Helzephyr_Lux",
+      "code": "HadesBird_Electric"
+    },
+    {
+      "slug": "Elgrove",
+      "name": "Elgrove",
+      "number": 81,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Elgrove",
+      "code": "GrassMinotaur"
+    },
+    {
+      "slug": "Elgrove_Cryst",
+      "name": "Elgrove_Cryst",
+      "number": 81,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Elgrove_Cryst",
+      "code": "GrassMinotaur_Ice"
+    },
+    {
+      "slug": "Lunaris",
+      "name": "Lunaris",
+      "number": 82,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Lunaris",
+      "code": "Mutant"
+    },
+    {
+      "slug": "Fenglope",
+      "name": "Fenglope",
+      "number": 83,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Fenglope",
+      "code": "FengyunDeeper"
+    },
+    {
+      "slug": "Fenglope_Lux",
+      "name": "Fenglope_Lux",
+      "number": 83,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Fenglope_Lux",
+      "code": "FengyunDeeper_Electric"
+    },
+    {
+      "slug": "Dinossom",
+      "name": "Dinossom",
+      "number": 84,
+      "elements": [
+        "Leaf",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Dinossom",
+      "code": "FlowerDinosaur"
+    },
+    {
+      "slug": "Dinossom_Lux",
+      "name": "Dinossom_Lux",
+      "number": 84,
+      "elements": [
+        "Electricity",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Dinossom_Lux",
+      "code": "FlowerDinosaur_Electric"
+    },
+    {
+      "slug": "Bushi",
+      "name": "Bushi",
+      "number": 85,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Bushi",
+      "code": "Ronin"
+    },
+    {
+      "slug": "Bushi_Noct",
+      "name": "Bushi_Noct",
+      "number": 85,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Bushi_Noct",
+      "code": "Ronin_Dark"
+    },
+    {
+      "slug": "Munchill",
+      "name": "Munchill",
+      "number": 86,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Munchill",
+      "code": "IceCrocodile"
+    },
+    {
+      "slug": "Mammorest",
+      "name": "Mammorest",
+      "number": 87,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Mammorest",
+      "code": "GrassMammoth"
+    },
+    {
+      "slug": "Mammorest_Cryst",
+      "name": "Mammorest_Cryst",
+      "number": 87,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Mammorest_Cryst",
+      "code": "GrassMammoth_Ice"
+    },
+    {
+      "slug": "Finsider",
+      "name": "Finsider",
+      "number": 88,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Finsider",
+      "code": "StuffedShark"
+    },
+    {
+      "slug": "Finsider_Ignis",
+      "name": "Finsider_Ignis",
+      "number": 88,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Finsider_Ignis",
+      "code": "StuffedShark_Fire"
+    },
+    {
+      "slug": "Petallia_Ignis",
+      "name": "Petallia_Ignis",
+      "number": 89,
+      "elements": [
+        "Leaf",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Petallia_Ignis",
+      "code": "FlowerDoll_Fire"
+    },
+    {
+      "slug": "Leafan",
+      "name": "Leafan",
+      "number": 90,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Leafan",
+      "code": "PandaGirl"
+    },
+    {
+      "slug": "Incineram",
+      "name": "Incineram",
+      "number": 91,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Incineram",
+      "code": "Baphomet"
+    },
+    {
+      "slug": "Dazzi",
+      "name": "Dazzi",
+      "number": 92,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Dazzi",
+      "code": "RaijinDaughter"
+    },
+    {
+      "slug": "Dazzi_Noct",
+      "name": "Dazzi_Noct",
+      "number": 92,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Dazzi_Noct",
+      "code": "RaijinDaughter_Water"
+    },
+    {
+      "slug": "Pyrin",
+      "name": "Pyrin",
+      "number": 93,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Pyrin",
+      "code": "FireKirin"
+    },
+    {
+      "slug": "Pyrin_Noct",
+      "name": "Pyrin_Noct",
+      "number": 93,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Pyrin_Noct",
+      "code": "FireKirin_Dark"
+    },
+    {
+      "slug": "Relaxaurus_Lux",
+      "name": "Relaxaurus_Lux",
+      "number": 94,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Relaxaurus_Lux",
+      "code": "LazyDragon_Electric"
+    },
+    {
+      "slug": "Foxcicle",
+      "name": "Foxcicle",
+      "number": 95,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Foxcicle",
+      "code": "IceFox"
+    },
+    {
+      "slug": "Beakon",
+      "name": "Beakon",
+      "number": 96,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Beakon",
+      "code": "ThunderBird"
+    },
+    {
+      "slug": "Beakon_Cryst",
+      "name": "Beakon_Cryst",
+      "number": 96,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Beakon_Cryst",
+      "code": "ThunderBird_Ice"
+    },
+    {
+      "slug": "Ghangler",
+      "name": "Ghangler",
+      "number": 97,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Ghangler",
+      "code": "GhostAnglerfish"
+    },
+    {
+      "slug": "Rayhound",
+      "name": "Rayhound",
+      "number": 98,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Rayhound",
+      "code": "ThunderDog"
+    },
+    {
+      "slug": "Rayhound_Cryst",
+      "name": "Rayhound_Cryst",
+      "number": 98,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Rayhound_Cryst",
+      "code": "ThunderDog_Ice"
+    },
+    {
+      "slug": "Needoll",
+      "name": "Needoll",
+      "number": 100,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Needoll",
+      "code": "CactusDoll"
+    },
+    {
+      "slug": "Needoll_Noct",
+      "name": "Needoll_Noct",
+      "number": 100,
+      "elements": [
+        "Dark",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Needoll_Noct",
+      "code": "CactusDoll_Dark"
+    },
+    {
+      "slug": "Reindrix",
+      "name": "Reindrix",
+      "number": 101,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Reindrix",
+      "code": "IceDeer"
+    },
+    {
+      "slug": "Mossanda",
+      "name": "Mossanda",
+      "number": 102,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Mossanda",
+      "code": "GrassPanda"
+    },
+    {
+      "slug": "Mossanda_Lux",
+      "name": "Mossanda_Lux",
+      "number": 102,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Mossanda_Lux",
+      "code": "GrassPanda_Electric"
+    },
+    {
+      "slug": "Chillet",
+      "name": "Chillet",
+      "number": 103,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Chillet",
+      "code": "WeaselDragon"
+    },
+    {
+      "slug": "Chillet_Ignis",
+      "name": "Chillet_Ignis",
+      "number": 103,
+      "elements": [
+        "Fire",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Chillet_Ignis",
+      "code": "WeaselDragon_Fire"
+    },
+    {
+      "slug": "Ragnahawk",
+      "name": "Ragnahawk",
+      "number": 104,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Ragnahawk",
+      "code": "RedArmorBird"
+    },
+    {
+      "slug": "Moldron",
+      "name": "Moldron",
+      "number": 105,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Moldron",
+      "code": "VolcanoDragon"
+    },
+    {
+      "slug": "Moldron_Cryst",
+      "name": "Moldron_Cryst",
+      "number": 105,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Moldron_Cryst",
+      "code": "VolcanoDragon_Ice"
+    },
+    {
+      "slug": "Palumba",
+      "name": "Palumba",
+      "number": 106,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Palumba",
+      "code": "TropicalOstrich"
+    },
+    {
+      "slug": "Digtoise",
+      "name": "Digtoise",
+      "number": 107,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Digtoise",
+      "code": "DrillGame"
+    },
+    {
+      "slug": "Broncherry",
+      "name": "Broncherry",
+      "number": 108,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Broncherry",
+      "code": "SakuraSaurus"
+    },
+    {
+      "slug": "Broncherry_Aqua",
+      "name": "Broncherry_Aqua",
+      "number": 108,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Broncherry_Aqua",
+      "code": "SakuraSaurus_Water"
+    },
+    {
+      "slug": "Dumud",
+      "name": "Dumud",
+      "number": 109,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Dumud",
+      "code": "LazyCatfish"
+    },
+    {
+      "slug": "Dumud_Gild",
+      "name": "Dumud_Gild",
+      "number": 109,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Dumud_Gild",
+      "code": "LazyCatfish_Gold"
+    },
+    {
+      "slug": "Braloha",
+      "name": "Braloha",
+      "number": 110,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Braloha",
+      "code": "Plesiosaur"
+    },
+    {
+      "slug": "Kitsun",
+      "name": "Kitsun",
+      "number": 111,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Kitsun",
+      "code": "AmaterasuWolf"
+    },
+    {
+      "slug": "Kitsun_Noct",
+      "name": "Kitsun_Noct",
+      "number": 111,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Kitsun_Noct",
+      "code": "AmaterasuWolf_Dark"
+    },
+    {
+      "slug": "Blazehowl",
+      "name": "Blazehowl",
+      "number": 112,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazehowl",
+      "code": "Manticore"
+    },
+    {
+      "slug": "Blazehowl_Noct",
+      "name": "Blazehowl_Noct",
+      "number": 112,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Blazehowl_Noct",
+      "code": "Manticore_Dark"
+    },
+    {
+      "slug": "Warsect",
+      "name": "Warsect",
+      "number": 113,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Warsect",
+      "code": "HerculesBeetle"
+    },
+    {
+      "slug": "Warsect_Terra",
+      "name": "Warsect_Terra",
+      "number": 113,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Warsect_Terra",
+      "code": "HerculesBeetle_Ground"
+    },
+    {
+      "slug": "Frostplume",
+      "name": "Frostplume",
+      "number": 114,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frostplume",
+      "code": "SnowPeafowl"
+    },
+    {
+      "slug": "Majex",
+      "name": "Majex",
+      "number": 115,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Majex",
+      "code": "DarkFlameFox"
+    },
+    {
+      "slug": "Sibelyx",
+      "name": "Sibelyx",
+      "number": 116,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Sibelyx",
+      "code": "WhiteMoth"
+    },
+    {
+      "slug": "Sibelyx_Primo",
+      "name": "Sibelyx_Primo",
+      "number": 116,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Sibelyx_Primo",
+      "code": "WhiteMoth_Neutral"
+    },
+    {
+      "slug": "Maraith",
+      "name": "Maraith",
+      "number": 117,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Maraith",
+      "code": "GhostBeast"
+    },
+    {
+      "slug": "Shroomer",
+      "name": "Shroomer",
+      "number": 118,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Shroomer",
+      "code": "MushroomDragon"
+    },
+    {
+      "slug": "Shroomer_Noct",
+      "name": "Shroomer_Noct",
+      "number": 118,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Shroomer_Noct",
+      "code": "MushroomDragon_Dark"
+    },
+    {
+      "slug": "Gildra",
+      "name": "Gildra",
+      "number": 120,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gildra",
+      "code": "MummyPal"
+    },
+    {
+      "slug": "Jormuntide",
+      "name": "Jormuntide",
+      "number": 121,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Jormuntide",
+      "code": "Umihebi"
+    },
+    {
+      "slug": "Jormuntide_Ignis",
+      "name": "Jormuntide_Ignis",
+      "number": 121,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Jormuntide_Ignis",
+      "code": "Umihebi_Fire"
+    },
+    {
+      "slug": "Suzaku",
+      "name": "Suzaku",
+      "number": 122,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Suzaku",
+      "code": "Suzaku"
+    },
+    {
+      "slug": "Suzaku_Aqua",
+      "name": "Suzaku_Aqua",
+      "number": 122,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Suzaku_Aqua",
+      "code": "Suzaku_Water"
+    },
+    {
+      "slug": "Dazemu",
+      "name": "Dazemu",
+      "number": 123,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Dazemu",
+      "code": "FeatherOstrich"
+    },
+    {
+      "slug": "Quivern",
+      "name": "Quivern",
+      "number": 124,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Quivern",
+      "code": "SkyDragon"
+    },
+    {
+      "slug": "Quivern_Botan",
+      "name": "Quivern_Botan",
+      "number": 124,
+      "elements": [
+        "Dragon",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Quivern_Botan",
+      "code": "SkyDragon_Grass"
+    },
+    {
+      "slug": "Lullu",
+      "name": "Lullu",
+      "number": 125,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Lullu",
+      "code": "LeafPrincess"
+    },
+    {
+      "slug": "Kikit",
+      "name": "Kikit",
+      "number": 126,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Kikit",
+      "code": "SmallArmadillo"
+    },
+    {
+      "slug": "Yakumo",
+      "name": "Yakumo",
+      "number": 127,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Yakumo",
+      "code": "GuardianDog"
+    },
+    {
+      "slug": "Skutlass",
+      "name": "Skutlass",
+      "number": 128,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Skutlass",
+      "code": "SwordCutlassfish"
+    },
+    {
+      "slug": "Skutlass_Ignis",
+      "name": "Skutlass_Ignis",
+      "number": 128,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Skutlass_Ignis",
+      "code": "SwordCutlassfish_Fire"
+    },
+    {
+      "slug": "Reptyro",
+      "name": "Reptyro",
+      "number": 129,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Reptyro",
+      "code": "VolcanicMonster"
+    },
+    {
+      "slug": "Reptyro_Cryst",
+      "name": "Reptyro_Cryst",
+      "number": 129,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Reptyro_Cryst",
+      "code": "VolcanicMonster_Ice"
+    },
+    {
+      "slug": "Starryon_Primo",
+      "name": "Starryon_Primo",
+      "number": 130,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Starryon_Primo",
+      "code": "NightBlueHorse_Neutral"
+    },
+    {
+      "slug": "Pierdon",
+      "name": "Pierdon",
+      "number": 131,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Pierdon",
+      "code": "RockBeast"
+    },
+    {
+      "slug": "Pierdon_Cryst",
+      "name": "Pierdon_Cryst",
+      "number": 131,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Pierdon_Cryst",
+      "code": "RockBeast_Ice"
+    },
+    {
+      "slug": "Cryolinx",
+      "name": "Cryolinx",
+      "number": 132,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Cryolinx",
+      "code": "WhiteTiger"
+    },
+    {
+      "slug": "Cryolinx_Terra",
+      "name": "Cryolinx_Terra",
+      "number": 132,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Cryolinx_Terra",
+      "code": "WhiteTiger_Ground"
+    },
+    {
+      "slug": "Snugloo",
+      "name": "Snugloo",
+      "number": 133,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Snugloo",
+      "code": "SmallYeti"
+    },
+    {
+      "slug": "Wumpo",
+      "name": "Wumpo",
+      "number": 134,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Wumpo",
+      "code": "Yeti"
+    },
+    {
+      "slug": "Wumpo_Botan",
+      "name": "Wumpo_Botan",
+      "number": 134,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Wumpo_Botan",
+      "code": "Yeti_Grass"
+    },
+    {
+      "slug": "Sootseer",
+      "name": "Sootseer",
+      "number": 135,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Sootseer",
+      "code": "CandleGhost"
+    },
+    {
+      "slug": "Carnibora",
+      "name": "Carnibora",
+      "number": 136,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Carnibora",
+      "code": "VenusFlytrap"
+    },
+    {
+      "slug": "Blazamut",
+      "name": "Blazamut",
+      "number": 137,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazamut",
+      "code": "KingBahamut"
+    },
+    {
+      "slug": "Blazamut_Ryu",
+      "name": "Blazamut_Ryu",
+      "number": 137,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Blazamut_Ryu",
+      "code": "KingBahamut_Dragon"
+    },
+    {
+      "slug": "Dualith",
+      "name": "Dualith",
+      "number": 138,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Dualith",
+      "code": "GrassGolem"
+    },
+    {
+      "slug": "Dualith_Noct",
+      "name": "Dualith_Noct",
+      "number": 138,
+      "elements": [
+        "Earth",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dualith_Noct",
+      "code": "GrassGolem_Dark"
+    },
+    {
+      "slug": "Anubis",
+      "name": "Anubis",
+      "number": 139,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Anubis",
+      "code": "Anubis"
+    },
+    {
+      "slug": "Sekhmet",
+      "name": "Sekhmet",
+      "number": 140,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Sekhmet",
+      "code": "Sekhmet"
+    },
+    {
+      "slug": "Prixter",
+      "name": "Prixter",
+      "number": 141,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Prixter",
+      "code": "ScorpionMan"
+    },
+    {
+      "slug": "Prixter_Lux",
+      "name": "Prixter_Lux",
+      "number": 141,
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Prixter_Lux",
+      "code": "ScorpionMan_Electric"
+    },
+    {
+      "slug": "Tetroise",
+      "name": "Tetroise",
+      "number": 142,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Tetroise",
+      "code": "CubeTurtle"
+    },
+    {
+      "slug": "Tetroise_Primo",
+      "name": "Tetroise_Primo",
+      "number": 142,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Tetroise_Primo",
+      "code": "CubeTurtle_Neutral"
+    },
+    {
+      "slug": "Nyafia",
+      "name": "Nyafia",
+      "number": 143,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Nyafia",
+      "code": "BadCatgirl"
+    },
+    {
+      "slug": "Mimog",
+      "name": "Mimog",
+      "number": 144,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Mimog",
+      "code": "MimicDog"
+    },
+    {
+      "slug": "Xenovader",
+      "name": "Xenovader",
+      "number": 145,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Xenovader",
+      "code": "DarkAlien"
+    },
+    {
+      "slug": "Xenogard",
+      "name": "Xenogard",
+      "number": 146,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Xenogard",
+      "code": "WhiteAlienDragon"
+    },
+    {
+      "slug": "Prunelia",
+      "name": "Prunelia",
+      "number": 147,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Prunelia",
+      "code": "BlueberryFairy"
+    },
+    {
+      "slug": "Nitemary",
+      "name": "Nitemary",
+      "number": 148,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Nitemary",
+      "code": "GhostRabbit"
+    },
+    {
+      "slug": "Nitemary_Botan",
+      "name": "Nitemary_Botan",
+      "number": 148,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Nitemary_Botan",
+      "code": "GhostRabbit_Grass"
+    },
+    {
+      "slug": "Smokie",
+      "name": "Smokie",
+      "number": 149,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Smokie",
+      "code": "BlackPuppy"
+    },
+    {
+      "slug": "Smokie_Cryst",
+      "name": "Smokie_Cryst",
+      "number": 149,
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Smokie_Cryst",
+      "code": "BlackPuppy_Ice"
+    },
+    {
+      "slug": "Omascul",
+      "name": "Omascul",
+      "number": 150,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Omascul",
+      "code": "MysteryMask"
+    },
+    {
+      "slug": "Whalaska_Ignis",
+      "name": "Whalaska_Ignis",
+      "number": 151,
+      "elements": [
+        "Ice",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Whalaska_Ignis",
+      "code": "IceNarwhal_Fire"
+    },
+    {
+      "slug": "Splatterina",
+      "name": "Splatterina",
+      "number": 153,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Splatterina",
+      "code": "GrimGirl"
+    },
+    {
+      "slug": "Gildane",
+      "name": "Gildane",
+      "number": 154,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Gildane",
+      "code": "GoldenHorse"
+    },
+    {
+      "slug": "Dogen",
+      "name": "Dogen",
+      "number": 155,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Dogen",
+      "code": "SifuDog"
+    },
+    {
+      "slug": "Bulldosu",
+      "name": "Bulldosu",
+      "number": 156,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Bulldosu",
+      "code": "SumoDog"
+    },
+    {
+      "slug": "Celesdir",
+      "name": "Celesdir",
+      "number": 157,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Celesdir",
+      "code": "WhiteDeer"
+    },
+    {
+      "slug": "Celesdir_Noct",
+      "name": "Celesdir_Noct",
+      "number": 157,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Celesdir_Noct",
+      "code": "WhiteDeer_Dark"
+    },
+    {
+      "slug": "Astegon",
+      "name": "Astegon",
+      "number": 158,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Astegon",
+      "code": "BlackMetalDragon"
+    },
+    {
+      "slug": "Knocklem",
+      "name": "Knocklem",
+      "number": 159,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Knocklem",
+      "code": "WingGolem"
+    },
+    {
+      "slug": "Knocklem_Ignis",
+      "name": "Knocklem_Ignis",
+      "number": 159,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Knocklem_Ignis",
+      "code": "WingGolem_Fire"
+    },
+    {
+      "slug": "Silvegis",
+      "name": "Silvegis",
+      "number": 160,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Silvegis",
+      "code": "WhiteShieldDragon"
+    },
+    {
+      "slug": "Azurmane",
+      "name": "Azurmane",
+      "number": 161,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Azurmane",
+      "code": "BlueThunderHorse"
+    },
+    {
+      "slug": "Snock",
+      "name": "Snock",
+      "number": 163,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Snock",
+      "code": "ElecSnail"
+    },
+    {
+      "slug": "Souffline",
+      "name": "Souffline",
+      "number": 164,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Souffline",
+      "code": "DandelionGirl"
+    },
+    {
+      "slug": "Lapiron",
+      "name": "Lapiron",
+      "number": 165,
+      "elements": [
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Lapiron",
+      "code": "BrownRabbit"
+    },
+    {
+      "slug": "Hoodle",
+      "name": "Hoodle",
+      "number": 166,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Hoodle",
+      "code": "HoodGhost"
+    },
+    {
+      "slug": "Slowatt",
+      "name": "Slowatt",
+      "number": 167,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Slowatt",
+      "code": "ElecLizard"
+    },
+    {
+      "slug": "Bakemi",
+      "name": "Bakemi",
+      "number": 168,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Bakemi",
+      "code": "OniGhostGirl"
+    },
+    {
+      "slug": "Solmora",
+      "name": "Solmora",
+      "number": 169,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Solmora",
+      "code": "KingSunfish"
+    },
+    {
+      "slug": "Solmora_Lux",
+      "name": "Solmora_Lux",
+      "number": 169,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Solmora_Lux",
+      "code": "KingSunfish_Thunder"
+    },
+    {
+      "slug": "Lapure",
+      "name": "Lapure",
+      "number": 170,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Lapure",
+      "code": "SleeveRabbit"
+    },
+    {
+      "slug": "Eidrolon",
+      "name": "Eidrolon",
+      "number": 171,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Eidrolon",
+      "code": "GhostDragon"
+    },
+    {
+      "slug": "Eidrolon_Ignis",
+      "name": "Eidrolon_Ignis",
+      "number": 171,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Eidrolon_Ignis",
+      "code": "GhostDragon_Fire"
+    },
+    {
+      "slug": "Dynamoff",
+      "name": "Dynamoff",
+      "number": 172,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Dynamoff",
+      "code": "ThunderFluffyBird"
+    },
+    {
+      "slug": "Tropicaw",
+      "name": "Tropicaw",
+      "number": 173,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Tropicaw",
+      "code": "RedFlowerBird"
+    },
+    {
+      "slug": "Flaracle",
+      "name": "Flaracle",
+      "number": 174,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Flaracle",
+      "code": "FoxExorcist"
+    },
+    {
+      "slug": "Ophydia",
+      "name": "Ophydia",
+      "number": 175,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Ophydia",
+      "code": "LotusDragon"
+    },
+    {
+      "slug": "Dupin",
+      "name": "Dupin",
+      "number": 176,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Dupin",
+      "code": "ClownRabbit"
+    },
+    {
+      "slug": "Roujay",
+      "name": "Roujay",
+      "number": 177,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Roujay",
+      "code": "ThiefBird"
+    },
+    {
+      "slug": "Venusa",
+      "name": "Venusa",
+      "number": 178,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Venusa",
+      "code": "SnakeGirl"
+    },
+    {
+      "slug": "Mycora",
+      "name": "Mycora",
+      "number": 179,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Mycora",
+      "code": "MushroomLady"
+    },
+    {
+      "slug": "Loomen",
+      "name": "Loomen",
+      "number": 180,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Loomen",
+      "code": "LanternButler"
+    },
+    {
+      "slug": "Wistella",
+      "name": "Wistella",
+      "number": 181,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Wistella",
+      "code": "MoonChild"
+    },
+    {
+      "slug": "Solenne",
+      "name": "Solenne",
+      "number": 182,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Solenne",
+      "code": "MonochromeQueen"
+    },
+    {
+      "slug": "Aegidron",
+      "name": "Aegidron",
+      "number": 184,
+      "elements": [
+        "Dragon",
+        "Earth"
+      ],
+      "page": "https://paldb.cc/en/Aegidron",
+      "code": "DomeArmorDragon"
+    },
+    {
+      "slug": "Grizzbolt",
+      "name": "Grizzbolt",
+      "number": 185,
+      "elements": [
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Grizzbolt",
+      "code": "ElecPanda"
+    },
+    {
+      "slug": "Lyleen",
+      "name": "Lyleen",
+      "number": 186,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Lyleen",
+      "code": "LilyQueen"
+    },
+    {
+      "slug": "Lyleen_Noct",
+      "name": "Lyleen_Noct",
+      "number": 186,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Lyleen_Noct",
+      "code": "LilyQueen_Dark"
+    },
+    {
+      "slug": "Orserk",
+      "name": "Orserk",
+      "number": 187,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "page": "https://paldb.cc/en/Orserk",
+      "code": "ThunderDragonMan"
+    },
+    {
+      "slug": "Faleris",
+      "name": "Faleris",
+      "number": 188,
+      "elements": [
+        "Fire"
+      ],
+      "page": "https://paldb.cc/en/Faleris",
+      "code": "Horus"
+    },
+    {
+      "slug": "Faleris_Aqua",
+      "name": "Faleris_Aqua",
+      "number": 188,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Faleris_Aqua",
+      "code": "Horus_Water"
+    },
+    {
+      "slug": "Shadowbeak",
+      "name": "Shadowbeak",
+      "number": 189,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Shadowbeak",
+      "code": "BlackGriffon"
+    },
+    {
+      "slug": "Selyne",
+      "name": "Selyne",
+      "number": 190,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Selyne",
+      "code": "MoonQueen"
+    },
+    {
+      "slug": "Bastigor",
+      "name": "Bastigor",
+      "number": 191,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Bastigor",
+      "code": "SnowTigerBeastman"
+    },
+    {
+      "slug": "Shaolong",
+      "name": "Shaolong",
+      "number": 192,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Shaolong",
+      "code": "BlueSkyDragon"
+    },
+    {
+      "slug": "Silvance",
+      "name": "Silvance",
+      "number": 193,
+      "elements": [
+        "Leaf"
+      ],
+      "page": "https://paldb.cc/en/Silvance",
+      "code": "Mothman"
+    },
+    {
+      "slug": "Dandilord",
+      "name": "Dandilord",
+      "number": 194,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Dandilord",
+      "code": "FlowerPrince"
+    },
+    {
+      "slug": "Bellanoir",
+      "name": "Bellanoir",
+      "number": 195,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Bellanoir",
+      "code": "NightLady"
+    },
+    {
+      "slug": "Bellanoir_Libero",
+      "name": "Bellanoir_Libero",
+      "number": 195,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Bellanoir_Libero",
+      "code": "NightLady_Dark"
+    },
+    {
+      "slug": "Xenolord",
+      "name": "Xenolord",
+      "number": 196,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Xenolord",
+      "code": "DarkMechaDragon"
+    },
+    {
+      "slug": "Hartalis",
+      "name": "Hartalis",
+      "number": 197,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Hartalis",
+      "code": "LegendDeer"
+    },
+    {
+      "slug": "Paladius",
+      "name": "Paladius",
+      "number": 198,
+      "elements": [
+        "Normal"
+      ],
+      "page": "https://paldb.cc/en/Paladius",
+      "code": "SaintCentaur"
+    },
+    {
+      "slug": "Necromus",
+      "name": "Necromus",
+      "number": 199,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Necromus",
+      "code": "BlackCentaur"
+    },
+    {
+      "slug": "Frostallion",
+      "name": "Frostallion",
+      "number": 200,
+      "elements": [
+        "Ice"
+      ],
+      "page": "https://paldb.cc/en/Frostallion",
+      "code": "IceHorse"
+    },
+    {
+      "slug": "Frostallion_Noct",
+      "name": "Frostallion_Noct",
+      "number": 200,
+      "elements": [
+        "Dark"
+      ],
+      "page": "https://paldb.cc/en/Frostallion_Noct",
+      "code": "IceHorse_Dark"
+    },
+    {
+      "slug": "Neptilius",
+      "name": "Neptilius",
+      "number": 201,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Neptilius",
+      "code": "PoseidonOrca"
+    },
+    {
+      "slug": "Jetragon",
+      "name": "Jetragon",
+      "number": 202,
+      "elements": [
+        "Dragon"
+      ],
+      "page": "https://paldb.cc/en/Jetragon",
+      "code": "JetDragon"
+    },
+    {
+      "slug": "Panthalus",
+      "name": "Panthalus",
+      "number": 203,
+      "elements": [
+        "Water"
+      ],
+      "page": "https://paldb.cc/en/Panthalus",
+      "code": "KingWhale"
+    },
+    {
+      "slug": "Astralym",
+      "name": "Astralym",
+      "number": 204,
+      "elements": [],
+      "page": "https://paldb.cc/en/Astralym",
+      "code": "WorldTreeDragon"
+    }
+  ]
+}

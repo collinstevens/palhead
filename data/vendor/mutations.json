@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-07-16T23:19:28.221692+00:00",
+  "language": "en",
+  "count": 5,
+  "source_url": "https://paldb.cc/en/Mutation",
+  "source_export": "data/raw/exports/en/Mutation.html",
+  "paragraphs": [
+    "Mutation is a new mechanic where breeding has a low chance of producing a Pal stronger than the normal breeding result. Pals born from mutated eggs have higher stats and a unique passive skill.",
+    "New cakes with special effects:",
+    "Mutation Eggs don't just hatch better versions of the parents, parent pairs produce completely different species with:",
+    "Mutation has exclusive list . Breed Self Pals, Tower Pals and Raid Boss Pals are not in the list.",
+    "Here is the current Mutation Calculator: Breed 2 Pals . The formula is derived from the results of many tests and may contain errors.",
+    "Mutation Passive Skills can be passed on to offspring through breeding. Don't work with Yakumo 's Birds of a Feather .",
+    "\"Disposable Implant\" usable at the Pal Surgery Table . It is consumed on use, but can grant more powerful passive skills."
+  ],
+  "mutation_passives": [
+    {
+      "id": "Babysitter",
+      "name": "Babysitter",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "PalEggHatchingSpeed",
+          "value": "+30%",
+          "target": "ToBuildObject"
+        },
+        {
+          "stat": "BreedSpeed_InBaseCamp",
+          "value": "+30%",
+          "target": "ToBuildObject"
+        }
+      ],
+      "description": "While at a base, increases egg production speed by +30% and incubation speed by +30% for Pals assigned to a Breeding Farm.",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Heavily Armored",
+      "name": "Heavily Armored",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "ExplosionResist",
+          "value": "+100%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Immune to Explosion Damage",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Idiosyncratic",
+      "name": "Idiosyncratic",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "AutoHPRegeneRate",
+          "value": "+50%",
+          "target": "ToSelfAndTrainer"
+        },
+        {
+          "stat": "ResistAdditionalEffect_Burn",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "ResistAdditionalEffect_Poison",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Defense",
+          "value": "+25%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Pal and Player Auto Health Regeneration Rate +50% Defense +25% Immune to Poison Damage Immune to Burn Damage",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Immortality",
+      "name": "Immortality",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "LifeSteal",
+          "value": "+5%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "AutoHPRegeneRate",
+          "value": "+100%",
+          "target": "ToSelf"
+        },
+        {
+          "stat": "Attack",
+          "value": "+15%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Life Steal +5% Pal Auto Health Regeneration Rate +100% Attack +15%",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    },
+    {
+      "id": "Skymarcher",
+      "name": "Skymarcher",
+      "rank": 4,
+      "weight": 100,
+      "modifiers": [
+        {
+          "stat": "RideJumpCount_Increase",
+          "value": "+2%",
+          "target": "ToSelf"
+        }
+      ],
+      "description": "Mounted Jump Count +2",
+      "source_url": "https://paldb.cc/en/Passive_Skills",
+      "source_export": "data/raw/exports/en/Passive_Skills.html"
+    }
+  ],
+  "bullets": [
+    "Work Suitability Kindling",
+    "MutationPal Passive Skills /5",
+    "Cake : has 1% Mutated Egg spawn rate",
+    "Mushroom Cake : Slightly increases the likelihood that newly born Pals will have higher stats.",
+    "Vegetable Cake : Produces two Pal Eggs at once. treat as 2%.",
+    "Extravagant Vegetable Cake : Increases the likelihood of mutations and makes stat growth more likely. Has 3% Mutated Egg spawn rate.",
+    "Special Cake : Increases the chance of inheriting multiple passive skills from Pal parents. Maximum of 6 passive skills can be transferred.",
+    "Hatch at 2 star condensation (12 pals worth)",
+    "High Level Skill of its type",
+    "Better Pal (based on breed value)",
+    "Work Suitability random +2",
+    "Immortality Life Steal +5%",
+    "Pal Auto Health Regeneration Rate +100%",
+    "Idiosyncratic Pal and Player Auto Health Regeneration Rate +50%",
+    "Babysitter : While at a base, increases egg production speed by +30% and incubation speed by +30% for Pals assigned to a Breeding Farm.",
+    "Heavily Armored : Immune to Explosion Damage",
+    "Skymarcher : Mounted Jump Count +2",
+    "Disposable Implant: Immortality : Immortality",
+    "Disposable Implant: Idiosyncratic : Idiosyncratic",
+    "Disposable Implant: Babysitter : Babysitter",
+    "Disposable Implant: Heavily Armored : Heavily Armored",
+    "Disposable Implant: Skymarcher : Skymarcher"
+  ]
+}

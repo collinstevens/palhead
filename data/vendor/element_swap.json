@@ -1,0 +1,192 @@
+{
+  "generated_at": "2026-07-16T23:17:15.878779+00:00",
+  "language": "en",
+  "count": 13,
+  "source_url": "https://paldb.cc/en/Element_Swap",
+  "source_export": "data/raw/exports/en/Element_Swap.html",
+  "element_swaps": [
+    {
+      "slug": "Chillet",
+      "name": "Chillet",
+      "element_swap": "Dragon",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Chillet",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Chillet_Ignis",
+      "name": "Chillet Ignis",
+      "element_swap": "Fire",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Chillet_Ignis",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Univolt",
+      "name": "Univolt",
+      "element_swap": "Electric",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Univolt",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Pyrin",
+      "name": "Pyrin",
+      "element_swap": "Fire",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Pyrin",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Pyrin_Noct",
+      "name": "Pyrin Noct",
+      "element_swap": "Dark",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Pyrin_Noct",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Kitsun_Noct",
+      "name": "Kitsun Noct",
+      "element_swap": "Dark",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Kitsun_Noct",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Maraith",
+      "name": "Maraith",
+      "element_swap": "Dark",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Maraith",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Beakon",
+      "name": "Beakon",
+      "element_swap": "Electric",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Beakon",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Ragnahawk",
+      "name": "Ragnahawk",
+      "element_swap": "Fire",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Ragnahawk",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Azurobe",
+      "name": "Azurobe",
+      "element_swap": "Water",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Azurobe",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Helzephyr",
+      "name": "Helzephyr",
+      "element_swap": "Dark",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Helzephyr",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Helzephyr_Lux",
+      "name": "Helzephyr Lux",
+      "element_swap": "Electric",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Helzephyr_Lux",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    },
+    {
+      "slug": "Gildane",
+      "name": "Gildane",
+      "element_swap": "Ground",
+      "levels": {
+        "lv1": 5,
+        "lv2": 7,
+        "lv3": 10,
+        "lv4": 14,
+        "lv5": 20
+      },
+      "source_url": "https://paldb.cc/en/Gildane",
+      "source_export": "data/raw/exports/en/Element_Swap.html"
+    }
+  ],
+  "player_attack_increase": []
+}

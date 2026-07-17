@@ -1,0 +1,4531 @@
+{
+  "generated_at": "2026-07-17T02:45:05.664301+00:00",
+  "language": "en",
+  "count": 43,
+  "merchants": [
+    {
+      "id": "Arena_Shop_1",
+      "slug": "Arena_Shop_1",
+      "name": "Arena_Shop_1",
+      "inventory": [
+        {
+          "item": "Marksman Revolver Schematic 4 1",
+          "price": "1300",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Marksman_Revolver_Schematic_4"
+        },
+        {
+          "item": "Core Eject Shotgun Schematic 4 1",
+          "price": "1300",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Core_Eject_Shotgun_Schematic_4"
+        },
+        {
+          "item": "V1 Armor Schematic 4 1",
+          "price": "1000",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "V1_Armor_Schematic_4"
+        },
+        {
+          "item": "V2 Armor Schematic 4 1",
+          "price": "1000",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "V2_Armor_Schematic_4"
+        },
+        {
+          "item": "Energy Shotgun Schematic 4 1",
+          "price": "1500",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Energy_Shotgun_Schematic_4"
+        },
+        {
+          "item": "Charge Rifle Schematic 4 1",
+          "price": "1500",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Charge_Rifle_Schematic_4"
+        },
+        {
+          "item": "Overheat Rifle Schematic 4 1",
+          "price": "1500",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Overheat_Rifle_Schematic_4"
+        },
+        {
+          "item": "Energy Shotgun Schematic 3 1",
+          "price": "600",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Energy_Shotgun_Schematic_3"
+        },
+        {
+          "item": "Charge Rifle Schematic 3 1",
+          "price": "600",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Charge_Rifle_Schematic_3"
+        },
+        {
+          "item": "Overheat Rifle Schematic 3 1",
+          "price": "600",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Overheat_Rifle_Schematic_3"
+        },
+        {
+          "item": "Kingpaca Headband 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Kingpaca_Headband"
+        },
+        {
+          "item": "Tarantriss Hat 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Tarantriss_Hat"
+        },
+        {
+          "item": "Ghangler Accessory 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ghangler_Accessory"
+        },
+        {
+          "item": "Icelyn Hat 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Icelyn_Hat"
+        },
+        {
+          "item": "Shroomer Hat 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Shroomer_Hat"
+        },
+        {
+          "item": "Splatterina Hat 1",
+          "price": "80",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Splatterina_Hat"
+        },
+        {
+          "item": "Dandilord Hat 1",
+          "price": "100",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dandilord_Hat"
+        },
+        {
+          "item": "Implant: Serenity 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Serenity"
+        },
+        {
+          "item": "Implant: Infinite Stamina 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Infinite_Stamina"
+        },
+        {
+          "item": "Implant: Runner 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Runner"
+        },
+        {
+          "item": "Implant: Ace Swimmer 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Ace_Swimmer"
+        },
+        {
+          "item": "Implant: Noble 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Noble"
+        },
+        {
+          "item": "Implant: Healing Coach 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Healing_Coach"
+        },
+        {
+          "item": "Implant: Reload Master 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Implant__Reload_Master"
+        },
+        {
+          "item": "Pal Reverser 1",
+          "price": "35",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Pal_Reverser"
+        },
+        {
+          "item": "Training Crystal 1",
+          "price": "50",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Training_Crystal"
+        },
+        {
+          "item": "Life Fruit 1",
+          "price": "100",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Life_Fruit"
+        },
+        {
+          "item": "Power Fruit 1",
+          "price": "100",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Power_Fruit"
+        },
+        {
+          "item": "Stout Fruit 1",
+          "price": "100",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Stout_Fruit"
+        },
+        {
+          "item": "Skill Fruit: Holy Burst 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Skill_Fruit__Holy_Burst"
+        },
+        {
+          "item": "Skill Fruit: Implode 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Skill_Fruit__Implode"
+        },
+        {
+          "item": "Skill Fruit: Air Blade 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Skill_Fruit__Air_Blade"
+        },
+        {
+          "item": "Dark Skill Fruit: Dark Whisp 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dark_Skill_Fruit__Dark_Whisp"
+        },
+        {
+          "item": "Dark Skill Fruit: Apocalypse 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dark_Skill_Fruit__Apocalypse"
+        },
+        {
+          "item": "Dark Skill Fruit: Poison Shower 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dark_Skill_Fruit__Poison_Shower"
+        },
+        {
+          "item": "Dragon Skill Fruit: Dragon Meteor 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dragon_Skill_Fruit__Dragon_Meteor"
+        },
+        {
+          "item": "Dragon Skill Fruit: Charge Cannon 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dragon_Skill_Fruit__Charge_Cannon"
+        },
+        {
+          "item": "Dragon Skill Fruit: Beam Slicer 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Dragon_Skill_Fruit__Beam_Slicer"
+        },
+        {
+          "item": "Ice Skill Fruit: Absolute Frost 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ice_Skill_Fruit__Absolute_Frost"
+        },
+        {
+          "item": "Ice Skill Fruit: Icicle Bullet 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ice_Skill_Fruit__Icicle_Bullet"
+        },
+        {
+          "item": "Ice Skill Fruit: Freeze Wall 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ice_Skill_Fruit__Freeze_Wall"
+        },
+        {
+          "item": "Fire Skill Fruit: Fire Ball 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Fire_Skill_Fruit__Fire_Ball"
+        },
+        {
+          "item": "Fire Skill Fruit: Volcanic Rain 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Fire_Skill_Fruit__Volcanic_Rain"
+        },
+        {
+          "item": "Fire Skill Fruit: Flame Funnel 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Fire_Skill_Fruit__Flame_Funnel"
+        },
+        {
+          "item": "Water Skill Fruit: Geyser Gush 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Water_Skill_Fruit__Geyser_Gush"
+        },
+        {
+          "item": "Water Skill Fruit: Aqua Surge 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Water_Skill_Fruit__Aqua_Surge"
+        },
+        {
+          "item": "Water Skill Fruit: Hydro Slicer 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Water_Skill_Fruit__Hydro_Slicer"
+        },
+        {
+          "item": "Electric Skill Fruit: Thunderstorm 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Electric_Skill_Fruit__Thunderstorm"
+        },
+        {
+          "item": "Thunder Skill Fruit: All Range Thunder 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Thunder_Skill_Fruit__All_Range_Thunder"
+        },
+        {
+          "item": "Electric Skill Fruit: Thunder Rain 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Electric_Skill_Fruit__Thunder_Rain"
+        },
+        {
+          "item": "Ground Skill Fruit: Rocky Impact 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ground_Skill_Fruit__Rocky_Impact"
+        },
+        {
+          "item": "Ground Skill Fruit: Sand Twister 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ground_Skill_Fruit__Sand_Twister"
+        },
+        {
+          "item": "Ground Skill Fruit: Rockburst 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Ground_Skill_Fruit__Rockburst"
+        },
+        {
+          "item": "Grass Skill Fruit: Wind Blast 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Grass_Skill_Fruit__Wind_Blast"
+        },
+        {
+          "item": "Grass Skill Fruit: Crosswind 1",
+          "price": "45",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Grass_Skill_Fruit__Crosswind"
+        },
+        {
+          "item": "Grass Skill Fruit: Reflect Leaf 1",
+          "price": "30",
+          "shop_id": "Arena_Shop_1",
+          "item_slug": "Grass_Skill_Fruit__Reflect_Leaf"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Arena_Shop_1",
+      "source_export": "data/raw/exports/en/Arena_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Arrogant_Foodie",
+      "slug": "Arrogant_Foodie",
+      "name": "Arrogant_Foodie",
+      "inventory": [],
+      "source_url": "https://paldb.cc/en/Arrogant_Foodie",
+      "source_export": "data/raw/exports/en/Arrogant_Foodie.html",
+      "from_index": "Arrogant_Foodie.html"
+    },
+    {
+      "id": "Arrogant_Gourmet",
+      "slug": "Arrogant_Gourmet",
+      "name": "Arrogant_Gourmet",
+      "inventory": [],
+      "source_url": "https://paldb.cc/en/Arrogant_Gourmet",
+      "source_export": "data/raw/exports/en/Arrogant_Gourmet.html",
+      "from_index": "Arrogant_Gourmet.html"
+    },
+    {
+      "id": "Arrogant_Pal_Critic",
+      "slug": "Arrogant_Pal_Critic",
+      "name": "Arrogant_Pal_Critic",
+      "inventory": [],
+      "source_url": "https://paldb.cc/en/Arrogant_Pal_Critic",
+      "source_export": "data/raw/exports/en/Arrogant_Pal_Critic.html",
+      "from_index": "Arrogant_Pal_Critic.html"
+    },
+    {
+      "id": "Black_Marketeer",
+      "slug": "Black_Marketeer",
+      "name": "Black_Marketeer",
+      "inventory": [
+        {
+          "item": "Gold Coin 10000–15000",
+          "price": null,
+          "shop_id": null,
+          "item_slug": "Gold_Coin"
+        },
+        {
+          "item": "Gold Key 1",
+          "price": null,
+          "shop_id": null,
+          "item_slug": "Gold_Key"
+        },
+        {
+          "item": "Lamball",
+          "price": null,
+          "shop_id": "1",
+          "item_slug": "Lamball"
+        },
+        {
+          "item": "Cattiva",
+          "price": null,
+          "shop_id": "2",
+          "item_slug": "Cattiva"
+        },
+        {
+          "item": "Chikipi",
+          "price": null,
+          "shop_id": "3",
+          "item_slug": "Chikipi"
+        },
+        {
+          "item": "Lifmunk",
+          "price": null,
+          "shop_id": "4",
+          "item_slug": "Lifmunk"
+        },
+        {
+          "item": "Fuack Ignis",
+          "price": null,
+          "shop_id": "5B",
+          "item_slug": "Fuack_Ignis"
+        },
+        {
+          "item": "Vixy",
+          "price": null,
+          "shop_id": "6",
+          "item_slug": "Vixy"
+        },
+        {
+          "item": "Cremis",
+          "price": null,
+          "shop_id": "8",
+          "item_slug": "Cremis"
+        },
+        {
+          "item": "Herbil",
+          "price": null,
+          "shop_id": "10",
+          "item_slug": "Herbil"
+        },
+        {
+          "item": "Jolthog Cryst",
+          "price": null,
+          "shop_id": "15B",
+          "item_slug": "Jolthog_Cryst"
+        },
+        {
+          "item": "Pengullet",
+          "price": null,
+          "shop_id": "17",
+          "item_slug": "Pengullet"
+        },
+        {
+          "item": "Penking",
+          "price": null,
+          "shop_id": "18",
+          "item_slug": "Penking"
+        },
+        {
+          "item": "Melpaca",
+          "price": null,
+          "shop_id": "20",
+          "item_slug": "Melpaca"
+        },
+        {
+          "item": "Kingpaca",
+          "price": null,
+          "shop_id": "21",
+          "item_slug": "Kingpaca"
+        },
+        {
+          "item": "Nox",
+          "price": null,
+          "shop_id": "24",
+          "item_slug": "Nox"
+        },
+        {
+          "item": "Flambelle",
+          "price": null,
+          "shop_id": "25",
+          "item_slug": "Flambelle"
+        },
+        {
+          "item": "Mau",
+          "price": null,
+          "shop_id": "27",
+          "item_slug": "Mau"
+        },
+        {
+          "item": "Mau Cryst",
+          "price": null,
+          "shop_id": "27B",
+          "item_slug": "Mau_Cryst"
+        },
+        {
+          "item": "Foxparks",
+          "price": null,
+          "shop_id": "29",
+          "item_slug": "Foxparks"
+        },
+        {
+          "item": "Foxparks Cryst",
+          "price": null,
+          "shop_id": "29B",
+          "item_slug": "Foxparks_Cryst"
+        },
+        {
+          "item": "Killamari",
+          "price": null,
+          "shop_id": "30",
+          "item_slug": "Killamari"
+        },
+        {
+          "item": "Fuddler",
+          "price": null,
+          "shop_id": "31",
+          "item_slug": "Fuddler"
+        },
+        {
+          "item": "Eikthyrdeer",
+          "price": null,
+          "shop_id": "32",
+          "item_slug": "Eikthyrdeer"
+        },
+        {
+          "item": "Direhowl",
+          "price": null,
+          "shop_id": "33",
+          "item_slug": "Direhowl"
+        },
+        {
+          "item": "Swee",
+          "price": null,
+          "shop_id": "35",
+          "item_slug": "Swee"
+        },
+        {
+          "item": "Sweepa",
+          "price": null,
+          "shop_id": "36",
+          "item_slug": "Sweepa"
+        },
+        {
+          "item": "Turtacle",
+          "price": null,
+          "shop_id": "37",
+          "item_slug": "Turtacle"
+        },
+        {
+          "item": "Hangyu",
+          "price": null,
+          "shop_id": "38",
+          "item_slug": "Hangyu"
+        },
+        {
+          "item": "Woolipop",
+          "price": null,
+          "shop_id": "39",
+          "item_slug": "Woolipop"
+        },
+        {
+          "item": "Kelpsea Ignis",
+          "price": null,
+          "shop_id": "43B",
+          "item_slug": "Kelpsea_Ignis"
+        },
+        {
+          "item": "Ribbuny",
+          "price": null,
+          "shop_id": "44",
+          "item_slug": "Ribbuny"
+        },
+        {
+          "item": "Galeclaw",
+          "price": null,
+          "shop_id": "49",
+          "item_slug": "Galeclaw"
+        },
+        {
+          "item": "Wispaw",
+          "price": null,
+          "shop_id": "50",
+          "item_slug": "Wispaw"
+        },
+        {
+          "item": "Nitewing",
+          "price": null,
+          "shop_id": "51",
+          "item_slug": "Nitewing"
+        },
+        {
+          "item": "Tombat",
+          "price": null,
+          "shop_id": "52",
+          "item_slug": "Tombat"
+        },
+        {
+          "item": "Tocotoco",
+          "price": null,
+          "shop_id": "53",
+          "item_slug": "Tocotoco"
+        },
+        {
+          "item": "Gobfin Ignis",
+          "price": null,
+          "shop_id": "55B",
+          "item_slug": "Gobfin_Ignis"
+        },
+        {
+          "item": "Loupmoon",
+          "price": null,
+          "shop_id": "56",
+          "item_slug": "Loupmoon"
+        },
+        {
+          "item": "Cawgnito",
+          "price": null,
+          "shop_id": "57",
+          "item_slug": "Cawgnito"
+        },
+        {
+          "item": "Arsox",
+          "price": null,
+          "shop_id": "58",
+          "item_slug": "Arsox"
+        },
+        {
+          "item": "Bristla",
+          "price": null,
+          "shop_id": "60",
+          "item_slug": "Bristla"
+        },
+        {
+          "item": "Elphidran",
+          "price": null,
+          "shop_id": "63",
+          "item_slug": "Elphidran"
+        },
+        {
+          "item": "Vanwyrm",
+          "price": null,
+          "shop_id": "64",
+          "item_slug": "Vanwyrm"
+        },
+        {
+          "item": "Felbat",
+          "price": null,
+          "shop_id": "65",
+          "item_slug": "Felbat"
+        },
+        {
+          "item": "Vaelet",
+          "price": null,
+          "shop_id": "66",
+          "item_slug": "Vaelet"
+        },
+        {
+          "item": "Beegarde",
+          "price": null,
+          "shop_id": "67",
+          "item_slug": "Beegarde"
+        },
+        {
+          "item": "Lovander",
+          "price": null,
+          "shop_id": "69",
+          "item_slug": "Lovander"
+        },
+        {
+          "item": "Leezpunk",
+          "price": null,
+          "shop_id": "73",
+          "item_slug": "Leezpunk"
+        },
+        {
+          "item": "Leezpunk Ignis",
+          "price": null,
+          "shop_id": "73B",
+          "item_slug": "Leezpunk_Ignis"
+        },
+        {
+          "item": "Gorirat Terra",
+          "price": null,
+          "shop_id": "74B",
+          "item_slug": "Gorirat_Terra"
+        },
+        {
+          "item": "Surfent",
+          "price": null,
+          "shop_id": "75",
+          "item_slug": "Surfent"
+        },
+        {
+          "item": "Surfent Terra",
+          "price": null,
+          "shop_id": "75B",
+          "item_slug": "Surfent_Terra"
+        },
+        {
+          "item": "Robinquill",
+          "price": null,
+          "shop_id": "76",
+          "item_slug": "Robinquill"
+        },
+        {
+          "item": "Flopie",
+          "price": null,
+          "shop_id": "77",
+          "item_slug": "Flopie"
+        },
+        {
+          "item": "Wixen",
+          "price": null,
+          "shop_id": "78",
+          "item_slug": "Wixen"
+        },
+        {
+          "item": "Katress",
+          "price": null,
+          "shop_id": "79",
+          "item_slug": "Katress"
+        },
+        {
+          "item": "Helzephyr",
+          "price": null,
+          "shop_id": "80",
+          "item_slug": "Helzephyr"
+        },
+        {
+          "item": "Elgrove",
+          "price": null,
+          "shop_id": "81",
+          "item_slug": "Elgrove"
+        },
+        {
+          "item": "Lunaris",
+          "price": null,
+          "shop_id": "82",
+          "item_slug": "Lunaris"
+        },
+        {
+          "item": "Dinossom",
+          "price": null,
+          "shop_id": "84",
+          "item_slug": "Dinossom"
+        },
+        {
+          "item": "Dinossom Lux",
+          "price": null,
+          "shop_id": "84B",
+          "item_slug": "Dinossom_Lux"
+        },
+        {
+          "item": "Bushi",
+          "price": null,
+          "shop_id": "85",
+          "item_slug": "Bushi"
+        },
+        {
+          "item": "Mammorest",
+          "price": null,
+          "shop_id": "87",
+          "item_slug": "Mammorest"
+        },
+        {
+          "item": "Mammorest Cryst",
+          "price": null,
+          "shop_id": "87B",
+          "item_slug": "Mammorest_Cryst"
+        },
+        {
+          "item": "Petallia",
+          "price": null,
+          "shop_id": "89",
+          "item_slug": "Petallia"
+        },
+        {
+          "item": "Incineram",
+          "price": null,
+          "shop_id": "91",
+          "item_slug": "Incineram"
+        },
+        {
+          "item": "Incineram Noct",
+          "price": null,
+          "shop_id": "91B",
+          "item_slug": "Incineram_Noct"
+        },
+        {
+          "item": "Dazzi",
+          "price": null,
+          "shop_id": "92",
+          "item_slug": "Dazzi"
+        },
+        {
+          "item": "Pyrin",
+          "price": null,
+          "shop_id": "93",
+          "item_slug": "Pyrin"
+        },
+        {
+          "item": "Relaxaurus",
+          "price": null,
+          "shop_id": "94",
+          "item_slug": "Relaxaurus"
+        },
+        {
+          "item": "Relaxaurus Lux",
+          "price": null,
+          "shop_id": "94B",
+          "item_slug": "Relaxaurus_Lux"
+        },
+        {
+          "item": "Foxcicle",
+          "price": null,
+          "shop_id": "95",
+          "item_slug": "Foxcicle"
+        },
+        {
+          "item": "Beakon",
+          "price": null,
+          "shop_id": "96",
+          "item_slug": "Beakon"
+        },
+        {
+          "item": "Menasting",
+          "price": null,
+          "shop_id": "99",
+          "item_slug": "Menasting"
+        },
+        {
+          "item": "Needoll",
+          "price": null,
+          "shop_id": "100",
+          "item_slug": "Needoll"
+        },
+        {
+          "item": "Mossanda",
+          "price": null,
+          "shop_id": "102",
+          "item_slug": "Mossanda"
+        },
+        {
+          "item": "Chillet",
+          "price": null,
+          "shop_id": "103",
+          "item_slug": "Chillet"
+        },
+        {
+          "item": "Ragnahawk",
+          "price": null,
+          "shop_id": "104",
+          "item_slug": "Ragnahawk"
+        },
+        {
+          "item": "Moldron",
+          "price": null,
+          "shop_id": "105",
+          "item_slug": "Moldron"
+        },
+        {
+          "item": "Palumba",
+          "price": null,
+          "shop_id": "106",
+          "item_slug": "Palumba"
+        },
+        {
+          "item": "Digtoise",
+          "price": null,
+          "shop_id": "107",
+          "item_slug": "Digtoise"
+        },
+        {
+          "item": "Dumud",
+          "price": null,
+          "shop_id": "109",
+          "item_slug": "Dumud"
+        },
+        {
+          "item": "Blazehowl",
+          "price": null,
+          "shop_id": "112",
+          "item_slug": "Blazehowl"
+        },
+        {
+          "item": "Warsect",
+          "price": null,
+          "shop_id": "113",
+          "item_slug": "Warsect"
+        },
+        {
+          "item": "Maraith",
+          "price": null,
+          "shop_id": "117",
+          "item_slug": "Maraith"
+        },
+        {
+          "item": "Icelyn",
+          "price": null,
+          "shop_id": "119",
+          "item_slug": "Icelyn"
+        },
+        {
+          "item": "Gildra",
+          "price": null,
+          "shop_id": "120",
+          "item_slug": "Gildra"
+        },
+        {
+          "item": "Dazemu",
+          "price": null,
+          "shop_id": "123",
+          "item_slug": "Dazemu"
+        },
+        {
+          "item": "Quivern",
+          "price": null,
+          "shop_id": "124",
+          "item_slug": "Quivern"
+        },
+        {
+          "item": "Cryolinx",
+          "price": null,
+          "shop_id": "132",
+          "item_slug": "Cryolinx"
+        },
+        {
+          "item": "Wumpo",
+          "price": null,
+          "shop_id": "134",
+          "item_slug": "Wumpo"
+        },
+        {
+          "item": "Dualith",
+          "price": null,
+          "shop_id": "138",
+          "item_slug": "Dualith"
+        },
+        {
+          "item": "Sekhmet",
+          "price": null,
+          "shop_id": "140",
+          "item_slug": "Sekhmet"
+        },
+        {
+          "item": "10000–15000",
+          "price": null,
+          "shop_id": null,
+          "item_slug": null
+        },
+        {
+          "item": "1",
+          "price": null,
+          "shop_id": null,
+          "item_slug": null
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Black_Marketeer",
+      "source_export": "data/raw/exports/en/Black_Marketeer.html",
+      "from_index": "Black_Marketeer.html"
+    },
+    {
+      "id": "Bounty_Shop_1",
+      "slug": "Bounty_Shop_1",
+      "name": "Bounty_Shop_1",
+      "inventory": [
+        {
+          "item": "Gold Coin 2000",
+          "price": "1",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Gold_Coin"
+        },
+        {
+          "item": "Advanced Technical Manual 1",
+          "price": "5",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Advanced_Technical_Manual"
+        },
+        {
+          "item": "Pal Reverser 1",
+          "price": "7",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Pal_Reverser"
+        },
+        {
+          "item": "Croajiro Cap 1",
+          "price": "5",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Croajiro_Cap"
+        },
+        {
+          "item": "Herbil Headband 1",
+          "price": "5",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Herbil_Headband"
+        },
+        {
+          "item": "Turtacle Cap 1",
+          "price": "5",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Turtacle_Cap"
+        },
+        {
+          "item": "Kinship Peach 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Kinship_Peach"
+        },
+        {
+          "item": "Implant: Musclehead 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Musclehead"
+        },
+        {
+          "item": "Implant: Burly Body 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Burly_Body"
+        },
+        {
+          "item": "Implant: Artisan 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Artisan"
+        },
+        {
+          "item": "Implant: Vanguard 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Vanguard"
+        },
+        {
+          "item": "Implant: Stronghold Strategist 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Stronghold_Strategist"
+        },
+        {
+          "item": "Implant: Motivational Leader 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Motivational_Leader"
+        },
+        {
+          "item": "Implant: Wellness Watcher 1",
+          "price": "15",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Implant__Wellness_Watcher"
+        },
+        {
+          "item": "Life Fruit 1",
+          "price": "25",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Life_Fruit"
+        },
+        {
+          "item": "Power Fruit 1",
+          "price": "25",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Power_Fruit"
+        },
+        {
+          "item": "Stout Fruit 1",
+          "price": "25",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Stout_Fruit"
+        },
+        {
+          "item": "Ripe Starfruit 1",
+          "price": "50",
+          "shop_id": "Bounty_Shop_1",
+          "item_slug": "Ripe_Starfruit"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Merchant",
+      "slug": "Caravan_Merchant",
+      "name": "Caravan_Merchant",
+      "inventory": [],
+      "source_url": "https://paldb.cc/en/Caravan_Merchant",
+      "source_export": "data/raw/exports/en/Caravan_Merchant.html",
+      "from_index": "Caravan_Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_1",
+      "slug": "Caravan_Shop_1",
+      "name": "Caravan_Shop_1",
+      "inventory": [
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Reinforced Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Reinforced_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Pal Sphere 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Pal_Sphere"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Venom_Gland"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_1",
+          "item_slug": "Horn"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_1",
+      "source_export": "data/raw/exports/en/Caravan_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_10",
+      "slug": "Caravan_Shop_10",
+      "name": "Caravan_Shop_10",
+      "inventory": [
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Rocket Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Rocket_Ammo"
+        },
+        {
+          "item": "Flamethrower Fuel 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_10",
+          "item_slug": "Flamethrower_Fuel"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_10",
+      "source_export": "data/raw/exports/en/Caravan_Shop_10.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_11",
+      "slug": "Caravan_Shop_11",
+      "name": "Caravan_Shop_11",
+      "inventory": [
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Rocket Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Rocket_Ammo"
+        },
+        {
+          "item": "Flamethrower Fuel 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Flamethrower_Fuel"
+        },
+        {
+          "item": "Missile Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Missile_Ammo"
+        },
+        {
+          "item": "Grenade Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Grenade_Ammo"
+        },
+        {
+          "item": "Gatling Gun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Gatling_Gun_Ammo"
+        },
+        {
+          "item": "Meteorite Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Meteorite_Ammo"
+        },
+        {
+          "item": "Plasma Cartridge 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Plasma_Cartridge"
+        },
+        {
+          "item": "Laser Gatling Cartridge 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Laser_Gatling_Cartridge"
+        },
+        {
+          "item": "Charge Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Charge_Rifle_Ammo"
+        },
+        {
+          "item": "Overheat Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Overheat_Rifle_Ammo"
+        },
+        {
+          "item": "Energy Shotgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Energy_Shotgun_Ammo"
+        },
+        {
+          "item": "Boost Gun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Boost_Gun_Ammo"
+        },
+        {
+          "item": "Beam Scatter Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Beam_Scatter_Ammo"
+        },
+        {
+          "item": "Plasma Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Plasma_Rifle_Ammo"
+        },
+        {
+          "item": "Beam Launcher Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Beam_Launcher_Ammo"
+        },
+        {
+          "item": "Mechanical Bow Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Mechanical_Bow_Ammo"
+        },
+        {
+          "item": "Combat SMG Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Combat_SMG_Ammo"
+        },
+        {
+          "item": "Prototype Shotgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Prototype_Shotgun_Ammo"
+        },
+        {
+          "item": "Heavy Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Heavy_Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Tactical Grenade Launcher Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Tactical_Grenade_Launcher_Ammo"
+        },
+        {
+          "item": "Energy Cartridge 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Energy_Cartridge"
+        },
+        {
+          "item": "Reinforced Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Reinforced_Arrow"
+        },
+        {
+          "item": "Advanced Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_11",
+          "item_slug": "Advanced_Arrow"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_11",
+      "source_export": "data/raw/exports/en/Caravan_Shop_11.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_12",
+      "slug": "Caravan_Shop_12",
+      "name": "Caravan_Shop_12",
+      "inventory": [
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_12",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_12",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_12",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_12",
+          "item_slug": "Wheat"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_12",
+      "source_export": "data/raw/exports/en/Caravan_Shop_12.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_13",
+      "slug": "Caravan_Shop_13",
+      "name": "Caravan_Shop_13",
+      "inventory": [
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Tomato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Tomato_Seeds"
+        },
+        {
+          "item": "Tomato 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Tomato"
+        },
+        {
+          "item": "Lettuce 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Lettuce"
+        },
+        {
+          "item": "Lettuce Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_13",
+          "item_slug": "Lettuce_Seeds"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_13",
+      "source_export": "data/raw/exports/en/Caravan_Shop_13.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_14",
+      "slug": "Caravan_Shop_14",
+      "name": "Caravan_Shop_14",
+      "inventory": [
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Tomato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Tomato_Seeds"
+        },
+        {
+          "item": "Tomato 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Tomato"
+        },
+        {
+          "item": "Lettuce 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Lettuce"
+        },
+        {
+          "item": "Lettuce Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Lettuce_Seeds"
+        },
+        {
+          "item": "Mushroom 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Mushroom"
+        },
+        {
+          "item": "Cavern Mushroom 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Cavern_Mushroom"
+        },
+        {
+          "item": "Mysterious Mushroom 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Mysterious_Mushroom"
+        },
+        {
+          "item": "Potato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Potato_Seeds"
+        },
+        {
+          "item": "Potato 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Potato"
+        },
+        {
+          "item": "Carrot Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Carrot_Seeds"
+        },
+        {
+          "item": "Carrot 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Carrot"
+        },
+        {
+          "item": "Onion Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Onion_Seeds"
+        },
+        {
+          "item": "Onion 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_14",
+          "item_slug": "Onion"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_14",
+      "source_export": "data/raw/exports/en/Caravan_Shop_14.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_15",
+      "slug": "Caravan_Shop_15",
+      "name": "Caravan_Shop_15",
+      "inventory": [
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_15",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Suspicious Juice 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_15",
+          "item_slug": "Suspicious_Juice"
+        },
+        {
+          "item": "Low Quality Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_15",
+          "item_slug": "Low_Quality_Recovery_Meds"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_15",
+      "source_export": "data/raw/exports/en/Caravan_Shop_15.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_16",
+      "slug": "Caravan_Shop_16",
+      "name": "Caravan_Shop_16",
+      "inventory": [
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Suspicious Juice 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Suspicious_Juice"
+        },
+        {
+          "item": "Low Quality Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Low_Quality_Recovery_Meds"
+        },
+        {
+          "item": "Strange Juice 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Strange_Juice"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_16",
+          "item_slug": "Recovery_Meds"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_16",
+      "source_export": "data/raw/exports/en/Caravan_Shop_16.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_17",
+      "slug": "Caravan_Shop_17",
+      "name": "Caravan_Shop_17",
+      "inventory": [
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Suspicious Juice 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Suspicious_Juice"
+        },
+        {
+          "item": "Low Quality Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Low_Quality_Recovery_Meds"
+        },
+        {
+          "item": "Strange Juice 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Strange_Juice"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "Recovery_Meds"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "High_Grade_Medical_Supplies"
+        },
+        {
+          "item": "High Quality Recovery Meds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_17",
+          "item_slug": "High_Quality_Recovery_Meds"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_17",
+      "source_export": "data/raw/exports/en/Caravan_Shop_17.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_18",
+      "slug": "Caravan_Shop_18",
+      "name": "Caravan_Shop_18",
+      "inventory": [
+        {
+          "item": "Jam-Filled Bun 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_18",
+          "item_slug": "Jam-Filled_Bun"
+        },
+        {
+          "item": "Omelet 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_18",
+          "item_slug": "Omelet"
+        },
+        {
+          "item": "Marinated Mushrooms 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_18",
+          "item_slug": "Marinated_Mushrooms"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_18",
+      "source_export": "data/raw/exports/en/Caravan_Shop_18.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_19",
+      "slug": "Caravan_Shop_19",
+      "name": "Caravan_Shop_19",
+      "inventory": [
+        {
+          "item": "Jam-Filled Bun 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Jam-Filled_Bun"
+        },
+        {
+          "item": "Omelet 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Omelet"
+        },
+        {
+          "item": "Marinated Mushrooms 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Marinated_Mushrooms"
+        },
+        {
+          "item": "Mushroom Soup 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Mushroom_Soup"
+        },
+        {
+          "item": "Jelliette's Jiggly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Jelliettes_Jiggly_Jelly"
+        },
+        {
+          "item": "Jellroy's Jolly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_19",
+          "item_slug": "Jellroys_Jolly_Jelly"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_19",
+      "source_export": "data/raw/exports/en/Caravan_Shop_19.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_2",
+      "slug": "Caravan_Shop_2",
+      "name": "Caravan_Shop_2",
+      "inventory": [
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "Tomato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Tomato_Seeds"
+        },
+        {
+          "item": "Lettuce Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Lettuce_Seeds"
+        },
+        {
+          "item": "Potato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Potato_Seeds"
+        },
+        {
+          "item": "Carrot Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Carrot_Seeds"
+        },
+        {
+          "item": "Onion Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Onion_Seeds"
+        },
+        {
+          "item": "Tomato 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Tomato"
+        },
+        {
+          "item": "Lettuce 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Lettuce"
+        },
+        {
+          "item": "Cloth 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Cloth"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_2",
+          "item_slug": "High_Grade_Medical_Supplies"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_2",
+      "source_export": "data/raw/exports/en/Caravan_Shop_2.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_20",
+      "slug": "Caravan_Shop_20",
+      "name": "Caravan_Shop_20",
+      "inventory": [
+        {
+          "item": "Jam-Filled Bun 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Jam-Filled_Bun"
+        },
+        {
+          "item": "Omelet 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Omelet"
+        },
+        {
+          "item": "Marinated Mushrooms 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Marinated_Mushrooms"
+        },
+        {
+          "item": "Mushroom Soup 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Mushroom_Soup"
+        },
+        {
+          "item": "Jelliette's Jiggly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Jelliettes_Jiggly_Jelly"
+        },
+        {
+          "item": "Jellroy's Jolly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Jellroys_Jolly_Jelly"
+        },
+        {
+          "item": "Seafood Salad 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Seafood_Salad"
+        },
+        {
+          "item": "Eikthyrdeer Loco Moco 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Eikthyrdeer_Loco_Moco"
+        },
+        {
+          "item": "Eikthyrdeer Stew 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_20",
+          "item_slug": "Eikthyrdeer_Stew"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_20",
+      "source_export": "data/raw/exports/en/Caravan_Shop_20.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_21",
+      "slug": "Caravan_Shop_21",
+      "name": "Caravan_Shop_21",
+      "inventory": [
+        {
+          "item": "Jam-Filled Bun 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Jam-Filled_Bun"
+        },
+        {
+          "item": "Omelet 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Omelet"
+        },
+        {
+          "item": "Marinated Mushrooms 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Marinated_Mushrooms"
+        },
+        {
+          "item": "Mushroom Soup 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Mushroom_Soup"
+        },
+        {
+          "item": "Jelliette's Jiggly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Jelliettes_Jiggly_Jelly"
+        },
+        {
+          "item": "Jellroy's Jolly Jelly 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Jellroys_Jolly_Jelly"
+        },
+        {
+          "item": "Seafood Salad 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Seafood_Salad"
+        },
+        {
+          "item": "Eikthyrdeer Loco Moco 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Eikthyrdeer_Loco_Moco"
+        },
+        {
+          "item": "Eikthyrdeer Stew 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Eikthyrdeer_Stew"
+        },
+        {
+          "item": "Mammorest Curry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Mammorest_Curry"
+        },
+        {
+          "item": "Galeclaw Nikujaga 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_21",
+          "item_slug": "Galeclaw_Nikujaga"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_21",
+      "source_export": "data/raw/exports/en/Caravan_Shop_21.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_22",
+      "slug": "Caravan_Shop_22",
+      "name": "Caravan_Shop_22",
+      "inventory": [
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_22",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_22",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_22",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_22",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_22",
+          "item_slug": "Aquatic_Pal_Fluids"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_22",
+      "source_export": "data/raw/exports/en/Caravan_Shop_22.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_23",
+      "slug": "Caravan_Shop_23",
+      "name": "Caravan_Shop_23",
+      "inventory": [
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_23",
+          "item_slug": "Venom_Gland"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_23",
+      "source_export": "data/raw/exports/en/Caravan_Shop_23.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_24",
+      "slug": "Caravan_Shop_24",
+      "name": "Caravan_Shop_24",
+      "inventory": [
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Venom_Gland"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Katress Hair 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Katress_Hair"
+        },
+        {
+          "item": "Penking Plume 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Penking_Plume"
+        },
+        {
+          "item": "Tocotoco Feather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Tocotoco_Feather"
+        },
+        {
+          "item": "Gumoss Leaf 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_24",
+          "item_slug": "Gumoss_Leaf"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_24",
+      "source_export": "data/raw/exports/en/Caravan_Shop_24.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_25",
+      "slug": "Caravan_Shop_25",
+      "name": "Caravan_Shop_25",
+      "inventory": [
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Venom_Gland"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Katress Hair 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Katress_Hair"
+        },
+        {
+          "item": "Penking Plume 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Penking_Plume"
+        },
+        {
+          "item": "Tocotoco Feather 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Tocotoco_Feather"
+        },
+        {
+          "item": "Gumoss Leaf 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Gumoss_Leaf"
+        },
+        {
+          "item": "Ribbuny Ribbon 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Ribbuny_Ribbon"
+        },
+        {
+          "item": "Swee Hair 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Swee_Hair"
+        },
+        {
+          "item": "Killamari Tentacle 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Killamari_Tentacle"
+        },
+        {
+          "item": "Dazzi Cloud 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Dazzi_Cloud"
+        },
+        {
+          "item": "Leezpunk Crest 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_25",
+          "item_slug": "Leezpunk_Crest"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_25",
+      "source_export": "data/raw/exports/en/Caravan_Shop_25.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_3",
+      "slug": "Caravan_Shop_3",
+      "name": "Caravan_Shop_3",
+      "inventory": [
+        {
+          "item": "Rocket Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Rocket_Ammo"
+        },
+        {
+          "item": "Energy Cartridge 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Energy_Cartridge"
+        },
+        {
+          "item": "Flamethrower Fuel 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Flamethrower_Fuel"
+        },
+        {
+          "item": "Grenade Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Grenade_Ammo"
+        },
+        {
+          "item": "Gatling Gun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Gatling_Gun_Ammo"
+        },
+        {
+          "item": "Missile Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Missile_Ammo"
+        },
+        {
+          "item": "Potato Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Potato_Seeds"
+        },
+        {
+          "item": "Carrot Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Carrot_Seeds"
+        },
+        {
+          "item": "Onion Seeds 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Onion_Seeds"
+        },
+        {
+          "item": "High Quality Cloth 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "High_Quality_Cloth"
+        },
+        {
+          "item": "Beautiful Flower 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_3",
+          "item_slug": "Beautiful_Flower"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_3",
+      "source_export": "data/raw/exports/en/Caravan_Shop_3.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_4",
+      "slug": "Caravan_Shop_4",
+      "name": "Caravan_Shop_4",
+      "inventory": [
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_4",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_4",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_4",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Rushoar Pork 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_4",
+          "item_slug": "Rushoar_Pork"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_4",
+      "source_export": "data/raw/exports/en/Caravan_Shop_4.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_5",
+      "slug": "Caravan_Shop_5",
+      "name": "Caravan_Shop_5",
+      "inventory": [
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Rushoar Pork 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Rushoar_Pork"
+        },
+        {
+          "item": "Raw Kelpsea 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Raw_Kelpsea"
+        },
+        {
+          "item": "Raw Dumud 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Raw_Dumud"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_5",
+          "item_slug": "Milk"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_5",
+      "source_export": "data/raw/exports/en/Caravan_Shop_5.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_6",
+      "slug": "Caravan_Shop_6",
+      "name": "Caravan_Shop_6",
+      "inventory": [
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Rushoar Pork 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Rushoar_Pork"
+        },
+        {
+          "item": "Raw Kelpsea 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Raw_Kelpsea"
+        },
+        {
+          "item": "Raw Dumud 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Raw_Dumud"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Eikthyrdeer Venison 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Eikthyrdeer_Venison"
+        },
+        {
+          "item": "Reindrix Venison 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Reindrix_Venison"
+        },
+        {
+          "item": "Galeclaw Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Galeclaw_Poultry"
+        },
+        {
+          "item": "Caprity Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_6",
+          "item_slug": "Caprity_Meat"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_6",
+      "source_export": "data/raw/exports/en/Caravan_Shop_6.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_7",
+      "slug": "Caravan_Shop_7",
+      "name": "Caravan_Shop_7",
+      "inventory": [
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Rushoar Pork 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Rushoar_Pork"
+        },
+        {
+          "item": "Raw Kelpsea 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Raw_Kelpsea"
+        },
+        {
+          "item": "Raw Dumud 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Raw_Dumud"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Eikthyrdeer Venison 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Eikthyrdeer_Venison"
+        },
+        {
+          "item": "Reindrix Venison 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Reindrix_Venison"
+        },
+        {
+          "item": "Galeclaw Poultry 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Galeclaw_Poultry"
+        },
+        {
+          "item": "Caprity Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Caprity_Meat"
+        },
+        {
+          "item": "Skutlass Sashimi 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Skutlass_Sashimi"
+        },
+        {
+          "item": "Gloopie Tentacle 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Gloopie_Tentacle"
+        },
+        {
+          "item": "Jelliette Bell Flesh 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Jelliette_Bell_Flesh"
+        },
+        {
+          "item": "Jellroy Bell Flesh 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Jellroy_Bell_Flesh"
+        },
+        {
+          "item": "Munchill Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Munchill_Meat"
+        },
+        {
+          "item": "Mozzarina Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Mozzarina_Meat"
+        },
+        {
+          "item": "Broncherry Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Broncherry_Meat"
+        },
+        {
+          "item": "Mammorest Meat 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_7",
+          "item_slug": "Mammorest_Meat"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_7",
+      "source_export": "data/raw/exports/en/Caravan_Shop_7.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_8",
+      "slug": "Caravan_Shop_8",
+      "name": "Caravan_Shop_8",
+      "inventory": [
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_8",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_8",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_8",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_8",
+          "item_slug": "Coarse_Ammo"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_8",
+      "source_export": "data/raw/exports/en/Caravan_Shop_8.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Caravan_Shop_9",
+      "slug": "Caravan_Shop_9",
+      "name": "Caravan_Shop_9",
+      "inventory": [
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Caravan_Shop_9",
+          "item_slug": "Shotgun_Shell"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Caravan_Shop_9",
+      "source_export": "data/raw/exports/en/Caravan_Shop_9.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Desert_Shop_1",
+      "slug": "Desert_Shop_1",
+      "name": "Desert_Shop_1",
+      "inventory": [
+        {
+          "item": "Hardwood 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Hardwood"
+        },
+        {
+          "item": "Simple Bait 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Simple_Bait"
+        },
+        {
+          "item": "High Quality Bait 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "High_Quality_Bait"
+        },
+        {
+          "item": "Ground Skill Fruit: Sand Tornado 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Ground_Skill_Fruit__Sand_Tornado"
+        },
+        {
+          "item": "Ground Skill Fruit: Stone Cannon 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Ground_Skill_Fruit__Stone_Cannon"
+        },
+        {
+          "item": "Grass Skill Fruit: Seed Mine 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Grass_Skill_Fruit__Seed_Mine"
+        },
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "High_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Tomato 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Tomato"
+        },
+        {
+          "item": "Lettuce 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Lettuce"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Tomato Seeds 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Tomato_Seeds"
+        },
+        {
+          "item": "Lettuce Seeds 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Lettuce_Seeds"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Desert_Shop_1",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Desert_Shop_1",
+      "source_export": "data/raw/exports/en/Desert_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Desert_Shop_2",
+      "slug": "Desert_Shop_2",
+      "name": "Desert_Shop_2",
+      "inventory": [
+        {
+          "item": "Soft Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Soft_Hat_Schematic_1"
+        },
+        {
+          "item": "Silk Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Silk_Hat_Schematic_1"
+        },
+        {
+          "item": "Tricorne Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Tricorne_Schematic_1"
+        },
+        {
+          "item": "Exploration Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Exploration_Cap_Schematic_1"
+        },
+        {
+          "item": "Grinning Tocotoco Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Grinning_Tocotoco_Cap_Schematic_1"
+        },
+        {
+          "item": "Katress Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Katress_Cap_Schematic_1"
+        },
+        {
+          "item": "Leezpunk Hood Schematic 1 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Leezpunk_Hood_Schematic_1"
+        },
+        {
+          "item": "Heat Resistant Pelt Armor 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Heat_Resistant_Pelt_Armor"
+        },
+        {
+          "item": "Cold Resistant Pelt Armor 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Cold_Resistant_Pelt_Armor"
+        },
+        {
+          "item": "Musket 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Musket"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Desert_Shop_2",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Desert_Shop_2",
+      "source_export": "data/raw/exports/en/Desert_Shop_2.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Dungeon_Shop_01",
+      "slug": "Dungeon_Shop_01",
+      "name": "Dungeon_Shop_01",
+      "inventory": [
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Rushoar Pork 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Rushoar_Pork"
+        },
+        {
+          "item": "Raw Kelpsea 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Raw_Kelpsea"
+        },
+        {
+          "item": "Raw Dumud 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Raw_Dumud"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Poison Arrow 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Poison_Arrow"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Suspicious Juice 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Suspicious_Juice"
+        },
+        {
+          "item": "Low Quality Recovery Meds 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Low_Quality_Recovery_Meds"
+        },
+        {
+          "item": "Jam-Filled Bun 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Jam-Filled_Bun"
+        },
+        {
+          "item": "Omelet 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Omelet"
+        },
+        {
+          "item": "Marinated Mushrooms 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Marinated_Mushrooms"
+        },
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Ice Organ 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Ice_Organ"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Dungeon_Shop_01",
+          "item_slug": "Venom_Gland"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Dungeon_Shop_01",
+      "source_export": "data/raw/exports/en/Dungeon_Shop_01.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Medal_Shop_1",
+      "slug": "Medal_Shop_1",
+      "name": "Medal_Shop_1",
+      "inventory": [
+        {
+          "item": "Mysterious Accessory Box 1",
+          "price": "50",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Mysterious_Accessory_Box"
+        },
+        {
+          "item": "Mystic Accessory Box 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Mystic_Accessory_Box"
+        },
+        {
+          "item": "Cattiva Hat 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Cattiva_Hat"
+        },
+        {
+          "item": "Lamball Helm 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Lamball_Helm"
+        },
+        {
+          "item": "Chikipi Cap 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Chikipi_Cap"
+        },
+        {
+          "item": "Cawgnito Hat 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Cawgnito_Hat"
+        },
+        {
+          "item": "Dumud Helm 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Dumud_Helm"
+        },
+        {
+          "item": "Sibelyx Hat 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Sibelyx_Hat"
+        },
+        {
+          "item": "Lyleen Accessory 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Lyleen_Accessory"
+        },
+        {
+          "item": "Gloopie Hat 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Gloopie_Hat"
+        },
+        {
+          "item": "Jelliette Hat 1",
+          "price": "25",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Jelliette_Hat"
+        },
+        {
+          "item": "Life Fruit 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Life_Fruit"
+        },
+        {
+          "item": "Power Fruit 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Power_Fruit"
+        },
+        {
+          "item": "Stout Fruit 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Stout_Fruit"
+        },
+        {
+          "item": "Vital Elixir 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Vital_Elixir"
+        },
+        {
+          "item": "Stamina Elixir 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Stamina_Elixir"
+        },
+        {
+          "item": "Might Elixir 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Might_Elixir"
+        },
+        {
+          "item": "Speed Elixir 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Speed_Elixir"
+        },
+        {
+          "item": "Burden Elixir 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Burden_Elixir"
+        },
+        {
+          "item": "Starfruit ☆1 1",
+          "price": "50",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Starfruit_☆1"
+        },
+        {
+          "item": "Starfruit ☆2 1",
+          "price": "100",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Starfruit_☆2"
+        },
+        {
+          "item": "Starfruit ☆3 1",
+          "price": "200",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Starfruit_☆3"
+        },
+        {
+          "item": "Starfruit ☆4 1",
+          "price": "400",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Starfruit_☆4"
+        },
+        {
+          "item": "Lily's Spear Schematic 4 1",
+          "price": "600",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Lilys_Spear_Schematic_4"
+        },
+        {
+          "item": "Enhanced Lily's Spear Schematic 4 1",
+          "price": "840",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Enhanced_Lilys_Spear_Schematic_4"
+        },
+        {
+          "item": "Applied Kindling Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Kindling_Handbook_I"
+        },
+        {
+          "item": "Applied Watering Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Watering_Handbook_I"
+        },
+        {
+          "item": "Applied Planting Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Planting_Handbook_I"
+        },
+        {
+          "item": "Applied Generating Electricity Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Generating_Electricity_Handbook_I"
+        },
+        {
+          "item": "Applied Handiwork Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Handiwork_Handbook_I"
+        },
+        {
+          "item": "Applied Gathering Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Gathering_Handbook_I"
+        },
+        {
+          "item": "Applied Lumbering Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Lumbering_Handbook_I"
+        },
+        {
+          "item": "Applied Mining Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Mining_Handbook_I"
+        },
+        {
+          "item": "Applied Medicine Production Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Medicine_Production_Handbook_I"
+        },
+        {
+          "item": "Applied Cooling Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Cooling_Handbook_I"
+        },
+        {
+          "item": "Applied Transporting Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Transporting_Handbook_I"
+        },
+        {
+          "item": "Applied Ranching Handbook I 1",
+          "price": "300",
+          "shop_id": "Medal_Shop_1",
+          "item_slug": "Applied_Ranching_Handbook_I"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Medal_Shop_1",
+      "source_export": "data/raw/exports/en/Medal_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Vagrant_Trader_1_1",
+      "slug": "Vagrant_Trader_1_1",
+      "name": "Vagrant_Trader_1_1",
+      "inventory": [
+        {
+          "item": "Wood 1 Stock: 500",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_1",
+          "item_slug": "Wood"
+        },
+        {
+          "item": "Hardwood 1 Stock: 50",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_1",
+          "item_slug": "Hardwood"
+        },
+        {
+          "item": "Stone 1 Stock: 500",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_1",
+          "item_slug": "Stone"
+        },
+        {
+          "item": "Ore 1 Stock: 20",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_1",
+          "item_slug": "Ore"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Vagrant_Trader_1_1",
+      "source_export": "data/raw/exports/en/Vagrant_Trader_1_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Vagrant_Trader_1_2",
+      "slug": "Vagrant_Trader_1_2",
+      "name": "Vagrant_Trader_1_2",
+      "inventory": [
+        {
+          "item": "Bread 1 Stock: 20",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_2",
+          "item_slug": "Bread"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Vagrant_Trader_1_2",
+      "source_export": "data/raw/exports/en/Vagrant_Trader_1_2.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Vagrant_Trader_1_3",
+      "slug": "Vagrant_Trader_1_3",
+      "name": "Vagrant_Trader_1_3",
+      "inventory": [
+        {
+          "item": "Pal Sphere 1 Stock: 100",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_3",
+          "item_slug": "Pal_Sphere"
+        },
+        {
+          "item": "Mega Sphere 1 Stock: 20",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_3",
+          "item_slug": "Mega_Sphere"
+        },
+        {
+          "item": "Giga Sphere 1 Stock: 10",
+          "price": "",
+          "shop_id": "Vagrant_Trader_1_3",
+          "item_slug": "Giga_Sphere"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Vagrant_Trader_1_3",
+      "source_export": "data/raw/exports/en/Vagrant_Trader_1_3.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Village_Shop_1",
+      "slug": "Village_Shop_1",
+      "name": "Village_Shop_1",
+      "inventory": [
+        {
+          "item": "Long-Eared Headband Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Long-Eared_Headband_Schematic_1"
+        },
+        {
+          "item": "Witch Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Witch_Hat_Schematic_1"
+        },
+        {
+          "item": "Farming Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Farming_Hat_Schematic_1"
+        },
+        {
+          "item": "Bowler Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Bowler_Hat_Schematic_1"
+        },
+        {
+          "item": "Tocotoco Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Tocotoco_Cap_Schematic_1"
+        },
+        {
+          "item": "Gumoss Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Gumoss_Cap_Schematic_1"
+        },
+        {
+          "item": "Penking Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Penking_Cap_Schematic_1"
+        },
+        {
+          "item": "Ribbuny Headband Schematic 1 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Ribbuny_Headband_Schematic_1"
+        },
+        {
+          "item": "Hardwood 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Hardwood"
+        },
+        {
+          "item": "Pal Sphere 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Pal_Sphere"
+        },
+        {
+          "item": "Simple Bait 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Simple_Bait"
+        },
+        {
+          "item": "Arrow 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Arrow"
+        },
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "High_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Berry Seeds 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Berry_Seeds"
+        },
+        {
+          "item": "Wheat Seeds 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Wheat_Seeds"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Chikipi Poultry 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Chikipi_Poultry"
+        },
+        {
+          "item": "Lamball Mutton 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Lamball_Mutton"
+        },
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Electric Organ 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Electric_Organ"
+        },
+        {
+          "item": "Venom Gland 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Venom_Gland"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Village_Shop_1",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Village_Shop_1",
+      "source_export": "data/raw/exports/en/Village_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Volcano_Shop_1",
+      "slug": "Volcano_Shop_1",
+      "name": "Volcano_Shop_1",
+      "inventory": [
+        {
+          "item": "Hardwood 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Hardwood"
+        },
+        {
+          "item": "Simple Bait 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Simple_Bait"
+        },
+        {
+          "item": "High Quality Bait 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "High_Quality_Bait"
+        },
+        {
+          "item": "Fire Skill Fruit: Ignis Breath 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Fire_Skill_Fruit__Ignis_Breath"
+        },
+        {
+          "item": "Fire Skill Fruit: Flare Storm 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Fire_Skill_Fruit__Flare_Storm"
+        },
+        {
+          "item": "Water Skill Fruit: Aqua Burst 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Water_Skill_Fruit__Aqua_Burst"
+        },
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "High_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Tomato 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Tomato"
+        },
+        {
+          "item": "Lettuce 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Lettuce"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Flame Organ 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Flame_Organ"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Tomato Seeds 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Tomato_Seeds"
+        },
+        {
+          "item": "Lettuce Seeds 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Lettuce_Seeds"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_1",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Volcano_Shop_1",
+      "source_export": "data/raw/exports/en/Volcano_Shop_1.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Volcano_Shop_2",
+      "slug": "Volcano_Shop_2",
+      "name": "Volcano_Shop_2",
+      "inventory": [
+        {
+          "item": "Monarch's Crown Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Monarchs_Crown_Schematic_1"
+        },
+        {
+          "item": "Golden Crown Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Golden_Crown_Schematic_1"
+        },
+        {
+          "item": "Helmet Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Helmet_Schematic_1"
+        },
+        {
+          "item": "Graduation Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Graduation_Cap_Schematic_1"
+        },
+        {
+          "item": "Killamari Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Killamari_Cap_Schematic_1"
+        },
+        {
+          "item": "Swee Cap Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Swee_Cap_Schematic_1"
+        },
+        {
+          "item": "Dazzi Hat Schematic 1 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Dazzi_Hat_Schematic_1"
+        },
+        {
+          "item": "Heat Resistant Pelt Armor 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Heat_Resistant_Pelt_Armor"
+        },
+        {
+          "item": "Fire Arrow 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Fire_Arrow"
+        },
+        {
+          "item": "Makeshift Handgun 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Makeshift_Handgun"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Volcano_Shop_2",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Volcano_Shop_2",
+      "source_export": "data/raw/exports/en/Volcano_Shop_2.html",
+      "from_index": "Merchant.html"
+    },
+    {
+      "id": "Wander_Shop_1",
+      "slug": "Wander_Shop_1",
+      "name": "Wander_Shop_1",
+      "inventory": [
+        {
+          "item": "Paldium Fragment 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Paldium_Fragment"
+        },
+        {
+          "item": "Skill Fruit: Implode 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Skill_Fruit__Implode"
+        },
+        {
+          "item": "Water Skill Fruit: Acid Rain 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Water_Skill_Fruit__Acid_Rain"
+        },
+        {
+          "item": "Electric Skill Fruit: Lock-on Laser 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Electric_Skill_Fruit__Lock-on_Laser"
+        },
+        {
+          "item": "Egg 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Egg"
+        },
+        {
+          "item": "Milk 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Milk"
+        },
+        {
+          "item": "Red Berries 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Red_Berries"
+        },
+        {
+          "item": "Wheat 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Wheat"
+        },
+        {
+          "item": "Low Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Low_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Medical Supplies 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Medical_Supplies"
+        },
+        {
+          "item": "High Grade Medical Supplies 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "High_Grade_Medical_Supplies"
+        },
+        {
+          "item": "Wool 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Wool"
+        },
+        {
+          "item": "Leather 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Leather"
+        },
+        {
+          "item": "Bone 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Bone"
+        },
+        {
+          "item": "Horn 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Horn"
+        },
+        {
+          "item": "Aquatic Pal Fluids 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Aquatic_Pal_Fluids"
+        },
+        {
+          "item": "High Quality Pal Oil 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "High_Quality_Pal_Oil"
+        },
+        {
+          "item": "Simple Bait 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Simple_Bait"
+        },
+        {
+          "item": "Coarse Ammo 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Coarse_Ammo"
+        },
+        {
+          "item": "Handgun Ammo 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Handgun_Ammo"
+        },
+        {
+          "item": "Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Rifle_Ammo"
+        },
+        {
+          "item": "Shotgun Shell 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Shotgun_Shell"
+        },
+        {
+          "item": "Assault Rifle Ammo 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Assault_Rifle_Ammo"
+        },
+        {
+          "item": "Ruby 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Ruby"
+        },
+        {
+          "item": "Sapphire 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Sapphire"
+        },
+        {
+          "item": "Emerald 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Emerald"
+        },
+        {
+          "item": "Diamond 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Diamond"
+        },
+        {
+          "item": "Precious Dragon Stone 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Precious_Dragon_Stone"
+        },
+        {
+          "item": "Precious Plume 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Precious_Plume"
+        },
+        {
+          "item": "Precious Entrails 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Precious_Entrails"
+        },
+        {
+          "item": "Precious Claw 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Precious_Claw"
+        },
+        {
+          "item": "Precious Pelt 1",
+          "price": "",
+          "shop_id": "Wander_Shop_1",
+          "item_slug": "Precious_Pelt"
+        }
+      ],
+      "source_url": "https://paldb.cc/en/Wander_Shop_1",
+      "source_export": "data/raw/exports/en/Wander_Shop_1.html",
+      "from_index": "Merchant.html"
+    }
+  ]
+}

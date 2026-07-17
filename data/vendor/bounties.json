@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-07-16T23:10:28.077399+00:00",
+  "language": "en",
+  "count": 36,
+  "bounties": [
+    {
+      "item": "Gold Coin 2000",
+      "price": "Successful Bounty Token 1",
+      "item_slug": "Gold_Coin",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Advanced Technical Manual 1",
+      "price": "Successful Bounty Token 5",
+      "item_slug": "Advanced_Technical_Manual",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Pal Reverser 1",
+      "price": "Successful Bounty Token 7",
+      "item_slug": "Pal_Reverser",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Croajiro Cap 1",
+      "price": "Successful Bounty Token 5",
+      "item_slug": "Croajiro_Cap",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Herbil Headband 1",
+      "price": "Successful Bounty Token 5",
+      "item_slug": "Herbil_Headband",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Turtacle Cap 1",
+      "price": "Successful Bounty Token 5",
+      "item_slug": "Turtacle_Cap",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Kinship Peach 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Kinship_Peach",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Musclehead 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Musclehead",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Burly Body 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Burly_Body",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Artisan 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Artisan",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Vanguard 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Vanguard",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Stronghold Strategist 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Stronghold_Strategist",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Motivational Leader 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Motivational_Leader",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Implant: Wellness Watcher 1",
+      "price": "Successful Bounty Token 15",
+      "item_slug": "Implant__Wellness_Watcher",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Life Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "item_slug": "Life_Fruit",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Power Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "item_slug": "Power_Fruit",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Stout Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "item_slug": "Stout_Fruit",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Ripe Starfruit 1",
+      "price": "Successful Bounty Token 50",
+      "item_slug": "Ripe_Starfruit",
+      "price_slug": "Successful_Bounty_Token",
+      "source_url": "https://paldb.cc/en/Bounty",
+      "source_export": "data/raw/exports/en/Bounty.html",
+      "from_index": "Bounty.html"
+    },
+    {
+      "item": "Gold Coin 2000",
+      "price": "Successful Bounty Token 1",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Gold_Coin",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Advanced Technical Manual 1",
+      "price": "Successful Bounty Token 5",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Advanced_Technical_Manual",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Pal Reverser 1",
+      "price": "Successful Bounty Token 7",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Pal_Reverser",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Croajiro Cap 1",
+      "price": "Successful Bounty Token 5",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Croajiro_Cap",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Herbil Headband 1",
+      "price": "Successful Bounty Token 5",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Herbil_Headband",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Turtacle Cap 1",
+      "price": "Successful Bounty Token 5",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Turtacle_Cap",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Kinship Peach 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Kinship_Peach",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Musclehead 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Musclehead",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Burly Body 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Burly_Body",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Artisan 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Artisan",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Vanguard 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Vanguard",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Stronghold Strategist 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Stronghold_Strategist",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Motivational Leader 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Motivational_Leader",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Implant: Wellness Watcher 1",
+      "price": "Successful Bounty Token 15",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Implant__Wellness_Watcher",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Life Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Life_Fruit",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Power Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Power_Fruit",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Stout Fruit 1",
+      "price": "Successful Bounty Token 25",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Stout_Fruit",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    },
+    {
+      "item": "Ripe Starfruit 1",
+      "price": "Successful Bounty Token 50",
+      "shop": "Bounty_Shop_1",
+      "item_slug": "Ripe_Starfruit",
+      "source_url": "https://paldb.cc/en/Bounty_Shop_1",
+      "source_export": "data/raw/exports/en/Bounty_Shop_1.html",
+      "from_index": "Bounty_Shop_1.html"
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "generated_at": "2026-07-16T23:10:31.343770+00:00",
+  "language": "en",
+  "count": 108,
+  "ancient_ruins": [
+    {
+      "id": "Crossbow_Schematic_1",
+      "slug": "Crossbow_Schematic_1",
+      "name": "Crossbow Schematic 1",
+      "source_url": "https://paldb.cc/en/Crossbow_Schematic_1",
+      "source_export": "data/raw/exports/en/Crossbow_Schematic_1.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Pelt_Armor_Schematic_3",
+      "slug": "Pelt_Armor_Schematic_3",
+      "name": "Pelt Armor Schematic 3",
+      "source_url": "https://paldb.cc/en/Pelt_Armor_Schematic_3",
+      "source_export": "data/raw/exports/en/Pelt_Armor_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Dog_Coin",
+      "slug": "Dog_Coin",
+      "name": "Dog Coin",
+      "source_url": "https://paldb.cc/en/Dog_Coin",
+      "source_export": "data/raw/exports/en/Dog_Coin.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Crossbow_Schematic_3",
+      "slug": "Crossbow_Schematic_3",
+      "name": "Crossbow Schematic 3",
+      "source_url": "https://paldb.cc/en/Crossbow_Schematic_3",
+      "source_export": "data/raw/exports/en/Crossbow_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Feathered_Hair_Band_Schematic_3",
+      "slug": "Feathered_Hair_Band_Schematic_3",
+      "name": "Feathered Hair Band Schematic 3",
+      "source_url": "https://paldb.cc/en/Feathered_Hair_Band_Schematic_3",
+      "source_export": "data/raw/exports/en/Feathered_Hair_Band_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Pendant_of_Diligence_Schematic",
+      "slug": "Pendant_of_Diligence_Schematic",
+      "name": "Pendant of Diligence Schematic",
+      "source_url": "https://paldb.cc/en/Pendant_of_Diligence_Schematic",
+      "source_export": "data/raw/exports/en/Pendant_of_Diligence_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Water_Resistance_Schematic",
+      "slug": "Ring_of_Water_Resistance_Schematic",
+      "name": "Ring of Water Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Water_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Water_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Heat-Resistant_Undershirt_Schematic",
+      "slug": "Heat-Resistant_Undershirt_Schematic",
+      "name": "Heat-Resistant Undershirt Schematic",
+      "source_url": "https://paldb.cc/en/Heat-Resistant_Undershirt_Schematic",
+      "source_export": "data/raw/exports/en/Heat-Resistant_Undershirt_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Heat_Resistant_Metal_Armor_Schematic_2",
+      "slug": "Heat_Resistant_Metal_Armor_Schematic_2",
+      "name": "Heat Resistant Metal Armor Schematic 2",
+      "source_url": "https://paldb.cc/en/Heat_Resistant_Metal_Armor_Schematic_2",
+      "source_export": "data/raw/exports/en/Heat_Resistant_Metal_Armor_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Metal_Helm_Schematic_2",
+      "slug": "Metal_Helm_Schematic_2",
+      "name": "Metal Helm Schematic 2",
+      "source_url": "https://paldb.cc/en/Metal_Helm_Schematic_2",
+      "source_export": "data/raw/exports/en/Metal_Helm_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Musket_Schematic_3",
+      "slug": "Musket_Schematic_3",
+      "name": "Musket Schematic 3",
+      "source_url": "https://paldb.cc/en/Musket_Schematic_3",
+      "source_export": "data/raw/exports/en/Musket_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Water_Support_Whistle_Schematic",
+      "slug": "Water_Support_Whistle_Schematic",
+      "name": "Water Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Water_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Water_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Neutral_Support_Whistle_Schematic",
+      "slug": "Neutral_Support_Whistle_Schematic",
+      "name": "Neutral Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Neutral_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Neutral_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Thermal_Undershirt_Schematic",
+      "slug": "Thermal_Undershirt_Schematic",
+      "name": "Thermal Undershirt Schematic",
+      "source_url": "https://paldb.cc/en/Thermal_Undershirt_Schematic",
+      "source_export": "data/raw/exports/en/Thermal_Undershirt_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Electric_Resistance_Schematic",
+      "slug": "Ring_of_Electric_Resistance_Schematic",
+      "name": "Ring of Electric Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Electric_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Electric_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Makeshift_Handgun_Schematic_2",
+      "slug": "Makeshift_Handgun_Schematic_2",
+      "name": "Makeshift Handgun Schematic 2",
+      "source_url": "https://paldb.cc/en/Makeshift_Handgun_Schematic_2",
+      "source_export": "data/raw/exports/en/Makeshift_Handgun_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Neutral_Resistance_Schematic",
+      "slug": "Ring_of_Neutral_Resistance_Schematic",
+      "name": "Ring of Neutral Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Neutral_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Neutral_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Electric_Support_Whistle_Schematic",
+      "slug": "Electric_Support_Whistle_Schematic",
+      "name": "Electric Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Electric_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Electric_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Planting_Handbook_I",
+      "slug": "Applied_Planting_Handbook_I",
+      "name": "Applied Planting Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Planting_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Planting_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Cold_Resistant_Metal_Armor_Schematic_2",
+      "slug": "Cold_Resistant_Metal_Armor_Schematic_2",
+      "name": "Cold Resistant Metal Armor Schematic 2",
+      "source_url": "https://paldb.cc/en/Cold_Resistant_Metal_Armor_Schematic_2",
+      "source_export": "data/raw/exports/en/Cold_Resistant_Metal_Armor_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Life_Pendant_Schematic",
+      "slug": "Life_Pendant_Schematic",
+      "name": "Life Pendant Schematic",
+      "source_url": "https://paldb.cc/en/Life_Pendant_Schematic",
+      "source_export": "data/raw/exports/en/Life_Pendant_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Dark_Resistance_Schematic",
+      "slug": "Ring_of_Dark_Resistance_Schematic",
+      "name": "Ring of Dark Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Dark_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Dark_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Dark_Support_Whistle_Schematic",
+      "slug": "Dark_Support_Whistle_Schematic",
+      "name": "Dark Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Dark_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Dark_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Sword_Schematic_3",
+      "slug": "Sword_Schematic_3",
+      "name": "Sword Schematic 3",
+      "source_url": "https://paldb.cc/en/Sword_Schematic_3",
+      "source_export": "data/raw/exports/en/Sword_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Growth_Acceleration_Bell_Schematic",
+      "slug": "Growth_Acceleration_Bell_Schematic",
+      "name": "Growth Acceleration Bell Schematic",
+      "source_url": "https://paldb.cc/en/Growth_Acceleration_Bell_Schematic",
+      "source_export": "data/raw/exports/en/Growth_Acceleration_Bell_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Old_Revolver_Schematic_2",
+      "slug": "Old_Revolver_Schematic_2",
+      "name": "Old Revolver Schematic 2",
+      "source_url": "https://paldb.cc/en/Old_Revolver_Schematic_2",
+      "source_export": "data/raw/exports/en/Old_Revolver_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Grass_Support_Whistle_Schematic",
+      "slug": "Grass_Support_Whistle_Schematic",
+      "name": "Grass Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Grass_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Grass_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Ice_Resistance_Schematic",
+      "slug": "Ring_of_Ice_Resistance_Schematic",
+      "name": "Ring of Ice Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Ice_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Ice_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Makeshift_Assault_Rifle_Schematic_2",
+      "slug": "Makeshift_Assault_Rifle_Schematic_2",
+      "name": "Makeshift Assault Rifle Schematic 2",
+      "source_url": "https://paldb.cc/en/Makeshift_Assault_Rifle_Schematic_2",
+      "source_export": "data/raw/exports/en/Makeshift_Assault_Rifle_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Dragon_Support_Whistle_Schematic",
+      "slug": "Dragon_Support_Whistle_Schematic",
+      "name": "Dragon Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Dragon_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Dragon_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ice_Support_Whistle_Schematic",
+      "slug": "Ice_Support_Whistle_Schematic",
+      "name": "Ice Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Ice_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Ice_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Grass_Resistance_Schematic",
+      "slug": "Ring_of_Grass_Resistance_Schematic",
+      "name": "Ring of Grass Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Grass_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Grass_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Freight_Schematic",
+      "slug": "Ring_of_Freight_Schematic",
+      "name": "Ring of Freight Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Freight_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Freight_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Makeshift_Shotgun_Schematic_2",
+      "slug": "Makeshift_Shotgun_Schematic_2",
+      "name": "Makeshift Shotgun Schematic 2",
+      "source_url": "https://paldb.cc/en/Makeshift_Shotgun_Schematic_2",
+      "source_export": "data/raw/exports/en/Makeshift_Shotgun_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Dragon_Resistance_Schematic",
+      "slug": "Ring_of_Dragon_Resistance_Schematic",
+      "name": "Ring of Dragon Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Dragon_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Dragon_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ground_Support_Whistle_Schematic",
+      "slug": "Ground_Support_Whistle_Schematic",
+      "name": "Ground Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Ground_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Ground_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Assault_Rifle_Schematic_2",
+      "slug": "Assault_Rifle_Schematic_2",
+      "name": "Assault Rifle Schematic 2",
+      "source_url": "https://paldb.cc/en/Assault_Rifle_Schematic_2",
+      "source_export": "data/raw/exports/en/Assault_Rifle_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Pal_Metal_Helm_Schematic_2",
+      "slug": "Pal_Metal_Helm_Schematic_2",
+      "name": "Pal Metal Helm Schematic 2",
+      "source_url": "https://paldb.cc/en/Pal_Metal_Helm_Schematic_2",
+      "source_export": "data/raw/exports/en/Pal_Metal_Helm_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Pal_Metal_Armor_Schematic_2",
+      "slug": "Pal_Metal_Armor_Schematic_2",
+      "name": "Pal Metal Armor Schematic 2",
+      "source_url": "https://paldb.cc/en/Pal_Metal_Armor_Schematic_2",
+      "source_export": "data/raw/exports/en/Pal_Metal_Armor_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Defense_Support_Whistle_Schematic",
+      "slug": "Defense_Support_Whistle_Schematic",
+      "name": "Defense Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Defense_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Defense_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Ground_Resistance_Schematic",
+      "slug": "Ring_of_Ground_Resistance_Schematic",
+      "name": "Ring of Ground Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Ground_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Ground_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Semi-Auto_Shotgun_Schematic_2",
+      "slug": "Semi-Auto_Shotgun_Schematic_2",
+      "name": "Semi-Auto Shotgun Schematic 2",
+      "source_url": "https://paldb.cc/en/Semi-Auto_Shotgun_Schematic_2",
+      "source_export": "data/raw/exports/en/Semi-Auto_Shotgun_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Multiclimate_Undershirt_Schematic",
+      "slug": "Multiclimate_Undershirt_Schematic",
+      "name": "Multiclimate Undershirt Schematic",
+      "source_url": "https://paldb.cc/en/Multiclimate_Undershirt_Schematic",
+      "source_export": "data/raw/exports/en/Multiclimate_Undershirt_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Transporting_Handbook_I",
+      "slug": "Applied_Transporting_Handbook_I",
+      "name": "Applied Transporting Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Transporting_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Transporting_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Reptyro_Charm_Schematic",
+      "slug": "Reptyro_Charm_Schematic",
+      "name": "Reptyro Charm Schematic",
+      "source_url": "https://paldb.cc/en/Reptyro_Charm_Schematic",
+      "source_export": "data/raw/exports/en/Reptyro_Charm_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Attack_Pendant_Schematic",
+      "slug": "Attack_Pendant_Schematic",
+      "name": "Attack Pendant Schematic",
+      "source_url": "https://paldb.cc/en/Attack_Pendant_Schematic",
+      "source_export": "data/raw/exports/en/Attack_Pendant_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Earth_Emperors_Baton_Schematic",
+      "slug": "Earth_Emperors_Baton_Schematic",
+      "name": "Earth Emperor's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Earth_Emperors_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Earth_Emperors_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Refined_Metal_Armor_Schematic_2",
+      "slug": "Refined_Metal_Armor_Schematic_2",
+      "name": "Refined Metal Armor Schematic 2",
+      "source_url": "https://paldb.cc/en/Refined_Metal_Armor_Schematic_2",
+      "source_export": "data/raw/exports/en/Refined_Metal_Armor_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Refined_Metal_Helm_Schematic_2",
+      "slug": "Refined_Metal_Helm_Schematic_2",
+      "name": "Refined Metal Helm Schematic 2",
+      "source_url": "https://paldb.cc/en/Refined_Metal_Helm_Schematic_2",
+      "source_export": "data/raw/exports/en/Refined_Metal_Helm_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "SMG_Schematic_2",
+      "slug": "SMG_Schematic_2",
+      "name": "SMG Schematic 2",
+      "source_url": "https://paldb.cc/en/SMG_Schematic_2",
+      "source_export": "data/raw/exports/en/SMG_Schematic_2.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Single-Shot_Rifle_Schematic_3",
+      "slug": "Single-Shot_Rifle_Schematic_3",
+      "name": "Single-Shot Rifle Schematic 3",
+      "source_url": "https://paldb.cc/en/Single-Shot_Rifle_Schematic_3",
+      "source_export": "data/raw/exports/en/Single-Shot_Rifle_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Attack_Support_Whistle_Schematic",
+      "slug": "Attack_Support_Whistle_Schematic",
+      "name": "Attack Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Attack_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Attack_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Fire_Support_Whistle_Schematic",
+      "slug": "Fire_Support_Whistle_Schematic",
+      "name": "Fire Support Whistle Schematic",
+      "source_url": "https://paldb.cc/en/Fire_Support_Whistle_Schematic",
+      "source_export": "data/raw/exports/en/Fire_Support_Whistle_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Fire_Resistance_Schematic",
+      "slug": "Ring_of_Fire_Resistance_Schematic",
+      "name": "Ring of Fire Resistance Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Fire_Resistance_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Fire_Resistance_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Defense_Pendant_Schematic",
+      "slug": "Defense_Pendant_Schematic",
+      "name": "Defense Pendant Schematic",
+      "source_url": "https://paldb.cc/en/Defense_Pendant_Schematic",
+      "source_export": "data/raw/exports/en/Defense_Pendant_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ring_of_Trust_Schematic",
+      "slug": "Ring_of_Trust_Schematic",
+      "name": "Ring of Trust Schematic",
+      "source_url": "https://paldb.cc/en/Ring_of_Trust_Schematic",
+      "source_export": "data/raw/exports/en/Ring_of_Trust_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Metal_Bat_Schematic_3",
+      "slug": "Metal_Bat_Schematic_3",
+      "name": "Metal Bat Schematic 3",
+      "source_url": "https://paldb.cc/en/Metal_Bat_Schematic_3",
+      "source_export": "data/raw/exports/en/Metal_Bat_Schematic_3.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Cooling_Handbook_I",
+      "slug": "Applied_Cooling_Handbook_I",
+      "name": "Applied Cooling Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Cooling_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Cooling_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Celestial_Emperors_Baton_Schematic",
+      "slug": "Celestial_Emperors_Baton_Schematic",
+      "name": "Celestial Emperor's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Celestial_Emperors_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Celestial_Emperors_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Lumbering_Handbook_I",
+      "slug": "Applied_Lumbering_Handbook_I",
+      "name": "Applied Lumbering Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Lumbering_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Lumbering_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Gathering_Handbook_I",
+      "slug": "Applied_Gathering_Handbook_I",
+      "name": "Applied Gathering Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Gathering_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Gathering_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Phantom_Ring_Schematic",
+      "slug": "Phantom_Ring_Schematic",
+      "name": "Phantom Ring Schematic",
+      "source_url": "https://paldb.cc/en/Phantom_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Phantom_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Frostallions_Talisman_Schematic",
+      "slug": "Frostallions_Talisman_Schematic",
+      "name": "Frostallion's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Frostallions_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Frostallions_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Lyleen_Nocts_Talisman_Schematic",
+      "slug": "Lyleen_Nocts_Talisman_Schematic",
+      "name": "Lyleen Noct's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Lyleen_Nocts_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Lyleen_Nocts_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Cryolinx_Ring_Schematic",
+      "slug": "Cryolinx_Ring_Schematic",
+      "name": "Cryolinx Ring Schematic",
+      "source_url": "https://paldb.cc/en/Cryolinx_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Cryolinx_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Wumpo_Charm_Schematic",
+      "slug": "Wumpo_Charm_Schematic",
+      "name": "Wumpo Charm Schematic",
+      "source_url": "https://paldb.cc/en/Wumpo_Charm_Schematic",
+      "source_export": "data/raw/exports/en/Wumpo_Charm_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Islanders_Tool_Belt_Schematic",
+      "slug": "Islanders_Tool_Belt_Schematic",
+      "name": "Islander's Tool Belt Schematic",
+      "source_url": "https://paldb.cc/en/Islanders_Tool_Belt_Schematic",
+      "source_export": "data/raw/exports/en/Islanders_Tool_Belt_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Pal_Tamers_Glasses_Schematic",
+      "slug": "Pal_Tamers_Glasses_Schematic",
+      "name": "Pal Tamer's Glasses Schematic",
+      "source_url": "https://paldb.cc/en/Pal_Tamers_Glasses_Schematic",
+      "source_export": "data/raw/exports/en/Pal_Tamers_Glasses_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Neptiliuss_Talisman_Schematic",
+      "slug": "Neptiliuss_Talisman_Schematic",
+      "name": "Neptilius's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Neptiliuss_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Neptiliuss_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Air_Walker_Mk_I_Schematic",
+      "slug": "Air_Walker_Mk_I_Schematic",
+      "name": "Air Walker Mk I Schematic",
+      "source_url": "https://paldb.cc/en/Air_Walker_Mk_I_Schematic",
+      "source_export": "data/raw/exports/en/Air_Walker_Mk_I_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Lyleens_Talisman_Schematic",
+      "slug": "Lyleens_Talisman_Schematic",
+      "name": "Lyleen's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Lyleens_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Lyleens_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Handiwork_Handbook_I",
+      "slug": "Applied_Handiwork_Handbook_I",
+      "name": "Applied Handiwork Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Handiwork_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Handiwork_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Generating_Electricity_Handbook_I",
+      "slug": "Applied_Generating_Electricity_Handbook_I",
+      "name": "Applied Generating Electricity Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Generating_Electricity_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Generating_Electricity_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Warsect_Terras_Belt_Schematic",
+      "slug": "Warsect_Terras_Belt_Schematic",
+      "name": "Warsect Terra's Belt Schematic",
+      "source_url": "https://paldb.cc/en/Warsect_Terras_Belt_Schematic",
+      "source_export": "data/raw/exports/en/Warsect_Terras_Belt_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Air_Walker_Mk_II_Schematic",
+      "slug": "Air_Walker_Mk_II_Schematic",
+      "name": "Air Walker Mk II Schematic",
+      "source_url": "https://paldb.cc/en/Air_Walker_Mk_II_Schematic",
+      "source_export": "data/raw/exports/en/Air_Walker_Mk_II_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Vanguard_Charm_Schematic",
+      "slug": "Vanguard_Charm_Schematic",
+      "name": "Vanguard Charm Schematic",
+      "source_url": "https://paldb.cc/en/Vanguard_Charm_Schematic",
+      "source_export": "data/raw/exports/en/Vanguard_Charm_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Lord_of_the_Seas_Baton_Schematic",
+      "slug": "Lord_of_the_Seas_Baton_Schematic",
+      "name": "Lord of the Sea's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Lord_of_the_Seas_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Lord_of_the_Seas_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Wandering_Merchant_Charm_Schematic",
+      "slug": "Wandering_Merchant_Charm_Schematic",
+      "name": "Wandering Merchant Charm Schematic",
+      "source_url": "https://paldb.cc/en/Wandering_Merchant_Charm_Schematic",
+      "source_export": "data/raw/exports/en/Wandering_Merchant_Charm_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Lord_of_the_Underworlds_Baton_Schematic",
+      "slug": "Lord_of_the_Underworlds_Baton_Schematic",
+      "name": "Lord of the Underworld's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Lord_of_the_Underworlds_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Lord_of_the_Underworlds_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Jetragons_Talisman_Schematic",
+      "slug": "Jetragons_Talisman_Schematic",
+      "name": "Jetragon's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Jetragons_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Jetragons_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Flame_Emperors_Baton_Schematic",
+      "slug": "Flame_Emperors_Baton_Schematic",
+      "name": "Flame Emperor's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Flame_Emperors_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Flame_Emperors_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Watering_Handbook_I",
+      "slug": "Applied_Watering_Handbook_I",
+      "name": "Applied Watering Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Watering_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Watering_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Divine_Dragons_Baton_Schematic",
+      "slug": "Divine_Dragons_Baton_Schematic",
+      "name": "Divine Dragon's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Divine_Dragons_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Divine_Dragons_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Kindling_Handbook_I",
+      "slug": "Applied_Kindling_Handbook_I",
+      "name": "Applied Kindling Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Kindling_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Kindling_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Elphidran_Ring_Schematic",
+      "slug": "Elphidran_Ring_Schematic",
+      "name": "Elphidran Ring Schematic",
+      "source_url": "https://paldb.cc/en/Elphidran_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Elphidran_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Lord_of_Lightnings_Baton_Schematic",
+      "slug": "Lord_of_Lightnings_Baton_Schematic",
+      "name": "Lord of Lightning's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Lord_of_Lightnings_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Lord_of_Lightnings_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Hartaliss_Talisman_Schematic",
+      "slug": "Hartaliss_Talisman_Schematic",
+      "name": "Hartalis's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Hartaliss_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Hartaliss_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Ice_Emperors_Baton_Schematic",
+      "slug": "Ice_Emperors_Baton_Schematic",
+      "name": "Ice Emperor's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Ice_Emperors_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Ice_Emperors_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Silvegis_Emblem_Schematic",
+      "slug": "Silvegis_Emblem_Schematic",
+      "name": "Silvegis Emblem Schematic",
+      "source_url": "https://paldb.cc/en/Silvegis_Emblem_Schematic",
+      "source_export": "data/raw/exports/en/Silvegis_Emblem_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Spirit_Emperors_Baton_Schematic",
+      "slug": "Spirit_Emperors_Baton_Schematic",
+      "name": "Spirit Emperor's Baton Schematic",
+      "source_url": "https://paldb.cc/en/Spirit_Emperors_Baton_Schematic",
+      "source_export": "data/raw/exports/en/Spirit_Emperors_Baton_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Blazamuts_Talisman_Schematic",
+      "slug": "Blazamuts_Talisman_Schematic",
+      "name": "Blazamut's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Blazamuts_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Blazamuts_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Anubiss_Talisman_Schematic",
+      "slug": "Anubiss_Talisman_Schematic",
+      "name": "Anubis's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Anubiss_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Anubiss_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Orserks_Talisman_Schematic",
+      "slug": "Orserks_Talisman_Schematic",
+      "name": "Orserk's Talisman Schematic",
+      "source_url": "https://paldb.cc/en/Orserks_Talisman_Schematic",
+      "source_export": "data/raw/exports/en/Orserks_Talisman_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Air_Walker_Mk_III_Schematic",
+      "slug": "Air_Walker_Mk_III_Schematic",
+      "name": "Air Walker Mk III Schematic",
+      "source_url": "https://paldb.cc/en/Air_Walker_Mk_III_Schematic",
+      "source_export": "data/raw/exports/en/Air_Walker_Mk_III_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Mining_Handbook_I",
+      "slug": "Applied_Mining_Handbook_I",
+      "name": "Applied Mining Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Mining_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Mining_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Dogen_Emblem_Schematic",
+      "slug": "Dogen_Emblem_Schematic",
+      "name": "Dogen Emblem Schematic",
+      "source_url": "https://paldb.cc/en/Dogen_Emblem_Schematic",
+      "source_export": "data/raw/exports/en/Dogen_Emblem_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Air_Walker_EX_Schematic",
+      "slug": "Air_Walker_EX_Schematic",
+      "name": "Air Walker EX Schematic",
+      "source_url": "https://paldb.cc/en/Air_Walker_EX_Schematic",
+      "source_export": "data/raw/exports/en/Air_Walker_EX_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Disposable_Implant__Swift",
+      "slug": "Disposable_Implant__Swift",
+      "name": "Disposable Implant: Swift",
+      "source_url": "https://paldb.cc/en/Disposable_Implant__Swift",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Swift.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Applied_Medicine_Production_Handbook_I",
+      "slug": "Applied_Medicine_Production_Handbook_I",
+      "name": "Applied Medicine Production Handbook I",
+      "source_url": "https://paldb.cc/en/Applied_Medicine_Production_Handbook_I",
+      "source_export": "data/raw/exports/en/Applied_Medicine_Production_Handbook_I.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Blazehowl_Ring_Schematic",
+      "slug": "Blazehowl_Ring_Schematic",
+      "name": "Blazehowl Ring Schematic",
+      "source_url": "https://paldb.cc/en/Blazehowl_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Blazehowl_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Faleris_Aqua_Ring_Schematic",
+      "slug": "Faleris_Aqua_Ring_Schematic",
+      "name": "Faleris Aqua Ring Schematic",
+      "source_url": "https://paldb.cc/en/Faleris_Aqua_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Faleris_Aqua_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Fenglope_Lux_Ring_Schematic",
+      "slug": "Fenglope_Lux_Ring_Schematic",
+      "name": "Fenglope Lux Ring Schematic",
+      "source_url": "https://paldb.cc/en/Fenglope_Lux_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Fenglope_Lux_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Menasting_Terra_Ring_Schematic",
+      "slug": "Menasting_Terra_Ring_Schematic",
+      "name": "Menasting Terra Ring Schematic",
+      "source_url": "https://paldb.cc/en/Menasting_Terra_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Menasting_Terra_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Vaelet_Ring_Schematic",
+      "slug": "Vaelet_Ring_Schematic",
+      "name": "Vaelet Ring Schematic",
+      "source_url": "https://paldb.cc/en/Vaelet_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Vaelet_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Katress_Ring_Schematic",
+      "slug": "Katress_Ring_Schematic",
+      "name": "Katress Ring Schematic",
+      "source_url": "https://paldb.cc/en/Katress_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Katress_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Faleris_Ring_Schematic",
+      "slug": "Faleris_Ring_Schematic",
+      "name": "Faleris Ring Schematic",
+      "source_url": "https://paldb.cc/en/Faleris_Ring_Schematic",
+      "source_export": "data/raw/exports/en/Faleris_Ring_Schematic.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Disposable_Implant__Mastery_of_Fasting",
+      "slug": "Disposable_Implant__Mastery_of_Fasting",
+      "name": "Disposable Implant: Mastery of Fasting",
+      "source_url": "https://paldb.cc/en/Disposable_Implant__Mastery_of_Fasting",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Mastery_of_Fasting.html",
+      "from_index": "Ancient_Ruin.html"
+    },
+    {
+      "id": "Disposable_Implant__Heart_of_the_Immovable_King",
+      "slug": "Disposable_Implant__Heart_of_the_Immovable_King",
+      "name": "Disposable Implant: Heart of the Immovable King",
+      "source_url": "https://paldb.cc/en/Disposable_Implant__Heart_of_the_Immovable_King",
+      "source_export": "data/raw/exports/en/Disposable_Implant__Heart_of_the_Immovable_King.html",
+      "from_index": "Ancient_Ruin.html"
+    }
+  ]
+}

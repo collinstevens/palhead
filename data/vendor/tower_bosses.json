@@ -1,0 +1,254 @@
+{
+  "generated_at": "2026-07-17T02:45:06.957092+00:00",
+  "language": "en",
+  "count": 13,
+  "tower_bosses": [
+    {
+      "id": "Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "slug": "Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "name": "Rayne Syndicate Boss Zoe & Grizzbolt",
+      "elements": [
+        "Electric"
+      ],
+      "drops": [],
+      "level": "10",
+      "hp": 12900,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Rayne_Syndicate_Boss_Zoe_&_Grizzbolt.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Rayne_Syndicate_Boss_Zoe_&_Grizzbolt",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+      "slug": "Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+      "name": "Free Pal Alliance Founder Lily & Lyleen",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [],
+      "level": "20",
+      "hp": 42500,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Free_Pal_Alliance_Founder_Lily_&_Lyleen.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Free_Pal_Alliance_Founder_Lily_&_Lyleen",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "PIDF_Commander_Marcus_&_Faleris",
+      "slug": "PIDF_Commander_Marcus_&_Faleris",
+      "name": "PIDF Commander Marcus & Faleris",
+      "elements": [
+        "Fire"
+      ],
+      "drops": [],
+      "level": "40",
+      "hp": 72900,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/PIDF_Commander_Marcus_&_Faleris.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/PIDF_Commander_Marcus_&_Faleris",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+      "slug": "Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+      "name": "Brothers of the Eternal Pyre Soul Leader Axel & Orserk",
+      "elements": [
+        "Dragon",
+        "Electric"
+      ],
+      "drops": [],
+      "level": "30",
+      "hp": 53750,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Brothers_of_the_Eternal_Pyre_Soul_Leader_Axel_&_Orserk",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+      "slug": "PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+      "name": "PAL Genetic Research Unit Commander Victor & Shadowbeak",
+      "elements": [
+        "Dark"
+      ],
+      "drops": [],
+      "level": "50",
+      "hp": 105000,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/PAL_Genetic_Research_Unit_Commander_Victor_&_Shadowbeak",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Leader_of_the_Moonflowers_Saya_&_Selyne",
+      "slug": "Leader_of_the_Moonflowers_Saya_&_Selyne",
+      "name": "Leader of the Moonflowers Saya & Selyne",
+      "elements": [
+        "Dark",
+        "Neutral"
+      ],
+      "drops": [],
+      "level": "55",
+      "hp": 234900,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Leader_of_the_Moonflowers_Saya_&_Selyne.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Leader_of_the_Moonflowers_Saya_&_Selyne",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Jarl_of_Feybreak__Bjorn_&_Bastigor",
+      "slug": "Jarl_of_Feybreak__Bjorn_&_Bastigor",
+      "name": "Jarl of Feybreak Bjorn & Bastigor",
+      "elements": [
+        "Ice"
+      ],
+      "drops": [],
+      "level": "60",
+      "hp": 310000,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Jarl_of_Feybreak__Bjorn_&_Bastigor.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Jarl_of_Feybreak__Bjorn_&_Bastigor",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Legendary_Ocean_King_Panthalus",
+      "slug": "Legendary_Ocean_King_Panthalus",
+      "name": "Legendary Ocean King Panthalus",
+      "elements": [
+        "Water"
+      ],
+      "drops": [],
+      "level": "70",
+      "hp": 353220,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Legendary_Ocean_King_Panthalus.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Legendary_Ocean_King_Panthalus",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Bewitching_Lurker_Dandilord",
+      "slug": "Bewitching_Lurker_Dandilord",
+      "name": "Bewitching Lurker Dandilord",
+      "elements": [
+        "Grass",
+        "Dark"
+      ],
+      "drops": [],
+      "level": "78",
+      "hp": 6740,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Bewitching_Lurker_Dandilord.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Bewitching_Lurker_Dandilord",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Immortal_Shade_Silvance",
+      "slug": "Immortal_Shade_Silvance",
+      "name": "Immortal Shade Silvance",
+      "elements": [
+        "Grass"
+      ],
+      "drops": [],
+      "level": "78",
+      "hp": 7442,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Immortal_Shade_Silvance.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Immortal_Shade_Silvance",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong",
+      "slug": "High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong",
+      "name": "High Keeper of the Azure Covenant Auri & Shaolong",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "drops": [],
+      "level": "68",
+      "hp": 327600,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/High_Keeper_of_the_Azure_Covenant_Auri_&_Shaolong",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Nullstar_Calamity_Zenara_&_Astralym",
+      "slug": "Nullstar_Calamity_Zenara_&_Astralym",
+      "name": "Nullstar Calamity Zenara & Astralym",
+      "elements": [],
+      "drops": [],
+      "level": "80",
+      "hp": 420000,
+      "badges": [
+        "Normal"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Nullstar_Calamity_Zenara_&_Astralym.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Nullstar_Calamity_Zenara_&_Astralym",
+      "from_index": "Tower.html"
+    },
+    {
+      "id": "Blightstar_Calamity_Zenara_&_Astralym",
+      "slug": "Blightstar_Calamity_Zenara_&_Astralym",
+      "name": "Blightstar Calamity Zenara & Astralym",
+      "elements": [],
+      "drops": [],
+      "level": "100",
+      "hp": 6237000,
+      "badges": [
+        "(Hard)"
+      ],
+      "location": null,
+      "source_export": "data/raw/exports/en/Blightstar_Calamity_Zenara_&_Astralym.html",
+      "tower": null,
+      "source_url": "https://paldb.cc/en/Blightstar_Calamity_Zenara_&_Astralym",
+      "from_index": "Tower.html"
+    }
+  ]
+}

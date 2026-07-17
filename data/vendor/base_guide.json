@@ -1,0 +1,1022 @@
+{
+  "generated_at": "2026-07-16T23:19:26.710723+00:00",
+  "language": "en",
+  "count": 35,
+  "source_url": "https://paldb.cc/en/Base",
+  "source_export": "data/raw/exports/en/Base.html",
+  "base_levels": [
+    {
+      "level": 1,
+      "raw": "Pals x1 Build Wooden Chest . x1 Build Primitive Workbench . x1 Rewards: WorkerMaxNum: 1 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Wooden Chest",
+          "qty": 1
+        },
+        {
+          "name": "Primitive Workbench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 1
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Wooden_Chest"
+    },
+    {
+      "level": 2,
+      "raw": "Build Campfire . x1 Build Shoddy Bed . x1 Build Repair Bench . x1 Rewards: WorkerMaxNum: 2 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Campfire",
+          "qty": 1
+        },
+        {
+          "name": "Shoddy Bed",
+          "qty": 1
+        },
+        {
+          "name": "Repair Bench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 2
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Campfire"
+    },
+    {
+      "level": 3,
+      "raw": "Build Feed Box . x1 Build Straw Pal Bed . x3 Rewards: WorkerMaxNum: 3 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Feed Box",
+          "qty": 1
+        },
+        {
+          "name": "Straw Pal Bed",
+          "qty": 3
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 3
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Feed_Box"
+    },
+    {
+      "level": 4,
+      "raw": "Pals x4 Build Pal Gear Workbench . x1 Build Berry Plantation . x1 Rewards: WorkerMaxNum: 4 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Pal Gear Workbench",
+          "qty": 1
+        },
+        {
+          "name": "Berry Plantation",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 4
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Pal_Gear_Workbench"
+    },
+    {
+      "level": 5,
+      "raw": "Build Crusher . x1 Build Stone Pit . x1 Build Logging Site . x1 Rewards: WorkerMaxNum: 5 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Crusher",
+          "qty": 1
+        },
+        {
+          "name": "Stone Pit",
+          "qty": 1
+        },
+        {
+          "name": "Logging Site",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 5
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Crusher"
+    },
+    {
+      "level": 6,
+      "raw": "Build Primitive Furnace . x1 Build Statue of Power . x1 Build Hot Spring . x1 Rewards: WorkerMaxNum: 6 MaxBase: 1",
+      "builds": [
+        {
+          "name": "Primitive Furnace",
+          "qty": 1
+        },
+        {
+          "name": "Statue of Power",
+          "qty": 1
+        },
+        {
+          "name": "Hot Spring",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 6
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "Primitive_Furnace"
+    },
+    {
+      "level": 7,
+      "raw": "Build High Quality Workbench . x1 Build Medieval Medicine Workbench . x1 Build Berry Plantation . x2 Rewards: WorkerMaxNum: 7 MaxBase: 1",
+      "builds": [
+        {
+          "name": "High Quality Workbench",
+          "qty": 1
+        },
+        {
+          "name": "Medieval Medicine Workbench",
+          "qty": 1
+        },
+        {
+          "name": "Berry Plantation",
+          "qty": 2
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 7
+        },
+        {
+          "key": "MaxBase",
+          "value": 1
+        }
+      ],
+      "linked_slug": "High_Quality_Workbench"
+    },
+    {
+      "level": 8,
+      "raw": "Pals x8 Build Metal Chest . x1 Build Sphere Workbench . x1 Rewards: WorkerMaxNum: 8 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Metal Chest",
+          "qty": 1
+        },
+        {
+          "name": "Sphere Workbench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 8
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Metal_Chest"
+    },
+    {
+      "level": 9,
+      "raw": "Build Cooking Pot . x1 Build Wheat Plantation . x1 Build Mill . x1 Rewards: WorkerMaxNum: 9 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Cooking Pot",
+          "qty": 1
+        },
+        {
+          "name": "Wheat Plantation",
+          "qty": 1
+        },
+        {
+          "name": "Mill",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 9
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Cooking_Pot"
+    },
+    {
+      "level": 10,
+      "raw": "Build Weapon Workbench . x1 Build Pal Labor Research Lab . x1 Build Pal Expedition Station . x1 Rewards: WorkerMaxNum: 10 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Weapon Workbench",
+          "qty": 1
+        },
+        {
+          "name": "Pal Labor Research Lab",
+          "qty": 1
+        },
+        {
+          "name": "Pal Expedition Station",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 10
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Weapon_Workbench"
+    },
+    {
+      "level": 11,
+      "raw": "Build Sphere Assembly Line . x1 Build Power Generator . x1 Rewards: WorkerMaxNum: 11 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Sphere Assembly Line",
+          "qty": 1
+        },
+        {
+          "name": "Power Generator",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 11
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Sphere_Assembly_Line"
+    },
+    {
+      "level": 12,
+      "raw": "Pals x12 Build Weapon Assembly Line . x1 Build Production Assembly Line . x1 Build High Quality Hot Spring . x1 Rewards: WorkerMaxNum: 12 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Weapon Assembly Line",
+          "qty": 1
+        },
+        {
+          "name": "Production Assembly Line",
+          "qty": 1
+        },
+        {
+          "name": "High Quality Hot Spring",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 12
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Weapon_Assembly_Line"
+    },
+    {
+      "level": 13,
+      "raw": "Build Improved Furnace . x1 Build Sphere Assembly Line II . x1 Build Summoning Altar . x1 Rewards: WorkerMaxNum: 13 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Improved Furnace",
+          "qty": 1
+        },
+        {
+          "name": "Sphere Assembly Line II",
+          "qty": 1
+        },
+        {
+          "name": "Summoning Altar",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 13
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Improved_Furnace"
+    },
+    {
+      "level": 14,
+      "raw": "Build Refined Metal Chest . x1 Build Refrigerator . x1 Build Large Pal Bed . x3 Rewards: WorkerMaxNum: 14 MaxBase: 2",
+      "builds": [
+        {
+          "name": "Refined Metal Chest",
+          "qty": 1
+        },
+        {
+          "name": "Refrigerator",
+          "qty": 1
+        },
+        {
+          "name": "Large Pal Bed",
+          "qty": 3
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 14
+        },
+        {
+          "key": "MaxBase",
+          "value": 2
+        }
+      ],
+      "linked_slug": "Refined_Metal_Chest"
+    },
+    {
+      "level": 15,
+      "raw": "Build Guild Chest . x1 Build Electric Kitchen . x1 Rewards: WorkerMaxNum: 15 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Guild Chest",
+          "qty": 1
+        },
+        {
+          "name": "Electric Kitchen",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 15
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Guild_Chest"
+    },
+    {
+      "level": 16,
+      "raw": "Build Production Assembly Line II . x1 Build Electric Medicine Workbench . x1 Rewards: WorkerMaxNum: 16 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Production Assembly Line II",
+          "qty": 1
+        },
+        {
+          "name": "Electric Medicine Workbench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 16
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Production_Assembly_Line_II"
+    },
+    {
+      "level": 17,
+      "raw": "Build Electric Furnace . x1 Rewards: WorkerMaxNum: 17 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Electric Furnace",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 17
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Electric_Furnace"
+    },
+    {
+      "level": 18,
+      "raw": "Build Weapon Assembly Line II . x1 Rewards: WorkerMaxNum: 18 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Weapon Assembly Line II",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 18
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Weapon_Assembly_Line_II"
+    },
+    {
+      "level": 19,
+      "raw": "Build Item Retrieval Machine . x1 Rewards: WorkerMaxNum: 19 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Item Retrieval Machine",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 19
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Item_Retrieval_Machine"
+    },
+    {
+      "level": 20,
+      "raw": "Build Crude Oil Extractor . x1 Rewards: WorkerMaxNum: 20 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Crude Oil Extractor",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 20
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Crude_Oil_Extractor"
+    },
+    {
+      "level": 21,
+      "raw": "Build Cold Food Box . x1 Rewards: WorkerMaxNum: 21 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Cold Food Box",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 21
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Cold_Food_Box"
+    },
+    {
+      "level": 22,
+      "raw": "Build Refrigerated Crusher . x1 Rewards: WorkerMaxNum: 22 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Refrigerated Crusher",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 22
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Refrigerated_Crusher"
+    },
+    {
+      "level": 23,
+      "raw": "Build Gigantic Furnace . x1 Build Advanced Sphere Assembly Line . x1 Rewards: WorkerMaxNum: 23 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Gigantic Furnace",
+          "qty": 1
+        },
+        {
+          "name": "Advanced Sphere Assembly Line",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 23
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Gigantic_Furnace"
+    },
+    {
+      "level": 24,
+      "raw": "Build Large-Scale Electric Egg Incubator . x1 Rewards: WorkerMaxNum: 24 MaxBase: 3",
+      "builds": [
+        {
+          "name": "Large-Scale Electric Egg Incubator",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 24
+        },
+        {
+          "key": "MaxBase",
+          "value": 3
+        }
+      ],
+      "linked_slug": "Large-Scale_Electric_Egg_Incubator"
+    },
+    {
+      "level": 25,
+      "raw": "Build Advanced Chest . x2 Rewards: WorkerMaxNum: 25 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Advanced Chest",
+          "qty": 2
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 25
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Advanced_Chest"
+    },
+    {
+      "level": 26,
+      "raw": "Build Advanced Medicine Workbench . x1 Rewards: WorkerMaxNum: 26 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Advanced Medicine Workbench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 26
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Advanced_Medicine_Workbench"
+    },
+    {
+      "level": 27,
+      "raw": "Build Advanced Workshop . x1 Rewards: WorkerMaxNum: 27 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Advanced Workshop",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 27
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Advanced_Workshop"
+    },
+    {
+      "level": 28,
+      "raw": "Build Advanced Weapon Assembly Line . x1 Rewards: WorkerMaxNum: 28 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Advanced Weapon Assembly Line",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 28
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Advanced_Weapon_Assembly_Line"
+    },
+    {
+      "level": 29,
+      "raw": "Build Ancient Furnace . x1 Rewards: WorkerMaxNum: 29 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Ancient Furnace",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 29
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Ancient_Furnace"
+    },
+    {
+      "level": 30,
+      "raw": "Build Ancient Workbench . x1 Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Ancient Workbench",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Ancient_Workbench"
+    },
+    {
+      "level": 31,
+      "raw": "Build Large Fishing Pond . x1 Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Large Fishing Pond",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Large_Fishing_Pond"
+    },
+    {
+      "level": 32,
+      "raw": "Build Ancient Kitchen . x1 Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Ancient Kitchen",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Ancient_Kitchen"
+    },
+    {
+      "level": 33,
+      "raw": "Build Skillfruit Orchard . x1 Build Ancient Power Generator . x1 Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Skillfruit Orchard",
+          "qty": 1
+        },
+        {
+          "name": "Ancient Power Generator",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Skillfruit_Orchard"
+    },
+    {
+      "level": 34,
+      "raw": "Build Ancient Material Synthesizer . x1 Build Ancient Farm . x1 Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [
+        {
+          "name": "Ancient Material Synthesizer",
+          "qty": 1
+        },
+        {
+          "name": "Ancient Farm",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": "Ancient_Material_Synthesizer"
+    },
+    {
+      "level": 35,
+      "raw": "Rewards: WorkerMaxNum: 30 MaxBase: 4",
+      "builds": [],
+      "rewards": [
+        {
+          "key": "WorkerMaxNum",
+          "value": 30
+        },
+        {
+          "key": "MaxBase",
+          "value": 4
+        }
+      ],
+      "linked_slug": null
+    }
+  ],
+  "related_links": [
+    {
+      "slug": "Game_Objective",
+      "name": "Game Objective"
+    },
+    {
+      "slug": "What_should_I_do_first_",
+      "name": "What should I do first?"
+    },
+    {
+      "slug": "Pals",
+      "name": "Pals"
+    },
+    {
+      "slug": "HUD",
+      "name": "HUD"
+    },
+    {
+      "slug": "Getting_Items",
+      "name": "Getting Items"
+    },
+    {
+      "slug": "Building",
+      "name": "Building"
+    },
+    {
+      "slug": "Crafting",
+      "name": "Crafting"
+    },
+    {
+      "slug": "Technology",
+      "name": "Technology"
+    },
+    {
+      "slug": "Ancient_Technology",
+      "name": "Ancient Technology"
+    },
+    {
+      "slug": "Level_Up",
+      "name": "Level Up"
+    },
+    {
+      "slug": "Player_Status_Enhancement",
+      "name": "Player Status Enhancement"
+    },
+    {
+      "slug": "Base",
+      "name": "Base"
+    },
+    {
+      "slug": "Palbox",
+      "name": "Palbox"
+    },
+    {
+      "slug": "Capturing_Pals",
+      "name": "Capturing Pals"
+    },
+    {
+      "slug": "Pals_in_Party",
+      "name": "Pals in Party"
+    },
+    {
+      "slug": "Hunger",
+      "name": "Hunger"
+    },
+    {
+      "slug": "Sanity",
+      "name": "Sanity"
+    },
+    {
+      "slug": "Partner_Skills",
+      "name": "Partner Skills"
+    },
+    {
+      "slug": "Palpedia",
+      "name": "Palpedia"
+    },
+    {
+      "slug": "Palpedia_Bonus",
+      "name": "Palpedia Bonus"
+    },
+    {
+      "slug": "Guild",
+      "name": "Guild"
+    },
+    {
+      "slug": "Map",
+      "name": "Map"
+    },
+    {
+      "slug": "Great_Eagle_Statue",
+      "name": "Great Eagle Statue"
+    },
+    {
+      "slug": "Radial_Menu",
+      "name": "Radial Menu"
+    },
+    {
+      "slug": "About_Nighttime",
+      "name": "About Nighttime"
+    },
+    {
+      "slug": "Tower_Bosses",
+      "name": "Tower Bosses"
+    },
+    {
+      "slug": "Crime",
+      "name": "Crime"
+    },
+    {
+      "slug": "Equipment_Durability",
+      "name": "Equipment Durability"
+    },
+    {
+      "slug": "Item_Rot",
+      "name": "Item Rot"
+    },
+    {
+      "slug": "Elements",
+      "name": "Elements"
+    },
+    {
+      "slug": "Status_Effects",
+      "name": "Status Effects"
+    },
+    {
+      "slug": "Pal_Eggs",
+      "name": "Pal Eggs"
+    },
+    {
+      "slug": "Pal_Breeding_Farm",
+      "name": "Pal Breeding Farm"
+    },
+    {
+      "slug": "Pal_Rank_&amp;_Essence_Condensers",
+      "name": "Pal Rank & Essence Condensers"
+    },
+    {
+      "slug": "Pal_Effigies",
+      "name": "Pal Effigies"
+    },
+    {
+      "slug": "Pal_Souls",
+      "name": "Pal Souls"
+    },
+    {
+      "slug": "Pal_Subspecies",
+      "name": "Pal Subspecies"
+    },
+    {
+      "slug": "Lucky_Pals",
+      "name": "Lucky Pals"
+    },
+    {
+      "slug": "Death",
+      "name": "Death"
+    },
+    {
+      "slug": "The_Arena",
+      "name": "The Arena"
+    },
+    {
+      "slug": "Global_Palbox",
+      "name": "Global Palbox"
+    },
+    {
+      "slug": "If_Stuck_in_Terrain",
+      "name": "If Stuck in Terrain"
+    }
+  ],
+  "paragraphs": []
+}
