@@ -73,7 +73,10 @@ function renderFooter(siteMeta, prefix) {
   const v = siteMeta || {};
   const version = v.data_version || "unknown";
   const validation = v.validation_status || "unknown";
-  const imported = v.imported_at ? String(v.imported_at).slice(0, 19).replace("T", " ") + "Z" : "—";
+  const imported = v.imported_at
+    ? String(v.imported_at).slice(0, 19).replace("T", " ") + "Z"
+    : "—";
+  const bundle = v.source_name || null;
   return (
     '<footer class="border-t border-pal-border mt-auto">' +
     '<div class="px-4 py-4 text-xs text-pal-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">' +
@@ -85,6 +88,11 @@ function renderFooter(siteMeta, prefix) {
     "Data <span class=\"text-pal-text\">" +
     escapeHtml(version) +
     "</span>" +
+    (bundle
+      ? ' · bundle <span class="text-pal-text">' +
+        escapeHtml(bundle) +
+        "</span>"
+      : "") +
     " · validate <span class=\"text-pal-text\">" +
     escapeHtml(validation) +
     "</span>" +

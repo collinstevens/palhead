@@ -4,26 +4,31 @@ Palworld multi-page static database & tools site. Phases 0–2 complete (foundat
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  
-**Game data source of truth:** [paldb.cc](https://paldb.cc)  
+**Game data source of truth:** [paldb.cc](https://paldb.cc) via `paldb-cc-exports`  
+**UX / style reference:** [wowhead.com](https://www.wowhead.com/) sample via `wowhead-com-exports`  
 **Plan:** `docs/SITE-REBUILD.md`
 
 ## Architecture
 
 Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-router app.** No framework bundler for the app UI — Node SSG generates HTML; small vanilla JS for interactivity only.
 
+**Goal:** Palworld database in a **Wowhead-class** presentation — dense nav, entity lists/details, tools — with **paldb facts** and **Wowhead sample IA/chrome** (never mix the two corpora).
+
 | Path | Role |
 |------|------|
-| `build.js` | SSG orchestrator → writes `dist/` (home, pals list, work tool, pal pages) |
-| `site/` | Shell, paths, pages (`home`, `pals-list`, `pal`), client filter JS |
-| `scripts/data-import.js` | Copy paldb publish bundle → `data/vendor/` |
-| `scripts/data-normalize.js` | Normalize vendor → `data/normalized/` |
+| `build.js` | SSG orchestrator → writes `dist/` |
+| `site/` | Shell, paths, pages, client filter JS |
+| `scripts/data-import.js` | Latest paldb publish → `data/vendor/` (game) |
+| `scripts/style-import.js` | Latest wowhead sample publish → `data/style-vendor/` (UX only) |
+| `scripts/data-normalize.js` | Normalize **game** vendor → `data/normalized/` |
 | `scripts/prepare-dist.js` | Ensure `dist/icons` after build |
-| `data/vendor/` | Pinned paldb publish snapshot (gitignored contents) |
+| `data/vendor/` | Pinned paldb game snapshot (gitignored contents) |
+| `data/style-vendor/` | Pinned wowhead style sample (gitignored contents) |
 | `data/normalized/` | pals, skills, items, relations, search-index, site-meta |
-| `data/README.md` | Pipeline notes |
+| `data/README.md` | Dual-import pipeline notes |
 | `docs/SITE-REBUILD.md` | Multi-phase rebuild plan |
 | `icons/` | Local pal icons (`.webp`) |
-| `reference/PROVENANCE.md` | paldb SoT policy |
+| `reference/PROVENANCE.md` | Game vs style corpus policy |
 | `reference/status-effects/` | Survival Guide captures (not shipped yet) |
 | `dist/` | Deploy artifact (gitignored) |
 | `wrangler.toml` | Cloudflare Pages (`pages_build_output_dir = "dist"`) |
@@ -31,7 +36,8 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 ### Locked decisions
 
 - **Routes:** nested static folders, e.g. `/pals/`, `/pal/anubis/`, `/tools/work-suitability/`
-- **Vendor data:** import-pin into `data/vendor/` (not committed; refresh via import)
+- **Game vendor:** latest paldb publish auto-import into `data/vendor/`
+- **Style vendor:** latest wowhead sample publish into `data/style-vendor/` (reference only; not normalize input)
 - **Default pal list filter:** dex only (`deck > 0`); toggle for all entities
 - **Stack:** multi-page SSG + vanilla JS forever — never React/Next/SPA
 
@@ -51,33 +57,41 @@ Static multi-page site. **No React, Next.js, Vue, SvelteKit, or SPA/client-route
 
 ```bash
 npm install
-npm run data:import      # pin paldb publish bundle into data/vendor/
-npm run data:normalize   # write data/normalized/
-npm run build            # normalize + SSG + dist/
-npm run build:html       # SSG only (requires normalized data)
+npm run data:import      # latest paldb publish → data/vendor/ (game)
+npm run style:import     # latest wowhead sample → data/style-vendor/ (UX)
+npm run data:normalize   # write data/normalized/ from game vendor only
+npm run build            # both imports + normalize + SSG + dist/
+npm run build:html       # normalize + SSG (reuse current vendors)
+npm run build:static     # SSG only (reuse normalized)
 npm run login
 npm run whoami
-npm run deploy           # build + wrangler pages deploy dist --project-name palhead --branch master
+npm run deploy           # full build + pages deploy
 npm run preview          # local static server on dist/
 ```
 
-Import source defaults to  
-`C:\projects\collinstevens\paldb-cc-exports\data\publish\paldb-data-demo`  
-Override: `PALDB_PUBLISH_DIR=...` or `npm run data:import -- <path>`.
+### Game import resolution (`data:import`)
 
-Full refresh chain:
+1. `PALDB_PUBLISH_DIR`  
+2. `npm run data:import -- <path>`  
+3. Newest under `C:\projects\collinstevens\paldb-cc-exports\data\publish`
 
-```bash
-npm run data:import && npm run build
-```
+### Style import resolution (`style:import`)
+
+1. `WOWHEAD_STYLE_DIR`  
+2. `npm run style:import -- <path>`  
+3. Newest under `C:\projects\collinstevens\wowhead-com-exports\data\publish`  
+4. Else `wowhead-com-exports/data/distilled`
+
+`npm run build` re-imports **both** latest corpora before normalize/SSG.
 
 ## Data
 
-- **Source of truth for game data is [paldb.cc](https://paldb.cc)** via `paldb-cc-exports` publish bundles.
-- No multi-site verification, Palpedia checklists, or correction overlays.
-- External pipeline repo: `C:\projects\collinstevens\paldb-cc-exports`
-- Footer shows data version, validation status, and import time from `site-meta.json`.
-- Client search index published at `dist/data/search-index.json` (UI in a later phase).
+- **Game SoT:** [paldb.cc](https://paldb.cc) / `C:\projects\collinstevens\paldb-cc-exports` → `data/vendor/`
+- **Style reference:** [wowhead.com](https://www.wowhead.com/) sample / `C:\projects\collinstevens\wowhead-com-exports` → `data/style-vendor/`
+- Do not use style-vendor for Palworld mechanics; do not use game vendor as a layout dump of Wowhead
+- No multi-site game verification or correction overlays over paldb
+- Footer shows game data version, bundle name, validation, import time
+- See `reference/PROVENANCE.md` and `data/README.md`
 
 ## Hosting
 
@@ -87,10 +101,12 @@ npm run data:import && npm run build
 
 ## UI conventions
 
+- Aim for Wowhead-class density: sticky chrome, filter bars, entity tables, deep links — informed by `data/style-vendor/` and `wowhead-com-exports` docs
 - Tailwind via CDN (for now)
 - Dark theme `pal.*` colors
 - Nested static routes for entities
 - Element pills share solid fill styles
+- Do **not** copy Wowhead branding/trademarks
 
 ## Git Guidelines
 

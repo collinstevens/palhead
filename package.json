@@ -5,9 +5,11 @@
   "description": "Palworld database & tools — static multi-page site (paldb.cc data)",
   "scripts": {
     "data:import": "node scripts/data-import.js",
+    "style:import": "node scripts/style-import.js",
     "data:normalize": "node scripts/data-normalize.js",
-    "build": "node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
-    "build:html": "node build.js && node scripts/prepare-dist.js",
+    "build": "node scripts/data-import.js && node scripts/style-import.js && node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
+    "build:html": "node scripts/data-normalize.js && node build.js && node scripts/prepare-dist.js",
+    "build:static": "node build.js && node scripts/prepare-dist.js",
     "login": "wrangler login",
     "whoami": "wrangler whoami",
     "deploy": "npm run build && wrangler pages deploy dist --project-name palhead --branch master",

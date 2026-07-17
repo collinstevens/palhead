@@ -3,9 +3,10 @@
 **Status:** draft for review  
 **Date:** 2026-07-16  
 **Live site:** https://palhead.pages.dev  
-**Primary data source:** `C:\projects\collinstevens\paldb-cc-exports` (distilled / publish bundle)
+**Game data source:** `C:\projects\collinstevens\paldb-cc-exports` (distilled / publish bundle)  
+**Style / UX sample:** `C:\projects\collinstevens\wowhead-com-exports` (sample homepage + section links)
 
-This document is the product and engineering plan to recreate Palhead as a full **entity database + tools** site (Wowhead-shaped for Palworld), using the offline paldb.cc extract pipeline as the structured data backbone.
+This document is the product and engineering plan to recreate Palhead as a full **entity database + tools** site (Wowhead-shaped for Palworld): **paldb** for structured Palworld facts, **wowhead-com-exports** for layout density, IA, and writing-style patterns (not WoW game data).
 
 No implementation is implied by this file alone. Phases are ordered so each leaves a usable site.
 
@@ -256,7 +257,7 @@ Make the site capable of growing to thousands of pages without a second rewrite.
 ### Decisions to lock in Phase 0
 
 - [x] Nested routes (`/pal/anubis/`) — not flat HTML
-- [x] Vendor via `npm run data:import` pin into `data/vendor/` (gitignored contents; sibling path is the default import source only)
+- [x] Vendor via `npm run data:import` — auto-picks **latest** bundle under `paldb-cc-exports/data/publish` by `catalog.generated_at` (`npm run build` re-imports every time)
 - [x] Default pal list filter: **dex** (`deck > 0`); all entities still normalized and get pages
 - [x] Stack locked: multi-page SSG + vanilla JS — **never** React/Next/SPA
 
@@ -621,14 +622,17 @@ Use this as a tracking board once execution starts. Do not start until open ques
 
 | Path | Role |
 |------|------|
-| `C:\projects\collinstevens\palhead` | Site + tools + corrections + deploy |
-| `C:\projects\collinstevens\paldb-cc-exports` | Crawl/export/extract/validate/publish pipeline |
-| `paldb-cc-exports/data/distilled/` | Domain JSON product (~70 tables) |
-| `paldb-cc-exports/data/publish/` | Versioned bundles + `catalog.json` |
-| `paldb-cc-exports/docs/DATA-REFERENCES.md` | Field intent + extract checklist |
-| `paldb-cc-exports/docs/PIPELINE.md` | Stage contracts |
-| `palhead/reference/PROVENANCE.md` | Scrape vs correction rules |
-| `palhead/data/` | Vendor import + normalized pipeline (Phase 0+) |
+| `C:\projects\collinstevens\palhead` | Site + tools + deploy |
+| `C:\projects\collinstevens\paldb-cc-exports` | **Game data** crawl/export/extract/validate/publish |
+| `paldb-cc-exports/data/distilled/` | Palworld domain JSON (~70 tables) |
+| `paldb-cc-exports/data/publish/` | Versioned game bundles + `catalog.json` → `data/vendor/` |
+| `C:\projects\collinstevens\wowhead-com-exports` | **Style/UX sample** pipeline (sample-first; not full mirror) |
+| `wowhead-com-exports/data/distilled/` | homepage, news, guides, database_hub, … |
+| `wowhead-com-exports/data/publish/` | Versioned style bundles → `data/style-vendor/` |
+| `wowhead-com-exports/docs/DATA-REFERENCES.md` | Style sample targets |
+| `wowhead-com-exports/docs/PIPELINE.md` | Wowhead pipeline stages |
+| `palhead/reference/PROVENANCE.md` | Game vs style corpus policy |
+| `palhead/data/` | vendor (game) + style-vendor (UX) + normalized (game) |
 | `palhead/reference/status-effects/` | Survival Guide captures (guides phase) |
 
 ---
@@ -644,5 +648,6 @@ Use this as a tracking board once execution starts. Do not start until open ques
 | 2026-07-16 | Phase 0 implemented: normalize, nested SSG shell, all pal pages, search-index |
 | 2026-07-16 | Phase 1: pals list + work suitability tool + detail polish |
 | 2026-07-16 | Phase 2: partner/passive/active skill lists + detail pages |
+| 2026-07-16 | Document + import wowhead-com-exports as UX/style reference (separate from paldb game data) |
 
 When decisions land on open questions, record them here and tick Phase 0 decision boxes so implementers do not re-litigate architecture mid-flight.

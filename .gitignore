@@ -10,5 +10,7 @@ Thumbs.db
 
 data/vendor/*
 !data/vendor/.gitkeep
+data/style-vendor/*
+!data/style-vendor/.gitkeep
 data/normalized/*
 !data/normalized/.gitkeep

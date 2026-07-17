@@ -532,6 +532,9 @@ const siteMeta = {
     "unknown",
   generated_at: catalog.generated_at || importMeta?.generated_at || null,
   imported_at: importMeta?.imported_at || null,
+  source_path: importMeta?.source_path || null,
+  source_name: importMeta?.source_name || null,
+  source_resolution: importMeta?.source_resolution || null,
   tool_version: catalog.tool_version || importMeta?.tool_version || null,
   table_count: catalog.table_count ?? tables.length,
   validation_status: validation?.status || "unknown",
@@ -540,7 +543,7 @@ const siteMeta = {
   sample_pal_path: palsBySlug.anubis ? palHref("Anubis") : palsOut[0]?.path || null,
   routing: "nested",
   default_pal_list_filter: "dex",
-  vendor_policy: "import-pin",
+  vendor_policy: "import-latest-publish",
 };
 
 const manifest = {
