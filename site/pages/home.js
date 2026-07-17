@@ -48,17 +48,20 @@ function homePage({ siteMeta, pals }) {
     .join("");
 
   const soonLinks = [
-    "Breeding calculator",
-    "Team builder",
-    "Drop finder",
-    "Structures",
-    "World / drops",
+    ["tools/breeding/", "Breeding calculator"],
+    ["tools/team-builder/", "Team builder"],
+    ["tools/drop-finder/", "Drop finder"],
+    ["structures/", "Structures"],
+    ["world/", "World"],
+    ["news/", "News / patch notes"],
   ]
     .map(
-      (label) =>
-        '<span style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:#666">' +
+      ([h, label]) =>
+        '<a href="' +
+        escapeHtml(prefix + h) +
+        '" style="display:block;padding:4px 0;font-size:12px;font-weight:600;color:var(--wh-link);text-decoration:none">' +
         escapeHtml(label) +
-        " · soon</span>"
+        "</a>"
     )
     .join("");
 
@@ -109,7 +112,7 @@ function homePage({ siteMeta, pals }) {
           liveLinks +
           "</div>" +
           '<div class="wh-split" style="padding:8px 10px 10px">' +
-          '<div style="font-size:11px;font-weight:700;color:var(--wh-muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">Coming soon</div>' +
+          '<div style="font-size:11px;font-weight:700;color:var(--wh-muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">More tools & world</div>' +
           soonLinks +
           "</div></div>",
       })}
@@ -140,8 +143,8 @@ function homePage({ siteMeta, pals }) {
           linkCell(prefix, "recipes/", "Recipes") +
           linkCell(prefix, "items/", formatCount(c.items) + " items") +
           linkCell(prefix, "recipes/", formatCount(c.recipes) + " recipes") +
-          '<span class="soon-line">Structures · soon</span>' +
-          '<span class="soon-line">World & drops · soon</span>' +
+          linkCell(prefix, "structures/", "Structures") +
+          linkCell(prefix, "world/", "World") +
           "</div></div>",
       })}
 
@@ -186,6 +189,8 @@ function homePage({ siteMeta, pals }) {
             ["Active skills", formatCount(c.skill_active)],
             ["Items", formatCount(c.items)],
             ["Recipes", formatCount(c.recipes)],
+            ["Structures", formatCount(c.structure)],
+            ["Technologies", formatCount(c.tech)],
           ]
             .map(
               ([label, val]) =>

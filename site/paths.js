@@ -40,6 +40,18 @@ function structureHref(slug) {
   return "/structure/" + pathSegment(slug) + "/";
 }
 
+function techHref(slug) {
+  return "/tech/" + pathSegment(slug) + "/";
+}
+
+function worldHref(kind, slug) {
+  return "/world/" + pathSegment(kind) + "/" + pathSegment(slug) + "/";
+}
+
+function worldListHref(kind) {
+  return "/world/" + pathSegment(kind) + "/";
+}
+
 function hrefToFs(href, distRoot) {
   const clean = href.replace(/^\//, "").replace(/\/$/, "");
   if (!clean) return require("path").join(distRoot, "index.html");
@@ -63,6 +75,9 @@ module.exports = {
   itemsCategoryHref,
   recipesHref,
   structureHref,
+  techHref,
+  worldHref,
+  worldListHref,
   hrefToFs,
   depthPrefix,
 };

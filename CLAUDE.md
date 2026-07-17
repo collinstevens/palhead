@@ -1,6 +1,6 @@
 # Palhead
 
-Palworld multi-page static database & tools site. Phases 0–4 complete (foundations, pals, skills, Wowhead chrome, items & recipes). **Next: Phase 5 — base & technology.**
+Palworld multi-page static database & tools site. Phases 0–8 complete (encyclopedia, tools, search, news, sitemap).
 
 **Live:** https://palhead.pages.dev  
 **Pages project:** `palhead`  

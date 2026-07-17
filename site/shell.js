@@ -249,6 +249,38 @@ const SHARED_STYLES = `
     border-color: rgba(0,112,221,0.55); color: #71d5ff;
     background: rgba(0,112,221,0.12);
   }
+  .wh-search {
+    position: relative; min-width: 200px; max-width: 280px; flex: 1;
+  }
+  .wh-search-input {
+    width: 100%; background: var(--wh-input); border: 1px solid var(--wh-border);
+    color: var(--wh-text); border-radius: 2px; padding: 6px 10px 6px 28px;
+    font-size: 12px; font-family: inherit;
+  }
+  .wh-search-input:focus { outline: 1px solid var(--wh-link); border-color: var(--wh-link); }
+  .wh-search-ico {
+    position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
+    color: var(--wh-muted); font-size: 12px; pointer-events: none;
+  }
+  .wh-search-kbd {
+    position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+    font-size: 10px; color: #666; border: 1px solid #444; border-radius: 2px;
+    padding: 0 4px; pointer-events: none;
+  }
+  .wh-search-results {
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 80;
+    background: var(--wh-panel-2); border: 1px solid var(--wh-border-hi);
+    max-height: 320px; overflow: auto; box-shadow: 0 8px 24px rgba(0,0,0,.45);
+  }
+  .wh-search-hit {
+    display: flex; justify-content: space-between; gap: 8px; padding: 8px 10px;
+    color: var(--wh-text) !important; text-decoration: none !important; font-size: 12px;
+    border-bottom: 1px solid var(--wh-border);
+  }
+  .wh-search-hit:hover { background: rgba(167,26,25,.25); }
+  .wh-search-hit-name { font-weight: 600; }
+  .wh-search-hit-type { color: var(--wh-muted); font-size: 10px; text-transform: uppercase; }
+  .wh-search-empty { padding: 12px; color: var(--wh-muted); font-size: 12px; }
   .wh-chip-soon {
     border-color: var(--wh-border); color: #666;
   }
@@ -530,8 +562,7 @@ function renderNav(prefix, active) {
       href: "news/",
       items: [
         { href: "news/", label: "All News" },
-        { href: "news/", label: "Patch Notes", soon: true },
-        { href: "news/", label: "Community", soon: true },
+        { href: "news/", label: "Patch Notes" },
       ],
     },
     {
@@ -540,11 +571,10 @@ function renderNav(prefix, active) {
       href: "guides/",
       items: [
         { href: "guides/", label: "All Guides" },
-        { href: "guides/status-effects/", label: "Status Effects", soon: true },
-        { href: "guides/base-tips/", label: "Base Tips", soon: true },
-        { href: "guides/", label: "Breeding", soon: true },
-        { href: "guides/", label: "Combat", soon: true },
-        { href: "guides/", label: "Bosses", soon: true },
+        { href: "guides/status-effects/", label: "Status Effects" },
+        { href: "guides/base-tips/", label: "Base Tips" },
+        { href: "guides/san/", label: "SAN" },
+        { href: "guides/work-power/", label: "Work Power" },
       ],
     },
     {
@@ -613,9 +643,10 @@ function renderSubnav(prefix, active) {
     { href: "tools/work-suitability/", label: "Work suitability", id: "work" },
     { href: "items/", label: "Items", id: "items" },
     { href: "recipes/", label: "Recipes", id: "items" },
-    { href: "structures/", label: "Structures", soon: true },
-    { href: "world/", label: "World", soon: true },
-    { href: "tools/breeding/", label: "Breeding", soon: true },
+    { href: "structures/", label: "Structures", id: "structures" },
+    { href: "tech/", label: "Tech", id: "database" },
+    { href: "world/", label: "World", id: "world" },
+    { href: "tools/breeding/", label: "Breeding", id: "tools" },
   ];
   return (
     '<div class="wh-subnav-wrap"><div class="wh-shell wh-subnav" aria-label="Quick database">' +
@@ -651,9 +682,9 @@ function renderIconRail(prefix) {
     { href: "skills/active/", label: "Actives", ico: "AS" },
     { href: "items/", label: "Items", ico: "IT" },
     { href: "recipes/", label: "Recipes", ico: "RC" },
-    { href: "structures/", label: "Structures", ico: "ST", soon: true },
-    { href: "world/", label: "World", ico: "WD", soon: true },
-    { href: "tools/breeding/", label: "Breeding", ico: "BR", soon: true },
+    { href: "structures/", label: "Structures", ico: "ST" },
+    { href: "world/", label: "World", ico: "WD" },
+    { href: "tools/breeding/", label: "Breeding", ico: "BR" },
   ];
   return (
     '<div class="wh-iconrail-wrap"><div class="wh-shell wh-iconrail" aria-label="Feature shortcuts">' +
@@ -723,20 +754,18 @@ function renderFooter(prefix) {
         { href: "skills/active/", label: "Active Skills" },
         { href: "items/", label: "Items" },
         { href: "recipes/", label: "Recipes" },
-        { href: "structures/", label: "Structures", soon: true },
-        { href: "world/", label: "World", soon: true },
+        { href: "structures/", label: "Structures" },
+        { href: "world/", label: "World" },
       ],
     },
     {
       title: "Guides",
       links: [
         { href: "guides/", label: "All Guides" },
-        { href: "guides/base-tips/", label: "Base Tips", soon: true },
-        { href: "guides/status-effects/", label: "Status Effects", soon: true },
-        { href: "guides/", label: "Breeding", soon: true },
-        { href: "guides/", label: "Combat", soon: true },
-        { href: "guides/", label: "Bosses", soon: true },
-        { href: "guides/", label: "Exploration", soon: true },
+        { href: "guides/base-tips/", label: "Base Tips" },
+        { href: "guides/status-effects/", label: "Status Effects" },
+        { href: "guides/san/", label: "SAN" },
+        { href: "guides/work-power/", label: "Work Power" },
       ],
     },
     {
@@ -744,18 +773,18 @@ function renderFooter(prefix) {
       links: [
         { href: "tools/", label: "Tools Hub" },
         { href: "tools/work-suitability/", label: "Work Suitability" },
-        { href: "tools/breeding/", label: "Breeding Calculator", soon: true },
-        { href: "tools/team-builder/", label: "Team Builder", soon: true },
-        { href: "tools/drop-finder/", label: "Drop Finder", soon: true },
+        { href: "tools/breeding/", label: "Breeding Calculator" },
+        { href: "tools/team-builder/", label: "Team Builder" },
+        { href: "tools/drop-finder/", label: "Drop Finder" },
       ],
     },
     {
       title: "News & more",
       links: [
         { href: "news/", label: "All News" },
-        { href: "news/", label: "Patch Notes", soon: true },
+        { href: "news/", label: "Patch Notes" },
         { href: "database/", label: "Database Hub" },
-        { href: "tech/", label: "Technology", soon: true },
+        { href: "tech/", label: "Technology" },
         { href: "index.html", label: "Home" },
       ],
     },
@@ -794,7 +823,7 @@ function renderFooter(prefix) {
     footerNavItem(prefix, "tools/work-suitability/", "Work") +
     footerNavItem(prefix, "skills/", "Skills") +
     footerNavItem(prefix, "items/", "Items") +
-    footerNavItem(prefix, "world/", "World", true) +
+    footerNavItem(prefix, "world/", "World") +
     "</div></div>" +
     '<div class="wh-footer-cols">' +
     colHtml +
@@ -825,9 +854,20 @@ function shell({
   showSubnav = true,
   showIconRail = true,
 }) {
+  const { globalSearchScript } = require("./client/global-search");
   const desc = description
     ? '<meta name="description" content="' + escapeHtml(description) + '" />'
     : "";
+  const og =
+    '<meta property="og:title" content="' +
+    escapeHtml(title) +
+    '" />' +
+    (description
+      ? '<meta property="og:description" content="' +
+        escapeHtml(description) +
+        '" />'
+      : "") +
+    '<meta property="og:type" content="website" />';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -835,6 +875,7 @@ function shell({
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${escapeHtml(title)}</title>
   ${desc}
+  ${og}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
@@ -852,9 +893,11 @@ function shell({
       </a>
       ${renderNav(prefix, activeNav)}
       <div class="wh-top-right">
-        <div class="wh-search-stub" title="Global search — Phase 8">
-          <span>⌕</span><span>Search guides, news, database…</span>
-          <span class="wh-chip wh-chip-soon">soon</span>
+        <div class="wh-search" id="globalSearch">
+          <span class="wh-search-ico" aria-hidden="true">⌕</span>
+          <input id="globalSearchInput" class="wh-search-input" type="search" placeholder="Search database…" autocomplete="off" />
+          <span class="wh-search-kbd">⌘K</span>
+          <div id="globalSearchResults" class="wh-search-results" hidden></div>
         </div>
       </div>
     </div>
@@ -863,6 +906,7 @@ function shell({
   ${showIconRail ? renderIconRail(prefix) : ""}
   ${body}
   ${renderFooter(prefix)}
+  <script>${globalSearchScript(prefix)}</script>
   ${bodyScripts}
 </body>
 </html>

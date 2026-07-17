@@ -12,7 +12,7 @@ const {
   recipesListPage,
 } = require("./site/pages/items-list");
 const { itemDetailPage } = require("./site/pages/item-detail");
-const { stubPage } = require("./site/pages/stub");
+const { buildRest } = require("./scripts/build-rest");
 
 const root = __dirname;
 const normalizedDir = path.join(root, "data", "normalized");
@@ -226,124 +226,13 @@ for (const item of Object.values(itemsBySlug)) {
   itemPages += 1;
 }
 
-const stubs = [
-  {
-    path: "/news/",
-    heading: "News",
-    activeNav: "news",
-    feed: true,
-    related: [
-      { href: "pals/", label: "Pals database", tag: "live" },
-      { href: "skills/", label: "Skills", tag: "live" },
-      { href: "items/", label: "Items", tag: "live" },
-    ],
-  },
-  {
-    path: "/guides/",
-    heading: "Guides",
-    activeNav: "guides",
-    related: [
-      { href: "guides/base-tips/", label: "Base tips", soon: true },
-      { href: "guides/status-effects/", label: "Status effects", soon: true },
-      { href: "tools/work-suitability/", label: "Work suitability", tag: "live" },
-    ],
-  },
-  {
-    path: "/guides/base-tips/",
-    heading: "Base Tips",
-    activeNav: "guides",
-    crumbs: [{ href: "guides/", label: "Guides" }, { label: "Base Tips" }],
-  },
-  {
-    path: "/guides/status-effects/",
-    heading: "Status Effects",
-    activeNav: "guides",
-    crumbs: [{ href: "guides/", label: "Guides" }, { label: "Status Effects" }],
-  },
-  {
-    path: "/database/",
-    heading: "Database",
-    activeNav: "database",
-    related: [
-      { href: "pals/", label: "Pals", tag: "live" },
-      { href: "skills/", label: "Skills", tag: "live" },
-      { href: "items/", label: "Items", tag: "live" },
-      { href: "recipes/", label: "Recipes", tag: "live" },
-      { href: "structures/", label: "Structures", soon: true },
-      { href: "tech/", label: "Technology", soon: true },
-      { href: "world/", label: "World", soon: true },
-    ],
-  },
-  {
-    path: "/structures/",
-    heading: "Structures",
-    activeNav: "structures",
-    crumbs: [{ href: "database/", label: "Database" }, { label: "Structures" }],
-  },
-  {
-    path: "/tech/",
-    heading: "Technology",
-    activeNav: "database",
-    crumbs: [{ href: "database/", label: "Database" }, { label: "Technology" }],
-  },
-  {
-    path: "/world/",
-    heading: "World",
-    activeNav: "world",
-    crumbs: [{ href: "database/", label: "Database" }, { label: "World" }],
-    related: [
-      { href: "pals/", label: "Pals", tag: "live" },
-      { href: "items/", label: "Items", tag: "live" },
-    ],
-  },
-  {
-    path: "/tools/",
-    heading: "Tools",
-    activeNav: "tools",
-    related: [
-      { href: "tools/work-suitability/", label: "Work suitability", tag: "live" },
-      { href: "tools/breeding/", label: "Breeding calculator", soon: true },
-      { href: "tools/team-builder/", label: "Team builder", soon: true },
-      { href: "tools/drop-finder/", label: "Drop finder", soon: true },
-    ],
-  },
-  {
-    path: "/tools/breeding/",
-    heading: "Breeding Calculator",
-    activeNav: "tools",
-    crumbs: [{ href: "tools/", label: "Tools" }, { label: "Breeding" }],
-  },
-  {
-    path: "/tools/team-builder/",
-    heading: "Team Builder",
-    activeNav: "tools",
-    crumbs: [{ href: "tools/", label: "Tools" }, { label: "Team Builder" }],
-  },
-  {
-    path: "/tools/drop-finder/",
-    heading: "Drop Finder",
-    activeNav: "tools",
-    crumbs: [{ href: "tools/", label: "Tools" }, { label: "Drop Finder" }],
-  },
-];
-
-let stubPages = 0;
-for (const s of stubs) {
-  writeFile(
-    hrefToFs(s.path, distDir),
-    stubPage({
-      title: s.heading + " — coming soon",
-      heading: s.heading,
-      path: s.path,
-      activeNav: s.activeNav,
-      siteMeta,
-      crumbs: s.crumbs || [{ label: s.heading }],
-      feed: !!s.feed,
-      related: s.related || [],
-    })
-  );
-  stubPages += 1;
-}
+const restPages = buildRest({
+  root,
+  distDir,
+  normalizedDir,
+  siteMeta,
+  palsList,
+});
 
 let palPages = 0;
 for (const [seg, pal] of Object.entries(palsBySlug)) {
@@ -403,11 +292,13 @@ for (const name of [
   "skills-active.json",
   "items.json",
   "recipes.json",
+  "drops-browser.json",
+  "breeding.json",
 ]) {
-  fs.copyFileSync(
-    path.join(normalizedDir, name),
-    path.join(dataOut, name)
-  );
+  const src = path.join(normalizedDir, name);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, path.join(dataOut, name));
+  }
 }
 
 writeFile(
@@ -428,8 +319,8 @@ console.log(
   itemPages,
   "item lists:",
   itemListPages,
-  "stub hubs:",
-  stubPages
+  "rest pages:",
+  restPages
 );
 console.log(
   "data:",
@@ -439,5 +330,9 @@ console.log(
   "items:",
   siteMeta.counts?.items,
   "recipes:",
-  siteMeta.counts?.recipes
+  siteMeta.counts?.recipes,
+  "structures:",
+  siteMeta.counts?.structure,
+  "phase:",
+  siteMeta.phase
 );

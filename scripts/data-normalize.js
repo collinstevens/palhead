@@ -10,6 +10,9 @@ const {
   itemsCategoryHref,
   recipesHref,
   structureHref,
+  techHref,
+  worldHref,
+  worldListHref,
 } = require("../site/paths");
 const { normalizeElements } = require("../site/elements");
 
@@ -882,230 +885,49 @@ for (const skill of activeSkills) {
   }
 }
 
-const structures = [];
-for (const raw of structuresDoc?.structures || []) {
-  const slug = raw.slug || raw.id || raw.name;
-  if (!slug) continue;
-  const pathSeg = pathSegment(slug);
-  const href = structureHref(slug);
-  const name = humanizeName(raw.name || slug);
-  structures.push({
-    id: raw.id || slug,
-    slug: pathSeg,
-    path: href,
-    name,
-    category: raw.category || null,
-    description: raw.description || null,
-  });
-  searchEntries.push({
-    name,
-    type: "structure",
-    slug: pathSeg,
-    path: href,
-    elements: null,
-    icon: null,
-    rank: null,
-  });
-}
-
-const technologies = [];
-for (const raw of technologiesDoc?.technologies || technologiesDoc?.items || []) {
-  const name = raw.name || raw.id || raw.technology;
-  if (!name) continue;
-  const pathSeg = pathSegment(name);
-  technologies.push({
-    id: raw.id || name,
-    slug: pathSeg,
-    name: humanizeName(name),
-    level: raw.level ?? raw.player_level ?? null,
-    points: raw.points ?? null,
-    category: raw.category || null,
-  });
-  searchEntries.push({
-    name: humanizeName(name),
-    type: "tech",
-    slug: pathSeg,
-    path: "/tech/",
-    elements: null,
-    icon: null,
-    rank: raw.level ?? raw.player_level ?? null,
-  });
-}
-
-searchEntries.sort((a, b) => a.name.localeCompare(b.name));
-
-const tables = (catalog.tables || []).map((t) => ({
-  file: t.file,
-  count: t.count,
-  bytes: t.bytes,
-}));
-
-const itemCategoryCounts = {};
-for (const cat of ITEM_CATEGORIES) {
-  itemCategoryCounts[cat.key] = itemsByCategory[cat.key].length;
-}
-
-const counts = {
-  pals: palsOut.length,
-  pals_dex: palsOut.filter((p) => p.is_dex).length,
-  skill_partner: partnerSkills.length,
-  skill_passive: passiveSkills.length,
-  skill_active: activeSkills.length,
-  items: itemsOut.length,
-  recipes: recipesOut.length,
-  item_categories: itemCategoryCounts,
-  structure: structures.length,
-  tech: technologies.length,
-  search_entries: searchEntries.length,
-};
-
-for (const cat of ITEM_CATEGORIES) {
-  counts[cat.type] = itemsByCategory[cat.key].length;
-}
-
-const siteMeta = {
-  built_at: builtAt,
-  data_version:
-    (catalog.generated_at || importMeta?.generated_at || "").slice(0, 10) ||
-    "unknown",
-  generated_at: catalog.generated_at || importMeta?.generated_at || null,
-  imported_at: importMeta?.imported_at || null,
-  source_path: importMeta?.source_path || null,
-  source_name: importMeta?.source_name || null,
-  source_resolution: importMeta?.source_resolution || null,
-  tool_version: catalog.tool_version || importMeta?.tool_version || null,
-  table_count: catalog.table_count ?? tables.length,
-  validation_status: validation?.status || "unknown",
-  validation_summary: validation?.summary || null,
-  counts,
-  item_categories: ITEM_CATEGORIES.map((c) => ({
-    key: c.key,
-    label: c.label,
-    blurb: c.blurb,
-    type: c.type,
-    path: itemsCategoryHref(c.key),
-    count: itemsByCategory[c.key].length,
-  })),
-  sample_pal_path: palsBySlug.anubis ? palHref("Anubis") : palsOut[0]?.path || null,
-  routing: "nested",
-  default_pal_list_filter: "dex",
-  vendor_policy: "import-latest-publish",
-};
-
-const manifest = {
-  built_at: builtAt,
-  phase: 4,
-  source: {
-    generated_at: catalog.generated_at || importMeta?.generated_at || null,
-    tool_version: catalog.tool_version || importMeta?.tool_version || null,
-    table_count: catalog.table_count ?? tables.length,
-    import_meta: importMeta,
-    validation_status: validation?.status || null,
-  },
-  tables,
-  counts,
-  outputs: [
-    "manifest.json",
-    "site-meta.json",
-    "search-index.json",
-    "relations.json",
-    "pals.json",
-    "pals-by-slug.json",
-    "skills-partner.json",
-    "skills-partner-by-slug.json",
-    "skills-passive.json",
-    "skills-passive-by-slug.json",
-    "skills-active.json",
-    "skills-active-by-slug.json",
-    "items.json",
-    "items-by-slug.json",
-    "items-categories.json",
-    "recipes.json",
-    "structures.json",
-    "technologies.json",
-  ],
-};
-
-writeJson(path.join(outDir, "manifest.json"), manifest);
-writeJson(path.join(outDir, "site-meta.json"), siteMeta);
-writeJson(path.join(outDir, "search-index.json"), {
-  built_at: builtAt,
-  schema: {
-    fields: ["name", "type", "slug", "path", "elements", "icon", "rank"],
-  },
-  count: searchEntries.length,
-  entries: searchEntries,
+require("./normalize-late")({
+  fs,
+  path,
+  root,
+  outDir,
+  builtAt,
+  catalog,
+  importMeta,
+  validation,
+  structuresDoc,
+  technologiesDoc,
+  loadVendor,
+  writeJson,
+  pathSegment,
+  structureHref,
+  techHref,
+  worldHref,
+  worldListHref,
+  palHref,
+  itemHref,
+  itemsCategoryHref,
+  recipesHref,
+  humanizeName,
+  isJunkSlug,
+  parseMaterials,
+  parseWorkstations,
+  normalizeElements,
+  resolveItemSlug,
+  itemsBySlug,
+  itemsOut,
+  itemsByCategory,
+  ITEM_CATEGORIES,
+  recipesOut,
+  dropsDoc,
+  partnerSkills,
+  passiveSkills,
+  activeSkills,
+  palsOut,
+  palsBySlug,
+  palPathSet,
+  partnerBySlug,
+  passiveBySlug,
+  activeBySlug,
+  searchEntries,
+  relations,
 });
-writeJson(path.join(outDir, "relations.json"), relations);
-writeJson(path.join(outDir, "pals.json"), {
-  built_at: builtAt,
-  count: palsOut.length,
-  dex_count: counts.pals_dex,
-  default_filter: "dex",
-  pals: palsOut,
-});
-writeJson(path.join(outDir, "pals-by-slug.json"), palsBySlug);
-writeJson(path.join(outDir, "skills-partner.json"), {
-  count: partnerSkills.length,
-  skills: partnerSkills,
-});
-writeJson(path.join(outDir, "skills-partner-by-slug.json"), partnerBySlug);
-writeJson(path.join(outDir, "skills-passive.json"), {
-  count: passiveSkills.length,
-  skills: passiveSkills,
-});
-writeJson(path.join(outDir, "skills-passive-by-slug.json"), passiveBySlug);
-writeJson(path.join(outDir, "skills-active.json"), {
-  count: activeSkills.length,
-  skills: activeSkills,
-});
-writeJson(path.join(outDir, "skills-active-by-slug.json"), activeBySlug);
-writeJson(path.join(outDir, "items.json"), {
-  built_at: builtAt,
-  count: itemsOut.length,
-  items: itemsOut,
-});
-writeJson(path.join(outDir, "items-by-slug.json"), itemsBySlug);
-writeJson(path.join(outDir, "items-categories.json"), {
-  categories: ITEM_CATEGORIES.map((c) => ({
-    key: c.key,
-    label: c.label,
-    blurb: c.blurb,
-    type: c.type,
-    path: itemsCategoryHref(c.key),
-    count: itemsByCategory[c.key].length,
-    items: itemsByCategory[c.key],
-  })),
-});
-for (const cat of ITEM_CATEGORIES) {
-  writeJson(path.join(outDir, "items-" + cat.key + ".json"), {
-    category: cat.key,
-    label: cat.label,
-    blurb: cat.blurb,
-    count: itemsByCategory[cat.key].length,
-    items: itemsByCategory[cat.key],
-  });
-}
-writeJson(path.join(outDir, "recipes.json"), {
-  built_at: builtAt,
-  count: recipesOut.length,
-  path: recipesHref(),
-  recipes: recipesOut,
-});
-writeJson(path.join(outDir, "structures.json"), {
-  count: structures.length,
-  structures,
-});
-writeJson(path.join(outDir, "technologies.json"), {
-  count: technologies.length,
-  technologies,
-});
-
-console.log("Normalized →", outDir);
-console.log("counts:", JSON.stringify(counts));
-console.log(
-  "site-meta:",
-  siteMeta.data_version,
-  "validate:",
-  siteMeta.validation_status
-);
